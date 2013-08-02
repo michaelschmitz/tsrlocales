@@ -1,38 +1,38 @@
 it:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Full-time position'
-      internship: Internship
-      project: Project
-      promotion: Promotion
+      contract: 'Posizione full-time'
+      internship: Stage
+      project: Progetto
+      promotion: Promozione
       part_time: Part-time
       full_time: Full-time
-      trainee: Trainee
-      voluntary: Voluntary
-      associate: Associate
-      limited: Limited
-      available: Available
-      available_date: Available Date
-      intern_start: Internship Start
-      intern_end: Internship End
-      travel: Travel
-      move_city: Move city
-      move_country: Move country
-      location: Location
+      trainee: Apprendista
+      voluntary: Volontario
+      associate: Socio
+      limited: Limitato
+      available: Disponibile
+      available_date: Disponibile dal
+      intern_start: Inizio Stage
+      intern_end: Fine Stage
+      travel: Viaggi
+      move_city: Cambiare città
+      move_country: Cambiare paese
+      location: Luogo
     available:
-      1: 'Immediately'
-      2: 'Within 2 weeks'
-      3: 'In less than 1 month'
-      4: 'In 1 to 3 months'
-      5: 'More than 3 months'
-      6: 'Negotiable'
-      7: 'Specific date'
+      1: 'Immediatamente'
+      2: 'Entro 2 settimane'
+      3: 'Entro meno di un mese'
+      4: 'Tra 1-3 mesi'
+      5: 'Tra più di 3 mesi'
+      6: 'Negoziabile'
+      7: 'Data specifica'
     travel:
-      1: 'Maximum 25%'
-      2: 'Maximum 50%'
-      3: 'Maximum 75%'
+      1: 'Massimo 25%'
+      2: 'Massimo50%'
+      3: 'Massimo 75%'
       4: '100%'
-      5: 'No Travel'
+      5: 'Nessuno spostamento'
   activerecord:
     attributes:
       career_plan:
