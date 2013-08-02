@@ -2,26 +2,26 @@ nl:
   user:
     attributes: &ATTRIBUTES
       email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      first_name: First name
-      last_name: Last name
-      avatar: Avatar
-      nationality: Nationality
-      language: Language
-      date_of_birth: Date of Birth
-      gender: Gender
-      about: About
-      location: Location
+      password: Wachtwoord
+      password_confirmation: Wachtwoord bevestigen
+      first_name: Naam
+      last_name: Familienaam
+      avatar: Profielfoto
+      nationality: Nationaliteit
+      language: Talen
+      date_of_birth: Geboortedatum
+      gender: Geslacht
+      about: In wat voor vacatures bent u geïnteresseerd?
+      location: Locatie
     gender:
-      1: 'Female'
-      2: 'Male'
-      3: 'Other'
-      4: 'Not provided'
+      1: 'Vrouw'
+      2: 'Man'
+      3: 'Anders'
+      4: 'Niet ingevuld'
     frequency_emails:  
-      1: 'After every event'
-      2: 'Every month'
-      3: 'Never'
+      1: 'Na elke event'
+      2: 'Iedere maand'
+      3: 'Nooit'
   activerecord:
     attributes:
       user:
