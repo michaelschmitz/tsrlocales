@@ -1,15 +1,15 @@
 it:
   language:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      certificate: Certificate
-      certificate_grade: Certificate grade
+      name: Nome
+      level: Livello
+      certificate: Certificato
+      certificate_grade: Voto
     level:
-      1: 'Basic'
-      2: 'Good'
-      3: 'Advanced'
-      4: 'Fluent / Native'
+      1: 'Base'
+      2: 'Intermedio'
+      3: 'Avanzato'
+      4: 'Fluente/ Madrelingua'
   activerecord:
     attributes:
       language:
