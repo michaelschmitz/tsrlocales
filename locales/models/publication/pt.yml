@@ -2,14 +2,14 @@ pt:
   publication:
     attributes: &ATTRIBUTES
       link: Link
-      description: Description
-      area: Area
+      description: Descrição
+      area: Área
     area:
-      1: 'Other publication'
-      2: 'Newspaper article'
-      3: 'Scientific work'
-      4: 'Essay'
-      5: 'Book'
+      1: 'Outras publicações'
+      2: 'Artigos'
+      3: 'Trabalhos científicos'
+      4: 'Ensaios'
+      5: 'Livros'
   activerecord:
     attributes:
       publication:
