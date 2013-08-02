@@ -1,15 +1,15 @@
 pl:
   language:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      certificate: Certificate
-      certificate_grade: Certificate grade
+      name: Nazwa
+      level: Poziom
+      certificate: Certyfikat
+      certificate_grade: Stopień
     level:
-      1: 'Basic'
-      2: 'Good'
-      3: 'Advanced'
-      4: 'Fluent / Native'
+      1: 'podstawowy'
+      2: 'średni'
+      3: 'zaawansowany'
+      4: 'biegły / ojczysty'
   activerecord:
     attributes:
       language:
