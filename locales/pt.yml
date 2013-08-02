@@ -2,8 +2,8 @@ pt:
   activerecord:
     errors:
       messages:
-        after: "should end later"
-        before: "should start before"
+        after: "deverá terminar até"
+        before: "deverá começar antes de"
   nationalities:
     AL: "Albania"
     DZ: "Algeria"
