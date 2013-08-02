@@ -1,15 +1,15 @@
 es:
   event:
     attributes: &ATTRIBUTES
-      title: Title
-      intro: Intro
-      description: Description
+      title: Título
+      intro: Introducción
+      description: Descripción
       sponsor: Sponsor
-      date: Date
-      location: Location
-      deadline: Deadline
-      link: Link
-      comment_on_location: Comment on location
+      date: Fecha
+      location: Lugar
+      deadline: Fecha límite
+      link: Enlace
+      comment_on_location: Comentario sobre lugar
   activerecord:
     attributes:
       event:
