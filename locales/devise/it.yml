@@ -24,7 +24,7 @@ it:
         subject: "Istruzioni per la conferma."
       reset_password_instructions: 
         s1: Ciao
-        s2: "Qualcuno ha richiesto un cambio della password per il tuo account. Il link seguente link permette il cambio della password."
+        s2: "Qualcuno ha richiesto un cambio della password per il tuo account. Il link seguente permette il cambio della password."
         s3: "Cambia la password"
         s4: "Se non hai richiesto una nuova password ignora questa email."
         s5: "La tua password verrà cambiata solo dopo aver cliccato su questo link e aggiunto una nuova password."
@@ -39,7 +39,7 @@ it:
       failure: "Impossibile effettuare l\\'autenticazione da %{kind} perchè \"%{reason}\"."
       success: "Autenticazione effettuata con successo da %{kind} account."
     passwords: 
-      no_token: "Non è possibile accedere a questa pagina se non si è ricevuta una email per la reimpostazione della password. Se hai ricevuto una email per reimpostare la password, per favore assicurati di avere inserito l'indirizzo URL completo."
+      no_token: "Non è possibile accedere a questa pagina se non hai ricevuto una email per la reimpostazione della password. Se hai ricevuto una email per reimpostare la password, per favore assicurati di avere inserito l'indirizzo URL completo."
       send_instructions: "Riceverai una email con le istruzioni su come resettare la tua password in pochi minuti."
       send_paranoid_instructions: "Se il tuo indirizzo email è presente nel nostro database, tra qualche minuto riceverai al tuo indirizzo email un link per il recupero della tua password."
       updated: "La tua password è stata cambiata con successo. Ora sei registrato."
