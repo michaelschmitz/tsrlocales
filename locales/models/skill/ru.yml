@@ -1,16 +1,16 @@
 ru:
   skill:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      hours_application: Hours of application
-      hours_training: Hours of training
-      explanation: Explanation
-      included: 'Last used at'
+      name: Название навыка
+      level: Уровень
+      hours_application: Часы практического использования
+      hours_training: Часы обучения
+      explanation: объяснение
+      included: 'последний раз использован в'
     level:
-      1: 'Beginner'
-      2: 'Experienced'
-      3: 'Expert'
+      1: 'Начинающий'
+      2: 'Продвинутый'
+      3: 'Эксперт'
   activerecord:
     attributes:
       skill:
