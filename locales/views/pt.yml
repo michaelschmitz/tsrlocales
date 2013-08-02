@@ -8,7 +8,7 @@ pt:
         ects: "ECTS adquiridos (?)"
         enddate: "Data de graduação (Esperada)"
         grade_final_work: "Nota final da tese"
-        grade_scale: "Escala de Graduação"
+        grade_scale: "Escala de Gradação"
         major: Especialização
         name: "Instituição de Ensino"
         no_exchange: "Sem alterações"
@@ -63,7 +63,7 @@ pt:
         lastname: Apelido
         locations: "Atualmente a viver em"
         max_salary: Máximo
-        min_salary: "xxx: Mínimo "
+        min_salary: "Mínimo "
         recruit_me: "Empregadores preferidos"
         remind_me: "Atualizar a classificação no ranking"
         work_in_germany: "Permissão para trabalhar em"
@@ -94,7 +94,7 @@ pt:
         years: Anos
       stipend: 
         document: Comprovativos
-        enddate: "Data fim"
+        enddate: "Data-fim"
         name: Nome
         startdate: "Data de início"
       user: 
@@ -510,7 +510,7 @@ pt:
         s10: Estágio
         s11: entre
         s12: e
-        s13: "Full time"
+        s13: "Full-time"
         s14: "a iniciar"
         s15: disponível
         s16: "envie mensagem"
@@ -601,7 +601,7 @@ pt:
         s20: Estágio
         s21: entre
         s22: e
-        s23: "Full time"
+        s23: "Full-time"
         s24: "a iniciar"
         s25: disponível
         s26: "Enviar mensagem"
