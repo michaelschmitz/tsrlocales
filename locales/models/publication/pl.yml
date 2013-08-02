@@ -2,14 +2,14 @@ pl:
   publication:
     attributes: &ATTRIBUTES
       link: Link
-      description: Description
-      area: Area
+      description: Tytuł
+      area: Typ
     area:
-      1: 'Other publication'
-      2: 'Newspaper article'
-      3: 'Scientific work'
-      4: 'Essay'
-      5: 'Book'
+      1: 'Inne publikacje'
+      2: 'Artykuł w gazecie'
+      3: 'Praca naukowa'
+      4: 'Esej'
+      5: 'Książka'
   activerecord:
     attributes:
       publication:
