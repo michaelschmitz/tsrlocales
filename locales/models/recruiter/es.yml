@@ -2,12 +2,12 @@ es:
   recruiter:
     attributes: &ATTRIBUTES
       email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      phone: Phone
-      first_name: First name
-      last_name: Last name
-      title: Title
+      password: Contraseña
+      password_confirmation: Confirmar contraseña
+      phone: Telf.
+      first_name: Nombre
+      last_name: Apellido
+      title: Título
   activerecord:
     attributes:
       recruiter:
