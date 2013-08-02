@@ -1,22 +1,22 @@
 nl:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
+      name: Naam
+      country: Land
+      university_id: Universiteit
+      title: Academische titel
+      credits: Behaalde ECTS (?)
+      start_date: Startdatum
+      end_date: (Verwachte) afstudeerdatum
+      grade_scale: Classificatiesysteem
+      average: Gemiddelde
+      study_area: Vergelijkingsgroep (?)
+      faculty: Faculteit
       major: Major
       minor: Minor
-      document: Document
+      document: Transcript
       university:
-        name: University Name
+        name: Universiteit Naam
     study_area: 
       30: "Architectuur"
       12: "Bedrijfskunde"
