@@ -1,16 +1,16 @@
 it:
   skill:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      hours_application: Hours of application
-      hours_training: Hours of training
-      explanation: Explanation
-      included: 'Last used at'
+      name: Nome
+      level: Livello
+      hours_application: Ore di uso pratico
+      hours_training: Ore di formazione
+      explanation: Spiegazione
+      included: 'Ultimo utilizzo'
     level:
-      1: 'Beginner'
-      2: 'Experienced'
-      3: 'Expert'
+      1: 'Principiante'
+      2: 'Intermedio'
+      3: 'Avanzato'
   activerecord:
     attributes:
       skill:
