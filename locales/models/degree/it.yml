@@ -1,22 +1,22 @@
 it:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: Nome 
+      country: Paese
+      university_id: Università
+      title: Titolo
+      credits: Crediti
+      start_date: Data d'inizio
+      end_date: Data di fine
+      grade_scale: Metro di valutazione
+      average: Media
+      study_area: Area di studio
+      faculty: Facoltà
+      major: Specializzazione
+      minor: Specializzazione
+      document: Allegati
       university:
-        name: University Name
+        name: Nome dell'Università
     study_area: 
       1: "Agraria"
       13: "Altro"
