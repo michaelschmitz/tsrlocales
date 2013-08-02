@@ -1,0 +1,143 @@
+nl:
+  degree:
+    attributes: &ATTRIBUTES
+      name: Name
+      country: Country
+      university_id: University
+      title: Title
+      credits: Credits
+      start_date: Start Date
+      end_date: End Date
+      grade_scale: Grade Scale
+      average: Average
+      study_area: Study Area
+      faculty: Faculty
+      major: Major
+      minor: Minor
+      document: Document
+      university:
+        name: University Name
+    study_area: 
+      30: "Architectuur"
+      12: "Bedrijfskunde"
+      19: "Biologie"
+      28: "Bos- en Natuurbeheer en Visserij"
+      24: "Bouwkunde"
+      25: "Chemical Engineering"
+      38: "Communicatie, Journalistiek en PR"
+      16: "Computerwetenschappen"
+      37: "Dierengeneeskunde"
+      29: "Dierenverzorging"
+      35: "Econometrie"
+      18: "Economie"
+      14: "Elektrotechniek"
+      26: "Energy Engineering"
+      2: "Engineering (Overig)"
+      36: "Farmaceutische Wetenschappen"
+      34: "Filosofie en Theologie"
+      8: "Fysica (overig)"
+      6: "Geneeskunde"
+      22: "Geowetenschappen"
+      33: "Hospitality en Toerisme"
+      17: "Humane wetenschappen"
+      15: "Industrieel Ingenieur"
+      7: "Kunst en Design"
+      1: "Landbouw"
+      5: "Mathematiek"
+      32: "Muziek"
+      21: "Natuurkunde"
+      27: "Nuclear Engineering"
+      4: "Onderwijs"
+      13: "Overig"
+      9: "Psychologie"
+      3: "Rechten"
+      20: "Scheikunde"
+      10: "Sociale en Politieke Wetenschappen"
+      31: "Sport en Voeding"
+      11: "Talen"
+      23: "Werktuigbouwkunde"
+    title: 
+      25: "Associate"
+      2: "B.A."
+      7: "B.Ed"
+      3: "B.Eng"
+      5: "B.F.A."
+      6: "B.Mus"
+      1: "B.Sc."
+      22: "B.Sc. Honours"
+      16: "Diploma (FH)"
+      17: "Diploma (Univ.)"
+      15: "Diploma(Dual)"
+      18: "Dr. med."
+      24: "EMBA"
+      4: "LL.B."
+      20: "Lic."
+      10: "M.A."
+      13: "M.Ed"
+      11: "M.Eng"
+      12: "M.F.A."
+      14: "M.Mus"
+      8: "M.Sc."
+      23: "MBA"
+      9: "Magister"
+      21: "Overige"
+      19: "PhD"
+    grade_scale:
+      AR: "Argentinië (0-10)"
+      AU: "Australië (50-100%)"
+      BE: "België (60-100%)"
+      BO: "Bolivia (0-100%)"
+      BR: "Brazilië (60-100%)"
+      CA: "Canada (50-100)"
+      CL: "Chili (0.0-7.0)"
+      CN: "China (60-100%)"
+      CO: "Colombia (1.0-5.0)"
+      CR: "Costa Rica (0.00-10.00)"
+      CU: "Cuba (0.00-5.00)"
+      DK: "Denemarken (2-12)"
+      DO: "Dominicaanse Republiek (0-100%)"
+      DE: "Duitsland(4,0-1,0)"
+      EC: "Ecuador (0.0-10.0)"
+      SV: "El Salvador (1.0-10.0)"
+      FI: "Finland (1-5)"
+      FR: "Frankrijk (10-20)"
+      GT: "Guatemala (0-100)"
+      HT: "Haiti (0-100%)"
+      HN: "Honduras (2.00-5.00)"
+      HK: "Hong Kong (E, D, C, B, A)"
+      IE: "Ierland (40-100%)"
+      IN: "India (40-100%)"
+      IL: "Israël (60-100%)"
+      IT: "Italië(18-30)"
+      JM: "Jamaica (F, C, B-, B, A)"
+      JP: "Japan (60-100%)"
+      MX: "Mexico (60-100)"
+      NL: "Nederland (5.5-10)"
+      NI: "Nicaragua (0-100)"
+      'NO': "Noorwegen (E, D, C, B, A)"
+      AT: "Oostenrijk (4.0-1.0)"
+      PA: "Panama (0-100)"
+      PY: "Paraguay (1-5)"
+      PE: "Peru (0-20)"
+      PL: "Polen(3.0-5.0)"
+      PT: "Portugal (9.5-20)"
+      RU: "Russische Federatie (1-5)"
+      SG: "Singapore (D, D+, C, C+, B, B+, A, AD)"
+      ES: "Spanje (5.5-10)"
+      TW: "Taiwan (1.0-4.0)"
+      TT: "Trinidad en Tobago (0-100%)"
+      CZ: "Tsjechië (50-100%)"
+      UY: "Uruguay (1-12)"
+      VE: "Venezuela (0-20)"
+      GB: "Verenigd Koninkrijk (Pass, 3e, 2:2, 2:1, 1e)"
+      US: "Verenigde Staten (1.0-4.0)"
+      SE: "Zweden(E, D, C, B, A)"
+      CH: "Zwitserland (4.0-6.0)"
+  activerecord:
+    attributes:
+      degree:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      degree:
+        <<: *ATTRIBUTES 

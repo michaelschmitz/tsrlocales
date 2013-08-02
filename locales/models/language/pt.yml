@@ -1,0 +1,20 @@
+pt:
+  language:
+    attributes: &ATTRIBUTES
+      name: Name
+      level: Level
+      certificate: Certificate
+      certificate_grade: Certificate grade
+    level:
+      1: 'Basic'
+      2: 'Good'
+      3: 'Advanced'
+      4: 'Fluent / Native'
+  activerecord:
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

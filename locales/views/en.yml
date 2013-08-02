@@ -1,0 +1,3009 @@
+--- 
+en: 
+  activerecord: 
+    attributes: 
+      degree: 
+        average: Average
+        document: Transcript
+        ects: "Earned Points / ECTS (?)"
+        enddate: "(Expected) graduation date"
+        grade_final_work: "Grade for final thesis"
+        grade_scale: "Grading System"
+        major: Major
+        name: Name
+        no_exchange: "No exchange"
+        semester: "Current semester"
+        startdate: "Starting date"
+        studyarea: "Comparison group (?)"
+        titel: "Academic Degree"
+        title: Study
+      employer: 
+        accepted_tos: "ToS and Data Privacy"
+        company_name: Company
+        contact_name: "Your name"
+        password: Password
+        rebatecode: "Cooperation code"
+      event: 
+        date: Date
+        deadline: "Application deadline"
+        description: "Event description"
+        intro: Introduction
+        link: "Application link"
+        location: Location
+        sponsor: "Other sponsors"
+        titel: Title
+      job: 
+        average_hours: "Hours per week (estimate)"
+        company: "Name of company or organization"
+        document: Certificate
+        enddate: "End date"
+        role: "Job description"
+        startdate: "Start date"
+      joboffer: 
+        description: Description
+        locations: Location
+        run_until: "Visible until"
+        title: "Job title"
+      language: 
+        document: Certificate
+        level: Level
+        name: Name
+      message: 
+        body: Message
+        subject: Subject
+      messageag: 
+        company: Company
+        email: Email
+        phone: Telephone
+      participant: 
+        about: "What kind of opportunities are you interested in? (240 characters max)"
+        dob: "Date of birth"
+        firstname: "First name"
+        job_confirmation: "Job offers"
+        lastname: "Last name"
+        locations: "Currently living in"
+        max_salary: "Maximum salary"
+        min_salary: "xxx: Minimum "
+        recruit_me: "Preferred employers"
+        remind_me: "Update on new ranking position"
+        work_in_germany: "Allowed to work in"
+      publication: 
+        description: Name
+        document: Attachment
+        link: Link
+      school: 
+        document: Transcript
+        enddate: "End date"
+        name: "Name of School"
+        school_average: Average
+        startdate: "Start date"
+      service: 
+        company: "Name of company or organization"
+        document: Certificate
+        enddate: "End date"
+        organization: "Name of organization"
+        role: Description
+        startdate: "Start date"
+      skill: 
+        document: Certificate
+        level: Level
+        months: Months
+        name: "Name of skill"
+        years: Years
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
+      stipend: 
+        document: Attachment
+        enddate: "End date"
+        name: Name
+        startdate: "Start date"
+      user: 
+        accepted_tos: "ToS and Data Privacy"
+    errors: 
+      messages: 
+        accepted: "must be accepted"
+        blank: "must be filled"
+        confirmation: "doesn\\'t match confirmation"
+        empty: "must be filled"
+        equal_to: "must be equal to %{count}"
+        even: "must be even"
+        exclusion: "is not available"
+        format: "%{attribute} %{message}"
+        greater_than: "must be larger than %{count}"
+        greater_than_or_equal_to: "must be larger or equal to %{count}"
+        inclusion: "is not a valid number"
+        invalid: "is not valid"
+        less_than: "must be smaller than %{count}"
+        less_than_or_equal_to: "must be smaller or equal to %{count}"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        numericality: "not a number."
+        odd: "must be uneven"
+        record_invalid: "Validity test failed: %{errors}"
+        taken: "is already taken."
+        too_long: "is too long (not more than %{count} characters)"
+        too_short: "is too short(not less than %{count} characters)"
+        wrong_length: "wrong length (must be exactly %{count} characters)"
+      template: 
+        body: "Please check the following fields"
+        header: 
+          one: "Couldn not save %{model}: One error."
+          other: "Could not save %{model}: %{count} errors."
+  controllers: 
+    cvsearches: 
+      s1: "Database access until "
+      s2: "You now have access to the database. Please create a search to find candidates."
+    events: 
+      s1: "Event successfully created."
+    joboffers: 
+      s1: "Job offer successfully created."
+    participants: 
+      s1: You
+      s2: "Other participants"
+      s3: Group
+      s4: Points
+  date: 
+    abbr_day_names: 
+      - Sun
+      - Mon
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+      - Sat
+    abbr_month_names: 
+      - ~
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - May
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Oct
+      - Nov
+      - Dec
+    day_names: 
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    formats: 
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+      short2: "%b %Y"
+    month_names: 
+      - ~
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
+    order: 
+      - !ruby/symbol year
+      - !ruby/symbol month
+      - !ruby/symbol day
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "about 1 hour"
+        other: "about %{count} hours"
+      about_x_months: 
+        one: "about 1 month"
+        other: "about %{count} months"
+      about_x_years: 
+        one: "about 1 year"
+        other: "about %{count} years"
+      almost_x_years: 
+        one: "almost 1 year"
+        other: "almost %{count} years"
+      half_a_minute: "half a minute"
+      less_than_x_minutes: 
+        one: "less than a minute"
+        other: "less than %{count} minutes"
+      less_than_x_seconds: 
+        one: "less than 1 second"
+        other: "less than %{count} seconds"
+      over_x_years: 
+        one: "over 1 year"
+        other: "over %{count} years"
+      x_days: 
+        one: "1 day"
+        other: "%{count} days"
+      x_minutes: 
+        one: "1 minute"
+        other: "%{count} minutes"
+      x_months: 
+        one: "1 month"
+        other: "%{count} months"
+      x_seconds: 
+        one: "1 second"
+        other: "%{count} seconds"
+    prompts: 
+      day: Day
+      hour: Hour
+      minute: Minute
+      month: Month
+      second: Seconds
+      year: Year
+  hello: "Hello WElcome"
+  helpers: 
+    label: 
+      companies: 
+        name: Name
+      cvsearch: 
+        age_group: "Year of birth"
+        average: "GPA studies"
+        exchange: "Name of Exchange/Partner University"
+        festanstellung_available: Availability
+        festanstellung_date: "Fixed date"
+        grade_scale: "Grade scale"
+        graduation_year: "Graduation year"
+        internship_experience: "Internships in months"
+        language: Languages
+        locations: "Current location"
+        nationality: Nationality
+        only_friends: "Only friends"
+        order: "Order by"
+        praktikum_end: "Available until"
+        praktikum_start: "Available from"
+        skills: Skills
+        studyarea: "Area of study"
+        titel: "Academic degree"
+        title: Study
+        travel: "Willing to travel"
+        university: University
+        work_experience: "Work experience in months"
+        average: Grade point average
+      degree: 
+        average: Average
+        document: Transcript
+        ects: "Earned Points / ECTS (?)"
+        enddate: "(Expected) End date"
+        featured: "Are you willing to be featured as an outstanding student from your university? This will make some information from your profile publicly visible."
+        grade_final_work: "Final Grade"
+        major: Major
+        name: "University (tertiary education)"
+        no_exchange: "No exchange"
+        semester: "Current semester"
+        startdate: "Start date"
+        titel: "Academic degree (?)"
+        title: Study
+      employer: 
+        city: City
+        code: "Post code"
+        company_name: Company
+        contact_name: "Your name"
+        contact_phone: "Your phone number"
+        country: Country
+        currency: "Preferred currency"
+        fbpage: "Link to Facebook page"
+        logo: "Company logo"
+        password: Password
+        payment_preference: "Preferred payment method"
+        rebatecode: "Cooperation code"
+        street: Address
+        url: "Link to application page"
+        vat_number: "VAT number"
+      event: 
+        anmerkung: "Date details"
+        date: "Start date"
+        deadline: "Application deadline"
+        description: "Event description"
+        intro: "Introduction (320 Characters max)"
+        link: "Link to event page"
+        location: Location
+        sponsor: "Additional sponsors for this event"
+      exchangeuni: 
+        enddate: End
+        name: University
+        startdate: Begin
+      futurejob: 
+        available: Availability
+        available_date: Date
+        city1: City
+        city2: City
+        city3: City
+        industry: Industry
+        intern_end: "Latest end date"
+        intern_start: "Earliest start date"
+        location: "Where would you like to work? List cities, states and countries"
+        move_city: "Would you be willing to move inside the country?"
+        move_country: "Would you be willing to work abroad?"
+        teilzeit: "Which type of offer is interesting for you?"
+        travel: "How much travel is acceptable for you?"
+      job: 
+        average_hours: "Hours per week (estimate)"
+        company: "Name of company or organization"
+        contract: Contract
+        current: "Current position"
+        description: "Description (?) (optional)"
+        document: Certificate
+        enddate: "End date"
+        industry: Industry
+        role: Role
+        startdate: "Start date"
+        summary: "Summary (optional)"
+      joboffer: 
+        ausbildung: Education
+        bau: "Construction and Landscaping"
+        bereiche: Area
+        consulting: Consulting
+        contract_type: "Contract type"
+        description: Description
+        finanzen: Finance
+        forschung: Research
+        gf: "Private Equity and Venture Capital"
+        ing: "Engineering and Research Services"
+        it: "Information Technology"
+        link: "Link to application page"
+        locations: Location
+        logistik: "Logistics, Transportation, Procurement"
+        marketing: "Marketing, Design, Advertising, PR, Editing"
+        medizin: "Medicine and Care"
+        organization: "Organization, Administration, Law"
+        personalwesen: "Human Resources"
+        praktikum: Internship
+        produktion: "Technical Operations, Production"
+        run_until: "Run until (?)"
+        teilzeit: Part-time
+        title: Title
+        vertrieb: Sales
+        vollzeit: Full-time
+        werbebudget: "Additional budget (?)"
+      language: 
+        certificate: Certificate
+        certificate_grade: Grade
+        document: Certificate
+        level: Level
+      message: 
+        body: Message
+        copy: "Receive a copy of this message via email?"
+        subject: Subject
+      messageag: 
+        phone: Telephone
+      participant: 
+        about: "What kind of opportunities are you interested in? (240 characters max)"
+        avatar: "Profile picture"
+        cv: "Your CV (?)"
+        dob: "Date of birth"
+        endview: "Upon completion: How do you rank yourself compared to others at your university?"
+        firstname: "First name"
+        gender: Gender
+        job_confirmation: "Job offers"
+        lastname: "Last name"
+        max_salary: "Salary: Maximum"
+        min_salary: "Salary: Minimum"
+        nationality: Nationality
+        nowview: "Current: How do your rank yourself compared to others at your university?"
+        recruit_me: "Preferred Employer"
+        score_email: "Update on new position"
+        work_in_germany: "Allowed to work"
+        language: "Preferred language"
+      prize: 
+        area: "Award or Prize"
+        document: Attachment
+        level: Level
+        name: Description
+      publication: 
+        area: Type
+        description: Title
+        document: Attachment
+      school: 
+        abschluss: Degree
+        document: Transcript
+        enddate: "End date"
+        grade_scale: "Grade Scale"
+        name: "Name of School"
+        school_average: Average
+        schultyp: "School type"
+        startdate: "Start date"
+      service: 
+        area: "Type of organization"
+        current: Current?
+        description: "Role (?)"
+        document: Certificate
+        organization: "Name of organization"
+      skill: 
+        document: Certificate
+        included: "Last used at"
+        level: Level
+        months: "Experience Months"
+        years: "Experience Years"
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
+      stipend: 
+        document: Attachment
+        enddate: "End date"
+        name: Name
+        startdate: "Start date"
+      user: 
+        email: Email
+        password: Password
+        password_confirmation: "Confirm password"
+        remember_me: "Stay signed in"
+    select: 
+      prompt: "Please select"
+    submit: 
+      create: "%{model} create"
+      submit: "%{model} save"
+      update: "%{model} update"
+  number: 
+    currency: 
+      format: 
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format: 
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human: 
+      decimal_units: 
+        format: "%n %u"
+        units: 
+          billion: Billion
+          million: Million
+          quadrillion: Quadrillion
+          thousand: Thousand
+          trillion: Trillion
+          unit: ""
+      format: 
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+  support: 
+    array: 
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
+  time: 
+    am: am
+    formats: 
+      default: "%A, %d. %B %Y, %H:%M Uhr"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      no_day: "%d. %B %Y, %H:%M Uhr"
+      no_time: "%e. %B %Y"
+      short: "%d. %B, %H:%M Uhr"
+      sshort: "%d. %B %Y"
+    pm: pm
+  views: 
+    anschreiben_mailer: 
+      s1: "has sent you a message"
+      s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+    candidates: 
+      index: 
+        s1: Candidates
+        s10: Internship
+        s11: between
+        s12: and
+        s13: Full-time
+        s14: starting
+        s15: available
+        s16: "Send message"
+        s17: "Activity:"
+        s18: "No candidates on list"
+        s19: "Remove from list"
+        s2: "Candidate list"
+        s3: "Delete list"
+        s4: Points
+        s5: "Comparison based on University, Study"
+        s6: Major
+        s7: "and year of birth"
+        s8: "Other degree"
+        s9: "Location:"
+    companies: 
+      editnew: 
+        s1: "Preferred Employer"
+        s2: "You can compare yourself with other potential applicants by selecting up to ten companies here. Employers cannot see your selection."
+      form: 
+        s1: "Add company"
+    countries: 
+      s1: xxx
+    cvsearches: 
+      fullview: 
+        s1: Candidate
+        s14: "Yes"
+        s15: "No"
+        s16: between
+        s17: and
+        s18: starting
+        s19: available
+        s2: "Example Profile"
+        s20: Points
+        s21: Education
+        s22: Grade
+        s23: Major
+        s24: Exchange
+        s25: until
+        s26: "Last school degree, Grade"
+        s27: "Work experience"
+        s28: "Languages"
+        s28a: "Skills"
+        s3: Locations
+        s34: Interests
+        s4: "Willing to travel"
+        s47: Experience
+        s48: hours application
+        s49: hours training
+        s5: Move
+        s50: current
+        s51: at
+        s52: "last used"
+        s53: "Privately learned"
+        s54: Publications
+        s55: "Awards and Prizes"
+        s56: Scholarships
+        s57: "Interested in"
+        s6: "Move abroad"
+        s7: Internship
+        s8: Full-time
+      index: 
+        s1: "Search Database"
+        s10: "No candidate lists yet"
+        s11: "Continue search"
+        s12: Candidates
+        s13: "Delete list"
+        s2: "Candidate lists can help you in assigning candidates to specific jobs."
+        s3: "Create a new candidate list to begin your search."
+        s4: "Create candidate list"
+        s5: Create
+        s6: "My candidate lists"
+        s7: "Name of list"
+        s8: "Continue search"
+        s9: "Number of candidates"
+      show: 
+        s1: "Minimum Points"
+        s10: Search
+        s11: Results
+        s12: Return
+        s13: "No results for your search."
+        s14: Points
+        s15: "Comparison based on University, Study"
+        s16: "and year born"
+        s17: Top
+        s18: "Additional study"
+        s19: Location
+        s2: Location
+        s20: Internship
+        s21: between
+        s22: and
+        s23: Full-time
+        s24: starting
+        s25: available
+        s26: "Send message"
+        s27: Activity
+        s28: "Add to "
+        s29: "candidate list"
+        s3: "Interested in"
+        s30: Saved
+        s4: Study
+        s5: University
+        s6: "Grades and Title"
+        s7: "Work experience"
+        s8: Other
+        s9: Search
+      zugriff: 
+        s1: "CV Database"
+        s2: "Use the CV database to preview and select candidates, then send them a message and invite them to be in contact with you. Yearly access costs and costs messaging are detailed on our "
+        s3: "price page"
+        s4: "Click here to use the database and to receive access to all profiles."
+        s5: "Acquire access"
+    degrees: 
+      exchangeunifields: 
+        s1: "Name of Exchange / Partner University"
+        s2: Remove
+      form: 
+        s0: "This field allows you to indicate your study progress. Simply add 30 points for each semester you completed successfully. If you study within Europe, simply use the credits you earned so far (If your university uses the European ECTS system, please provide your current ECTS). Each complete full-time year of study counts for 60 credits. Please only add already earned ECTS here. Examples: older Diplomas (300 credits), Apprenticeship and Study (180 credits), Bachelor (180 credits) and Master (90-120 credits)."
+        s0a: "Suggestions are shown while typing."
+        s0b: "Please select your degree. If you can't find your exact degree, simply choose a bachelor of science (B.Sc.) for your first and a master of science (M.Sc.) for your second degree."
+        s1: "Australia (50-100%)"
+        s10: "Hongkong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Ireland (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italy (18-30)"
+        s15: "Japan (60-100%)"
+        s16: "Canada (50-100)"
+        s17: "Netherlands (5.5-10)"
+        s18: "Norway (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Belgium (60-100%)"
+        s20: "Poland (3.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Sweden (E, D, C, B, A)"
+        s23: "Switzerland (4.0-6.0)"
+        s24: "Singapore (D - AD)"
+        s25: "Spain (5.5-10)"
+        s26: "Czech Republic (50-100%)"
+        s27: "USA (1.0-4.0)"
+        s27a: "Russian Federation (1-5)"
+        s27b: "Taiwan (1.0-4.0)"
+        s27c: "Mexico (60-100)"
+        s28: "The system requires a comparison group to calculate your ranking correctly."
+        s28a: Exchange
+        s29: "Add exchange university"
+        s3: "Brazil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Peru (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "Dominican Republic (0-100%)"
+        s39: "Haiti (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad and Tobago (0-100%)"
+        s5: "Denmark (2-12)"
+        s6: "Germany (4,0-1,0)"
+        s7: "Finland (1-5)"
+        s8: "France (10-20)"
+        s9: "UK (Pass, 3rd, 2:2, 2:1, 1st)"
+      newedit: 
+        s1: Study
+        s2: "Please only enter the currently earned amount of credits if your study is not completed yet."
+        s3: "If you are studying for a double degree, please provide only the first university and the complete amount of credit points above. Additional universities can be noted below."
+        s4: "Add new university"
+    devise: 
+      shared: 
+        s1: "Sign in"
+        s2: Register
+        s3: "Forgot password?"
+        s4: "Confirmation mail not received?"
+        s5: "Unlock email not received?"
+        s6: "Sign in with"
+    dry: 
+      area: 
+        s1: University/School
+        s2: Social
+        s3: Club
+        s4: Party
+        s5: Culture
+        s6: Scientific
+        s7: Other
+      available: 
+        s1: "All options"
+        s2: Immediately
+        s3: "Within 2 weeks"
+        s4: "In less than 1 month"
+        s5: "In 1 to 3 months"
+        s6: "More than 3 months"
+        s7: Negotiable
+        s8: "Specific date"
+      bereiche: 
+        s1: Education
+        s10: "Marketing, Design, Advertising, PR, Editing"
+        s11: "Medicine and Care"
+        s12: "Organization, Administration, Law"
+        s13: "Human Resources"
+        s14: "Technical Operations, Production"
+        s15: Sales
+        s2: "Construction and Landscaping"
+        s3: Consulting
+        s4: Finance
+        s5: Research
+        s6: "Private Equity and Venture Capital"
+        s7: "Information Technology"
+        s8: "Engineering and Research Services"
+        s9: "Logistics, Transportation, Procurement"
+      contract: 
+        s1: Apprenticeship
+        s2: Internship
+        s3: Full-time
+        s4: Part-time
+        s5: Contractor
+        s6: Self-Employed
+      countries: 
+        s1: Egypt
+        s10: "Equatorial Guinea"
+        s100: Colombia
+        s101: Comoros
+        s102: Congo
+        s103: "Congo, Democratic Republic"
+        s104: "Korea, Republic"
+        s105: Croatia
+        s106: Kuwait
+        s107: "Lao, Democratic Republic"
+        s108: Lesotho
+        s109: Latvia
+        s11: Armenia
+        s110: Lebanon
+        s111: Liberia
+        s112: Libya
+        s113: Liechtenstein
+        s114: Lithuana
+        s115: Luxemburg
+        s116: Macao
+        s117: Madagascar
+        s118: Malawi
+        s119: Malaysia
+        s12: Aruba
+        s120: Maldives
+        s121: Mali
+        s122: Malta
+        s123: Marocco
+        s124: "Marshall Islands"
+        s125: Martinique
+        s126: Mauritania
+        s127: Mauritius
+        s128: Mayotte
+        s129: "Macedonia, Former Yugoslav Republic"
+        s13: Azerbaijan
+        s130: Mexico
+        s131: "Micronesia, Federal States of"
+        s132: "Moldawia, Republic"
+        s133: Monaco
+        s134: Mongolia
+        s135: Montenegro
+        s136: Montserrat
+        s137: Mozambique
+        s138: Myanmar
+        s139: Namibia
+        s14: Ethiopia
+        s140: Nauru
+        s141: Nepal
+        s142: "New Caledonia"
+        s143: "New Zealand"
+        s144: Nicaragua
+        s145: "The Netherlands"
+        s146: "Dutch Antilles"
+        s147: Niger
+        s148: Nigeria
+        s149: Niue
+        s15: Australia
+        s150: "Northern Mariana Islands"
+        s151: "Norfold Island"
+        s152: Norway
+        s153: Oman
+        s154: Austria
+        s155: "Eastern Timor"
+        s156: Pakistan
+        s157: Palau
+        s158: Panama
+        s159: "Papua New Guinea"
+        s16: Bahamas
+        s160: Paraguay
+        s161: Peru
+        s162: Philippines
+        s163: Pitcairn
+        s164: Poland
+        s165: Portugal
+        s166: "Puerto Rico"
+        s167: Qatar
+        s168: Reunion
+        s169: Rwanda
+        s17: Bahrain
+        s170: Romania
+        s171: "Russian Federation"
+        s172: "Saint Kitts and Nevis"
+        s173: "Saint Lucia"
+        s174: "Saint Vincent and the Grenadines"
+        s175: Zambia
+        s176: Samoa
+        s177: "San Marino"
+        s178: "Sao Tome and Principe"
+        s179: "Saudi Arabia"
+        s18: Bangladesh
+        s180: Sweden
+        s181: Switzerland
+        s182: Senegal
+        s183: Serbia
+        s184: Seychelles
+        s185: "Sierra Leone"
+        s186: Zimbabwe
+        s187: Singapur
+        s188: "Sint Maarten"
+        s189: Slovakia
+        s19: Barbados
+        s190: Slovenia
+        s191: Solomon-Islands
+        s192: Somalia
+        s193: Spain
+        s194: "Sri Lanka"
+        s195: "Saint Helena"
+        s196: "South Africa"
+        s197: "South Georgia and the S.S. Islands"
+        s198: Suriname
+        s199: "Svalbard- and Jan Mayen"
+        s2: Albania
+        s20: Belize
+        s200: Swaziland
+        s201: Tajikistan
+        s202: Taiwan
+        s203: "Tanzania, United Republic of"
+        s204: Thailand
+        s205: Togo
+        s206: Tokelau
+        s207: Tonga
+        s208: "Trinidad and Tobago"
+        s209: Chad
+        s21: Belgium
+        s210: "Czech Republic"
+        s211: Tunesia
+        s212: Turkey
+        s213: Turkmenistan
+        s214: "Turks- and Caicos-Islands"
+        s215: Tuvalu
+        s216: Uganda
+        s217: Ukraine
+        s218: Hungary
+        s219: Uruguay
+        s22: Benin
+        s220: Uzbekistan
+        s221: Vanuatu
+        s222: "Vatican City"
+        s223: Venezuela
+        s224: "United States of America"
+        s225: "United Kingdom"
+        s226: "United Arab Emirates"
+        s227: Vietnam
+        s228: "Wallis and Futuna"
+        s229: "Christmas Islands"
+        s23: Bermuda
+        s230: Belarus
+        s231: "Western Sahara"
+        s232: "Central African Republic"
+        s233: Cyprus
+        s234: Argentina
+        s24: Bhutan
+        s25: Bolivia
+        s26: "Bonaire, Saint Eustatius and Saba"
+        s27: "Bosnia and Herzegowina"
+        s28: Botswana
+        s29: Bouvetisland
+        s3: Algeria
+        s30: Brazil
+        s31: "British Indian Ocean Territory"
+        s32: "Brunei Darussalam"
+        s33: Bulgaria
+        s34: "Burkina Faso"
+        s35: Burundi
+        s36: Chile
+        s37: China
+        s38: Cook-Islands
+        s39: "Costa Rica"
+        s4: American-Samoa
+        s40: Curaçao
+        s41: Denmark
+        s42: Germany
+        s43: Dominica
+        s44: "Dominican Republic"
+        s45: Djibouti
+        s46: Ecuador
+        s47: "El Salvador"
+        s48: "Cote D\\'Ivoire"
+        s49: Eritrea
+        s5: Andorra
+        s50: Estonia
+        s51: "Falkland-Islands (Malwina)"
+        s52: Faroe-Islands
+        s53: Fiji
+        s54: Finland
+        s55: France
+        s56: "French Guiana"
+        s57: "French Polynesia"
+        s58: "French Southern Territories"
+        s59: Gabon
+        s6: Angola
+        s60: Gambia
+        s61: Georgia
+        s62: Ghana
+        s63: Gibraltar
+        s64: Grenada
+        s65: Greece
+        s66: Greenland
+        s67: Guadeloupe
+        s68: Guam
+        s69: Guatemala
+        s7: Anguilla
+        s70: Guinea
+        s71: Guinea-Bissau
+        s72: Guyana
+        s73: Haiti
+        s74: "Heard- and McDonald Islands"
+        s75: Honduras
+        s76: Hongkong
+        s77: India
+        s78: Indonesia
+        s79: Ireland
+        s8: Antarctica
+        s80: Iceland
+        s81: Israel
+        s82: Italy
+        s83: Jamaica
+        s84: Japan
+        s85: Yemen
+        s86: Jordan
+        s87: "Virgin Islands, British"
+        s88: "Virgin Islands, USA"
+        s89: Cayman-Islands
+        s9: "Antigua and Barbuda"
+        s90: Cambodia
+        s91: Cameroon
+        s92: Canada
+        s93: "Cape Verde"
+        s94: Kazakhstan
+        s95: Kenya
+        s96: Kyrgyzstan
+        s97: Kiribati
+        s98: "United States MO Islands"
+        s99: "Cocos Islands (Keeling-Islands)"
+      facebook: 
+        s1: "Your data is used to fill the details in your student profile and to make it easier to get started"
+        s2: "Use the global ranking and your profile to connect with the world's best companies. View your result and learn how to improve your skills and market value quickly. Compare yourself with your friends and fellow students globally, in your country and at your university"
+        s3: "Use the global ranking and your profile to connect with the world's best companies."
+        s4: "Global ranking. Global jobs."
+      global_links: 
+        s1: "View all jobs"
+        s2: "View all events"
+        s3: "View all activities"
+        s4: "View all students"
+        s5: "View all questions"
+        s6: "View all universities"
+        s7: "View all friends"
+        s8: "View all employers"
+      languages: 
+        s0: "No selection"
+        s1: "Other language"
+        s10: German
+        s100: "Chinese (Min Dong)"
+        s101: Lombard
+        s102: Uyghur
+        s103: Chew
+        s104: Belarusian
+        s105: Kazakh
+        s106: Akan
+        s107: Makuwa
+        s108: Tatar-Bashkir
+        s109: Bagheli
+        s11: English
+        s110: Xhose
+        s111: "Haitian Creole"
+        s112: Konkani
+        s113: Latvian
+        s114: Lithuanian
+        s115: Slovak
+        s116: Sorbian
+        s117: Bosnian
+        s118: Slovenian
+        s119: Bulgarian
+        s12: Finnish
+        s120: Macedonian
+        s121: Armenian
+        s122: Albanian
+        s123: Estonian
+        s124: Karelian
+        s125: Sami
+        s126: Georgian
+        s127: Azeri
+        s128: Tibetan
+        s13: French
+        s130: Thai-Lao
+        s131: Thai-Zhuang
+        s132: Amharique
+        s133: Tigrinya
+        s134: Maltese
+        s135: Fidjian
+        s136: Samoan
+        s137: Yiddish
+        s138: Schwyzerdütsch
+        s139: Farsi
+        s140: Esperanto
+        s141: Euskara
+        s142: Sign language
+        s14: Greek
+        s15: Hebrew
+        s16: Hindi
+        s17: Icelandic
+        s18: Italian
+        s19: Japanese
+        s2: "Ancient greek"
+        s20: Serbo-Croatian
+        s21: Korean
+        s22: Latin
+        s23: Dutch
+        s24: Norwegian
+        s25: Polish
+        s26: Portuguese
+        s27: Punjabi
+        s28: Russian
+        s29: Swedish
+        s3: Arabic
+        s30: Spanish
+        s31: Czech
+        s32: Turkish
+        s33: Hungarian
+        s34: Basic
+        s35: Good
+        s36: Advanced
+        s37: Fluent
+        s37a: Native
+        s38: Javanese
+        s39: Marathi
+        s4: Bengali
+        s40: Telugu
+        s41: Vietnamese
+        s42: Tamil
+        s43: Pashto
+        s44: "Chinese (Min Nan)"
+        s45: Gujarati
+        s46: Persian
+        s47: Bhojpuri
+        s48: Awadhi
+        s49: Ukrainian
+        s5: "Chinese (Mandarin)"
+        s50: Catalan
+        s51: Malay
+        s52: "Chinese (Xiang)"
+        s53: Malayalam
+        s54: Kannada
+        s55: Maithili
+        s56: Sundanese
+        s57: Burmese
+        s58: Oriya
+        s59: Marwari
+        s6: "Chinese (Wu)"
+        s60: "Chinese (Hakka)"
+        s61: Thai
+        s62: Hausa
+        s63: Tagalog
+        s64: Romanian
+        s65: "Chinese (Gan)"
+        s66: Sindhi
+        s67: Uzbek
+        s68: Azerbaijani
+        s69: Rajasthani
+        s7: "Chinese (Cantonese)"
+        s70: Lao-Isan
+        s71: Yoruba
+        s72: Igbo
+        s73: "Northern Berber"
+        s74: Amharic
+        s75: Oromo
+        s76: Chhattisgarhi
+        s77: Assamese
+        s78: Kurdish
+        s79: Sinhalese
+        s8: "Chinese (Other)"
+        s80: Cebuano
+        s81: Rangpuri
+        s82: Malagasy
+        s83: Khmer
+        s84: Sotho-Tswana
+        s85: Nepali
+        s86: Rwanda-Rundi
+        s87: Somali
+        s88: Madurese
+        s89: Haryanvi
+        s9: Danish
+        s90: Fula
+        s91: Magahi
+        s92: Chittagonian
+        s93: Deccan
+        s94: Shona
+        s95: "Chinese (Min Bei)"
+        s96: Zulu
+        s97: Sylheti
+        s98: Basque
+        s99: Kanaujii
+      level: 
+        s1: Beginner
+        s2: Experienced
+        s3: Expert
+      prize: 
+        s1: Award
+        s2: "Prize (Sport)"
+        s3: Local
+        s4: State
+        s5: National
+        s6: International
+      publications: 
+        s1: "Other publication"
+        s2: "Newspaper article"
+        s3: "Scientific work"
+        s4: Essay
+        s5: Book
+      role: 
+        s1: "Active Member"
+        s2: "Passive Member"
+        s3: "Functional role (e.g. Administration)"
+        s4: "Local leadership role (e.g. Trainer)"
+        s5: "Strategic leadership role (e.g. Board member)"
+      sort: 
+        s1: "Achivement Score"
+        s2: "Social Score"
+      studyarea: 
+        s0: All
+        s1: "Agriculture"
+        s10: "Social and Political Sciences"
+        s11: "Languages"
+        s12: "Business and Economics"
+        s13: Other
+        s14: "Engineering (Electrical)"
+        s15: "Engineering (Industrial)"
+        s16: "Computer Science"
+        s17: "Humanities"
+        s18: "Economics"
+        s19: "Biology"
+        s20: "Chemistry"
+        s21: "Physics"
+        s22: "Geology"
+        s23: "Engineering (Mechanical)"
+        s24: "Engineering (Civil)"
+        s25: "Engineering (Chemical)"
+        s26: "Engineering (Energy)"
+        s27: "Engineering (Nuclear)"
+        s28: "Forestry, Fishery"
+        s29: "Animal husbandry"
+        s30: "Architecture"
+        s31: "Nutrition and Sports"
+        s32: "Music"
+        s33: "Hospitality and Tourism"
+        s34: "Philosophy, Theology"
+        s35: "Econometrics"
+        s36: "Pharmacology"
+        s37: "Veterinary medicine"
+        s38: "Communication, Journalism and PR"
+        s2: Engineering (other)
+        s3: Law
+        s4: Teaching
+        s5: Mathemathics
+        s6: Medicine
+        s7: "Art and Design"
+        s8: "Natural Sciences (other)"
+        s9: "Psychology"
+      titel: 
+        s1: All
+        s10: Magister
+        s11: M.A.
+        s12: M.Eng
+        s13: M.F.A.
+        s14: M.Ed
+        s15: M.Mus
+        s16: "Diplom (Dual)"
+        s17: "Diplom (FH)"
+        s18: "Diplom (Univ.)"
+        s19: "Dr. med."
+        s2: B.Sc.
+        s20: PhD
+        s21: Lic.
+        s22: Other
+        s23: "B.Sc. Honours"
+        s24: MBA
+        s25: EMBA
+        s26: Associate
+        s3: B.A.
+        s4: B.Eng
+        s5: LL.B.
+        s6: B.F.A.
+        s7: B.Mus
+        s8: B.Ed
+        s9: M.Sc.
+      travel: 
+        s0: "No selection"
+        s1: "Maximum 25%"
+        s2: "Maximum 50%"
+        s3: "Maximum 75%"
+        s4: 100%
+        s5: "No Travel"
+      validations: 
+        pdf: "Only .pdf documents allowed"
+    employers: 
+      confirmations: 
+        s1: "Resend confirmation email"
+      edit: 
+        s1: "Settings for"
+      form: 
+        s1: "Contact details"
+        s2: "Billing details"
+      passwords: 
+        editnew: 
+          s1: "Change password?"
+          s2: "Change password"
+          s3: "Forgotten your password?"
+          s4: "Send password information"
+      registrations: 
+        new: 
+          s1: "Errors have occured"
+          s10: "Privacy Policy"
+          s11: "and the"
+          s12: ToS
+          s13: Register
+          s14: "Already registered?"
+          s2: "For recruiters"
+          s3: "Sign in"
+          s4: "Stay signed in"
+          s5: "Forgot your password?"
+          s6: Register
+          s7: "Confirm password"
+          s8: "I accept"
+          s9: the
+      sessions: 
+        new: 
+          s1: "Errors during sign in"
+          s10: or
+          s11: "Login problems?"
+          s2: "For recruiters"
+          s3: "Sign in"
+          s4: "Stay signed in"
+          s5: Register
+          s6: "Forgot password?"
+          s7: "No account?"
+          s8: "Register here"
+      show: 
+        s1: "Settings for"
+        s2: "Company website"
+        s3: Facebook
+        s4: "Your name"
+        s5: "Phone number"
+        s6: VAT-Number
+        s7: Address
+        s8: "Edit settings"
+        s9: "Add new job offer"
+      unlocks: 
+        s1: "Resend confirmation email"
+    events: 
+      form: 
+        s1: "Errors have occured."
+        s2: "Hint: The green checkmark above allows you to preview your job offer with HTML code."
+      index: 
+        s1: "Events for Students and Graduates"
+        s2: "Read more..."
+        s3: Organiser
+        s4: Date
+        s5: Location
+        s6: "Application deadline"
+        s7: "Apply here"
+        s8: Application
+        s9: "Create new event"
+      index2: 
+        s1: "Your events"
+      newedit: 
+        s1: "Edit event"
+        s2: "New event"
+        s3: "Save time?"
+        s4: "Save time"
+        s5: "We add your event: Send us an email with the PDF or the HTML of the description to the same address as the job offers:"
+        s6: info@thestudentranking.com
+        s7: "Check our"
+        s8: Prices
+      show: 
+        s1: "Edit event"
+        s2: "Apply here"
+        s3: "Edit event"
+        s4: "Offer visible until"
+        s5: Views
+        s6: xxx
+    futurejobs: 
+      form: 
+        s1: "Your career plan"
+        s1a: "Full-time position"
+        s1b: Internship
+        s2: "Full-time position"
+        s3: "Available for internships"
+        s4: "Location and willingness to travel"
+        s5: "Yes"
+        s6: "No"
+      newedit: 
+        s1: "Your career plan"
+        s2: "Use this site to find interesting internships and well-paying jobs. Make it possible for employers to find and hire you. Employers can use our database of profiles to contact you directly and invite you to events or job interviews. You are more likely to receive offers if you indicate an interest in internships or full-time positions."
+    global: 
+      cancel: Cancel
+      delete: Remove
+      go: Go
+      save: Save
+      saved: "Saved successfully."
+      saved_changes: "Saved changes."
+      sign_in: "Sign in"
+    invoices: 
+      index: 
+        s1: "Your invoices"
+        s10: VAT
+        s11: Total
+        s12: "Created on"
+        s13: Logo
+        s14: "Delivery as"
+        s15: "Delivery as"
+        s16: "Payment from"
+        s17: Event
+        s18: "200 CV Views"
+        s19: "Account balance"
+        s2: "Status: Sponsor"
+        s20: "Please send payments to"
+        s21: "KTO: 1071232373"
+        s22: "BLZ: 39050000"
+        s23: "Institute: Sparkasse Aachen"
+        s24: Reference
+        s25: "Questions regarding your payment? Call us"
+        s26: "Telephone: 0049 2405 1402428"
+        s27: "Email: info@thestudentranking.com"
+        s28: "200 Messages"
+        s28a: "Message"
+        s29: "Job offer"
+        s3: "Services are free of charge according to our agreement. Information shown below serves as a chronological overview."
+        s4: "Current Invoice:"
+        s5: "Invoices are sent to:"
+        s6: "Change payment details"
+        s7: Payments
+        s8: Service
+        s9: Value
+    joboffers: 
+      form: 
+        s1: Error
+        s10: "Ideal qualifications"
+        s11: Benefits
+        s12: "Application process"
+        s2: "Hint: The green checkmark allows you to preview your job offer."
+        s3: "Link to application page"
+        s4: "Logo visible? (+ 10,- EUR)"
+        s5: "Prices depend on run time (30 days at 89,- EUR, 1,- EUR for each additional day.)"
+        s6: HTML
+        s7: Questions
+        s8: "Choose between answering questions or using HTML code to fill in details"
+        s9: "Role description"
+      index: 
+        s1: "Location search"
+        s10: "New job offer"
+        s11: Part-time
+        s12: Project
+        s13: xxx
+        s14: xxx
+        s15: xxx
+        s16: xxx
+        s17: xxx
+        s18: xxx
+        s19: xxx
+        s2: "Post code / City"
+        s20: xxx
+        s3: Distance
+        s4: Positions
+        s5: Full-time
+        s6: Internship
+        s7: Area
+        s8: Offers
+        s9: Location
+      index2: 
+        s1: "Your job offers"
+        s2: "No job offers registered yet."
+        s3: Edit
+        s4: Copy
+        s5: "New job offer"
+        s6: "No logo"
+      newedit: 
+        s1: "Edit job offer"
+        s2: "Hint: The green checkmark allows you to preview your job offer."
+        s3: "Show company logo"
+        s4: "No company logo"
+        s5: "New job offer"
+        s6: "Save time?"
+        s7: "Runs until"
+      show: 
+        s1: "Post code / City"
+        s10: Internship
+        s11: Area
+        s12: Education
+        s13: "Construction and Landscaping"
+        s14: Consulting
+        s15: Finance
+        s16: Research
+        s17: "Private Equity and Venture Capital"
+        s18: "Information Technology"
+        s19: "Engineering and Research Services"
+        s2: Search
+        s20: "Logistics, Transportation, Procurement"
+        s21: "Marketing, Design, Advertising, PR, Editing"
+        s22: "Medicine and Care"
+        s23: "Organization, Administration, Law"
+        s24: "Human Resources"
+        s25: "Technical Operations, Production"
+        s26: Sales
+        s27: Edit
+        s28: "Run until"
+        s29: Views
+        s3: "Back to overview"
+        s4: Favorites
+        s5: "Add to favorites"
+        s6: "Remove from favorites"
+        s7: "Edit job offer"
+        s8: "Apply here"
+        s9: Full-time
+    jobs: 
+      form: 
+        s1: Current
+        s2: "Add more information"
+        s3: "You can extend this field by using your mouse."
+      newedit: 
+        s1: "Work experience"
+    languages: 
+      form: 
+        s1: "Add language"
+      newedit: 
+        s1: Languages
+        s2: "Please provide your native language as \"fluent\"."
+    layouts: 
+      accountedit: 
+        s1: "Account edited"
+        s2: "One of our administrators has edited your account."
+        s3: "Reason:"
+        s4: "Earned credits was incorrect"
+        s5: "Grade scale was incorrect"
+        s6: "Hours invested were incorrect"
+        s7: "Please review the"
+        s8: guidelines
+        s9: "to better understand why the edit was made."
+      application: 
+        s0: "theStudentRanking.com: Receive free ranking results and great job offers from companies worldwide."
+        s1: Language
+        s10: "About me"
+        s11: "Career planning"
+        s11a: "Privacy settings"
+        s12: "My ranking"
+        s12a: "About us"
+        s12b: "Student Ranking"
+        s13: "Job offers"
+        s14: Favorites
+        s15: Events
+        s16: Contact
+        s17: Home
+        s18: "My job offers"
+        s19: "All job offers"
+        s2: "Sign in"
+        s20: "Create new job offer"
+        s21: "My events"
+        s22: "All events"
+        s23: "Create new event"
+        s24: Database
+        s25: "Search for candidates"
+        s26: "Sent messages"
+        s27: "My favorites"
+        s28: Settings
+        s29: "Company information"
+        s3: Register
+        s30: Invoices
+        s31: "Account verification outstanding"
+        s32: "Your account needs to be manually verified by one of our team members. While it is possible to create job offers and events, these will only be visible once the verification process is complete."
+        s33: "Please contact us"
+        s34: "via Telefone or Email, we'll immediately begin verifying your account."
+        s35: "The ranking"
+        s35a: "University Ranking"
+        s35b: Universities
+        s36: Recruiters
+        s37: Imprint
+        s38: "Data privacy"
+        s39: Terms of Service
+        s3a: "Login problems?"
+        s4: or
+        s40: Pricing
+        s41: Jobs
+        s42: "We will contact you to verify your account. You can already create job posts and events, these will become visible once verification is complete. CV database access is limited until then."
+        s43: "Account verification outstanding"
+        s44: Press
+        s45: Blog
+        s5: "Signed in as"
+        s6: "My account"
+        s7: "Sign out"
+        s8: "My profile"
+        s9: Settings
+    listjobs: 
+      index: 
+        s1: Favorites
+        s2: "Your saved job offers:"
+        s3: "Recommended job offers:"
+        s4: "The following job offers might also be interesting for you:"
+    messageags: 
+      errors: 
+        s1: "Please fill in all fields"
+      success: 
+        s1: "Your message has been sent."
+    messages: 
+      index: 
+        s1: "Sent messages"
+        s2: "You can search for this ID to find the matching candidate."
+        s3: Candidate
+        s4: Subject
+        s5: Message
+        s6: "Sent on"
+        s7: Delete
+    pagination: 
+      first: "First page |"
+      last: "| Last page"
+      next: Forward
+      previous: Previous
+      truncate: "..."
+    participants: 
+      edit: 
+        s1: "About me"
+      form: 
+        s1: Female
+        s2: Male
+        s3: Other
+        s4: "Not provided"
+      links: 
+        s1: "Achivement comparison"
+        s2: "Recommendations"
+        s3: "Confirmed Skills"
+        s4: "Ranking charts"
+        s5: "Friend comparison"
+        s6: "Company analysis"
+        s7: "Analysis and Suggestions"
+      profile_bars: 
+        s1: Top
+      profile_small: 
+        s1: Anonymous
+        s10: "Recommended by"
+        s11: "Provide recommendation"
+        s12: "Your recommendation was confirmed."
+        s13: "No recommendations yet. Encourage your friends to recommend you to increase your social score."
+        s14: "No recommendations yet. Sign in to provide the first recommendation."
+        s14a: "No recommendations yet."
+        s15: Points
+        s16: Skills
+        s16a: "No skills specified so far."
+        s17: Confirm
+        s18: Ask for recommendations from your friends 
+        s19: via Facebook
+        s20: via Email
+        s21: Please provide a recommendation for me on 
+        s22: theStudentRanking.com.
+        s23: This increases my chances to be found and hired by employers and you might also win an iPad mini if you sign up.
+        s24: Thanks already!
+        s2: A
+        s3: pts
+        s4: S
+        s5: St.
+        s6: "Profile for"
+        s7: X
+        s8: "This member has decided to not share more information. Recruiters can view the full profile"
+        s9: here
+      ranking: 
+        s1: "Return to profile"
+        s10: "University and Studies"
+        s100: "Analysis and Suggestions"
+        s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
+        s102: "Analysis of positive elements"
+        s103: "Your grades are excellent."
+        s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
+        s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
+        s106: "You finished school with excellent grades."
+        s107: "Your school results show a disciplined approach to exams and work."
+        s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
+        s109: "Superior language skills."
+        s11: Participants
+        s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
+        s110a: "Advice:"
+        s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
+        s112: "Many interests and skills"
+        s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
+        s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
+        s115: "You have provided service to your community and engaged yourself in a good cause."
+        s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
+        s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
+        s118: "You have multiple publications"
+        s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
+        s12: Top
+        s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
+        s121: "You received awards or prizes."
+        s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
+        s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
+        s124: "You received scholarships"
+        s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
+        s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
+        s127: "You are doing great. Keep it up!"
+        s128: Improvements
+        s129: "Lack of significant work experience."
+        s13: "Company analysis"
+        s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
+        s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
+        s132: "School grades were below average"
+        s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
+        s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
+        s135: "Study grades are below average."
+        s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
+        s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."
+        s138: "Matching job offers"
+        s139: "The following companies are interested in working with you. Suggestions are based on ranking results, studies and indicated availability"
+        s14: "Lottery tickets to win the iPad mini"
+        s140: "Click here for additional offers."
+        s141: "*Remark"
+        s142: "Results are not statistically significant. Every analysis requires a certain number of participants to increase significance. With growth in the number of participants, we expect valid results by the beginning of May 2013."
+        s143: "for you?"
+        s144: "Recommend us and take part in the iPad lottery."
+        s145: "Status update (3 Tickets)"
+        s146: "Like us (1 Tickets)"
+        s147: "Your friend"
+        s148: "theStudentRanking.com - "
+        s149: "has taken part"
+        s15: "Points (Comparison on year of birth"
+        s150: "Belongs to the best"
+        s151: "of the year"
+        s152: "has earned"
+        s153: Points.
+        s154: "The world's leading student comparison shows you your ranking position. Are you better than"
+        s155: earned
+        s156: "Points and belongs to the best"
+        s157: "of the study"
+        s158: "at the"
+        s159: "Are you even better?"
+        s16: ".."
+        s160: "The world's leading student comparison shows you your ranking position. Are you better than"
+        s161: "Find out how your colleagues have performed. What's your ranking result?"
+        s162: in
+        s163: "You have"
+        s164: tickets
+        s165: in
+        s166: Global
+        s167: Breakdown
+        s168: xxx
+        s169: xxx
+        s17: " "
+        s170: xxx
+        s171: xxx
+        s172: xxx
+        s18: "for you?"
+        s19: "We give away one brand new iPad mini among all participants. Invite your friends, earn tickets for the lottery to increase your chances and improve the quality of the ranking at the same time!"
+        s2: Points
+        s20: "Status update"
+        s21: "Like us"
+        s22: Rankings
+        s23: "All participants"
+        s24: "Ranking group"
+        s25: Points
+        s26: "Show explanation"
+        s27: Assessment
+        s28: "You earned"
+        s29: "Points and are grouped in the top"
+        s3: "Ranking worldwide"
+        s30: "The average result was"
+        s31: Points
+        s32: "Based on this result, you are ranked as"
+        s33: "far below average"
+        s34: "below average"
+        s35: "just a bit below the average"
+        s36: "an average participant"
+        s37: "just above the average"
+        s38: "a bit above the average"
+        s39: "visibly above the average"
+        s4: Studies
+        s40: "significantly above the average"
+        s41: "a great student"
+        s42: "one of the best students"
+        s43: "an excellent student"
+        s44: "an outstanding student"
+        s45: "an elite student"
+        s46: "one of the best elite students"
+        s47: "This ranking includes all participants from and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable."
+        s47c: "This ranking includes everyone who selected the same comparison group is the same age as you. Comparison groups are rather wide constructs and might include many participants with different backgrounds and career goals. Unless you already belong to the leading group in this ranking, keep in mind that your specialisation and focus during your studies will probably make you more valuable within that field - this should reflect nicely on your career chances. If you do belong to the leading group: Congratulations!"
+        s47d: "This ranking includes all participants from"
+        s47e: "which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group."
+        s48: "The system is unable to calculate your ranking position. Please provide more information about yourself, especially concerning school and university work, to see valid results."
+        s49: "Ranking:"
+        s5: School
+        s50: "Year of birth"
+        s51: "Show explanation"
+        s52: Assessment
+        s53: "You earned"
+        s54: "points and are grouped in the top"
+        s55: "The average result was"
+        s56: points
+        s57: "Compared to other participants with your year of birth, you are"
+        s58: "This ranking is based on all participants born in "
+        s59: "This ranking allows you a clearer view on possible career opportunities, especially if you are not specialized or are pursuing a popular job. If you want to increase your chances, you can specialize yourself further and earn experience through internships to become more valuable to potential employers."
+        s6: "Work experience"
+        s60: "Ranking: Year of birth, Comparison group"
+        s61: "Year of birth"
+        s62: "Comparison group"
+        s63: Assessment
+        s64: "You earned"
+        s65: "points and are grouped in the top"
+        s66: "The average result was"
+        s67: points
+        s68: "Compared to other participants of your age who have selected the same comparison group, you are "
+        s69: "This ranking is based on all participants born in"
+        s7: Languages
+        s70: "and having selected the comparison group"
+        s71: "This analysis is helpful in assessing your career possibilities, especially if you are interested in popular jobs or are not yet specialized."
+        s72: "Ranking: Your colleagues"
+        s73: "This ranking compares you to your colleagues born in"
+        s74: studying
+        s75: at
+        s76: "Invite your friends at"
+        s77: ". The more participants, the better the results"
+        s78: "Status update "
+        s79: "Breakdown of points"
+        s8: Engagement
+        s80: Group
+        s81: Study
+        s82: School
+        s83: Experience
+        s84: Languages
+        s85: Skills
+        s86: Awards
+        s87: Publications
+        s88: Scholarships
+        s89: Engagement
+        s9: "Comparison group based on year of birth"
+        s90: You
+        s91: Top
+        s92: "Example participants from groups, born in"
+        s93: "Company analysis"
+        s93a: "If you have added"
+        s94: "preferred employers"
+        s95: "you can receive a ranking comparison with other participants."
+        s96: "You can find a comparison of your own performance with that of other possible candidates below."
+        s97: "Show analysis"
+        s98: "Hide / Show"
+        s99: "Only the first ten results will be shown."
+      ranking_profile: 
+        s1: Anonymous
+        s2: of
+        s3: globally
+        s4: St.
+        s5: "Achievement:"
+        s6: "Social Score:"
+        s7: pts
+        s8: "Rank by age group"
+      settings: 
+        s1: "Privacy settings"
+        s10: "Your email address will never be shared."
+        s11: "Emails regarding the lottery"
+        s12: "How often do you want to receive emails regarding the lottery?"
+        s13: "After every event"
+        s14: "Every month"
+        s15: "Never"
+        s16: "Visible for friends"
+        s17: "Yes, my profile with my name and picture is visible to my friends and connections. I can receive recommendations and skill confirmations from them."
+        s18: "Friends can see my score"
+        s19: "Yes, my friends and connections can see my achievement and social score."
+        s2: "Event invitations, job offers and internships. theStudentranking.com wants to provide you with access to excellent opportunities."
+        s3: "Every now and then we'll send out emails with an update to your position, job offers and invitations to events."
+        s4: "Update on new position"
+        s5: "Yes, send me an email every few months when my position has changed."
+        s6: "Job offers and invitations"
+        s7: "Yes, I want job offers and invitations to events."
+        s8: "Visible for recruiters?"
+        s8a: "Visible in the ranking?"
+        s8b: "Yes, my profile with my name and picture is visible to the public in the global Student Ranking."
+        s9: "Yes, recruiters and headhunters can view my profile and send me messages about high paying jobs or interesting events."
+      show: 
+        s1: "Your profile"
+        s10: at
+        s11: Exchange
+        s12: Months
+        s13: "Add university studies"
+        s14: "2. School (secondary education)"
+        s15: Average
+        s16: "Add last school degree"
+        s17: "Add last school degree"
+        s18: "Add information about your school and study degrees to see more options."
+        s19: "3. Work experience"
+        s2: Points
+        s20: current
+        s21: "Add work experience"
+        s22: "4. Languages"
+        s23: "Add language"
+        s24: "5. Skills"
+        s25: Years
+        s26: Months
+        s27: current
+        s28: at
+        s29: "last used"
+        s29a: "ago"
+        s3: "Calculate rank"
+        s30: at
+        s31: "privately learned"
+        s31a: "Add skills"
+        s31b: "6. Awards"
+        s32: "privately learned"
+        s33: "Add awards"
+        s34: "7. Publications"
+        s35: "Add publication"
+        s36: "8. Scholarships"
+        s37: "Add scholarships"
+        s37a: "9. Interests, memberships and social activities"
+        s38: current
+        s39: Add
+        s4: "Build your profile to calculate your ranking. Every element is worth points and influences your final ranking result."
+        s40: "10. Preferred employers"
+        s41: "Add company"
+        s42: "A. Your career plan"
+        s43: "Interested in"
+        s44: "Full-time position"
+        s45: "Available on"
+        s46: Internship
+        s46a: "Next availability"
+        s47: Location
+        s48: Mobility
+        s49: "Move within your country"
+        s5: "Date of birth"
+        s50: "Not willing to move"
+        s51: "Willing to move abroad"
+        s52: "Not willing to move"
+        s53: "Willingness to travel"
+        s54: "Career plan"
+        s55: "people have confirmed this skill"
+        s6: "Interested in"
+        s7: "Your information is confidential and only visible to you and our administrators. If you want your profile to be visible to recruiters, please click"
+        s7a: here
+        s7b: "1. University studies (tertiary education)"
+        s8: Major
+        s9: Average
+      studentranking: 
+        s1: "Friends only"
+        s10: Recalculate
+        s11: "Find by name"
+        s2: "Global Student Ranking"
+        s3: Filter
+        s4: Globally
+        s5: "All backgrounds"
+        s6: "All years"
+        s7: "All years"
+        s8: of
+        s9: "You need to be connected via Facebook to recommend your friends and to easily see their ranking results."
+    prizes: 
+      newedit: 
+        s1: Awards
+    publications: 
+      newedit: 
+        s1: Publications
+    public:
+      blogs0:
+        s0: "written by Hannah Chou"
+        s1: "Internships"
+        s2: "Build your profile and your network"
+        s3: "Are you taking an internship this summer?"
+        s4: "Taking an internship in industries relevant to your studies and career planning is a good way to test the waters and gain insight into the business you are interested in. If you plan early, you can take an internship in different fields every summer to gradually build up the skills required for the job you want after graduation. For example, you can take internships in advertising, public relations and marketing each summer if you want to work in any of those fields upon graduation."
+        s5: "Through an internship, you can find out if this is really where your interest lies. If not, you might want to take other courses next semester to explore other areas that might interest you. If the internship validates your interest and career path, then take courses that will enhance your knowledge and skills in that area."
+        s6: "When applying for a job, the internship experience will increase your chances of getting hired regardless of your grades. You can sell yourself well to potential employers by establishing that you are a hands-on type of student as well as knowing the theories."
+        s7: "Between an unpaid internship that adds value to your CV and a paid part-time job that does not add value, you should take the one that adds value and increases your chances of getting your dream job. If money is an issue, take them both and try to work out the schedule with both employers. The job market is competitive, do what you can to increase your value while you still can."
+        s8: "During your internship, aim to learn new skills, maximize your strengths and get a good recommendation letter at the end of your internship."
+        s9: "Next entry: Getting that first job (Article series on how to make it happen)"
+      blogs1:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "9 short articles that help you be successful"
+        s4: "Having experienced the difficulties of the job search myself a few years ago and now knowing a bit about the hiring part as well (I hired 18 people in the last 3 months), I thought I would write the following series of articles to help you in getting that first job opportunity."
+        s5: "The economy is tough in many countries and if you are just about to graduate, getting that first job is an extremely important step."
+        s6: "Why is this first job important? Well, not only because it will pay for some of your bills, but even more so because it will allow you to gain valuable work experience in a professional environment. Advanced positions always require experience, so getting it now makes it possible to move to better positions later."
+        s7: "Let's start with the rules of the game."
+        s8: "Thanks to globalization, we are all playing in a great game together, which is slightly similar to Monopoly, Chess or Risk."
+        s9: "As a beginner in these games, you either have another player read the rules for you, or you can simply do it yourself, which should not take more than an hour."
+        s10: "However, for this new game, the rules are vastly more complex (there is a reason you can study business or economics as a full-time occupation) and it might be difficult to find someone who will explain all rules for you – people are busy. The scale is different as well. Normal games take a few hours to finish – this game takes days, weeks, months or years, sometimes decades."
+        s11: "And while the winners and losers are easily visible in most board games, the lack of transparency, feedback and advice makes it more difficult to learn quickly."
+        s12: "Six rules that will help you play - and win: "
+        s13: "Firstly, this is your game and you play alone."
+        s14: "Sure, there may be other people that are willing to help, such as your parents, friends and former professors, but ultimately it is your responsibility to play, to make decisions and to establish a strategy that makes you happy."
+        s15: "This is both scary and refreshing, as it gives you the ultimate freedom to shape your own path. Be proud of yourself, and learn how to play well – your new skills will be valuable for you, again and again."
+        s16: "Secondly, this game is incredibly flexible in terms of moves and actions."
+        s17: "You could sleep the whole day or spent eight hours writing applications, you could take up job in a golf club just to meet new people or you could stay home watching whatever seems popular right now (Note: If you do what most other people are doing, then you will become like them over time)."
+        s18: "You can choose to approach people directly or you can hope that they discover you while you are sitting on your couch. Try to explore what works and what does not, and become better over time."
+        s19: "Thirdly, this game is neither fair nor supervised. "
+        s20: "There might be hundreds of jobs that pay USD 100.000 per year for a young graduate who barely passed his studies, but that does not mean that everybody knows about them. Sometimes lack of knowledge precludes people from taking a great step forward, at other times it might be a lack of qualifications or sellable skills."
+        s21: "This means that you might be an excellent graduate with good grades and still cannot find a job."
+        s22: "Academic experience will be of very little help if you have not acquired the skills to be an independent thinker and doer or understand the rules of this game. Economies shift and countries constantly reorganize themselves for better economic performance. So can you – whatever you studied. If you live in a place that is negatively influenced by the economy and the economic, political and sociological forces at work, then it is time to look further. Humans are natural explorers, and if your chances are better elsewhere, then it might be time to move on. Go boldly and look for opportunities, not risk. You can always return."
+        s23: "The fourth rule is simple: You have value."
+        s24: "As a founder I know that there is always something that needs to be done, and I am proud to work with a great team that looks at the challenges and actively starts to solve them. It's similar to your experience when you finish your birthday party - you are just happy to have help when work needs to be done, and somehow very few people remain to help."
+        s25: "Please note that this is not a matter of experience or intellect, but to a large degree a matter of attitude. Your willingness to work and learn makes you valuable, your willingness to tackle new challenges is always positive. And if you just graduated university you will already have a set of skills and knowledge that can be used or adapted to solve similar problems currently faced by many companies."
+        s26: "Even if you have comparatively little experience, it will only take you a few weeks to become an expert on a specific task. This will happen once you know more than the others around you, take ownership of the task and complete it to a professional standard (which is a topic we will cover in the next article). Do not think that you are of lesser value because you had bad experiences during your current job search. The right person in the right place makes all the difference in the world, and if you understand your value, you will find an opportunity to contribute."
+        s27: "Rule five: You are your own company, and you need to learn how to sell. "
+        s28: "In this game, you own a company that is currently staffed with one bright person. Make sure that this person does something useful and can learn and grow into being a professional – this person is your product."
+        s29: "But even with a great product, marketing and sales are absolutely crucial to your success. If your product is nothing special (yet), then smart positioning will open doors and will give you opportunities to grow quickly. This requires a clear analysis of the market’s demands, about the qualities clients want to see and about your sales strategy."
+        s30: "Unless you are someone who offers an outstanding service that has great brand recognition (would you have hired Steve Jobs if you could? Why?), nobody will actually come looking for you."
+        s31: "You need to put yourself out there and make it easy to be found, and then actively pursue opportunities in a professional way. Assuming that you read this article on theStudentRanking, you are already working on that, which certainly is smart. "
+        s32: "But it’s not enough to be present on one channel: Look for other opportunities to be found, try to demonstrate your skills in a professional environment (ideally in front of future clients/employers) and invest time, money and effort into improving your skills. If you know nothing about sales, then read a few good sales books at a library (for free!) and create your own process."
+        s33: "How will you contact employers? How will you make it easy to be found? How will you make yourself unique and valuable to each of them? How will you actively pursue the opportunity? Sales is hard work and a great sale can take weeks, months and sometimes years before it comes to fruition."
+        s34: "Rule six: Most markets suffer from extreme inefficiencies – demand and supply rarely balance out and opportunities are often hidden or a bit outside of your comfort zone."
+        s35: "It is your job to look at the supply part: Great companies are always looking for new team members that might help them in becoming better, but these companies are not always in your neighborhood."
+        s36: "Are you willing to move? A yes here will increase the supply side and open new markets for you, especially if you already speak the languages required. Almost no employer will pay for your language courses (unless you are a soccer player), so are you willing to invest time and effort upfront to improve your chances?"
+        s37: "If you have time and a bit of money available, take a course and get certified, then demonstrate your skills during the interviews. The more effort you put in, the greater your rewards will be."
+        s38: "On the other hand, your clients will have a similar problem. They would like to hire outstanding candidates, but have problems finding multilingual 23 year old PhD’s with 5 years of work experience that are willing to work for an average salary."
+        s39: "Employers need to sell themselves and their brand as well to you, and they often invest a lot of time, cash and effort into being present on many channels to do so. Still, they might not always get that many applications - especially smaller companies with lesser known brands face this problem – and they are grateful to get to know you."
+        s40: "Approach them actively and help them to find the local optimium – you."
+        s41: "This is not just a matter of skill, but also a matter of luck: We received some great applications from very talented and experienced people during the last few days for a new position, but at that point we already completed the hiring process (and spent our budget) and our focus moved from hiring to getting things done again. So do not worry too much – luck plays a role, but if you put enough effort and love into it, the numbers will become higher and luck moves to your side of the table."
+        s42: "5 questions that will make you successful"
+        s43: "This covers some of the ground rules for the job search economics game. In the next article we will discuss how you can prepare yourself professionally for that search and answer the five key questions every graduate should have answered to be successful when it comes to the job market."
+        s44: "Next entry: 4 Questions smart candidates will have prepared"
+      blogs2:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "Where can I find happiness?"
+        s4: "It is important to understand the rules of the game and having read the first article of the series, you already know more than other graduates currently searching for their first job."
+        s5: "To improve your chances of success even further, the following articles will help you in asking the right questions that will guide you in finding and getting the ideal opportunity. "
+        s6: "Let’s start with the most important question first:"
+        s7: "Where can I find happiness?"
+        s8: "Before you start browsing job boards for opportunities, you should first clarify a few things about your character, skill set and expectations regarding the future."
+        s9: "You could certainly just apply to a few hundred jobs online and see what comes of it, but in most cases your results will be limited and even if you take one of the jobs, you might still be unhappy with your choice a few months down the line."
+        s10: "Let’s be more efficient and look at everything that makes up your personality."
+        s11: "In the most basic terms, we humans are just a funny mixture of DNA that walks upright: Some limitations, likes and dislikes are imposed by our genes, while the majority stems from our environment and the experiences we had."
+        s12: "In your case, you can certainly identify some positive and negative experiences that can help you identify your preferences when it comes to your daily work. "
+        s13: "When did you last have a wonderful and highly productive day?"
+        s14: "A day where you woke up in the morning, knew you had to do a lot during the day, then simply started working and accomplished everything?"
+        s15: "Take your time thinking about it, we’ll be waiting."
+        s16: "Okay, you found a great example."
+        s17: "Most likely, that day included both more mundane and more challenging tasks and you can certainly identify the two. "
+        s18: "Now at this point, most advice articles would tell you that you should simply look at the things you liked and did well and then find an environment where you could be doing this kind of task again and again, relying on your existing skill set to find happiness and be productive."
+        s19: "We won’t be doing that here."
+        s20: "In fact, you can even find happiness in doing jobs where you fail, hurt yourself, become frustrated with the next steps and feel totally clueless and inadequate."
+        s21: "To be honest, these kinds of jobs are perfect for you if you want to really enjoy your life and keep on growing as a person."
+        s22: "If upon your graduation you feel that your personality is fully formed and you are just looking for the right triangle-formed gap to put your triangle-formed personality inside, then you are missing out on the rest of your life."
+        s23: "Even more importantly, the ideal job that suits your current skill set could well be a death-trap that will result in deep and lasting unhappiness further down the line if you stop growing as a person while working there."
+        s24: "We are natural explorers and fitting yourself into a static and non-changing environment is something most people can’t handle really well. "
+        s25: "Instead, we will use this perfect day to look at the skills you currently have and think about how you have acquired them."
+        s26: "If you like working with people, then you most likely already have experiences working as a trainer for a sports team, a voluntary coach or just giving homework advice, you might have enjoyed baby-sitting for the neighbors or had a few experiences that generally put you into an interesting and responsible position close to others."
+        s27: "On the other hand, your very useful Excel, mathematics and programming skills were probably also developed over a long period of time when you had to fight your way through tutorials, exercises and programming tasks, alone in front of a piece of paper or your computer."
+        s28: "And after a few decades your skill set is simply the result of the things you did – not your genetic predisposition. "
+        s29: "So where is the value in your perfect day, in that example we just discussed?"
+        s30: "Going back to your job hunt and the way you can plan, you will find that this perfect day most likely was a day where you have been very busy, accomplished a lot and generally were not bored at all. "
+        s31: "At the same time, most of the work you did was meaningful for you and you also learned something – whether you did the dishes or spent some hours working on a paper, the result was a measureable change in reality. "
+        s32: "And that’s the key point of this first question."
+        s33: "Happiness in your job depends on whether you can have this feeling of accomplishment, doing something meaningful, learning new skills while using some of your existing ones, being focused on the task at hand and ideally receiving an adequate compensation (Additional salary past a certain level doesn’t influence your happiness if other things are lacking)."
+        s34: "So you are free to choose almost any kind of industry and role, even if your university education doesn’t match it perfectly, as long as the conditions above are satisfied."
+        s35: "And this considerably widens the field: Many, many jobs provide inherent satisfaction and your degree doesn’t matter that much if you are willing to learn more: Whether you work in sales (Happy customers, the thrill of the close), in management (Analyzing structures, optimizing processes, making sure that people are happy) or as a specialist (Hours of focused work on a blue print or design, just you solving the challenge at hand)."
+        s36: "Still, you might want to think about the fields and roles which are inherently interesting to you."
+        s37: "Draw up a list of possible paths that fully fit your criteria, and also draw up a list of fields and roles that you would exclude based on a total lack of skills (e.g. chemistry, medicine), personal motivation (accounting?) and meaningfulness."
+        s38: "Most importantly, think about the person you want to become and identify fields where you can learn the skills this person should have."
+        s39: "If something seems slightly too difficult or out of your reach, then I would still advise you to include it on your list – this is exactly the kind of challenge that will make you grow, and ideally you will end up with multiple categories that are interesting for you."
+        s40: "Why is this list important? "
+        s41: "Because you will find that you lack a lot of knowledge and information at this stage."
+        s42: "There could be twenty different options, and having more information about these paths would be highly valuable to you."
+        s43: "This leads us to the next step: "
+        s44: "Learning more about the opportunities that exist."
+      blogs3:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "Which opportunities should I pursue?"
+        s4: "I had about 12 different work experiences before I graduated."
+        s5: "Apart from delivering newspapers and teaching English, I also worked as a secretary for a school, produced light bulbs in a factory, packaged sweets in a warehouse, trained children and adults in Taekwondo, was the night manager for a hotel, sold website design services, earned money doing data entry for the pharmaceutical industry, had an internship as a translator, worked in sales selling software licenses and did some consulting for a startup."
+        s6: "And all of these experiences helped me in understanding the kind of challenges that employees and companies meet when trying to be successful in that industry."
+        s7: "Going back to the earlier article about happiness, you already know a bit about certain industries, and are probably fairly clueless about many others. "
+        s8: "This is perfectly fine. "
+        s9: "There are thousands of options, and it’s impossible to know everything. "
+        s10: "But if you want to find a great, well-paying job, then the first thing you might want to do is expand your knowledge base and understanding the existing industry is a key part of that task."
+        s11: "Evaluate your options before you start applying. "
+        s12: "A good application takes a bit of time, and after thinking about question one you should have multiple paths, roles and industries open to you – you certainly don’t want to waste time sending applications for jobs that are not worth your time."
+        s13: "To make things easier, we can classify industries by their maturity."
+        s14: "Are they growing, mature and stable or in decline?"
+        s15: "Let’s look at growing industries first. "
+        s16: "These hot and sexy industries are often centered around information, bio- and energy technology that require a certain skill set (currently highly in demand) from each applicant."
+        s17: "These industries are highly appealing even if you do not belong to the group of engineers that design and build the products, but instead you could provide valuable services that help these companies become more successful."
+        s18: "Whether you are an educator (run their kindergarten or support the management division), have studied psychology (metrics-based HR) or design (User interface design, layouts, process knowledge), your skills are in demand if you can adapt your current knowledge to the relevant requirements in that industry."
+        s19: "Companies in this sector have the steepest learning curves – you will quickly learn about HTML, RNA and Betz CP values, and quite often there are many new concepts that are not even defined yet."
+        s20: "The biggest advantage for you, career wise, lies in the freedom and the growth that is common in these industries."
+        s21: "Freedom in terms of how to perform certain tasks - nobody else did it before - is coupled with rapid personal and financial growth if you succeed in providing value for the company."
+        s22: "Quite often, salary schemes will be flexible and coupled to stock options, which might result in a lower base salary, but a higher chance to profit when the company grows."
+        s23: "In addition, your chance to advance internally and within the industry is higher in growing fields, as turnover is generally higher and demand for skilled candidates large – not even including the fact that your success is to a large part dependent on your personal contribution."
+        s24: "Startups and small- and medium sized enterprises can move quickly depending on market needs and your ideas, which is something that is much more difficult in larger companies."
+        s25: "If you are looking for a higher-risk, higher-reward relationship to your job, join a startup in a hot field."
+        s26: "You might even want to accept a lower salary initially to receive the chance to create your own role and position inside the organization – and to benefit further down the line when that company grows. "
+        s27: "Stable and mature industries tend to be less exciting, but are a safer bet."
+        s28: "Organizations active in them often have organized unions, regular work hours and a good or at least predictable entry salary and career progression attached."
+        s29: "If you want stability for your family, then look for opportunities in these fields."
+        s30: "Whether it is banking, chemistry, pharmacy, education (not sure whether that one will stay stable, especially at the university level), accounting, tax advice or certain types of engineering, you can expect a regular amount of turnover and opportunity."
+        s31: "Most university courses and classes are tailored to provide you with insight into these kinds of positions and your qualifications should match their demands well."
+        s32: "The largest disadvantage here is the size of the companies and the amount of bureaucracy and politics attached. "
+        s33: "If you feel happy working in a regulated and predictable environment with limited freedoms, then this is not a problem – but please note that your career progression might depend more on the fact that someone above you is leaving than your own personal achievements."
+        s34: "This leaves the declining industries."
+        s35: "Don’t let yourself be fooled by the attractiveness of the hot and sexy growth industries – even if an industry might be in decline, your personal opportunity might still lie there."
+        s36: "It can be very profitable to become a specialist in a slowly shrinking industry – especially if many people retire and few people are qualified to replace them."
+        s37: "These industries are generally easy to recognize, especially if you have studied something related to that field: You might have been one of a select few students in your courses – a friend of mine studied in a course with just one other student, prompting the professor to change the lectures to cup-of-coffee talks in his office."
+        s38: "However, you need to be careful to not end up with a skill-set that is not transferable when that industry shuts down completely. "
+        s39: "You might also be surprised by the speed of the final decline, especially if you intend to work in a highly unpopular industry whose fate is largely decided by politics, such as nuclear energy, pharmaceutical or space technology (NASA/ESA come to mind)."
+        s40: "If that declining industry is profitable, then you might still earn a good or even very good salary – but as the market is shrinking, the opportunities for advancement will become smaller and smaller."
+        s41: "And don’t even think about rocking the boat – once an organization is dedicated to providing a certain kind of service (especially if it’s highly regulated as well), then your opportunities to be creative and to build your own path are extremely limited."
+        s42: "Still, if you have a certain liking for older technologies or think you found an opportunity, then I can only suggest that you at least check out the options."
+        s43: "At the very least, you will gain valuable experience and can always try to improve your transferable skill set (which we will discuss in another article) while you are on the job."
+        s44: "You should analyze for yourself whether the industries accessible to you are growing, mature or in decline and whether entering one of them is worth your time and effort."
+        s45: "Sure, you could earn money in all of them, but investing years of your life without growing personally and becoming more valuable doesn’t seem smart."
+        s46: "Choose wisely and try to learn as much as possible."
+        s47: "Ideally, you create a list of open questions which should be answered for all industries and opportunities. "
+        s48: "You can then start finding answers to these questions by following the easy road: Look at the company websites, read industry reports and job reviews, and try to find additional information on the internet."
+        s49: "An even smarter approach requires a bit more effort, but will yield much larger rewards: Speaking with the experts."
+        s50: "If you are interested in an industry where your knowledge is limited, then informing yourself first via the existing sources and then moving into personal interviews is one of the best paths to take. "
+        s51: "Sort all the information you have, then write down additional questions that are only answerable by someone who works or worked in that industry or role. "
+        s52: "Once you have a list of 10-15 good questions, start looking for people in your network (see the network article) and reach out to them."
+        s53: "Whether you speak with your parents, grandmother or your neighbors’ grandmother doesn’t matter, as long as your get to connect with someone who really knows the industry and is willing to help."
+        s54: "And you will find that many people are willing to answer your questions if you are prepared, polite and focused on what you want to find out."
+        s55: "Build yourself a list of contacts that could help you out, then write or call them."
+        s56: "Simply ask for 10-15 minutes of their time to listen to their advice regarding your career choices."
+        s57: "Even better, invite them for lunch (at their work or at a restaurant close to it) and meet them in person."
+        s58: "If you are lucky, they might bring a colleague and you can build your connections within that company even further."
+        s59: "You are going to work for the next 40 years or more, so investing a few weeks in this kind of information gathering won’t hurt – especially if it results in a great job offer and a happy and rewarding position afterwards."
+        s60: "If you do this correctly, you will quickly have a good insight into the industry and roles that are available to you – which brings you to your next step: "
+        s61: "What are your limitations?"
+      blogs4:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "What will you do for your career?"
+        s4: "Upon my graduation, I had to make a life-changing decision: Do I want to work in Germany, close to my family, or move abroad to Norway, the UK or even Australia, possibly damaging my relationships at home forever? "
+        s5: "Which countries are close enough to qualify as home, how much travel is too much? "
+        s6: "Not an easy choice to make when you are focused on both enjoying life and building your career - with the economic necessity nowadays, a choice that many are facing."
+        s7: "If you are about to select your first job, you might want to think about the things that constrain and anchor you."
+        s8: "I knew that being abroad for a few weeks might be fine, but moving completely to the other side of the planet was too much for me – at least at that point in time."
+        s9: "So I made my decision."
+        s10: "This allowed me to greatly limit the search space for my career (Australia was right out, even though mining jobs are offering crazy salaries and benefits) and I looked at everything that was within a few hundred kilometers of my hometown, checking travel times, career opportunities and salaries and taxes and benefits for dozens of industries and offers."
+        s11: "However, it is important to first widen your search space as much as possible, before you start introducing your constraints – in the last article, we spoke about the data gathering phase, and unless you know what kind of opportunities await a bit further ahead, it might be premature to close doors."
+        s12: "But now that you know about the status of industries and roles globally, you can start filtering. "
+        s13: "What are you willing to do?"
+        s14: "Where are you willing to go, what kind of job are you willing to do?"
+        s15: "Do you want to party or be home early every day?"
+        s16: "Or can you go all-in, drop yourself into a 60 hour a week burn-out type of position (not necessary to burn out, but we talk about that later). "
+        s17: "Are you willing to travel daily, weekly or every few months?"
+        s18: "Do you think that your language skills might make you more valuable in other countries?"
+        s19: "If yes, which countries interest you, and in which countries are you willing to move?"
+        s20: "Especially as an EU citizen, moving abroad is fairly easy, but you might need to learn a new language and leave family and friends behind. Are you willing to do so?"
+        s21: "This is not something you can do quickly and without discussions."
+        s22: "Especially if you already have a family or want to move together with your partner, you might need to dedicate some time to this discussion."
+        s23: "The biggest risk when moving abroad as a couple is not related to your own feelings."
+        s24: "Instead, it’s the happiness of your partner that often suffers if the partner doesn’t have career options or a good social network."
+        s25: "You might also want to discuss various timelines and think about your moves as an experiment."
+        s26: "Just try it for a year and keep your options open."
+        s27: "When you think about your constraints, you might also want to think about risks."
+        s28: "What’s the worst that could happen?"
+        s29: "Are you afraid of losing your position in the local soccer team (This is a common concern for many students I have met)? "
+        s30: "Are you afraid of disappointing people that have come to rely on you to structure their day or that need your help with some tasks? "
+        s31: "Could you end up stranded, lost and confused and with nobody to go to when you move to New York? "
+        s32: "Certainly, there are risks, but not all of them have to be constraints."
+        s33: "The correct way to handle risks is to analyze them: Find out whether their occurrence is likely (low, medium, high) and what kind of damage they would cause (low, medium, high, fatal)."
+        s34: "What will you do to mitigate the damage if that risk becomes reality? "
+        s35: "How can you minimize the chance of it becoming real?"
+        s36: "In my job search, I spent a good deal of time thinking about what would happen if I didn’t like the town I moved too. "
+        s37: "I want to bring my family?"
+        s38: "If they changed jobs to follow me, would they be able to go back?"
+        s39: "Analyzing this problem on the two levels mentioned above (minimize/mitigate) will help you in finding a good balance between constraint and opportunity. "
+        s40: "It would be sad to close the door to a great chance because you overestimated a risk – or because you didn’t invest a bit of time in finding a workaround."
+        s41: "As with many things, a professional approach will help you out here (hey, you are ready to become a professional, so start early!), so take your time in drawing a risk table for the various options and review it with friends and family.  "
+        s42: "You will be surprised how many solutions you find – and be much more motivated to actually pursue the opportunities you really want."
+        s43: "This review will leave you with a greatly limited list of opportunities, but most of these should be highly interesting."
+        s44: "How do you now identify your priority in preparing yourself for these roles?"
+        s45: "Our next article helps you find the best opportunity - quickly."
+      blogs5:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "Why aim for the difficult jobs?"
+        s4: "Nothing is worse than wasted talent – which brings us to the true story of Sandra and Mr. Badger. "
+        s5: "Sandra just finished her B.Sc. in Business."
+        s6: "She is a lovely young lady who, at 23, already has this relaxed and bubbly kind of character that makes her likeable at first sight. "
+        s7: "She cares about the things she does – whether she is baking a cake or listening to a friend – she takes care and is nice."
+        s8: "But now that she is about to apply for her first job in accounting, she begins to despair: There are only five entry-level positions open in her town, everything else requires a year or two of experience, which she obviously doesn’t have."
+        s9: "And trying to be correct, she applies for these five positions – and only for them, which is quite sad for Mr. Badger."
+        s10: "Mr. Badger runs human resources for a mid-sized soap manufacturer."
+        s11: "He is 51, a grizzly veteran who worked his way up and who has seen quite a bit in his 30 years on the job. "
+        s12: "A man who has seen both stellar performers (and quite often helped them get a chance to be stellar) and horrible failures (and quite often had to deal with the aftermath). "
+        s13: "And right now, he has to clean up a bit – the department head from accounting just left and took two people with him to another company (producing gearboxes, luckily – not a direct competitor)."
+        s14: "Filling the department head position is difficult enough, but finding someone to fill the other roles will also take some time: Ads are posted, and slowly, oh so slowly, a few applications come in. "
+        s15: "Unfortunately for Sandra, the job offer she has seen required “a few years” of experience in accounting and “confidence in dealing with senior level executives” – and she didn’t apply. "
+        s16: "For those in the know: Yes, accounting is difficult."
+        s17: "And having a few years of experience certainly helps when compiling the books."
+        s18: "So maybe Sandra did well in not applying for that role – but we will never know, because Mr. Badger never had the chance to review her application."
+        s19: "But if he would have gotten it, he would have reviewed it."
+        s20: "By hand. In silence."
+        s21: "Especially after Sandra would have put a lot effort into writing a wonderfully matching application letter describing her experiences and why she would be a good fit. "
+        s22: "And he would have seen that Sandra has been the accountant for her boyfriend’s soccer club and that she finished her studies with good grades and did an internship of six months already."
+        s23: "That the tone of her letter was very nice, friendly and charming – and that she would like to talk a few minutes on the phone with Mr. Badger."
+        s24: "And maybe they would have talked about the position and the expectations Mr. Badger has for that role. "
+        s25: "And maybe, just maybe, Mr. Badger would have asked her about the accounting she did (you can bet your mouse that he would have), and he would have told her something about what would be expected in the role, and he would have told her that she could work her way up, and he would certainly have liked to meet her in person and introduce her to the colleague who now is alone in the accounting department."
+        s26: "And then they would have met and her charm and experience would have convinced him. "
+        s27: "Because honestly: One or two years of experience – stellar performers may catch up to this level in a few months, if they really care."
+        s28: "And Sandra would have cared, because this is what Sandra does."
+        s29: "Unfortunately, all of this didn’t happen, because Sandra never applied."
+        s30: "And that’s sad, because Mr. Badger’s company would have been ideal for Sandra."
+        s31: "But what could he have done?"
+        s32: "Nothing, really, except lowering the requirements in the job ads, and then receive a lot of not-that-motivated application letters from people who don’t care."
+        s33: "But you care."
+        s34: "And that’s why you should prioritize your applications to apply for the difficult jobs first."
+        s35: "If they don’t accept you, they at least have seen your CV."
+        s36: "And if there is an entry-level position, they will likely tell you, because the same HR person is likely to know his area pretty well."
+        s37: "There is another benefit: If you apply for the normal roles, you feel like this is an exchangeable opportunity."
+        s38: "A start, an entry. Nothing more."
+        s39: "But ah, the exceptional role? "
+        s40: "That demands exceptional effort."
+        s41: "And you are willing to go the extra mile (don’t write that on your CV – show that you are doing it!). "
+        s42: "You will research the role. The company. The hiring manager, the HR person. And you will send them a nice email, asking for the right things (see that article), and maybe they will speak with you on the phone."
+        s43: "And then you will either be a good fit for this opportunity, or they might offer you something else, but at least you are connected and you have a chance."
+        s44: "And if that doesn’t work, and you went through all the advanced roles and applied for them, then you should have a network of decision makers."
+        s45: "People you spoke with, people who like you and people who might want to hire you for another role."
+        s46: "And you can still apply for the entry level roles."
+        s47: "Nothing ventured, nothing gained. Prioritize the best things first – and aim higher than you think you should."
+        s48: "And what happened to Sandra? In real life, she did apply and later became a managing director, leading a whole department of 600 employees at the age of 27."
+        s49: "You could be another Sandra. But only if you care. And try."
+      blogs6:
+        s0: "written by Michael Schmitz"
+        s1: "Blog"
+        s2: "Getting that first job"
+        s3: "title"
+        s4: "xxx"
+        s5: "xxx"
+        s6: "xxx"
+        s7: "xxx"
+        s8: "xxx"
+        s9: "xxx"
+        s10: "xxx"
+        s11: "xxx"
+        s12: "xxx"
+        s13: "xxx"
+        s14: "xxx"
+        s15: "xxx"
+        s16: "xxx"
+        s17: "xxx"
+        s18: "xxx"
+        s19: "xxx"
+        s20: "xxx"
+        s21: "xxx"
+        s22: "xxx"
+        s23: "xxx"
+        s24: "xxx"
+        s25: "xxx"
+        s26: "xxx"
+        s27: "xxx"
+        s28: "xxx"
+        s29: "xxx"
+        s30: "xxx"
+        s31: "xxx"
+        s32: "xxx"
+        s33: "xxx"
+        s34: "xxx"
+        s35: "xxx"
+        s36: "xxx"
+        s37: "xxx"
+        s38: "xxx"
+        s39: "xxx"
+        s40: "xxx"
+        s41: "xxx"
+        s42: "xxx"
+        s43: "xxx"
+        s44: "xxx"
+        s45: "xxx"
+        s46: "xxx"
+        s47: "xxx"
+        s48: "xxx"
+        s49: "xxx"
+        s50: "xxx"
+        s51: "xxx"
+        s52: "xxx"
+        s53: "xxx"
+        s54: "xxx"
+        s55: "xxx"
+        s56: "xxx"
+        s57: "xxx"
+        s58: "xxx"
+        s59: "xxx"
+        s60: "xxx"
+        s61: "xxx"
+        s62: "xxx"
+        s63: "xxx"
+        s64: "xxx"
+        s65: "xxx"
+        s66: "xxx"
+        s67: "xxx"
+        s68: "xxx"
+        s69: "xxx"
+        s70: "xxx"
+        s71: "xxx"
+        s72: "xxx"
+        s73: "xxx"
+        s74: "xxx"
+        s75: "xxx"
+        s76: "xxx"
+        s77: "xxx"
+        s78: "xxx"
+        s79: "xxx"
+        s80: "xxx"
+        s81: "xxx"
+        s82: "xxx"
+        s83: "xxx"
+        s84: "xxx"
+        s85: "xxx"
+        s86: "xxx"
+        s87: "xxx"
+        s88: "xxx"
+        s89: "xxx"
+        s90: "xxx"
+        s91: "xxx"
+        s92: "xxx"
+        s93: "xxx"
+        s94: "xxx"
+        s95: "xxx"
+        s96: "xxx"
+        s97: "xxx"
+        s98: "xxx"
+        s99: "xxx"
+        s100: "xxx"
+
+        
+        
+        
+        
+                
+      agb: 
+        s1: "Terms of Service"
+        s10: "1. Students, graduates and young professionals can use this site free of charge."
+        s11: "2. Services rendered to companies are priced according to individual agreements in writing or our published"
+        s12: "list of prices."
+        s13: "4. General usage"
+        s14: "1. The minimum age for using our website and services is 18. You are allowed to use this website under parental supervision if you are younger."
+        s15: "2. Every user is responsible for the content published by him or her. Submitted details, especially concerning the ranking profile, must be legal, correct and valid. Erroneous, invalid or fraudulent profiles can and will be edited or removed."
+        s16: "3. By submitting your profile, you allow us to share your profile and data with site visitors, our partners and recruiting companies. You can change certain sharing contact preferences in the account settings."
+        s17: "4. You are free to use our site and services for your own personal, but not commercial, requirements. This especially concerns the ranking profile"
+        s18: "5. Rights to commercial use are provided on written request in written form."
+        s19: "5. Conditions for Recruiters and Employers"
+        s2: "This page describes our terms of service."
+        s20: "1. You are responsible for the security of your account, your profile and your passwords. Sharing your password and access codes with third parties, whether for a limited or unlimited duration, is not allowed. You are responsible for the usage and fees associated with your account, whether you have authorized usage by third parties or not. You are responsible of informing us once you notice unauthorized access."
+        s21: "2. Every company may have one account on the site. Multiple accounts and logins are not allowed unless explicitly agreed on in writing."
+        s22: "5.1 Job offers"
+        s23: "1. Job offers are priced according to our price list and will be charged to your account once you create a new premium job offer."
+        s24: "2. Job offers may not contain unauthorized elements such as foreign trademarks, logos, damaged or damaging links, unreadable or hidden keywords, damaging code or the names, logos and trademarks of companies, organisations, institutions or countries, which are not connected to the job offer, multiple job offers or incorrect or misleading information."
+        s25: "3. Job offers that violate any of the conditions can be edited or removed without notification, especially if they are contrary to the spirit of our platform."
+        s26: "4. You can freely decide the duration of the job offer by providing a final expiration date. Expired job offers will not be shown in the general search but can still be reached via their original url."
+        s27: "5. Job offers may be submitted via email. We automatically assume an expiration date of 90 days if no other information is provided. "
+        s28: "5.2 Events"
+        s29: "1. Events are priced according to our price list and will be charged to you account once you create a new event."
+        s3: "The foundation for mutual cooperation is trust and clear communication. We want to provide a valuable service to your company and create a mutually beneficial partnership. Lack of clarity or information is therefore best resolved through direct communication via email or telephone."
+        s30: "2. Events may not contain unauthorized elements such as foreign trademarks, logos, damaged or damaging links, unreadable or hidden keywords, damaging code or the names, logos and trademarks of companies, organisations, institutions or countries, which are not connected to the event, multiple events at once or incorrect or misleading information."
+        s31: "3. Events that violate any of the conditions can be edited or removed without notification, especially if they are contrary to the spirit of our platform."
+        s32: "4. You can freely decide the duration of the event by providing a final expiration date. Expired events will not be shown in the general search but can still be reached via their original url."
+        s33: "5. Events may be submitted via email. We automatically assume an expiration date of 90 days if no other information is provided. "
+        s34: "5.3 CV Database"
+        s35: "1. The database of students is available to recruiters and employers looking to hire new colleagues. Access to the database allows full insight into the candidates profile. Viewing and saving this candidate information via our system for usage within your company is explicitly allowed.  Using to information for any other reason than hiring/informing about events is not allowed."
+        s36: "2. Financial advisors or insurance brokers are not allowed access to our database for the purpose of direct advertising. These companies are allowed to invite students to hiring events or to provide them with job offers. Events may not include \"Financial advisory events\" or \"Application trainings\" with sales intent."
+        s37: "3. Access to the database requires a yearly fee. Please see the price list for current pricing."
+        s38: "4. Writing candidates found via the database incurs costs. Please see the price list for current pricing."
+        s39: "5. Sending candidates multiple messages with the same content or content not connected to events or hiring is not allowed. SPAM is not allowed."
+        s4: "1. Area of application"
+        s40: "6. Profile information provided by visitors might be invalid, incorrect or fraudulent. We are not able to certify the validity or correctness of this information, especially on non-verified profiles. Our team regularly reviews profiles inside our database and filters and removes erroneous and invalid data. However, we cannot certify 100% validity."
+        s40a: "5.4 Partnerships"
+        s40b: "Country, language or global partnerships include services as described in our price list and are generally valid for one year. Partnerships can be cancelled at any time and will then automatically terminate at the end of the year. If the partnership is not terminated before the contract ends, it is automatically extended for the same period."
+        s41: "5.5 Invoicing"
+        s42: "1. We invoice for provided services on the first day of the following month. The invoice will be provided via email or, upon request, via mail. The payment is due within 14 days. Payment at a later date incurs late payment fees of 5% per month."
+        s43: "2. Recruiter accounts are limited after signup and need to be verified by a member of our team. This requires correct invoicing details and company information. Missing information might lead to account closure."
+        s44: "5.5 Availability"
+        s45: "1. The availability of the system is limited. We strive to provide a 99.9% uptime. Maintenance and unexpected events might lead to periods of unavailability."
+        s46: "6. Communication"
+        s47: "1. Registered users may receive emails from us with job offers and invitations to events. Should you not be interested in receiving these messages, then you can change your communication preferences in your account settings."
+        s48: "7. Limitations"
+        s49: "Invalidity of a single contractual clause does not invalidate the rest of this contract."
+        s5: "1. Your usage of this website and services requires acceptance of the full terms of service. Alternative terms or clauses are rejected herewith."
+        s6: "2. Contractual agreement"
+        s7: "1. Using this website as visitor (student, graduate or young professional) requires you to submit some of your details to our database and systems. The submission of your data is governed by our privacy agreement. "
+        s8: "2. Companies use our site after registration and verification. Registration and verification do not incur costs. Costs are incurred for the posting of premium job offers, events or for database access. Costs are incurred once you click the button \"Save\" on job offers and events, and when you click on \"Acquire access\" for the database and \"Send message\" when contacting a candidate"
+        s9: "3. Costs"
+      datenschutz: 
+        s1: "Privacy policy"
+        s10: "Disclosure to outside parties"
+        s11: "We do not provide personally identifiable information to outside parties, unless this is required to perform our services to you. We will share information with law enforcement only if we receive a binding court decision (in Germany) requesting us to do so."
+        s12: "Collection and use of children's personal information"
+        s13: "Individuals younger than 18 should not transmit their personal information to us without obtaining legal consent. We will not knowingly ask children and adolescents to provide this kind of information and would encourage them to wait with using our service until they are older."
+        s14: Cookies
+        s15: "This page uses cookies. Cookies allow us to log you into the page without requiring a password. You can also use our website without using cookies, but we expect that the user experience will be impaired then. You can turn off cookies in your browser settings."
+        s16: Email marketing
+        s17: "Registration in our system requires acceptance of our Terms of Service. Recruiters and other companies working with us are sometimes interested in contacting you directly via email to provide you with job offers or invitations to events. If a recruiter wants to talk to you individually, then they can also send you a message via email. Your email address is kept secret by us - our partners' offers are simply forwarded by our system. If you are not interested in receiving messages or job offers, then you can change your communication preferences in your account settings."
+        s18: "Google Analytics"
+        s19: "Our website uses Google Analytics, an analysis service provided by Google Inc. (Google). Google Analytics uses cookies, text files saved on your computer, which make it possible to track the number of visits, the duration of your stay and the kind and number of pages viewed. This information is sent to a Google server in the USA and stored there. This tracking requires you IP address, which is shortened and not stored in full form. The full IP is only transmitted rarely and then shortened on Google's servers. Google will use the stored information to evaluate the usage of this website, to generate anonymized reports about site usage and to provide additional reporting services for us. Your transferred IP address is not cross-linked with other data you provide to Google on other sites or services. If you don't want to use cookies, simply turn them off in your browser settings. This might lead to decreased functionality. You can also install a plugin for your browser to opt-out of submitting your data, the link for the plugin is http://tools.google.com/dlpage/gaoptout?hl=en."
+        s2: "This page describes our privacy policy. We take data protection seriously - if you are concerned about your data, please contact us at any time with your questions. We will use your data to render the services you visit us for, to optimize and manage our system, and will never share your data (e.g. email, address, name) with anyone else unless required by law."
+        s20: "Is data transferred abroad?"
+        s21: "Some of our servers are located in other European countries (e.g. Ireland) and in the USA. Some of your data can therefore be transferred abroad. We carefully select providers with a very high standard of service and focus on protecting your data at every step: All used providers adhere to the current laws regarding data protection."
+        s22: Facebook plugins
+        s23: "Our website uses plugins provided by Facebook, 1601 South California Avenue, Palo Alto, CA 94304, USA. Facebook plugins are recognizable via their logo (the small letter f) or the thumbs-up like button. You find more details about those plugins at: http://developers.facebook.com/docs/plugins/ Visiting our website will result in a direct connection between your browser and the Facebook server. Facebook therefore has access to certain pieces of information, such as your IP address. Clicking the like button while being logged in will post certain information about our site to your Facebook profile, allowing Facebook to make a connection between your account and our site. theStudentRanking.com Gmbh does not have information about the usage of this information through Facebook. You can find more details about Facebook's privacy policy here http://de-de.facebook.com/policy.php If you don't want to be tracked via Facebook, then simply log out of your Facebook account while you are visiting our site."
+        s24: "Security measures"
+        s25: "We have used multiple advanced measures to protect your personal information from unauthorized access. These measures are regularly revised and updated once better solutions become available."
+        s26: Links
+        s27: "This website provides links to other pages. Clicking these links leads you to other pages provided by other organizations, which might track your IP address as well. This privacy policy covers our web site only, not the web sites provided by other organizations."
+        s28: "Additional information"
+        s29: "You can always receive information about your stored data by contacting us. You are free to request data or account deletion at any time and can also request that we ignore your data when optimizing our services. Please use the contact details provided in the imprint or the feedback form on your right to do so."
+        s3: "Your privacy is important to us and we have focused to build a safe and secure system that protects your privacy. We adhere to the strict German laws regarding data protection and privacy and all of our employees understand and have explicitly committed to protecting your data."
+        s30: Deletion
+        s31: "Your account and data is deleted once you have requested us to do so, barring legal and tax reasons."
+        s32: "Questions and availability"
+        s33: "Questions can be directed to the founder via the information in the imprint or through the feedback form on your right."
+        s34: ""
+        s4: "Information on this page has been carefully curated. The complexity of the topic still makes it impossible to cover all imaginable situations. We therefore cannot accept responsibility for damages caused by using this site. Visiting the site as an unregistered user does not lead to a contractual agreement between the visitor and our company."
+        s5: "Data"
+        s6: "Our privacy policy covers your personal data. According to German law (§ 3 Abs. 1 BDSG) this covers individual data about personal features of an identifiable real person. This includes, but is not limited to, individual data such as your name, address, email or phone number and your IP when visiting the site."
+        s7: "What do we use your information for?"
+        s8: "Providing your data is generally not required when visiting the site, unless you want to use specific services that require this data: The ranking for example is difficult to perform without knowing about your degrees and grades, for example. We will use your data to provide the service you request and will also rely on that data to improve our services further. This includes, for example, a statistical evaluation of all visitors on the site to better optimize the speed of the page. We will also use this information to identify accounts and close that impair the user experience for other visitors."
+        s9: "In this context, it is important to note that transmitting information via the internet is (e.g. via email) is not always 100% private. Sensitive information should therefore be only transferred via a secure connection. We do not gather your email, name, address or phone number unless you provide it to take part in the ranking or use other services, to facilitate communication between us or possible employers (if you indicated interest in doing so). Your personal information is stored according to German laws."
+      employerindex: 
+        s1: "Dashboard for"
+        s10: "There are"
+        s11: "participants in our database"
+        s12: "Saved candidates"
+        s13: "Search database"
+        s2: Bill
+        s3: "Show billing details"
+        s4: "Job offers"
+        s5: "Job offers in system "
+        s6: "Create a new job offer"
+        s7: "Events in system"
+        s8: "Create a new event"
+        s9: "CV Database"
+      faq: 
+        s1: "Frequently asked questions"
+        s10: "5. How do you score my grades? Is it better to have more A’s or to have more internships?"
+        s11: "We use an algorithm that relies on the hours invested in an activity to calculate a total point value. Certain achievements, such as your university and secondary school grades, carry an additional multiplier that increases the total value and make this achievement more important for the final result. However, internships can also provide quite a few points, so if you are choosing between spending the summer watching TV and doing an internship, the internship is definitely the way to go."
+        s12: "6. Any tips for students who want to lead in the ranking?"
+        s13: "Leading students in general have good grades, a few internships and well-rounded social and language skills. This is normally the result of a steady and regular investment in their skills. Just think about your interests and then pursue activities that are worthwhile in that field. Whether you work part-time, do an internship or add additional coursework, you will quickly move up in the ranking and make your profile more attractive."
+        s14: "Another tip: Business life is a marathon, not a sprint. If you want to sustain high performance, you need to treat your body and brain perfectly. When you are getting tired and unfocused, go to sleep, as this is what your body needs. And once you wake up again, work on creating something useful. This will not only lead to a good ranking result, but also to a happy and fulfilled life."
+        s15: "7. The quality of education and grade scales in general differ between countries. How does the system reflect that?"
+        s16: "There is a huge diversity in grade scales and the levels of teaching, not only between countries, but even within individual countries. Our ranking system cannot evaluate every single course and the quality of the education provided by each school. We do, however, look at the average grades that students from each university have earned and provide this information on the university ranking page to discourage grade inflation. Globally, grade inflation may lead to slightly skewed results between countries, but once you narrow down the ranking to the national level, the picture should be a bit clearer. In terms of hiring, employers generally evaluate candidates’ educational backgrounds and grades earned according to their past experience. Having “average” grades in a difficult field of study is still seen as very positive."
+        s17: "8. Do I have to provide any certificates to verify my profile?"
+        s18: "We do not require certification to take part in the ranking. Employers, however, will generally prefer a complete profile that includes uploaded transcripts and additional documentation, and our ranking also provides a slight bonus for verified candidates. Once employers contact you, they will inquire about your skills and normally demand to see the original documents. If candidates are unable to provide them on request, then this normally leads to termination (even after contracts are signed) and may even result in legal proceedings."
+        s18a: "9. Is my position in the ranking visible to friends, colleagues, and other users?"
+        s18b: "Your information is private if you wish. You can always manage the visibility of your profile in your account and can change your preferred settings at any time."
+        s19: "10. What happens with my data?"
+        s2: "1. How can I participate in the ranking? Do I have to pay for being ranked?"
+        s20: "You are in control of your data. If you want to be found by employers and receive job offers from employers, then you should allow employers to view detailed information. If you would like to be invisible to the public on the global student ranking page, then it is easy to change the settings to hide your information."
+        s21: "11. Is it worth it to cheat the system?"
+        s22: "Not really. It’s probably possible to lead in the ranking for a while until the account becomes flagged, modified or banned. The system has some built-in measures to find and flag suspicious accounts. Once an account is flagged, it will be invisible to others, and only the user and our administrators can see it. Upon review, our administrators will release the account, request you to verify certain information, and modify or ban the account. And Employers will generally want to see the originals of all transcripts before hiring someone. On top of that, fabricating documents is fraud and can lead to legal actions."
+        s23: "12. What can I do if I do not agree with my position in the ranking?"
+        s24: "If you think that the system lacks a key measure of your achievements and should be modified to include them, send us an e-mail. Our team regularly reviews ideas and we will adapt the system based on good suggestions – this might take a few days. If you would like to earn more points in general, feel free to add more details about yourself, and don’t forget to upload certificates."
+        s25: "13. Can the platform help to fight unemployment in my country?"
+        s26: "Yes, because information is key. High unemployment is strongly correlated to the low availability of information about job opportunities coupled with willingness to relocate. If candidates from COUNTRY are willing to move to other places that provide better economic conditions, then our platform facilitates that through the global ranking system."
+        s27: "14. How much does the ranking cost?"
+        s28: "It’s free and will always be free for students and graduates. Employers pay to post jobs and to advertise, which covers our salaries."
+        s29: "15. How can I track my ranking?"
+        s3: "It’s free. Just sign up through your Facebook account or by e-mail. Once you enter your achievements, the system will calculate your score and compare you with your friends."
+        s30: "You may want to come back regularly to add new achievements to your profile. Just finished an internship? Earned a certificate for your language skills? Feel free to add them and to recalculate your current ranking position."
+        s31: "16. How can I track my applications?"
+        s32: "Our system will provide you with a brief overview of jobs you have already applied for. Right now we are still testing that feature but it should be ready in a few weeks."
+        s33: "17. I finished university and have found a job. Should I keep my profile?"
+        s34: "Feel free to keep your account and to update it now and then. Other people in your age group will probably do the same and you can still compare yourself with your friends and with everyone else. And you may still receive job offers occasionally. You never know whom the recruiters are looking for and what kind of opportunity may arise."
+        s35: "18. Can I pay to increase the number of viewers of my profile?"
+        s36: "No. It’s all about achievements."
+        s37: "19. Does my account have an expiration date?"
+        s38: "No, there is no deadline for your account, but employers can see your activity level on the platform. Checking in every few days when you are actually looking for jobs will keep the activity level high and recruiters filtering by activity level will find you more easily. Simply put: Keeping your profile updated will make you more likely to be contacted, but the account won’t be deleted on inactivity."
+        s39: "20. Is the system perfect?"
+        s4: "2. I think I am average or below average. Should I join?"
+        s40: "It’s quite good. We are a bit surprised ourselves! We find that the ranking provides a pretty nuanced and fair picture overall, by taking so many different factors into account. As we find ways to improve the quality of the ranking and the system further, we will continue to work on it. Suggestions are always welcome!"
+        s41: "Technical questions"
+        s42: "21. What if I need to recover my password?"
+        s43: "Just attempt to log in and click the “recover password” button. If you can’t access the e-mail account you registered through, then you will need to contact one of the country managers and provide a copy of your passport or government ID to reset the account. This process may take a few days, in order to discourage social hacking attempts."
+        s44: "22. What happens if I don’t receive the password reset e-mail?"
+        s45: "Please check your spam folder first, and if you do not find it there, retype the correct e-mail address into the field. Typos happen. Depending on the traffic, sending the e-mail might take a few minutes—the internet is slow sometimes."
+        s46: "23. Should I provide my password to someone else?"
+        s47: "Do not provide your password to anyone. This includes administrators, country managers, staff members, friends, or kind strangers on the train. We can access the system and all profiles without passwords and will never ask you to reveal your password to anyone."
+        s48: "24. How can I delete my account?"
+        s49: "Just send an e-mail to info@thestudentranking.com from the e-mail address you used to create the account. We will review your request and delete your account, with no questions asked."
+        s5: "Yes, because each individual is unique and can still benefit from the ranking. The ranking results and advice will help you to find out how to become better and more valuable. And even if the ranking score doesn’t put you in your desired ranking group, you are still unique due to your specific combination of your experience, skills, and location. This makes you interesting for employers looking for that specific combination. You never know what employers are looking for!"
+        s50: "25. If I request account deletion, will my results still remain in the ranking?"
+        s51: "No, your results will be removed from the ranking. We delete all of your data and nothing will remain."
+        s52: "26. Will spammers get my e-mail address?"
+        s53: "Nobody likes spam. We will keep your e-mail address confidential, and it will never be provided to partners, sponsors, or other groups. That’s not how we roll."
+        s54: "For employers and recruiters"
+        s55: "27. What are you offering?"
+        s56: "We help employers find ideal student or graduate talent worldwide quickly by providing a truly global, ranked database of candidates. Whether you are looking for the top five percent of each class or want to recruit someone with a unique set of skills, we can help you. We offer students a global ranking that allows them to learn about their market value and job opportunities from great employers. On top of that, we also publish a biannual university ranking, based on the quality of students attending each university."
+        s57: "28. How does your ranking work?"
+        s58: "Students earn points for each achievement entered. Achievements include university degrees, secondary education grades, work experience, language and personal skills, and other factors that make them unique and demonstrate their competence. We then use these points to compare students of a similar age in our global ranking and allow further filtering based on degree, location, nationality, and other relevant properties.  Employers can also filter candidates based on graduation date or availability and interest in full-time, part-time, or intern positions."
+        s59: "29. How many users do you have? How fast are you growing?"
+        s6: "3. How is the work experience relevant? If I have lots of work experience, can I still register?"
+        s60: "We have just launched and only have the users from the initial testing phase. With the multiplication factor and word-of-mouth through social networks, we expect to have a few thousand users within the two weeks of our launch and to reach 20,000 users by the end of April 2013. This growth should then continue until a certain saturation point is reached."
+        s61: "30. How reliable are the results of the ranking?"
+        s62: "The reliability of the ranking depends on the quality of the data provided. We use a variety of measures to encourage our users to provide valid and certifiable information. Our system flags accounts that try to create improbable profiles and our administrators review both flagged and new profiles daily. The system also rewards users who upload certificates and transcripts to the site to increase the quality of their profile."
+        s63: "31. Is the data statistically significant?"
+        s64: "The ranking becomes more statistically significant with every new student that joins.  Depending on the level of analysis and the number of users on the site, we will be able to provide highly significant analyses into the global or national talent pool within the next few months."
+        s65: "32. Why should we post our jobs on your site?"
+        s66: "Because you want to get the best candidates and we can help you in finding them. Almost every student wants to find out how they are doing compared with others, which leads them to our site.  And our ranking makes it easy for you to find and contact the best candidates quickly. Posting a job offer then increases the speed of the process by allowing students who are actively searching for positions to express their interest. Try it now—your first job post is free."
+        s67: "33. Do you want to compete with services such as LinkedIn and Monster.com?"
+        s68: "We provide a great alternative for students and employers to connect directly, and both LinkedIn and Monster are big players in the professional field. Our advantage is that we are focused on a specific target group and want to provide great job matching opportunities for our users, while making it easier for employers to find talent globally through our ranking. Other providers cannot offer this."
+        s69: "34. How do you prevent users from entering false data?"
+        s7: "Yes. You will receive an evaluation based on a comparison with your peers. The employers using our system look for all different kinds of candidates, and they may be interested in your profile, especially if you bring significant work experience to the table."
+        s70: "Our system has visible and invisible filtering systems, which validate data upon entry and perform “sanity checks” on completed profiles. We automatically flag and filter suspicious accounts and our administrators can then clear, modify, or delete profiles. With the amount of effort that is involved in creating confirmed and socially verified accounts, cheating the system would be prohibitively time-consuming."
+        s71: "35. How much does it cost to post job openings and events? "
+        s72: "It’s free for your first job posting, and services in general are priced very competitively. Please consult the “Pricing” section of our website to find out full details. If you have many job offers or want to become a partner, then contacting a country manager directly is a good way to get the best package."
+        s73: "36. How can I make my job openings more visible?"
+        s74: "You can add a logo to your job opening to benefit from higher visibility in the ranking results. In addition, you can use advertising on the site to draw a bigger audience to your company or the job post in question. And if you want to actively target the best candidates, then launching an e-mail marketing campaign to a selected group will ensure a great response."
+        s75: "37. How can we become a partner to advertise our services?"
+        s76: "Contact one of the country managers directly via the team page or fill in the contact form. We will get back to you in less than twenty-four hours to talk about partnership possibilities."
+        s77: "38. How can we become a sponsor?"
+        s78: "Contact one of the country managers directly via the team page or fill in the contact form. We will get back to you in less than twenty-four hours to talk about sponsorship opportunities."
+        s8: "4. How does the system rank students? How does it work?"
+        s9: "The system relies on the only factor that can’t be cheated: time. We compare students based on their age and simply look at their accomplishments. Where did they invest their time? Do they have measureable achievements? How is their study progress? How many languages do they speak, and at what level? How much work or other experience do they have? All of these factors contribute points to the total score.  Once we have the total score, we can compare students with the same year of birth to create a fairer comparison group. Students can also choose to be compared with other groups, within their university or globally, or with other people that graduate at the same time. This may lead to different results and overall provides a more balanced view."
+      impressum: 
+        s1: Imprint
+        s2: "Responsible for Data Protection"
+        s3: "Contact for Employers & Recruiters"
+      home: 
+        s1: "Global Student Ranking"
+        s10: "Check out the "
+        s10a: "university ranking"
+        s10b: "or support your university by "
+        s11: "taking part in the ranking"
+        s12: "Get headhunted, see Jobs & Events"
+        s13: "Great companies worldwide are constantly searching for new employees. In addition to posting"
+        s13a: "job offers"
+        s13b: "and invitations to "
+        s14: "events,\n"
+        s15: "these companies also use our website to look for promising new talent like you."
+        s16: "If you want to be found, share your profile with recruiters and headhunters looking for candidates just like you. "
+        s17: "Be found now."
+        s18: "- win yours this week!"
+        s19: "Which color do you prefer? Every month, we give away a brand new iPad mini! Fill in your profile to join the lottery - every profile with points can win, and every recommendation you receive from friends increases your chance to win further! If you are lucky, you might already have your iPad mini in a few days!"
+        s2: "How do you rank? Our "
+        s20: "Join and win now!"
+        s21: "Recommend our ranking and get tickets for the lottery, then go ahead and maybe you'll win the iPad mini!"
+        s22: "Ranking result: Your result"
+        s23: "Ranking result: Break down of ranking points"
+        s24: "Ranking result: Your global position"
+        s25: "Ranking result: Study and Year of Birth"
+        s26: "Social visiblity"
+        s27: "Recent activity"
+        s28: "Jobs"
+        s29: "Events"
+        s30: "Links"
+        s31: "What our customers say"
+        s32: "Frequently asked questions"
+        s3: ranking
+        s4: "provides you with insights regarding your position: Receive a custom-tailored comparison with students worldwide, in your country, in your field of study and at your university. Your profile documents your performance - just fill in your achivements, then view your ranking result."
+        s5: "Taking part in the ranking takes only a few minutes:"
+        s5a: "Check your ranking position now"
+        s6: Example
+        s7: "University Ranking"
+        s8: "Our university ranking provides you with key insights: Which university has the best students? Where can you find the best engineers or the most outstanding business students? "
+        s8a: "The university ranking is based on our student ranking and will help you in choosing your next university."
+        s9: ""
+      lottery:
+        s1: "Past winners"
+      kontakt: 
+        s1: Contact
+        s2: "We are looking forward to hearing from you and will reply within twenty-four hours."
+        s3: Name
+        s4: Company
+        s5: Email
+        s6: Telephone
+        s7: Message
+        s8: Submit
+      preise: 
+        s0: Contact
+        s1: "Job offers"
+        s10: or
+        s11: Register
+        s12: "Advertise your events"
+        s13: "Invite excellent participants to your events. If you want to have an great audience of outstanding students, then post your events here."
+        s14: "Advertise Event"
+        s15: "for 30 days"
+        s16: "each additional day"
+        s17: "Event with Logo"
+        s18: inclusive
+        s19: "Submit via email"
+        s2: "Present your job offers to a highly motivated group of excellent students and fill your open positions with motivated and competent colleagues."
+        s20: "Banner ads"
+        s21: "Present your brand with professional ads and receive more attention for your brand and your job offers. "
+        s22: Banner
+        s23: Price
+        s24: "Price in CPM (cost per thousand impressions)"
+        s25: "CV Database"
+        s26: "Receive access to our powerful database of excellent students worldwide. Search in active profiles for ideal candidates and invite them to work with you."
+        s27: "Database access p.a."
+        s28: "50 Messages"
+        s29: "E-Mail marketing"
+        s2a: "You can post the first two job offers for free."
+        s3: Service
+        s30: "Would you like to invite a specific group of candidates in one fell swoop? Select by degree, GPA, career plan or ranking points and send a targeted email with your offer."
+        s31: Recipients
+        s32: "Up to"
+        s33: "Partner with us"
+        s34: "Our Partners are always visible and can take full advantage of the global student ranking. Your logo is visible on the start page and every other page on our site. As a partner, you can post an unlimited number of job offers, send two e-mail marketing campaigns per year to all candidates and use all additional features at half the usual price, with full access to the database. Our partners want to recruit the best. Will you join them?"
+        s35: Partner
+        s36: "Logo on home page"
+        s37: "Unlimited job offers"
+        s38: "Unlimited events"
+        s39: "50% discount on banner ads"
+        s4: Price 
+        s4a: Price per contact
+        s4b: Price 2nd wave (same set)
+        s4c: Price 3rd wave (same set)
+        s40: "Database access"
+        s41: "50% discount on messages"
+        s42: "50% discount on email campaigns"
+        s43: "Two campaigns p.a. included"
+        s44: "All prices without VAT."
+        s45: "Single Service Pricing"
+        s46: "Country Partnership"
+        s47: "Language Partnership"
+        s48: "Global Partnership"
+        s5: "Job offer"
+        s6: "for 30 days"
+        s7: "each additional day"
+        s8: "Offer with logo"
+        s9: "Submit via Email"
+      preise_partial:
+        s1: "You can select one individual country and will receive full access to the database for participants from this country. All your advertising, job offers and other services will be tailored to it as well. You can select this partnership multiple times for different countries."
+        s2: "Basic"
+        s3: "Advanced"
+        s4: "Premium"
+        s5: "Country Partner"
+        s6: "CV Database access"
+        s7: "Direct messages"
+        s8: "Premium job offers (30 days)"
+        s9: "Discount on service fees"
+        s10: "Posting events"
+        s11: "unlimited"
+        s12: "E-mail newsletter"
+        s13: "Banner advertising"
+        s14: "Discount on more banner ads"
+        s15: "Your logo on landing page"
+        s16: "Your logo on other pages"
+        s17: "Featured company rotation"
+        s18: "Language Partner"
+        s19: "You can select one language and will receive full access to the database for participants that have selected this language as their preferred language. All your advertising, job offers and other services will be tailored to this language as well and is exclusively shown to users using this language. You can select this partnership multiple times for different languages."
+        s20: "Global Partner"
+        s21: "You will receive full access to the database and can view and contact candidates from any country. Your company logo, your premium jobs and events will be visible and suggested to candidates from all countries and with all language settings. You can select this package only once."
+      ranking: 
+        s1: "The student ranking: How valuable are your experiences?"
+        s2: "Our global ranking test provides you with points for everything you achieved so far - and then compares you with colleagues and other students."
+        s3: "You get points for good grades, community service, part-time and full-time jobs, internships and all the skills you have."
+        s4: "Do you want to find out how others in your age group have been doing? Our global system runs comparisons based on your age, your studies and your university. Who is the best at your university, which university is the best?"
+        s5: "Get your ranking result - start now!"
+        s6: xxx
+      statistics: 
+        s1: "Leading universities"
+        s10: "Most participants"
+        s11: "Elite Students"
+        s12: "Best female students"
+        s13: "Best male students"
+        s2: "The best students in"
+        s24: "Year of birth"
+        s25: Points
+        s26: Points
+        s27: "Average points globally"
+        s28: "Remark: This calculation changes daily due to a growing number of participants."
+        s3: "Best students in"
+        s30: "The best students globally"
+        s31: "The best five students"
+        s32: "Global averages"
+        s33: "Distribution of Degrees"
+        s34: "Global Averages by Nationality"
+        s35: "Year of birth"
+        s36: Male
+        s37: Female
+        s38: Average
+        s39: Degree
+        s4: Engineering
+        s40: Percentage
+        s41: PhD
+        s42: "M.Sc. or similar"
+        s43: "M.A. or similar"
+        s44: B.Sc.
+        s45: "B.A. or similar"
+        s46: Other
+        s47: Nationality
+        s5: Law
+        s6: Mathematics
+        s7: Medicine
+        s8: "Natural Sciences"
+        s9: "Business & Economics"
+      team: 
+        s1: "Our team"
+        s10: "Hannah is the Country Manager for Taiwan and China and is responsible for our global PR strategy."
+        s11: "After working six years at a translation company in New York, she now owns a boutique translation agency. She holds a M.A. in Communications from San Diego State University, where she focused on public relations and interpersonal communication and taught public speaking to undergraduates. She has worked for several PR companies in Taiwan and the US with clients in the mobile phone industry and business-to-business commerce. She holds a B.A. in English from National Chiao Tung University with concentrations in translation and interpretation."
+        s12: "Hannah speaks Chinese and English fluently. She is a salsa dancer and instructor and also enjoys scuba diving and traveling."
+        s13: "Kristina is the Country Manager for France. "
+        s14: "Before starting her work with us, Kristina taught English at the IPSA Engineering school in Paris and worked as an Event Manager for cultural organisations. Kristina completed her Bachelor of Business Administration at the Université catholique de l'Ouest in Angers."
+        s15: "Kristina speaks fluent English, French and Macedonian. She has a keen interest in the arts and supports galleries as an assistant curator."
+        s16: "Michael is the founder and director of theStudentRanking.com. He is responsible for the German market and global management."
+        s17: "Michael has run his own consultancy and formerly worked with Deutsche Bank in Frankfurt in global business management and international client relations. He has a M.Sc. in International Management (CEMS) from the Rotterdam School of Management and NHH Bergen. His B.Sc. in International Business was completed at Maastricht University and the BI Norwegian School of Management."
+        s18: "Michael speaks fluent German and English and good Dutch and Norwegian."
+        s19: "Giulio is an advisor to theStudentRanking.com."
+        s2: "Find the right contact person quickly:"
+        s20: "Before joining theStudentRanking.com, Giulio worked in the carbon offset industry in business development and marketing. He holds a M.Sc. in International Management from the Rotterdam School of Management and the ESADE Business School Barcelona. He earned his B.Sc. in Business Administration from Università Commerciale Luigi Bocconi in Milan and Otago Business School in Dunedin, New Zealand."
+        s21: "Giulio speaks fluent English, Italian, and Spanish and intermediate German. He enjoys playing volleyball and is a passionate cook."
+        s22: "Gaia is based in Italy and is responsible for our global social media strategy."
+        s23: "She has experience in the business communication field, leading efforts for various agencies and companies in Italy and also works as a professor for business communication in Brazil. Gaia has earned a Ph.D. in Communication Sciences and Complex Organizations from the Libera Universita Maria Ss. Assunta in Rome and completed her B.A. and M.A at the Sapienza University of Rome."
+        s24: "Gaia speaks fluent Italian, English and Portuguese and basic French and Spanish. She is strongly interested in anything related to new media and online communities."
+        s25: "Laura is our country manager for Italy."
+        s26: "Before joining theStudentRanking.com, she worked for the Erasmus Programme in Rome. Laura earned a M.A. in International Relations (cum laude) from the Sapienza University of Rome, where she focused on equatorial African studies. She also spent almost a year studying the social sciences at the Humboldt University of Berlin. Laura completed her B.Sc. in Political Science and International Relations, also at Sapienza."
+        s27: "Laura speaks fluent Italian and English and intermediate German and Spanish. She is enthusiastic about environmental issues and is an aspiring pastry maker."
+        s28: "Salvatore is responsible for corporate business development in Italy."
+        s29: "With more than fifteen years of experience in sales, marketing and business development mainly in the automotive industry, Salvatore is the Italian Country Manager for Dataforce, the leading market research firm in the German fleet market business. He completed his B.Sc. in Economics and Business, and holds an MBA in Communication and Marketing. He taught the topic of managing fleets and business mobility in the Fleet Academy, and wrote articles for the major Italian automotive magazines. He is an instructor in Safety and Agonistic Driving and teaches at the most famous schools in Italy. He is also a senior consultant for JW-Consulting with focus on strategic, operational and coaching support for the automotive business."
+        s3: "Back to top"
+        s30: "Salvatore speaks fluent Italian and English and knows a little French and Spanish. He enjoys traveling, playing guitar and various sports, such as car racing, scuba diving and kick boxing. He also published a novel."
+        s31: "Jesus is an Advisor for theStudentRanking.com"
+        s32: "Before joining theStudentRanking.com, Jesus worked as a Business Consultant at A2 System, a leading Latin American company dedicated to developing software and mobile applications. Jesus holds a B.A. from the Central University of Venezuela and he is currently working on a M.Sc. in International Business Management at the Autonomous University of Barcelona."
+        s33: "Jesus speaks fluent English and Spanish and is currently learning Catalan. He enjoys playing sports, reading history books, and travelling to new and exotic places."
+        s34: "Adela is the Country Manager for Poland."
+        s35: "She will earn a B.A. in Finance and Accounting from the Warsaw School of Economics in June 2013 and is also an active member of oikos Warsaw, where she manages student competitions. Before joining theStudentRanking.com, Adela worked for INDITEX Group in London and Warsaw, where she gained useful experience in sales in an international environment."
+        s36: "Adela speaks Polish and English fluently and German at a conversational level. She is very interested in yoga, venture capital, and CSR."
+        s37: "Diana is part of our team for Poland."
+        s38: "She has experience as a Younger Specialist in CRM in Deutsche Bank and has worked for various student organizations in Warsaw. She is completing her B.A. in the Department of Finance and Accounting at the Warsaw School of Economics. She also studies English and Russian in the Department of Applied Linguistics."
+        s39: "Diana speaks fluent Polish, English, and Russian and is currently learning Spanish. She loves preparing sushi for her friends and practicing yoga."
+        s4: "Latin America"
+        s40: "Ricardo is the Country Manager for Brazil and Portugal."
+        s41: "He has extensive experience as banking professional for Millennium BCP, focusing on business development, relationships, sales, and raising venture capital. He holds an MBA in Finance from Porto Business School and a B.Sc. in Bank Management from ISGB, the school of the Portuguese Bank Association. Ricardo is an Executive Mentor for COHiTEC, a Portuguese organization that supports entrepreneurship and high-tech idea development, from the seed phase to the start-up phase."
+        s42: "Ricardo speaks fluent Portuguese, English, and Spanish and conversational French. He enjoys hiking the mountains of Portugal and is an active member of the Oporto Toastmasters Club."
+        s43: "Teresa is part of our team in Portugal."
+        s44: "She brings a wealth of experience to theStudentRanking.com. As a former executive manager of the Association of Automotive Suppliers (AFIA), she is an expert in the fields of strategy, innovation, technical transfer, and management, among other fields. Teresa holds both a Ph.D. in Economics and a M.A. in Innovation and Technology Transfer from Oporto University. Currently she is working on a Ph.D. in the field of Social Sustainability and Development."
+        s45: "Teresa is fluent in Portuguese, speaks good English, French, and Spanish, and understands Italian well. She likes to paint, swim, and sing."
+        s46: "Sofia is the Country Manager for Russia."
+        s47: "Before joining theStudentRanking.com, Sofia assisted legal teams at a real estate agency and a utility company in Kaliningrad. She is currently completing her M.Sc. in International Business Management at the Autonomous University of Barcelona and holds a B.A. in Law with honors from the Immanuel Kant Baltic Federal University in Kaliningrad."
+        s48: "Sofia speaks fluent Russian and English and is learning Spanish. She enjoys yoga, sports dancing, and mountain skiing in her free time."
+        s49: "Victor is the Country Manager for Canada, Spain, the UK and the USA. "
+        s5: "You can reach her at"
+        s50: "Victor grew up in a family of entrepreneurs and was part of a global organization that fosters and supports entrepreneurs who are creating innovative enterprises, so he is excellent at communicating with people at all levels and in accomplishing goals. With a background in Industrial Design (B.Sc. with honors at EINA, Barcelona), Victor is passionate about developing solutions for today’s needs, such as creating connections between talented students and the companies that are right for each other."
+        s51: "Victor speaks Spanish, Catalan, English, and Portuguese fluently and also knows some Persian and Italian. One of his hobbies is calligraphy."
+        s52: "Clement is part of our team in France"
+        s53: "Clement has grown up in France and the UK and is currently earning a Bachelor from the IECS - Strasbourg Graduate School of Business in International Business and Marketing."
+        s54: "Clement speaks French and English and is currently learning Spanish. He is deeply interested in new technologies and anything connected with mathematics and physics."
+        s55: "Irene is part of our team for the UK."
+        s56: "Having studied the Classical Tripos at Cambridge University, Irene has an excellent understanding of ancient history, classical literature and arts. Apart from her education at Cambridge, Irene also has extensive experience playing the piano and attended the Conservatory of Music in Trieste to further her skills."
+        s57: "Irene speaks English, Italian, and basic French and can read Greek and Latin. In her spare time, she volunteers and supports fund raising events."
+        s58: "Advisors"
+        s59: "Joao is part of our team in Portugal."
+        s60: "A graduate of Portugal's prestigious military academy, Joao brings a straight-forward and focused approach to the team. Apart from working with us, he also founded his own stationery company and is currently working on his B.Sc. in Chemical Technology."
+        s61: "Joao is fluent in Portuguese and English and understands French and Spanish. He enjoys playing volleyball."
+        s6: "You can reach him at"
+        s7: "Marijke is the Country Manager for Belgium, Luxembourg and the Netherlands."
+        s8: "Before joining theStudentRanking.com, she was a producer in the conference industry in Madrid, where she wrote conference programs, provided marketing material, and did extensive background research across various industries. She also supported key accounts in the travel industry. Marijke holds a M.Sc. in Business and Economics from Erasmus School of Economics with a concentration in Financial Economics. She earned her B.Sc. in International Business Administration from the Rotterdam School of Management and participated in a one-semester exchange at the National Taiwan University."
+        s9: "Marijke speaks fluent Dutch and English and intermediate Spanish and French. She enjoys travelling and sports such as ballet and horse riding."
+    schools: 
+      editnew: 
+        s1: School
+        s2: "Please enter the highest level of secondary education you have completed."
+      form: 
+        s1: "Australia (50-100%)"
+        s10: "Hongkong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Ireland (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italy (60-100)"
+        s15: "Japan (60-100%)"
+        s16: "Canada (50-100)"
+        s17: "Netherlands (5.5-10)"
+        s18: "Norway (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Belgium (60-100%)"
+        s20: "Poland (2.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Sweden (E, D, C, B, A)"
+        s23: "Switzerland (4.0-6.0)"
+        s24: "Singapore (D, D+, C, C+, B, B+, A, AD)"
+        s25: "Spain (5.5-10)"
+        s26: "Czech Republic (50-100%)"
+        s27: "United States of America (1.0-4.0)"
+        s27a: "Russia Federation (1-5)"
+        s28: "Taiwan (0-100)"
+        s29: "Mexico (0-100)"
+        s3: "Brazil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Peru (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "Dominican Republic (0-100%)"
+        s39: "Haiti (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad and Tobago (0-100%)"
+        s5: "Denmark (2-12)"
+        s6: "Germany (4,0-1,0)"
+        s7: "Finland (1-5)"
+        s8: "France (10-20)"
+        s9: "UK (A-level: E-A*)"
+    services: 
+      form: 
+        s1: "Interests, memberships and social activities"
+        s10: "Passive membership"
+        s11: "Functional role (e.g. Administration)"
+        s12: "Local leadership role (e.g. Trainer)"
+        s13: "Strategic leadership role (e.g. Board member)"
+        s14: Current
+        s15: "If you had multiple roles with the same organization, then please provide a separate entry for each experience. This ensures proper point calculation and provides more relevant information to recruiters."
+        s2: University/School
+        s3: Social
+        s4: Club
+        s5: Party
+        s6: Culture
+        s7: Science
+        s8: Other
+        s9: "Active membership"
+    shared:
+      blog_navigation:
+        s1: "Latest article"
+        s2: "Previous"
+        s3: "Next article"
+        s4: "Internships help"
+        s5: "The rules of the game"
+        s6: "Where to find happiness?"
+        s7: "Which opportunities should I pursue?"
+        s8: "What will you do for your career?"
+        s9: "Why aim for the difficult jobs?" 
+      activities: 
+        s1: "has earned"
+        s1a: ""
+        s2: "has signed up"
+        s2a: ""
+        s3: "just got his ranking result!"
+        s4: "has recommended"
+        s4a: ""
+        s5: "has confirmed skills of"
+        s5a: ""
+        s6: ""
+        s7: ago
+        s7a: ""
+        s8: "for a degree"
+        s9: "for secondary education"
+      arbeitgeberkontakt: 
+        s1: "Looking for the best?"
+        s10: Contact
+        s11: Telephone
+        s12: Fax
+        s13: info@thestudentranking.com
+        s14: "Submit job offers via email"
+        s15: "Submit a job offer via email with a PDF or HTML description to "
+        s16: info@thestudentranking.com
+        s2: "We are looking forward to your message and will reply within 24 hours."
+        s3: "Name"
+        s4: "Company"
+        s5: Email
+        s6: Telephone
+        s7: Message
+        s8: Send
+      currency: 
+        s1: "Show prices in"
+      direct: 
+        s1: "Submit a job offer without registration?"
+        s2: "Submit a job offer via email with a PDF or HTML description to "
+        s3: info@thestudentranking.com
+        s4: Pricing
+        s5: "We will create the job offer and fill in all details according to your request."
+        s6: xxx
+      errorbox: 
+        s1: "Fields need to be filled."
+      faq: 
+        s1: "How much does it cost?"
+        s2: "Free for students, recruiters can post one job for free. Just sign up and try it"
+        s3: "What are you offering?"
+        s4: "A global ranking system for students that want to learn more about their competitiveness and that want to be found by companies."
+        s5: "Is my data private?"
+        s6: "You are in control of your data. Visitors and recruiters can only see your profile if you allow it."
+        s7: "More answers"
+      message: 
+        s1: Candidate
+        s2: Message
+        s3: Send
+        s4: "Sending messages incurs costs according to our"
+        s5: Prices
+        s6: "Sent messages can be found"
+        s7: here
+      press: 
+        s1: "As featured in"
+        s2: "In cooperation with"
+        s3: xxx
+      profile_completion: 
+        s1: "Upload a profile picture"
+        s10: "Do you have work experience?"
+        s11: "Add your preferred employers"
+        s12: "Profile completion"
+        s13: "Add a skill"
+        s2: "Add degree information"
+        s3: "Add secondary education"
+        s4: "Choose nationality"
+        s5: "Add your first name"
+        s6: "Add your last name"
+        s7: "Update date of birth"
+        s8: "What are your goals?"
+        s9: "Which languages do you speak?"
+      rankingmenu:
+        s0: Global Ranking 
+        s1: "Masters in Management"
+        s10: Medicine
+        s11: "Natural Sciences"
+        s12: "Computer Science"
+        s13: Psychology
+        s14: "Social Sciences"
+        s15: Languages
+        s2: MBA
+        s3: Business
+        s4: Engineering
+        s5: "Electrical Engineering"
+        s6: "Industrial Engineering"
+        s7: Law
+        s8: Teaching
+        s9: Mathematics
+      slider: 
+        s1: "The world's biggest student ranking."
+        s2: "Your profile connects you to the best companies worldwide"
+        s3: "Current global average score:"
+        s4: "Your profile"
+        s5: "Your ranking result"
+        s6: "Click here to start the ranking now"
+        s7: "Receive your"
+        s8: "free"
+        s9: "and"
+        s10: "anonymous"
+        s11: "ranking result now"
+        s12: "Your ranking"
+        s13: "Find out about your global rank"
+        s14: "Compare with your friends"
+        s15: "Learn how to improve"
+        s16: "Your career"
+        s17: "Be visible to global recruiters"
+        s18: "Receive great job offers"
+        s19: "Plan your career"
+        s20: "Risk free"
+        s21: "It's free!"
+        s22: "It's fast: 10 minutes or less!"
+        s23: "It's secure: Your data is private"
+        s24: "It's safe: No spam, ever"
+        
+      sponsors: 
+        s1: "These companies and many more are looking for new colleagues"
+      testimonial: 
+        s1: "We are searching for outstanding graduates to fill the most demanding entry level positions for our leading German clients. TheStudentRanking.com is the ideal source for us and we believe that this system will be growing quickly, making it easier to recruit the best candidates. "
+        s2: xxx
+      whatwedo: 
+        s1: "theStudentRanking.com provides the world's biggest global student ranking. If you are a student looking to learn more about your market value, about your perspective on the job market and if you want to get found and hired by some of the world's leading companies, then we are your ideal destination."
+        s2: "For companies, we offer recruiting solutions and services focused on graduates and students. We provide access to ideal candidates for talent programs, graduate programs and trainee programs. Young professionals and high potentials can be found on our site."
+    skills: 
+      s1: Skills
+      s2: "Please indicate additional skills here. Examples are programming languages, design-, leadership-, software or other skills. This can also include skills such as dancing, playing musical instruments, horse ridingor other hobbies."
+      s3: Beginner
+      s4: Experienced
+      s5: Expert
+      s6: "Learned privately"
+      s7: "Your final score depends on the hours of practical usage of this skill. It makes a big difference whether someone has, for example, worked with Microsoft Excel for 50 hours or 500 hours."
+      s8: "Your final score also depends on the hours of training you have had in this skill. Training includes reading books, professional advice and guidance, workshops, seminars and other activities apart from direct, everyday usage."
+    stipends: 
+      s1: Scholarships
+    template: 
+      s1: xxx
+      s10: xxx
+      s11: xxx
+      s12: xxx
+      s13: xxx
+      s14: xxx
+      s15: xxx
+      s16: xxx
+      s17: xxx
+      s18: xxx
+      s19: xxx
+      s2: xxx
+      s20: xxx
+      s3: xxx
+      s4: xxx
+      s5: xxx
+      s6: xxx
+      s7: xxx
+      s8: xxx
+      s9: xxx
+    universities: 
+      rankingspages: 
+        s0: "Global University Ranking"
+        s1: "University Ranking: Business"
+        s10: "University Ranking: Medicine "
+        s11: "University Ranking: Masters in Management "
+        s12: "University Ranking: Natural Sciences "
+        s13: "University Ranking: Psychology "
+        s14: "University Ranking: Social Sciences"
+        s15: "University Ranking: Teaching Studies "
+        s16: Points
+        s17: "Full profile for "
+        s18: "Year of birth"
+        s19: Points
+        s2: "University Ranking: Computer Science"
+        s20: "This university uses the following grading scale:"
+        s21: "Average grades"
+        s22: Participants
+        s23: "More information"
+        s24: "Featured Students"
+        s25: "Fees"
+        s26: Domestic
+        s27: International
+        s28: Undergraduate
+        s29: Postgraduate
+        s3: "University Ranking: Electrical Engineering "
+        s30: "Students who studied here also studied at:"
+        s31: "More universities"
+        s32: "No data available."
+        s33: "Students who studied here worked for:"
+        s34: "More companies"
+        s35: "This ranking is updated daily."
+        s36: "Which university has the best students? This ranking uses the average student achievement score to provide an indication of the overall quality and skill level of the students. The average grade of all participants is also provided, which can be used to check whether overly positive grading may have led to skewed results. All rankings, apart from the MBA ranking, are based on the age group of 1990-1992, as these are the most populous group of students currently studying and present at almost all universities worldwide."
+        s37: Details about the ranking methodology can be found at the
+        s38: bottom of this page.
+        s4: "University Ranking: Engineering "
+        s5: "University Ranking: Industrial Engineering "
+        s6: "University Ranking: Language Studies"
+        s7: "University Ranking: Law Studies"
+        s8: "University Ranking: Mathematics "
+        s9: "University Ranking: MBA "
+      show: 
+        s1: Overview
+        s10: Teaching
+        s11: Mathematics
+        s12: Medicine
+        s13: "Natural Sciences"
+        s14: Psychology
+        s15: "Social Sciences"
+        s16: Languages
+        s17: Business
+        s18: "Electrical Engineering"
+        s19: "Civil Engineering"
+        s2: Previous
+        s20: "Computer Science"
+        s21: "All calculations are based on the average score by students born in the years of 1990-1992"
+        s22: "However, MBA and Master in Management scores are based on the years between 1981 and 1988"
+        s23: "Student scores (overall)"
+        s24: "Year of birth"
+        s25: "Average grades"
+        s26: Participants
+        s27: "This university uses the following grading scale"
+        s28: "Only results from students born in the years of 1990-1992 are included in the ranking"
+        s29: "Featured Students"
+        s3: Next
+        s30: "No students featured yet"
+        s31: "Yearly fees"
+        s32: Domestic
+        s33: International
+        s34: Undergraduate
+        s35: Postgraduate
+        s36: "Students who studied here also studied at:"
+        s37: "More universities"
+        s38: "No data available."
+        s39: "Students who studied here worked for:"
+        s4: Points
+        s40: "More companies"
+        s5: "Results by discipline"
+        s6: "Master in Management"
+        s7: MBA
+        s8: Law
+        s9: Engineering

@@ -1,0 +1,20 @@
+es:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Link
+      description: Description
+      area: Area
+    area:
+      1: 'Other publication'
+      2: 'Newspaper article'
+      3: 'Scientific work'
+      4: 'Essay'
+      5: 'Book'
+  activerecord:
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

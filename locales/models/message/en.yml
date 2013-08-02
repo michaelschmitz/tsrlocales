@@ -1,0 +1,14 @@
+en:
+  message:
+    attributes: &ATTRIBUTES
+      topic: Topic
+      body: Body
+      copy: Recieve copy of this message
+  activerecord:
+    attributes:
+      message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      message:
+        <<: *ATTRIBUTES   

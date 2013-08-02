@@ -1,0 +1,68 @@
+it:
+  school: 
+    attributes: &ATTRIBUTES
+      name_of_degree: Name of Degree
+      school_type: School Type
+      average: Avergage
+      start_date: Start Date
+      end_date: End Date
+      grade_scale: Grade Scale
+      name: Name
+    grade_scale: 
+      AU: "Australia (50-100%)"
+      AT: "Austria (4.0-1.0)"
+      BE: "Belgium (60-100%)"
+      BO: "Bolivia (0-100%)"
+      BR: "Brazil (60-100%)"
+      CA: "Canada (50-100)"
+      CL: "Chile (0.0-7.0)"
+      CN: "China (60-100%)"
+      CO: "Colombia (1.0-5.0)"
+      CR: "Costa Rica (0.00-10.00)"
+      CU: "Cuba (0.00-5.00)"
+      CZ: "Czech Republic (50-100%)"
+      DK: "Denmark (2-12)"
+      DO: "Dominican Republic (0-100%)"
+      EC: "Ecuador (0.0-10.0)"
+      SV: "El Salvador (1.0-10.0)"
+      FI: "Finland (1-5)"
+      FR: "France (10-20)"
+      DE: "Germany (4,0-1,0)"
+      GT: "Guatemala (0-100)"
+      HT: "Haiti (0-100%)"
+      HN: "Honduras (2.00-5.00)"
+      HK: "Hongkong (E, D, C, B, A)"
+      IN: "India (40-100%)"
+      IB: "International Baccalaureate (24-45)"
+      IE: "Ireland (40-100%)"
+      IL: "Israel (60-100%)"
+      IT: "Italy (60-100)"
+      JM: "Jamaica (F, C, B-, B, A)"
+      JP: "Japan (60-100%)"
+      NL: "Netherlands (5.5-10)"
+      NI: "Nicaragua (0-100)"
+      'NO': "Norway (E, D, C, B, A)"
+      PA: "Panama (0-100)"
+      PY: "Paraguay (1-5)"
+      PE: "Peru (0-20)"
+      PL: "Poland (2.0-5.0)"
+      PT: "Portugal (9.5-20)"
+      RU: "Russia Federation (1-5)"
+      SG: "Singapore (D, D+, C, C+, B, B+, A, AD)"
+      ES: "Spain (5.5-10)"
+      SE: "Sweden (E, D, C, B, A)"
+      CH: "Switzerland (4.0-6.0)"
+      MX: "Taiwan (0-100)"
+      TT: "Trinidad and Tobago (0-100%)"
+      GB: "UK (A-level: E-A*)"
+      US: "United States of America (1.0-4.0)"
+      UY: "Uruguay (1-12)"
+      VE: "Venezuela (0-20)"
+  activerecord:
+    attributes:
+      school:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      shool:
+        <<: *ATTRIBUTES   

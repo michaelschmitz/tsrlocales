@@ -1,0 +1,556 @@
+en:
+  activerecord:
+    errors:
+      messages:
+        after: "should end later"
+        before: "should start before"
+  nationalities:
+    AL: "Albania"
+    DZ: "Algeria"
+    AS: "American-Samoa"
+    AD: "Andorra"
+    AO: "Angola"
+    AI: "Anguilla"
+    AQ: "Antarctica"
+    AG: "Antigua and Barbuda"
+    AR: "Argentina"
+    AM: "Armenia"
+    AW: "Aruba"
+    AU: "Australia"
+    AT: "Austria"
+    ET: "Azerbaijan"
+    BS: "Bahamas"
+    BH: "Bahrain"
+    BD: "Bangladesh"
+    BB: "Barbados"
+    BY: "Belarus"
+    BE: "Belgium"
+    BZ: "Belize"
+    BJ: "Benin"
+    BM: "Bermuda"
+    BT: "Bhutan"
+    BO: "Bolivia"
+    BQ: "Bonaire, Saint Eustatius and Saba"
+    BA: "Bosnia and Herzegowina"
+    BW: "Botswana"
+    BV: "Bouvetisland"
+    BR: "Brazil"
+    IO: "British Indian Ocean Territory"
+    BN: "Brunei Darussalam"
+    BG: "Bulgaria"
+    BF: "Burkina Faso"
+    BI: "Burundi"
+    KH: "Cambodia"
+    CM: "Cameroon"
+    CA: "Canada"
+    CV: "Cape Verde"
+    KY: "Cayman-Islands"
+    CF: "Central African Republic"
+    TD: "Chad"
+    CL: "Chile"
+    CN: "China"
+    CX: "Christmas Islands"
+    CC: "Cocos Islands (Keeling-Islands)"
+    CO: "Colombia"
+    KM: "Comoros"
+    CG: "Congo"
+    CD: "Congo, Democratic Republic"
+    CK: "Cook-Islands"
+    CR: "Costa Rica"
+    CI: "Cote D'Ivoire"
+    HR: "Croatia"
+    CW: "Curaçao"
+    CY: "Cyprus"
+    CZ: "Czech Republic"
+    DK: "Denmark"
+    DJ: "Djibouti"
+    DM: "Dominica"
+    DO: "Dominican Republic"
+    AN: "Dutch Antilles"
+    TL: "Eastern Timor"
+    EC: "Ecuador"
+    EG: "Egypt"
+    SV: "El Salvador"
+    GQ: "Equatorial Guinea"
+    ER: "Eritrea"
+    EE: "Estonia"
+    AZ: "Ethiopia"
+    FK: "Falkland-Islands (Malwina)"
+    FO: "Faroe-Islands"
+    FJ: "Fiji"
+    FI: "Finland"
+    FR: "France"
+    GF: "French Guiana"
+    PF: "French Polynesia"
+    TF: "French Southern Territories"
+    GA: "Gabon"
+    GM: "Gambia"
+    GE: "Georgia"
+    DE: "Germany"
+    GH: "Ghana"
+    GI: "Gibraltar"
+    GR: "Greece"
+    GL: "Greenland"
+    GD: "Grenada"
+    GP: "Guadeloupe"
+    GU: "Guam"
+    GT: "Guatemala"
+    GN: "Guinea"
+    GW: "Guinea-Bissau"
+    GY: "Guyana"
+    HT: "Haiti"
+    HM: "Heard- and McDonald Islands"
+    HN: "Honduras"
+    HK: "Hongkong"
+    HU: "Hungary"
+    IS: "Iceland"
+    IN: "India"
+    ID: "Indonesia"
+    IE: "Ireland"
+    IL: "Israel"
+    IT: "Italy"
+    JM: "Jamaica"
+    JP: "Japan"
+    JO: "Jordan"
+    KZ: "Kazakhstan"
+    KE: "Kenya"
+    KI: "Kiribati"
+    KR: "Korea, Republic"
+    KW: "Kuwait"
+    KG: "Kyrgyzstan"
+    LA: "Lao, Democratic Republic"
+    LV: "Latvia"
+    LB: "Lebanon"
+    LS: "Lesotho"
+    LR: "Liberia"
+    LY: "Libya"
+    LI: "Liechtenstein"
+    LT: "Lithuana"
+    LU: "Luxemburg"
+    MO: "Macao"
+    MK: "Macedonia, Former Yugoslav Republic"
+    MG: "Madagascar"
+    MW: "Malawi"
+    MY: "Malaysia"
+    MV: "Maldives"
+    ML: "Mali"
+    MT: "Malta"
+    MA: "Marocco"
+    MH: "Marshall Islands"
+    MQ: "Martinique"
+    MR: "Mauritania"
+    MU: "Mauritius"
+    YT: "Mayotte"
+    MX: "Mexico"
+    FM: "Micronesia, Federal States of"
+    MD: "Moldawia, Republic"
+    MC: "Monaco"
+    MN: "Mongolia"
+    ME: "Montenegro"
+    MS: "Montserrat"
+    MZ: "Mozambique"
+    MM: "Myanmar"
+    NA: "Namibia"
+    NR: "Nauru"
+    NP: "Nepal"
+    NC: "New Caledonia"
+    NZ: "New Zealand"
+    NI: "Nicaragua"
+    NE: "Niger"
+    NG: "Nigeria"
+    NU: "Niue"
+    NF: "Norfold Island"
+    MP: "Northern Mariana Islands"
+    'NO': "Norway"
+    OM: "Oman"
+    PK: "Pakistan"
+    PW: "Palau"
+    PA: "Panama"
+    PG: "Papua New Guinea"
+    PY: "Paraguay"
+    PE: "Peru"
+    PH: "Philippines"
+    PN: "Pitcairn"
+    PL: "Poland"
+    PT: "Portugal"
+    PR: "Puerto Rico"
+    QA: "Qatar"
+    RE: "Reunion"
+    RO: "Romania"
+    RU: "Russian Federation"
+    RW: "Rwanda"
+    SH: "Saint Helena"
+    KN: "Saint Kitts and Nevis"
+    LC: "Saint Lucia"
+    VC: "Saint Vincent and the Grenadines"
+    WS: "Samoa"
+    SM: "San Marino"
+    ST: "Sao Tome and Principe"
+    SA: "Saudi Arabia"
+    SN: "Senegal"
+    RS: "Serbia"
+    SC: "Seychelles"
+    SL: "Sierra Leone"
+    SG: "Singapur"
+    SX: "Sint Maarten"
+    SK: "Slovakia"
+    SI: "Slovenia"
+    SB: "Solomon-Islands"
+    SO: "Somalia"
+    ZA: "South Africa"
+    GS: "South Georgia and the S.S. Islands"
+    ES: "Spain"
+    LK: "Sri Lanka"
+    SR: "Suriname"
+    SJ: "Svalbard- and Jan Mayen"
+    SZ: "Swaziland"
+    SE: "Sweden"
+    CH: "Switzerland"
+    TW: "Taiwan"
+    TJ: "Tajikistan"
+    TZ: "Tanzania, United Republic of"
+    TH: "Thailand"
+    NL: "The Netherlands"
+    TG: "Togo"
+    TK: "Tokelau"
+    TO: "Tonga"
+    TT: "Trinidad and Tobago"
+    TN: "Tunesia"
+    TR: "Turkey"
+    TM: "Turkmenistan"
+    TC: "Turks- and Caicos-Islands"
+    TV: "Tuvalu"
+    UG: "Uganda"
+    UA: "Ukraine"
+    AE: "United Arab Emirates"
+    GB: "United Kingdom"
+    UM: "United States MO Islands"
+    US: "United States of America"
+    UY: "Uruguay"
+    UZ: "Uzbekistan"
+    VU: "Vanuatu"
+    VA: "Vatican City"
+    VE: "Venezuela"
+    VN: "Vietnam"
+    VG: "Virgin Islands, British"
+    VI: "Virgin Islands, USA"
+    WF: "Wallis and Futuna"
+    EH: "Western Sahara"
+    YE: "Yemen"
+    ZM: "Zambia"
+    ZW: "Zimbabwe"
+  languages:
+    122: 'Albanian'
+    74: 'Amharic'
+    132: 'Amharique'
+    2: 'Ancient greek'
+    3: 'Arabic'
+    121: 'Armenian'
+    77: 'Assamese'
+    48: 'Awadhi'
+    68: 'Azerbaijani'
+    127: 'Azeri'
+    109: 'Bagheli'
+    98: 'Basque'
+    104: 'Belarusian'
+    4: 'Bengali'
+    47: 'Bhojpuri'
+    117: 'Bosnian'
+    119: 'Bulgarian'
+    57: 'Burmese'
+    50: 'Catalan'
+    80: 'Cebuano'
+    103: 'Chew'
+    76: 'Chhattisgarhi'
+    7: 'Chinese (Cantonese)'
+    65: 'Chinese (Gan)'
+    60: 'Chinese (Hakka)'
+    5: 'Chinese (Mandarin)'
+    95: 'Chinese (Min Bei)'
+    100: 'Chinese (Min Dong)'
+    44: 'Chinese (Min Nan)'
+    8: 'Chinese (Other)'
+    6: 'Chinese (Wu)'
+    52: 'Chinese (Xiang)'
+    92: 'Chittagonian'
+    31: 'Czech'
+    9: 'Danish'
+    93: 'Deccan'
+    23: 'Dutch'
+    11: 'English'
+    140: 'Esperanto'
+    123: 'Estonian'
+    141: 'Euskara'
+    139: 'Farsi'
+    135: 'Fidjian'
+    12: 'Finnish'
+    13: 'French'
+    90: 'Fula'
+    126: 'Georgian'
+    10: 'German'
+    14: 'Greek'
+    45: 'Gujarati'
+    111: 'Haitian Creole'
+    89: 'Haryanvi'
+    62: 'Hausa'
+    15: 'Hebrew'
+    16: 'Hindi'
+    33: 'Hungarian'
+    17: 'Icelandic'
+    72: 'Igbo'
+    18: 'Italian'
+    19: 'Japanese'
+    38: 'Javanese'
+    99: 'Kanaujii'
+    54: 'Kannada'
+    124: 'Karelian'
+    105: 'Kazakh'
+    83: 'Khmer'
+    112: 'Konkani'
+    21: 'Korean'
+    78: 'Kurdish'
+    70: 'Lao-Isan'
+    22: 'Latin'
+    113: 'Latvian'
+    114: 'Lithuanian'
+    101: 'Lombard'
+    120: 'Macedonian'
+    88: 'Madurese'
+    91: 'Magahi'
+    55: 'Maithili'
+    107: 'Makuwa'
+    82: 'Malagasy'
+    51: 'Malay'
+    53: 'Malayalam'
+    134: 'Maltese'
+    39: 'Marathi'
+    59: 'Marwari'
+    85: 'Nepali'
+    73: 'Northern Berber'
+    24: 'Norwegian'
+    58: 'Oriya'
+    75: 'Oromo'
+    1: 'Other language'
+    43: 'Pashto'
+    46: 'Persian'
+    25: 'Polish'
+    26: 'Portuguese'
+    27: 'Punjabi'
+    69: 'Rajasthani'
+    81: 'Rangpuri'
+    64: 'Romanian'
+    28: 'Russian'
+    86: 'Rwanda-Rundi'
+    125: 'Sami'
+    136: 'Samoan'
+    138: 'Schwyzerdütsch'
+    20: 'Serbo-Croatian'
+    94: 'Shona'
+    142: 'Sign language'
+    66: 'Sindhi'
+    79: 'Sinhalese'
+    115: 'Slovak'
+    118: 'Slovenian'
+    87: 'Somali'
+    116: 'Sorbian'
+    84: 'Sotho-Tswana'
+    30: 'Spanish'
+    56: 'Sundanese'
+    29: 'Swedish'
+    97: 'Sylheti'
+    63: 'Tagalog'
+    42: 'Tamil'
+    108: 'Tatar-Bashkir'
+    40: 'Telugu'
+    61: 'Thai'
+    130: 'Thai-Lao'
+    131: 'Thai-Zhuang'
+    128: 'Tibetan'
+    133: 'Tigrinya'
+    32: 'Turkish'
+    49: 'Ukrainian'
+    102: 'Uyghur'
+    67: 'Uzbek'
+    41: 'Vietnamese'
+    110: 'Xhose'
+    137: 'Yiddish'
+    71: 'Yoruba'
+  users:
+    rank:
+      s1: "Return to profile"
+      s10: "University and Studies"
+      s100: "Analysis and Suggestions"
+      s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
+      s102: "Analysis of positive elements"
+      s103: "Your grades are excellent."
+      s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
+      s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
+      s106: "You finished school with excellent grades."
+      s107: "Your school results show a disciplined approach to exams and work."
+      s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
+      s109: "Superior language skills."
+      s11: Participants
+      s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
+      s110a: "Advice:"
+      s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
+      s112: "Many interests and skills"
+      s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
+      s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
+      s115: "You have provided service to your community and engaged yourself in a good cause."
+      s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
+      s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
+      s118: "You have multiple publications"
+      s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
+      s12: Top
+      s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
+      s121: "You received awards or prizes."
+      s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
+      s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
+      s124: "You received scholarships"
+      s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
+      s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
+      s127: "You are doing great. Keep it up!"
+      s128: Improvements
+      s129: "Lack of significant work experience."
+      s13: "Company analysis"
+      s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
+      s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
+      s132: "School grades were below average"
+      s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
+      s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
+      s135: "Study grades are below average."
+      s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
+      s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."
+      s138: "Matching job offers"
+      s139: "The following companies are interested in working with you. Suggestions are based on ranking results, studies and indicated availability"
+      s14: "Lottery tickets to win the iPad mini"
+      s140: "Click here for additional offers."
+      s141: "*Remark"
+      s142: "Results are not statistically significant. Every analysis requires a certain number of participants to increase significance. With growth in the number of participants, we expect valid results by the beginning of May 2013."
+      s143: "for you?"
+      s144: "Recommend us and take part in the iPad lottery."
+      s145: "Status update (3 Tickets)"
+      s146: "Like us (1 Tickets)"
+      s147: "Your friend"
+      s148: "theStudentRanking.com - "
+      s149: "has taken part"
+      s15: "Points (Comparison on year of birth"
+      s150: "Belongs to the best"
+      s151: "of the year"
+      s152: "has earned"
+      s153: Points.
+      s154: "The world's leading student comparison shows you your ranking position. Are you better than"
+      s155: earned
+      s156: "Points and belongs to the best"
+      s157: "of the study"
+      s158: "at the"
+      s159: "Are you even better?"
+      s16: ".."
+      s160: "The world's leading student comparison shows you your ranking position. Are you better than"
+      s161: "Find out how your colleagues have performed. What's your ranking result?"
+      s162: in
+      s163: "You have"
+      s164: tickets
+      s165: in
+      s166: Global
+      s167: Breakdown
+      s168: xxx
+      s169: xxx
+      s17: " "
+      s170: xxx
+      s171: xxx
+      s172: xxx
+      s18: "for you?"
+      s19: "We give away one brand new iPad mini among all participants. Invite your friends, earn tickets for the lottery to increase your chances and improve the quality of the ranking at the same time!"
+      s2: Points
+      s20: "Status update"
+      s21: "Like us"
+      s22: Rankings
+      s23: "All participants"
+      s24: "Ranking group"
+      s25: Points
+      s26: "Show explanation"
+      s27: Assessment
+      s28: "You earned"
+      s29: "Points and are grouped in the top"
+      s3: "Ranking worldwide"
+      s30: "The average result was"
+      s31: Points
+      s32: "Based on this result, you are ranked as"
+      s33: "far below average"
+      s34: "below average"
+      s35: "just a bit below the average"
+      s36: "an average participant"
+      s37: "just above the average"
+      s38: "a bit above the average"
+      s39: "visibly above the average"
+      s4: Studies
+      s40: "significantly above the average"
+      s41: "a great student"
+      s42: "one of the best students"
+      s43: "an excellent student"
+      s44: "an outstanding student"
+      s45: "an elite student"
+      s46: "one of the best elite students"
+      s47: "This ranking includes all participants from and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable."
+      s47c: "This ranking includes everyone who selected the same comparison group is the same age as you. Comparison groups are rather wide constructs and might include many participants with different backgrounds and career goals. Unless you already belong to the leading group in this ranking, keep in mind that your specialisation and focus during your studies will probably make you more valuable within that field - this should reflect nicely on your career chances. If you do belong to the leading group: Congratulations!"
+      s47d: "This ranking includes all participants from"
+      s47e: "which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group."
+      s48: "The system is unable to calculate your ranking position. Please provide more information about yourself, especially concerning school and university work, to see valid results."
+      s49: "Ranking:"
+      s5: School
+      s50: "Year of birth"
+      s51: "Show explanation"
+      s52: Assessment
+      s53: "You earned"
+      s54: "points and are grouped in the top"
+      s55: "The average result was"
+      s56: points
+      s57: "Compared to other participants with your year of birth, you are"
+      s58: "This ranking is based on all participants born in "
+      s59: "This ranking allows you a clearer view on possible career opportunities, especially if you are not specialized or are pursuing a popular job. If you want to increase your chances, you can specialize yourself further and earn experience through internships to become more valuable to potential employers."
+      s6: "Work experience"
+      s60: "Ranking: Year of birth, Comparison group"
+      s61: "Year of birth"
+      s62: "Comparison group"
+      s63: Assessment
+      s64: "You earned"
+      s65: "points and are grouped in the top"
+      s66: "The average result was"
+      s67: points
+      s68: "Compared to other participants of your age who have selected the same comparison group, you are "
+      s69: "This ranking is based on all participants born in"
+      s7: Languages
+      s70: "and having selected the comparison group"
+      s71: "This analysis is helpful in assessing your career possibilities, especially if you are interested in popular jobs or are not yet specialized."
+      s72: "Ranking: Your colleagues"
+      s73: "This ranking compares you to your colleagues born in"
+      s74: studying
+      s75: at
+      s76: "Invite your friends at"
+      s77: ". The more participants, the better the results"
+      s78: "Status update "
+      s79: "Breakdown of points"
+      s8: Engagement
+      s80: Group
+      s81: Study
+      s82: School
+      s83: Experience
+      s84: Languages
+      s85: Skills
+      s86: Awards
+      s87: Publications
+      s88: Scholarships
+      s89: Engagement
+      s9: "Comparison group based on year of birth"
+      s90: You
+      s91: Top
+      s92: "Example participants from groups, born in"
+      s93: "Company analysis"
+      s93a: "If you have added"
+      s94: "preferred employers"
+      s95: "you can receive a ranking comparison with other participants."
+      s96: "You can find a comparison of your own performance with that of other possible candidates below."
+      s97: "Show analysis"
+      s98: "Hide / Show"
+      s99: "Only the first ten results will be shown."
