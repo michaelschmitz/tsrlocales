@@ -1,9 +1,9 @@
 it:
   message:
     attributes: &ATTRIBUTES
-      topic: Topic
-      body: Body
-      copy: Recieve copy of this message
+      topic: Oggetto
+      body: Messaggio
+      copy: Ricevi una copia di questo messaggio
   activerecord:
     attributes:
       message:
