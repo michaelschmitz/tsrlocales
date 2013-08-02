@@ -1,14 +1,14 @@
 es:
   company:
     attributes: &ATTRIBUTES
-      name: Name
-      vat_number: Vat number
-      street: Street
-      city: City
-      code: City code
-      country: Country
+      name: Nombre
+      vat_number: NIF
+      street: Dirección
+      city: Ciudad
+      code: Código Postal
+      country: País
       url: Url
-      facebook_page: Facebook page
+      facebook_page: Página de Facebook
   activerecord:
     attributes:
       company:
