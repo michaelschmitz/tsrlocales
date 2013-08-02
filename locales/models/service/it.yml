@@ -1,28 +1,28 @@
 it:
   service:
     attributes: &ATTRIBUTES
-      hours: Hours per week
-      role: Role
-      description: Description
+      hours: Ore settimanali (stimate)
+      role: Ruolo
+      description: Descrizione
       area: Area
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      organization_name: Organization name
+      start_date: Data d'inizio
+      end_date: Data di fine
+      current: In corso
+      organization_name: Nome dell'organizzazione
     area:
-      1: "University/School"
+      1: "Università/Scuola"
       2: "Social"
       3: "Club"
       4: "Party"
-      5: "Culture"
-      6: "Science"
-      7: "Other"
+      5: "Cultura"
+      6: "Scienza"
+      7: "Altro"
     role:
-      1: 'Active role'
-      2: 'Passive role'
-      3: 'Functional role (e.g. Administration)'
-      4: 'Local leadership role (e.g. Trainer)'
-      5: 'Strategic leadership role (e.g. Board member)'
+      1: 'Membro attivo'
+      2: 'Membro passivo'
+      3: 'Ruolo Funzionale (es. Amministrazione)'
+      4: 'Local leadership role (es. Trainer)'
+      5: 'Strategic leadership role (es. Board member)'
   activerecord:
     attributes:
       service:
