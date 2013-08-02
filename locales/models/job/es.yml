@@ -1,57 +1,57 @@
 es:
   job:
     attributes: &ATTRIBUTES
-      title: Title
-      description: Description
-      locations: Locations
-      contact: Contact
-      link: Link
-      run_until: Run Until
-      views: Views
-      area: Area
-      contract_type: Contract Type
-      contract: Contract
-      longitude: Longitude
-      latitude: Latitude
-      disabled: Disabled
-      disabled_on: Disabled On
-      service_level: Service Level
-      advertising_budget: Advertising Budget
-      delivery: Delivery
-      describe_role: Describe Role
-      describe_qualification: Describe Qualification
-      describe_benefits: Describe Benefits
-      describe_application: Describe Application
-      applications: Applications
-      alternative_name: Alternative Name
+      title: Título
+      description: Descripción
+      locations: Localización
+      contact: Contacto
+      link: Enlace
+      run_until: Abierto hasta
+      views: Visitas
+      area: Área
+      contract_type: Tipo de contrato
+      contract: Contrato
+      longitude: Longitud
+      latitude: Latitud
+      disabled: Discapacidad
+      disabled_on: Con discapacidad
+      service_level: Nivel de servicio
+      advertising_budget: Presupuesto para publicidad
+      delivery: Entrega
+      describe_role: Describir posición
+      describe_qualification: Describir requisitos
+      describe_benefits: Describir condiciones
+      describe_application: Describir inscripción
+      applications: Inscripciones
+      alternative_name: Nombre alternativo
     area:
-      1: Apprenticeship
-      2: Construction
-      3: Consulting
-      4: Finances
-      5: Research
-      6: Management and investments
-      7: Information technology
-      8: Engineering
-      9: Logistics
+      1: Aprendiz
+      2: Construcción
+      3: Consultoría
+      4: Finanzas
+      5: Investigación
+      6: Gestión e inversiones
+      7: Tecnologías de la Información
+      8: Ingeniería
+      9: Logística
       10: Marketing
-      11: Medicine
-      12: Organisation
-      13: Human resources
-      14: Production
-      15: Sales
+      11: Medicina
+      12: Organización
+      13: Recursos humanos
+      14: Producción
+      15: Ventas
     contract_type:
-      1: Limited
-      2: Contract
-      3: Internship
-      4: Project
-      5: Promotion
-      6: Traineeship
-      7: Voluntary
-      8: Associate
+      1: Temporaç
+      2: Autónomo
+      3: Aprendiz
+      4: Proyecto
+      5: Promoción
+      6: Prácticas
+      7: Voluntario
+      8: Socio
     contract:
-      1: Part time
-      2: Full time
+      1: Media jornada
+      2: Jornada completa
   activerecord:
     attributes:
       job:
