@@ -1,28 +1,28 @@
 nl:
   service:
     attributes: &ATTRIBUTES
-      hours: Hours per week
-      role: Role
-      description: Description
-      area: Area
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      organization_name: Organization name
+      hours: Uren per week (inschatting)
+      role: Functie
+      description: Beschrijving
+      area: Type
+      start_date: Startdatum
+      end_date: Einddatum
+      current: Huidige positie
+      organization_name: Organisatienaam
     area:
-      1: "University/School"
-      2: "Social"
+      1: "Universiteit/School"
+      2: "Sociaal"
       3: "Club"
-      4: "Party"
-      5: "Culture"
-      6: "Science"
-      7: "Other"
+      4: "Feest"
+      5: "Cultureel"
+      6: "Wetenschappelijk"
+      7: "Overige"
     role:
-      1: 'Active role'
-      2: 'Passive role'
-      3: 'Functional role (e.g. Administration)'
-      4: 'Local leadership role (e.g. Trainer)'
-      5: 'Strategic leadership role (e.g. Board member)'
+      1: 'Actief Lid'
+      2: 'Passief Lid'
+      3: 'Functionele rol (bijv. Administratie)'
+      4: 'Plaatselijke leiderschapsfunctie(bijv. Trainer'
+      5: 'Strategische leiderschapsfunctie (bijv. Bestuurslid)'
   activerecord:
     attributes:
       service:
