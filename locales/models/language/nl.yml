@@ -1,15 +1,15 @@
 nl:
   language:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      certificate: Certificate
-      certificate_grade: Certificate grade
+      name: Naam
+      level: Niveau
+      certificate: Certificaat
+      certificate_grade: Cijfer
     level:
-      1: 'Basic'
-      2: 'Good'
-      3: 'Advanced'
-      4: 'Fluent / Native'
+      1: 'Beginner'
+      2: 'Ervaren'
+      3: 'Expert'
+      4: 'Vloeiend / Moedertaal'
   activerecord:
     attributes:
       language:
