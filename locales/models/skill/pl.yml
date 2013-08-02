@@ -2,15 +2,15 @@ pl:
   skill:
     attributes: &ATTRIBUTES
       name: Name
-      level: Level
-      hours_application: Hours of application
-      hours_training: Hours of training
-      explanation: Explanation
-      included: 'Last used at'
+      level: Poziom
+      hours_application: Czas (w godzinach) użycia w praktyce
+      hours_training: Czas (w godzinach) treningu, szkoleń
+      explanation: Objaśnienie
+      included: 'Ostatnio używane w'
     level:
-      1: 'Beginner'
-      2: 'Experienced'
-      3: 'Expert'
+      1: 'Początkujący'
+      2: 'Zaawansowny'
+      3: 'Biegły'
   activerecord:
     attributes:
       skill:
