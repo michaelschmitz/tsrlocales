@@ -1,17 +1,17 @@
 pl:
   award:
     attributes: &ATTRIBUTES
-      area: Area
-      name: Name
-      level: Level
+      area: Kategoria
+      name: Nazwa
+      level: Poziom
     area:
-      1: Award
-      2: Prize(Sport)
+      1: Nagroda
+      2: Nagroda (sportowa)
     level:
-      1: Local
-      2: Country
-      3: National
-      4: International
+      1: Regionalny
+      2: Wojewódzki
+      3: Krajowy
+      4: Międzynarodowy
   activerecord:
     attributes:
       award:
