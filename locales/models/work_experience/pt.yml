@@ -1,22 +1,22 @@
 pt:
   work_experience:
     attributes: &ATTRIBUTES
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      role: Role
-      contract: Contract
-      average_hours: Average Hours
-      summary: Summary
-      description: Description
-      company_name: Company Name
+      start_date: Data de início
+      end_date: Data-fim
+      current: Actual
+      role: Função
+      contract: Contrato
+      average_hours: Nº médio de horas
+      summary: Resumo
+      description: Descrição
+      company_name: Nome da empresa
     contract:
-      1: 'Apprenticeship'
-      2: 'Internship'
+      1: 'Aprendizagem'
+      2: 'Estágio'
       3: 'Full-time'
       4: 'Part-time'
-      5: 'Contractor'
-      6: 'Self-Employed'
+      5: 'Contrato'
+      6: 'Trabalhador por conta própria'
   activerecord:
     attributes:
       work_experience:
