@@ -3,25 +3,25 @@ it:
     attributes: &ATTRIBUTES
       email: Email
       password: Password
-      password_confirmation: Password confirmation
-      first_name: First name
-      last_name: Last name
-      avatar: Avatar
-      nationality: Nationality
-      language: Language
-      date_of_birth: Date of Birth
-      gender: Gender
-      about: About
-      location: Location
+      password_confirmation: Conferma password
+      first_name: Nome
+      last_name: Cognome
+      avatar: Foto del profilo
+      nationality: Nazionalità
+      language: Lingua
+      date_of_birth: Data di nascita
+      gender: Sesso
+      about: Che tipo di opportunità stai cercando?
+      location: Luogo
     gender:
-      1: 'Female'
-      2: 'Male'
-      3: 'Other'
-      4: 'Not provided'
+      1: 'Femmina'
+      2: 'Maschio'
+      3: 'Altro'
+      4: 'Non indicato'
     frequency_emails:  
-      1: 'After every event'
-      2: 'Every month'
-      3: 'Never'
+      1: 'Dopo ogni evento'
+      2: 'Ogni mese'
+      3: 'Mai'
   activerecord:
     attributes:
       user:
