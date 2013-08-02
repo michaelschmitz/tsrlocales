@@ -3,11 +3,11 @@ pt:
     attributes: &ATTRIBUTES
       email: Email
       password: Password
-      password_confirmation: Password confirmation
-      phone: Phone
-      first_name: First name
-      last_name: Last name
-      title: Title
+      password_confirmation: onfirmar Password
+      phone: Contacto telefónico
+      first_name: Primeiro nome
+      last_name: Último nome
+      title: Título
   activerecord:
     attributes:
       recruiter:
