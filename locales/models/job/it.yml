@@ -1,54 +1,54 @@
 it:
   job:
     attributes: &ATTRIBUTES
-      title: Title
-      description: Description
-      locations: Locations
-      contact: Contact
+      title: Titolo
+      description: Descrizione
+      locations: Località
+      contact: Contatto
       link: Link
-      run_until: Run Until
-      views: Views
+      run_until: Valido fino al
+      views: Visualizzazioni
       area: Area
-      contract_type: Contract Type
-      contract: Contract
-      longitude: Longitude
-      latitude: Latitude
-      disabled: Disabled
-      disabled_on: Disabled On
-      service_level: Service Level
-      advertising_budget: Advertising Budget
-      delivery: Delivery
-      describe_role: Describe Role
-      describe_qualification: Describe Qualification
-      describe_benefits: Describe Benefits
-      describe_application: Describe Application
-      applications: Applications
-      alternative_name: Alternative Name
+      contract_type: Tipo di contratto
+      contract: Contratto
+      longitude: Longitudine
+      latitude: Latitudine
+      disabled: Disabilitato
+      disabled_on: Disabilitato su
+      service_level: Livello del servizio 
+      advertising_budget: Budget pubblicitario
+      delivery: Consegna
+      describe_role: Descrizione del ruolo
+      describe_qualification: Descrizione della qualifica
+      describe_benefits: Descrizione dei benefit
+      describe_application: Descrizione della candidatura
+      applications: Candidature
+      alternative_name: Nome alternativo
     area:
-      1: Apprenticeship
-      2: Construction
-      3: Consulting
-      4: Finances
-      5: Research
-      6: Management and investments
+      1: Apprendistato
+      2: Edilizia
+      3: Consulenza
+      4: Finanza
+      5: Ricerca
+      6: Management e investimenti
       7: Information technology
-      8: Engineering
-      9: Logistics
+      8: Ingegneria
+      9: Logistica
       10: Marketing
-      11: Medicine
-      12: Organisation
-      13: Human resources
-      14: Production
-      15: Sales
+      11: Medicina
+      12: Organizzazione
+      13: Risorse Umane
+      14: Produzione
+      15: Vendite
     contract_type:
-      1: Limited
-      2: Contract
-      3: Internship
-      4: Project
+      1: Determinato
+      2: Contratto
+      3: Stage
+      4: A progetto
       5: Promotion
-      6: Traineeship
-      7: Voluntary
-      8: Associate
+      6: Apprendistato
+      7: Volontariato
+      8: Socio
     contract:
       1: Part time
       2: Full time
