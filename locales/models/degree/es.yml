@@ -1,22 +1,22 @@
 es:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: Nombre
+      country: Ciudad
+      university_id: Universidad
+      title: Título
+      credits: Créditos
+      start_date: Fecha de inicio
+      end_date: Fecha de finalización
+      grade_scale: Sistema de notas
+      average: Media
+      study_area: Área de Estudios
+      faculty: Facultad
+      major: Carrera
+      minor: Secundaria
+      document: Documento
       university:
-        name: University Name
+        name: Nombre de la Universidad
     study_area: 
       12: "Administración y Dirección de Empresas"
       1: "Agricultura"
@@ -116,7 +116,7 @@ es:
       JP: "Japón (60-100%)"
       MX: "Mexico (60-100)"
       NI: "Nicaragua (0-100)"
-      'NO': "Noruega (E, D, C, B, A)"
+      NO: "Noruega (E, D, C, B, A)"
       PA: "Panama (0-100)"
       PY: "Paraguay (1-5)"
       PE: "Perú (0-20)"
