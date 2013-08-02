@@ -1,9 +1,9 @@
 nl:
   message:
     attributes: &ATTRIBUTES
-      topic: Topic
-      body: Body
-      copy: Recieve copy of this message
+      topic: Onderwerp
+      body: Bericht
+      copy: Ontvang een kopie van dit bericht via e-mail
   activerecord:
     attributes:
       message:
