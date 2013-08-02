@@ -1,28 +1,28 @@
 ru:
   service:
     attributes: &ATTRIBUTES
-      hours: Hours per week
-      role: Role
-      description: Description
-      area: Area
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      organization_name: Organization name
+      hours: Часов в неделю
+      role: Описание
+      description: Позицияе
+      area: Тип организации
+      start_date: Дата начала
+      end_date: Дата окончания
+      current: Текущий
+      organization_name: Название организации
     area:
-      1: "University/School"
-      2: "Social"
-      3: "Club"
-      4: "Party"
-      5: "Culture"
-      6: "Science"
-      7: "Other"
+      1: "Университет/Школа"
+      2: "Общественный"
+      3: "Клуб"
+      4: "Развлекательный"
+      5: "Культурный"
+      6: "Научный"
+      7: "Другой"
     role:
-      1: 'Active role'
-      2: 'Passive role'
-      3: 'Functional role (e.g. Administration)'
-      4: 'Local leadership role (e.g. Trainer)'
-      5: 'Strategic leadership role (e.g. Board member)'
+      1: 'Активный член'
+      2: 'Пассивный член'
+      3: 'Определенная роль (например: администратор)'
+      4: 'Роль лидера (например: тренер)'
+      5: 'Стратегическая роль лидера (например: член правления)'
   activerecord:
     attributes:
       service:
