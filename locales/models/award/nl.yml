@@ -1,17 +1,17 @@
 nl:
   award:
     attributes: &ATTRIBUTES
-      area: Area
-      name: Name
-      level: Level
+      area: Type organisatie
+      name: Naam
+      level: Niveau
     area:
       1: Award
-      2: Prize(Sport)
+      2: Prijs(Sport)
     level:
-      1: Local
-      2: Country
-      3: National
-      4: International
+      1: Plaatselijk
+      2: Regionaal
+      3: Nationaal
+      4: Internationaal
   activerecord:
     attributes:
       award:
