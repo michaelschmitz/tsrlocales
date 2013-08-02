@@ -1,22 +1,22 @@
 ru:
   work_experience:
     attributes: &ATTRIBUTES
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      role: Role
-      contract: Contract
-      average_hours: Average Hours
-      summary: Summary
-      description: Description
-      company_name: Company Name
+      start_date: Дата начала
+      end_date: Дата окончания
+      current: Текущая позиция
+      role: Позиция
+      contract: Контракт
+      average_hours: Часов в неделю
+      summary: Краткое изложение
+      description: Описание
+      company_name: Название компании или организации
     contract:
-      1: 'Apprenticeship'
-      2: 'Internship'
-      3: 'Full-time'
-      4: 'Part-time'
-      5: 'Contractor'
-      6: 'Self-Employed'
+      1: 'Ученичество'
+      2: 'Стажировка'
+      3: 'Полный рабочий день'
+      4: 'Неполный рабочий день'
+      5: 'Подрядчик'
+      6: 'Без договора'
   activerecord:
     attributes:
       work_experience:
