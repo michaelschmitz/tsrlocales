@@ -1,14 +1,14 @@
 nl:
   company:
     attributes: &ATTRIBUTES
-      name: Name
-      vat_number: Vat number
-      street: Street
-      city: City
-      code: City code
-      country: Country
+      name: Uw naam
+      vat_number: BTW nummer
+      street: Adres
+      city: Plaats
+      code: Postcode
+      country: Land
       url: Url
-      facebook_page: Facebook page
+      facebook_page: Link naar Facebookpagina
   activerecord:
     attributes:
       company:
