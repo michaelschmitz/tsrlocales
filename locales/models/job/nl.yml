@@ -1,54 +1,54 @@
 nl:
   job:
     attributes: &ATTRIBUTES
-      title: Title
-      description: Description
-      locations: Locations
+      title: Titel
+      description: Beschrijving
+      locations: Locatie
       contact: Contact
       link: Link
-      run_until: Run Until
+      run_until: Zichtbaar tot
       views: Views
       area: Area
-      contract_type: Contract Type
+      contract_type: Type Contract
       contract: Contract
-      longitude: Longitude
-      latitude: Latitude
-      disabled: Disabled
-      disabled_on: Disabled On
-      service_level: Service Level
-      advertising_budget: Advertising Budget
-      delivery: Delivery
-      describe_role: Describe Role
-      describe_qualification: Describe Qualification
-      describe_benefits: Describe Benefits
-      describe_application: Describe Application
-      applications: Applications
-      alternative_name: Alternative Name
+      longitude: Lengte
+      latitude: Breedte
+      disabled: Uitgeschakeld
+      disabled_on: Uitgeschakeld op
+      service_level: Serviceniveau
+      advertising_budget: Reclame budget
+      delivery: Bezorging
+      describe_role: Beschrijving van vacature
+      describe_qualification: Beschrijving kwalificatie
+      describe_benefits: Beschrijving Benefits
+      describe_application: Beschrijving inschrijving
+      applications: Inschrijving
+      alternative_name: Alternative Naam
     area:
-      1: Apprenticeship
-      2: Construction
+      1: Leertijd
+      2: Constructie
       3: Consulting
-      4: Finances
-      5: Research
-      6: Management and investments
+      4: Finance
+      5: Onderzoeksdiensten
+      6: Management en investeringen
       7: Information technology
       8: Engineering
-      9: Logistics
+      9: Logistiek
       10: Marketing
-      11: Medicine
-      12: Organisation
+      11: Medicijnen
+      12: Organisatie
       13: Human resources
-      14: Production
+      14: Productie
       15: Sales
     contract_type:
-      1: Limited
+      1: Beperkte
       2: Contract
-      3: Internship
+      3: Stage
       4: Project
       5: Promotion
-      6: Traineeship
-      7: Voluntary
-      8: Associate
+      6: Leertijd
+      7: Vrijwillig
+      8: vennoot
     contract:
       1: Part time
       2: Full time
