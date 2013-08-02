@@ -2,14 +2,14 @@ nl:
   publication:
     attributes: &ATTRIBUTES
       link: Link
-      description: Description
-      area: Area
+      description: Beschrijving
+      area: Type
     area:
-      1: 'Other publication'
-      2: 'Newspaper article'
-      3: 'Scientific work'
+      1: 'Overige publicaties'
+      2: 'Krantenartikel'
+      3: 'Wetenschappelijk artikel'
       4: 'Essay'
-      5: 'Book'
+      5: 'Boek'
   activerecord:
     attributes:
       publication:
