@@ -1,27 +1,27 @@
 ru:
   user:
     attributes: &ATTRIBUTES
-      email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      first_name: First name
-      last_name: Last name
-      avatar: Avatar
-      nationality: Nationality
-      language: Language
-      date_of_birth: Date of Birth
-      gender: Gender
-      about: About
-      location: Location
+      email: Электронный адрес
+      password: Пароль
+      password_confirmation: Подтвердить пароль
+      first_name: Имя
+      last_name: Фамилия
+      avatar: Фотография профиля
+      nationality: Национальность
+      language: Предпочтительный язык
+      date_of_birth: Дата рождения
+      gender: Полr
+      about: Какого рода возможности Вас интересуют?
+      location: Место
     gender:
-      1: 'Female'
-      2: 'Male'
-      3: 'Other'
-      4: 'Not provided'
+      1: 'Женский'
+      2: 'Мужской'
+      3: 'Другое'
+      4: 'Не предоставлять'
     frequency_emails:  
-      1: 'After every event'
-      2: 'Every month'
-      3: 'Never'
+      1: 'После каждого мероприятия'
+      2: 'Каждый месяц'
+      3: 'Никогда'
   activerecord:
     attributes:
       user:
