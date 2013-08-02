@@ -1,15 +1,14 @@
 nl:
   event:
     attributes: &ATTRIBUTES
-      title: Title
-      intro: Intro
-      description: Description
+      title: Titel
+      intro: Introductie
+      description: Beschrijving van event
       sponsor: Sponsor
-      date: Date
-      location: Location
-      deadline: Deadline
+      date: Datum
+      location: Deadline inschrijven
       link: Link
-      comment_on_location: Comment on location
+      comment_on_location: Commentaar op locatie
   activerecord:
     attributes:
       event:
