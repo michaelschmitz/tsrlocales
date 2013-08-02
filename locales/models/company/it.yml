@@ -3,7 +3,7 @@ it:
     attributes: &ATTRIBUTES
       name: Nome
       vat_number: Partita IVA
-      street: Strada
+      street: Indirizzo
       city: Città
       code: Codice postale
       country: Stato
