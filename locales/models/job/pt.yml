@@ -1,54 +1,54 @@
 pt:
   job:
     attributes: &ATTRIBUTES
-      title: Title
-      description: Description
-      locations: Locations
-      contact: Contact
+      title: Título
+      description: Descrição
+      locations: Localizações
+      contact: Contacto
       link: Link
-      run_until: Run Until
-      views: Views
-      area: Area
-      contract_type: Contract Type
-      contract: Contract
+      run_until: Disponível até
+      views: Visualizações
+      area: Área
+      contract_type: Tipo de contrato
+      contract: Contrato
       longitude: Longitude
       latitude: Latitude
-      disabled: Disabled
-      disabled_on: Disabled On
-      service_level: Service Level
-      advertising_budget: Advertising Budget
-      delivery: Delivery
-      describe_role: Describe Role
-      describe_qualification: Describe Qualification
-      describe_benefits: Describe Benefits
-      describe_application: Describe Application
-      applications: Applications
-      alternative_name: Alternative Name
+      disabled: Inválido
+      disabled_on: Inválido em
+      service_level: Nível de serviço
+      advertising_budget: Orçamento para anunciar
+      delivery: Entrega
+      describe_role: Descrição da função
+      describe_qualification: Descrição das qualificações
+      describe_benefits: Descrição dos benefícios
+      describe_application: Descrição da aplicação
+      applications: Candidaturas
+      alternative_name: Nome alternativo
     area:
-      1: Apprenticeship
-      2: Construction
-      3: Consulting
-      4: Finances
-      5: Research
-      6: Management and investments
-      7: Information technology
-      8: Engineering
-      9: Logistics
+      1: Formação
+      2: Construção
+      3: Consultoria
+      4: Finanças
+      5: Investigação
+      6: Gestão e Investimentos
+      7: Tecnologias de informação
+      8: Engenharia
+      9: Logística
       10: Marketing
-      11: Medicine
-      12: Organisation
-      13: Human resources
-      14: Production
-      15: Sales
+      11: Medicina
+      12: Administração
+      13: Recursos humanos
+      14: Produção
+      15: Vendas
     contract_type:
-      1: Limited
-      2: Contract
-      3: Internship
-      4: Project
-      5: Promotion
-      6: Traineeship
-      7: Voluntary
-      8: Associate
+      1: Com termo
+      2: Contrato
+      3: Estágio
+      4: Projeto
+      5: Promoção
+      6: Treino
+      7: Voluntariado
+      8: Associado
     contract:
       1: Part time
       2: Full time
