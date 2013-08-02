@@ -1,22 +1,22 @@
 pt:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: Nome
+      country: País
+      university_id: Universidade
+      title: Título
+      credits: Créditos
+      start_date: Data de início
+      end_date: Data-fim
+      grade_scale: Escala de gradação
+      average: Média 
+      study_area: Área de estudos
+      faculty: Faculdade
+      major: Especialização
+      minor: Outros estudos
+      document: Comprovativo
       university:
-        name: University Name
+        name: Instituição 
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"
