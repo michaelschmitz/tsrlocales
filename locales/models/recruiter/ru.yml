@@ -1,13 +1,13 @@
 ru:
   recruiter:
     attributes: &ATTRIBUTES
-      email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      phone: Phone
-      first_name: First name
-      last_name: Last name
-      title: Title
+      email: Электронный адрес
+      password: Пароль
+      password_confirmation: Подтвердить пароль
+      phone: Телефон
+      first_name: Имя
+      last_name: Фамилия
+      title: Компания
   activerecord:
     attributes:
       recruiter:
