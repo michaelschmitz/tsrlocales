@@ -1,22 +1,22 @@
 ru:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: Университет
+      country: Страна
+      university_id: Университет
+      title: Курс
+      credits: заработанные кредиты ECTS
+      start_date: Дата начала
+      end_date: дата выпуска
+      grade_scale: Система баллов
+      average: Средний
+      study_area: Область исследования
+      faculty: факультет
+      major: Специализация
+      minor: незначительный
+      document: Транскрипция
       university:
-        name: University Name
+        name: Университет
     study_area: 
       1: "Агрикультура"
       30: "Архитектура"
@@ -83,8 +83,8 @@ ru:
       13: "Магистратура Педагогика"
       25: "Партнёр"
     grade_scale:
-      MX: "Mexico (60-100)"
-      TW: "Taiwan (1.0-4.0)"
+      MX: "Мексика (60-100)"
+      TW: "Тайвань(1.0-4.0)"
       AU: "Австралия (50-100%)"
       AT: "Австрия (4,0-1,0)"
       GB: "Англия (Сдал, третий, 2:2, 2:1, первый)"
