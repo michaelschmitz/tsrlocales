@@ -1,15 +1,15 @@
 ru:
   publication:
     attributes: &ATTRIBUTES
-      link: Link
-      description: Description
-      area: Area
+      link: Ссылка
+      description: Название
+      area: Тип
     area:
-      1: 'Other publication'
-      2: 'Newspaper article'
-      3: 'Scientific work'
-      4: 'Essay'
-      5: 'Book'
+      1: 'Другие публикации'
+      2: 'Статья в газете'
+      3: 'Научно-исследовательская работа'
+      4: 'Эссе'
+      5: 'Книга'
   activerecord:
     attributes:
       publication:
