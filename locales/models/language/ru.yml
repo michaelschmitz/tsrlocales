@@ -1,15 +1,15 @@
 ru:
   language:
     attributes: &ATTRIBUTES
-      name: Name
-      level: Level
-      certificate: Certificate
-      certificate_grade: Certificate grade
+      name: Имя
+      level: Уровень
+      certificate: Сертификат
+      certificate_grade: Оценка
     level:
-      1: 'Basic'
-      2: 'Good'
-      3: 'Advanced'
-      4: 'Fluent / Native'
+      1: 'Базовый'
+      2: 'Xороший'
+      3: 'Продвинутый'
+      4: 'Свободный / Родной'
   activerecord:
     attributes:
       language:
