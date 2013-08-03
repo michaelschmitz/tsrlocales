@@ -1,17 +1,17 @@
 ru:
   award:
     attributes: &ATTRIBUTES
-      area: Area
-      name: Name
-      level: Level
+      area: Награда или Приз
+      name: Описание
+      level: Уровень
     area:
-      1: Award
-      2: Prize(Sport)
+      1: Награда
+      2: Приз (Спорт)
     level:
-      1: Local
-      2: Country
-      3: National
-      4: International
+      1: Местный уровень
+      2: Городской уровень
+      3: Национальный уровень
+      4: Международный уровень
   activerecord:
     attributes:
       award:
