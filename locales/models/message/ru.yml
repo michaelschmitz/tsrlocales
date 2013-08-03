@@ -1,9 +1,9 @@
 ru:
   message:
     attributes: &ATTRIBUTES
-      topic: Topic
-      body: Body
-      copy: Recieve copy of this message
+      topic: тема
+      body: Сообщение
+      copy: Получать копию этого сообщения
   activerecord:
     attributes:
       message:
