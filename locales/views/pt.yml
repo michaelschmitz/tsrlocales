@@ -1676,8 +1676,12 @@ pt:
         s11: "Emails relacionados com o sorteio"
         s12: "Com que frequência pretende receber mensagens relacionadas com o sorteio?"
         s13: "Em cada novo evento"
-        s14: Mensalmente
-        s15: Nunca
+        s14: "Mensalmente"
+        s15: "Nunca"
+        s16: "Visível para amigos"
+        s17: "Sim, o meu perfil com o meu nome e fotografia fica visível para os meus amigos e os meus contactos. Eles podem enviar-me recomendações e confirmar as minhas competências." 
+        s18: "Os meus amigos podem ver o meu resultado"
+        s19: "Os meus amigos podem ver os meus achievements e o meu social score"
         s2: "Convites para eventos, ofertas de emprego e estágios remunerados. theStudentRanking dá-lhe acesso a excelentes oportunidades."
         s3: "Enviaremos e-mails com a atualização da sua posição no ranking, ofertas de emprego e convites para eventos relevantes."
         s4: "Atualizar a posição no ranking"
@@ -2323,6 +2327,7 @@ pt:
         s10: "Tem experiência de trabalho?"
         s11: "Adicione os seus empregadores favoritos"
         s12: "Perfil completo"
+        s13: "Quais são as suas competências?
         s2: "Adicionar informação de grau académico"
         s3: "Adicionar informação do Secundário"
         s4: "Escolher nacionalidade"
