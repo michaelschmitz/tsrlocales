@@ -19,6 +19,8 @@ pt:
       move_city: Mudar de cidade
       move_country: Mudar de país
       location: Localização
+      i_am: Posição
+      my_industry: Setor de Atividae
     available:
       1: 'Imediata'
       2: 'Dentro de 2 semanas'
