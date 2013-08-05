@@ -1689,7 +1689,7 @@ pt:
         s6: "Ofertas de emprego e convites"
         s7: "Sim, quero receber ofertas de emprego e convites para eventos."
         s8: "Visível no ranking?"
-        s8b: "Sim, quero o meu perfil e imagem visíveis no Global Student Ranking. Também quero receber recomendações e confirmação de competências por parte de outros utilizadores."
+        s8b: "Sim, quero o meu perfil com o meu nome e a minha imagem visíveis no Student Ranking."
         s9: "Sim, o meu perfil e a minha fotografia podem estar visíveis para o público no Global Student Ranking."
       show: 
         s1: "O seu perfil:"
