@@ -3,7 +3,7 @@ en:
     attributes: &ATTRIBUTES
       name_of_degree: Name of Degree
       school_type: School Type
-      average: Avergage
+      average: Average (Final Grade)
       start_date: Start Date
       end_date: End Date
       grade_scale: Grade Scale
