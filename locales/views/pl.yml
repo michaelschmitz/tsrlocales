@@ -1849,6 +1849,10 @@ pl:
         s13: "Po każdej loterii"
         s14: "Co miesiąc"
         s15: Nigdy
+        s16: "Profil widoczny dla znajomych"
+        s17: "Tak, mój profil z moim nazwiskiem i zdjęciem jest widoczny do moich znajomych oraz osób z mojej sieci kontaktów. Mogę otrzymać rekomendację oraz potwierdzenia umiejętności od moich znajomych."
+        s18: "Moi znajomi mogą widzieć mój wynik w rankingu."
+        s19: "Tak, moi znajomi mogą zobaczyć mój wynik oraz punkty za rekomendację."
         s2: "Zaproszenia na imprezy, interesujące oferty pracy oraz szeroki wybór płatnych staży. theStudentRanking.com zapewni Ci dostęp do doskonałych szans rozwoju kariery."
         s3: "W zależności od Twoich preferencji, możemy wysyłać Ci wiadomości z Twoją aktualną pozycją w rankingu, wyselekcjonowanymi ofertami pracy oraz zaproszeniami na ciekawe wydarzenia."
         s4: "Aktualna pozycja w rankingu."
@@ -1857,7 +1861,7 @@ pl:
         s7: "Tak, chcę otrzymawać oferty pracy i zaproszenia na wydarzenia."
         s8: "Chcesz być widoczny dla pracodawców?"
         s8a: "Chcesz być widoczny w rankingu?"
-        s8b: "Tak, mój profil z moim imieniem i nazwiskiem może być widoczny w globalnym rankingu studentów."
+        s8b: "Tak, mój profil z moim nazwiskiem i zdjęciem jest widoczny publicznie w globalnym rankingu studentów."
         s9: "Tak, pracodawcy mogą przeglądać mój profil i wysłać mi prywatne wiadomości o swoich ofertach pracach oraz ciekawych wydarzeniach."
       show: 
         s1: "Twój profil:"
