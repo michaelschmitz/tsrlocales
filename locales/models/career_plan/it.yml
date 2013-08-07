@@ -1,6 +1,8 @@
 it:
   career_plan:
     attributes: &ATTRIBUTES
+      i_am: Posizione
+      my_industry: Settore
       contract: 'Posizione full-time'
       internship: Stage
       project: Progetto
