@@ -1684,6 +1684,10 @@ it:
         s13: "Dopo ogni evento"
         s14: "Ogni mese"
         s15: Mai
+        s16: "Visibile agli amici"
+        s17: "Si, il mio profilo con il mio nome e la mia foto è visibile ai miei amici e ai miei contatti. Posso ricevere da loro raccomandazioni e conferma delle competenze."
+        s18: "I miei amici possono visualizzare il mio punteggio"
+        s19: "I miei amici e i miei contatti possono visualizzare il mio punteggio personale e sociale."
         s2: "Inviti ad eventi, offerte di lavoro e stage. theStudentranking.com vuole offriti accesso a fantastiche opportunità."
         s3: "Ogni tanto ti invieremo delle email per aggiornarti sulla tua posizione, su nuove offerte di lavoro e su inviti a nuovi eventi."
         s4: "Aggiornamento su una nuova posizione"
@@ -1692,8 +1696,8 @@ it:
         s7: "Si, voglio ricevere offerte di lavoro ed inviti."
         s8: "Visibile ai recruiters?"
         s8a: "Visibile nel ranking?"
-        s8b: "Sì, il mio profilo e la mia foto sono visibili al pubblico nel Ranking Globale degli Studenti. Posso anche ricevere raccomandazioni e conferma delle competenze dagli altri utenti."
-        s9: "Si, recruiters e headhunters possono vedere il mio profilo e inviarmi messaggi riguardo lavori retribuiti od inviti ad eventi interessanti."
+        s8b: "Sì, il mio profilo con il mio nome e la mia foto è visibile al pubblico nel Ranking Globale degli Studenti."
+        s9: "Si, i recruiters e gli headhunters possono vedere il mio profilo e inviarmi messaggi riguardo lavori retribuiti od inviti ad eventi interessanti."
       show: 
         s1: "Il tuo profilo:"
         s10: a
