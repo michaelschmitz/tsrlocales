@@ -1,0 +1,10 @@
+es:
+  awards:
+    edit:
+      s1: Editar Reconocimiento
+    modal:
+      s1: Reconocimiento
+    new:
+      s1: Nuevo Reconocimiento
+    show:
+      s1: Reconocimiento
