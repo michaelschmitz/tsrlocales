@@ -1,0 +1,13 @@
+it:
+  languages:
+    edit:
+      s1: Modifica lingua
+    modal:
+      s1: Lingua
+    new:
+      s1: Nuova lingua
+    show:
+      s1: Lingua
+    language:
+      s1: Certificato
+      s2: Voto
