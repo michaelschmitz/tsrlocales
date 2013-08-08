@@ -1,0 +1,13 @@
+en:
+  publications:
+    edit:
+      s1: Edit publication
+    modal:
+      s1: Publication
+    new:
+      s1: New publication
+    show:
+      s1: Publication
+    publication:
+      s1: Description
+      s2: Link

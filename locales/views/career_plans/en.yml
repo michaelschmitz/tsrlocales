@@ -1,0 +1,30 @@
+en:
+  career_plans:
+    career_plan:
+      s1: Graduate position
+      s2: Other contracts
+      s3: Project contracts
+      s4: PhD Positions
+      s5: Part-time
+      s6: Full-time
+      s7: Traineeships
+      s8: Voluntary work
+      s9: Associate offers
+      s10: Limited contracts
+      s11: Graduate positions
+      s12: or from
+      s13: Availability not indicated.
+      s14: Internships
+      s15: from
+      s16: Not interested in internships.
+      s17: Willing to travel
+      s18: Willingness to travel not indicated.
+      s19: Move to another city?
+      s20: Move to another country?
+      s21: Interested in moving to
+    form:
+      s1: "Interested in:"
+      s2: "Your preferences:"
+      s3: "In which places would you like to work?"
+    edit:
+      s1: "Edit Career Plan" 

@@ -1,0 +1,42 @@
+en:
+  layouts:
+    user_nav:
+      s1: CV
+      s2: My Ranking
+      s3: Student Ranking
+      s4: Jobs
+      s5: Account
+      s6: Edit
+      s7: Settings
+      s8: Logout
+      s9: Go!
+      s10: Problems?
+      s11: Register
+      s12: For recruiters
+    recruiter_nav:
+      s1: Dashboard
+      s2: Company Page
+      s3: Show Page
+      s4: Edit Page
+      s5: Overview
+      s6: Post a job
+      s7: CV Search
+      s8: Index
+      s9: New
+      s10: Logout
+    bottomfooter:
+      s1: Home
+      s2: Events
+      s3: Jobs
+      s4: Student Ranking
+      s5: Frequenty asked questions
+      s6: For Recruiters
+      s7: Blog
+      s8: Contact
+      s9: Team
+      s10: Press
+      s11: Imprint
+      s12: Privacy
+      s13: Terms of Service
+      s14: Pricing
+      

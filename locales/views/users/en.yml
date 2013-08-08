@@ -1,9 +1,54 @@
 en:
   users:
-    ranking:
-      main_chart:
-        explenation_button: "Show Explenation"
-        asessment_title: <b>Assessment</b> You earned %{points} Points and are grouped in the top %{percent}%
-        asessment_body_1: This ranking includes all participants from and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable.
-        asessment_body_2: This ranking includes all participants from %{university} which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group.
-        in: in
+    rank:
+      s1: Profile
+      s2: Recommendations
+      s3: Skills
+      s4: Achievement Ranking
+      s5: Ranking Charts
+      s6: Company analysis
+      s7: Analysis and Suggestions
+    show:
+      s1: About me
+    edit:
+      s1: About me
+    settings:
+      s1: "Privacy settings"
+      s10: "Your email address will never be shared."
+      s11: "Emails regarding the lottery"
+      s12: "How often do you want to receive emails regarding the lottery?"
+      s13: "After every event"
+      s14: "Every month"
+      s15: "Never"
+      s16: "Visible for friends"
+      s17: "Yes, my profile with my name and picture is visible to my friends and connections. I can receive recommendations and skill confirmations from them."
+      s18: "Friends can see my score"
+      s19: "Yes, my friends and connections can see my achievement and social score."
+      s2: "Event invitations, job offers and internships. theStudentranking.com wants to provide you with access to excellent opportunities."
+      s3: "Every now and then we'll send out emails with an update to your position, job offers and invitations to events."
+      s4: "Update on new position"
+      s5: "Yes, send me an email every few months when my position has changed."
+      s6: "Job offers and invitations"
+      s7: "Yes, I want job offers and invitations to events."
+      s8: "Visible for recruiters?"
+      s8a: "Visible in the ranking?"
+      s8b: "Yes, my profile with my name and picture is visible to the public in the global Student Ranking."
+      s9: "Yes, recruiters and headhunters can view my profile and send me messages about high paying jobs or interesting events."
+    shared:
+      links:
+        s1: Forgot your password?
+        s2: Didn\'t receive confirmation instructions?
+        s3: Didn\'t receive unlock instructions?
+        s4: Sign in with
+    sessions:
+      new:
+        s1: Sign in
+        s2: Sign in
+        s3: No account yet?
+        s4: Sign up here
+    registrations:
+      new:
+        s1: Sign up
+        s2: Sign up
+        s3: Already have an acount?
+        s4: Sign in here

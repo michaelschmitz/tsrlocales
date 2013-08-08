@@ -1,0 +1,13 @@
+en:
+  languages:
+    edit:
+      s1: Edit language
+    modal:
+      s1: Language
+    new:
+      s1: New language
+    show:
+      s1: Language
+    language:
+      s1: Certificate
+      s2: Grade

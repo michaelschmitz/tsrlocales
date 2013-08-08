@@ -1,0 +1,87 @@
+en:
+  recruiters:
+    jobs:
+      form:
+        s1: Manual Entry
+        s2: Upload PDF
+        s3: Documents
+      edit:
+        s1: Edit Job
+      index:
+        s1: My job postings
+        s2: Title
+        s3: Locations
+        s4: Link
+        s5: PDF?
+        s6: Run until
+        s7: Visitors
+        s8: Applications
+        s9: Post a job
+      new:
+        s1: Post a new job
+      show:
+        s1: Visitors
+        s1: Applicants
+    mailer:
+      email_message:
+        s1: "has sent you a message"
+        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+      message:   #Yes, this is exactly the same as above. Copy paste.
+        s1: "has sent you a message"
+        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+    messages:
+      index:
+        s1: My messages
+        s2: Topic
+        s2: Copied to email?
+      modal:
+        s1: Message
+    public:
+      home:
+        s1: "Dashboard for"
+        s10: "There are"
+        s11: "participants in our database"
+        s12: "Saved candidates"
+        s13: "Search database"
+        s2: Bill
+        s3: "Show billing details"
+        s4: "Job offers"
+        s5: "Job offers in system "
+        s6: "Create a new job offer"
+        s7: "Events in system"
+        s8: "Create a new event"
+        s9: "CV Database"
+        s14: Company page
+        s15: Job postings
+        s16: Post a job
+        s17: It\'s free
+        s18: It\'s fast.
+        s19: It\'s your solution.
+        s20: CV Database
+        s21: Search the database
+        s22: Full access.
+        s23: Thousands of candidates.
+        s24: Completely free for 10 days.
+        s25: Sign in
+        s26: Sign in
+        s27: No account yet?
+        s28: Sign up here
+    registrations:
+      new:
+        s1: Sign up
+        s2: Company Name
+        s3: Sign up
+        s4: Have an account?
+        s5: Sign in
+    sessions:
+      new:
+        s1: Sign in
+        s2: Sign in
+        s3: No account yet?
+        s4: Sign up here
+    shared:
+      links:
+        s1: Forgot your password?
+        s1: Didn\'t receive confirmation instructions?
+        s1: Didn\'t receive unlock instructions?
+        s1: Sign in with
