@@ -1,18 +1,18 @@
-en:
+it:
   degrees:
     edit:
-      s1: Edit Degree
+      s1: modifica titolo di studio
     modal:
-      s1: Degree
+      s1: Titolo di studio
     new:
-      s1: New Degree
+      s1: Nuovo titolo di studio
     show:
-      s1: Degree
+      s1: Titolo di studio
     degree:
-      s1: GPA
-      s2: Faculty
+      s1: Media dei voti
+      s2: Facoltà
       s3: Major
       s4: Minor
     form:
-      s1: Add University
-      s2: Add Exchange University
+      s1: Aggiungi Università
+      s2: Aggiungi Università di scambio
