@@ -1,10 +1,10 @@
 it:
   awards:
     edit:
-      s1: Edit Award
+      s1: Modifica premio
     modal:
-      s1: Award
+      s1: Premio
     new:
-      s1: New Award
+      s1: Nuovo premio
     show:
-      s1: Award
+      s1: Premio
