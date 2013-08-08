@@ -1,7 +1,7 @@
 it:
   degrees:
     edit:
-      s1: modifica titolo di studio
+      s1: Modifica titolo di studio
     modal:
       s1: Titolo di studio
     new:
