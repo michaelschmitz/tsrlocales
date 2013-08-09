@@ -1,0 +1,47 @@
+pl:
+  curriculum_vitaes:
+    awards:
+      s1: Nagrody
+      s2: Dodaj nagrodę
+    career_plan_info:
+      s1: Student
+    career_plans:
+      s1: Plan Kariery
+      s2: Dodaj plan kariery
+    degrees:
+      s1: Wykształcenie wyższe 
+      s2: Dodaj dyplom
+    languages:
+      s1: Języki
+      s2: Dodaj język
+    preferred_employers:
+      s1: Preferowani pracodawcy
+      s2: Dodaj firmę
+    profile:
+      s1: Obecnie
+      s2: Poprzednia
+      s3: Wykształcenie
+      s4: Rekomendacje
+      s5: Potwierdzone umiejętności
+      s6: Kontakty
+      s7: Zaproś znajomych
+      s8: Mój ranking
+      s9: Ustawienia prywatności
+    publications:
+      s1: Publikacje
+      s2: Dodaj publikację
+    scholarships:
+      s1: Stypendia
+      s2: Dodaj stypendium
+    schools:
+      s1: Wykształcenie średnie
+      s2: Dodaj szkołę
+    services:
+      s1: Usługi
+      s2: Dodaj obsługę
+    skills:
+      s1: Umiejętności
+      s2: Dodaj umiejętność
+    works:
+      s1: Doświadczenie zawodowe
+      s2: Dodaj doświadczenie zawodowe
