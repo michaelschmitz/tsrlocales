@@ -1,0 +1,14 @@
+pl:
+  services:
+    edit:
+      s1: Edytuj serwis
+    modal:
+      s1: Serwis
+    new:
+      s1: Dodaj serwis
+    show:
+      s1: Serwis
+    service:
+      s1: Opis
+      s2: Godziny
+      s3: w tygodniu
