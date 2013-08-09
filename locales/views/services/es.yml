@@ -1,0 +1,14 @@
+es:
+  services:
+    edit:
+      s1: Editar servicios
+    modal:
+      s1: Servicio
+    new:
+      s1: Nuevo servicio
+    show:
+      s1: Servicio
+    service:
+      s1: Descripción
+      s2: Horas
+      s3: por semana
