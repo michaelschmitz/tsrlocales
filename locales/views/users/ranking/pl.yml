@@ -1,0 +1,72 @@
+pl:
+  users:
+    ranking:        
+      main_chart:
+        explanation_button: "Pokaż wyjaśnienie"
+        asessment_title: <b>Ocena</b> Przyznano Ci %{points} punktów oraz pozycję w top %{percent}%
+        asessment_body_1: Ten ranking obejmuje wszystkich uczestników  z %{university} i nie uwzględniając wybranej przez Ciebie grupy porównawczej. W związku z tym warto wziąć pod uwagę, że to porównanie nie jest odpowiednie do precyzyjnej oceny szans Twojej kariery. W szczególności jeśli Twoja ścieżka kariery obejmuje niszowe dziedziny/ sektory lub właśnie rozpoczełeś swoje studia. Mimo to, ranking może zmotywować Cię do osiągania jeszcze lepszych wyników w swojej pracy oraz może pomóc Ci zainwestować czas rozsądnie tak, aby uzyskać doświadczenie, które pomoże Ci stać się bardziej wartościwym dla przyszłych pracodawców."
+        asessment_body_2: Ten ranking obejmuje wszystkich uczestników z %{university} , którzy są w Twoim wieku. Porównanie to jest odpowiednie do oceny szans rozwoju kariery zawodowej,  jeśli Twoja uczelnia oferuje  podobne kierunki z jednego obszaru nauki. Jeśli Twoja uczelnia jest zróżnicowana, to porównanie to wskazuje tylko szanse rozwoju kariery zawodowej, jeśli należysz do czołówki studentów."
+        in: w
+      achievement_ranking:
+        s1: Ranking porównujący wynik 
+        s2: "Punkty do +1"
+        s3: Gratulacje!
+      analysis:
+        s100: "Analizy i Sugestie"
+        s101: "Poszukiwanie pracy lub stażu rozpoczyna się od aplikacji w formie CV i /lub listu motywacyjnego. Poniżej możesz znaleźć sugestie i wskazówki w jaki sposób ulepszyć swoje CV."
+        s102: "Analiza pozytywnych elementów"
+        s103: "Twoje stopnie są doskonałe."
+        s104: "Jesteś pracowitym, skoncentrowanym i zmotywowanym studentem. Twoje stopnie wskazują na głęboką wiedzę teorytyczną jaką posiadzasz, a uzysakane przez Ciebie wyniki sprawjają, że jesteś wartościowym współpracownikiem. ."
+        s105: "Opisz źródła swojej motywację oraz to jak pracujesz aby uzyskać swoje stopnie. Co sprawiło, że uzyskujesz tak dobre wyniki? Pokaż swoje duże zaangażowanie w listach motywacyjnych oraz podczas rozmów kwalifikacyjnych."
+        s106: "Ukończyłes studia z wspaniałymi wynikami."
+        s107: "Uzyskiwane podczas nauki wyniki wkazują na Twoje zdyscyplinowane podejście do egzaminów i pracy."
+        s108: "Opisz jak przygotowujesz się i jak podchodzisz do nowych wyzwań (postaraj nie koncentrować się na wynikach).Pamiętaj, że firmy poszukują sumiennych, poważnych i zmotywowanych pracowników. Twoje stopnie wskazują na to, że jesteś jednym z nich."
+        s109: "Świetne umiejętności językowe."
+        s110: "W zależności od branży i firmy, którą jesteś zainteresowany z pewnością będziesz bardzo cennym pracownikiem. Nauka języka obcego pozwala Ci nie tylko na umiejętną komunikację, ale również ułatwia Ci pogłębinie wiedzy na temat innych kultur oraz rozwija Twoje umiejętności rozwiązywania problemów."
+        s110a: "Nasza rada: "
+        s111: "Skupiając się na swoich umiejętnościach językowych zapewniasz większą elastyczność swojemu przyszłemu pracodawcy. Globalnie firmy preferują wielojęzycznych kandydatów."
+        s112: "Dużo zainteresowań i umiejętności"
+        s113: "Zdobyłeś doświadczenie w wielu odmiennych sytuacjach obejmujących różne środowiska i tematy. Szeroki zestaw wiedzy i umiejętności jest bardzo cenny, ponieważ pokazuje, że jesteś otwarty na naukę i szybkie opanowywanie nowych umiejętności. "
+        s114: "Opisz swoją motywację która pomogła Ci w zdobyciu tych umiejętności. Co skłoniło Ci się zdobywanie nowych doświadczeń? Pasja ekscytuje, a wszystkie firmy i przyszli współpracownicy chcieliby abyś z taką samą pasję podszedł do swojej  nowej pracy."
+        s115: "Działałeś aktywnie w swoim środowisku oraz angażowałeś się w słuszne sprawy."
+        s116: "Twoje wysiłki są doceniane. Organizacja którą wspierasz przyczynia się do globalnych zmian, a doświadczenie które zdobyłeś pomaga w radzeniu sobie z niepowodzeniami i trudnymi sytuacjami w życiu. Masz również doświadczenie w motywowaniu i przekonaniu ludzi - cenne umiejętności dla każdego pracownika."
+        s117: "Liczne działania społeczne zapewniają umiejętności i doświadczenia związanych z codzienną pracą. Przedstaw te doświadczeń i wyniki swoich działań. Jakie sytuacje sprawiły Ci trudności i jak sobie z nimi poradziłeś? Co zrobiłbyś lepiej następnym razem? Jakie umiejętności udało Ci się zdobyć?"
+        s118: "Posiadzasz liczne publikacje"
+        s119: "Twoja szeroka znajomość interesujących Cię tematów oraz pogłębiane umiejętności techniczne oraz komunikacyjne pozwoliły Ci na uzyskanie licznych publikacji. Czas i wysiłek który zainwestowałeś w ich powstanie pozwoliły Ci zostać ekspertem już teraz - to dokumentuje twoją wytrwałość i motywację do zapewnienia najwyższych standardów."
+        s120: "Liczne publikacje potwierdzają Twoje profesjonalne podejście do pracy. Udostępnij linki do swoich publikacji i odpisz jakie umiejętności udało CI się pozyskać i poprawić podczas procesu ich tworzenia.."
+        s121: "Zostałeś nagrodzony i wyróżniony."
+        s122: "Pasja prowadzi do ponadprzeciętnych wyników. A Twój wynik został doceniony - zarówno ten intelektualny jak i sportowy, wykazałeś się wyjątkowymi osiągnięciami i możesz się tym szczycić.."
+        s123: "Pasja jest ważna. I równie ważne są wyniki. W trakcie aplikacji o pracę, opisz swoje wysiłki i swoje motywacje oraz napisz jak mogę Ci  one pomóc w realizacji nowych zadań. "
+        s124: "Jesteś stypendystą"
+        s125: "Stypendia sygnalizują Twoje wybory. Zostałeś uznany za swoją wysoką jakość i dzięki temu otrzymałeś wpracie np. finansowe. Stypendyści ułatwiają przyszłym pracodawcom znalezienie doskonałości - a ty zarobiłeś na swoje stypendium."
+        s126: "Pracowałeś ciężko aby otrzymać to stypendium. W jaki sposób uławiło Ci ono dalszy rozwój pozwalając skupić się na jeszcze lepszych wynikach?"
+        s127: "Radzisz sobie świetnia. Oby tak dalej!"
+        s128: "Co można poprawić:"
+        s129: "Brak znaczącego doświadczenia zawodowego."
+        s130: "Pracodawcy traktują brak doświadczenia zawodowego jako czynnik ryzyka. Jeśli nigdy wcześniej nie pracowałeś w jakiejś branży, możesz nie zrozumieć i nie respektować kultury pracy, zadań wykonywanych przez współpracowników lub swoich przyszłych zobowiązań. Istnieje niewielkie ryzyko, że będziesz rozczarowany codzienną pracą i zdeycujesz się szukać innych możliwości rozwoju."
+        s131: "Wykonaj kilka staży w odpowiednich branżach aby je lepiej poznać. Nawet jeśli nie są one bardzo interesujące, możesz dzięki temu utworzyć listę wykluczeń i stopniowo wyrobić sobie opinię na temat rodzaju przemysłu w którym naprawdę chcesz pracować.."
+        s132: "Wyniki naukowe poniżej średniej."
+        s133: "Nie możesz tego zmienić. Ale nie musi to wpływać na twoje wyniki w przyszłej pracy - jeśli jesteś zmotywowany aby dobrze wykonać swoją pracę, skupić się na swoich zadaniach oraz przekładasz praktykę nad teorię to możesz skutecznie sprzedać się potencjalnym pracodawcom. To oczywiście staje się prostsze, jeśli możesz zapewnić sobie odpowiednie praktyki oraz poświadczenie tego co na nich osiągnąłeś."
+        s134: "Skup się na innych, ważniejszych kwestiach, mów o tym co istotne. Osoba przeprowadzająca z Tobą rozmowę wie jakie znaczenie mają Twoje wyniki naukowe, przy aplikacji na daną pozycję. Interesują ją powody dla których będziesz dobrze wykonywać swoją pracę. Dostarczając ich, uda Ci się zignorować przeszłości."
+        s135: "Wyniki naukowe poniżej średniej."
+        s136: "Nadal możesz poprawić te wyniki. Pracodawcy będą brać pod uwagę Twoje oceny w wypadku gdy wiedza teoretyczna istotnie wpływa na jakość pracy na tej pozycji. Jeśli jednak zdecydujesz się zmienić branże, słabe ocen nie powinny stanowić problemu. Postaraj się zakomunikować swojemu potencjalnemu pracodawcy, że to brak zainteresowania, a nie brak wysiłku, był odpowiedzialny za twoje wyniki."
+        s137: "Złe stopnie nie powinny uniemożliwiać Ci bycia doskonałym w swojej pracy. Poinformuj osobę, która przeprowadza z Tobą wywiad o swoich planach zawodowych, aspiracjach oraz o tym jak chcesz je osiągnąć. Nie każdy musi posiadać tytuł profesora – niektóre stanowiska  skorzystają z bardziej praktycznego podejścia niż szerszej wiedzy teoretycznej. ."
+      breakdown_chart:
+        s1: Przykładowi uczestnicy z grup, urodzeni w
+      charts:
+        s1: Porównanie
+        s2: Unczelnia
+        s3: Globalny
+        s4: Klasyfikacja
+        s5: Krajowy
+      preferred_employer:
+        s1: Analiza wybranej firmy
+      profile:
+        s1: Zobacz CV
+        s2: Globalny rankking
+        s3: spośród
+        s4: "punkty do +1"
+      recommendations:
+        s1: Rekomendacje
+      skills:
+        s1: Umiejętności
