@@ -25,63 +25,62 @@ es:
     mailer:
       email_message:
         s1: "le ha enviado un mensaje"
-        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+        s2: "Su dirección de email está segura y no ha sido facilitada a nadie. Esta empresa ha usado un formulario online en nuestra web para ponerse en contacto con usted. Si lo desea, puede modificar sus preferencias de contacto pinchando en \"Mi cuenta\" una vez iniciada su sesión."
       message:   #Yes, this is exactly the same as above. Copy paste.
-        s1: "has sent you a message"
-        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
-    messages:
+        s1: "le ha enviado un mensaje"
+        s2: "Su dirección de email está segura y no ha sido facilitada a nadie. Esta empresa ha usado un formulario online en nuestra web para ponerse en contacto con usted. Si lo desea, puede modificar sus preferencias de contacto pinchando en \"Mi cuenta\" una vez iniciada su sesión."
       index:
-        s1: My messages
-        s2: Topic
-        s2: Copied to email?
+        s1: Mis mensajes
+        s2: Asunto
+        s2: Copiado en email?
       modal:
-        s1: Message
+        s1: Mensaje
     public:
       home:
-        s1: "Dashboard for"
-        s10: "There are"
-        s11: "participants in our database"
-        s12: "Saved candidates"
-        s13: "Search database"
-        s2: Bill
-        s3: "Show billing details"
-        s4: "Job offers"
-        s5: "Job offers in system "
-        s6: "Create a new job offer"
-        s7: "Events in system"
-        s8: "Create a new event"
-        s9: "CV Database"
-        s14: Company page
-        s15: Job postings
-        s16: Post a job
-        s17: It\'s free
-        s18: It\'s fast.
-        s19: It\'s your solution.
-        s20: CV Database
-        s21: Search the database
-        s22: Full access.
-        s23: Thousands of candidates.
-        s24: Completely free for 10 days.
-        s25: Sign in
-        s26: Sign in
-        s27: No account yet?
-        s28: Sign up here
+        s1: "Panel de control de"
+        s10: "Hay"
+        s11: "usuarios en nuestra base de datos"
+        s12: "Candidatos seleccionados"
+        s13: "Buscar en baste de datos"
+        s2: Factura
+        s3: "Detalles de la factura"
+        s4: "Ofertas de trabajo"
+        s5: "Ofertas de trabajo en el sistema "
+        s6: "Crear nueva oferta de trabajo"
+        s7: "Eventos en el sistema"
+        s8: "Crear un nuevo evento"
+        s9: "Base de Datos de CV"
+        s14: Página de la empresa
+        s15: Ofertas publicadas
+        s16: Publicar una oferta
+        s17: Es gratis.
+        s18: Es rápido.
+        s19: Es su solución.
+        s20: Base de Datos de CV
+        s21: Buscar en la base de datos
+        s22: Acceso total
+        s23: Miles de candidatos
+        s24: Totalmente gratis durante 10 días.
+        s25: Iniciar sesión
+        s26: Iniciar sesión
+        s27: No tiene cuenta?
+        s28: Crear cuenta aquí
     registrations:
       new:
-        s1: Sign up
-        s2: Company Name
-        s3: Sign up
-        s4: Have an account?
-        s5: Sign in
+        s1: Crear cuenta
+        s2: Nombre empresa
+        s3: Crear cuenta
+        s4: Tiene cuenta?
+        s5: Iniciar sesión
     sessions:
       new:
-        s1: Sign in
-        s2: Sign in
-        s3: No account yet?
-        s4: Sign up here
+        s1: Iniciar sesión
+        s2: Iniciar sesión
+        s3: No tiene cuenta?
+        s4: Crear cuenta aquí
     shared:
       links:
-        s1: Forgot your password?
-        s1: Didn\'t receive confirmation instructions?
-        s1: Didn\'t receive unlock instructions?
-        s1: Sign in with
+        s1: Olvidó su contraseña?
+        s1: No ha recibido las instrucciones para confirmar su cuenta?
+        s1: No ha recibido las instrucciones para desbloquear su cuenta?
+        s1: Iniciar sesión con
