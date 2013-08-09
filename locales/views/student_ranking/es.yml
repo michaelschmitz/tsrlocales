@@ -1,0 +1,46 @@
+es:
+  student_ranking:
+    public_anon_profile_small:
+      s1: Anónimo
+      s2: Prácticas
+      s3: Graduado
+      s4: Ver detalles
+    public_profile_small:
+      s1: Prácticas
+      s1: Graduado
+      s3: Ver detalles
+    public_profile:
+      s1: xxx
+      s2: Estudiante
+      s3: Actual
+      s4: Anterior
+      s5: Educación
+      s6: Prácticas
+      s7: Graduado
+      s8: Sí, por 
+      s9: Sí
+      s10: Recomendaciones
+      s11: Confirmación habilidades
+      s12: Contactos
+      s13: Mensaje
+      s14: Contactar
+      s15: Comparar con tu CV
+      s16: Informe
+      s17: Informe recibido
+    public_recommendations:
+      s1: Recomendaciones
+      s2: Sin recomendaciones.
+      s3: Eliminar recomendación
+      s4: Recomendar
+    public_skills:
+      s1: Habilidades
+      s2: Confirmar
+      s3: El usuario no ha introducido habilidades.
+    show:
+      s1: Ranking mundial de estudiantes
+      s2: Buscar por nombre
+      s3: Puntuación personal
+      s4: Puntuación social
+      s5: Buscar
+      s6: No hay resultados disponibles para su búsqueda.
+      s7: Resultados
