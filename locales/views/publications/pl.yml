@@ -1,0 +1,13 @@
+pl:
+  publications:
+    edit:
+      s1: Edytuj publikację
+    modal:
+      s1: Publikacje
+    new:
+      s1: Dodaj publikację
+    show:
+      s1: Publikacje
+    publication:
+      s1: Opis
+      s2: Link
