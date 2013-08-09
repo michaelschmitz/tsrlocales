@@ -1,0 +1,70 @@
+es:
+  recruiters:
+    cv_searches:
+      comparisons:
+        s1: Comparación global
+      form:
+        s1: Texto
+        s2: "Idioma 1"
+        s3: "Idioma 2"
+        s4: "Idioma 3"
+        s5: "Idioma 4"
+        s6: Localización
+        s7: Disponibilidad
+        s8: Por universidad
+        s9: Experiencia
+        s10: Habilidades
+        s11: Viajar
+        s12: Resultados
+      recruiter_profile_small:
+        s1: Prácticas
+        s2: Posición para graduado
+        s3: Eliminar de Candidatos
+        s4: Añadir a Candidatos
+        s5: Enviar un mensaje
+      recruiter_profile:
+        s0: Estudiante
+        s1: Añadir a la lista
+        s2: Mensaje
+        s3: Nuevo mensaje
+        s4: Mostrar todos los mensajes
+        s5: Top
+        s6: Top
+        s7: Prácticas
+        s8: Posición de graduado
+        s9: Mudar de ciudad
+        s10: Mudar de país
+        s11: Viajar
+        s12: Trabajar en
+        s13: Puntuación
+        s14: Educación
+        s15: Experiencia
+        s16: Idiomas
+        s17: Habilidades
+        s18: Adecuado/a
+        s19: Total
+        s20: Editar factores
+      recruiter_recommendations:
+        s1: Recomendaciones
+        s2: No tiene recomendaciones
+      recruiter_skills:
+        s1: Habilidades
+        s2: Confirmar
+        s3: El usuario aún no ha introducido habilidades.
+      index:
+        s1: Búsquedas de CV
+        s2: Nombre
+        s3: Mostrar candidatos
+        s4: Editar
+        s5: Continuar
+        s6: Candidatos
+        s7: Cambiar nombre
+        s8: Mostrar
+        s9: Nueva búsqueda
+      modal:
+        s1: Educación
+        s2: Experiencia
+        s3: Otras experiencias
+        s4: Ranking
+      show:
+        s1: Buscar en la base de datos
