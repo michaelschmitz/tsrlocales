@@ -1,0 +1,13 @@
+es:
+  skills:
+    edit:
+      s1: Editar habilidades
+    modal:
+      s1: Habilidad
+    new:
+      s1: Nueva habilidad
+    show:
+      s1: Habilidad
+    skill:
+      s1: Uso
+      s2: Formación
