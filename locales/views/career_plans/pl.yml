@@ -1,0 +1,30 @@
+pl:
+  career_plans:
+    career_plan:
+      s1: Pozycja dla absolwenta
+      s2: Inne umowy
+      s3: Umowa na projekt
+      s4: Doktorat
+      s5: W nie pełnym wymiarze godzin
+      s6: W pełnym wymiarze godzin
+      s7: Praktyki i staże
+      s8: Wolontariat
+      s9: Praca w stowarzyszeniach
+      s10: Umowy ograniczone
+      s11: Pozycja dla absolwenta
+      s12: lub od
+      s13: Dostępność nie jest wskazana
+      s14: Praktyki
+      s15: od
+      s16: Nie jestem zainteresowany stażami.
+      s17: Chęć do podróży
+      s18: Chęć do podróży  nie jest wskazana.
+      s19: Przeniesienie się do innego miasta?
+      s20: Przeniesienie się do innego kraju?
+      s21: Jestem zainteresowany przeprowadzką do
+    form:
+      s1: "Interesuje mnie :"
+      s2: "Preferencję:"
+      s3: "W jakim miejscu chciałbyś pracować?"
+    edit:
+      s1: "Edytuj plan kariery" 
