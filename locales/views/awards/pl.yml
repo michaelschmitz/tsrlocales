@@ -1,10 +1,10 @@
 pl:
   awards:
     edit:
-      s1: Edit Award
+      s1: Edytuj Nagrodę
     modal:
-      s1: Award
+      s1: Nagrody
     new:
-      s1: New Award
+      s1: Nowa Nagroda
     show:
-      s1: Award
+      s1: Nagrody
