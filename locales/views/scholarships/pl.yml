@@ -1,0 +1,10 @@
+pl:
+  scholarships:
+    edit:
+      s1: Edytuj stypendium
+    modal:
+      s1: Stypendium
+    new:
+      s1: Dodaj stypendium
+    show:
+      s1: Stypendium
