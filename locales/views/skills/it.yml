@@ -1,0 +1,13 @@
+it:
+  skills:
+    edit:
+      s1: Modifica competenza
+    modal:
+      s1: Competenza
+    new:
+      s1: Nuova competenza
+    show:
+      s1: Competenza
+    skill:
+      s1: Applicazione
+      s2: Formazione
