@@ -5,12 +5,12 @@ en:
         explanation_button: "Mostra spiegazione"
         asessment_title: <b>Valutazione</b> Hai ottenuto %{points} I punti sono raggruppati nella top %{percent}%
         asessment_body_1: Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, specialmente se sei molto specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore.
-        asessment_body_2: This ranking includes all participants from %{university} which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group.
+        asessment_body_2: Questo ranking include tutti i partecipanti di %{university} che sono nati nel tuo stesso anno. Questo confronto è adatto a valutare le tue possibilità di carriera, soprattutto se provieni da un'università che offre titoli di studio simili in un determinato ambito di studio. Se la tua università è molto grande questo tipo di confronto è solamente indicativo delle tue possibilità di carriera se fai parte dei gruppi maggiori.
         in: in
       achievement_ranking:
-        s1: Achievement ranking comparison
-        s2: "Points for +1"
-        s3: Congratulations!
+        s1: Confronto per punteggio personale
+        s2: "Punti per +1"
+        s3: Congratulazioni!
       analysis:
         s100: "Analysis and Suggestions"
         s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
