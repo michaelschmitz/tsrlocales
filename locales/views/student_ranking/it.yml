@@ -1,0 +1,46 @@
+it:
+  student_ranking:
+    public_anon_profile_small:
+      s1: Anonimo
+      s2: Stage
+      s3: Laureato
+      s4: Vedi dettagli
+    public_profile_small:
+      s1: Stage
+      s1: Laureato
+      s3: Vedi dettagli
+    public_profile:
+      s1: xxx
+      s2: Studente
+      s3: Attuale
+      s4: Precedente
+      s5: Istruzione
+      s6: Stage
+      s7: Laureato
+      s8: Si, da
+      s9: Si
+      s10: Raccommandazioni
+      s11: Conferme delle competenze
+      s12: Contatti
+      s13: Messaggio
+      s14: Connetti
+      s15: Confronta con il tuo CV
+      s16: Segnala
+      s17: Segnalazione ricevuta
+    public_recommendations:
+      s1: Raccomandazioni
+      s2: Non ci sono raccomandazioni.
+      s3: Elimina raccomandazione
+      s4: Raccomanda
+    public_skills:
+      s1: Competenze
+      s2: Conferma
+      s3: Questo utente non ha ancora indicato le sue competenze.
+    show:
+      s1: Ranking globale di studenti
+      s2: Ricerca per nome
+      s3: Punteggio Personale
+      s4: Punteggio Social
+      s5: Cerca
+      s6: Non ci sono risultati disponibili per la tua ricerca.
+      s7: Risultati 
