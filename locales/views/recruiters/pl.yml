@@ -82,6 +82,6 @@ en:
     shared:
       links:
         s1: Zapomniałeś hasła?
-        s1: Nie otrzymałeś potwierdzania rejestracji?
-        s1: Nie otrzymałeśinstrukcji odblokowania?
-        s1: Zaloguj się przez
+        s2: Nie otrzymałeś potwierdzania rejestracji?
+        s3: Nie otrzymałeśinstrukcji odblokowania?
+        s4: Zaloguj się przez
