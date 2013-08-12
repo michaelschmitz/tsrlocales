@@ -3,7 +3,7 @@ pl:
     attributes: &ATTRIBUTES
       i_am: Zawód
       my_industry: Branża
-      contract: 'Pełen etat'
+      contract: "Praca dla absolwenta"
       internship: Staż
       project: Projekt
       promotion: Awans
