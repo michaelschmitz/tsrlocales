@@ -1,0 +1,72 @@
+en:
+  users:
+    ranking:
+      main_chart:
+        explanation_button: "Mostra spiegazione"
+        asessment_title: <b>Valutazione</b> Hai ottenuto %{points} I punti sono raggruppati nella top %{percent}%
+        asessment_body_1: Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, specialmente se sei molto specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore.
+        asessment_body_2: This ranking includes all participants from %{university} which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group.
+        in: in
+      achievement_ranking:
+        s1: Achievement ranking comparison
+        s2: "Points for +1"
+        s3: Congratulations!
+      analysis:
+        s100: "Analysis and Suggestions"
+        s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
+        s102: "Analysis of positive elements"
+        s103: "Your grades are excellent."
+        s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
+        s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
+        s106: "You finished school with excellent grades."
+        s107: "Your school results show a disciplined approach to exams and work."
+        s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
+        s109: "Superior language skills."
+        s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
+        s110a: "Advice:"
+        s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
+        s112: "Many interests and skills"
+        s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
+        s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
+        s115: "You have provided service to your community and engaged yourself in a good cause."
+        s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
+        s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
+        s118: "You have multiple publications"
+        s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
+        s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
+        s121: "You received awards or prizes."
+        s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
+        s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
+        s124: "You received scholarships"
+        s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
+        s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
+        s127: "You are doing great. Keep it up!"
+        s128: Improvements
+        s129: "Lack of significant work experience."
+        s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
+        s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
+        s132: "School grades were below average"
+        s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
+        s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
+        s135: "Study grades are below average."
+        s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
+        s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."
+      breakdown_chart:
+        s1: Example participants from groups, born in
+      charts:
+        s1: Comparison
+        s2: University
+        s3: Global
+        s4: Breakdown
+        s5: National
+      preferred_employer:
+        s1: Company analysis
+      profile:
+        s1: View CV
+        s2: Global rank
+        s3: out of
+        s4: "points for +1"
+      recommendations:
+        s1: Recommendations
+      skills:
+        s1: Skills
