@@ -3,10 +3,10 @@ it:
     attributes: &ATTRIBUTES
       i_am: Posizione
       my_industry: Settore
-      contract: 'Posizione full-time'
+      contract: 'Posizione per laureati'
       internship: Stage
       project: Progetto
-      promotion: Promozione
+      promotion: Posizione per dottorandi/dottori
       part_time: Part-time
       full_time: Full-time
       trainee: Apprendista
