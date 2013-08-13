@@ -1,4 +1,4 @@
-en:
+it:
   users:
     ranking:
       main_chart:
@@ -12,61 +12,61 @@ en:
         s2: "Punti per +1"
         s3: Congratulazioni!
       analysis:
-        s100: "Analysis and Suggestions"
-        s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
-        s102: "Analysis of positive elements"
-        s103: "Your grades are excellent."
-        s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
-        s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
-        s106: "You finished school with excellent grades."
-        s107: "Your school results show a disciplined approach to exams and work."
-        s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
-        s109: "Superior language skills."
-        s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
-        s110a: "Advice:"
-        s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
-        s112: "Many interests and skills"
-        s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
-        s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
-        s115: "You have provided service to your community and engaged yourself in a good cause."
-        s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
-        s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
-        s118: "You have multiple publications"
-        s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
-        s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
-        s121: "You received awards or prizes."
-        s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
-        s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
-        s124: "You received scholarships"
-        s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
-        s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
-        s127: "You are doing great. Keep it up!"
-        s128: Improvements
-        s129: "Lack of significant work experience."
-        s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
-        s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
-        s132: "School grades were below average"
-        s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
-        s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
-        s135: "Study grades are below average."
-        s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
-        s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."
+        s100: "Analisi e Suggerimenti"
+        s101: "Fare domanda per lavori e stage è il test definitivo per le tue credenziali. Qui sotto potrai trovare consigli per il tuo CV e suggerimenti su cosa fare per migliorare la tua performance."
+        s102: "Analisi degli elementi positivi"
+        s103: "I tuoi voti sono eccellenti."
+        s104: "Sei uno studente diligente, motivato e attento. I tuoi voti dimostrano profonda conoscenza teorica e i tuoi risultati ti confermano come una persona di valore."
+        s105: "Descrivi come raggiungi i voti che desideri e cosa ti motiva. Cosa ti ha motivato a raggiungere un livello così elevato di performance? Condividi le tue motivazioni quando scrivi domande di lavoro e durante i colloqui."
+        s106: "Hai terminato gli studi con voti eccellenti."
+        s107: "I tuoi risultati accademici dimostrano un approccio metodico agli esami e al carico di lavoro."
+        s108: "Illustra come affronti e prepari nuove sfide (non ti focalizzare troppo sui risultati). Le aziende sono alla ricerca di candidati diligenti, seri e motivati. I tuoi voti dimostrano che sei uno di questi."
+        s109: "Competenze linguistiche superiori."
+        s110: "A seconda del tipo di settore ed azienda, potrai essere una risorsa preziosa per qualsiasi impresa. Aver appreso una nuova lingua non solo ha aumentato le tue abilità di comunicazione, ma ti ha anche permesso di conoscere meglio nuove culture e capire come affrontare varie situazioni in maniera diversa."
+        s110a: Suggerimento
+        s111: "Metti in risalto le tue competenze linguistiche e la flessibilità che questo apporta all'azienda. Imprese che agiscono su scala globale preferiscono candidati multilingue."
+        s112: "Interessi e competenze varie"
+        s113: "Hai accumulato molte esperienze su come affrontare situazioni diverse e sei abituato a far fronte a nuove sfide e argomenti. Un ampio insieme di conoscenze e abilità è utile per mostrare di essere pronto ad imparare e affinare nuove abilità."
+        s114: "Descrivi la tua motivazione a affinare queste abilità. Perchè ti è piaciuto imparare questo? La passione è travolgente, sia aziende che colleghi sarebbero molto soddisfatti se tu avessi la stessa passione per il tuo lavoro."
+        s115: "Hai reso un servizio alla tua communità e ti sei impegnato per una buona causa."
+        s116: "I tuoi sforzi sono riconosciuti. Hai collaborato con organizzazioni che cercano di migliorare il mondo ed hai imparato come affrontare contrattempi, colleghi e situazioni complicati. Hai anche imparato come motivare e convincere delle persone - tutte queste sono caratteristiche di valore per qualsiasi dipendente."
+        s117: "Aver partecipato in servizi utili alla comunità ti ha fornito competenze ed esperienze che sono rilevanti anche per il lavoro quotidiano in azienda. Metti in risalto queste esperienze e ciò che hai imparato. Quali sono state le situazioni più complicate di fronte a cui ti sei trovato? Come le hai affrontate? Cosa potresti fare meglio la prossima volta? Cosa hai imparato? "
+        s118: "Hai pubblicato molto"
+        s119: "La tua profonda conoscenza degli argomenti in cui fai ricerca ed uno stile comunicativo raffinato ed efficace hanno condotto a diverse pubblicazioni con il tuo nome. Hai investito tempo ed energie in questi argomenti e ne sei diventato un esperto - questo prova la tua perseveranza e motivazione a raggiungere risultati completamente compiuti."
+        s120: "Le pubblicazioni sono una credenziale che supporta il tuo approccio professionale al lavoro. Fornisci i link alle tue pubblicazioni e comunica le competenze che hai appreso e maturato durante il processo di pubblicazione."
+        s121: "Hai ricevuto molti premi e riconoscimenti."
+        s122: "La passione porta risultati. I tuoi risultati sono stati riconosciuti - sia che siano accademici o sportivi, hai dimostrato una capacità eccezionale e sei stato lodato per essa."
+        s123: "La passione è importante. Così come lo sono i risultati. Quando stili una candidatura sottolinea i tuoi sforzi e le tue motivazioni ricollegandoli alle tue nuove mansioni."
+        s124: "Hai ricevuto borse di studio"
+        s125: "Ricevere una borsa di studio segnala che è avvenuta una selezione. Parti terze ti hanno riconosciuto una determinata qualità e hanno deciso di ricompensarti con un supporto economico. Aver ricevuto delle borse di studio rende più semplice a futuri datori di lavoro di trovare eccellenze nelle loro organizzazioni - e tu hai meritato la tua borsa di studio."
+        s126: "Hai lavorato sodo per ricevere questa borsa di studio e dovresti essere in grado di spiegare come essa ti abbia aiutato nel tuo percorso permettendoti di concentrarti per ottenere risultati ancor migliori."
+        s127: "Stai andando benissimo, continua così."
+        s128: Miglioramenti
+        s129: "Mancanza di esperienze lavorative significative."
+        s130: "I datori di lavoro considerano la mancanza di esperienze lavorative significative come un fattore di rischio. Se non hai mai lavorato in un determinato settore potresti non comprendere appieno la cultura lavorativa, le mansioni dei colleghi o il tuo futuro lavoro. Corri il rischio di restare deluso dal tuo lavoro quotidiano e potresti cercare di trovare nuove opportunità."
+        s131: "Matura una certa esperienza in settori rilevanti e saggia il terreno. Anche se non ti senti fortemente interessato puoi creare una lista di ciò che non ti interessa e gradualmente formare un'opinione a riguardo del settore in cui vorresti davvero lavorare."
+        s132: "Voti della scuola superiore sotto la media."
+        s133: "Non può essere cambiato. Ma questo non deve avere conseguenze sulla tua futura performance lavorativa - se sei molto motivato a svolgere bene il tuo lavoro, concentrati sul compito più immediato e cerca di favorire lavori pratici a lavori teorici e potresti comunicare efficacemente il tuo valore a potenziali datori di lavoro. Questo risulta più facile se fornisci maggiori informazioni e certificazioni del lavoro svolto."
+        s134: "Focalizzati su altro, cose più importanti e riferisciti ad altre cose che contano. Il tuo interlocutore ad un colloquio è conscio di quanto irrelevanti possano essere i risultati accademici per la posizione che andresti ad occupare ed è più interessato a sapere perchè avrai un'ottima performance. Fornisci queste informazioni e dimentica il passato."
+        s135: "Voti universitari sotto la media."
+        s136: "Puoi ancora migliorare questi risultati. A seconda del settore, i datori di lavoro si concentreranno sui tuoi voti nel caso la teoria sia rilevante per la tua futura occupazione. Comunque, se cambiassi il settore, avere voti più bassi non dovrebbe essere un problema insormontabile - fintanto che comunichi che la causa dei risultati non è dovuta ad una mancanza di impegno bensì ad altre priorità od a una carenza di interesse in questo settore."
+        s137: "Voti bassi non devono impedirti di diventare eccellente sul posto di lavoro. Cerca di comunicarlo al tuo interlocutore insieme ai tuoi piani di carriera, alle tue aspirazioni ed a come intendi realizzarle. Non tutti hanno bisogno di avere un dottorato - alcuni lavori trarranno beneficio da persone con un approccio più pragmatico."
       breakdown_chart:
         s1: Example participants from groups, born in
       charts:
-        s1: Comparison
-        s2: University
-        s3: Global
-        s4: Breakdown
-        s5: National
+        s1: Confronto
+        s2: Università
+        s3: Globale
+        s4: Guasto
+        s5: Nazionale
       preferred_employer:
-        s1: Company analysis
+        s1: Analisi dell'azienda
       profile:
-        s1: View CV
-        s2: Global rank
-        s3: out of
-        s4: "points for +1"
+        s1: Visualizza CV
+        s2: Ranking globale
+        s3: su
+        s4: "punti per +1"
       recommendations:
-        s1: Recommendations
+        s1: Raccomandazioni
       skills:
-        s1: Skills
+        s1: Competenze
