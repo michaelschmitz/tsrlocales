@@ -82,9 +82,9 @@ it:
     shared:
       links:
         s1: Password dimenticata?
-        s1: "Non hai ancora ricevuto la email di conferma?"
-        s1: "Non hai ancora ricevuto la email di sblocco?"
-        s1: Accedi con
+        s2: "Non hai ancora ricevuto la email di conferma?"
+        s3: "Non hai ancora ricevuto la email di sblocco?"
+        s4: Accedi con
 
     Status
     API
