@@ -33,8 +33,9 @@ it:
       index:
         s1: I miei messaggi
         s2: Oggetto
-        s2: Copia email?
+        s3: Copia email?
       modal:
+       html:
         s1: Messaggio
     public:
       home:
