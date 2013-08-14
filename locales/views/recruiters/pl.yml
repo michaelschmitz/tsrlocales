@@ -1,6 +1,8 @@
 en:
   recruiters:
     cv_searches:
+      edit:
+        s1: "Nazwa wyszukiwania"
       modal:
         html:
           s1: "Edukacja"
