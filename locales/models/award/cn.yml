@@ -1,17 +1,17 @@
-cn:
+zht:
   award:
     attributes: &ATTRIBUTES
       area: 獎章
-      name: Name
-      level: Level
+      name: 名稱
+      level: 程度
     area:
-      1: Award
-      2: Prize(Sport)
+      1: 獎章 (學術類與一般)
+      2: 獎章 (運動類)
     level:
-      1: Local
-      2: Country
-      3: National
-      4: International
+      1: 地方級
+      2: 州、省級
+      3: 國家級
+      4: 國際級
   activerecord:
     attributes:
       award:
