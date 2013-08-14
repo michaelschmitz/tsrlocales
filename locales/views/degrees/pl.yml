@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj dyplom
     modal:
-      s1: Dyplom
+      html:
+        s1: Dyplom
     new:
       s1: Nowy dyplom
     show:
