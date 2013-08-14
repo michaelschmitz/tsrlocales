@@ -3,6 +3,8 @@ pl:
     cv_searches:
       comparisons:
         s1: Porównanie globalne
+      edit:
+        s1: "Nazwa wyszukiwania"
       form:
         s1: Text
         s2: "Język 1"
@@ -62,9 +64,10 @@ pl:
         s8: Pokaż
         s9: Nowe wyszukiwanie
       modal:
-        s1: Edukacja
-        s2: Doświadczenie
-        s3: Inne doświadczenie
-        s4: Ranking
+        html:
+          s1: Edukacja
+          s2: Doświadczenie
+          s3: Inne doświadczenie
+          s4: Ranking
       show:
         s1: Wyszukiwanie w bazie danych
