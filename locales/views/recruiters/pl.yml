@@ -35,7 +35,8 @@ en:
         s2: Temat
         s2: Skopiować na e-miala?
       modal:
-        s1: Wiadomoś
+        html:
+          s1: Wiadomość
     public:
       home:
         s1: "Pulpit nawigacyjny dla"
