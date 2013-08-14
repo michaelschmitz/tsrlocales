@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica premio
     modal:
+     html:
       s1: Premio
     new:
       s1: Nuovo premio
