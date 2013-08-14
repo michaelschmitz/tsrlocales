@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar experiencia laboral
     modal:
+     html:
       s1: Experiencia laboral
     new:
       s1: Nueva experiencia laboral
