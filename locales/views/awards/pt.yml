@@ -3,7 +3,8 @@ pt:
     edit:
       s1: Editar prémios
     modal:
-      s1: Prémios
+      html:
+        s1: Prémios
     new:
       s1: Novo prémio
     show:
