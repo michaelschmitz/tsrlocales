@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar habilidades
     modal:
+     html:
       s1: Habilidad
     new:
       s1: Nueva habilidad
