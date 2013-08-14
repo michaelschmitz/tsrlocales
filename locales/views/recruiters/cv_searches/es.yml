@@ -6,6 +6,7 @@ es:
       form:
         s1: Texto
         s2: "Idioma 1"
+        s2a: "Idioma"
         s3: "Idioma 2"
         s4: "Idioma 3"
         s5: "Idioma 4"
