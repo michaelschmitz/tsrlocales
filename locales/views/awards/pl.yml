@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj Nagrodę
     modal:
-      s1: Nagrody
+      html:
+        s1: Nagrody
     new:
       s1: Nowa Nagroda
     show:
