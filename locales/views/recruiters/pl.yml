@@ -1,5 +1,12 @@
 en:
   recruiters:
+    cv_searches:
+      modal:
+        html:
+          s1: "Edukacja"
+          s2: "Doświadczenie zawodowe"
+          s3: "Inne doświadczenia"
+          s4: "Ranking"
     jobs:
       form:
         s1: Wprowadź ręcznie
