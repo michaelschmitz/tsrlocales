@@ -3,11 +3,12 @@ pl:
     edit:
       s1: Edytuj umiejętność
     modal:
-      s1: Umiejętność
+      html:
+        s1: Umiejętności
     new:
       s1: Dodaj umiejętność
     show:
-      s1: Umiejętność
+      s1: Umiejętności
     skill:
       s1: Zastosowanie
       s2: Kształcenie
