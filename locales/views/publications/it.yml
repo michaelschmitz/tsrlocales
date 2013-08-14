@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica pubblicazione
     modal:
+     html:
       s1: Pubblicazione
     new:
       s1: Nuova pubblicazione
