@@ -3,7 +3,8 @@ pt:
     edit:
       s1: Editar formação académica
     modal:
-      s1: Formação académica
+      html:
+        s1: Formação académica
     new:
       s1: Nova formação académica
     show:
