@@ -34,6 +34,7 @@ es:
         s2: Asunto
         s2: Copiado en email?
       modal:
+       html:
         s1: Mensaje
     public:
       home:
