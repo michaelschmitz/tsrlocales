@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica titolo di studio
     modal:
+     html:
       s1: Titolo di studio
     new:
       s1: Nuovo titolo di studio
