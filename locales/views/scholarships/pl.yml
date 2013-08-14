@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj stypendium
     modal:
-      s1: Stypendium
+      html:
+        s1: Stypendium
     new:
       s1: Dodaj stypendium
     show:
