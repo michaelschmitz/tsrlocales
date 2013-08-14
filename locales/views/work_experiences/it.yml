@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica esperienza lavorativa
     modal:
+     html:
       s1: Esperienza lavorativa
     new:
       s1: Nuova esperienza lavorativa
