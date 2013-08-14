@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar idioma
     modal:
+     html:
       s1: Idioma
     new:
       s1: Nuevo idioma
