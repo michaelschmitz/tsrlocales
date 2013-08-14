@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica lingua
     modal:
+     html:
       s1: Lingua
     new:
       s1: Nuova lingua
