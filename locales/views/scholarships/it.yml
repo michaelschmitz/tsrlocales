@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica borsa di studio
     modal:
+     html:
       s1: Borsa di studio
     new:
       s1: Nuova borsa di studio
