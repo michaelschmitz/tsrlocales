@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar beca
     modal:
+     html:
       s1: Beca
     new:
       s1: Nueva beca
