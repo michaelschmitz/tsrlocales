@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj aktywność
     modal:
-      s1: Aktywności
+      html:
+        s1: Aktywności
     new:
       s1: Dodaj aktywność
     show:
