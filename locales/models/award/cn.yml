@@ -1,7 +1,7 @@
 cn:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: 獎章
       name: Name
       level: Level
     area:
