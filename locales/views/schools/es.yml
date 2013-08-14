@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar escuela
     modal:
+     html:
       s1: Idioma
     new:
       s1: Nueva escuela
