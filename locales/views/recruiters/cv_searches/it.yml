@@ -63,9 +63,13 @@ it:
         s8: Mostra
         s9: Nuova ricerca
       modal:
+       html:
         s1: Istruzione
-        s2: Esperienza
+       html:
+        s2: Esperienze lavorative
+       html:
         s3: Altra esperienza
+       html:
         s4: Ranking
       show:
         s1: Cerca nel database
