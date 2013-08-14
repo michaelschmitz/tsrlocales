@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica competenza
     modal:
+     html:
       s1: Competenza
     new:
       s1: Nuova competenza
