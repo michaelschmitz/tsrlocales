@@ -8,6 +8,7 @@ pl:
       form:
         s1: Text
         s2: "Język 1"
+        s2a: "Język"
         s3: "Język 2"
         s4: "Język 3"
         s5: "Język 4"
