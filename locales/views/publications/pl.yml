@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj publikację
     modal:
-      s1: Publikacje
+      html:
+        s1: Publikacje
     new:
       s1: Dodaj publikację
     show:
