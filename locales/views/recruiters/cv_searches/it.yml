@@ -6,6 +6,7 @@ it:
       form:
         s1: Testo
         s2: "Lingua 1"
+        s2a: "Lingua"
         s3: "Lingua 2"
         s4: "Lingua 3"
         s5: "Lingua 4"
