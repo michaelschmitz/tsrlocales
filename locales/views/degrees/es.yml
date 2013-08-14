@@ -3,6 +3,7 @@ es:
     edit:
       s1: Editar Estudios
     modal:
+     html:
       s1: Estudios
     new:
       s1: Añadir estudios
