@@ -3,6 +3,7 @@ it:
     edit:
       s1: Modifica servizio
     modal:
+     html:
       s1: Servizio
     new:
       s1: Nuovo servizio
