@@ -3,7 +3,8 @@ pl:
     edit:
       s1: Edytuj doświadczenie zawodowe
     modal:
-      s1: Doświadczenie zawodowe
+      html:
+        s1: Doświadczenie zawodowe
     new:
       s1: Nowe doświadczenie zawodowe
     show:
