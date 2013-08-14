@@ -1,14 +1,5 @@
 en:
   recruiters:
-    cv_searches:
-      edit:
-        s1: "Nazwa wyszukiwania"
-      modal:
-        html:
-          s1: "Edukacja"
-          s2: "Doświadczenie zawodowe"
-          s3: "Inne doświadczenia"
-          s4: "Ranking"
     jobs:
       form:
         s1: Wprowadź ręcznie
