@@ -3,10 +3,10 @@ pl:
     attributes: &ATTRIBUTES
       i_am: Zawód
       my_industry: Branża
-      contract: 'Pełen etat'
+      contract: "Praca dla absolwenta"
       internship: Staż
       project: Projekt
-      promotion: Awans
+      promotion: "Stanowisko doktoranckie"
       part_time: W niepełnym wymiarze czas
       full_time: W pełnym wymiarze czasu
       trainee: Szkolenie

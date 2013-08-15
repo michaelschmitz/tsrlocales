@@ -1,0 +1,72 @@
+it:
+  users:
+    ranking:
+      main_chart:
+        explanation_button: "Mostra spiegazione"
+        asessment_title: <b>Valutazione</b> Hai ottenuto %{points} I punti sono raggruppati nella top %{percent}%
+        asessment_body_1: Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, specialmente se sei molto specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore.
+        asessment_body_2: Questo ranking include tutti i partecipanti di %{university} che sono nati nel tuo stesso anno. Questo confronto è adatto a valutare le tue possibilità di carriera, soprattutto se provieni da un'università che offre titoli di studio simili in un determinato ambito di studio. Se la tua università è molto grande questo tipo di confronto è solamente indicativo delle tue possibilità di carriera se fai parte dei gruppi maggiori.
+        in: in
+      achievement_ranking:
+        s1: Confronto per punteggio personale
+        s2: "Punti per +1"
+        s3: Congratulazioni!
+      analysis:
+        s100: "Analisi e Suggerimenti"
+        s101: "Fare domanda per lavori e stage è il test definitivo per le tue credenziali. Qui sotto potrai trovare consigli per il tuo CV e suggerimenti su cosa fare per migliorare la tua performance."
+        s102: "Analisi degli elementi positivi"
+        s103: "I tuoi voti sono eccellenti."
+        s104: "Sei uno studente diligente, motivato e attento. I tuoi voti dimostrano profonda conoscenza teorica e i tuoi risultati ti confermano come una persona di valore."
+        s105: "Descrivi come raggiungi i voti che desideri e cosa ti motiva. Cosa ti ha motivato a raggiungere un livello così elevato di performance? Condividi le tue motivazioni quando scrivi domande di lavoro e durante i colloqui."
+        s106: "Hai terminato gli studi con voti eccellenti."
+        s107: "I tuoi risultati accademici dimostrano un approccio metodico agli esami e al carico di lavoro."
+        s108: "Illustra come affronti e prepari nuove sfide (non ti focalizzare troppo sui risultati). Le aziende sono alla ricerca di candidati diligenti, seri e motivati. I tuoi voti dimostrano che sei uno di questi."
+        s109: "Competenze linguistiche superiori."
+        s110: "A seconda del tipo di settore ed azienda, potrai essere una risorsa preziosa per qualsiasi impresa. Aver appreso una nuova lingua non solo ha aumentato le tue abilità di comunicazione, ma ti ha anche permesso di conoscere meglio nuove culture e capire come affrontare varie situazioni in maniera diversa."
+        s110a: Suggerimento
+        s111: "Metti in risalto le tue competenze linguistiche e la flessibilità che questo apporta all'azienda. Imprese che agiscono su scala globale preferiscono candidati multilingue."
+        s112: "Interessi e competenze varie"
+        s113: "Hai accumulato molte esperienze su come affrontare situazioni diverse e sei abituato a far fronte a nuove sfide e argomenti. Un ampio insieme di conoscenze e abilità è utile per mostrare di essere pronto ad imparare e affinare nuove abilità."
+        s114: "Descrivi la tua motivazione a affinare queste abilità. Perchè ti è piaciuto imparare questo? La passione è travolgente, sia aziende che colleghi sarebbero molto soddisfatti se tu avessi la stessa passione per il tuo lavoro."
+        s115: "Hai reso un servizio alla tua communità e ti sei impegnato per una buona causa."
+        s116: "I tuoi sforzi sono riconosciuti. Hai collaborato con organizzazioni che cercano di migliorare il mondo ed hai imparato come affrontare contrattempi, colleghi e situazioni complicati. Hai anche imparato come motivare e convincere delle persone - tutte queste sono caratteristiche di valore per qualsiasi dipendente."
+        s117: "Aver partecipato in servizi utili alla comunità ti ha fornito competenze ed esperienze che sono rilevanti anche per il lavoro quotidiano in azienda. Metti in risalto queste esperienze e ciò che hai imparato. Quali sono state le situazioni più complicate di fronte a cui ti sei trovato? Come le hai affrontate? Cosa potresti fare meglio la prossima volta? Cosa hai imparato? "
+        s118: "Hai pubblicato molto"
+        s119: "La tua profonda conoscenza degli argomenti in cui fai ricerca ed uno stile comunicativo raffinato ed efficace hanno condotto a diverse pubblicazioni con il tuo nome. Hai investito tempo ed energie in questi argomenti e ne sei diventato un esperto - questo prova la tua perseveranza e motivazione a raggiungere risultati completamente compiuti."
+        s120: "Le pubblicazioni sono una credenziale che supporta il tuo approccio professionale al lavoro. Fornisci i link alle tue pubblicazioni e comunica le competenze che hai appreso e maturato durante il processo di pubblicazione."
+        s121: "Hai ricevuto molti premi e riconoscimenti."
+        s122: "La passione porta risultati. I tuoi risultati sono stati riconosciuti - sia che siano accademici o sportivi, hai dimostrato una capacità eccezionale e sei stato lodato per essa."
+        s123: "La passione è importante. Così come lo sono i risultati. Quando stili una candidatura sottolinea i tuoi sforzi e le tue motivazioni ricollegandoli alle tue nuove mansioni."
+        s124: "Hai ricevuto borse di studio"
+        s125: "Ricevere una borsa di studio segnala che è avvenuta una selezione. Parti terze ti hanno riconosciuto una determinata qualità e hanno deciso di ricompensarti con un supporto economico. Aver ricevuto delle borse di studio rende più semplice a futuri datori di lavoro di trovare eccellenze nelle loro organizzazioni - e tu hai meritato la tua borsa di studio."
+        s126: "Hai lavorato sodo per ricevere questa borsa di studio e dovresti essere in grado di spiegare come essa ti abbia aiutato nel tuo percorso permettendoti di concentrarti per ottenere risultati ancor migliori."
+        s127: "Stai andando benissimo, continua così."
+        s128: Miglioramenti
+        s129: "Mancanza di esperienze lavorative significative."
+        s130: "I datori di lavoro considerano la mancanza di esperienze lavorative significative come un fattore di rischio. Se non hai mai lavorato in un determinato settore potresti non comprendere appieno la cultura lavorativa, le mansioni dei colleghi o il tuo futuro lavoro. Corri il rischio di restare deluso dal tuo lavoro quotidiano e potresti cercare di trovare nuove opportunità."
+        s131: "Matura una certa esperienza in settori rilevanti e saggia il terreno. Anche se non ti senti fortemente interessato puoi creare una lista di ciò che non ti interessa e gradualmente formare un'opinione a riguardo del settore in cui vorresti davvero lavorare."
+        s132: "Voti della scuola superiore sotto la media."
+        s133: "Non può essere cambiato. Ma questo non deve avere conseguenze sulla tua futura performance lavorativa - se sei molto motivato a svolgere bene il tuo lavoro, concentrati sul compito più immediato e cerca di favorire lavori pratici a lavori teorici e potresti comunicare efficacemente il tuo valore a potenziali datori di lavoro. Questo risulta più facile se fornisci maggiori informazioni e certificazioni del lavoro svolto."
+        s134: "Focalizzati su altro, cose più importanti e riferisciti ad altre cose che contano. Il tuo interlocutore ad un colloquio è conscio di quanto irrelevanti possano essere i risultati accademici per la posizione che andresti ad occupare ed è più interessato a sapere perchè avrai un'ottima performance. Fornisci queste informazioni e dimentica il passato."
+        s135: "Voti universitari sotto la media."
+        s136: "Puoi ancora migliorare questi risultati. A seconda del settore, i datori di lavoro si concentreranno sui tuoi voti nel caso la teoria sia rilevante per la tua futura occupazione. Comunque, se cambiassi il settore, avere voti più bassi non dovrebbe essere un problema insormontabile - fintanto che comunichi che la causa dei risultati non è dovuta ad una mancanza di impegno bensì ad altre priorità od a una carenza di interesse in questo settore."
+        s137: "Voti bassi non devono impedirti di diventare eccellente sul posto di lavoro. Cerca di comunicarlo al tuo interlocutore insieme ai tuoi piani di carriera, alle tue aspirazioni ed a come intendi realizzarle. Non tutti hanno bisogno di avere un dottorato - alcuni lavori trarranno beneficio da persone con un approccio più pragmatico."
+      breakdown_chart:
+        s1: Example participants from groups, born in
+      charts:
+        s1: Confronto
+        s2: Università
+        s3: Globale
+        s4: Guasto
+        s5: Nazionale
+      preferred_employer:
+        s1: Analisi dell'azienda
+      profile:
+        s1: Visualizza CV
+        s2: Ranking globale
+        s3: su
+        s4: "punti per +1"
+      recommendations:
+        s1: Raccomandazioni
+      skills:
+        s1: Competenze

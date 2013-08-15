@@ -1,0 +1,31 @@
+pt:
+  career_plans:
+    career_plan:
+      s1: Recém-formados
+      s2: Outros contratos
+      s3: Projetos
+      s4: PhD
+      s5: Part-time
+      s6: Full-time
+      s7: Treinamento
+      s8: Voluntariado
+      s9: Associado
+      s10: Contratos de duração limitada
+      s11: Vagas para recém-formados
+      s12: ou a partir de
+      s13: Disponibilidade não indicada.
+      s14: Estágios
+      s15: a partir de
+      s16: Sem interesse em estágios.
+      s17: Disponibilidade para viajar
+      s18: Disponibilidade para viajar não indicada.
+      s19: Mudar para outra cidade?
+      s20: Mudar para outro país?
+      s21: Interesse em mudar para
+      s22: Estágio
+    form:
+      s1: "Interesses:"
+      s2: "Preferências:"
+      s3: "Onde gostaria de trabalhar?"
+    edit:
+      s1: "Editar Plano de Carreira" 

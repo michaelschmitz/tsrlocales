@@ -18,7 +18,9 @@ es:
       travel: Viajar
       move_city: Mudarse de ciudad
       move_country: Mudarse de país
-      location: Localidad
+      location: Ubicación
+      i_am: Posición
+      my_industry: Sector
     available:
       1: 'Inmediatamente'
       2: 'En las próximas dos semanas'

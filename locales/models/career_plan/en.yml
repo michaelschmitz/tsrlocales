@@ -1,7 +1,7 @@
 en:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Graduate position'
+      contract: Graduate position
       internship: Internship
       project: Project
       promotion: PhD position

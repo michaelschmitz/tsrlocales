@@ -1,0 +1,13 @@
+fr:
+  languages:
+    edit:
+      s1: Modifier la langue
+    modal:
+      s1: Langue
+    new:
+      s1: Nouveau langue
+    show:
+      s1: Langue
+    language:
+      s1: Certificat
+      s2: Note

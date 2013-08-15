@@ -1,0 +1,50 @@
+pl:
+  users:
+    rank:
+      s1: Profil
+      s2: Rekomendacje
+      s3: Umiejętności
+      s4: Osiągnięcia Ranking
+      s5: Ranking Wykresy
+      s6: Analiza na podstawię wybranych firm 
+      s7: Analizy i Sugestie
+    show:
+      s1: O mnie
+    edit:
+      s1: O mnie
+    settings:
+      s1: "Ustawienia prywatności"
+      s10: "Twój adres e-mail nigdy nie zostanie udostępniony."
+      s11: "Wiadomości e-mail dotyczące loterii theStudenRanking.com"
+      s12: "Jak często chcesz otrzymwać e-mail o loterii na swoją skrzynkę pocztową?"
+      s13: "Po każdej loterii"
+      s14: "Co miesiąc"
+      s15: Nigdy
+      s2: "Zaproszenia na imprezy, interesujące oferty pracy oraz szeroki wybór płatnych staży. theStudentRanking.com zapewni Ci dostęp do doskonałych szans rozwoju kariery."
+      s3: "W zależności od Twoich preferencji, możemy wysyłać Ci wiadomości z Twoją aktualną pozycją w rankingu, wyselekcjonowanymi ofertami pracy oraz zaproszeniami na ciekawe wydarzenia."
+      s4: "Aktualna pozycja w rankingu."
+      s5: "Tak, co trzy miesiące chcę otrzymywać e-maile, wskazujące moją aktualną pozycję w rankingu"
+      s6: "Oferty pracy i zaproszenia"
+      s7: "Tak, chcę otrzymawać oferty pracy i zaproszenia na wydarzenia."
+      s8: "Chcesz być widoczny dla pracodawców?"
+      s8a: "Chcesz być widoczny w rankingu?"
+      s8b: "Tak, mój profil z moim imieniem i nazwiskiem może być widoczny w globalnym rankingu studentów."
+      s9: "Tak, pracodawcy mogą przeglądać mój profil i wysłać mi prywatne wiadomości o swoich ofertach pracach oraz ciekawych wydarzeniach."
+    shared:
+      links:
+        s1: Nie pamiętasz hasła?
+        s2: Nie otrzymałeś maila z potwierdzeniem?
+        s3: Nie otrzymałeś maila z instrukcją odblokowania konta?
+        s4: Zaloguj się przez
+    sessions:
+      new:
+        s1: Zaloguj się
+        s2: Zaloguj się
+        s3: No account yet?
+        s4: Sign up here
+    registrations:
+      new:
+        s1: Zarejestruj się
+        s2: Zarejestruj się
+        s3: Nie masz jeszcze konta?
+        s4: Zaloguj się tutaj

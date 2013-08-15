@@ -1,0 +1,72 @@
+es:
+  users:
+    ranking:        
+      main_chart:
+        explanation_button: "Mostrar explicación"
+        asessment_title: <b>Assessment</b> You earned %{points} Points and are grouped in the top %{percent}%
+        asessment_body_1: Este ranking incluye todos los participantes de la %{university} sin tener en cuenta la carrera académica seleccionada; por lo tanto, no refleja sus posibilidades reales de encontrar un trabajo en su área, sobre todo si usted ha trabajado duro para conseguir especializarse, acaba de empezar a estudiar o si es más joven que el resto de participantes. No obstante, este gráfico puede serle de ayuda para automotivarse, enfocar sus estudios en una dirección determinada o invertir su tiempo sabiamente para conseguir aumentar su valor en el mercado laboral.
+        asessment_body_2: Este ranking incluye todos los participantes de la %{university} que nacieron en el mismo año. Esta comparativa permite conocer sus posibilidades para desarrollar su carrera profesional, sobre todo si su universidad se enfoca únicamente en cursos similares dentro de una misma area de estudios. Si su universidad es muy grande, esta comparativa le servirá para tener una idea de sus posibilidades en caso de que usted pertenezca al grupo de destacados.
+        in: in
+      achievement_ranking:
+        s1: Comparativa del ránking personal
+        s2: "Puntos para +1"
+        s3: Felicidades!
+      analysis:
+        s100: "Análisis y sugerencias"
+        s101: "La inscripción para puestos de trabajo y prácticas es la demostración definitiva de sus credenciales. Eche un vistazo abajo para encontrar ideas y sugerencias relacionadas con su CV y con lo que puede hacer para presentarse mejor."
+        s102: "Análisis de los elementos positivos"
+        s103: "Sus notas son excelentes."
+        s104: "Usted es un estudiante motivado, enfocado y trabajador. Sus notas demuestran un profundo conocimiento de la teoría y sus resultados le colocan como un compañero valioso."
+        s105: "Describa su motivación y la forma de trabajar que tiene para conseguir las notas que quiere. Qué le motivó para desempeñar su trabajo tan bien? Comparta su motivación en cartas de presentación, así como en las entrevistas de trabajo."
+        s106: "Usted acabó sus estudios con notas excelentes."
+        s107: "Sus resultados académicos demuestran un abordaje disciplinado en sus exámenes y su trabajo."
+        s108: "Explique cómo se prepara y como se enfrenta a nuevos desafíos (no se enfoque demasiado en los resultados). Las empresas buscan compañeros formales, motivados y diligentes. Sus notas ya demuestran que usted es uno de ellos."
+        s109: "Habilidades lingüísticas elevadas."
+        s110: "Dependiendo del tipo de industria y empresa a la que se dirija, usted será un recurso muy valioso para cualquier empresa. Aprender un idioma no solo le proporciona mayores capacidades comunicativas, sino que también le permiten aprender más sobre otras culturas y analizar situaciones de forma diferente."
+        s110a: "Consejo: "
+        s111: "Enfóquese en sus capacidades lingüísticas y en la flexibilidad que ello proporcionará a su empresa. Las multinacionales prefieren candidatos plurilíngües."
+        s112: "Muchos intereses y capacidades"
+        s113: "Usted ha ganado experiencia en muchas y diversas situaciones y está acostumbrado a lidiar con nuevos entornos y temas. Un abundante set de capacidades y conocimientos es muy valioso para demostrar que usted es una persona abierta al aprendizaje y al perfeccionamento de nuevas habilidades."
+        s114: "Describa lo que le motivó a adquirir estas capacidades. Por qué disfrutaba desarrollándolas? La pasión es algo emocionante que tanto empresas como compañeros de trabajo estarían encantados de ver cómo usted traslada esa misma pasión a su trabajo."
+        s115: "Usted ha desempeñado actividades de servicio comunitario y está comprometido con causas positivas."
+        s116: "Sus esfuerzos son reconocidos. Usted ha colaborado con organizaciones para cambiar el mundo y con ello ha ganado experiencia a la hora de lidiar con contratiempos y dificultades personales y sociales. Usted también tiene experiencia a la hora de motivar y convencer a las personas - una capacidad muy valiosa para cualquier empresa."
+        s117: "Una abundante experiencia en servicio comunitario proporciona una serie de capacidades y talentos muy útiles para el día a día en el trabajo. Presente estas experiencias y los aprendizajes correspondientes. Qué situaciones resultaron particularmente difíciles y cómo las manejó? Qué mejoraría la próxima vez? Qué capacidades desarrolló? "
+        s118: "Usted tiene muchas publicaciones."
+        s119: "Su profundo conocimiento en temas de interés y su técnica refinada o su capacidad comunicativa le han llevado a desarrollar múltiples publicaciones con su nombre. Usted ha invertido tiempo y esfuerzo en estos temas y se ha convertido en un experto en ellos - lo cual demuestra su perseverancia y motivación para proporcionar resultados completos."
+        s120: "Las publicaciones son una credencial para respaldar y demostrar una actitud de trabajo muy profesional. Proporcione enlaces a sus publicaciones y comunique las capacidades que ha mejorado durante el proceso de creación y publicación."
+        s121: "Usted ha recibido premios y reconocimientos."
+        s122: "La pasión nos influye en nuestra actuación. Y su actuación fue reconocida - sea un logro intelectual o deportivo, con ello usted demuestra resultados excepcionales y que se lo reconocieron."
+        s123: "La pasión es muy importante. Y también los resultados. Cuando se esté inscribiendo para un trabajo, mencione sus esfuerzos y lo que le motiva y hable de sus nuevos retos."
+        s124: "Ha recibido remuneración"
+        s125: "Poseer una beca es sinónimo de que alguien ya le ha seleccionado en el pasado. Otros ya han reconocido alguna cualidad en usted que les ha llevado a recompensarle económica o a ayudarle con algún tipo de apoyo finaciero. Tener una beca facilita a las empresas su búsqueda de excelencia - y usted ya tiene esa beca."
+        s126: "Usted ha trabajado duro para recibir dicha beca y debería explicar cómo le ha ayudado a alisar el camino, aunque sea un poquito, mientras se enfocaba en mejorar aún más su rendimiento académico."
+        s127: "Siga así!"
+        s128: Mejoras
+        s129: "Carece de experiencia laboral significativa."
+        s130: "La falta de experiencia laboral significativa es considerada por las empresas como un factor de riesgo. Si usted nunca trabajó en una industria antes, tal vez no le resulte fácil comprender o respetar la cultura del trabajo y las tareas desempeñadas por sus compañeros en su futuro puesto de trabajo. Existe un pequeño riesgo en que usted se desilusione por la carga de trabajo diario e intentará buscar otras oportunidades de trabajo."
+        s131: "Complete algunas prácticas en industrias de referencia y experimente cómo se siente. Aunque no esté realmente interesado, esto le permitirá crear una lista de trabajos que excluye y de esta forma generar gradualmente una opinión sobre el tipo de industria en el que realmente quiere trabajar."
+        s132: "Sus notas escolares están por debajo de la media."
+        s133: "No se pueden alterar. Pero eso no tiene porqué afectar a su rendimiento futuro en el trabajo - si está motivado para rendir al máximo, se enfoca en las tareas asignadas y prefiere un trabajo cotidiano en vez de un trabajo más teórico, entonces debería poder vender sus capacidades a potenciales empresas sin problemas. Claro que ello resultará más fácil si puede proporcionar, al mismo tiempo, prácticas significativas y certificados por el trabajo realizado."
+        s134: "Enfóquese en otras cosas más importantes y hable de lo que realmente interesa a las empresas. Su entrevistador sabe cuán irrelevantes pueden llegar a ser las notas académicas para determinados puestos de trabajo y estará más interesado en conocer los motivos por los cuales considera que rendirá bien. Céntrese en estas cosas e ignore el pasado."
+        s135: "Sus notas académicas están por debajo de la media."
+        s136: "Tal vez todavía esté a tiempo de mejorar estas notas. Dependiendo del sector, las empresas se fijarán en sus notas si su futuro puesto de trabajo requiere conocimiento teórico. No obstante, si usted cambia de sector, unas notas flojas no deberían ser un problema - siempre y cuando sea capaz de explicar que las notas recibidas son resultado de factores externos y no a la falta de esfuerzo o trabajo."
+        s137: "Unas notas bajas no debería limitar su capacidad para convertirse en un excelente trabajador en su puesto. Transmita eso y explique a su entrevistador su proyecto de carrera así como sus aspiraciones y cómo planea cumplirlas. No todo el mundo necesita un doctorado en dos carreras - en realidad, algunos trabajos requieren el abordaje de una persona más bien práctica."
+      breakdown_chart:
+        s1: Ejemplo de usuarios en grupos, nacidos en 
+      charts:
+        s1: Comparación
+        s2: Universidad
+        s3: Global
+        s4: Desglose
+        s5: Nacional
+      preferred_employer:
+        s1: Análisis de empresa
+      profile:
+        s1: Ver CV
+        s2: Posición global
+        s3: de
+        s4: "puntos para +1"
+      recommendations:
+        s1: Recomendaciones
+      skills:
+        s1: Habilidades

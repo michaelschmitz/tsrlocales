@@ -1,0 +1,29 @@
+fr:
+  career_plans:
+    career_plan:
+      s1: Position supérieure
+      s2: Autres contrats
+      s3: Les contrats de projet
+      s4: Positions Doctorat
+      s5: Temps partiel
+      s6: Temps plein
+      s7: Stages
+      s8: Le travail bénévole
+      s9: Offers associé
+      s10: Contrats limité
+      s11: Positions supréieures
+      s12: ou de
+      s13: Disponibilité non renseignées.
+      s14: Stages
+      s16: Ne pas intéressés par des stages.
+      s17: Disposé à voyager
+      s18: Volonté de voyager pas indiquée.
+      s19: Déplacer vers une autre ville?
+      s20: Déplacer vers un autre pays?
+      s21: Intéressé à passer à
+    form:
+      s1: "Intéressé par:"
+      s2: "Vos préférences:"
+      s3: «Dans quels endroits aimeriez-vous travailler?"
+     edit:
+       s1: "Plan de carrière Edit" 

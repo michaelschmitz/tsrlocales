@@ -1,22 +1,22 @@
-cn:
+zht:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: 姓名
+      country: 國家
+      university_id: 大學
+      title: 學位
+      credits: 學分
+      start_date: 開始日期
+      end_date: 結束日期
+      grade_scale: 成績系統
+      average: 平均成績
+      study_area: 比較群組
+      faculty: 科系
+      major: 主修
+      minor: 副修
+      document: 上傳文件
       university:
-        name: University Name
+        name: 大學名稱
     study_area: 
       17: "人文"
       38: "傳播、新聞、公關"
@@ -83,7 +83,7 @@ cn:
       9: "Magister"
       19: "PhD"
     grade_scale:
-      CN: "中國 (60-100%)"
+      CN: "中國 (60-100)"
       DK: "丹麥 (2-12)"
       IL: "以色列 (60-100%)"
       RU: "俄羅斯聯邦 (1-5)"

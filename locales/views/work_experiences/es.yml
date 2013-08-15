@@ -1,0 +1,15 @@
+es:
+  work_experiences:
+    edit:
+      s1: Editar experiencia laboral
+    modal:
+     html:
+      s1: Experiencia laboral
+    new:
+      s1: Nueva experiencia laboral
+    show:
+      s1: Experiencia laboral
+    work_experience:
+      s1: Descripción
+      s2: Horas
+      s3: por semana

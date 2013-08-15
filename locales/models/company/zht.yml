@@ -1,0 +1,19 @@
+zht:
+  company:
+    attributes: &ATTRIBUTES
+      name: 姓名
+      vat_number: Vat 號碼
+      street: 街道
+      city: 城市
+      code: 郵遞區碼
+      country: 國家
+      url: Url
+      facebook_page: 臉書網頁
+  activerecord:
+    attributes:
+      company:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      company:
+        <<: *ATTRIBUTES   
