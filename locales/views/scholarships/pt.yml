@@ -3,7 +3,8 @@ pt:
     edit:
       s1: Edita bolsa de estudo
     modal:
-      s1: Bolsa de estudo
+      html:
+        s1: Bolsa de estudo
     new:
       s1: Nova bolsa de estudo
     show:
