@@ -62,9 +62,10 @@ pt:
         s8: Mostrar
         s9: Nova pesquisa
       modal:
-        s1: Educação
-        s2: Experiência
-        s3: Experiência adicional
-        s4: Ranking
+        html:
+          s1: Educação
+          s2: Experiência profissional
+          s3: Experiência adicional
+          s4: Ranking
       show:
         s1: Procurar na base de dados
