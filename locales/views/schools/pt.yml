@@ -1,0 +1,12 @@
+pt:
+  schools:
+    edit:
+      s1: Editar escola
+    modal:
+      s1: Idioma
+    new:
+      s1: Nova escola
+    show:
+      s1: Escola
+    school:
+      s1: Média final
