@@ -3,6 +3,8 @@ pt:
     cv_searches:
       comparisons:
         s1: Comparação global
+      edit:
+        s1: "Dê um nome à sua pesquisa"
       form:
         s1: Texto
         s2: "Idioma 1"
