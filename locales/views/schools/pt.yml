@@ -3,7 +3,8 @@ pt:
     edit:
       s1: Editar escola
     modal:
-      s1: Idioma
+      html:
+        s1: Idioma
     new:
       s1: Nova escola
     show:
