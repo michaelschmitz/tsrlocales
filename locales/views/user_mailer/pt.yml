@@ -1,0 +1,10 @@
+pt:  
+  user_mailer:
+    invite_email:
+      s1: "convidou-te para aderires ao theStudentRanking.com"
+      s2: "convidou-te para aderires ao theStudentranking.com"
+      s3: "Adere por aqui."
+      s4: "theStudentRanking.com oferece uma ranking global de estudantes e jovens profissionais. Compara-te com outros colegas em todo o mundo, no teu país e na tua universidade. Também podes aprender mais acerca do desempenho dos teus colegas e ligares-te às melhores empresas mundiais. Experimenta - é grátis!"
+    email_message:
+      s1: "enviou-te uma mensagem"
+      s2: "O teu endereço de e-mail está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para te contactar. Podes mudar as tuas preferências de contacto. Para isso basta clicares em \"Conta\" após teres efetuado login."
