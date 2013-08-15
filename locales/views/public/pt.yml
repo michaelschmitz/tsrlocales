@@ -329,81 +329,80 @@ pt:
       s9: "Neste contexto é assim importante reter que a transmissão de informação através da internet (p.ex. via email) não é sempre 100% privada. A informação considerada por si sensível deverá assim ser apenas transferida através de uma ligação segura. Nós não retemos o seu e-mail, nome, morada ou número de telefone a não ser que os insira para efeitos de participação no ranking ou utilização de qualquer outro dos nossos serviços, de modo a facilitar a comunicação entre a nossa plataforma e possíveis empregadores (e apenas se o utilizador o consentir expressamente). A informação pessoal dos utilizadores é armazenada respeitando a legislação Alemã."  
     contact: 
       s1: Contacto
-      s2: "We are looking forward to hearing from you and will reply within twenty-four hours."
-      s3: Name
-      s4: Company
+      s2: "Ficamos na expectativa da sua mensagem e responderemos em 24 horas."
+      s3: Nome
+      s4: Empresa
       s5: Email
-      s6: Telephone
-      s7: Message
-      s8: Submit
+      s6: Telefone
+      s7: Mensagem
+      s8: Submeter
     blog_index:
-      s1: "Latest article"
-      s2: "Previous"
-      s3: "Next article"
-      s4: "Internships help"
-      s5: "The rules of the game"
-      s6: "Where to find happiness?"
-      s7: "Which opportunities should I pursue?"
-      s8: "What will you do for your career?"
-      s9: "Why aim for the difficult jobs?"
+      s1: "Último artigo"
+      s2: "Anterior"
+      s3: "Próximo artigo"
+      s4: "Estágios"
+      s5: "As regras do jogo"
+      s6: "Onde encontrar a felicidade?"
+      s7: "Quais as oportunidades mais relevantes para mim?"
+      s8: "O que estás disposto a fazer pela tua carreira?"
+      s9: "Porquê concorrer aos empregos mais difíceis?"
     testimonial:
-      s1: Success stories
-      s2: Our key partner Accenture has used theStudentRanking.com to recruit across borders. In one of the latest use cases, Accenture searched for Portuguese speakers to join their company in Poland, receiving dozens of applications and successfully growing their team.
-      s3: Michael Schmitz, Founder theStudentRanking.com
+      s1: Histórias de sucesso
+      s2: A Accenture, nosso parceiro-chave, utilizou o theStudentRanking.com para recrutar além-fronteiras. Numa das últimas vezes, a Accenture procurou por profissionais com competências em português para a sua operação na Polónia, tendo recebido dezenas de candidaturas e conseguido fazer crescer a sua equipa com sucesso.
+      s3: Michael Schmitz, Fundador do theStudentRanking.com
     social_activity:
-      s1: "has earned"
+      s1: "ganhou"
       s1a: ""
-      s2: "has signed up"
+      s2: "registou-se"
       s2a: ""
-      s3: "just got his ranking result!"
-      s4: "has recommended"
+      s3: "recebeu agora mesmo o seu resultado no ranking!"
+      s4: "recomendou"
       s4a: ""
-      s5: "has confirmed skills of"
+      s5: "confirmou as competências de"
       s5a: ""
       s6: ""
-      s7: ago
+      s7: atrás
       s7a: ""
-      s8: "for a degree"
-      s9: "for secondary education"
-      s10: "for"
+      s8: "por um grau académico"
+      s9: "pelo ensino secundário"
+      s10: "por"
     slider:
-      s1: "The world's largest student ranking."
-      s2: "Your profile connects you to the best companies worldwide"
-      s3: "Current global average score:"
-      s4: "Your profile"
-      s5: "Your ranking result"
-      s6: "Click here to start the ranking now"
-      s7: "Receive your"
-      s8: "free"
-      s9: "and"
-      s10: "anonymous"
-      s11: "ranking result now"
-      s12: "Your ranking"
-      s13: "Find out about your global rank"
-      s14: "Compare with your friends"
-      s15: "Learn how to improve"
-      s16: "Your career"
-      s17: "Be visible to global recruiters"
-      s18: "Receive great job offers"
-      s19: "Plan your career"
-      s20: "Risk free"
-      s21: "It's free!"
-      s22: "It's fast: 10 minutes or less!"
-      s23: "It's secure: Your data is private"
-      s24: "It's safe: No spam, ever"
+      s1: "O maior Ranking de Estudantes do mundo"
+      s2: "O seu perfil liga-o às melhores empresas em todo o mundo"
+      s3: "Resultado médio global atual:"
+      s4: "O seu perfil"
+      s5: "O seu resultado"
+      s6: "Selecione aqui para aceder ao ranking"
+      s7: "Receba o seu resultado"
+      s8: "gratuito"
+      s9: "e"
+      s10: "anónimo"
+      s11: "agora"
+      s12: "O seu ranking"
+      s13: "Descubra a sua posição no ranking"
+      s14: "Compare com os seus amigos"
+      s15: "Saiba como melhorar"
+      s16: "A sua carreira"
+      s17: "Torne-se visível para as empresas"
+      s18: "Receba excelentes ofertas de emprego"
+      s19: "Planeie a sua carreira"
+      s20: "Sem risco"
+      s21: "Gratuito!"
+      s22: "Rápido: 10 minutos ou menos!"
+      s23: "Seguro: os seus dados são protegidos"
+      s24: "Sem spam!"
     logos_press:
-      s1: "As featured in"
+      s1: "Destaques"
     logo_partners:
-      s1: In cooperation with
-      s2: In cooperation with
+      s1: Em colaboração com
+      s2: Em colaboração com
     jobs:
-      s1: Jobs
+      s1: Emprego
     smallfaq:
-      s1: "How much does it cost?"
-      s2: "Free for students, recruiters can post one job for free. Just sign up and try it"
-      s3: "What are you offering?"
-      s4: "A global ranking system for students that want to learn more about their competitiveness and that want to be found by companies."
-      s5: "Is my data private?"
-      s6: "You are in control of your data. Visitors and recruiters can only see your profile if you allow it."
-      s7: "More answers"
-                
+      s1: "Quanto custa participar no Ranking?"
+      s2: "Para os Estudantes é gratuito. Os Recrutadores podem colocar a 1ª oferta gratuitamente. Registe-se e experimente!"
+      s3: "Qual é a vossa oferta?"
+      s4: "Um Ranking Global para Estudantes que se interessem por saber mais sobre a sua competitividade no mercado de trabalho, e queiram ser contactados pelas Empresas."
+      s5: "Os meus dados estão protegidos?"
+      s6: "Tem total controle sobre os seus dados. Visitantes e Recrutadores apenas poderão ver o seu perfil se o permitir."
+      s7: "Mais respostas"
