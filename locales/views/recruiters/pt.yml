@@ -35,7 +35,8 @@ pt:
         s2: Assunto
         s2: Copiar para o e-mail?
       modal:
-        s1: Mensagem
+        html:
+          s1: Mensagem
     public:
       home:
         s1: "Painel de navegação para"
