@@ -1,50 +1,65 @@
-it:
-  recruiters:
-    jobs:
-      form:
-        s1: Inserimento manuale
-        s2: Carica PDF
+--- 
+it: 
+  recruiters: 
+    jobs: 
+      edit: 
+        s1: "Modifica offerta di lavoro"
+      form: 
+        s1: "Inserimento manuale"
+        s2: "Carica PDF"
         s3: Documenti
-      edit:
-        s1: Modifica offerta di lavoro
-      index:
-        s1: Le mie offerte di lavoro
+      index: 
+        s1: "Le mie offerte di lavoro"
         s2: Titolo
         s3: Luogo
         s4: Link
         s5: PDF?
-        s6: Valida fino
+        s6: "Valida fino"
         s7: Visitatori
         s8: Candidature
-        s9: Pubblica un'offerta di lavoro
-      new:
-        s1: Pubblica una nuova offerta di lavoro
-      show:
-        s1: Visitatori
+        s9: "Pubblica un'offerta di lavoro"
+      new: 
+        s1: "Pubblica una nuova offerta di lavoro"
+      show: 
         s1: Candidature
-    mailer:
-      email_message:
+    mailer: 
+      email_message: 
         s1: "ti ha inviato un messaggio"
         s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Il mio profilo\" dopo aver effettuato l'accesso."
       message: 
         s1: "ti ha inviato un messsaggio"
         s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Il mio profilo\" dopo aver effettuato l'accesso."
-    messages:
-      index:
-        s1: I miei messaggi
+    messages: 
+      index: 
+        s1: "I miei messaggi"
         s2: Oggetto
-        s3: Copia email?
-      modal:
-       html:
-        s1: Messaggio
-    public:
-      home:
+        s3: "Copia email?"
+      modal: 
+        html: 
+          s1: Messaggio
+    public: 
+      home: 
         s1: "Pannello di controllo per"
         s10: "Ci sono"
         s11: "partecipanti nel nostro database"
         s12: "Candidati salvati"
         s13: "Cerca nel database"
+        s14: "Pagina dell'azienda"
+        s15: "Offerte di lavoro"
+        s16: "Pubblica un'offerta di lavoro"
+        s17: "E' gratis"
+        s18: "E' veloce"
+        s19: "E' la tua soluzione."
         s2: Fattura
+        s20: "Database CV"
+        s21: "Cerca nel database"
+        s22: "Accesso completo."
+        s23: "Migliaia di candidati."
+        s24: "Completamente gratuito per 10 giorni."
+        s25: Accedi
+        s26: Accedi
+        s27: "Non sei registrato?"
+        s28: "Registrati qui"
         s3: "Mostra dettagli della fattura"
         s4: "Offerte di lavoro"
         s5: "Offerte di lavoro nel sistema "
@@ -52,51 +67,22 @@ it:
         s7: "Eventi nel sistema"
         s8: "Crea un nuovo evento"
         s9: "Database CV"
-        s14: Pagina dell'azienda
-        s15: Offerte di lavoro 
-        s16: Pubblica un'offerta di lavoro
-        s17: E' gratis
-        s18: E' veloce
-        s19: E' la tua soluzione.
-        s20: Database CV
-        s21: Cerca nel database
-        s22: Accesso completo.
-        s23: Migliaia di candidati.
-        s24: Completamente gratuito per 10 giorni.
-        s25: Accedi
-        s26: Accedi
-        s27: Non sei registrato?
-        s28: Registrati qui
-    registrations:
-      new:
+    registrations: 
+      new: 
         s1: Registrati
-        s2: Nome dell'azienda
+        s2: "Nome dell'azienda"
         s3: Registrati
-        s4: Hai un account?
+        s4: "Hai un account?"
         s5: Accedi
-    sessions:
-      new:
+    sessions: 
+      new: 
         s1: Accedi
         s2: Accedi
-        s3: Non sei registrato?
-        s4: Registrati qui
-    shared:
-      links:
-        s1: Password dimenticata?
+        s3: "Non sei registrato?"
+        s4: "Registrati qui"
+    shared: 
+      links: 
+        s1: "Password dimenticata?"
         s2: "Non hai ancora ricevuto la email di conferma?"
         s3: "Non hai ancora ricevuto la email di sblocco?"
-        s4: Accedi con
-
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2013 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
-
+        s4: "Accedi con"
