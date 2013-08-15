@@ -2,7 +2,7 @@ en:
   jobs:
     show:
       s1: Return to results
-      s2: Role descriptionx
+      s2: Role description
       s3: Qualifications
       s4: Benefits
       s5: Application process
@@ -18,7 +18,7 @@ en:
       s2: Results
       s3: ago
       s4: Apply
-      s5: Add to Favoritesxx
+      s5: Add to Favorites
       s6: Remove from Favorites
       s7: You have applied for this position.
       s8: Apply

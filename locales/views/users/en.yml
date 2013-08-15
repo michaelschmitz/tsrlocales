@@ -52,3 +52,5 @@ en:
         s2: Sign up
         s3: Already have an acount?
         s4: Sign in here
+    update_friends:
+      flash: Friend Update Started

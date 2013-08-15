@@ -1,6 +1,7 @@
 en:
   message:
     attributes: &ATTRIBUTES
+      to: To
       topic: Topic
       body: Body
       copy: Recieve copy of this message

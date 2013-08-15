@@ -292,7 +292,7 @@ en:
       s78: "Contact one of the country managers directly via the team page or fill in the contact form. We will get back to you in less than twenty-four hours to talk about sponsorship opportunities."
       s8: "4. How does the system rank students? How does it work?"
       s9: "The system relies on the only factor that can’t be cheated: time. We compare students based on their age and simply look at their accomplishments. Where did they invest their time? Do they have measureable achievements? How is their study progress? How many languages do they speak, and at what level? How much work or other experience do they have? All of these factors contribute points to the total score.  Once we have the total score, we can compare students with the same year of birth to create a fairer comparison group. Students can also choose to be compared with other groups, within their university or globally, or with other people that graduate at the same time. This may lead to different results and overall provides a more balanced view."
-    datenschutz: 
+    data_protection:
       s1: "Privacy policy"
       s10: "Disclosure to outside parties"
       s11: "We do not provide personally identifiable information to outside parties, unless this is required to perform our services to you. We will share information with law enforcement only if we receive a binding court decision (in Germany) requesting us to do so."
@@ -395,6 +395,7 @@ en:
       s1: "As featured in"
     logo_partners:
       s1: In cooperation with
+      s2: In cooperation with
     jobs:
       s1: Jobs
     smallfaq:

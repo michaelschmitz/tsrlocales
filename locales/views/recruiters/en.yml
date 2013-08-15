@@ -35,7 +35,8 @@ en:
         s2: Topic
         s2: Copied to email?
       modal:
-        s1: Message
+        html:
+          s1: Message
     public:
       home:
         s1: "Dashboard for"
@@ -82,6 +83,5 @@ en:
     shared:
       links:
         s1: Forgot your password?
-        s1: Didn\'t receive confirmation instructions?
-        s1: Didn\'t receive unlock instructions?
-        s1: Sign in with
+        s2: "Didn't receive confirmation instructions?"
+        s3: "Didn\'t receive unlock instructions?"

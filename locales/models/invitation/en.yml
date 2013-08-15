@@ -1,0 +1,13 @@
+invitations:
+  attributes: &ATTRIBUTES
+    emails: Enter emails directly
+    contacts: Contacts
+    message: Message
+activerecord:
+  attributes:
+    invitations:
+      <<: *ATTRIBUTES
+simple_form:
+  labels:
+    invitations:
+      <<: *ATTRIBUTES   

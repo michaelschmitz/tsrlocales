@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit school
     modal:
-      s1: Language
+      html:
+        s1: School
     new:
       s1: New school
     show:

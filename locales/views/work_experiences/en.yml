@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit work experience
     modal:
-      s1: Work Experience
+      html:
+        s1: Work Experience
     new:
       s1: New work experience
     show:

@@ -1,10 +1,10 @@
 en:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Full-time position'
+      contract: 'Graduate position'
       internship: Internship
       project: Project
-      promotion: Promotion
+      promotion: PhD position
       part_time: Part-time
       full_time: Full-time
       trainee: Trainee

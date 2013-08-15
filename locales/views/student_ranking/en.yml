@@ -7,7 +7,7 @@ en:
       s4: View details
     public_profile_small:
       s1: Internship
-      s1: Graduate
+      s2: Graduate
       s3: View details
     public_profile:
       s1: xxx
@@ -27,6 +27,7 @@ en:
       s15: Compare with your CV
       s16: Report
       s17: Report received
+      s18: Request sent
     public_recommendations:
       s1: Recommendations
       s2: No recommendations yet.

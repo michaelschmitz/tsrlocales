@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit Degree
     modal:
-      s1: Degree
+      html:
+        s1: Degree
     new:
       s1: New Degree
     show:

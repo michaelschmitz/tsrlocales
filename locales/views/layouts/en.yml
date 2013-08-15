@@ -13,6 +13,9 @@ en:
       s10: Problems?
       s11: Register
       s12: For recruiters
+      s13: Confirm
+      s14: Reject
+      s15: Invite friends
     recruiter_nav:
       s1: Dashboard
       s2: Company Page
@@ -39,4 +42,5 @@ en:
       s12: Privacy
       s13: Terms of Service
       s14: Pricing
+      s30: Links
       

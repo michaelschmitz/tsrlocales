@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit language
     modal:
-      s1: Language
+      html:
+        s1: Language
     new:
       s1: New language
     show:

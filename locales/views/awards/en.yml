@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit Award
     modal:
-      s1: Award
+      html:
+        s1: Award
     new:
       s1: New Award
     show:

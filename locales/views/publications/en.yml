@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit publication
     modal:
-      s1: Publication
+      html:
+        s1: Publication
     new:
       s1: New publication
     show:

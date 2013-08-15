@@ -3,7 +3,8 @@ en:
     edit:
       s1: Edit skill
     modal:
-      s1: Skill
+      html:
+        s1: Skill
     new:
       s1: New skill
     show:

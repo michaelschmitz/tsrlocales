@@ -1,10 +1,19 @@
 en:
   recruiters:
     cv_searches:
+      edit:
+        s1: "Name your search"
+      modal:
+        html:
+          s1: Education
+          s2: Work experience
+          s3: Other experience
+          s4: Ranking
       comparisons:
         s1: Global comparison
       form:
         s1: Text
+        s2a: Language
         s2: "Language 1"
         s3: "Language 2"
         s4: "Language 3"

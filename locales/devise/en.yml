@@ -16,16 +16,28 @@ en:
       timeout: "Your session expired, please sign in again to continue."
       unauthenticated: "You need to sign in or sign up before continuing."
       unconfirmed: "You have to confirm your account before continuing."
-    mailer:
-      confirmation_instructions:
-        subject: "Confirmation instructions"
-      reset_password_instructions:
-        subject: "Reset password instructions"
-      unlock_instructions:
-        subject: "Unlock Instructions"
     omniauth_callbacks:
       failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
       success: "Successfully authenticated from %{kind} account."
+    mailer:
+      confirmation_instructions:
+        subject: 'Confirmation instructions'
+        s1: Hello
+        s2: "You need to confirm this email address before you can use your account. Click on the following link to do so"
+        s3: "Confirm email address and account"        
+      reset_password_instructions:
+        subject: 'Reset password instructions'
+        s1: Hello
+        s2: "Somebody has requested a password change for your account. The following link allows you to change the password."
+        s3: "Change password"
+        s4: "If you have not requested a new password, then just ignore this email."
+        s5: "Your password will only by changed after you have clicked this link and added a new password."                
+      unlock_instructions:
+        subject: 'Unlock Instructions'
+        s1: Hello
+        s2: "your account has been locked for security reasons."
+        s3: "Click on the link below to unlock your account"
+        s4: "Unlock account"        
     passwords:
       no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
       send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
