@@ -1,0 +1,11 @@
+pt:
+  scholarships:
+    edit:
+      s1: Edita bolsa de estudo
+    modal:
+      html:
+        s1: Bolsa de estudo
+    new:
+      s1: Nova bolsa de estudo
+    show:
+      s1: Bolsa de estudo

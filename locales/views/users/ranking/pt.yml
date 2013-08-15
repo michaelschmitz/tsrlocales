@@ -1,0 +1,75 @@
+pt:
+  users:
+    ranking:        
+      main_chart:
+        explanation_button: "Mostrar Explicação"
+        asessment_title: <b>Assessment</b> Ganhou %{points} Pontos e está no grupo dos melhores %{percent}%
+        asessment_body_1: Este ranking inclui todos os participantes de %{university} e ignora o background académico. Esta comparação não é portanto adequada para prever o potencial de desenvolvimento da sua carreira, particularmente se tiver um perfil altamente especializado, tiver iniciado recentemente os seus estudos ou se tiver menos idade do que os restantes participantes. Contudo, este gráfico poderá trazer-lhe motivação acrescida para se focar nos resultados do seu trabalho e investir o seu tempo de forma sábia, procurando experiências que tornem o seu perfil mais valorizado."
+        asessment_body_2: Este ranking inclui todos os participantes de %{university} e que partilham o seu ano de nascimento.  Esta comparação permite-lhe aferir melhor as suas perspetivas de carreira, especialmente se a sua universidade oferecer cursos muito semelhantes em determinada área de estudos. Se a sua universidade for uma instituição de grande dimensão, então esta comparação torna-se apenas indicativa sobre as suas possibilidades de carreir, caso se encontre na liderança do grupo."
+        in: em
+      achievement_ranking:
+        s1: Comparação das realizações pessoais
+        s2: "Pontos para +1"
+        s3: Parabéns!
+      analysis:
+        s100: "Análise e sugestões"
+        s101: "Concorrer a oportunidades de emprego e estágios é o teste final às suas credenciais. Abaixo encontrará sugestões e dicas atendendo ao seu CV e o que poderá fazer para obter uma melhor performance."
+        s102: "Análise dos elementos positivos"        
+        s103: "Os seus resultados académicos são excelentes."
+        s104: "Notoriamente, revela um perfil académico muito esforçado, com forte concentração e muita motivação. O seu desempenho académico demonstra um conhecimento teórico profundo e os seus resultados validam o seu perfil como valioso em ambiente de trabalho."
+        s105: "Descreva a sua motivação e a forma como trabalha para obter os resultados que pretende alcançar. Qual a sua principal motivação para obter um desempenho tão positivo? Partilhe as suas motivações em cartas de apresentação e no decorrer de entrevistas de emprego."
+        s106: "Terminou os seus estudos com notas excelentes."
+        s107: "Os seus resultados académicos demonstram uma abordagem disciplinada aos exames e ao trabalho."
+        s108: "Descreva como se prepara e como aborda novos desafios (pf na sua descrição, não se foque demasiado nos resultados). As empresas procuram pessoas diligentes, responsáveis e motivadas. Os seus resultados demonstram estas caraterísticas."
+        s109: "Excelentes capacidades linguísticas."
+        s11: Participantes
+        s110: "Dependendo do tipo de indústria e empresa, o seu perfil será um importante ativo. Aprender uma nova língua não só reforça as suas competências de comunicação, mas também lhe permite aprender mais acerca de diferentes culturas e analisar novas situações de modo diferenciado."
+        s110a: "Conselho:"
+        s111: "Deverá focar-se nas suas competências linguísticas e na flexibilidade que estas proporcionam às empresas. Destas, as que competem a nível global dão preferência a candidatos que falem várias línguas."
+        s112: "Muitos interesses e competências"
+        s113: "Ganhou experiência em diferentes situações que são utilizadas para lidar com novos ambientes e novos assuntos. Um campo de conhecimento e competências alargado tem um valor elevado, dado que demonstra a sua abertura para aprender e dominar novas competências e conteúdos."
+        s114: "Descreva quais as motivações que levaram a adquirir estas competências. Porque é que encarou esta aprendizagem de forma divertida? A paixão pelo que faz é estimulante. As empresas e os seus futuros colegas adorariam perceber essa mesma paixão pelo seu trabalho!"
+        s115: "Apoiou a sua comunidade e envolveu-se numa boa causa."
+        s116: "Os seus esforços são reconhecidos. Apoiou organizações a mudar o mundo e ganhou com isso experiência em lidar com contratempos, colegas difíceis e outras dificuldades.Também revela experiência em motivar e convencer os outros - competências chave procuradas por qualquer empregador."
+        s117: "Um vasto serviço comunitário transmite-lhe as competências e experiência relevantes para o dia-a-dia no trabalho. Quais as situações mais difíceis porque passou e como lidou com elas? O que é que faria melhor numa próxima oportunidade? Que competências desenvolveu?"
+        s118: "Tem diversas publicações"
+        s119: "O seu conhecimento profundo dos tópicos de interesse, as suas habilidades técnicas e de comunicação conduziram à elaboração de diversar publicações assinadas com o seu nome. Investiu tempo e esforço e já se tornou expert nestes temas - o que documenta publicamente a sua perseverança e motivação para entregar resultados com princípio, meio e fim."
+        s12: Top
+        s120: "As publicações são uma credencial que suporta a atitude em ambiente de trabalho. Parilhe connosco as suas publicações e conte-nos quais as competências que desenvolveu no processo de criação e publicação."
+        s121: "Recebeu prémios e distinções."
+        s122: "\"Passion leads to performance\". A sua performance foi reconhecida - quer tenha sido uma realização intelectual ou desportiva, demonstrou resultados excepcionais e o reconhecimento por esse facto."
+        s123: "A paixão é importante, tal como os resultados. Quando fizer uma candidatura a uma oferta de emprego, mencione os seus esforços e motivações procurando ligar com as novas funções a assumir."
+        s124: "Recebeu incentivos monetários.   "
+        s125: "Incentivos monetários sinalizam uma seleção prévia. Alguém reconheceu em si determinadas qualidades e decidiu atribuir-lhe uma compensação monetária ou outro tipo de suporte. Os incentivos obtidos tornam mais fácil a futuros empregadores identificarem excelência - o que aconteceu no seu caso."
+        s126: "Trabalhou arduamente para receber este incentivo, pelo que deverá ser capaz de explicar como este mesmo incentivo tornou o seu percurso um pouco mais fácil, pemitindo-lhe ao mesmo tempo melhorar ainda mais a sua performance."
+        s127: "Está a fazer um excelente trabalho. Continue!"
+        s128: "Pontos de melhoria"
+        s129: "Falta de experiência profissional significativa."
+        s13: "Análise da experiência profissional"
+        s130: "Potenciais empregadores encaram a falta de experiência profissional como um fator de risco. Se no seu caso pessoal nunca tiver tido uma experiência prévia em determinada indústria, poderá não perceber ou respeitar a cultura de trabalho ou as tarefas desempenhadas nesse contexto. Existe também o risco de sentir alguma frustração com o seu desempenho diário, o que poderá levar a que procure outras oportunidades profissionais."
+        s131: "Procure fazer alguns estágios em indústrias relevantes, testando assim a sua adaptação ao meio. Mesmo que não sinta muito interessee, poderá gradualmente formar uma opinião acerca da área em que realmente pretende trabalhar."
+        s132: "O seu desempenho no Secundário situou-se abaixo da média"
+        s133: "Lamentavelmente é algo que não pode ser alterado. No entanto, é uma situação que não terá necessáriamente um impacto negativo no seu desempenho profissional futuro - se sentir uma pessoa motivada para conseguir um bom desempenho, focar-se no trabalho que tem em mãos e preferir a prática mais do que a teoria, poder-se-á vender muito bem a potenciais empregadores. Claro que as coisas serão mais fáceis, se conseguir demonstrar ter efetuado estágios e certificados profissionais relevantes e adequados ao trabalho a desempenhar."
+        s134: "Concentre-se em outras facetas mais relevantes do seu perfil e fale sobre aquilo que é realmente importante. A pessoa que o entrevistar sabe quão irrelevante pode ser o seu resultado académico para o papel a desempenhar. Ele estará mais interessado em ouvir as razões pelas quais o seu desempenho será excelente. Realce estes aspetos e ignore o passado."
+        s135: "O seu desempenho na Universidade situou-se abaixo da média."
+        s136: "Talvez ainda tenha a possibilidade de melhorar os seus resultados. Dependendo da indústria onde pretende trabalhar, os potenciais empregadores poderão concentrar-se nas suas notas, caso a teoria seja determinante para a vaga a ocupar. No entanto, se alterar o seu foco de preferência, ter notas menos fortes poderá não ser um problema - desde que consiga passar a mensagem de que foi a falta de interesse nos conteúdos do curso e não a sua falta de esforço, que foram responsáveis pelos seus resultados."
+        s137: "As más notas não deverão limitar a sua performance no trabalho. Comunique este facto e partilhe com o seu entrevistador os seus planos de carreira e aspirações e como pretende alcançá-los. Nem todos têm que ter um duplo Doutoramento! De facto, alguns empregos beneficiarão de uma pessoa capaz de desenvolver um abordagem mais prática."
+      breakdown_chart:
+        s1: Exemplo dos participantes dos grupos nascidos em
+      charts:
+        s1: Comparação
+        s2: Universidade
+        s3: Global
+        s4: Detalhe
+        s5: Nacional
+      preferred_employer:
+        s1: Análise de empresa
+      profile:
+        s1: Ver CV
+        s2: Posição Global
+        s3: em
+        s4: "pontos para +1"
+      recommendations:
+        s1: Recomendações
+      skills:
+        s1: Competências
