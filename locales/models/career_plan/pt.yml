@@ -1,10 +1,10 @@
 pt:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Recém-formados'
+      contract: 'Vagas para Recém-formados'
       internship: Estágio
       project: Projeto
-      promotion: Promoção
+      promotion: Vagas para Phd
       part_time: Part-time
       full_time: Full-time
       trainee: Trainee
