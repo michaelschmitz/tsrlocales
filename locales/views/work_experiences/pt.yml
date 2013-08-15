@@ -3,7 +3,8 @@ en:
     edit:
       s1: Editar experiência profissional
     modal:
-      s1: Experiência profissional
+      html:
+        s1: Experiência profissional
     new:
       s1: Nova experiência profissional
     show:
