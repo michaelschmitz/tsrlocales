@@ -3,7 +3,8 @@ pt:
     edit:
       s1: Editar publicação
     modal:
-      s1: Publicação
+      html:
+        s1: Publicação
     new:
       s1: Nova publicação
     show:
