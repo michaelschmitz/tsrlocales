@@ -3,7 +3,8 @@ en:
     edit:
       s1: Editar serviço
     modal:
-      s1: Serviço
+      html:
+        s1: Serviço
     new:
       s1: Novo serviço
     show:
