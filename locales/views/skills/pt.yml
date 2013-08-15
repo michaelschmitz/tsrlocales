@@ -1,0 +1,13 @@
+pt:
+  skills:
+    edit:
+      s1: Editar competências
+    modal:
+      s1: Competência
+    new:
+      s1: Nova
+    show:
+      s1: Competência
+    skill:
+      s1: Aplicação
+      s2: Treino
