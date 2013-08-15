@@ -1,0 +1,87 @@
+pt:
+  recruiters:
+    jobs:
+      form:
+        s1: Inserção Manual
+        s2: Upload PDF
+        s3: Documentos
+      edit:
+        s1: Editar oferta de emprego
+      index:
+        s1: As minhas ofertas
+        s2: Título
+        s3: Localização
+        s4: Link
+        s5: PDF?
+        s6: Válido até
+        s7: Visitantes
+        s8: Candidaturas
+        s9: Publicar uma oferta de emprego
+      new:
+        s1: Publicar uma nova oferta
+      show:
+        s1: Visitantes
+        s1: Candidaturas
+    mailer:
+      email_message:
+        s1: "enviou-lhe uma messagem"
+        s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
+      message:   #Yes, this is exactly the same as above. Copy paste.
+        s1: "enviou-lhe uma messagem"
+        s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
+    messages:
+      index:
+        s1: As minhas mensagens
+        s2: Assunto
+        s2: Copiar para o e-mail?
+      modal:
+        s1: Mensagem
+    public:
+      home:
+        s1: "Painel de navegação para"
+        s10: "Existem"
+        s11: "perfis na nossa base de dados"
+        s12: "Candidatos guardados"
+        s13: "Pesquisar na base de dados"
+        s2: Faturação
+        s3: "Mostrar detalhes de faturação"
+        s4: "Ofertas de emprego"
+        s5: "Ofertas de emprego em sistema"
+        s6: "Criar nova oferta"
+        s7: "Eventos em sistema"
+        s8: "Criar um novo evento"
+        s9: "Base de dados de CV"
+        s14: Página da empresa
+        s15: Ofertas de emprego
+        s16: Publicar uma oferta
+        s17: É gratuito
+        s18: É rápido
+        s19: É a sua solução
+        s20: Base de dados de CV
+        s21: Pesquisar na base de dados
+        s22: Acesso total.
+        s23: Milhares de candidatos.
+        s24: Totalmente grátis durante 10 dias.
+        s25: Entrar
+        s26: Entrar
+        s27: Ainda não criou a sua conta?
+        s28: Registar-se aqui
+    registrations:
+      new:
+        s1: Registar
+        s2: Nome da Empresa
+        s3: Registar
+        s4: Já tem uma conta?
+        s5: Entrar
+    sessions:
+      new:
+        s1: Entrar
+        s2: Entrar
+        s3: Ainda não tem conta?
+        s4: Registe-se aqui
+    shared:
+      links:
+        s1: Esqueceu-se da password?
+        s1: Não recebeu as instruções de confirmação?
+        s1: Não recebeu as instruções de desbloqueio?
+        s1: Entrar com
