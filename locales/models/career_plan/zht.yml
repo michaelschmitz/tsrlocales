@@ -1,11 +1,11 @@
 zht:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: '全職'
+      contract: '工作性質'
       internship: 實習
       project: 計畫、合約制
-      promotion: 升遷
-      part_time: 半職
+      promotion: promotion
+      part_time: 兼職
       full_time: 全職
       trainee: 學徒
       voluntary: 自願
