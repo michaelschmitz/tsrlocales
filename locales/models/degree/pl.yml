@@ -4,7 +4,7 @@ pl:
       name: Nazwa
       country: Państwo
       university_id: Uczelnia
-      title: Kierunek
+      title: Tytuł naukowy
       credits: Uzyskane punkty ECTS
       start_date: Data rozpoczęcia
       end_date: Data zakończenia
