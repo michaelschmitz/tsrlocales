@@ -12,8 +12,8 @@ pt:
       s1: Formação Superior
       s2: Adicionar Formação
     languages:
-      s1: Línguas
-      s2: Adicionar língua
+      s1: Idiomas
+      s2: Adicionar idioma
     preferred_employers:
       s1: Empresas Favoritas
       s2: Adicionar empresa
