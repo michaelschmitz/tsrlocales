@@ -6,7 +6,7 @@ cn:
       current: Current
       role: Role
       contract: Contract
-      average_hours: Average Hours
+      average_hours: Average weekly hours
       summary: Summary
       description: Description
       company_name: Company Name
