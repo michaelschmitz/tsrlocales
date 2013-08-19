@@ -1,9 +1,9 @@
-cn:
+zht:
   message:
     attributes: &ATTRIBUTES
-      topic: Topic
-      body: Body
-      copy: Recieve copy of this message
+      topic: 主旨
+      body: 訊息內容
+      copy: 寄這份訊息的副本給我
   activerecord:
     attributes:
       message:
