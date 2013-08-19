@@ -1,4 +1,4 @@
-cn:
+zht:
   school: 
     attributes: &ATTRIBUTES
       name_of_degree: Name of Degree
@@ -16,7 +16,7 @@ cn:
       BR: "Brazil (60-100%)"
       CA: "Canada (50-100)"
       CL: "Chile (0.0-7.0)"
-      CN: "China (60-100%)"
+      CN: "China (60-100)"
       CO: "Colombia (1.0-5.0)"
       CR: "Costa Rica (0.00-10.00)"
       CU: "Cuba (0.00-5.00)"
