@@ -2,9 +2,9 @@ zht:
   friend_invitations:
     modal:
       html:
-        s1: Add connections
+        s1: 新增人脈關係
     form:
-      s1: Uncheck all
-      s2: Import from Gmail
-      s3: Import from Yahoo
-      s4: Import from Hotmail
+      s1: 取消全選
+      s2: 從 Gmail 匯入
+      s3: 從 Yahoo 匯入
+      s4: 從 Hotmail 匯入
