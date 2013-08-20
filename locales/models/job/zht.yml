@@ -8,13 +8,13 @@ zht:
       link: 申請網址
       run_until: 刊登直到
       views: 瀏覽次數
-      area: Area
+      area: 職務類別
       contract_type: 工作形式
       contract: 工作性質
       longitude: 經度
       latitude: 緯度
-      disabled: Disabled
-      disabled_on: Disabled On
+      disabled: 刊登已截止
+      disabled_on: 刊登截止於
       service_level: Service Level
       advertising_budget: 廣告預算
       delivery: Delivery
