@@ -1,0 +1,19 @@
+zht:
+  recruiters:
+    companies:
+      form:
+        s1: Company address
+        s2: Invoicing
+        s3: Links
+      edit:
+        s1: Edit your company
+      new:
+        s1: Edit your company   #This is correct -> Every new recruiter always has a company, so he can only edit it, never create a new one
+      show:
+        s1: Your company information
+        s2: Address
+        s3: Additional information
+        s4: This information is not visible to the public
+        s5: VAT number
+        s6: Company website
+        s7: Facebook page
