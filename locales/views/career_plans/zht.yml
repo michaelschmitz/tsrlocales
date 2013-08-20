@@ -2,30 +2,30 @@ zht:
   career_plans:
     career_plan:
       s1: Graduate position
-      s2: Other contracts
-      s3: Project contracts
-      s4: PhD Positions
-      s5: Part-time
-      s6: Full-time
-      s7: Traineeships
-      s8: Voluntary work
+      s2: 長期合約
+      s3: 長期計畫 (如建築類)
+      s4: 企業內的博士研究計畫
+      s5: 兼職
+      s6: 全職
+      s7: 培訓計畫
+      s8: 志工
       s9: Associate offers
-      s10: Limited contracts
+      s10: 短期合約
       s11: Graduate positions
       s12: or from
       s13: Availability not indicated.
-      s14: Internships
+      s14: 實習
       s15: from
-      s16: Not interested in internships.
-      s17: Willing to travel
-      s18: Willingness to travel not indicated.
-      s19: Move to another city?
-      s20: Move to another country?
-      s21: Interested in moving to
-      s22: Internship
+      s16: 對實習不感興趣。
+      s17: 出差意願
+      s18: 出差意願沒有提供。
+      s19: 搬到別的城市的意願
+      s20: 搬到別的國家的意願
+      s21: 有興趣搬到：
+      s22: 實習
     form:
-      s1: "Interested in:"
-      s2: "Your preferences:"
-      s3: "In which places would you like to work?"
+      s1: "感興趣的職務："
+      s2: "你的喜好："
+      s3: "你最想在哪些城市工作？"
     edit:
-      s1: "Edit Career Plan" 
+      s1: "編輯生涯規劃" 
