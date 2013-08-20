@@ -83,6 +83,6 @@ it:
     shared: 
       links: 
         s1: "Password dimenticata?"
-        s2: "Non hai ancora ricevuto la email di conferma?"
-        s3: "Non hai ancora ricevuto la email di sblocco?"
+        s2: "Non hai ancora ricevuto l'email di conferma?"
+        s3: "Non hai ancora ricevuto l'email di sblocco?"
         
