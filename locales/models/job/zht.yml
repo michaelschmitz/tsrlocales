@@ -22,7 +22,7 @@ zht:
       describe_qualification: 條件需求
       describe_benefits: 員工福利
       describe_application: 申請方式
-      applications: Applications
+      applications: 申請人數
       alternative_name: Alternative Name
     area:
       1: 教育
