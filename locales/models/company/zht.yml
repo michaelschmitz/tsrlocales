@@ -7,7 +7,7 @@ zht:
       city: 城市
       code: 郵遞區碼
       country: 國家
-      url: Url
+      url: 連結
       facebook_page: 臉書網頁
   activerecord:
     attributes:
