@@ -23,27 +23,27 @@ zht:
       s3: 學歷
       s4: 推薦人
       s5: 已確認的技能
-      s6: Connections
+      s6: 人脈關係
       s7: 邀請朋友
-      s8: My ranking
-      s9: Privacy settings
-      s10: Update friends
-      s11: Message
+      s8: 我的排名
+      s9: 隱私設定
+      s10: 更新朋友
+      s11: 訊息
     publications:
-      s1: Publications
-      s2: Add publication
+      s1: 著作
+      s2: 新增著作
     scholarships:
-      s1: Scholarships
-      s2: Add scholarship
+      s1: 獎學金
+      s2: 新增獎學金
     schools:
-      s1: Secondary education
-      s2: Add education
+      s1: 中等教育
+      s2: 新增中等教育
     services:
-      s1: Services
-      s2: Add services
+      s1: 服務
+      s2: 新增服務
     skills:
-      s1: Skills
-      s2: Add skill
+      s1: 技能
+      s2: 新增技能
     works:
-      s1: Work Experience
-      s2: Add work experience
+      s1: 工作經驗
+      s2: 新增工作經驗
