@@ -1,45 +1,45 @@
 zht:
   layouts:
     user_nav:
-      s1: CV
-      s2: My Ranking
-      s3: Student Ranking
-      s4: Jobs
-      s5: Account
-      s6: Edit
-      s7: Settings
-      s8: Logout
+      s1: 履歷表
+      s2: 我的排名
+      s3: 學生排名
+      s4: 工作機會
+      s5: 帳戶
+      s6: 編輯
+      s7: 設定
+      s8: 登出
       s9: Go!
-      s10: Problems?
-      s11: Register
-      s12: For recruiters
-      s13: Confirm
-      s14: Reject
-      s15: Invite friends
+      s10: 無法登入？
+      s11: 註冊
+      s12: 求才專區
+      s13: 確認
+      s14: 拒絕
+      s15: 邀請朋友
     recruiter_nav:
-      s1: Dashboard
-      s2: Company Page
-      s3: Show Page
-      s4: Edit Page
-      s5: Overview
-      s6: Post a job
-      s7: CV Search
-      s8: Index
-      s9: New
-      s10: Logout
+      s1: 總覽
+      s2: 公司頁面
+      s3: 顯示頁面
+      s4: 編輯頁面
+      s5: 概觀
+      s6: 刊登工作機會
+      s7: 履歷表搜尋
+      s8: 索引
+      s9: 新增
+      s10: 登出
     bottomfooter:
-      s1: Home
-      s2: Events
-      s3: Jobs
-      s4: Student Ranking
-      s5: Frequenty asked questions
-      s6: For Recruiters
-      s7: Blog
-      s8: Contact
-      s9: Team
-      s10: Press
-      s11: Imprint
-      s12: Privacy
-      s13: Terms of Service
-      s14: Pricing
-      s30: Links
+      s1: 首頁
+      s2: 活動
+      s3: 工作機會
+      s4: 學生排名
+      s5: 常見問題
+      s6: 求才專區
+      s7: 部落格
+      s8: 聯絡我們
+      s9: 我們的團隊
+      s10: 媒體室
+      s11: 版權所有
+      s12: 隱私政策
+      s13: 服務條款
+      s14: 服務價格
+      s30: 連結
