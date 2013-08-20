@@ -18,13 +18,13 @@ zht:
       s1: 理想僱主
       s2: 新增理想僱主
     profile:
-      s1: Current
-      s2: Previous
-      s3: Education
-      s4: Recommendations
-      s5: Confirmed skills
+      s1: 現任
+      s2: 前任
+      s3: 學歷
+      s4: 推薦人
+      s5: 已確認的技能
       s6: Connections
-      s7: Invite friends
+      s7: 邀請朋友
       s8: My ranking
       s9: Privacy settings
       s10: Update friends
