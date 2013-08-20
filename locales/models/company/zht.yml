@@ -1,7 +1,7 @@
 zht:
   company:
     attributes: &ATTRIBUTES
-      name: 姓名
+      name: 公司名稱
       vat_number: Vat 號碼
       street: 街道
       city: 城市
