@@ -1,22 +1,22 @@
 zht:
   curriculum_vitaes:
     awards:
-      s1: Awards
-      s2: Add an award
+      s1: 獎章
+      s2: 新增獎章
     career_plan_info:
-      s1: Student
+      s1: 學生
     career_plans:
-      s1: Career Plan
-      s2: Add Career Plan
+      s1: 生涯規劃
+      s2: 新增生涯規劃
     degrees:
-      s1: University Education
-      s2: Add Degree
+      s1: 大學教育
+      s2: 新增學位
     languages:
-      s1: Languages
-      s2: Add language
+      s1: 語言
+      s2: 新增語言
     preferred_employers:
-      s1: Preferred Employers
-      s2: Add company
+      s1: 理想僱主
+      s2: 新增理想僱主
     profile:
       s1: Current
       s2: Previous
