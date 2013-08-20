@@ -25,7 +25,7 @@ es:
       applications: Inscripciones
       alternative_name: Nombre alternativo
     area:
-      1: Aprendiz
+      1: Educación
       2: Construcción
       3: Consultoría
       4: Finanzas
@@ -41,14 +41,14 @@ es:
       14: Producción
       15: Ventas
     contract_type:
-      1: Temporaç
-      2: Autónomo
-      3: Aprendiz
+      1: Temporal
+      2: Indefinido
+      3: Becario
       4: Proyecto
-      5: Promoción
+      5: Investigación
       6: Prácticas
       7: Voluntario
-      8: Socio
+      8: Associate
     contract:
       1: Media jornada
       2: Jornada completa
