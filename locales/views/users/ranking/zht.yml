@@ -2,55 +2,55 @@ zht:
   users:
     ranking:
       analysis:
-        s1: "Analysis and Suggestions"
-        s100: "Analysis and Suggestions"
-        s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
-        s102: "Analysis of positive elements"        
-        s103: "Your grades are excellent."
-        s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
-        s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
-        s106: "You finished school with excellent grades."
-        s107: "Your school results show a disciplined approach to exams and work."
-        s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
-        s109: "Superior language skills."        
-        s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
-        s110a: "Advice:"
-        s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
-        s112: "Many interests and skills"
-        s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
-        s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
-        s115: "You have provided service to your community and engaged yourself in a good cause."
-        s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
-        s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
-        s118: "You have multiple publications"
-        s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
-        s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
-        s121: "You received awards or prizes."
-        s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
-        s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
-        s124: "You received scholarships"
-        s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
-        s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
-        s127: "You are doing great. Keep it up!"
-        s128: Improvements
-        s129: "Lack of significant work experience."
-        s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
-        s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
-        s132: "School grades were below average"
-        s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
-        s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
-        s135: "Study grades are below average."
-        s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
-        s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."        
+        s1: "分析與建議"
+        s100: "分析與建議"
+        s101: "你的學業成就和課外表現的最終考驗，就是找到好工作或好的實習機會。聽聽我們對你的建議，看看哪裡還有能再加強的空間。"
+        s102: "那些已經做得很好了"
+        s103: "你的成績很優！"
+        s104: "你是一個吃苦耐勞、注意力集中和積極進取的學生。你的成績代表你知識深厚，你的排名證實了你的價值。"
+        s105: "想想你的動力為何，以及你如何努力得到你想要的成績。是什麼促使你表現這麼好呢？在你寫求職信和面談時，記得描述這些動力來源。"
+        s106: "你的畢業成績很漂亮！"
+        s107: "你的排名顯示你在準備考試和工作方面都很有紀律。"
+        s108: "先把排名結果放一邊，想想你都是如何準備自己，如何處理新的挑戰。僱主們都想要勤奮、認真和積極進取的僱員。你的成績顯示你就是他們要找的人才之一。"
+        s109: "語言條件實在太讚啦！"     
+        s110: "依未來的行業和公司而定，你會是一個非常有價值的資產。學習一門語言不但能為你提供溝通技巧，還能讓你了解更多不同的文化，有利於分析不同的形勢。"
+        s110a: "建議："
+        s111: "求職時，多提到你的語言技能能為公司帶來的靈活性。具有全球競爭力的公司喜歡僱用會講多種語言的人才。"
+        s112: "許多興趣與技能"
+        s113: "你已在許多不同的情況下獲得豐富的經驗，你也習慣面對新的環境和主題。一套廣泛的知識和技能是非常有價值的，因為它代表你非常願意學習新的知識以及掌握新的技能。"
+        s114: "想想你會如何描述當初學習這些技能的動機，例如，你為何喜歡或想學這些技能。熱情是好事，未來的僱主和同事們會想看到你把同樣的熱情帶到工作上。"
+        s115: "你曾經為你的社區提供服務，並將時間和精力花在公益上。"
+        s116: "你的努力得到了認可。你曾支持某些組織去改變世界，在處理挫折和困難的同事及情況等方面，得到了豐富的經驗。你也在激勵和說服他人方面有所經驗，這對任何一個員工而言都是寶貴的技能。"
+        s117: "廣泛的社區服務為你提供與日常工作相關的技能和經驗。試著與僱主分享這些經驗和你的學習成果，例如，哪些情況是困難的，你是怎麼處理的，你下一次哪裡會做得更好，你在這些經驗中得到了哪些技能？"
+        s118: "你有發表過著作。"
+        s119: "你對有興趣的題材有著深厚的知識，你也有很好的技術或溝通技巧，這些造就了你的許多著作。你在這些題材上投入你的時間和精力，衍然成為一個專家。這代表者你的毅力和動力創造了美好的成果。"
+        s120: "著作是一個用來支持你的工作態度專業的憑據。提供可瀏覽你著作的網路連結，讓僱主知道你在創作和發表的過程中，那些技能進步了。"
+        s121: "你有得過獎章或獎勵。"
+        s122: "熱情能帶出表現，而你的表現得到了認可。無論這是一個知識或體育上的成就，你已經表現出卓越的的結果，並得到了表揚。"
+        s123: "熱情是很重要的，但成果也是。在你申請工作時，記得提到你的努力與動力，並與你將來的職務做連結。"
+        s124: "你有得過獎學金。"
+        s125: "獎學金代表著你已被篩選過，因為其他的機構已經認同你的某些特質，並決定以資金或支持的方式來獎勵你。獎學金能讓未來的僱主更容易找到卓越的人才，而你已經有了獎學金。"
+        s126: "你為了獲得這個獎學金已經辛苦付出，試著讓僱主知道，這個獎學金是如何幫助你的求學之路，同時讓你能專注於更好的表現。"
+        s127: "你的表現很好，繼續加油！"
+        s128: 哪些可再加強
+        s129: "缺乏重要的工作經驗。"
+        s130: "僱主會將缺乏重要的工作經驗視為一個風險。如果你從來沒有在一個行業工作過，你可能會不了解或不尊重工作文化、你未來的工作或未來同事執行的任務。另外一個風險是，你可能會對你的日常工作感到失望，並因此想要去找其他的工作機會。"
+        s131: "試著先完成幾個與你的行業相關的實習，以用來測試水溫。即使你之後對這個實習沒有強烈的興趣，你可以建立一個列表，用排除法來漸漸找出你的興趣所在，看看到底哪一個行業才是你真正想做的。"
+        s132: "在校成績低於平均水平"
+        s133: "無法改變，但這不代表你未來的工作表現會受到影響。如果你十分積極地想要表現良好，能專注於當前的任務，並且能實踐重於理論，那你有很好的機會能把自己推銷給未來的僱主。當然，如果你也能提供相關的實習經驗和證書，那麼推銷自己會變得比較容易。"
+        s134: "面試時，試著專注在其他更重要的事情上，並多談談僱主會在乎的事情。你的面試官知道你的學業成績跟你現在應徵的職缺之間，關係可能不大，他更感興趣的是，你為何能做好這個職務。盡量彰顯這一點，不要太在乎過去的成績表現。"
+        s135: "學習成績低於平均水平。"
+        s136: "你可能還是有機會可以改善這些成績。依行業的不同，如果你所學的理論跟你應徵的職缺有關，僱主有可能會專注於你的學業成績。然而，如果你改變行業，那麼較弱的成績就比較不會是個問題，只要你能表達，你的成績如此是因為當時有其他事情或學業較為優先，或是你在這個領域的知識或能力本來就比較弱，而不是因為你缺乏努力或不願努力。"
+        s137: "不理想的成績不應該阻饒你成為未來工作的佼佼者。試著對你的面試官表達這一點，告訴他你的職業生涯計劃和願景，以及你要如何才能達到你的目標。不是每個公司都要雙學位博士的人才，許多工作需要的是有實務經驗的人才。"    
       analysis_awards:
-        s1: "Awards"
+        s1: "獎章"
         s2: "You have not indicated any awards you might have earned so far. Awards are useful as they provide additional social proof about your abilities and motivation. You can earn them through sportive achievements or through competing in other fields that interest you, and quite often the experience itself is highly valuable on its own. Checkout the different competitions offered at your university: If you are a law, mathematics, physics, chemistry, business or engineering student, then you will find ample opportunities to enter competitions - and if your university doesn't offer or take part in any events in your field, then it might be a great time investment to join a national competition or set-up your own (this will also be highly valuable for your personal network)."
         s3: "Congratulations, you have received an award for your hard work. This award can be used to provide additional proof of your abilities and motivations for employers looking for talent. At the very least, the award shows that you are active in your field and, depending on the exact area, might also provide a positive insight into your hobbies and personality. Employers might bring the award up in job interviews to get you into story-telling mode. This is your opportunity to explain your thinking process, and the hard work you put into gaining the award. "
         s4: "Congratulations, you have received a prize after successfully competing in your field. This award can be used to provide additional proof of your abilities and motivations for employers looking for talent. At the very least, the award shows that you are active in your field and, depending on the exact area, might also provide a positive insight into your hobbies and personality. Employers might bring the prize up in job interviews to get you into story-telling mode. This is your opportunity to explain your thinking process, and the hard work you put into winning it."
         s5: "Excellent. You earned multiple awards through your hard work - and your time investment and determination will be recognized by potential employers. Having your awards visible is especially interesting if they are related to the field you are entering - and it's up to you to provide the linkage. You might want to mention your learning experiences and general mindsets that have lead to your success both in application letters and during the interview, as this provides a great opportunity to explain your thinking and attitude towards challenges to the recruiters. If you have a multitude of awards, it might be best to only provide the most outstanding results to avoid overloading the recruiter mentally - it takes time to process too much information, and especially when you are building your one- or two-page CV, ensure that you keep it easy to understand and validate."
         s6: "Very good. You earned multiple awards through your hard work - and your time investment and determination will be recognized by potential employers. Having your awards visible is especially interesting if they are related to the field you are entering - and it's up to you to provide the linkage. You might want to mention your learning experiences and general mindsets that have lead to your success both in application letters and during the interview, as this provides a great opportunity to explain your thinking and attitude towards challenges to the recruiter."
       analysis_education:
-        s1: "Education"
+        s1: "教育"
         s2: "Excellent - you finished your secondary education with high grades and are also doing well in your undergraduate studies."
         s2a: "Apart from the knowledge you have acquired, you will find that the results you have earned through hard work and discipline will be valuable for your career, as recruiters often use grades as one of the defining elements in reviewing candidates. Think about it like this: When you receive thirty applications, then it is mentally and practically very easy to sort them by average grades. At the same time, it is much more difficult to properly assess the value of various skills and interests and to compare candidates on those factors."
         s2b: "Are there more ways to benefit from high grades? Certainly. You might want to look for (additional) merit based scholarships or for the possibility to receive an award within your field. Your grades should also make it easier for you to open doors into companies, and, together with your knowledge, you might even already be able to cooperate with academics in your field on some publications. Success begets success, if you use it correctly. Concerning applications for internships and graduate jobs, you should make it easy for recruiters to understand not only the results you have earned, but also the formative experience you gained."
@@ -128,7 +128,7 @@ zht:
         s21b: "It certainly helps to have acquired as much work experience as possible to cover weaker grades, but the key differentiator should be your network and track record of great work results. Once you can provide a few good recommendations and have convinced people in the real world about your ability to deliver value, you will have earned your break through."
         s21c: "In the real world, people care only about your results. And if you deliver, you will have many career options open in front of you - and enough takers for your skills."
       analysis_languages:
-        s1: "Languages"
+        s1: "語言"
         s2: "Suggestion: You have not yet indicated a language on your CV. Languages includes your native language, so having a profile with zero language entries is kind of weird. And if you can read this, then certainly English should be listed."
         s3: "Suggestion: You are currently finishing your undergraduate studies and have only indicated one language under your language skills. "
         s3a: "Most people acquire at least an basic understanding of other languages during their secondary education or via their hobbies, so don't be afraid to list basic language skills in other languages. Many employers correctly do not put too much value on additional language skills - if your future role is limited to one geographic and cultural area, there is no need to learn more - but your further career chances might be severely hampered by being unable to communicate in another, common, language."
@@ -304,7 +304,7 @@ zht:
         s301g: "If your past experiences with language learning have been negative - especially during your secondary education - then taking a professional level language couse, taking part in a summer academy or working one-on-one with a private teacher will be a great opportunity to discover your hidden ability to learn and speak languages quickly."
         s301h: "Motivation and the level of teaching are often limiting factors, taking professional language courses amongst grown ups will put you in a different environment full of energy and motivation. Expect to invest at least 4-6 weeks into growing your basic understanding and another one or two years of regular language exposure to further improve your skills: You will benefit from the result for the rest of your life"  
       analysis_publications:
-        s1: "Publications"
+        s1: "著作"
         s2: "Suggestion: You have not yet indicated any publications. Publications could be articles, books, your thesis work or even coding projects. "
         s2a: "Having one or two publications makes it easier for recruiters to understand your specialties and background. You also manage to document your expertise in a specific field that way, adding additional credentials to your CV. "
         s2b: "As a student, you can work with your professors or team members to create academic research, which might be published, or you could focus on bundling your knowledge about one of your hobbies into a high-quality document. "
@@ -340,7 +340,7 @@ zht:
         s6f: "If you are looking for an idea or support in getting started, simply approach your professors about their work, and ask them whether you can help them do their research on a part-time basis. This might include a lot of dry, but highly specific research, but could end with your name on (another) academic publication. It will also help you to build your network, as your professor will be more open to help you with connections if you have provided support first."
         s6g: "You already did it a few times, so by now repeating the process should be easy for you."
       analysis_scholarships:
-        s1: "Scholarships"
+        s1: "獎學金"
         s2: "Suggestion: On your profile, you have not indicated a scholarship yet. "
         s2a: "Obviously, not every student can attain support from an external partner for their studies, but you might be surprised how easy it is to get recognized for the work you have done. "
         s2b: "There is a multitude of scholarship providers out there, and it might pay off greatly for you if you apply to a few of them. There are specialized websites where you can find scholarships, and normally the application process only takes a few hours. "
@@ -374,7 +374,7 @@ zht:
         s6e: "In the best case, the scholarships have eased your path a bit, and allowed you to focus on an even better performance. Depending on your current situation, the scholarships you received also make it easier to receive another one for your next academic step. As you already know a lot about the general application and review process, it might be easier for you to prepare yourself for the next selection. Check out the websites of scholarship providers to see where you could qualify, and review the requirements for additional support. "
         s6f: "This gives you opportunity to prepare yourself for the next step, and to allow you to focus even more on other achievements."
       analysis_services:
-        s1: "Services"
+        s1: "服務"
         s2: "Suggestion: You have not indicated any active services or interests on your profile. "
         s2a: "Without service entries, you are missing a chance to present your interests and skills to employers.  Recruiters care about your voluntary activities as spending time with others on a hobby or supporting a good cause is highly valuable for your professional development. "
         s2b: "Many people acquire the majority of their skills not during their formal education, but instead really enjoy working on pet projects or hobbies, where they are actively improving themselves. "
@@ -420,7 +420,7 @@ zht:
         s10b: "And after a few years, you will often find yourself in a natural leadership position, which allows you to build a larger network, take more responsibility, and to have a larger impact with what you do. "
         s10c: "Life is not only about work, but also about fun, and pursuing your hobbies can lead to unexpected benefits for everyone."
       analysis_social_connections:
-        s1: "Social Score"
+        s1: "社會積分"
         s2: "theStudentRanking uses your social score to help recruiters find the best candidates. "
         s2a: "Connecting your account via Facebook or LinkedIn and inviting people from your network to connect on theStudentranking can help you grow your social score considerably. "
         s2b: "Your social score grows by 5% of that user's score every time someone recommends you and whenever someone confirms a skill of yours. "
@@ -439,7 +439,7 @@ zht:
         s7: "LinkedIn connections"
         s8: "Invite connections"        
       analysis_skills:
-        s1: "Skills"
+        s1: "技能"
         s2: "Suggestion: You have not indicated any skills in your profile. Skills are valuable for companies looking for candidates, as they can search for specific expertise easily. "
         s2a: "If you add some of the skills you have acquired so far - even if you do not think too much of them - then there is a better chance for recruiters to look at your profile and to connect with you. Adding your skills will also allow you to compare yourself with other candidates and to see where you can easily improve yourself."
         s3: "Good. You indicated some skills on your profile and recruiters can now find you via the candidate search more easily. This makes it easier for them to connect with you. "
@@ -472,7 +472,7 @@ zht:
         s9a: "This work experience will likely have resulted in additional skills you can use in other situations as well. Currently, you are indicating only a few skills on your profile, and it is likely that you have much more to offer. "
         s9b: "Think about the experiences you have made and add some more skills."
       analysis_work:
-        s1: "Work experience"
+        s1: "工作經驗"
         s2: "Suggestion: You currently have not indicated any work experience, which is quite common for undergraduate students. "
         s2a: "If you are still getting started with your studies, you still have time to build up your CV - and work experience is one of the key factors that recruiters look for. While your grades and background are very important, you would be surprised by how strongly recruiters are interested in the things you already did in the workplace. "
         s2b: "The reasoning for this is simple. If you do not have any kind of work experience, then hiring you is inherently much more risky than hiring someone who already knows what kind of behaviour, methodology and approach is expected in an work environment. "
@@ -625,31 +625,31 @@ zht:
         s18f: "The experience you acquire there can be used to get you into a better position in another field later, and you can use all your time there to build your network in different fields."
         s18g: "Try to look for opportunities - they will present themselves."
       main_chart:
-        explanation_button: "Show Explanation"
-        asessment_title: <b>Assessment</b> You earned %{points} Points and are grouped in the top %{percent}%
-        asessment_body_1: This ranking includes all participants that share your year of birth and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable.
-        asessment_body_2: This ranking includes all participants from %{university} which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group.
+        explanation_button: "顯示說明"
+        asessment_title: <b>評估</b> 你得到 %{points} 積分，排名在前 %{percent}%
+        asessment_body_1: 這個排名包括了所有的參與者，且不考慮學科背景。這個排名比較不適合用來評估就業機會，特別是如果你所學非常專業，或者你才剛入學，或比其他參與者年輕。然而，這圖表或許可以用來鼓勵你多擷取工作經驗，並將時間花在能提升你市場價值的工作經驗上面。
+        asessment_body_2: 這個排名包括了所有曾就讀於 %{university} 且與你同齡的參與者。這個排名很適合用來評估你的就業機會，特別是如果你的大學只有在你的學科領域才頒發類似的學位。如果你的大學很大，那麼這個排名只有在你名列前茅的情況下，用來評估就業機會會比較準確。
         in: in
       achievement_ranking:
-        s1: Achievement ranking comparison
-        s2: "Points for +1"
-        s3: Congratulations!
+        s1: 成就排名比較
+        s2: "積分就能提高排名一名"
+        s3: 恭喜！
       breakdown_chart:
-        s1: Example participants from groups, born in
+        s1: 排名群組依參與者出生自
       charts:
-        s1: Comparison
-        s2: University
-        s3: Global
-        s4: Breakdown
-        s5: National
+        s1: 比較
+        s2: 大學
+        s3: 全球
+        s4: 積分解析
+        s5: 全國
       preferred_employer:
-        s1: Company analysis
+        s1: 公司分析
       profile:
-        s1: View CV
-        s2: Global rank
-        s3: out of
-        s4: "points for +1"
+        s1: 看我的履歷表
+        s2: 全球排名
+        s3: 之
+        s4: "積分就能提高排名一名"
       recommendations:
-        s1: Recommendations
+        s1: 推薦人
       skills:
-        s1: Skills
+        s1: 技能
