@@ -1,0 +1,15 @@
+zht:
+  work_experiences:
+    edit:
+      s1: Edit work experience
+    modal:
+      html:
+        s1: Work Experience
+    new:
+      s1: New work experience
+    show:
+      s1: Work experience
+    work_experience:
+      s1: Description
+      s2: Hours
+      s3: per week

@@ -1,16 +1,16 @@
 zht:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: '工作性質'
+      contract: '長期合約 (全職屬此類)'
       internship: 實習
-      project: 計畫、合約制
-      promotion: promotion
+      project: 長期計畫 (如建築類)
+      promotion: 企業內的博士研究計畫
       part_time: 兼職
       full_time: 全職
-      trainee: 學徒
-      voluntary: 自願
-      associate: 合夥人
-      limited: 有限公司
+      trainee: 培訓計畫
+      voluntary: 志工
+      associate: Associate
+      limited: 短期合約
       available: 何時可開始上班：
       available_date: 詳細日期
       intern_start: 實習可開始日

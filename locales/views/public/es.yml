@@ -292,7 +292,7 @@ es:
       s78: "Póngase en contacto con uno de nuestros country managers directamente a través de la página de nuestro equipo o llene el formulario de contacto. Nos pondremos en contacto con usted en menos de 24 horas."
       s8: "4. ¿Cómo hace el sistema para otorgar puntos a los estudiantes? ¿Cómo funciona?"
       s9: "El sistema se basa en el único factor que no puede ser alterado para hacer trampa: el tiempo. Comparamos a los estudiantes en base a su edad y simplemente observamos sus logros. ¿En dónde invirtieron su tiempo? ¿Tienen logros académicos cuantificables? ¿Cómo rendimiento escolar? ¿Cuántas lenguas hablan y a qué nivel? ¿Cuánta experiencia laboral poseen? Todos estos factores contribuyen a la hora de determinar la puntuación total. Una vez que tenemos el resultado final, podemos comparar estudiantes con otros de su mismo año de nacimiento y de esta forma crear un grupo de comparación más justo. Los estudiantes también pueden elegir ser comparados con otros grupos ya sean dentro de su universidad o a nivel mundial. Esto arroja distintos resultados y en conjunto le otorga una visión más equilibrada."
-    datenschutz: 
+    data_privacy: 
       s1: "Privacy policy"
       s10: "Disclosure to outside parties"
       s11: "We do not provide personally identifiable information to outside parties, unless this is required to perform our services to you. We will share information with law enforcement only if we receive a binding court decision (in Germany) requesting us to do so."
@@ -395,6 +395,7 @@ es:
       s1: "Cómo nos presentan"
     logo_partners:
       s1: En colaboración con
+      s2: En colaboración con
     jobs:
       s1: Empleo
     smallfaq:

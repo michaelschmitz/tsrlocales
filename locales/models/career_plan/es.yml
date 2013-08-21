@@ -1,10 +1,10 @@
 es:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Puesto de jornada completa'
+      contract: 'Puesto para graduado'
       internship: Prácticas
       project: Proyecto
-      promotion: Promoción
+      promotion: Puesto para doctorado
       part_time: Media jornada
       full_time: Jornada completa
       trainee: Aprendiz

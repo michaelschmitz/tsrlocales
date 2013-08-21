@@ -19,13 +19,13 @@ it:
       advertising_budget: Budget pubblicitario
       delivery: Consegna
       describe_role: Descrizione del ruolo
-      describe_qualification: Descrizione della qualifica
+      describe_qualification: Esperienza e competenze richieste
       describe_benefits: Descrizione dei benefit
       describe_application: Descrizione della candidatura
       applications: Candidature
       alternative_name: Nome alternativo
     area:
-      1: Apprendistato
+      1: Istruzione
       2: Edilizia
       3: Consulenza
       4: Finanza
@@ -42,13 +42,13 @@ it:
       15: Vendite
     contract_type:
       1: Determinato
-      2: Contratto
+      2: Indeterminato
       3: Stage
       4: A progetto
       5: Promotion
-      6: Apprendistato
+      6: Traineeship
       7: Volontariato
-      8: Socio
+      8: Associate
     contract:
       1: Part time
       2: Full time

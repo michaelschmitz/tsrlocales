@@ -82,6 +82,6 @@ es:
     shared:
       links:
         s1: Olvidó su contraseña?
-        s1: No ha recibido las instrucciones para confirmar su cuenta?
-        s1: No ha recibido las instrucciones para desbloquear su cuenta?
-        s1: Iniciar sesión con
+        s2: No ha recibido las instrucciones para confirmar su cuenta?
+        s3: No ha recibido las instrucciones para desbloquear su cuenta?
+      
