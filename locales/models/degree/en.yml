@@ -134,6 +134,8 @@ en:
       "UY": "Uruguay (1-12)"
       "VE": "Venezuela (0-20)"
   activerecord:
+    models:
+      degree: 'Degree'  
     attributes:
       degree:
         <<: *ATTRIBUTES

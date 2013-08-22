@@ -12,6 +12,8 @@ en:
       2: 'Experienced'
       3: 'Expert'
   activerecord:
+    models:
+      skill: 'Skill'
     attributes:
       skill:
         <<: *ATTRIBUTES

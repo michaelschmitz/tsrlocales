@@ -18,6 +18,8 @@ en:
       5: 'Contractor'
       6: 'Self-Employed'
   activerecord:
+    models:
+      work_experience: 'Work Experience'
     attributes:
       work_experience:
         <<: *ATTRIBUTES

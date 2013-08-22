@@ -59,10 +59,12 @@ en:
       UY: "Uruguay (1-12)"
       VE: "Venezuela (0-20)"
   activerecord:
+    models:
+      school: 'School'
     attributes:
       school:
         <<: *ATTRIBUTES
   simple_form:
     labels:
-      shool:
+      school:
         <<: *ATTRIBUTES   

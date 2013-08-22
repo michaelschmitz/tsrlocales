@@ -64,5 +64,5 @@ nl:
         <<: *ATTRIBUTES
   simple_form:
     labels:
-      shool:
+      school:
         <<: *ATTRIBUTES   

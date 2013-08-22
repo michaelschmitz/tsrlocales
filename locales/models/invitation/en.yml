@@ -5,6 +5,8 @@ invitations:
     message: Message
 activerecord:
   attributes:
+    models:
+      invitations: 'Invistations'
     invitations:
       <<: *ATTRIBUTES
 simple_form:

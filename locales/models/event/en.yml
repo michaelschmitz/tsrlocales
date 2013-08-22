@@ -11,6 +11,8 @@ en:
       link: Link
       comment_on_location: Comment on location
   activerecord:
+    models:
+      event: 'Event'
     attributes:
       event:
         <<: *ATTRIBUTES

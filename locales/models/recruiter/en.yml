@@ -9,6 +9,8 @@ en:
       last_name: Last name
       title: Title
   activerecord:
+    models:
+      recruiter: 'Recruiter'
     attributes:
       recruiter:
         <<: *ATTRIBUTES

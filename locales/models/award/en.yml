@@ -13,6 +13,8 @@ en:
       3: National
       4: International
   activerecord:
+    models:
+      award: 'Award'
     attributes:
       award:
         <<: *ATTRIBUTES

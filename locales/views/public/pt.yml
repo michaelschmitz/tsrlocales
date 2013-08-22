@@ -289,6 +289,9 @@ pt:
       s7a: ""
       s8: "por um grau académico"
       s9: "pelo ensino secundário"
+      s11: "pontos"
+    small_faq:
+      s1: "Questões frequentes"      
     team: 
       s1: "A nossa Equipa"
       s10: "Hannah is the Country Manager for Taiwan and China and is responsible for our global PR strategy."

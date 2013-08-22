@@ -54,3 +54,12 @@ en:
         s4: Sign in here
     update_friends:
       flash: Friend Update Started
+    passwords:
+      edit:
+        s1: "Change your password"
+        s2: "New password"
+        s3: "Confirm the new password"
+        s4: "Update your password"
+      new:
+        s1: Forgot your password?
+        s2: Send me a link to reset my password

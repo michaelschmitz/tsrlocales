@@ -23,6 +23,8 @@ en:
       2: 'Every month'
       3: 'Never'
   activerecord:
+    models:
+      user: 'User'
     attributes:
       user:
         <<: *ATTRIBUTES

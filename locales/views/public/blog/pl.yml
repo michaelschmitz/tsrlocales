@@ -1,7 +1,7 @@
 pl:
   public:
     blog:
-      blogs0: 
+      blog_0: 
         s0: "Autor Hannah Chou"
         s1: Praktyki
         s2: "Stwórz swój profil i sieć kontaktów"
@@ -12,7 +12,7 @@ pl:
         s7: "Częstym wyborem, przed, którym stają studenci jest oferta nieodpłatnego stażu, który zwiększa wartość CV oraz płatnej pracy dorywczej, która nie dodaje bezpośrednio wartości do rozwoju kariery. Wtedy szczególnie uwzględniona powinna być oferta, która dodaje wartości i zwiększa szanse na uzyskanie wymarzonej pracy w przyszłości. Oczywiście w wielu przypadkach brak środków pieniężnych może stanowić problem, wtedy rozwiązanie można być próba pogodzenia obu prac poprzez elastyczność oraz możliwość wypracowanie indywidualnego harmonogramu z pracodawcą. Rynek pracy jest konkurencyjny, dlatego warto podjęć niezbędne kroki jak najwcześniej, aby zwiększyć swoją wartość rynkową, dopóki jeszcze mamy na to szansę."
         s8: "Podczas stażu, miej przede wszystkim za cel naukę nowych umiejętności, pokaż się od jak najlepszej strony i dzięki temu zdobądź bardzo dobrej jakości list rekomendacyjny od pracodawcy, który pomoże Ci w dalszym rozwoju kariery."
         s9: "Następny wpis: Twoja pierwsza praca (Seria krótkich artykułów, które pomogą Ci odnieść sukces)"
-      blogs1: 
+      blog_1: 
         s0: "Autor Michael Schmitz, tłumaczenie Adela Muśko"
         s1: Artykuły
         s10: "Jednak, w naszej nowej, rzeczywistej grze, zasady są znacznie bardziej skomplikowane (nie bez powodu, studia biznesowe czy ekonomiczne trwają pięć lat lub jeszcze dłużej), więc znalezienie kogoś, kto wyjaśni Ci wszystkie reguły gry może okazać się dość trudne - ludzie trudno znaleźć na to czasu. Skala gry jest również zupełnie inna."
@@ -58,7 +58,7 @@ pl:
         s7: "Zacznę od przedstawienia zasad gry"
         s8: "Dzięki globalizacji, wszyscy razem gramy w jednej, wielkiej grze - trochę w stylu Monopoly czy szachów."
         s9: "Ty, jako początkujący w tej grze masz dwie opcję do wyboru. Możesz poczekać, aż inni graczę przedstawią Ci zasady, którymi kierujecie się w grze lub po prostu wziąć do ręki pudełko i zapoznać się z nimi samemu, co nie powinno zająć dłużej niż godzinę."
-      blogs2: 
+      blog_2: 
         s0: "Autor Michael Schmitz, tłumaczenie Adela Muśko"
         s1: Blog
         s10: "Warto być bardziej wydajnym i zwrócić uwagę na wszystko, co tworzy Twoją osobowość. "
@@ -104,7 +104,7 @@ pl:
         s7: "Gdzie można znaleźć szczęście?"
         s8: "Zanim zaczniesz przeglądać portale z ogłoszeniami pracy, zastanów się najpierw nad kilkoma sprawami: swoim charakterem, umiejętnościami i oczekiwania co do przyszłości. "
         s9: "Oczywiście, możesz również od razu aplikować do kilkuset miejsc pracy online, aby zobaczyć, co z tego wyniknie, ale w większości przypadków wyniki będą nie najlepsze. Nawet jeśli przyjmiesz jedną z ofert pracy, możesz być bardzo niezadowolony ze swojego wyboru już kilka miesięcy potem."
-      blogs3: 
+      blog_3: 
         s0: "Autor Michael Schmitz, tłumaczenie Adela Muśko"
         s1: Blog
         s10: "Pamiętaj jednak, że jeśli chcesz znaleźć ciekawą, dobrze płatną pracę, to pierwszą rzeczą, o którą powinieneś się zatroszczyć jest poszerzenie swojej bazy wiedzy na temat wybranie branży."
@@ -167,7 +167,7 @@ pl:
         s7: "Wracając do mojego wcześniejszego artykułu o szczęściu, prawdopodobnie dowiedziałeś się już sporo o niektórych branżach ale wiele innych pozostaje wciąż zagadką."
         s8: "Dokładnie tak powinno to wyglądać. "
         s9: "Istnieje mnóstwo możliwości rozwoju, a zdobycie wiedzy z każdego zakresu nie jest możliwe."
-      blogs4: 
+      blog_4: 
         s0: "Autor Michael Schmitz, tłumaczenie Adela Muśko"
         s1: Blog
         s10: "Pozwoliło mi to znacznie ograniczyć przestrzeń do przeszukiwania możliwości rozwoju mojej kariery - Australia została od razu wykluczona, nawet jeśli praca w roli górnika oferuje tam szalone wynagrodzenie i inne korzystne świadczenia. Następnie, szukałem szans na rozwój w kilkudziesięciu branżach w odległości do kilkuset kilometrów od mojego rodzinnego miasta, sprawdzając przy tym czas podróży, szansę rozwoju, wynagrodzenia, podatki oraz możliwe ulgi."
@@ -214,7 +214,7 @@ pl:
         s7: "Jeśli jesteś tuż przed podjęciem swojej pierwszej pracy, może warto abyś pomyślał o rzeczach, które ograniczają i blokują zmiany w Twoim życiu. "
         s8: "Z mojego punktu widzenia, kilku tygodniowy wyjazd zagraniczny był w porządku, ale przeprowadzka na dokładnie przeciwną stronę Ziemi już nie koniecznie - przynajmniej w tamtym momencie. "
         s9: "Podjąłem więc decyzję zgodnie z tą myślą. "
-      blogs5: 
+      blog_5: 
         s0: "Autor Michael Schmitz, tłumaczenie Adela Muśko"
         s1: Blog
         s10: "Pan Borsuk kieruje działem zasobów ludzkich w średniej wielkości firmie produkującej mydła."
@@ -265,7 +265,7 @@ pl:
         s7: "Sandra zawsze dba o to czym się zajmuje – bez względu czy jest to pieczenia ciasta czy słuchanie przyjaciela – każdej czynności poświęca należytą uwagę."
         s8: "Jednak teraz, kiedy ma zamiar ubiegać się o swoją pierwszą pracę w księgowości, zaczynają się problemy: W jej mieście rocznie otwieranych jest tylko pięć etatów dla początkujących księgowych, każde inne wakaty wymagają roku lub dwóch doświadczenia, którymi ona oczywiście nie dysponuje."
         s9: "Wedle zasady aplikuje ona, więc o pracę dla początkujących i na żadną inną."
-      blogs6: 
+      blog_6: 
         s0: "Autor Michael Schmitz."
         s1: "Blog"
         s2: "Twoja pierwsza praca"

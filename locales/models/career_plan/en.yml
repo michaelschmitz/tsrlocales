@@ -34,6 +34,8 @@ en:
       4: '100%'
       5: 'No Travel'
   activerecord:
+    models:
+      career_plan: 'Career Plan'
     attributes:
       career_plan:
         <<: *ATTRIBUTES

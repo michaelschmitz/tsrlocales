@@ -11,6 +11,8 @@ en:
       3: 'Advanced'
       4: 'Fluent / Native'
   activerecord:
+    models:
+      language: 'Language'
     attributes:
       language:
         <<: *ATTRIBUTES

@@ -4,8 +4,10 @@ en:
       to: To
       topic: Topic
       body: Body
-      copy: Recieve copy of this message
+      copy: Receive copy of this message
   activerecord:
+    models:
+      message: 'Message'
     attributes:
       message:
         <<: *ATTRIBUTES

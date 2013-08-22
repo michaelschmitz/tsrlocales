@@ -24,6 +24,8 @@ en:
       4: 'Local leadership role (e.g. Trainer)'
       5: 'Strategic leadership role (e.g. Board member)'
   activerecord:
+    models:
+      service: 'Service'
     attributes:
       service:
         <<: *ATTRIBUTES
