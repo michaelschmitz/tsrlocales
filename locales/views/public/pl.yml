@@ -212,6 +212,8 @@ pl:
       s8: "Nasz ranking uczelni dostarczy Ci kluczowych informacji: Którą uczelnię wybrali najlepsi studenci? Gdzie można znaleźć najzdolniejszych inżynierów lub gdzie poszukiwać najwybitniejszych studentów szkół biznesu? "
       s8a: "Stworzony przez nas ranking uczelni powstał w oparciu o ranking studentów i pomoże Ci w wyborze Twojej wymarzonej uczelni."
       s9: ""
+    small_faq:
+      s1: "Często zadawane pytania"
     faq: 
       s1: FAQ
       s10: "5. Jak system oceni moje wyniki w nauce? Czy lepiej jest mieć lepsze oceny czy więcej praktyk?"
