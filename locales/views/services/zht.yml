@@ -1,15 +1,15 @@
 zht:
   services:
     edit:
-      s1: Edit service
+      s1: 編輯服務
     modal:
       html:
-        s1: Service
+        s1: 服務
     new:
-      s1: New service
+      s1: 新增服務
     show:
-      s1: Service
+      s1: 服務
     service:
-      s1: Description
-      s2: Hours
-      s3: per week
+      s1: 服務內容描述
+      s2: 小時
+      s3: 每週
