@@ -135,7 +135,7 @@ pl:
       IT: "Włochy (18-30)"
   activerecord:
     models:
-      company: 'Dyplom'
+      degree: 'Dyplom'
     attributes:
       degree:
         <<: *ATTRIBUTES
