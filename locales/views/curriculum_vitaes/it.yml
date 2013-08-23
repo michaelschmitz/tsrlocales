@@ -39,8 +39,8 @@ it:
       s1: Istruzione secondaria
       s2: Aggiungi istruzione secondaria
     services:
-      s1: Servizi
-      s2: Aggiungi servizi
+      s1: Volontariato
+      s2: Aggiungi esperienza di volontariato
     skills:
       s1: Competenze
       s2: Aggiungi competenze
