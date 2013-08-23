@@ -367,6 +367,8 @@ pl:
       s8: "za dodane wykształcenie"
       s9: "za szkołę średnią"
       s10: "za"
+      s11: "punktów"
+      s12: "za dodaną nagrodę"
     slider:
       s1: "Największy ranking studentów na świecie"
       s10: anonimowo
