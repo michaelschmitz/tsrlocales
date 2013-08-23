@@ -6,7 +6,7 @@ invitations:
 activerecord:
   attributes:
     models:
-      invitations: 'Invistations'
+      invitations: 'Invitations'
     invitations:
       <<: *ATTRIBUTES
 simple_form:
