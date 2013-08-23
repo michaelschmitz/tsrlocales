@@ -39,8 +39,8 @@ pl:
       s1: Wykształcenie średnie
       s2: Dodaj szkołę
     services:
-      s1: Usługi
-      s2: Dodaj obsługę
+      s1: Aktywności
+      s2: Dodaj aktywność
     skills:
       s1: Umiejętności
       s2: Dodaj umiejętność
