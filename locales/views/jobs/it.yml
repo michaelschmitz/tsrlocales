@@ -3,7 +3,7 @@ it:
     show:
       s1: Ritorna ai risultati
       s2: Descrizione del ruolo
-      s3: Qualificazioni
+      s3: Esperienza e competenze richieste
       s4: Benefit
       s5: Processo di candidatura
       s6: Contatta
@@ -15,7 +15,7 @@ it:
       s12: Aggiungi ai preferiti
     index:
       s1: Lavori
-      s2: Resultati
+      s2: Risultati
       s3: fa
       s4: Candidati
       s5: Aggiungi ai preferitixx
@@ -24,4 +24,5 @@ it:
       s8: Candidati
       s9: Aggiungi ai preferiti
       s10: Distanza
-      s11: Cerca    
+      s11: Cerca
+      s12: Visualizza offerta di lavoro     
