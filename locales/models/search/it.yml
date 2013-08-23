@@ -1,0 +1,16 @@
+it:
+  search:
+    attributes: &ATTRIBUTES
+      nationality: Nazionalità
+      year_of_birth: Anno di nascita
+      study_area: Area di studio
+      graduation_year: Anno di laurea
+      order: Ordine
+  activerecord:
+    attributes:
+      search:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      search:
+        <<: *ATTRIBUTES 
