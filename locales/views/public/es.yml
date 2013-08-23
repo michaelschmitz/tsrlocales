@@ -211,6 +211,8 @@ es:
       s8: "Nuestro ránking universitario te ofrece la información que necesitas: Qué universidades tienen los mejores estudiantes? Dónde encontraré los mejores ingenieros? y los estudiantes de empresariales más sobresalientes? "
       s8a: "El ranking universitario se basa en nuestro ránking global de estudiantes y te ayudará a escoger tu próxima universidad."
       s9: ""
+    small_faq:
+      s1: "Preguntas frecuentes"
     faq: 
       s1: "Preguntas frecuentes:"
       s10: "5. ¿Cuántos puntos me conceden por mis notas? ¿Qué es mejor, tener sobresaliente o haber realizado más prácticas?"
