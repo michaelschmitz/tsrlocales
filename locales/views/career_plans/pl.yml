@@ -16,7 +16,7 @@ pl:
       s13: Dostępność nie jest wskazana
       s14: Praktyki
       s15: od
-      s16: Nie jestem zainteresowany stażami.
+      s16: Nie jestem zainteresowany praktykami.
       s17: Chęć do podróży
       s18: Chęć do podróży  nie jest wskazana.
       s19: Przeniesienie się do innego miasta?
@@ -24,7 +24,7 @@ pl:
       s21: Jestem zainteresowany przeprowadzką do
       s22: Staż
     form:
-      s1: "Interesuje mnie :"
+      s1: "Interesuje mnie:"
       s2: "Preferencję:"
       s3: "W jakim miejscu chciałbyś pracować?"
     edit:
