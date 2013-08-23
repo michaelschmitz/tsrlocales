@@ -11,6 +11,8 @@ pl:
       3: 'zaawansowany'
       4: 'biegły / ojczysty'
   activerecord:
+    models:
+      language: 'Język'
     attributes:
       language:
         <<: *ATTRIBUTES
