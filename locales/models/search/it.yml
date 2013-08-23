@@ -7,6 +7,8 @@ it:
       graduation_year: Anno di laurea
       order: Ordine
   activerecord:
+      models:
+      search:'Cerca'
     attributes:
       search:
         <<: *ATTRIBUTES
