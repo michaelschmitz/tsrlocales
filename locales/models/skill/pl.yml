@@ -12,6 +12,8 @@ pl:
       2: 'Zaawansowny'
       3: 'Biegły'
   activerecord:
+    models:
+      skill: 'Umiejętność'
     attributes:
       skill:
         <<: *ATTRIBUTES
