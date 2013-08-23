@@ -13,6 +13,8 @@ pl:
       3: Krajowy
       4: Międzynarodowy
   activerecord:
+    models:
+      award: 'Nagroda'
     attributes:
       award:
         <<: *ATTRIBUTES
