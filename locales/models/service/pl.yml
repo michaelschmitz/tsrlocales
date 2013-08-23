@@ -25,7 +25,7 @@ pl:
       5: 'Strategiczna rola przywódcza (np. Członek zarządu)'
   activerecord:
     models:
-      service: 'Aktywności'
+      service: 'Aktywność'
     attributes:
       service:
         <<: *ATTRIBUTES
