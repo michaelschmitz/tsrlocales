@@ -1,0 +1,31 @@
+it:
+  contact_message:
+    attributes: &ATTRIBUTES
+      name: Il tuo nome 
+      company: Nome dell'azienda (se applicabile)
+      email: Email
+      phone: Numero di telefono (facci sapere se vuoi essere chiamato)
+      body: Il tuo messaggio
+  activerecord:
+    attributes:
+      models:
+        contact_message: 'Messaggio di contatto'
+      contact_message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      contact_message:
+        <<: *ATTRIBUTES
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+    © 2013 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Contact
