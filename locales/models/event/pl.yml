@@ -12,7 +12,7 @@ pl:
       comment_on_location: Komentarz do lokalizacji
   activerecord:
     models:
-      company: 'Wydarzenie'
+      event: 'Wydarzenie'
     attributes:
       event:
         <<: *ATTRIBUTES
