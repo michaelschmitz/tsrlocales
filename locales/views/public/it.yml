@@ -399,11 +399,12 @@ it:
     jobs:
       s1: Lavori
     smallfaq:
-      s1: "Quanto costa?"
-      s2: "Per gli studenti è gratis, i recruiter possono pubblicare un'offerta di lavoro gratuitamente. Iscriviti e provalo!"
-      s3: "Cosa offrite?"
-      s4: "Un sistema di global ranking per gli studenti che vogliono saperne di più sul proprio livello di competitività e che vogliono essere trovati dalle aziende."
-      s5: "I miei dati sono riservati?"
-      s6: "Sei tu a controllare i tuoi dati. I visitatori e i recruiter possono vedere il tuo profilo solo se tu lo rendi visibile."
-      s7: "Più risposte"
+      s1: Frequently Asked Questions
+      s2: "Quanto costa?"
+      s3: "Per gli studenti è gratis, i recruiter possono pubblicare un'offerta di lavoro gratuitamente. Iscriviti e provalo!"
+      s4: "Cosa offrite?"
+      s5: "Un sistema di global ranking per gli studenti che vogliono saperne di più sul proprio livello di competitività e che vogliono essere trovati dalle aziende."
+      s6: "I miei dati sono riservati?"
+      s7: "Sei tu a controllare i tuoi dati. I visitatori e i recruiter possono vedere il tuo profilo solo se tu lo rendi visibile."
+      s8: "Più risposte"
                 
