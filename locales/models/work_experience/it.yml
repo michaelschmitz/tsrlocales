@@ -18,6 +18,8 @@ it:
       5: 'Terzista'
       6: 'Lavoratore indipendente'
   activerecord:
+    models:
+      work_experience: 'Esperienza lavorativa'  
     attributes:
       work_experience:
         <<: *ATTRIBUTES
