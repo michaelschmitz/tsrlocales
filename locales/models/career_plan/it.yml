@@ -36,6 +36,8 @@ it:
       4: '100%'
       5: 'Nessuno spostamento'
   activerecord:
+    models:
+      career_plan: 'Piano di carriera'  
     attributes:
       career_plan:
         <<: *ATTRIBUTES
