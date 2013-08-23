@@ -9,6 +9,8 @@ es:
       last_name: Apellido
       title: Título
   activerecord:
+    models:
+      recruiter: 'Empresa'
     attributes:
       recruiter:
         <<: *ATTRIBUTES
