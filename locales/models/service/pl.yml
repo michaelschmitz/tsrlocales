@@ -24,6 +24,8 @@ pl:
       4: 'Lokalna rola przywódcza (np. Instruktor)'
       5: 'Strategiczna rola przywódcza (np. Członek zarządu)'
   activerecord:
+    models:
+      service: 'Aktywności'
     attributes:
       service:
         <<: *ATTRIBUTES
