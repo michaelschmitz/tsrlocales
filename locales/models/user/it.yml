@@ -23,6 +23,8 @@ it:
       2: 'Ogni mese'
       3: 'Mai'
   activerecord:
+    models:
+      user: 'Utente'  
     attributes:
       user:
         <<: *ATTRIBUTES
