@@ -59,6 +59,8 @@ pl:
       UY: "Urugwaj (1-12)"
       VE: "Wenezuela (0-20)"
   activerecord:
+    models:
+      school: 'Szkoła średnia'
     attributes:
       school:
         <<: *ATTRIBUTES
