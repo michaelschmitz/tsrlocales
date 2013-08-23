@@ -9,10 +9,10 @@ pl:
       promotion: "Stanowisko doktoranckie"
       part_time: W niepełnym wymiarze czas
       full_time: W pełnym wymiarze czasu
-      trainee: Szkolenie
+      trainee: Program absolwencki
       voluntary: Wolontariat
-      associate: Stowarzyszenie
-      limited: Ograniczony
+      associate: Associate
+      limited: Umowa na czas określony
       available: Dostęny w
       available_date: Termin dostępności
       intern_start: Początek stażu
@@ -36,6 +36,8 @@ pl:
       4: '100%'
       5: 'Nie chcę podróżować'
   activerecord:
+    models:
+        career_plan: 'Plan kariery'
     attributes:
       career_plan:
         <<: *ATTRIBUTES
