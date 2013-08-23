@@ -1,14 +1,14 @@
 zht:
   publications:
     edit:
-      s1: Edit publication
+      s1: 編輯著作
     modal:
       html:
-        s1: Publication
+        s1: 著作
     new:
-      s1: New publication
+      s1: 新增著作
     show:
-      s1: Publication
+      s1: 著作
     publication:
-      s1: Description
-      s2: Link
+      s1: 內容描述
+      s2: 連結
