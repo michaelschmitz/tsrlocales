@@ -12,6 +12,8 @@ it:
       2: 'Intermedio'
       3: 'Avanzato'
   activerecord:
+    models:
+      skill: 'Competenza'  
     attributes:
       skill:
         <<: *ATTRIBUTES
