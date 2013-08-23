@@ -11,6 +11,8 @@ es:
       3: 'Fluido'
       4: 'Nativo'
   activerecord:
+    models:
+      language: 'Idioma'
     attributes:
       language:
         <<: *ATTRIBUTES
