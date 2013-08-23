@@ -9,6 +9,8 @@ pl:
       last_name: Nazwisko
       title: Kierunek
   activerecord:
+    models:
+      recruiter: 'Rekruter'
     attributes:
       recruiter:
         <<: *ATTRIBUTES
