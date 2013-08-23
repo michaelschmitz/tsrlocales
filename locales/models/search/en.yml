@@ -7,8 +7,8 @@ en:
       graduation_year: Graduation year
       order: Order
   activerecord:
-       models:
-       search: 'Search'
+    models:
+      search: 'Search'
     attributes:
       search:
         <<: *ATTRIBUTES
