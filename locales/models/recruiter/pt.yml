@@ -9,6 +9,8 @@ pt:
       last_name: Último nome
       title: Título
   activerecord:
+    models:
+      recruiter: 'Recrutador'
     attributes:
       recruiter:
         <<: *ATTRIBUTES
