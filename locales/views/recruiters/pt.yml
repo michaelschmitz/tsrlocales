@@ -1,6 +1,10 @@
 pt:
   recruiters:
     jobs:
+      job_visitors_and_applicants:
+        s1: Candidatos
+        s2: Visitantes
+        s3: Ainda sem candidaturas
       form:
         s1: Inserção Manual
         s2: Upload PDF
