@@ -53,6 +53,8 @@ pt:
       1: Part time
       2: Full time
   activerecord:
+    models:
+      job: 'Oferta de Emprego'
     attributes:
       job:
         <<: *ATTRIBUTES
