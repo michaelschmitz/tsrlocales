@@ -14,7 +14,7 @@ pt:
       4: Internacional
   activerecord:
     models:
-      award: 'Award' 
+      award: 'Prémio' 
   attributes:
       award:
         <<: *ATTRIBUTES
