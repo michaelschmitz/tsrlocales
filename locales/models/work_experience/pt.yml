@@ -18,6 +18,8 @@ pt:
       5: 'Contrato'
       6: 'Trabalhador por conta própria'
   activerecord:
+    models:
+      work_experience: 'Experiência profissional'
     attributes:
       work_experience:
         <<: *ATTRIBUTES
