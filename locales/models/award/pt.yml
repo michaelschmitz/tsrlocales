@@ -13,7 +13,9 @@ pt:
       3: Nacional
       4: Internacional
   activerecord:
-    attributes:
+    models:
+      award: 'Award' 
+  attributes:
       award:
         <<: *ATTRIBUTES
   simple_form:
