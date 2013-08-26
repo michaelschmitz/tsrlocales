@@ -1,377 +1,71 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
 en:
-  activerecord:
-    errors:
-      messages:
-        after: "should end later"
-        before: "should start before"
-  nationalities:
-    AL: "Albania"
-    DZ: "Algeria"
-    AS: "American-Samoa"
-    AD: "Andorra"
-    AO: "Angola"
-    AI: "Anguilla"
-    AQ: "Antarctica"
-    AG: "Antigua and Barbuda"
-    AR: "Argentina"
-    AM: "Armenia"
-    AW: "Aruba"
-    AU: "Australia"
-    AT: "Austria"
-    ET: "Azerbaijan"
-    BS: "Bahamas"
-    BH: "Bahrain"
-    BD: "Bangladesh"
-    BB: "Barbados"
-    BY: "Belarus"
-    BE: "Belgium"
-    BZ: "Belize"
-    BJ: "Benin"
-    BM: "Bermuda"
-    BT: "Bhutan"
-    BO: "Bolivia"
-    BQ: "Bonaire, Saint Eustatius and Saba"
-    BA: "Bosnia and Herzegowina"
-    BW: "Botswana"
-    BV: "Bouvetisland"
-    BR: "Brazil"
-    IO: "British Indian Ocean Territory"
-    BN: "Brunei Darussalam"
-    BG: "Bulgaria"
-    BF: "Burkina Faso"
-    BI: "Burundi"
-    KH: "Cambodia"
-    CM: "Cameroon"
-    CA: "Canada"
-    CV: "Cape Verde"
-    KY: "Cayman-Islands"
-    CF: "Central African Republic"
-    TD: "Chad"
-    CL: "Chile"
-    CN: "China"
-    CX: "Christmas Islands"
-    CC: "Cocos Islands (Keeling-Islands)"
-    CO: "Colombia"
-    KM: "Comoros"
-    CG: "Congo"
-    CD: "Congo, Democratic Republic"
-    CK: "Cook-Islands"
-    CR: "Costa Rica"
-    CI: "Cote D'Ivoire"
-    HR: "Croatia"
-    CW: "Curaçao"
-    CY: "Cyprus"
-    CZ: "Czech Republic"
-    DK: "Denmark"
-    DJ: "Djibouti"
-    DM: "Dominica"
-    DO: "Dominican Republic"
-    AN: "Dutch Antilles"
-    TL: "Eastern Timor"
-    EC: "Ecuador"
-    EG: "Egypt"
-    SV: "El Salvador"
-    GQ: "Equatorial Guinea"
-    ER: "Eritrea"
-    EE: "Estonia"
-    AZ: "Ethiopia"
-    FK: "Falkland-Islands (Malwina)"
-    FO: "Faroe-Islands"
-    FJ: "Fiji"
-    FI: "Finland"
-    FR: "France"
-    GF: "French Guiana"
-    PF: "French Polynesia"
-    TF: "French Southern Territories"
-    GA: "Gabon"
-    GM: "Gambia"
-    GE: "Georgia"
-    DE: "Germany"
-    GH: "Ghana"
-    GI: "Gibraltar"
-    GR: "Greece"
-    GL: "Greenland"
-    GD: "Grenada"
-    GP: "Guadeloupe"
-    GU: "Guam"
-    GT: "Guatemala"
-    GN: "Guinea"
-    GW: "Guinea-Bissau"
-    GY: "Guyana"
-    HT: "Haiti"
-    HM: "Heard- and McDonald Islands"
-    HN: "Honduras"
-    HK: "Hongkong"
-    HU: "Hungary"
-    IS: "Iceland"
-    IN: "India"
-    ID: "Indonesia"
-    IE: "Ireland"
-    IL: "Israel"
-    IT: "Italy"
-    JM: "Jamaica"
-    JP: "Japan"
-    JO: "Jordan"
-    KZ: "Kazakhstan"
-    KE: "Kenya"
-    KI: "Kiribati"
-    KR: "Korea, Republic"
-    KW: "Kuwait"
-    KG: "Kyrgyzstan"
-    LA: "Lao, Democratic Republic"
-    LV: "Latvia"
-    LB: "Lebanon"
-    LS: "Lesotho"
-    LR: "Liberia"
-    LY: "Libya"
-    LI: "Liechtenstein"
-    LT: "Lithuana"
-    LU: "Luxemburg"
-    MO: "Macao"
-    MK: "Macedonia, Former Yugoslav Republic"
-    MG: "Madagascar"
-    MW: "Malawi"
-    MY: "Malaysia"
-    MV: "Maldives"
-    ML: "Mali"
-    MT: "Malta"
-    MA: "Marocco"
-    MH: "Marshall Islands"
-    MQ: "Martinique"
-    MR: "Mauritania"
-    MU: "Mauritius"
-    YT: "Mayotte"
-    MX: "Mexico"
-    FM: "Micronesia, Federal States of"
-    MD: "Moldawia, Republic"
-    MC: "Monaco"
-    MN: "Mongolia"
-    ME: "Montenegro"
-    MS: "Montserrat"
-    MZ: "Mozambique"
-    MM: "Myanmar"
-    NA: "Namibia"
-    NR: "Nauru"
-    NP: "Nepal"
-    NC: "New Caledonia"
-    NZ: "New Zealand"
-    NI: "Nicaragua"
-    NE: "Niger"
-    NG: "Nigeria"
-    NU: "Niue"
-    NF: "Norfold Island"
-    MP: "Northern Mariana Islands"
-    'NO': "Norway"
-    OM: "Oman"
-    PK: "Pakistan"
-    PW: "Palau"
-    PA: "Panama"
-    PG: "Papua New Guinea"
-    PY: "Paraguay"
-    PE: "Peru"
-    PH: "Philippines"
-    PN: "Pitcairn"
-    PL: "Poland"
-    PT: "Portugal"
-    PR: "Puerto Rico"
-    QA: "Qatar"
-    RE: "Reunion"
-    RO: "Romania"
-    RU: "Russian Federation"
-    RW: "Rwanda"
-    SH: "Saint Helena"
-    KN: "Saint Kitts and Nevis"
-    LC: "Saint Lucia"
-    VC: "Saint Vincent and the Grenadines"
-    WS: "Samoa"
-    SM: "San Marino"
-    ST: "Sao Tome and Principe"
-    SA: "Saudi Arabia"
-    SN: "Senegal"
-    RS: "Serbia"
-    SC: "Seychelles"
-    SL: "Sierra Leone"
-    SG: "Singapur"
-    SX: "Sint Maarten"
-    SK: "Slovakia"
-    SI: "Slovenia"
-    SB: "Solomon-Islands"
-    SO: "Somalia"
-    ZA: "South Africa"
-    GS: "South Georgia and the S.S. Islands"
-    ES: "Spain"
-    LK: "Sri Lanka"
-    SR: "Suriname"
-    SJ: "Svalbard- and Jan Mayen"
-    SZ: "Swaziland"
-    SE: "Sweden"
-    CH: "Switzerland"
-    TW: "Taiwan"
-    TJ: "Tajikistan"
-    TZ: "Tanzania, United Republic of"
-    TH: "Thailand"
-    NL: "The Netherlands"
-    TG: "Togo"
-    TK: "Tokelau"
-    TO: "Tonga"
-    TT: "Trinidad and Tobago"
-    TN: "Tunesia"
-    TR: "Turkey"
-    TM: "Turkmenistan"
-    TC: "Turks- and Caicos-Islands"
-    TV: "Tuvalu"
-    UG: "Uganda"
-    UA: "Ukraine"
-    AE: "United Arab Emirates"
-    GB: "United Kingdom"
-    UM: "United States MO Islands"
-    US: "United States of America"
-    UY: "Uruguay"
-    UZ: "Uzbekistan"
-    VU: "Vanuatu"
-    VA: "Vatican City"
-    VE: "Venezuela"
-    VN: "Vietnam"
-    VG: "Virgin Islands, British"
-    VI: "Virgin Islands, USA"
-    WF: "Wallis and Futuna"
-    EH: "Western Sahara"
-    YE: "Yemen"
-    ZM: "Zambia"
-    ZW: "Zimbabwe"
-  languages:
-    122: 'Albanian'
-    74: 'Amharic'
-    132: 'Amharique'
-    2: 'Ancient greek'
-    3: 'Arabic'
-    121: 'Armenian'
-    77: 'Assamese'
-    48: 'Awadhi'
-    68: 'Azerbaijani'
-    127: 'Azeri'
-    109: 'Bagheli'
-    98: 'Basque'
-    104: 'Belarusian'
-    4: 'Bengali'
-    47: 'Bhojpuri'
-    117: 'Bosnian'
-    119: 'Bulgarian'
-    57: 'Burmese'
-    50: 'Catalan'
-    80: 'Cebuano'
-    103: 'Chew'
-    76: 'Chhattisgarhi'
-    7: 'Chinese (Cantonese)'
-    65: 'Chinese (Gan)'
-    60: 'Chinese (Hakka)'
-    5: 'Chinese (Mandarin)'
-    95: 'Chinese (Min Bei)'
-    100: 'Chinese (Min Dong)'
-    44: 'Chinese (Min Nan)'
-    8: 'Chinese (Other)'
-    6: 'Chinese (Wu)'
-    52: 'Chinese (Xiang)'
-    92: 'Chittagonian'
-    31: 'Czech'
-    9: 'Danish'
-    93: 'Deccan'
-    23: 'Dutch'
-    11: 'English'
-    140: 'Esperanto'
-    123: 'Estonian'
-    141: 'Euskara'
-    139: 'Farsi'
-    135: 'Fidjian'
-    12: 'Finnish'
-    13: 'French'
-    90: 'Fula'
-    126: 'Georgian'
-    10: 'German'
-    14: 'Greek'
-    45: 'Gujarati'
-    111: 'Haitian Creole'
-    89: 'Haryanvi'
-    62: 'Hausa'
-    15: 'Hebrew'
-    16: 'Hindi'
-    33: 'Hungarian'
-    17: 'Icelandic'
-    72: 'Igbo'
-    18: 'Italian'
-    19: 'Japanese'
-    38: 'Javanese'
-    99: 'Kanaujii'
-    54: 'Kannada'
-    124: 'Karelian'
-    105: 'Kazakh'
-    83: 'Khmer'
-    112: 'Konkani'
-    21: 'Korean'
-    78: 'Kurdish'
-    70: 'Lao-Isan'
-    22: 'Latin'
-    113: 'Latvian'
-    114: 'Lithuanian'
-    101: 'Lombard'
-    120: 'Macedonian'
-    88: 'Madurese'
-    91: 'Magahi'
-    55: 'Maithili'
-    107: 'Makuwa'
-    82: 'Malagasy'
-    51: 'Malay'
-    53: 'Malayalam'
-    134: 'Maltese'
-    39: 'Marathi'
-    59: 'Marwari'
-    85: 'Nepali'
-    73: 'Northern Berber'
-    24: 'Norwegian'
-    58: 'Oriya'
-    75: 'Oromo'
-    1: 'Other language'
-    43: 'Pashto'
-    46: 'Persian'
-    25: 'Polish'
-    26: 'Portuguese'
-    27: 'Punjabi'
-    69: 'Rajasthani'
-    81: 'Rangpuri'
-    64: 'Romanian'
-    28: 'Russian'
-    86: 'Rwanda-Rundi'
-    125: 'Sami'
-    136: 'Samoan'
-    138: 'Schwyzerdütsch'
-    20: 'Serbo-Croatian'
-    94: 'Shona'
-    142: 'Sign language'
-    66: 'Sindhi'
-    79: 'Sinhalese'
-    115: 'Slovak'
-    118: 'Slovenian'
-    87: 'Somali'
-    116: 'Sorbian'
-    84: 'Sotho-Tswana'
-    30: 'Spanish'
-    56: 'Sundanese'
-    29: 'Swedish'
-    97: 'Sylheti'
-    63: 'Tagalog'
-    42: 'Tamil'
-    108: 'Tatar-Bashkir'
-    40: 'Telugu'
-    61: 'Thai'
-    130: 'Thai-Lao'
-    131: 'Thai-Zhuang'
-    128: 'Tibetan'
-    133: 'Tigrinya'
-    32: 'Turkish'
-    49: 'Ukrainian'
-    102: 'Uyghur'
-    67: 'Uzbek'
-    41: 'Vietnamese'
-    110: 'Xhose'
-    137: 'Yiddish'
-    71: 'Yoruba'
+  devise:
+    confirmations:
+      confirmed: "Your account was successfully confirmed. You are now signed in."
+      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions about how to confirm your account in a few minutes."
+    failure:
+      already_authenticated: "You are already signed in."
+      inactive: "Your account was not activated yet."
+      invalid: "Invalid email or password."
+      invalid_token: "Invalid authentication token."
+      locked: "Your account is locked."
+      not_found_in_database: "Invalid email or password."
+      timeout: "Your session expired, please sign in again to continue."
+      unauthenticated: "You need to sign in or sign up before continuing."
+      unconfirmed: "You have to confirm your account before continuing."
+    omniauth_callbacks:
+      failure: "Could not authenticate you from %{kind} because \"%{reason}\"."
+      success: "Successfully authenticated from %{kind} account."
+    mailer:
+      confirmation_instructions:
+        subject: 'Confirmation instructions'
+        s1: Hello
+        s2: "You need to confirm this email address before you can use your account. Click on the following link to do so"
+        s3: "Confirm email address and account"        
+      reset_password_instructions:
+        subject: 'Reset password instructions'
+        s1: Hello
+        s2: "Somebody has requested a password change for your account. The following link allows you to change the password."
+        s3: "Change password"
+        s4: "If you have not requested a new password, then just ignore this email."
+        s5: "Your password will only by changed after you have clicked this link and added a new password."                
+      unlock_instructions:
+        subject: 'Unlock Instructions'
+        s1: Hello
+        s2: "your account has been locked for security reasons."
+        s3: "Click on the link below to unlock your account"
+        s4: "Unlock account"        
+    passwords:
+      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+      send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+      updated: "Your password was changed successfully. You are now signed in."
+      updated_not_active: "Your password was changed successfully."
+    registrations:
+      destroyed: "Bye! Your account was successfully cancelled. We hope to see you again soon."
+      signed_up: "Welcome! You have signed up successfully."
+      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."
+      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."
+      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please open the link to activate your account."
+      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and click on the confirm link to finalize confirming your new email address."
+      updated: "You updated your account successfully."
+    sessions:
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+    unlocks:
+      send_instructions: "You will receive an email with instructions about how to unlock your account in a few minutes."
+      send_paranoid_instructions: "If your account exists, you will receive an email with instructions about how to unlock it in a few minutes."
+      unlocked: "Your account has been unlocked successfully. Please sign in to continue."
+  errors:
+    messages:
+      already_confirmed: "was already confirmed, please try signing in"
+      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"
+      expired: "has expired, please request a new one"
+      not_found: "not found"
+      not_locked: "was not locked"
+      not_saved:
+        one: "1 error prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"

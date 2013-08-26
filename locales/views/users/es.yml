@@ -1,18 +1,35 @@
-es:
-  users:
-    rank:
+--- 
+es: 
+  users: 
+    edit: 
+      s1: "Sobre mí"
+    passwords: 
+      edit: 
+        s1: "Cambiar contraseña"
+        s2: "Nueva contraseña"
+        s3: "Confirmar nueva contraseña"
+        s4: "Actualizar contraseña new: s1: Olvidó su contraseña s2: Enviar enlace para recuperar mi contraseña "
+    rank: 
       s1: Perfil
       s2: Recomendaciones
       s3: Habilidades
-      s4: Ranking personal
+      s4: "Ranking personal"
       s5: Gráficos
-      s6: Análisis de empresa
-      s7: Evaluación y Sugerencias
-    show:
-      s1: Sobre mí
-    edit:
-      s1: Sobre mí
-    settings:
+      s6: "Análisis de empresa"
+      s7: "Evaluación y Sugerencias"
+    registrations: 
+      new: 
+        s1: "Crear cuenta"
+        s2: "Crear cuenta"
+        s3: "Ya tiene cuenta?"
+        s4: "Inicie sesión aquí"
+    sessions: 
+      new: 
+        s1: "Iniciar sesión"
+        s2: "Iniciar sesión"
+        s3: "No tiene cuenta?"
+        s4: "Crear cuenta aquí"
+    settings: 
       s1: "Configuración de privacidad"
       s10: "Su dirección de correo electrónico nunca será compartida."
       s11: "Correo relacionado con el sorteo"
@@ -34,30 +51,11 @@ es:
       s8a: "Visible en el ranking?"
       s8b: "Sí, mis datos de perfil y mi foto son visibles para los visitantes a theStudentRanking.com. También acepto recomendaciones y confirmaciones de habilidades por parte de otros."
       s9: "Sí, los reclutadores y cazatalentos pueden ver mi perfil y enviarme mensajes sobre ofertas de trabajo muy bien remuneradas o eventos de interés."
-    shared:
-      links:
-        s1: Olvidó su contraseña
-        s2: No ha recibido las instrucciones para confirmar su cuenta?
-        s3: No ha recibido las instrucciones para desbloquear su cuenta?
-        s4: Iniciar sesión con
-    sessions:
-      new:
-        s1: Iniciar sesión
-        s2: Iniciar sesión
-        s3: No tiene cuenta?
-        s4: Crear cuenta aquí
-    registrations:
-      new:
-        s1: Crear cuenta
-        s2: Crear cuenta
-        s3: Ya tiene cuenta?
-        s4: Inicie sesión aquí
-    passwords:
-      edit:
-        s1: "Cambiar contraseña"
-        s2: "Nueva contraseña"
-        s3: "Confirmar nueva contraseña"
-        s4: "Actualizar contraseña
-      new:
-        s1: Olvidó su contraseña
-        s2: Enviar enlace para recuperar mi contraseña
+    shared: 
+      links: 
+        s1: "Olvidó su contraseña"
+        s2: "No ha recibido las instrucciones para confirmar su cuenta?"
+        s3: "No ha recibido las instrucciones para desbloquear su cuenta?"
+        s4: "Iniciar sesión con"
+    show: 
+      s1: "Sobre mí"

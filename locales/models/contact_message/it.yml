@@ -1,31 +1,27 @@
-it:
-  contact_message:
-    attributes: &ATTRIBUTES
-      name: Il tuo nome 
-      company: Nome dell'azienda (se applicabile)
+--- 
+it: 
+  activerecord: 
+    attributes: 
+      contact_message: 
+        body: "Il tuo messaggio"
+        company: "Nome dell'azienda (se applicabile)"
+        email: Email
+        name: "Il tuo nome"
+        phone: "Numero di telefono (facci sapere se vuoi essere chiamato)"
+    models: 
+      contact_message: "Messaggio di contatto"
+  contact_message: 
+    attributes: 
+      body: "Il tuo messaggio"
+      company: "Nome dell'azienda (se applicabile)"
       email: Email
-      phone: Numero di telefono (facci sapere se vuoi essere chiamato)
-      body: Il tuo messaggio
-  activerecord:
-      models:
-        contact_message: 'Messaggio di contatto'  
-    attributes:
-      contact_message:
-        <<: *ATTRIBUTES
-  simple_form:
-    labels:
-      contact_message:
-        <<: *ATTRIBUTES
-
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2013 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
+      name: "Il tuo nome"
+      phone: "Numero di telefono (facci sapere se vuoi essere chiamato)"
+  simple_form: 
+    labels: 
+      contact_message: 
+        body: "Il tuo messaggio"
+        company: "Nome dell'azienda (se applicabile)"
+        email: Email
+        name: "Il tuo nome"
+        phone: "Numero di telefono (facci sapere se vuoi essere chiamato)"
