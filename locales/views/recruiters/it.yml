@@ -18,6 +18,10 @@ it:
         s7: Visitatori
         s8: Candidature
         s9: "Pubblica un'offerta di lavoro"
+      job_visitors_and_applicants: 
+        s1: Candidati
+        s2: Visitatori
+        s3: Non ci sono ancora candidature
       new: 
         s1: "Pubblica una nuova offerta di lavoro"
       show: 
