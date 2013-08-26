@@ -7,9 +7,9 @@ en:
       phone: Phone number (let us know if you want to be called)
       body: Your message
   activerecord:
+    models:
+      contact_message: 'Contact Message'
     attributes:
-      models:
-        contact_message: 'Contact Message'
       contact_message:
         <<: *ATTRIBUTES
   simple_form:

@@ -18,6 +18,8 @@ es:
       5: 'Contratista'
       6: 'Autónomo'
   activerecord:
+    models:
+      work_experience: 'Experiencia laboral'
     attributes:
       work_experience:
         <<: *ATTRIBUTES

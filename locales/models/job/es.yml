@@ -53,6 +53,8 @@ es:
       1: Media jornada
       2: Jornada completa
   activerecord:
+    models:
+      job: 'Empleo'
     attributes:
       job:
         <<: *ATTRIBUTES

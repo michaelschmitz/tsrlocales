@@ -52,3 +52,12 @@ es:
         s2: Crear cuenta
         s3: Ya tiene cuenta?
         s4: Inicie sesión aquí
+    passwords:
+      edit:
+        s1: "Cambiar contraseña"
+        s2: "Nueva contraseña"
+        s3: "Confirmar nueva contraseña"
+        s4: "Actualizar contraseña
+      new:
+        s1: Olvidó su contraseña
+        s2: Enviar enlace para recuperar mi contraseña

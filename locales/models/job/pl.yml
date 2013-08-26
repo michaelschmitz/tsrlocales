@@ -53,6 +53,8 @@ pl:
       1: W niepełnym wymiarze czasu
       2: W pełnym wymiarze czasu
   activerecord:
+    models:
+      job: 'Oferta pracy'
     attributes:
       job:
         <<: *ATTRIBUTES

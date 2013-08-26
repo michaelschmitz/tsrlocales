@@ -23,6 +23,8 @@ pt:
       2: 'Todos os meses'
       3: 'Nunca'
   activerecord:
+    models:
+      user: 'Utilizador'
     attributes:
       user:
         <<: *ATTRIBUTES

@@ -11,6 +11,8 @@ it:
       4: 'Saggio'
       5: 'Libro'
   activerecord:
+    models:
+      publication: 'Pubblicazione'  
     attributes:
       publication:
         <<: *ATTRIBUTES

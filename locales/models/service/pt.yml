@@ -24,6 +24,8 @@ pt:
       4: 'Papel de liderança (p.ex. Treinador ou Formador)'
       5: 'Liderança estratégica (p.ex. Membro da Direção)'
   activerecord:
+    models:
+      service: 'Serviço Social'
     attributes:
       service:
         <<: *ATTRIBUTES

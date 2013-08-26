@@ -11,6 +11,8 @@ es:
       4: 'Ensayo'
       5: 'Libro'
   activerecord:
+    models:
+      publication: 'Publicación'
     attributes:
       publication:
         <<: *ATTRIBUTES

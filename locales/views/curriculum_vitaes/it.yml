@@ -26,7 +26,9 @@ it:
       s6: Contatti
       s7: Invita amici
       s8: Il mio ranking
-      s9: Impostazioni Privacy 
+      s9: Impostazioni Privacy
+      s10: Aggiorna i contatti di Facebook
+      s11: Messaggio
     publications:
       s1: Pubblicazioni
       s2: Aggiungi pubblicazione
@@ -37,8 +39,8 @@ it:
       s1: Istruzione secondaria
       s2: Aggiungi istruzione secondaria
     services:
-      s1: Servizi
-      s2: Aggiungi servizi
+      s1: Volontariato
+      s2: Aggiungi esperienza di volontariato
     skills:
       s1: Competenze
       s2: Aggiungi competenze

@@ -291,7 +291,7 @@ it:
       s78: "Contatta uno dei nostri Country Manager direttamente dalla pagina Chi Siamo, oppure compila il form di contatto. Ti ricontatteremo entro 24 ore per discutere delle possibilità di sponsorship."
       s8: "4. In che modo il sistema classifica gli studenti? Come funziona e quali sono i parametri di valutazione?"
       s9: "Il sistema  si basa sull’unico fattore che non può essere falsificato: il tempo. Confrontiamo gli studenti prendendo in considerazione la loro età e i risultati raggiunti. Come hanno investito il loro tempo? Hanno raggiunto dei risultati quantificabili? Qual è il loro percorso di studi e come procede? Quante lingue conoscono e a che livello? Quante esperienze lavorative o di altro tipo hanno? Tutti questi fattori contribuiscono al punteggio totale. Una volta determinato il punteggio totale, siamo in grado di confrontare tutti gli studenti con lo stesso anno di nascita per creare un gruppo di confronto corrispondente alla realtà il più possibile. Gli studenti possono anche scegliere di confrontarsi con altri gruppi della loro università, o a livello globale o con persone che si sono laureate nello stesso anno. Questo può portare a risultati diversi che forniscono complessivamente una visione d’insieme più equilibrata."
-    datenschutz: 
+    data_privacy: 
       s1: "Privacy policy"
       s10: "Disclosure to outside parties"
       s11: "We do not provide personally identifiable information to outside parties, unless this is required to perform our services to you. We will share information with law enforcement only if we receive a binding court decision (in Germany) requesting us to do so."
@@ -365,6 +365,8 @@ it:
       s8: "per una laurea"
       s9: "per l'istruzione secondaria"
       s10: "per"
+      s11: "punti"
+      s12: "un premio"
     slider:
       s1: "Il più grande ranking di studenti del mondo."
       s2: "Il tuo profilo ti connetterà alle migliori aziende del mondo"
@@ -398,11 +400,12 @@ it:
     jobs:
       s1: Lavori
     smallfaq:
-      s1: "Quanto costa?"
-      s2: "Per gli studenti è gratis, i recruiter possono pubblicare un'offerta di lavoro gratuitamente. Iscriviti e provalo!"
-      s3: "Cosa offrite?"
-      s4: "Un sistema di global ranking per gli studenti che vogliono saperne di più sul proprio livello di competitività e che vogliono essere trovati dalle aziende."
-      s5: "I miei dati sono riservati?"
-      s6: "Sei tu a controllare i tuoi dati. I visitatori e i recruiter possono vedere il tuo profilo solo se tu lo rendi visibile."
-      s7: "Più risposte"
+      s1: Frequently Asked Questions
+      s2: "Quanto costa?"
+      s3: "Per gli studenti è gratis, i recruiter possono pubblicare un'offerta di lavoro gratuitamente. Iscriviti e provalo!"
+      s4: "Cosa offrite?"
+      s5: "Un sistema di global ranking per gli studenti che vogliono saperne di più sul proprio livello di competitività e che vogliono essere trovati dalle aziende."
+      s6: "I miei dati sono riservati?"
+      s7: "Sei tu a controllare i tuoi dati. I visitatori e i recruiter possono vedere il tuo profilo solo se tu lo rendi visibile."
+      s8: "Più risposte"
                 

@@ -135,6 +135,8 @@ pt:
       VE: "Venezuela (0-20)"
       AT: "Áustria (4.0-1.0)"
   activerecord:
+    models:
+      degree: 'Grau académico'
     attributes:
       degree:
         <<: *ATTRIBUTES

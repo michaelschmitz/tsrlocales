@@ -11,6 +11,8 @@ pl:
       4: 'Esej'
       5: 'Książka'
   activerecord:
+    models:
+      publication: 'Publikacja'
     attributes:
       publication:
         <<: *ATTRIBUTES

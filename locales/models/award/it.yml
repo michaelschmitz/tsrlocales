@@ -13,6 +13,8 @@ it:
       3: Nazionale
       4: Internazionale
   activerecord:
+    models:
+      award: 'Premio'  
     attributes:
       award:
         <<: *ATTRIBUTES

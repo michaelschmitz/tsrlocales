@@ -23,6 +23,8 @@ pl:
       2: 'Co miesiąc'
       3: 'Nigdy'
   activerecord:
+    models:
+      user: 'Użytkownik'
     attributes:
       user:
         <<: *ATTRIBUTES

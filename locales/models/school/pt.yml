@@ -59,6 +59,8 @@ pt:
       UY: "Uruguay (1-12)"
       VE: "Venezuela (0-20)"
   activerecord:
+    models:
+      school: 'Escola'
     attributes:
       school:
         <<: *ATTRIBUTES

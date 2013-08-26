@@ -11,6 +11,8 @@ it:
       3: 'Avanzato'
       4: 'Fluente/ Madrelingua'
   activerecord:
+    models:
+      language: 'Lingue'  
     attributes:
       language:
         <<: *ATTRIBUTES

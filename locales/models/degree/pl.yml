@@ -135,6 +135,8 @@ pl:
       GB: "Wielkie Brytania (Pass, 3rd, 2:2, 2:1, 1st)"
       IT: "Włochy (18-30)"
   activerecord:
+    models:
+      degree: 'Dyplom'
     attributes:
       degree:
         <<: *ATTRIBUTES

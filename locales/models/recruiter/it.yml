@@ -9,6 +9,8 @@ it:
       last_name: Cognome
       title: Titolo
   activerecord:
+    models:
+      recruiter: 'Recruiter'  
     attributes:
       recruiter:
         <<: *ATTRIBUTES

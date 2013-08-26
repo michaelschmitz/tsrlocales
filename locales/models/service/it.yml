@@ -24,6 +24,8 @@ it:
       4: 'Local leadership role (es. Trainer)'
       5: 'Strategic leadership role (es. Board member)'
   activerecord:
+    models:
+      service: 'Volontariato'  
     attributes:
       service:
         <<: *ATTRIBUTES

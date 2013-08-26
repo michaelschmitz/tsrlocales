@@ -10,6 +10,8 @@ pt:
       url: Url
       facebook_page: Página Facebook
   activerecord:
+    models:
+      company: 'Empresa'
     attributes:
       company:
         <<: *ATTRIBUTES

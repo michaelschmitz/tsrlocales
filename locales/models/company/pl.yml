@@ -10,6 +10,8 @@ pl:
       url: Url
       facebook_page: Link do strony firmy na Facebooku
   activerecord:
+    models:
+      company: 'Firma'
     attributes:
       company:
         <<: *ATTRIBUTES

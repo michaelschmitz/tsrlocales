@@ -5,6 +5,8 @@ es:
       body: Texto
       copy: Recibir copia de este mensaje
   activerecord:
+    models:
+      message: 'Mensaje'
     attributes:
       message:
         <<: *ATTRIBUTES

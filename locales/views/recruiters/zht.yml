@@ -2,86 +2,86 @@ zht:
   recruiters:
     jobs:
       form:
-        s1: Manual Entry
-        s2: Upload PDF
-        s3: Documents
+        s1: 自行輸入
+        s2: 上傳 PDF
+        s3: 文件
       edit:
-        s1: Edit Job
+        s1: 編輯工作機會
       index:
-        s1: My job postings
-        s2: Title
-        s3: Locations
-        s4: Link
+        s1: 我刊登的工作機會
+        s2: 職稱
+        s3: 地點
+        s4: 連結
         s5: PDF?
-        s6: Run until
-        s7: Visitors
-        s8: Applications
-        s9: Post a job
+        s6: 刊登直到
+        s7: 訪客
+        s8: 申請者
+        s9: 刊登工作機會
       new:
-        s1: Post a new job
+        s1: 新增工作機會
       show:
-        s1: Visitors
-        s1: Applicants
+        s1: 訪客
+        s1: 申請者
     mailer:
       email_message:
-        s1: "has sent you a message"
-        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+        s1: "送給你一則訊息"
+        s2: "不用擔心，我們沒有洩露你的 E-mail。此公司是利用網站的聯絡表格來聯絡你。你可以登入後點擊\"我的帳戶\"來更改你的聯繫方式。"
       message:   #Yes, this is exactly the same as above. Copy paste.
-        s1: "has sent you a message"
-        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+        s1: "送給你一則訊息"
+        s2: "不用擔心，我們沒有洩露你的 E-mail。此公司是利用網站的聯絡表格來聯絡你。你可以登入後點擊\"我的帳戶\"來更改你的聯繫方式。"
     messages:
       index:
-        s1: My messages
-        s2: Topic
-        s2: Copied to email?
+        s1: 我的訊息
+        s2: 標題
+        s2: 寄備份到電子信箱？
       modal:
         html:
-          s1: Message
+          s1: 訊息
     public:
       home:
-        s1: "Dashboard for"
-        s10: "There are"
-        s11: "participants in our database"
-        s12: "Saved candidates"
-        s13: "Search database"
-        s2: Bill
-        s3: "Show billing details"
-        s4: "Job offers"
-        s5: "Job offers in system "
-        s6: "Create a new job offer"
-        s7: "Events in system"
-        s8: "Create a new event"
-        s9: "CV Database"
-        s14: Company page
-        s15: Job postings
-        s16: Post a job
-        s17: It\'s free
-        s18: It\'s fast.
-        s19: It\'s your solution.
-        s20: CV Database
-        s21: Search the database
-        s22: Full access.
-        s23: Thousands of candidates.
-        s24: Completely free for 10 days.
-        s25: Sign in
-        s26: Sign in
-        s27: No account yet?
-        s28: Sign up here
+        s1: "總覽"
+        s10: "現在網站的資料庫裡有"
+        s11: "求職者。"
+        s12: "已儲存的求職者"
+        s13: "搜尋資料庫"
+        s2: 帳單
+        s3: "顯示帳單明細"
+        s4: "我刊登的工作筆數"
+        s5: "系統裡的所有工作筆數 "
+        s6: "新增工作機會"
+        s7: "系統裡的所有活動筆數"
+        s8: "新增活動"
+        s9: "履歷表資料庫"
+        s14: 公司頁面
+        s15: 工作機會
+        s16: 新增工作機會
+        s17: 既免費
+        s18: 又快速
+        s19: 創新之徵才平台
+        s20: 履歷表資料庫
+        s21: 搜尋資料庫
+        s22: 享用所有權限
+        s23: 上萬個求職者
+        s24: 享用 10 天免費鑑賞期
+        s25: 登入
+        s26: 登入
+        s27: 還沒設立帳戶？
+        s28: 現在就註冊！
     registrations:
       new:
-        s1: Sign up
-        s2: Company Name
-        s3: Sign up
-        s4: Have an account?
-        s5: Sign in
+        s1: 註冊
+        s2: 公司名稱
+        s3: 註冊
+        s4: 已經有帳戶了？
+        s5: 登入
     sessions:
       new:
-        s1: Sign in
-        s2: Sign in
-        s3: No account yet?
-        s4: Sign up here
+        s1: 登入
+        s2: 登入
+        s3: 還沒設立帳戶？
+        s4: 現在就註冊
     shared:
       links:
-        s1: Forgot your password?
-        s2: "Didn't receive confirmation instructions?"
-        s3: "Didn\'t receive unlock instructions?"
+        s1: F忘記密碼？
+        s2: "尚未收到確認信？"
+        s3: "尚未收到解鎖信？"

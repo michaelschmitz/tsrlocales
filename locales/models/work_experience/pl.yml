@@ -18,6 +18,8 @@ pl:
       5: 'Umowa o pracę'
       6: 'Samozatrudnienie'
   activerecord:
+    models:
+      work_experience: 'Doświadczenie zawodowe'
     attributes:
       work_experience:
         <<: *ATTRIBUTES

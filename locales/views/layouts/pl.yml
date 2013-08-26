@@ -1,11 +1,11 @@
 pl:
   layouts:
     user_nav:
-      s1: CV
+      s1: Profil
       s2: Mój Ranking
       s3: Ranking studentów
       s4: Oferty pracy
-      s5: Profil
+      s5: Konto
       s6: Edytuj
       s7: Ustawienia
       s8: Wyloguj się

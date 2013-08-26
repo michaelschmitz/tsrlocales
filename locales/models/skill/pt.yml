@@ -12,6 +12,8 @@ pt:
       2: 'Experiente'
       3: 'Especialista'
   activerecord:
+    models:
+      skill: 'Competência'
     attributes:
       skill:
         <<: *ATTRIBUTES
