@@ -1,0 +1,49 @@
+zht:
+  curriculum_vitaes:
+    awards:
+      s1: 獎章
+      s2: 新增獎章
+    career_plan_info:
+      s1: 學生
+    career_plans:
+      s1: 生涯規劃
+      s2: 新增生涯規劃
+    degrees:
+      s1: 大學教育
+      s2: 新增學位
+    languages:
+      s1: 語言
+      s2: 新增語言
+    preferred_employers:
+      s1: 理想僱主
+      s2: 新增理想僱主
+    profile:
+      s1: 現任
+      s2: 前任
+      s3: 學歷
+      s4: 推薦人
+      s5: 已確認的技能
+      s6: 人脈關係
+      s7: 邀請朋友
+      s8: 我的排名
+      s9: 隱私設定
+      s10: 更新朋友
+      s11: 訊息
+    publications:
+      s1: 著作
+      s2: 新增著作
+    scholarships:
+      s1: 獎學金
+      s2: 新增獎學金
+    schools:
+      s1: 中等教育
+      s2: 新增中等教育
+    services:
+      s1: 服務
+      s2: 新增服務
+    skills:
+      s1: 技能
+      s2: 新增技能
+    works:
+      s1: 工作經驗
+      s2: 新增工作經驗

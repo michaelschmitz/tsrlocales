@@ -1,0 +1,21 @@
+en:
+  company:
+    attributes: &ATTRIBUTES
+      name: Name
+      vat_number: Vat number
+      street: Street
+      city: City
+      code: City code
+      country: Country
+      url: Website
+      facebook_page: Facebook page
+  activerecord:
+    models:
+      company: 'Company'
+    attributes:
+      company:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      company:
+        <<: *ATTRIBUTES   

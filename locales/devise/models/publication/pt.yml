@@ -1,0 +1,22 @@
+pt:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Link
+      description: Descrição
+      area: Área
+    area:
+      1: 'Outras publicações'
+      2: 'Artigos'
+      3: 'Trabalhos científicos'
+      4: 'Ensaios'
+      5: 'Livros'
+  activerecord:
+    models:
+      publication: 'Publicações'
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

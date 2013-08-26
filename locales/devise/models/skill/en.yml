@@ -1,0 +1,23 @@
+en:
+  skill:
+    attributes: &ATTRIBUTES
+      name: Name
+      level: Level
+      hours_application: Hours of application
+      hours_training: Hours of training
+      explanation: Explanation
+      included: 'Last used at'
+    level:
+      1: 'Beginner'
+      2: 'Experienced'
+      3: 'Expert'
+  activerecord:
+    models:
+      skill: 'Skill'
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skill:
+        <<: *ATTRIBUTES      

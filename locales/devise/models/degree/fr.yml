@@ -1,0 +1,144 @@
+fr:
+  degree:
+    attributes: &ATTRIBUTES
+      name: Name
+      country: Country
+      university_id: University
+      title: Title
+      credits: Credits
+      start_date: Start Date
+      end_date: End Date
+      grade_scale: Grade Scale
+      average: Average
+      study_area: Study Area
+      faculty: Faculty
+      major: Major
+      minor: Minor
+      document: Document
+      university:
+        name: University Name
+    study_area: 
+      1: "Agriculture"
+      30: "Architecture"
+      7: "Art et Design"
+      13: "Autre"
+      19: "Biologie"
+      12: "Business and Management"
+      20: "Chimie"
+      38: "Communication, journalisme, RP"
+      3: "Droit"
+      35: "Econometrics"
+      18: "Economics"
+      15: "Engineering (industriels)"
+      4: "Enseignement"
+      22: "Geology"
+      14: "Génie (électrique)"
+      17: "Humanités"
+      33: "Hôtellerie et tourisme"
+      16: "Informatique"
+      25: "Ingénierie (Chemical)"
+      26: "Ingénierie (Energie)"
+      27: "Ingénierie (Nucléaire)"
+      2: "Ingénierie (autres)"
+      24: "Ingénierie (génie civil)"
+      23: "Ingénierie (mécanique)"
+      29: "L'élevage"
+      28: "La foresterie, de la pêche"
+      37: "La médecine vétérinaire"
+      11: "Langues"
+      10: "Les sciences sociales et politiques"
+      5: "Mathemathics"
+      32: "Musique"
+      6: "Médecine"
+      31: "Nutrition et sport"
+      36: "Pharmacologie"
+      34: "Philosophie, Théologie"
+      21: "Physique"
+      9: "Psychologie"
+      8: "Sciences naturelles (autres)"
+    title: 
+      25: Associate
+      26: J.D.      
+      2: B.A.
+      7: B.Ed
+      3: B.Eng
+      5: B.F.A.
+      6: B.Mus
+      1: B.Sc.
+      22: B.Sc. Honours
+      15: Diplom (Dual)
+      16: Diplom (FH)
+      17: Diplom (Univ.)
+      18: Dr. med.
+      24: EMBA
+      4: LL.B.
+      20: Lic.
+      10: M.A.
+      13: M.Ed
+      11: M.Eng
+      12: M.F.A.
+      14: M.Mus
+      8: M.Sc.
+      23: MBA
+      9: Magister
+      19: PhD
+      21: Other
+    grade_scale:
+      DE: "Allemagne (4,0-1,0)"
+      AR: "Argentina (0-10)"
+      AU: "Australie (50-100%)"
+      AT: "Autriche (4.0-1.0)"
+      BE: "Belgique (60-100%)"
+      BO: "Bolivia (0-100%)"
+      BR: "Brezil (60-100%)"
+      CL: "Chile (0.0-7.0)"
+      CN: "Chine (60-100%)"
+      CO: "Colombia (1.0-5.0)"
+      CR: "Costa Rica (0:00 to 10:00)"
+      CU: "Cuba (0:00 to 5:00)"
+      DK: "Danemark (2-12)"
+      DO: "Dominican Republic (0-100%)"
+      EC: "Ecuador (0.0-10.0)"
+      SV: "El Salvador (1.0-10.0)"
+      ES: "Espagne (5.5-10)"
+      FI: "Finlande (1-5)"
+      FR: "France (10-20)"
+      GT: "Guatemala (0-100)"
+      HT: "Haiti (0-100%)"
+      HN: "Honduras (2:00 to 5:00)"
+      HK: "Hongkong (E, D, C, B, A)"
+      IN: "Inde (40-100%)"
+      IE: "Irelande (40-100%)"
+      IL: "Israël (60-100%)"
+      JM: "Jamaica (F, C, B-, B, A)"
+      JP: "Japon (60-100%)"
+      IT: "L'Italie (18-30)"
+      CA: "Le Canada (50-100)"
+      MX: "Mexico (60-100)"
+      NI: "Nicaragua (0-100)"
+      'NO': "Norvège (E, D, C, B, A)"
+      PA: "Panama (0-100)"
+      PY: "Paraguay (1-5)"
+      NL: "Pays-bas (5.5-10)"
+      PE: "Peru (0-20)"
+      PL: "Pologne (60-100%)"
+      PT: "Portugal (9.5-20)"
+      GB: "Royaume - Uni (Pass, 3rd, 2:2, 2:1, 1st)"
+      RU: "Russian Federation (1-5)"
+      CZ: "République Tchèque (50-100%)"
+      SG: "Singapour (D, D+, C, C+, B, B+, A, AD)"
+      SE: "Suede (E, D, C, B, A)"
+      CH: "Suisse (4.0-6.0)"
+      TW: "Taiwan (1.0-4.0)"
+      TT: "Trinidad and Tobago (0-100%)"
+      UY: "Uruguay (1-12)"
+      VE: "Venezuela (0-20)"
+      US: "États-Unis (1.0-4.0)"
+  activerecord:
+    attributes:
+      degree:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      degree:
+        <<: *ATTRIBUTES 

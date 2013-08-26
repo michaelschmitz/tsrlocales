@@ -1,0 +1,22 @@
+it:
+  event:
+    attributes: &ATTRIBUTES
+      title: Titolo
+      intro: Introduzione
+      description: Descrizione
+      sponsor: Sponsor
+      date: Data
+      location: Luogo
+      deadline: Scadenza iscrizione
+      link: Link
+      comment_on_location: Commento sul luogo
+  activerecord:
+    models:
+      event: 'Evento'  
+    attributes:
+      event:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      event:
+        <<: *ATTRIBUTES   

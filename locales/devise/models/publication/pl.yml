@@ -1,0 +1,22 @@
+pl:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Link
+      description: Tytuł
+      area: Typ
+    area:
+      1: 'Inne publikacje'
+      2: 'Artykuł w gazecie'
+      3: 'Praca naukowa'
+      4: 'Esej'
+      5: 'Książka'
+  activerecord:
+    models:
+      publication: 'Publikacja'
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

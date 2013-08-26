@@ -1,0 +1,19 @@
+fr:
+  recruiters:
+    companies:
+      form:
+        s1: Adresse de la société
+        s2: Facturation
+        s3: Liens
+      edit:
+        s1: Modifier votre entreprise
+      new:
+        s1: Modifier votre société # Ceci est correct -> Chaque nouveau recruteur a toujours une société, il ne peut donc modifier, jamais créer un nouveau
+      show:
+        s1: l'information de votre entreprise
+        s2: Adresse
+        s3: Informations complémentaires
+        s4: Cette information n'est pas visible pour le public
+        s5: numéro de TVA
+        s6: site de la société
+        s7: Page Facebook

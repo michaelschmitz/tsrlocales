@@ -1,0 +1,21 @@
+ru:
+  skill:
+    attributes: &ATTRIBUTES
+      name: Название навыка
+      level: Уровень
+      hours_application: Часы практического использования
+      hours_training: Часы обучения
+      explanation: объяснение
+      included: 'последний раз использован в'
+    level:
+      1: 'Начинающий'
+      2: 'Продвинутый'
+      3: 'Эксперт'
+  activerecord:
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skill:
+        <<: *ATTRIBUTES      

@@ -1,0 +1,20 @@
+pt:
+  recruiter:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Password
+      password_confirmation: onfirmar Password
+      phone: Contacto telefónico
+      first_name: Primeiro nome
+      last_name: Último nome
+      title: Título
+  activerecord:
+    models:
+      recruiter: 'Recrutador'
+    attributes:
+      recruiter:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      recruiter:
+        <<: *ATTRIBUTES   

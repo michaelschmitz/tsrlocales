@@ -1,0 +1,34 @@
+pt:
+  user:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Password
+      password_confirmation: Confirmar Password 
+      first_name: Primeiro nome
+      last_name: Último nome
+      avatar: Imagem
+      nationality: Nacionalidade
+      language: Língua
+      date_of_birth: Data de nascimento
+      gender: Sexo
+      about: Acerca de
+      location: Localização
+    gender:
+      1: 'Feminino'
+      2: 'Masculino'
+      3: 'Outro'
+      4: 'Não revelado'
+    frequency_emails:  
+      1: 'Após cada atualização'
+      2: 'Todos os meses'
+      3: 'Nunca'
+  activerecord:
+    models:
+      user: 'Utilizador'
+    attributes:
+      user:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      user:
+        <<: *ATTRIBUTES      

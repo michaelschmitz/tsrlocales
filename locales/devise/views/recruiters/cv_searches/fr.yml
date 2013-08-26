@@ -1,0 +1,71 @@
+fr:
+  recruiters:
+    cv_searches:
+      comparisons:
+        s1: Comparison Globale
+      form:
+        s1: Texte
+        s2: "Langue 1"
+        s3: "Langue 2"
+        s4: "Langue 3"
+        s5: "Langue 4"
+        s6: Lieu
+        s7: Disponibilitè
+        s8: par l'Universitè
+        s9: Experience
+        s10: Competences
+        s11: Voyage
+        s12: resultats
+      recruiter_profile_small:
+        s1: Stage
+        s2: Etudes supérieures
+        s3: Retirer du contact
+        s4: Ajouter aux candidats
+        s5: Envoyé un message
+      recruiter_profile:
+        s0: Etudiant
+        s1: Ajouter à la liste
+        s2: Message
+        s3: Nouveau message
+        s4: Afficher tous les messages
+        s5: Haut
+        s6: Haut
+        s7: Stages
+        s8: Etudes supérieures
+        s9: Déplacer la ville
+        s10: Déplacer pays
+        s11: Voyage
+        s12: Travaux en
+        s13: Note
+        s14: Education
+        s15: Expérience
+        s16: Langues
+        s17: Compétences
+        s18: Monter
+        s19: Total
+        s20: Modifier les facteurs
+      recruiter_recommendations:
+        s1: Recommandations
+        s2: Pas de recommandations encore
+      recruiter_skills:
+        s1: Compétences
+        s2: Confirmer
+        s3: Cet utilisateur n'a pas encore indiqué compétences.
+      index:
+        s1: CV recherches
+        s2: Nom
+        s3: Afficher candidats
+        s4: Modifier
+        s5: Continuer
+        s6: Candidats
+        s7: Changer le nom
+        s8: Montrer
+        s9: Nouveau recherche
+      modal:
+        html:
+          s1: Education
+          s2: Expérience
+          s3: Autre expérience
+          s4: Classement
+      show:
+        s1: Rechercher sur la base de donnés

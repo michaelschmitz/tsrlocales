@@ -1,0 +1,22 @@
+it:
+  language:
+    attributes: &ATTRIBUTES
+      name: Nome
+      level: Livello
+      certificate: Certificato
+      certificate_grade: Voto
+    level:
+      1: 'Base'
+      2: 'Intermedio'
+      3: 'Avanzato'
+      4: 'Fluente/ Madrelingua'
+  activerecord:
+    models:
+      language: 'Lingue'  
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

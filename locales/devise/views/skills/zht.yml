@@ -1,0 +1,14 @@
+zht:
+  skills:
+    edit:
+      s1: 編輯技能
+    modal:
+      html:
+        s1: 技能
+    new:
+      s1: 新增技能
+    show:
+      s1: 技能
+    skill:
+      s1: 實際使用
+      s2: 訓練

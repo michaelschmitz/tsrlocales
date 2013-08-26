@@ -1,0 +1,87 @@
+pl:
+  recruiters:
+    jobs:
+      form:
+        s1: Wprowadź ręcznie
+        s2: Prześlij PDF
+        s3: Dokumenty
+      edit:
+        s1: Edytuj ofertę pracy
+      index:
+        s1: Dodane oferty pracy
+        s2: Tytuł
+        s3: Lokalizacja
+        s4: Link
+        s5: PDF?
+        s6: "Oferta ważna do"
+        s7: "Użytkownicy, którzy wyświetlili ofertę"
+        s8: "Użytkownicy, którzy aplikowali"
+        s9: Dodaj ofertę pracy
+      new:
+        s1: Dodaj ofertę pracy
+      show:
+        s1: "Użytkownicy, którzy wyświetlili ofertę"
+        s1: "Użytkownicy, którzy aplikowali"
+    mailer:
+      email_message:
+        s1: "wysłał Ci wiadomość"
+        s2: "Twój adres e-mail jest bezpieczny i nie został udostępniony. Firma skontaktowała się z Tobą wykorzystując formularz na naszej stronie internetowej. Możesz zmienić swoje dane kontaktowe klikając na \"Moje konto\" po zalogowaniu się"
+      message:   
+        s1: "wysłał Ci wiadomość"
+        s2: "Twój adres e-mail jest bezpieczny i nie został udostępniony. Firma skontaktowała się z Tobą wykorzystując formularz na naszej stronie internetowej. Możesz zmienić swoje dane kontaktowe klikając na \"Moje konto\" po zalogowaniu się"
+    messages:
+      index:
+        s1: Moje wiadomości
+        s2: Temat
+        s2: Skopiować na e-miala?
+      modal:
+        html:
+          s1: Wiadomość
+    public:
+      home:
+        s1: "Pulpit nawigacyjny dla"
+        s10: "Wszyscy"
+        s11: "użytkownicy w naszej bazie danych"
+        s12: "Zapisz kandydatów"
+        s13: "Wyszukiwanie w bazie danych"
+        s2: Płatności
+        s3: "Pokaż szczegóły płatności"
+        s4: "Oferty pracy"
+        s5: "Oferty pracy w systemie "
+        s6: "Utwórz nową ofertę pracy"
+        s7: "Wydarzenia w systemie"
+        s8: "Utwórz nowe wydarzenie"
+        s9: "Baza CV"
+        s14: Strona firmy
+        s15: Oferty pracy
+        s16: Dodaj ofertę pracy
+        s17: Za darmo.
+        s18: Szybko.
+        s19: Dla Ciebie. 
+        s20: Baza CV
+        s21: Przeszukaj bazę danych
+        s22: Pełen dostęp.
+        s23: Tysiące kandydatów.
+        s24: Całkowicie za darmo przez 10 dni.
+        s25: Zaloguj się
+        s26: Zaloguj się
+        s27: Nie masz jeszcze konta?
+        s28: Zarejestruj się tutaj
+    registrations:
+      new:
+        s1: Zarejestruj się
+        s2: Nazwa firmy
+        s3: Zarejestruj się
+        s4: Masz już konto?
+        s5: Zaloguj się
+    sessions:
+      new:
+        s1: Zaloguj się
+        s2: Zaloguj się
+        s3: Nie masz jeszcze konta?
+        s4: Zarejestruj się tutaj
+    shared:
+      links:
+        s1: Zapomniałeś hasła?
+        s2: Nie otrzymałeś potwierdzania rejestracji?
+        s3: Nie otrzymałeśinstrukcji odblokowania?

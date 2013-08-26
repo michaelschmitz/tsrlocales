@@ -1,0 +1,18 @@
+pl:
+  shared:
+    profile_completion:
+        s1: "Dodaj zdjecie profilowe"
+        s10: "Czy masz doświadczenie zawodowe?"
+        s11: "Dodaj preferowanych pracodawców"
+        s12: "Kompletność profilu"
+        s13: "Dodaj swoje umiejętności"
+        s2: "Dodaj wykształceni wyższe"
+        s3: "Dodaj wykształcenie średnie"
+        s4: "Wybierz narodowość"
+        s5: "Dodaj swoje imię"
+        s6: "Dodaj swoje nazwisko"
+        s7: "Aktualizuj swoją datę urodzenia"
+        s8: "Jakie są twoje cele?"
+        s9: "Jakimi językami się posługujesz?"
+    jobs_suggested:
+        s1: "Sugerowane oferty pracy"   

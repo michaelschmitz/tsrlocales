@@ -1,0 +1,18 @@
+en:
+  contact_message:
+    attributes: &ATTRIBUTES
+      name: Your name
+      company: Company name (if applicable)
+      email: Email
+      phone: Phone number (let us know if you want to be called)
+      body: Your message
+  activerecord:
+    models:
+      contact_message: 'Contact Message'
+    attributes:
+      contact_message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      contact_message:
+        <<: *ATTRIBUTES   

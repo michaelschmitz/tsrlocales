@@ -1,0 +1,35 @@
+pl:
+  service:
+    attributes: &ATTRIBUTES
+      hours: Godzin w tygodniu
+      role: Rola
+      description: Opis pracy
+      area: Kategoria
+      start_date: Data rozpoczęnia
+      end_date: Data zakończenia
+      current: Obecnie
+      organization_name: Nazwa firmy lub organizacji
+    area:
+      1: "Studia / Szkoła"
+      2: "Organizacja społeczna"
+      3: "Klub"
+      4: "Partia polityczna"
+      5: "Kultura"
+      6: "Nauka"
+      7: "Inne"
+    role:
+      1: 'Aktywy członek'
+      2: 'Bierny członek'
+      3: 'Rola funkcyjna (np. Administartor)'
+      4: 'Lokalna rola przywódcza (np. Instruktor)'
+      5: 'Strategiczna rola przywódcza (np. Członek zarządu)'
+  activerecord:
+    models:
+      service: 'Aktywność'
+    attributes:
+      service:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      service:
+        <<: *ATTRIBUTES   

@@ -1,0 +1,2158 @@
+--- 
+en: 
+  activerecord: 
+    attributes: 
+      degree: 
+        average: Average
+        document: Transcript
+        ects: "Earned Points / ECTS (?)"
+        enddate: "(Expected) graduation date"
+        grade_final_work: "Grade for final thesis"
+        grade_scale: "Grading System"
+        major: Major
+        name: Name
+        no_exchange: "No exchange"
+        semester: "Current semester"
+        startdate: "Starting date"
+        studyarea: "Comparison group (?)"
+        titel: "Academic Degree"
+        title: Study
+      employer: 
+        accepted_tos: "ToS and Data Privacy"
+        company_name: Company
+        contact_name: "Your name"
+        password: Password
+        rebatecode: "Cooperation code"
+      event: 
+        date: Date
+        deadline: "Application deadline"
+        description: "Event description"
+        intro: Introduction
+        link: "Application link"
+        location: Location
+        sponsor: "Other sponsors"
+        titel: Title
+      job: 
+        average_hours: "Hours per week (estimate)"
+        company: "Name of company or organization"
+        document: Certificate
+        enddate: "End date"
+        role: "Job description"
+        startdate: "Start date"
+      joboffer: 
+        description: Description
+        locations: Location
+        run_until: "Visible until"
+        title: "Job title"
+      language: 
+        document: Certificate
+        level: Level
+        name: Name
+      message: 
+        body: Message
+        subject: Subject
+      messageag: 
+        company: Company
+        email: Email
+        phone: Telephone
+      participant: 
+        about: "What kind of opportunities are you interested in? (240 characters max)"
+        dob: "Date of birth"
+        firstname: "First name"
+        job_confirmation: "Job offers"
+        lastname: "Last name"
+        locations: "Currently living in"
+        max_salary: "Maximum salary"
+        min_salary: "xxx: Minimum "
+        recruit_me: "Preferred employers"
+        remind_me: "Update on new ranking position"
+        work_in_germany: "Allowed to work in"
+      publication: 
+        description: Name
+        document: Attachment
+        link: Link
+      school: 
+        document: Transcript
+        enddate: "End date"
+        name: "Name of School"
+        school_average: Average
+        startdate: "Start date"
+      service: 
+        company: "Name of company or organization"
+        document: Certificate
+        enddate: "End date"
+        organization: "Name of organization"
+        role: Description
+        startdate: "Start date"
+      skill: 
+        document: Certificate
+        level: Level
+        months: Months
+        name: "Name of skill"
+        years: Years
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
+      stipend: 
+        document: Attachment
+        enddate: "End date"
+        name: Name
+        startdate: "Start date"
+      user: 
+        accepted_tos: "ToS and Data Privacy"
+    errors: 
+      messages: 
+        accepted: "must be accepted"
+        blank: "must be filled"
+        confirmation: "doesn\\'t match confirmation"
+        empty: "must be filled"
+        equal_to: "must be equal to %{count}"
+        even: "must be even"
+        exclusion: "is not available"
+        format: "%{attribute} %{message}"
+        greater_than: "must be larger than %{count}"
+        greater_than_or_equal_to: "must be larger or equal to %{count}"
+        inclusion: "is not a valid number"
+        invalid: "is not valid"
+        less_than: "must be smaller than %{count}"
+        less_than_or_equal_to: "must be smaller or equal to %{count}"
+        not_a_number: "is not a number"
+        not_an_integer: "must be an integer"
+        numericality: "not a number."
+        odd: "must be uneven"
+        record_invalid: "Validity test failed: %{errors}"
+        taken: "is already taken."
+        too_long: "is too long (not more than %{count} characters)"
+        too_short: "is too short(not less than %{count} characters)"
+        wrong_length: "wrong length (must be exactly %{count} characters)"
+      template: 
+        body: "Please check the following fields"
+        header: 
+          one: "Couldn not save %{model}: One error."
+          other: "Could not save %{model}: %{count} errors."
+  controllers: 
+    cvsearches: 
+      s1: "Database access until "
+      s2: "You now have access to the database. Please create a search to find candidates."
+    events: 
+      s1: "Event successfully created."
+    joboffers: 
+      s1: "Job offer successfully created."
+    participants: 
+      s1: You
+      s2: "Other participants"
+      s3: Group
+      s4: Points
+  date: 
+    abbr_day_names: 
+      - Sun
+      - Mon
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+      - Sat
+    abbr_month_names: 
+      - ~
+      - Jan
+      - Feb
+      - Mar
+      - Apr
+      - May
+      - Jun
+      - Jul
+      - Aug
+      - Sep
+      - Oct
+      - Nov
+      - Dec
+    day_names: 
+      - Sunday
+      - Monday
+      - Tuesday
+      - Wednesday
+      - Thursday
+      - Friday
+      - Saturday
+    formats: 
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+      short2: "%b %Y"
+    month_names: 
+      - ~
+      - January
+      - February
+      - March
+      - April
+      - May
+      - June
+      - July
+      - August
+      - September
+      - October
+      - November
+      - December
+    order: 
+      - !ruby/symbol year
+      - !ruby/symbol month
+      - !ruby/symbol day
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "about 1 hour"
+        other: "about %{count} hours"
+      about_x_months: 
+        one: "about 1 month"
+        other: "about %{count} months"
+      about_x_years: 
+        one: "about 1 year"
+        other: "about %{count} years"
+      almost_x_years: 
+        one: "almost 1 year"
+        other: "almost %{count} years"
+      half_a_minute: "half a minute"
+      less_than_x_minutes: 
+        one: "less than a minute"
+        other: "less than %{count} minutes"
+      less_than_x_seconds: 
+        one: "less than 1 second"
+        other: "less than %{count} seconds"
+      over_x_years: 
+        one: "over 1 year"
+        other: "over %{count} years"
+      x_days: 
+        one: "1 day"
+        other: "%{count} days"
+      x_minutes: 
+        one: "1 minute"
+        other: "%{count} minutes"
+      x_months: 
+        one: "1 month"
+        other: "%{count} months"
+      x_seconds: 
+        one: "1 second"
+        other: "%{count} seconds"
+    prompts: 
+      day: Day
+      hour: Hour
+      minute: Minute
+      month: Month
+      second: Seconds
+      year: Year
+  hello: "Hello WElcome"
+  helpers: 
+    label: 
+      companies: 
+        name: Name
+      cvsearch: 
+        age_group: "Year of birth"
+        average: "GPA studies"
+        exchange: "Name of Exchange/Partner University"
+        festanstellung_available: Availability
+        festanstellung_date: "Fixed date"
+        grade_scale: "Grade scale"
+        graduation_year: "Graduation year"
+        internship_experience: "Internships in months"
+        language: Languages
+        locations: "Current location"
+        nationality: Nationality
+        only_friends: "Only friends"
+        order: "Order by"
+        praktikum_end: "Available until"
+        praktikum_start: "Available from"
+        skills: Skills
+        studyarea: "Area of study"
+        titel: "Academic degree"
+        title: Study
+        travel: "Willing to travel"
+        university: University
+        work_experience: "Work experience in months"
+        average: Grade point average
+      degree: 
+        average: Average
+        document: Transcript
+        ects: "Earned Points / ECTS (?)"
+        enddate: "(Expected) End date"
+        featured: "Are you willing to be featured as an outstanding student from your university? This will make some information from your profile publicly visible."
+        grade_final_work: "Final Grade"
+        major: Major
+        name: "University (tertiary education)"
+        no_exchange: "No exchange"
+        semester: "Current semester"
+        startdate: "Start date"
+        titel: "Academic degree (?)"
+        title: Study
+      employer: 
+        city: City
+        code: "Post code"
+        company_name: Company
+        contact_name: "Your name"
+        contact_phone: "Your phone number"
+        country: Country
+        currency: "Preferred currency"
+        fbpage: "Link to Facebook page"
+        logo: "Company logo"
+        password: Password
+        payment_preference: "Preferred payment method"
+        rebatecode: "Cooperation code"
+        street: Address
+        url: "Link to application page"
+        vat_number: "VAT number"
+      event: 
+        anmerkung: "Date details"
+        date: "Start date"
+        deadline: "Application deadline"
+        description: "Event description"
+        intro: "Introduction (320 Characters max)"
+        link: "Link to event page"
+        location: Location
+        sponsor: "Additional sponsors for this event"
+      exchangeuni: 
+        enddate: End
+        name: University
+        startdate: Begin
+      futurejob: 
+        available: Availability
+        available_date: Date
+        city1: City
+        city2: City
+        city3: City
+        industry: Industry
+        intern_end: "Latest end date"
+        intern_start: "Earliest start date"
+        location: "Where would you like to work? List cities, states and countries"
+        move_city: "Would you be willing to move inside the country?"
+        move_country: "Would you be willing to work abroad?"
+        teilzeit: "Which type of offer is interesting for you?"
+        travel: "How much travel is acceptable for you?"
+      job: 
+        average_hours: "Hours per week (estimate)"
+        company: "Name of company or organization"
+        contract: Contract
+        current: "Current position"
+        description: "Description (?) (optional)"
+        document: Certificate
+        enddate: "End date"
+        industry: Industry
+        role: Role
+        startdate: "Start date"
+        summary: "Summary (optional)"
+      joboffer: 
+        ausbildung: Education
+        bau: "Construction and Landscaping"
+        bereiche: Area
+        consulting: Consulting
+        contract_type: "Contract type"
+        description: Description
+        finanzen: Finance
+        forschung: Research
+        gf: "Private Equity and Venture Capital"
+        ing: "Engineering and Research Services"
+        it: "Information Technology"
+        link: "Link to application page"
+        locations: Location
+        logistik: "Logistics, Transportation, Procurement"
+        marketing: "Marketing, Design, Advertising, PR, Editing"
+        medizin: "Medicine and Care"
+        organization: "Organization, Administration, Law"
+        personalwesen: "Human Resources"
+        praktikum: Internship
+        produktion: "Technical Operations, Production"
+        run_until: "Run until (?)"
+        teilzeit: Part-time
+        title: Title
+        vertrieb: Sales
+        vollzeit: Full-time
+        werbebudget: "Additional budget (?)"
+      language: 
+        certificate: Certificate
+        certificate_grade: Grade
+        document: Certificate
+        level: Level
+      message: 
+        body: Message
+        copy: "Receive a copy of this message via email?"
+        subject: Subject
+      messageag: 
+        phone: Telephone
+      participant: 
+        about: "What kind of opportunities are you interested in? (240 characters max)"
+        avatar: "Profile picture"
+        cv: "Your CV (?)"
+        dob: "Date of birth"
+        endview: "Upon completion: How do you rank yourself compared to others at your university?"
+        firstname: "First name"
+        gender: Gender
+        job_confirmation: "Job offers"
+        lastname: "Last name"
+        max_salary: "Salary: Maximum"
+        min_salary: "Salary: Minimum"
+        nationality: Nationality
+        nowview: "Current: How do your rank yourself compared to others at your university?"
+        recruit_me: "Preferred Employer"
+        score_email: "Update on new position"
+        work_in_germany: "Allowed to work"
+        language: "Preferred language"
+      prize: 
+        area: "Award or Prize"
+        document: Attachment
+        level: Level
+        name: Description
+      publication: 
+        area: Type
+        description: Title
+        document: Attachment
+      school: 
+        abschluss: Degree
+        document: Transcript
+        enddate: "End date"
+        grade_scale: "Grade Scale"
+        name: "Name of School"
+        school_average: Average
+        schultyp: "School type"
+        startdate: "Start date"
+      service: 
+        area: "Type of organization"
+        current: Current?
+        description: "Role (?)"
+        document: Certificate
+        organization: "Name of organization"
+      skill: 
+        document: Certificate
+        included: "Last used at"
+        level: Level
+        months: "Experience Months"
+        years: "Experience Years"
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
+      stipend: 
+        document: Attachment
+        enddate: "End date"
+        name: Name
+        startdate: "Start date"
+      user: 
+        email: Email
+        password: Password
+        password_confirmation: "Confirm password"
+        remember_me: "Stay signed in"
+    select: 
+      prompt: "Please select"
+    submit: 
+      create: "%{model} create"
+      submit: "%{model} save"
+      update: "%{model} update"
+  number: 
+    currency: 
+      format: 
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format: 
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human: 
+      decimal_units: 
+        format: "%n %u"
+        units: 
+          billion: Billion
+          million: Million
+          quadrillion: Quadrillion
+          thousand: Thousand
+          trillion: Trillion
+          unit: ""
+      format: 
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+  support: 
+    array: 
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
+  time: 
+    am: am
+    formats: 
+      default: "%A, %d. %B %Y, %H:%M Uhr"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      no_day: "%d. %B %Y, %H:%M Uhr"
+      no_time: "%e. %B %Y"
+      short: "%d. %B, %H:%M Uhr"
+      sshort: "%d. %B %Y"
+    pm: pm
+  views: 
+    anschreiben_mailer: 
+      
+    candidates: 
+      index: 
+        s1: Candidates
+        s10: Internship
+        s11: between
+        s12: and
+        s13: Full-time
+        s14: starting
+        s15: available
+        s16: "Send message"
+        s17: "Activity:"
+        s18: "No candidates on list"
+        s19: "Remove from list"
+        s2: "Candidate list"
+        s3: "Delete list"
+        s4: Points
+        s5: "Comparison based on University, Study"
+        s6: Major
+        s7: "and year of birth"
+        s8: "Other degree"
+        s9: "Location:"
+    companies: 
+      editnew: 
+        s1: "Preferred Employer"
+        s2: "You can compare yourself with other potential applicants by selecting up to ten companies here. Employers cannot see your selection."
+      form: 
+        s1: "Add company"
+    countries: 
+      s1: xxx
+    cvsearches: 
+      fullview: 
+        s1: Candidate
+        s14: "Yes"
+        s15: "No"
+        s16: between
+        s17: and
+        s18: starting
+        s19: available
+        s2: "Example Profile"
+        s20: Points
+        s21: Education
+        s22: Grade
+        s23: Major
+        s24: Exchange
+        s25: until
+        s26: "Last school degree, Grade"
+        s27: "Work experience"
+        s28: "Languages"
+        s28a: "Skills"
+        s3: Locations
+        s34: Interests
+        s4: "Willing to travel"
+        s47: Experience
+        s48: hours application
+        s49: hours training
+        s5: Move
+        s50: current
+        s51: at
+        s52: "last used"
+        s53: "Privately learned"
+        s54: Publications
+        s55: "Awards and Prizes"
+        s56: Scholarships
+        s57: "Interested in"
+        s6: "Move abroad"
+        s7: Internship
+        s8: Full-time
+      index: 
+        s1: "Search Database"
+        s10: "No candidate lists yet"
+        s11: "Continue search"
+        s12: Candidates
+        s13: "Delete list"
+        s2: "Candidate lists can help you in assigning candidates to specific jobs."
+        s3: "Create a new candidate list to begin your search."
+        s4: "Create candidate list"
+        s5: Create
+        s6: "My candidate lists"
+        s7: "Name of list"
+        s8: "Continue search"
+        s9: "Number of candidates"
+      show: 
+        s1: "Minimum Points"
+        s10: Search
+        s11: Results
+        s12: Return
+        s13: "No results for your search."
+        s14: Points
+        s15: "Comparison based on University, Study"
+        s16: "and year born"
+        s17: Top
+        s18: "Additional study"
+        s19: Location
+        s2: Location
+        s20: Internship
+        s21: between
+        s22: and
+        s23: Full-time
+        s24: starting
+        s25: available
+        s26: "Send message"
+        s27: Activity
+        s28: "Add to "
+        s29: "candidate list"
+        s3: "Interested in"
+        s30: Saved
+        s4: Study
+        s5: University
+        s6: "Grades and Title"
+        s7: "Work experience"
+        s8: Other
+        s9: Search
+      zugriff: 
+        s1: "CV Database"
+        s2: "Use the CV database to preview and select candidates, then send them a message and invite them to be in contact with you. Yearly access costs and costs messaging are detailed on our "
+        s3: "price page"
+        s4: "Click here to use the database and to receive access to all profiles."
+        s5: "Acquire access"
+    degrees: 
+      exchangeunifields: 
+        s1: "Name of Exchange / Partner University"
+        s2: Remove
+      form: 
+        s0: "This field allows you to indicate your study progress. Simply add 30 points for each semester you completed successfully. If you study within Europe, simply use the credits you earned so far (If your university uses the European ECTS system, please provide your current ECTS). Each complete full-time year of study counts for 60 credits. Please only add already earned ECTS here. Examples: older Diplomas (300 credits), Apprenticeship and Study (180 credits), Bachelor (180 credits) and Master (90-120 credits)."
+        s0a: "Suggestions are shown while typing."
+        s0b: "Please select your degree. If you can't find your exact degree, simply choose a bachelor of science (B.Sc.) for your first and a master of science (M.Sc.) for your second degree."
+        s1: "Australia (50-100%)"
+        s10: "Hongkong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Ireland (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italy (18-30)"
+        s15: "Japan (60-100%)"
+        s16: "Canada (50-100)"
+        s17: "Netherlands (5.5-10)"
+        s18: "Norway (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Belgium (60-100%)"
+        s20: "Poland (3.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Sweden (E, D, C, B, A)"
+        s23: "Switzerland (4.0-6.0)"
+        s24: "Singapore (D - AD)"
+        s25: "Spain (5.5-10)"
+        s26: "Czech Republic (50-100%)"
+        s27: "USA (1.0-4.0)"
+        s27a: "Russian Federation (1-5)"
+        s27b: "Taiwan (1.0-4.0)"
+        s27c: "Mexico (60-100)"
+        s28: "The system requires a comparison group to calculate your ranking correctly."
+        s28a: Exchange
+        s29: "Add exchange university"
+        s3: "Brazil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Peru (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "Dominican Republic (0-100%)"
+        s39: "Haiti (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad and Tobago (0-100%)"
+        s5: "Denmark (2-12)"
+        s6: "Germany (4,0-1,0)"
+        s7: "Finland (1-5)"
+        s8: "France (10-20)"
+        s9: "UK (Pass, 3rd, 2:2, 2:1, 1st)"
+      newedit: 
+        s1: Study
+        s2: "Please only enter the currently earned amount of credits if your study is not completed yet."
+        s3: "If you are studying for a double degree, please provide only the first university and the complete amount of credit points above. Additional universities can be noted below."
+        s4: "Add new university"
+    devise: 
+      shared: 
+        s1: "Sign in"
+        s2: Register
+        s3: "Forgot password?"
+        s4: "Confirmation mail not received?"
+        s5: "Unlock email not received?"
+        s6: "Sign in with"
+    dry:
+      yes: "Yes"
+      no: "No"
+      na: "Not available"
+      details: "Details"
+      close: "Close"
+      save: "Save"
+      edit: "Edit"
+      cancel: "Cancel" 
+      area: 
+        s1: University/School
+        s2: Social
+        s3: Club
+        s4: Party
+        s5: Culture
+        s6: Scientific
+        s7: Other
+      available: 
+        s1: "All options"
+        s2: Immediately
+        s3: "Within 2 weeks"
+        s4: "In less than 1 month"
+        s5: "In 1 to 3 months"
+        s6: "More than 3 months"
+        s7: Negotiable
+        s8: "Specific date"
+      bereiche: 
+        s1: Education
+        s10: "Marketing, Design, Advertising, PR, Editing"
+        s11: "Medicine and Care"
+        s12: "Organization, Administration, Law"
+        s13: "Human Resources"
+        s14: "Technical Operations, Production"
+        s15: Sales
+        s2: "Construction and Landscaping"
+        s3: Consulting
+        s4: Finance
+        s5: Research
+        s6: "Private Equity and Venture Capital"
+        s7: "Information Technology"
+        s8: "Engineering and Research Services"
+        s9: "Logistics, Transportation, Procurement"
+      contract: 
+        s1: Apprenticeship
+        s2: Internship
+        s3: Full-time
+        s4: Part-time
+        s5: Contractor
+        s6: Self-Employed
+      countries: 
+        s1: Egypt
+        s10: "Equatorial Guinea"
+        s100: Colombia
+        s101: Comoros
+        s102: Congo
+        s103: "Congo, Democratic Republic"
+        s104: "Korea, Republic"
+        s105: Croatia
+        s106: Kuwait
+        s107: "Lao, Democratic Republic"
+        s108: Lesotho
+        s109: Latvia
+        s11: Armenia
+        s110: Lebanon
+        s111: Liberia
+        s112: Libya
+        s113: Liechtenstein
+        s114: Lithuana
+        s115: Luxemburg
+        s116: Macao
+        s117: Madagascar
+        s118: Malawi
+        s119: Malaysia
+        s12: Aruba
+        s120: Maldives
+        s121: Mali
+        s122: Malta
+        s123: Marocco
+        s124: "Marshall Islands"
+        s125: Martinique
+        s126: Mauritania
+        s127: Mauritius
+        s128: Mayotte
+        s129: "Macedonia, Former Yugoslav Republic"
+        s13: Azerbaijan
+        s130: Mexico
+        s131: "Micronesia, Federal States of"
+        s132: "Moldawia, Republic"
+        s133: Monaco
+        s134: Mongolia
+        s135: Montenegro
+        s136: Montserrat
+        s137: Mozambique
+        s138: Myanmar
+        s139: Namibia
+        s14: Ethiopia
+        s140: Nauru
+        s141: Nepal
+        s142: "New Caledonia"
+        s143: "New Zealand"
+        s144: Nicaragua
+        s145: "The Netherlands"
+        s146: "Dutch Antilles"
+        s147: Niger
+        s148: Nigeria
+        s149: Niue
+        s15: Australia
+        s150: "Northern Mariana Islands"
+        s151: "Norfold Island"
+        s152: Norway
+        s153: Oman
+        s154: Austria
+        s155: "Eastern Timor"
+        s156: Pakistan
+        s157: Palau
+        s158: Panama
+        s159: "Papua New Guinea"
+        s16: Bahamas
+        s160: Paraguay
+        s161: Peru
+        s162: Philippines
+        s163: Pitcairn
+        s164: Poland
+        s165: Portugal
+        s166: "Puerto Rico"
+        s167: Qatar
+        s168: Reunion
+        s169: Rwanda
+        s17: Bahrain
+        s170: Romania
+        s171: "Russian Federation"
+        s172: "Saint Kitts and Nevis"
+        s173: "Saint Lucia"
+        s174: "Saint Vincent and the Grenadines"
+        s175: Zambia
+        s176: Samoa
+        s177: "San Marino"
+        s178: "Sao Tome and Principe"
+        s179: "Saudi Arabia"
+        s18: Bangladesh
+        s180: Sweden
+        s181: Switzerland
+        s182: Senegal
+        s183: Serbia
+        s184: Seychelles
+        s185: "Sierra Leone"
+        s186: Zimbabwe
+        s187: Singapur
+        s188: "Sint Maarten"
+        s189: Slovakia
+        s19: Barbados
+        s190: Slovenia
+        s191: Solomon-Islands
+        s192: Somalia
+        s193: Spain
+        s194: "Sri Lanka"
+        s195: "Saint Helena"
+        s196: "South Africa"
+        s197: "South Georgia and the S.S. Islands"
+        s198: Suriname
+        s199: "Svalbard- and Jan Mayen"
+        s2: Albania
+        s20: Belize
+        s200: Swaziland
+        s201: Tajikistan
+        s202: Taiwan
+        s203: "Tanzania, United Republic of"
+        s204: Thailand
+        s205: Togo
+        s206: Tokelau
+        s207: Tonga
+        s208: "Trinidad and Tobago"
+        s209: Chad
+        s21: Belgium
+        s210: "Czech Republic"
+        s211: Tunesia
+        s212: Turkey
+        s213: Turkmenistan
+        s214: "Turks- and Caicos-Islands"
+        s215: Tuvalu
+        s216: Uganda
+        s217: Ukraine
+        s218: Hungary
+        s219: Uruguay
+        s22: Benin
+        s220: Uzbekistan
+        s221: Vanuatu
+        s222: "Vatican City"
+        s223: Venezuela
+        s224: "United States of America"
+        s225: "United Kingdom"
+        s226: "United Arab Emirates"
+        s227: Vietnam
+        s228: "Wallis and Futuna"
+        s229: "Christmas Islands"
+        s23: Bermuda
+        s230: Belarus
+        s231: "Western Sahara"
+        s232: "Central African Republic"
+        s233: Cyprus
+        s234: Argentina
+        s24: Bhutan
+        s25: Bolivia
+        s26: "Bonaire, Saint Eustatius and Saba"
+        s27: "Bosnia and Herzegowina"
+        s28: Botswana
+        s29: Bouvetisland
+        s3: Algeria
+        s30: Brazil
+        s31: "British Indian Ocean Territory"
+        s32: "Brunei Darussalam"
+        s33: Bulgaria
+        s34: "Burkina Faso"
+        s35: Burundi
+        s36: Chile
+        s37: China
+        s38: Cook-Islands
+        s39: "Costa Rica"
+        s4: American-Samoa
+        s40: Curaçao
+        s41: Denmark
+        s42: Germany
+        s43: Dominica
+        s44: "Dominican Republic"
+        s45: Djibouti
+        s46: Ecuador
+        s47: "El Salvador"
+        s48: "Cote D\\'Ivoire"
+        s49: Eritrea
+        s5: Andorra
+        s50: Estonia
+        s51: "Falkland-Islands (Malwina)"
+        s52: Faroe-Islands
+        s53: Fiji
+        s54: Finland
+        s55: France
+        s56: "French Guiana"
+        s57: "French Polynesia"
+        s58: "French Southern Territories"
+        s59: Gabon
+        s6: Angola
+        s60: Gambia
+        s61: Georgia
+        s62: Ghana
+        s63: Gibraltar
+        s64: Grenada
+        s65: Greece
+        s66: Greenland
+        s67: Guadeloupe
+        s68: Guam
+        s69: Guatemala
+        s7: Anguilla
+        s70: Guinea
+        s71: Guinea-Bissau
+        s72: Guyana
+        s73: Haiti
+        s74: "Heard- and McDonald Islands"
+        s75: Honduras
+        s76: Hongkong
+        s77: India
+        s78: Indonesia
+        s79: Ireland
+        s8: Antarctica
+        s80: Iceland
+        s81: Israel
+        s82: Italy
+        s83: Jamaica
+        s84: Japan
+        s85: Yemen
+        s86: Jordan
+        s87: "Virgin Islands, British"
+        s88: "Virgin Islands, USA"
+        s89: Cayman-Islands
+        s9: "Antigua and Barbuda"
+        s90: Cambodia
+        s91: Cameroon
+        s92: Canada
+        s93: "Cape Verde"
+        s94: Kazakhstan
+        s95: Kenya
+        s96: Kyrgyzstan
+        s97: Kiribati
+        s98: "United States MO Islands"
+        s99: "Cocos Islands (Keeling-Islands)"
+      facebook: 
+        s1: "Your data is used to fill the details in your student profile and to make it easier to get started"
+        s2: "Use the global ranking and your profile to connect with the world's best companies. View your result and learn how to improve your skills and market value quickly. Compare yourself with your friends and fellow students globally, in your country and at your university"
+        s3: "Use the global ranking and your profile to connect with the world's best companies."
+        s4: "Global ranking. Global jobs."
+      global_links: 
+        s1: "View all jobs"
+        s2: "View all events"
+        s3: "View all activities"
+        s4: "View all students"
+        s5: "View all questions"
+        s6: "View all universities"
+        s7: "View all friends"
+        s8: "View all employers"
+      languages: 
+        s0: "No selection"
+        s1: "Other language"
+        s10: German
+        s100: "Chinese (Min Dong)"
+        s101: Lombard
+        s102: Uyghur
+        s103: Chew
+        s104: Belarusian
+        s105: Kazakh
+        s106: Akan
+        s107: Makuwa
+        s108: Tatar-Bashkir
+        s109: Bagheli
+        s11: English
+        s110: Xhose
+        s111: "Haitian Creole"
+        s112: Konkani
+        s113: Latvian
+        s114: Lithuanian
+        s115: Slovak
+        s116: Sorbian
+        s117: Bosnian
+        s118: Slovenian
+        s119: Bulgarian
+        s12: Finnish
+        s120: Macedonian
+        s121: Armenian
+        s122: Albanian
+        s123: Estonian
+        s124: Karelian
+        s125: Sami
+        s126: Georgian
+        s127: Azeri
+        s128: Tibetan
+        s13: French
+        s130: Thai-Lao
+        s131: Thai-Zhuang
+        s132: Amharique
+        s133: Tigrinya
+        s134: Maltese
+        s135: Fidjian
+        s136: Samoan
+        s137: Yiddish
+        s138: Schwyzerdütsch
+        s139: Farsi
+        s140: Esperanto
+        s141: Euskara
+        s142: Sign language
+        s14: Greek
+        s15: Hebrew
+        s16: Hindi
+        s17: Icelandic
+        s18: Italian
+        s19: Japanese
+        s2: "Ancient greek"
+        s20: Serbo-Croatian
+        s21: Korean
+        s22: Latin
+        s23: Dutch
+        s24: Norwegian
+        s25: Polish
+        s26: Portuguese
+        s27: Punjabi
+        s28: Russian
+        s29: Swedish
+        s3: Arabic
+        s30: Spanish
+        s31: Czech
+        s32: Turkish
+        s33: Hungarian
+        s34: Basic
+        s35: Good
+        s36: Advanced
+        s37: Fluent
+        s37a: Native
+        s38: Javanese
+        s39: Marathi
+        s4: Bengali
+        s40: Telugu
+        s41: Vietnamese
+        s42: Tamil
+        s43: Pashto
+        s44: "Chinese (Min Nan)"
+        s45: Gujarati
+        s46: Persian
+        s47: Bhojpuri
+        s48: Awadhi
+        s49: Ukrainian
+        s5: "Chinese (Mandarin)"
+        s50: Catalan
+        s51: Malay
+        s52: "Chinese (Xiang)"
+        s53: Malayalam
+        s54: Kannada
+        s55: Maithili
+        s56: Sundanese
+        s57: Burmese
+        s58: Oriya
+        s59: Marwari
+        s6: "Chinese (Wu)"
+        s60: "Chinese (Hakka)"
+        s61: Thai
+        s62: Hausa
+        s63: Tagalog
+        s64: Romanian
+        s65: "Chinese (Gan)"
+        s66: Sindhi
+        s67: Uzbek
+        s68: Azerbaijani
+        s69: Rajasthani
+        s7: "Chinese (Cantonese)"
+        s70: Lao-Isan
+        s71: Yoruba
+        s72: Igbo
+        s73: "Northern Berber"
+        s74: Amharic
+        s75: Oromo
+        s76: Chhattisgarhi
+        s77: Assamese
+        s78: Kurdish
+        s79: Sinhalese
+        s8: "Chinese (Other)"
+        s80: Cebuano
+        s81: Rangpuri
+        s82: Malagasy
+        s83: Khmer
+        s84: Sotho-Tswana
+        s85: Nepali
+        s86: Rwanda-Rundi
+        s87: Somali
+        s88: Madurese
+        s89: Haryanvi
+        s9: Danish
+        s90: Fula
+        s91: Magahi
+        s92: Chittagonian
+        s93: Deccan
+        s94: Shona
+        s95: "Chinese (Min Bei)"
+        s96: Zulu
+        s97: Sylheti
+        s98: Basque
+        s99: Kanaujii
+      level: 
+        s1: Beginner
+        s2: Experienced
+        s3: Expert
+      prize: 
+        s1: Award
+        s2: "Prize (Sport)"
+        s3: Local
+        s4: State
+        s5: National
+        s6: International
+      publications: 
+        s1: "Other publication"
+        s2: "Newspaper article"
+        s3: "Scientific work"
+        s4: Essay
+        s5: Book
+      role: 
+        s1: "Active Member"
+        s2: "Passive Member"
+        s3: "Functional role (e.g. Administration)"
+        s4: "Local leadership role (e.g. Trainer)"
+        s5: "Strategic leadership role (e.g. Board member)"
+      sort: 
+        s1: "Achivement Score"
+        s2: "Social Score"
+      studyarea: 
+        s0: All
+        s1: "Agriculture"
+        s10: "Social and Political Sciences"
+        s11: "Languages"
+        s12: "Business and Economics"
+        s13: Other
+        s14: "Engineering (Electrical)"
+        s15: "Engineering (Industrial)"
+        s16: "Computer Science"
+        s17: "Humanities"
+        s18: "Economics"
+        s19: "Biology"
+        s20: "Chemistry"
+        s21: "Physics"
+        s22: "Geology"
+        s23: "Engineering (Mechanical)"
+        s24: "Engineering (Civil)"
+        s25: "Engineering (Chemical)"
+        s26: "Engineering (Energy)"
+        s27: "Engineering (Nuclear)"
+        s28: "Forestry, Fishery"
+        s29: "Animal husbandry"
+        s30: "Architecture"
+        s31: "Nutrition and Sports"
+        s32: "Music"
+        s33: "Hospitality and Tourism"
+        s34: "Philosophy, Theology"
+        s35: "Econometrics"
+        s36: "Pharmacology"
+        s37: "Veterinary medicine"
+        s38: "Communication, Journalism and PR"
+        s2: Engineering (other)
+        s3: Law
+        s4: Teaching
+        s5: Mathemathics
+        s6: Medicine
+        s7: "Art and Design"
+        s8: "Natural Sciences (other)"
+        s9: "Psychology"
+      titel: 
+        s1: All
+        s10: Magister
+        s11: M.A.
+        s12: M.Eng
+        s13: M.F.A.
+        s14: M.Ed
+        s15: M.Mus
+        s16: "Diplom (Dual)"
+        s17: "Diplom (FH)"
+        s18: "Diplom (Univ.)"
+        s19: "Dr. med."
+        s2: B.Sc.
+        s20: PhD
+        s21: Lic.
+        s22: Other
+        s23: "B.Sc. Honours"
+        s24: MBA
+        s25: EMBA
+        s26: Associate
+        s3: B.A.
+        s4: B.Eng
+        s5: LL.B.
+        s6: B.F.A.
+        s7: B.Mus
+        s8: B.Ed
+        s9: M.Sc.
+      travel: 
+        s0: "No selection"
+        s1: "Maximum 25%"
+        s2: "Maximum 50%"
+        s3: "Maximum 75%"
+        s4: 100%
+        s5: "No Travel"
+      validations: 
+        pdf: "Only .pdf documents allowed"
+    employers: 
+      confirmations: 
+        s1: "Resend confirmation email"
+      edit: 
+        s1: "Settings for"
+      form: 
+        s1: "Contact details"
+        s2: "Billing details"
+      passwords: 
+        editnew: 
+          s1: "Change password?"
+          s2: "Change password"
+          s3: "Forgotten your password?"
+          s4: "Send password information"
+      registrations: 
+        new: 
+          s1: "Errors have occured"
+          s10: "Privacy Policy"
+          s11: "and the"
+          s12: ToS
+          s13: Register
+          s14: "Already registered?"
+          s2: "For recruiters"
+          s3: "Sign in"
+          s4: "Stay signed in"
+          s5: "Forgot your password?"
+          s6: Register
+          s7: "Confirm password"
+          s8: "I accept"
+          s9: the
+      sessions: 
+        new: 
+          s1: "Errors during sign in"
+          s10: or
+          s11: "Login problems?"
+          s2: "For recruiters"
+          s3: "Sign in"
+          s4: "Stay signed in"
+          s5: Register
+          s6: "Forgot password?"
+          s7: "No account?"
+          s8: "Register here"
+      show: 
+        s1: "Settings for"
+        s2: "Company website"
+        s3: Facebook
+        s4: "Your name"
+        s5: "Phone number"
+        s6: VAT-Number
+        s7: Address
+        s8: "Edit settings"
+        s9: "Add new job offer"
+      unlocks: 
+        s1: "Resend confirmation email"
+    events: 
+      form: 
+        s1: "Errors have occured."
+        s2: "Hint: The green checkmark above allows you to preview your job offer with HTML code."
+      index: 
+        s1: "Events for Students and Graduates"
+        s2: "Read more..."
+        s3: Organiser
+        s4: Date
+        s5: Location
+        s6: "Application deadline"
+        s7: "Apply here"
+        s8: Application
+        s9: "Create new event"
+      index2: 
+        s1: "Your events"
+      newedit: 
+        s1: "Edit event"
+        s2: "New event"
+        s3: "Save time?"
+        s4: "Save time"
+        s5: "We add your event: Send us an email with the PDF or the HTML of the description to the same address as the job offers:"
+        s6: info@thestudentranking.com
+        s7: "Check our"
+        s8: Prices
+      show: 
+        s1: "Edit event"
+        s2: "Apply here"
+        s3: "Edit event"
+        s4: "Offer visible until"
+        s5: Views
+        s6: xxx
+    futurejobs: 
+      form: 
+        s1: "Your career plan"
+        s1a: "Full-time position"
+        s1b: Internship
+        s2: "Full-time position"
+        s3: "Available for internships"
+        s4: "Location and willingness to travel"
+        s5: "Yes"
+        s6: "No"
+      newedit: 
+        s1: "Your career plan"
+        s2: "Use this site to find interesting internships and well-paying jobs. Make it possible for employers to find and hire you. Employers can use our database of profiles to contact you directly and invite you to events or job interviews. You are more likely to receive offers if you indicate an interest in internships or full-time positions."
+    global: 
+      cancel: Cancel
+      delete: Remove
+      go: Go
+      save: Save
+      saved: "Saved successfully."
+      saved_changes: "Saved changes."
+      sign_in: "Sign in"
+    invoices: 
+      index: 
+        s1: "Your invoices"
+        s10: VAT
+        s11: Total
+        s12: "Created on"
+        s13: Logo
+        s14: "Delivery as"
+        s15: "Delivery as"
+        s16: "Payment from"
+        s17: Event
+        s18: "200 CV Views"
+        s19: "Account balance"
+        s2: "Status: Sponsor"
+        s20: "Please send payments to"
+        s21: "KTO: 1071232373"
+        s22: "BLZ: 39050000"
+        s23: "Institute: Sparkasse Aachen"
+        s24: Reference
+        s25: "Questions regarding your payment? Call us"
+        s26: "Telephone: 0049 2405 1402428"
+        s27: "Email: info@thestudentranking.com"
+        s28: "200 Messages"
+        s28a: "Message"
+        s29: "Job offer"
+        s3: "Services are free of charge according to our agreement. Information shown below serves as a chronological overview."
+        s4: "Current Invoice:"
+        s5: "Invoices are sent to:"
+        s6: "Change payment details"
+        s7: Payments
+        s8: Service
+        s9: Value
+    joboffers: 
+      form: 
+        s1: Error
+        s10: "Ideal qualifications"
+        s11: Benefits
+        s12: "Application process"
+        s2: "Hint: The green checkmark allows you to preview your job offer."
+        s3: "Link to application page"
+        s4: "Logo visible? (+ 10,- EUR)"
+        s5: "Prices depend on run time (30 days at 89,- EUR, 1,- EUR for each additional day.)"
+        s6: HTML
+        s7: Questions
+        s8: "Choose between answering questions or using HTML code to fill in details"
+        s9: "Role description"
+      index: 
+        s1: "Location search"
+        s10: "New job offer"
+        s11: Part-time
+        s12: Project
+        s13: xxx
+        s14: xxx
+        s15: xxx
+        s16: xxx
+        s17: xxx
+        s18: xxx
+        s19: xxx
+        s2: "Post code / City"
+        s20: xxx
+        s3: Distance
+        s4: Positions
+        s5: Full-time
+        s6: Internship
+        s7: Area
+        s8: Offers
+        s9: Location
+      index2: 
+        s1: "Your job offers"
+        s2: "No job offers registered yet."
+        s3: Edit
+        s4: Copy
+        s5: "New job offer"
+        s6: "No logo"
+      newedit: 
+        s1: "Edit job offer"
+        s2: "Hint: The green checkmark allows you to preview your job offer."
+        s3: "Show company logo"
+        s4: "No company logo"
+        s5: "New job offer"
+        s6: "Save time?"
+        s7: "Runs until"
+      show: 
+        s1: "Post code / City"
+        s10: Internship
+        s11: Area
+        s12: Education
+        s13: "Construction and Landscaping"
+        s14: Consulting
+        s15: Finance
+        s16: Research
+        s17: "Private Equity and Venture Capital"
+        s18: "Information Technology"
+        s19: "Engineering and Research Services"
+        s2: Search
+        s20: "Logistics, Transportation, Procurement"
+        s21: "Marketing, Design, Advertising, PR, Editing"
+        s22: "Medicine and Care"
+        s23: "Organization, Administration, Law"
+        s24: "Human Resources"
+        s25: "Technical Operations, Production"
+        s26: Sales
+        s27: Edit
+        s28: "Run until"
+        s29: Views
+        s3: "Back to overview"
+        s4: Favorites
+        s5: "Add to favorites"
+        s6: "Remove from favorites"
+        s7: "Edit job offer"
+        s8: "Apply here"
+        s9: Full-time
+    jobs: 
+      form: 
+        s1: Current
+        s2: "Add more information"
+        s3: "You can extend this field by using your mouse."
+      newedit: 
+        s1: "Work experience"
+    languages: 
+      form: 
+        s1: "Add language"
+      newedit: 
+        s1: Languages
+        s2: "Please provide your native language as \"fluent\"."
+    layouts: 
+      accountedit: 
+        s1: "Account edited"
+        s2: "One of our administrators has edited your account."
+        s3: "Reason:"
+        s4: "Earned credits was incorrect"
+        s5: "Grade scale was incorrect"
+        s6: "Hours invested were incorrect"
+        s7: "Please review the"
+        s8: guidelines
+        s9: "to better understand why the edit was made."
+      application: 
+        s0: "theStudentRanking.com: Receive free ranking results and great job offers from companies worldwide."
+        s1: Language
+        s10: "About me"
+        s11: "Career planning"
+        s11a: "Privacy settings"
+        s12: "My ranking"
+        s12a: "About us"
+        s12b: "Student Ranking"
+        s13: "Job offers"
+        s14: Favorites
+        s15: Events
+        s16: Contact
+        s17: Home
+        s18: "My job offers"
+        s19: "All job offers"
+        s2: "Sign in"
+        s20: "Create new job offer"
+        s21: "My events"
+        s22: "All events"
+        s23: "Create new event"
+        s24: Database
+        s25: "Search for candidates"
+        s26: "Sent messages"
+        s27: "My favorites"
+        s28: Settings
+        s29: "Company information"
+        s3: Register
+        s30: Invoices
+        s31: "Account verification outstanding"
+        s32: "Your account needs to be manually verified by one of our team members. While it is possible to create job offers and events, these will only be visible once the verification process is complete."
+        s33: "Please contact us"
+        s34: "via Telefone or Email, we'll immediately begin verifying your account."
+        s35: "The ranking"
+        s35a: "University Ranking"
+        s35b: Universities
+        s36: Recruiters
+        s37: Imprint
+        s38: "Data privacy"
+        s39: Terms of Service
+        s3a: "Login problems?"
+        s4: or
+        s40: Pricing
+        s41: Jobs
+        s42: "We will contact you to verify your account. You can already create job posts and events, these will become visible once verification is complete. CV database access is limited until then."
+        s43: "Account verification outstanding"
+        s44: Press
+        s45: Blog
+        s5: "Signed in as"
+        s6: "My account"
+        s7: "Sign out"
+        s8: "My profile"
+        s9: Settings
+    listjobs: 
+      index: 
+        s1: Favorites
+        s2: "Your saved job offers:"
+        s3: "Recommended job offers:"
+        s4: "The following job offers might also be interesting for you:"
+    messageags: 
+      errors: 
+        s1: "Please fill in all fields"
+      success: 
+        s1: "Your message has been sent."
+    messages: 
+      index: 
+        s1: "Sent messages"
+        s2: "You can search for this ID to find the matching candidate."
+        s3: Candidate
+        s4: Subject
+        s5: Message
+        s6: "Sent on"
+        s7: Delete
+    pagination: 
+      first: "First page |"
+      last: "| Last page"
+      next: Forward
+      previous: Previous
+      truncate: "..."
+    participants: 
+      edit: 
+        s1: "About me"
+      form: 
+        s1: Female
+        s2: Male
+        s3: Other
+        s4: "Not provided"
+      links: 
+        s1: "Achivement comparison"
+        s2: "Recommendations"
+        s3: "Confirmed Skills"
+        s4: "Ranking charts"
+        s5: "Friend comparison"
+        s6: "Company analysis"
+        s7: "Analysis and Suggestions"
+      profile_bars: 
+        s1: Top
+      profile_small: 
+        s1: Anonymous
+        s10: "Recommended by"
+        s11: "Provide recommendation"
+        s12: "Your recommendation was confirmed."
+        s13: "No recommendations yet. Encourage your friends to recommend you to increase your social score."
+        s14: "No recommendations yet. Sign in to provide the first recommendation."
+        s14a: "No recommendations yet."
+        s15: Points
+        s16: Skills
+        s16a: "No skills specified so far."
+        s17: Confirm
+        s18: Ask for recommendations from your friends 
+        s19: via Facebook
+        s20: via Email
+        s21: Please provide a recommendation for me on 
+        s22: theStudentRanking.com.
+        s23: This increases my chances to be found and hired by employers and you might also win an iPad mini if you sign up.
+        s24: Thanks already!
+        s2: A
+        s3: pts
+        s4: S
+        s5: St.
+        s6: "Profile for"
+        s7: X
+        s8: "This member has decided to not share more information. Recruiters can view the full profile"
+        s9: here
+      ranking: 
+        s1: "Return to profile"
+        s10: "University and Studies"
+        s100: "Analysis and Suggestions"
+        s101: "Applying for jobs and internships is the ultimate test of your paper-based credentials. Take a look below to find suggestions and hints regarding your CV and what you can do to perform better."
+        s102: "Analysis of positive elements"
+        s103: "Your grades are excellent."
+        s104: "You are a hard-working, concentrated and motivated student. Your grades demonstrate deep knowledge of the theory and your results validate yourself as a valuable colleague."
+        s105: "Describe your motivation and the way you work to get the grades you want. What motivated you to perform so well? Share your motivation in application letters and during interviews."
+        s106: "You finished school with excellent grades."
+        s107: "Your school results show a disciplined approach to exams and work."
+        s108: "Explain how you prepare yourself and how you approach new challenges (do not focus on the results too much). Companies are looking for diligent, serious and motivated colleagues. Your grades show that you are one of them."
+        s109: "Superior language skills."
+        s11: Participants
+        s110: "Depending on the kind of industry and company, you will be a very valuable asset to any company. Learning a language does not only provide you with communication skills, but has also allowed you to learn more about different cultures and to analyse situations differently."
+        s110a: "Advice:"
+        s111: "Focus on your languages skills and the flexibility this provides for the company. Globally competitive companies prefer multilingual candidates."
+        s112: "Many interests and skills"
+        s113: "You have earned experience in many different situations and are used to dealing with new environments and topics. A broad set of knowledge and skills is valuable as it show that you are open to learning and mastering new abilities."
+        s114: "Describe your motivation to acquire these skills. Why did you enjoy learning this? Passion is exciting, companies and colleagues would love to see you bring the same passion to your work."
+        s115: "You have provided service to your community and engaged yourself in a good cause."
+        s116: "Your efforts are recognized. You supported organizations in changing the world and have earned experience in dealing with setbacks and difficult colleagues and situations. You also have experience in motivating and convincing people - valuable skills for any employee."
+        s117: "Extensive community service provides you with skills and experiences relevant to the daily work life. Present these experiences and your learning results. Which situations were difficult, how did you handle them? What would you do better next time? Which skills did you develop? "
+        s118: "You have multiple publications"
+        s119: "Your deep knowledge of topics of interest and polished technical or communication skills have led to multiple publications with your name on them. You invested time and effort into these topics and have become an expert already - this documents your perseverance and motivation to provide complete results."
+        s12: Top
+        s120: "Publications are a credential to support your professional work attitude. Provide links to your publications and communicate the skills you improved during the creation and publication process."
+        s121: "You received awards or prizes."
+        s122: "Passion leads to performance. And your performance was recognized - whether this was an intellectual or sportive achievement, you have shown exceptional results and were lauded for this."
+        s123: "Passion is important. So are results. When writing applications, mention your efforts and your motivations and draw a link to your new tasks."
+        s124: "You received scholarships"
+        s125: "Scholarships signal previous selection. Other parties have recognized a certain quality and decided to reward you financially or with support. Scholarships make it easier for future employers to find excellence - and you have earned your scholarship."
+        s126: "You have worked hard to receive this scholarship and should be able to explain how this scholarship has eased your path a bit, while allowing you to focus on even better performance."
+        s127: "You are doing great. Keep it up!"
+        s128: Improvements
+        s129: "Lack of significant work experience."
+        s13: "Company analysis"
+        s130: "Employers will treat lack of significant work experience as a risk factor. If you have never worked in an industry before, you might not understand or respect the work culture, the tasks performed by colleagues or your future job. There is a small risk that you will be disappointed by your daily work and will look to find other opportunities."
+        s131: "Complete a few internships in relevant industries and test the waters. Even if you are not strongly interested, you can create an exclusion list and gradually form an opinion about the kind of industry you really want to work in."
+        s132: "School grades were below average"
+        s133: "Can't be changed. But this does not have to impact your future performance at work - if you are highly motivated to perform well, focus on the task at hand and prefer daily work life over theory, then you might sell yourself well to potential employers. This of course becomes more easy if you can also provide relevant internships and good certificates for the work you did."
+        s134: "Focus on other, more important things and speak about the things that matter. Your interview partner knows how irrelevant your school grades can be for the position you are going to fill and is more interested in hearing reasons why you will perform well. Deliver these, ignore the past."
+        s135: "Study grades are below average."
+        s136: "You might still be able to improve these grades. Depending on the industry, employers will focus on your grades if the theory will be relevant for your future position. However, if you change industries, then having weaker grades should not be a problem - as long as you can communicate that they might be due to other priorities or lack in knowledge or ability in this field, and not a lack of effort."
+        s137: "Bad grades should not limit you in becoming excellent in your work. Communicate this and tell your interview partner about your career plans and aspirations and how you want to achive them. Not everybody needs to be a double-degree PhD - certain jobs will actually benefit from a more practical hands-on person."
+        s138: "Matching job offers"
+        s139: "The following companies are interested in working with you. Suggestions are based on ranking results, studies and indicated availability"
+        s14: "Lottery tickets to win the iPad mini"
+        s140: "Click here for additional offers."
+        s141: "*Remark"
+        s142: "Results are not statistically significant. Every analysis requires a certain number of participants to increase significance. With growth in the number of participants, we expect valid results by the beginning of May 2013."
+        s143: "for you?"
+        s144: "Recommend us and take part in the iPad lottery."
+        s145: "Status update (3 Tickets)"
+        s146: "Like us (1 Tickets)"
+        s147: "Your friend"
+        s148: "theStudentRanking.com - "
+        s149: "has taken part"
+        s15: "Points (Comparison on year of birth"
+        s150: "Belongs to the best"
+        s151: "of the year"
+        s152: "has earned"
+        s153: Points.
+        s154: "The world's leading student comparison shows you your ranking position. Are you better than"
+        s155: earned
+        s156: "Points and belongs to the best"
+        s157: "of the study"
+        s158: "at the"
+        s159: "Are you even better?"
+        s16: ".."
+        s160: "The world's leading student comparison shows you your ranking position. Are you better than"
+        s161: "Find out how your colleagues have performed. What's your ranking result?"
+        s162: in
+        s163: "You have"
+        s164: tickets
+        s165: in
+        s166: Global
+        s167: Breakdown
+        s168: xxx
+        s169: xxx
+        s17: " "
+        s170: xxx
+        s171: xxx
+        s172: xxx
+        s18: "for you?"
+        s19: "We give away one brand new iPad mini among all participants. Invite your friends, earn tickets for the lottery to increase your chances and improve the quality of the ranking at the same time!"
+        s2: Points
+        s20: "Status update"
+        s21: "Like us"
+        s22: Rankings
+        s23: "All participants"
+        s24: "Ranking group"
+        s25: Points
+        s26: "Show explanation"
+        s27: Assessment
+        s28: "You earned"
+        s29: "Points and are grouped in the top"
+        s3: "Ranking worldwide"
+        s30: "The average result was"
+        s31: Points
+        s32: "Based on this result, you are ranked as"
+        s33: "far below average"
+        s34: "below average"
+        s35: "just a bit below the average"
+        s36: "an average participant"
+        s37: "just above the average"
+        s38: "a bit above the average"
+        s39: "visibly above the average"
+        s4: Studies
+        s40: "significantly above the average"
+        s41: "a great student"
+        s42: "one of the best students"
+        s43: "an excellent student"
+        s44: "an outstanding student"
+        s45: "an elite student"
+        s46: "one of the best elite students"
+        s47: "This ranking includes all participants from and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable."
+        s47c: "This ranking includes everyone who selected the same comparison group is the same age as you. Comparison groups are rather wide constructs and might include many participants with different backgrounds and career goals. Unless you already belong to the leading group in this ranking, keep in mind that your specialisation and focus during your studies will probably make you more valuable within that field - this should reflect nicely on your career chances. If you do belong to the leading group: Congratulations!"
+        s47d: "This ranking includes all participants from"
+        s47e: "which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group."
+        s48: "The system is unable to calculate your ranking position. Please provide more information about yourself, especially concerning school and university work, to see valid results."
+        s49: "Ranking:"
+        s5: School
+        s50: "Year of birth"
+        s51: "Show explanation"
+        s52: Assessment
+        s53: "You earned"
+        s54: "points and are grouped in the top"
+        s55: "The average result was"
+        s56: points
+        s57: "Compared to other participants with your year of birth, you are"
+        s58: "This ranking is based on all participants born in "
+        s59: "This ranking allows you a clearer view on possible career opportunities, especially if you are not specialized or are pursuing a popular job. If you want to increase your chances, you can specialize yourself further and earn experience through internships to become more valuable to potential employers."
+        s6: "Work experience"
+        s60: "Ranking: Year of birth, Comparison group"
+        s61: "Year of birth"
+        s62: "Comparison group"
+        s63: Assessment
+        s64: "You earned"
+        s65: "points and are grouped in the top"
+        s66: "The average result was"
+        s67: points
+        s68: "Compared to other participants of your age who have selected the same comparison group, you are "
+        s69: "This ranking is based on all participants born in"
+        s7: Languages
+        s70: "and having selected the comparison group"
+        s71: "This analysis is helpful in assessing your career possibilities, especially if you are interested in popular jobs or are not yet specialized."
+        s72: "Ranking: Your colleagues"
+        s73: "This ranking compares you to your colleagues born in"
+        s74: studying
+        s75: at
+        s76: "Invite your friends at"
+        s77: ". The more participants, the better the results"
+        s78: "Status update "
+        s79: "Breakdown of points"
+        s8: Engagement
+        s80: Group
+        s81: Study
+        s82: School
+        s83: Experience
+        s84: Languages
+        s85: Skills
+        s86: Awards
+        s87: Publications
+        s88: Scholarships
+        s89: Engagement
+        s9: "Comparison group based on year of birth"
+        s90: You
+        s91: Top
+        s92: "Example participants from groups, born in"
+        s93: "Company analysis"
+        s93a: "If you have added"
+        s94: "preferred employers"
+        s95: "you can receive a ranking comparison with other participants."
+        s96: "You can find a comparison of your own performance with that of other possible candidates below."
+        s97: "Show analysis"
+        s98: "Hide / Show"
+        s99: "Only the first ten results will be shown."
+      ranking_profile: 
+        s1: Anonymous
+        s2: of
+        s3: globally
+        s4: St.
+        s5: "Achievement:"
+        s6: "Social Score:"
+        s7: pts
+        s8: "Rank by age group"
+      show: 
+        s1: "Your profile"
+        s10: at
+        s11: Exchange
+        s12: Months
+        s13: "Add university studies"
+        s14: "2. School (secondary education)"
+        s15: Average
+        s16: "Add last school degree"
+        s17: "Add last school degree"
+        s18: "Add information about your school and study degrees to see more options."
+        s19: "3. Work experience"
+        s2: Points
+        s20: current
+        s21: "Add work experience"
+        s22: "4. Languages"
+        s23: "Add language"
+        s24: "5. Skills"
+        s25: Years
+        s26: Months
+        s27: current
+        s28: at
+        s29: "last used"
+        s29a: "ago"
+        s3: "Calculate rank"
+        s30: at
+        s31: "privately learned"
+        s31a: "Add skills"
+        s31b: "6. Awards"
+        s32: "privately learned"
+        s33: "Add awards"
+        s34: "7. Publications"
+        s35: "Add publication"
+        s36: "8. Scholarships"
+        s37: "Add scholarships"
+        s37a: "9. Interests, memberships and social activities"
+        s38: current
+        s39: Add
+        s4: "Build your profile to calculate your ranking. Every element is worth points and influences your final ranking result."
+        s40: "10. Preferred employers"
+        s41: "Add company"
+        s42: "A. Your career plan"
+        s43: "Interested in"
+        s44: "Full-time position"
+        s45: "Available on"
+        s46: Internship
+        s46a: "Next availability"
+        s47: Location
+        s48: Mobility
+        s49: "Move within your country"
+        s5: "Date of birth"
+        s50: "Not willing to move"
+        s51: "Willing to move abroad"
+        s52: "Not willing to move"
+        s53: "Willingness to travel"
+        s54: "Career plan"
+        s55: "people have confirmed this skill"
+        s6: "Interested in"
+        s7: "Your information is confidential and only visible to you and our administrators. If you want your profile to be visible to recruiters, please click"
+        s7a: here
+        s7b: "1. University studies (tertiary education)"
+        s8: Major
+        s9: Average
+      studentranking: 
+        s1: "Friends only"
+        s10: Recalculate
+        s11: "Find by name"
+        s2: "Global Student Ranking"
+        s3: Filter
+        s4: Globally
+        s5: "All backgrounds"
+        s6: "All years"
+        s7: "All years"
+        s8: of
+        s9: "You need to be connected via Facebook to recommend your friends and to easily see their ranking results."
+    prizes: 
+      newedit: 
+        s1: Awards
+    publications: 
+      newedit: 
+        s1: Publications
+    public:
+      ranking: 
+        s1: "The student ranking: How valuable are your experiences?"
+        s2: "Our global ranking test provides you with points for everything you achieved so far - and then compares you with colleagues and other students."
+        s3: "You get points for good grades, community service, part-time and full-time jobs, internships and all the skills you have."
+        s4: "Do you want to find out how others in your age group have been doing? Our global system runs comparisons based on your age, your studies and your university. Who is the best at your university, which university is the best?"
+        s5: "Get your ranking result - start now!"
+        s6: xxx
+    schools: 
+      editnew: 
+        s1: School
+        s2: "Please enter the highest level of secondary education you have completed."
+      form: 
+        s1: "Australia (50-100%)"
+        s10: "Hongkong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Ireland (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italy (60-100)"
+        s15: "Japan (60-100%)"
+        s16: "Canada (50-100)"
+        s17: "Netherlands (5.5-10)"
+        s18: "Norway (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Belgium (60-100%)"
+        s20: "Poland (2.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Sweden (E, D, C, B, A)"
+        s23: "Switzerland (4.0-6.0)"
+        s24: "Singapore (D, D+, C, C+, B, B+, A, AD)"
+        s25: "Spain (5.5-10)"
+        s26: "Czech Republic (50-100%)"
+        s27: "United States of America (1.0-4.0)"
+        s27a: "Russia Federation (1-5)"
+        s28: "Taiwan (0-100)"
+        s29: "Mexico (0-100)"
+        s3: "Brazil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Peru (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "Dominican Republic (0-100%)"
+        s39: "Haiti (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad and Tobago (0-100%)"
+        s5: "Denmark (2-12)"
+        s6: "Germany (4,0-1,0)"
+        s7: "Finland (1-5)"
+        s8: "France (10-20)"
+        s9: "UK (A-level: E-A*)"
+    services: 
+      form: 
+        s1: "Interests, memberships and social activities"
+        s10: "Passive membership"
+        s11: "Functional role (e.g. Administration)"
+        s12: "Local leadership role (e.g. Trainer)"
+        s13: "Strategic leadership role (e.g. Board member)"
+        s14: Current
+        s15: "If you had multiple roles with the same organization, then please provide a separate entry for each experience. This ensures proper point calculation and provides more relevant information to recruiters."
+        s2: University/School
+        s3: Social
+        s4: Club
+        s5: Party
+        s6: Culture
+        s7: Science
+        s8: Other
+        s9: "Active membership"
+    shared:
+      activities: 
+        s1: "has earned"
+        s1a: ""
+        s2: "has signed up"
+        s2a: ""
+        s3: "just got his ranking result!"
+        s4: "has recommended"
+        s4a: ""
+        s5: "has confirmed skills of"
+        s5a: ""
+        s6: ""
+        s7: ago
+        s7a: ""
+        s8: "for a degree"
+        s9: "for secondary education"
+      arbeitgeberkontakt: 
+        s1: "Looking for the best?"
+        s10: Contact
+        s11: Telephone
+        s12: Fax
+        s13: info@thestudentranking.com
+        s14: "Submit job offers via email"
+        s15: "Submit a job offer via email with a PDF or HTML description to "
+        s16: info@thestudentranking.com
+        s2: "We are looking forward to your message and will reply within 24 hours."
+        s3: "Name"
+        s4: "Company"
+        s5: Email
+        s6: Telephone
+        s7: Message
+        s8: Send
+      currency: 
+        s1: "Show prices in"
+      direct: 
+        s1: "Submit a job offer without registration?"
+        s2: "Submit a job offer via email with a PDF or HTML description to "
+        s3: info@thestudentranking.com
+        s4: Pricing
+        s5: "We will create the job offer and fill in all details according to your request."
+        s6: xxx
+      errorbox: 
+        s1: "Fields need to be filled."
+      faq: 
+        s1: "How much does it cost?"
+        s2: "Free for students, recruiters can post one job for free. Just sign up and try it"
+        s3: "What are you offering?"
+        s4: "A global ranking system for students that want to learn more about their competitiveness and that want to be found by companies."
+        s5: "Is my data private?"
+        s6: "You are in control of your data. Visitors and recruiters can only see your profile if you allow it."
+        s7: "More answers"
+      message: 
+        s1: Candidate
+        s2: Message
+        s3: Send
+        s4: "Sending messages incurs costs according to our"
+        s5: Prices
+        s6: "Sent messages can be found"
+        s7: here
+      rankingmenu:
+        s0: Global Ranking 
+        s1: "Masters in Management"
+        s10: Medicine
+        s11: "Natural Sciences"
+        s12: "Computer Science"
+        s13: Psychology
+        s14: "Social Sciences"
+        s15: Languages
+        s2: MBA
+        s3: Business
+        s4: Engineering
+        s5: "Electrical Engineering"
+        s6: "Industrial Engineering"
+        s7: Law
+        s8: Teaching
+        s9: Mathematics
+      slider: 
+      sponsors: 
+        s1: "These companies and many more are looking for new colleagues"
+      testimonial: 
+        s1: "We are searching for outstanding graduates to fill the most demanding entry level positions for our leading German clients. TheStudentRanking.com is the ideal source for us and we believe that this system will be growing quickly, making it easier to recruit the best candidates. "
+        s2: xxx
+      whatwedo: 
+        s1: "theStudentRanking.com provides the world's biggest global student ranking. If you are a student looking to learn more about your market value, about your perspective on the job market and if you want to get found and hired by some of the world's leading companies, then we are your ideal destination."
+        s2: "For companies, we offer recruiting solutions and services focused on graduates and students. We provide access to ideal candidates for talent programs, graduate programs and trainee programs. Young professionals and high potentials can be found on our site."
+    skills: 
+      s1: Skills
+      s2: "Please indicate additional skills here. Examples are programming languages, design-, leadership-, software or other skills. This can also include skills such as dancing, playing musical instruments, horse ridingor other hobbies."
+      s3: Beginner
+      s4: Experienced
+      s5: Expert
+      s6: "Learned privately"
+      s7: "Your final score depends on the hours of practical usage of this skill. It makes a big difference whether someone has, for example, worked with Microsoft Excel for 50 hours or 500 hours."
+      s8: "Your final score also depends on the hours of training you have had in this skill. Training includes reading books, professional advice and guidance, workshops, seminars and other activities apart from direct, everyday usage."
+    stipends: 
+      s1: Scholarships
+    template: 
+      s1: xxx
+      s10: xxx
+      s11: xxx
+      s12: xxx
+      s13: xxx
+      s14: xxx
+      s15: xxx
+      s16: xxx
+      s17: xxx
+      s18: xxx
+      s19: xxx
+      s2: xxx
+      s20: xxx
+      s3: xxx
+      s4: xxx
+      s5: xxx
+      s6: xxx
+      s7: xxx
+      s8: xxx
+      s9: xxx
+    universities: 
+      rankingspages: 
+        s0: "Global University Ranking"
+        s1: "University Ranking: Business"
+        s10: "University Ranking: Medicine "
+        s11: "University Ranking: Masters in Management "
+        s12: "University Ranking: Natural Sciences "
+        s13: "University Ranking: Psychology "
+        s14: "University Ranking: Social Sciences"
+        s15: "University Ranking: Teaching Studies "
+        s16: Points
+        s17: "Full profile for "
+        s18: "Year of birth"
+        s19: Points
+        s2: "University Ranking: Computer Science"
+        s20: "This university uses the following grading scale:"
+        s21: "Average grades"
+        s22: Participants
+        s23: "More information"
+        s24: "Featured Students"
+        s25: "Fees"
+        s26: Domestic
+        s27: International
+        s28: Undergraduate
+        s29: Postgraduate
+        s3: "University Ranking: Electrical Engineering "
+        s30: "Students who studied here also studied at:"
+        s31: "More universities"
+        s32: "No data available."
+        s33: "Students who studied here worked for:"
+        s34: "More companies"
+        s35: "This ranking is updated daily."
+        s36: "Which university has the best students? This ranking uses the average student achievement score to provide an indication of the overall quality and skill level of the students. The average grade of all participants is also provided, which can be used to check whether overly positive grading may have led to skewed results. All rankings, apart from the MBA ranking, are based on the age group of 1990-1992, as these are the most populous group of students currently studying and present at almost all universities worldwide."
+        s37: Details about the ranking methodology can be found at the
+        s38: bottom of this page.
+        s4: "University Ranking: Engineering "
+        s5: "University Ranking: Industrial Engineering "
+        s6: "University Ranking: Language Studies"
+        s7: "University Ranking: Law Studies"
+        s8: "University Ranking: Mathematics "
+        s9: "University Ranking: MBA "
+      show: 
+        s1: Overview
+        s10: Teaching
+        s11: Mathematics
+        s12: Medicine
+        s13: "Natural Sciences"
+        s14: Psychology
+        s15: "Social Sciences"
+        s16: Languages
+        s17: Business
+        s18: "Electrical Engineering"
+        s19: "Civil Engineering"
+        s2: Previous
+        s20: "Computer Science"
+        s21: "All calculations are based on the average score by students born in the years of 1990-1992"
+        s22: "However, MBA and Master in Management scores are based on the years between 1981 and 1988"
+        s23: "Student scores (overall)"
+        s24: "Year of birth"
+        s25: "Average grades"
+        s26: Participants
+        s27: "This university uses the following grading scale"
+        s28: "Only results from students born in the years of 1990-1992 are included in the ranking"
+        s29: "Featured Students"
+        s3: Next
+        s30: "No students featured yet"
+        s31: "Yearly fees"
+        s32: Domestic
+        s33: International
+        s34: Undergraduate
+        s35: Postgraduate
+        s36: "Students who studied here also studied at:"
+        s37: "More universities"
+        s38: "No data available."
+        s39: "Students who studied here worked for:"
+        s4: Points
+        s40: "More companies"
+        s5: "Results by discipline"
+        s6: "Master in Management"
+        s7: MBA
+        s8: Law
+        s9: Engineering

@@ -1,0 +1,64 @@
+--- 
+pt: 
+  users: 
+    edit: 
+      s1: "Acerca de mim"
+    rank: 
+      s1: Perfil
+      s2: Recomendações
+      s3: Competências
+      s4: Realizações
+      s5: "Gráficos de comparação"
+      s6: "Análise de empresas"
+      s7: "Análise e sugestões"
+    passwords:
+      edit:
+        s1: Mudar password
+        s2: Nova password
+        s3: Confirmar password
+        s4: Atualizar password
+      new:
+        s1: Esqueceu-se da sua password?
+        s2: Enviem-me link para fazer reset à minha password
+    registrations: 
+      new: 
+        s1: Registar
+        s2: Registar
+        s3: "Já tem uma conta?"
+        s4: "Entrar aqui"
+    sessions: 
+      new: 
+        s1: Entrar
+        s2: Entrar
+        s3: "Ainda não tem conta?"
+        s4: "Registe-se aqui"
+    settings: 
+      s1: "Definições de privacidade"
+      s10: "O seu e-mail nunca será partilhado."
+      s11: "Emails relacionados com o sorteio"
+      s12: "Com que frequência pretende receber mensagens relacionadas com o sorteio?"
+      s13: "Em cada novo evento"
+      s14: Mensalmente
+      s15: Nunca
+      s16: "Visível para os amigos"
+      s17: "Sim, quero o meu perfil com o meu nome e fotografia visível para os meus amigos e contatos. Eles poderão enviar-me recomendações e confirmar as minhas competências."
+      s18: "Os meus amigos podem ver o meu resultado"
+      s19: "Sim, os meus amigos e contatos podem visualizar as minhas realizações e o meu score social."
+      s2: "Convites para eventos, ofertas de emprego e estágios remunerados. theStudentRanking dá-lhe acesso a excelentes oportunidades."
+      s3: "Enviaremos e-mails com a atualização da sua posição no ranking, ofertas de emprego e convites para eventos relevantes."
+      s4: "Atualizar a posição no ranking"
+      s5: "Receber um e-mail de 3 em 3 meses, com indicação da sua nova classificação?"
+      s6: "Ofertas de emprego e convites"
+      s7: "Sim, quero receber ofertas de emprego e convites para eventos."
+      s8: "Visível para empresas e recrutadores?"
+      s8a: "Visível no ranking?"
+      s8b: "Sim, quero o meu perfil com o meu nome e imagem visíveis para o público no Student Ranking."
+      s9: "Sim, as empresas e recrutadores podem ver o meu perfil e enviar-me mensagens acerca de oportunidades profissionais ou eventos de interesse."
+    shared: 
+      links: 
+        s1: "Esqueceu a sua password?"
+        s2: "Não recebeu as instruções de confirmação?"
+        s3: "Não recebeu as instruções de desbloqueio?"
+        s4: "Entrar com"
+    show: 
+      s1: "Acerca de mim"

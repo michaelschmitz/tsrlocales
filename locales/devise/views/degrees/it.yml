@@ -1,0 +1,19 @@
+it:
+  degrees:
+    edit:
+      s1: Modifica titolo di studio
+    modal:
+     html:
+      s1: Titolo di studio
+    new:
+      s1: Nuovo titolo di studio
+    show:
+      s1: Titolo di studio
+    degree:
+      s1: Media dei voti
+      s2: Facoltà
+      s3: Major
+      s4: Minor
+    form:
+      s1: Aggiungi Università
+      s2: Aggiungi Università di scambio

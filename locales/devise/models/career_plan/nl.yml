@@ -1,0 +1,43 @@
+nl:
+  career_plan:
+    attributes: &ATTRIBUTES
+      contract: 'Fulltime functie'
+      internship: Stage
+      project: Project
+      promotion: Promotie
+      part_time: Parttime
+      full_time: Fulltime
+      trainee: Trainee
+      voluntary: Vrijwilliger
+      associate: Vennoot
+      limited: Beperkt
+      available: Beschikbaar
+      available_date: Beschikbaar vanaf
+      intern_start: Stage startdatum
+      intern_end: Stage einddatum
+      travel: Bereid om te reizen
+      move_city: Bent u bereid te verhuizen binnen uw land?
+      move_country: Bent u bereid in het buitenland te werken?
+      location: Locatie
+    available:
+      1: 'Per direct'
+      2: 'In minder dan 2 weken'
+      3: 'In minder dan 1 maand'
+      4: 'In 1 tot 3 maanden'
+      5: 'Meer dan 3 maanden'
+      6: 'In overleg'
+      7: 'Specifieke datum'
+    travel:
+      1: 'Maximaal 25%'
+      2: 'Maximaal 50%'
+      3: 'Maximaal 75%'
+      4: '100%'
+      5: 'Niet reizen'
+  activerecord:
+    attributes:
+      career_plan:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      career_plan:
+        <<: *ATTRIBUTES      

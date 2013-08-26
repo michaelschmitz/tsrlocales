@@ -1,0 +1,35 @@
+it:
+  service:
+    attributes: &ATTRIBUTES
+      hours: Ore settimanali (stimate)
+      role: Ruolo
+      description: Descrizione
+      area: Area
+      start_date: Data d'inizio
+      end_date: Data di fine
+      current: In corso
+      organization_name: Nome dell'organizzazione
+    area:
+      1: "Università/Scuola"
+      2: "Social"
+      3: "Club"
+      4: "Party"
+      5: "Cultura"
+      6: "Scienza"
+      7: "Altro"
+    role:
+      1: 'Membro attivo'
+      2: 'Membro passivo'
+      3: 'Ruolo Funzionale (es. Amministrazione)'
+      4: 'Local leadership role (es. Trainer)'
+      5: 'Strategic leadership role (es. Board member)'
+  activerecord:
+    models:
+      service: 'Volontariato'  
+    attributes:
+      service:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      service:
+        <<: *ATTRIBUTES   

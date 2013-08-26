@@ -1,0 +1,14 @@
+zht:
+  publications:
+    edit:
+      s1: 編輯著作
+    modal:
+      html:
+        s1: 著作
+    new:
+      s1: 新增著作
+    show:
+      s1: 著作
+    publication:
+      s1: 內容描述
+      s2: 連結

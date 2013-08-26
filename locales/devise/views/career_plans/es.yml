@@ -1,0 +1,31 @@
+es:
+  career_plans:
+    career_plan:
+      s1: Puesto de graduado
+      s2: Otros contratos
+      s3: Contrato por proyecto
+      s4: Puesto de doctorado
+      s5: Media jornada
+      s6: Jornada completa
+      s7: Aprendiz
+      s8: Trabajo voluntario
+      s9: Ofertas para asociarse
+      s10: Contrato temporal
+      s11: Puestos de graduado
+      s12: o de
+      s13: No ha indicado disponibilidad.
+      s14: Prácticas
+      s15: de
+      s16: No está interesado/a en prácticas.
+      s17: Disponibilidad para viajar
+      s18: No ha indicado disponibilidad para viajar.
+      s19: Mudarse de ciudad?
+      s20: Mudarse de país?
+      s21: Disponible para mudarse a
+      s22: Prácticas
+    form:
+      s1: "Interesesado en:"
+      s2: "Tus preferencias:"
+      s3: "En qué sitios te gustaría trabajar?"
+    edit:
+      s1: "Editar Plan de Carrera"

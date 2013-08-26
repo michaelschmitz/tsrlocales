@@ -1,0 +1,11 @@
+zht:
+  scholarships:
+    edit:
+      s1: 編輯獎學金
+    modal:
+      html:
+        s1: 獎學金
+    new:
+      s1: 新增獎學金
+    show:
+      s1: S獎學金

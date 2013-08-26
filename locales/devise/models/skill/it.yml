@@ -1,0 +1,23 @@
+it:
+  skill:
+    attributes: &ATTRIBUTES
+      name: Nome
+      level: Livello
+      hours_application: Ore di uso pratico
+      hours_training: Ore di formazione
+      explanation: Spiegazione
+      included: 'Ultimo utilizzo'
+    level:
+      1: 'Principiante'
+      2: 'Intermedio'
+      3: 'Avanzato'
+  activerecord:
+    models:
+      skill: 'Competenza'  
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skill:
+        <<: *ATTRIBUTES      

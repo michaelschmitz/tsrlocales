@@ -1,0 +1,49 @@
+pt:
+  curriculum_vitaes:
+    awards:
+      s1: Prémios
+      s2: Adicionar prémio
+    career_plan_info:
+      s1: Estudante
+    career_plans:
+      s1: Plano de Carreira
+      s2: Adicionar Plano de Carreira
+    degrees:
+      s1: Formação Superior
+      s2: Adicionar Formação
+    languages:
+      s1: Idiomas
+      s2: Adicionar idioma
+    preferred_employers:
+      s1: Empresas Favoritas
+      s2: Adicionar empresa
+    profile:
+      s1: Atual
+      s2: Anterior
+      s3: Formação
+      s4: Recomendações
+      s5: Competências confirmadas
+      s6: Conexões
+      s7: Convidar amigos
+      s8: Meu Ranking
+      s9: Definições de privacidade
+      s10: Atualizar amigos Facebook
+      s11: Mensagem
+    publications:
+      s1: Publicações
+      s2: Adicionar publicação
+    scholarships:
+      s1: Bolsas de estudo
+      s2: Adicionar Bolsa
+    schools:
+      s1: Secundário
+      s2: Adicionar formação Secundário 
+    services:
+      s1: Serviços
+      s2: Adicionar serviços
+    skills:
+      s1: Competências
+      s2: Adicionar competências
+    works:
+      s1: Experiência Profissional
+      s2: Adicionar experiência profissional

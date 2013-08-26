@@ -1,0 +1,42 @@
+pl:
+  layouts:
+    user_nav:
+      s1: Profil
+      s2: Mój Ranking
+      s3: Ranking studentów
+      s4: Oferty pracy
+      s5: Konto
+      s6: Edytuj
+      s7: Ustawienia
+      s8: Wyloguj się
+      s9: Go!
+      s10: Problemy?
+      s11: Rejestracja
+      s12: Rekrutuj z nami
+    recruiter_nav:
+      s1: Pulpit nawigacyjny
+      s2: Strona firmy
+      s3: Pokaż stronę
+      s4: Edytuj stronę
+      s5: Opis
+      s6: Dodaj ofertę pracy
+      s7: Wyszukiwarka CV
+      s8: Indeks
+      s9: Nowy
+      s10: Wyloguj się
+    bottomfooter:
+      s1: Start
+      s2: Wydarzenia
+      s3: Oferty pracy
+      s4: Ranking studentów
+      s5: Pytania i odpowiedzi
+      s6: Rekrutuj z nami
+      s7: Blog
+      s8: Kontakt
+      s9: Zespół
+      s10: Prasa
+      s11: Informacja 
+      s12: Prywatność
+      s13: Warunki korzystania z serwisu
+      s14: Cennik
+      s30: Linki

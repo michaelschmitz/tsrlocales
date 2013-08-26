@@ -1,0 +1,10 @@
+en:
+  friend_invitations:
+    modal:
+      html:
+        s1: Adicionar contatos
+    form:
+      s1: Desmarcar tudo
+      s2: Importar do Gmail
+      s3: Importar do Yahoo
+      s4: Importar do Hotmail

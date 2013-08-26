@@ -1,0 +1,33 @@
+es:
+  service:
+    attributes: &ATTRIBUTES
+      hours: Horas por semana
+      role: Rol
+      description: Descripción
+      area: Área
+      start_date: Fecha inicio
+      end_date: Feha fin
+      current: Actualmente
+      organization_name: Nombre de la organización
+    area:
+      1: "Universidad/Escuela"
+      2: "Social"
+      3: "Club"
+      4: "Fiesta"
+      5: "Cultura"
+      6: "Ciencia"
+      7: "Otros"
+    role:
+      1: 'Miembro activo'
+      2: 'Miembro pasivo'
+      3: 'Funciones administrativas (p.e. Administración)'
+      4: 'Funciones de liderazgo local (p.e. Formador)'
+      5: 'Funciones directivas (p.e. Miembro de Junta Directiva)'
+  activerecord:
+    attributes:
+      service:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      service:
+        <<: *ATTRIBUTES   

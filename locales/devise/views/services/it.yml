@@ -1,0 +1,15 @@
+it:
+  services:
+    edit:
+      s1: Modifica servizio
+    modal:
+     html:
+      s1: Servizio
+    new:
+      s1: Nuovo servizio
+    show:
+      s1: Servizio
+    service:
+      s1: Descrizione
+      s2: Ore
+      s3: alla settimana

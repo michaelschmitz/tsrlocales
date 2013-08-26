@@ -1,0 +1,14 @@
+pl:
+  skills:
+    edit:
+      s1: Edytuj umiejętność
+    modal:
+      html:
+        s1: Umiejętności
+    new:
+      s1: Dodaj umiejętność
+    show:
+      s1: Umiejętności
+    skill:
+      s1: Zastosowanie
+      s2: Kształcenie

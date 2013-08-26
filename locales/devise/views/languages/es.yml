@@ -1,0 +1,14 @@
+es:
+  languages:
+    edit:
+      s1: Editar idioma
+    modal:
+     html:
+      s1: Idioma
+    new:
+      s1: Nuevo idioma
+    show:
+      s1: Idioma
+    language:
+      s1: Certificado
+      s2: Nota

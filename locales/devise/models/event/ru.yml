@@ -1,0 +1,20 @@
+ru:
+  event:
+    attributes: &ATTRIBUTES
+      title: Название
+      intro: Введение
+      description: Описание события
+      sponsor: Другие спонсоры
+      date: Дата
+      location: Место
+      deadline: Истечение срока подачи заявки
+      link: Ссылка на подачу заявки
+      comment_on_location: Прокомментировать расположение
+  activerecord:
+    attributes:
+      event:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      event:
+        <<: *ATTRIBUTES   

@@ -1,0 +1,18 @@
+nl:
+  recruiter:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Wachtwoord
+      password_confirmation: Wachtwoord bevestigen
+      phone: Telefoon
+      first_name: Naam
+      last_name: familienaam
+      title: Titel
+  activerecord:
+    attributes:
+      recruiter:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      recruiter:
+        <<: *ATTRIBUTES   

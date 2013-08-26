@@ -1,0 +1,2548 @@
+--- 
+es: 
+  activerecord: 
+    attributes: 
+      degree: 
+        average: Media
+        document: Certificado
+        ects: "ECTS obtenidos (?)"
+        enddate: "(Supuesta) fecha de graduación"
+        grade_final_work: "Nota en la tésis final"
+        grade_scale: "Sistema de notas"
+        major: Carrera
+        name: Universidad
+        no_exchange: "No intercambio"
+        semester: "Semestre actual"
+        startdate: "Fecha inicio"
+        studyarea: "Grupo comparativo (?)"
+        titel: "Título académico"
+        title: Estudios
+      employer: 
+        accepted_tos: "Condiciones de Uso y Privacidad de Datos"
+        company_name: Empresa
+        contact_name: "Su nombre"
+        password: Contraseña
+        rebatecode: "Cupón descuento"
+      event: 
+        date: Fecha
+        deadline: "Fecha límite inscripción"
+        description: "Descripción evento"
+        intro: Introducción
+        link: "Enlace a inscripción"
+        location: Localización
+        sponsor: "Otros sponsors"
+        titel: Título
+      job: 
+        average_hours: "Horas por semana (aproximadamente)"
+        company: "Nombre de la empresa u organización"
+        document: Certificado
+        enddate: "Fecha final"
+        role: "Descripción del puesto de trabajo"
+        startdate: "Fecha inicio"
+      joboffer: 
+        description: Descripción
+        locations: Localización
+        run_until: "Visible hasta"
+        title: "Puesto de trabajo"
+      language: 
+        document: Certificado
+        level: Nivel
+        name: Nombre
+      message: 
+        body: Mensaje
+        subject: Asunto
+      messageag: 
+        company: Empresa
+        email: Email
+        phone: Teléfono
+      participant: 
+        about: "Qué tipo de oportunidades está buscando? (máximo 240 caracteres)"
+        dob: "Fecha de nacimiento"
+        firstname: Nombre
+        job_confirmation: "Ofertas de trabajo"
+        lastname: Apellido
+        locations: "Actualmente vivo en"
+        max_salary: Máximo
+        min_salary: "xxx: Mínimo "
+        recruit_me: "Empresas preferidas"
+        remind_me: "Actualizar en nueva posición en el ránking"
+        work_in_germany: "Permiso para trabajar en"
+      publication: 
+        description: Nombre
+        document: Certificado
+        link: Enlace
+      school: 
+        document: Certificado
+        enddate: "Fecha fin"
+        name: "Nombre de la Escuela"
+        school_average: Media
+        startdate: "Fecha inicio"
+      service: 
+        company: "Nombre de la empresa u organización"
+        document: Certificado
+        enddate: "Fecha fin"
+        organization: "Nombre de la organización"
+        role: Descripción
+        startdate: "Fecha inicio"
+      skill: 
+        document: Certificado
+        level: Nivel
+        months: Meses
+        name: "Nombre de la habilidad"
+        years: Años
+      stipend: 
+        document: Certificado
+        enddate: "Fecha fin"
+        name: Nombre
+        startdate: "Fecha inicio"
+      user: 
+        accepted_tos: "Condiciones de Uso y Privacidad de Datos"
+    errors: 
+      messages: 
+        accepted: "debe ser aceptado"
+        blank: "se debe rellenar"
+        confirmation: "no coincide con la información"
+        empty: "se deb rellenar"
+        equal_to: "debe ser igual a %{count}"
+        even: "debe ser par"
+        exclusion: "no disponible"
+        format: "%{attribute} %{message}"
+        greater_than: "tiene que ser mayor que %{count}"
+        greater_than_or_equal_to: "tiene que ser mayor o igual a %{count}"
+        inclusion: "no es un número válido"
+        invalid: "no es válido"
+        less_than: "tiene que ser menor que %{count}"
+        less_than_or_equal_to: "tiene que ser menor o igual a %{count}"
+        not_a_number: "no es un número válido"
+        not_an_integer: "debe ser un número entero"
+        numericality: "no es un número."
+        odd: "debe ser impar"
+        record_invalid: "Fallo en test de validación: %{errors}"
+        taken: "ya está siendo usado."
+        too_long: "demasiado largo (no más de %{count} carácteres)"
+        too_short: "demasiado corto (no menos de %{count} carácteres)"
+        wrong_length: "longitud errada (must be exactly %{count} carácteres)"
+      template: 
+        body: "Por favor compruebe los siguientes campos"
+        header: 
+          one: "No se pudo guardar %{model}: Un error."
+          other: "No se pudo guardar %{model}: %{count} errores."
+  controllers: 
+    cvsearches: 
+      s1: "Acceso a la base de datos hasta "
+      s2: "A partir de ahora tiene acceso a la base de datos. Haga una búsqueda para encontrar candidatos."
+    joboffers: 
+      s1: "Oferta de trabajo creada con éxtito."
+    participants: 
+      s1: Usted
+      s2: "Otros participantes"
+      s3: Grupo
+      s4: Puntos
+  date: 
+    abbr_day_names: 
+      - Dom
+      - Lun
+      - Mar
+      - Mié
+      - Jue
+      - Vie
+      - Sáb
+    abbr_month_names: 
+      - ~
+      - Ene
+      - Feb
+      - Mar
+      - Abr
+      - May
+      - Jun
+      - Jul
+      - Ago
+      - Sep
+      - Oct
+      - Nov
+      - Dic
+    day_names: 
+      - Domingo
+      - Lunes
+      - Martes
+      - Miércoles
+      - Jueves
+      - Viernes
+      - Sábado
+    formats: 
+      default: "%Y-%m-%d"
+      long: "%B %d, %Y"
+      short: "%b %d"
+      short2: "%b %Y"
+    month_names: 
+      - ~
+      - Enero
+      - Febrero
+      - Marzo
+      - Abril
+      - Mayo
+      - Junio
+      - Julio
+      - Agosto
+      - Septiembre
+      - Octubre
+      - Noviembre
+      - Diciembre
+    order: 
+      - !ruby/symbol year
+      - !ruby/symbol month
+      - !ruby/symbol day
+  datetime: 
+    distance_in_words: 
+      about_x_hours: 
+        one: "cerca de 1 hora"
+        other: "cerca de %{count} horas"
+      about_x_months: 
+        one: "cerca de 1 mes"
+        other: "cerca de %{count} meses"
+      about_x_years: 
+        one: "cerca de 1 año"
+        other: "cerca de %{count} años"
+      almost_x_years: 
+        one: "casi 1 año"
+        other: "casi %{count} años"
+      half_a_minute: "medio minuto"
+      less_than_x_minutes: 
+        one: "menos de 1 minuto"
+        other: "menos de %{count} minutos"
+      less_than_x_seconds: 
+        one: "menos de 1 segundo"
+        other: "menos de %{count} segundos"
+      over_x_years: 
+        one: "más de 1 año"
+        other: "más de %{count} años"
+      x_days: 
+        one: "1 día"
+        other: "%{count} días"
+      x_minutes: 
+        one: "1 minuto"
+        other: "%{count} minutos"
+      x_months: 
+        one: "1 mes"
+        other: "%{count} meses"
+      x_seconds: 
+        one: "1 segundo"
+        other: "%{count} segundos"
+    prompts: 
+      day: Día
+      hour: Hora
+      minute: Minuto
+      month: Mes
+      second: Segundo
+      year: Año
+  hello: "Hola Bienvenido"
+  helpers: 
+    label: 
+      companies: 
+        name: Nombre
+      cvsearch: 
+        age_group: "Año de nacimiento"
+        average: "Media académica"
+        exchange: "Nombre de la universidad de intercambio"
+        festanstellung_available: Disponibilidad
+        festanstellung_date: "Fecha establecida"
+        grade_scale: "Sistema de notas"
+        graduation_year: "Año de graduación"
+        internship_experience: "Prácticas en meses"
+        language: Idiomas
+        locations: "Ubicación actual"
+        nationality: Nacionalidad
+        only_friends: "Mis amigos"
+        order: "Ordenar por"
+        praktikum_end: "Disponible hasta"
+        praktikum_start: "Disponible a partir de"
+        skills: Habilidadeses
+        studyarea: "Área of estudios"
+        titel: "Título académico"
+        title: Estudios
+        travel: "Disponibilidad para trabajar"
+        university: Universidad
+        work_experience: "Experiencia laboral en meses"
+      degree: 
+        average: Media
+        document: Certificado
+        ects: "ECTS obtenidos (?)"
+        enddate: "(Supuesta) Fecha final"
+        featured: "Quiere que su universdad le presente como un fantástico estudiante? Esto le ayudará a que la información que aparece en su perfil sea pública."
+        grade_final_work: "Nota final en la tésis"
+        major: Especialización
+        name: Universidad
+        no_exchange: "No intercambio"
+        semester: "Semestre actual"
+        startdate: "Fecha de inicio"
+        titel: "Título académico (?)"
+        title: Carrera
+      employer: 
+        city: Ciudad
+        code: "Código postal"
+        company_name: Empresa
+        contact_name: "Su nombre"
+        contact_phone: "Su número de teléfono"
+        country: País
+        currency: "Moneda de preferencia"
+        fbpage: "Enlace a la página de Facebook"
+        logo: "Logo empresa"
+        password: Contraseña
+        payment_preference: "Método de pago preferido"
+        rebatecode: "Cupón de descuento"
+        street: Dirección
+        url: "Enlace a la página de inscripción"
+        vat_number: "Número Fiscal"
+      event: 
+        anmerkung: "Detalles fecha"
+        date: "Fecha de inicio"
+        deadline: "Fecha límite inscripción"
+        description: "Descripción del evento"
+        intro: "Introducción (320 Carácteres máx.)"
+        link: "Enlace a la página del evento"
+        location: Localización
+        sponsor: "Sponsors adicionales de este evento"
+      exchangeuni: 
+        enddate: Fin
+        name: Universidad
+        startdate: Inicio
+      futurejob: 
+        available: Disponibilidad
+        available_date: Fecha
+        city1: Ciudad
+        city2: Ciudad
+        city3: Ciudad
+        industry: Sector
+        intern_end: "Fecha más tardía de incorporación"
+        intern_start: "Fecha más temprana de incorporación"
+        location: "Dónde te gustaría trabajar? Añade ciudades, estados y países"
+        move_city: "Estarías dispuesto a mudarte dentro del país?"
+        move_country: "Estarías dispuesto a trasladarte al extranjero?"
+        teilzeit: "Qué tipos de ofertas son interesantes para ti?"
+        travel: "Qué disponibilidad tienes para viajar?"
+      job: 
+        average_hours: "Horas por semana (aproximadamente)"
+        company: "Nombre de la empresa u organización"
+        contract: Contrato
+        current: "Puesto actual"
+        description: "Descripción (?) (opcional)"
+        document: Certificado
+        enddate: "Fecha fin"
+        industry: Sector
+        role: Función
+        startdate: "Fecha inicio"
+        summary: "Resumen (opcional)"
+      joboffer: 
+        ausbildung: Educación
+        bau: "Construcción y Paisajismo"
+        bereiche: Área
+        consulting: Consultoría
+        contract_type: "Tipo de contrato"
+        description: Descripción
+        finanzen: Finanzas
+        forschung: Investigación
+        gf: "Capital privado y Capital de riesgo"
+        ing: "Ingeniería e Investigación"
+        it: "Tecnologías de la Información"
+        link: "Enlace a la página de inscripción"
+        locations: Localización
+        logistik: "Logística, Transportes, Aprovisionamiento"
+        marketing: "Marketing, Diseño, Publicidad, Relaciones Públicas, Editorial"
+        medizin: "Medicina y Salud"
+        organisation: "Organización, Administración, Derecho"
+        personalwesen: "Recursos Humanos"
+        praktikum: Prácticas
+        produktion: "Operadores técnicos, Producción"
+        run_until: "Abierto hasta (?)"
+        teilzeit: "Puesto de media jornada"
+        title: Título
+        vertrieb: Ventas
+        vollzeit: "Puesto de jornada completa"
+        werbebudget: "Presupuesto adicional (?)"
+      language: 
+        certificate: Certificado
+        certificate_grade: Grado
+        document: Certificado
+        level: Nivel
+      message: 
+        body: Mensaje
+        copy: "Recibir una copia de este mensaje por email?"
+        subject: Asunto
+      messageag: 
+        phone: Teléfono
+      participant: 
+        about: "Qué tipo de oportunidades está buscando? (máximo 240 caracteres)"
+        avatar: "Foto de perfil"
+        cv: "Su CV (?)"
+        dob: "Fecha de nacimiento"
+        endview: "Tras finalizar: Cuál considera que sería su clasificación en comparación con otros en su universidad?"
+        firstname: Nombre
+        gender: Género
+        job_confirmation: "Ofertas de trabajo"
+        language: "Idioma de preferencia"
+        lastname: Apellido
+        max_salary: "Salario: Máximo"
+        min_salary: "Salario: Mínimo"
+        nationality: Nacionalidad
+        nowview: "En este momento: Cuál considera que sería su clasificación en comparación con otros en su universidad?"
+        recruit_me: "Empresas preferidas"
+        score_email: "Actualizar con nueva posición"
+        work_in_germany: "Permiso de trabajo"
+      prize: 
+        area: "Premios y reconocimientos"
+        document: Certificado
+        level: Nivel
+        name: Descripción
+      publication: 
+        area: Tipo
+        description: Título
+        document: Certificado
+        link: Enlace
+      school: 
+        abschluss: Título
+        document: Certificado
+        enddate: "Fecha fin"
+        grade_scale: "Sistema de notas"
+        name: "Nombre de la Escuela"
+        school_average: Media
+        schultyp: "Tipo de escuela"
+        startdate: "Fecha inicio"
+      service: 
+        area: "Tipo de Organización"
+        current: Actual?
+        description: "Función (?)"
+        document: Certificado
+        organization: "Nombre de la Organización"
+      skill: 
+        document: Certificado
+        hours_application: "Horas de utilizcación práctica"
+        hours_training: "Horas de formación"
+        included: "Última vez usada en"
+        level: Nivel
+        months: "Meses de experiencia"
+        years: "Años de experiencia"
+      stipend: 
+        document: Certificado
+        enddate: "Fecha fin"
+        name: Nombre
+        startdate: "Fecha inicio"
+      user: 
+        email: Email
+        password: Contraseña
+        password_confirmation: "Confirmar contraseña"
+        remember_me: "Mantenerse conectado"
+    select: 
+      prompt: "Por favor seleccione"
+    submit: 
+      create: "%{model} crear"
+      submit: "%{model} guardar"
+      update: "%{model} actualizar"
+  number: 
+    currency: 
+      format: 
+        delimiter: ","
+        format: "%u%n"
+        precision: 2
+        separator: "."
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format: 
+      delimiter: ","
+      precision: 3
+      separator: "."
+      significant: false
+      strip_insignificant_zeros: false
+    human: 
+      decimal_units: 
+        format: "%n %u"
+        units: 
+          billion: Billón
+          million: Millión
+          quadrillion: Cuatrillón
+          thousand: Mil
+          trillion: Trillón
+          unit: ""
+      format: 
+        delimiter: ""
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units: 
+        format: "%n %u"
+        units: 
+          byte: 
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage: 
+      format: 
+        delimiter: ""
+    precision: 
+      format: 
+        delimiter: ""
+  support: 
+    array: 
+      last_word_connector: ", and "
+      two_words_connector: " and "
+      words_connector: ", "
+  time: 
+    am: am
+    formats: 
+      default: "%A, %d. %B %Y, %H:%M Uhr"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      no_day: "%d. %B %Y, %H:%M Uhr"
+      no_time: "%e. %B %Y"
+      short: "%d. %B, %H:%M Uhr"
+      sshort: "%d. %B %Y"
+    pm: pm
+  views: 
+    anschreiben_mailer: 
+      s1: "le ha enviado un mensaje"
+      s2: "Su dirección de email está a salvo y no ha sido compartida. La empresa ha usado un formulario de nuestra web para ponerse en contacto con usted. Puede alterar sus datos de contacto en \"Mi cuenta\" una vez haya iniciado sesión."
+    candidates: 
+      index: 
+        s1: Candidatos
+        s10: Prácticas
+        s11: entre
+        s12: "y"
+        s13: "Jornada completa"
+        s14: Empezando
+        s15: disponible
+        s16: "Enviar mensaje"
+        s17: "Actividad:"
+        s18: "No hay candidatos en la lista"
+        s19: "Eliminar de la lista"
+        s2: "Lista de candidatos"
+        s3: "Eliminar lista"
+        s4: Puntos
+        s5: "Comparación basada en Universidad, Estudios"
+        s6: Carrera
+        s7: "y fecha de nacimiento"
+        s8: "Otro título"
+        s9: "Localizado:"
+    companies: 
+      editnew: 
+        s1: "Empresa preferida"
+        s2: "Puede compararse con otros potenciales candidatos seleccionando hasta diez empresas aquí. Las empresas no pueden ver su selección."
+      form: 
+        s1: "Añadir empresa"
+    countries: 
+      s1: xxx
+    cvsearches: 
+      fullview: 
+        s1: Candidato
+        s14: Sí
+        s15: "No"
+        s16: entre
+        s17: "y"
+        s18: empezando
+        s19: disponible
+        s2: "Perfil modelo"
+        s20: Puntos
+        s21: Educación
+        s22: Grado
+        s23: Carrera
+        s24: Intercambio
+        s25: hasta
+        s26: "Último título universitario, Grado"
+        s27: "Experiencia laboral"
+        s28: Idiomas
+        s28a: Habilidades
+        s3: Localización
+        s34: Intereses
+        s4: "Disponible para viajar"
+        s47: Experiencia
+        s48: "Horas de utilización"
+        s49: "Horas de formación"
+        s5: Trasladarse
+        s50: Actualmente
+        s51: en
+        s52: antes
+        s53: "Aprendido en privado"
+        s54: Publicaciones
+        s55: "Premios y reconocimientos"
+        s56: Salario
+        s57: "Interesado en"
+        s6: Mudarse
+        s7: Prácticas
+        s8: "Jornada completa"
+      index: 
+        s1: "Buscar en Base de Datos"
+        s10: "No hay listas de candidatos"
+        s11: "Continuar búsqueda"
+        s12: Candidatos
+        s13: "Eliminar lista"
+        s2: "Las listas de candidatos le pueden ayudar a asignar un candidato a un determinado empleo."
+        s3: "Crear nueva lista de candidatos para empezar la búsqueda."
+        s4: "Crear lista de candidatos"
+        s5: Crear
+        s6: "Mis listas de candidatos"
+        s7: "Nombre de la lista"
+        s8: "Continuar búsqueda"
+        s9: "Número de candidatos"
+      show: 
+        s1: "Puntos mínimos"
+        s10: Buscar
+        s11: Resultados
+        s12: Volver
+        s13: "No se han producido resultados de su búsqueda."
+        s14: Puntos
+        s15: "Comparación basada en Universidad, Estudio"
+        s16: "y fecha de nacimiento"
+        s17: Primeros
+        s18: "Estudios adicionales"
+        s19: Localización
+        s2: Localización
+        s20: Prácticas
+        s21: entre
+        s22: "y"
+        s23: "Jornada completa"
+        s24: empezando
+        s25: disponible
+        s26: "Enviar mensaje"
+        s27: Actividad
+        s28: "Añadir a "
+        s29: "lista de candidatos"
+        s3: "Interesado en"
+        s30: Guardado
+        s4: Estudios
+        s5: Universidad
+        s6: "Títulos y Grados"
+        s7: "Experiencia laboral"
+        s8: Otros
+        s9: Buscar
+      zugriff: 
+        s1: "Base de Datos de CV"
+        s2: "Use la Base de Datos de CV para previsualizar y seleccionar candidatos, luego envíeles un mensaje e invíteles a entra en contacto con usted. Los costes de acceso anual y de mensajería están detallados en nuestra "
+        s3: "página de tarifas"
+        s4: "Pinche aquí para usar la Base de Datos y tener acceso a todos los perfiles."
+        s5: "Adquirir acceso"
+    degrees: 
+      exchangeunifields: 
+        s1: "Nombre de la universidad de intercambio"
+        s2: Eliminar
+      form: 
+        s0: "ECTS son los créditos según el sistema European Credit Transfer System. Cada año académico completado equivale a 60 ECTS. Por favor, indique únicamente los ECTS obtenidos. Ejemplos: Diplomas antiguos (300 ECTS), Oficios (180 ECTS), Licenciatura (180 ECTS) y Máster (90-120 ECTS)."
+        s0a: "Aparecerán sugerencias a medida que escribe."
+        s0b: "Por favor, seleccione su carrera. En caso de no encontrar su carrera exacta, seleccione simplemente un graduado en ciencias o un máster en ciencias para cada campo correspondiente."
+        s1: "Australia (50-100%)"
+        s10: "Hong-Kong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Irlanda (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italia (18-30)"
+        s15: "Japón (60-100%)"
+        s16: "Canadá (50-100)"
+        s17: "Holanda (5.5-10)"
+        s18: "Noruega (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Bélgica (60-100%)"
+        s20: "Polonia (3.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Suecia (E, D, C, B, A)"
+        s23: "Suiza (4.0-6.0)"
+        s24: "Singapur (D, D+, C, C+, B, B+, A, AD)"
+        s25: "España (5.5-10)"
+        s26: "República Checa (50-100%)"
+        s27: "Estados Unidos (1.0-4.0)"
+        s27a: "Rusia (1-5)"
+        s27b: "Taiwan (1.0 - 4.0)"
+        s27c: "Mexico (60-100)"
+        s28: "El sistema requiere la selección de un grupo comparativo para calcular su posición correctamente."
+        s28a: Intercambio
+        s29: "Añadir universidad de intercambio"
+        s3: "Brasil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Perú (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "República Dominicana (0-100%)"
+        s39: "Haití (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad y Tobago (0-100%)"
+        s5: "Dinamarca (2-12)"
+        s6: "Alemania (4,0-1,0)"
+        s7: "Finlandia (1-5)"
+        s8: "Francia (10-20)"
+        s9: "Reino Unido (Pass, 3rd, 2:2, 2:1, 1st)"
+      newedit: 
+        s1: Estudios
+        s2: "En caso de que todavía no haya terminado sus estudios, por favor, introduzca únicamente la cantidad de ECTS obtenidos hasta el momento."
+        s3: "Si está estudiando para una doble titulación, por favor proporciónenos primero información sobre la primera universidad de estudio y el número de ECTS obtenidos. Las universidades adicionales pueden ser añadidas más abajo."
+        s4: "Añadir universidad"
+    devise: 
+      shared: 
+        s1: "Iniciar sesión"
+        s2: Registrarse
+        s3: "Olvidó su contraseña?"
+        s4: "No recibió la confirmación por email?"
+        s5: "No recibió el email de desbloqueo?"
+        s6: "Iniciar sesión con"
+    dry: 
+      area: 
+        s1: Universidad/Escuela
+        s2: Social
+        s3: Club
+        s4: Fiestas
+        s5: Cultura
+        s6: Científica
+        s7: Otra
+      available: 
+        s1: "Todas las opciones"
+        s2: Inmediatamente
+        s3: "En 2 semanas"
+        s4: "En menos de un mes"
+        s5: "En 1 a 3 meses"
+        s6: "En más de 3 meses"
+        s7: Negociable
+        s8: "Fecha específica"
+      bereiche: 
+        s1: Educación
+        s10: "Marketing, Diseño, Publicidad, Relaciones Públicas, Editorial"
+        s11: "Medicina y Salud"
+        s12: "Organización, Administración, Derecho"
+        s13: "Recursos Humanos"
+        s14: "Operadores técnicos, Producción"
+        s15: Ventas
+        s2: "Construcción y Paisajismo"
+        s3: Consultoría
+        s4: Finanzas
+        s5: Investigación
+        s6: "Capital privado y Capital de riesgo"
+        s7: "Tecnologías de la Información"
+        s8: "Ingeniería e Investigación"
+        s9: "Logística, Transportes, Aprovisionamiento"
+      contract: 
+        s1: Aprendiz
+        s2: Prácticas
+        s3: "Jornada completa"
+        s4: "Media jornada"
+        s5: Contratista
+        s6: Autónomo
+      countries: 
+        s1: Egipto
+        s10: "Guinea Ecuatorial"
+        s100: Colombia
+        s101: Comoras
+        s102: "República del Congo"
+        s103: "República Democrática del Congo"
+        s104: "Corea del Sur"
+        s105: Croacia
+        s106: Kuwait
+        s107: Laos
+        s108: Lesoto
+        s109: Letonia
+        s11: Armenia
+        s110: Líbano
+        s111: Liberia
+        s112: Libia
+        s113: Liechtenstein
+        s114: Lituania
+        s115: Luxemburgo
+        s116: Macao
+        s117: Madagascar
+        s118: Malaui
+        s119: Malasia
+        s12: Aruba
+        s120: Maldivas
+        s121: Mali
+        s122: Malta
+        s123: Marruecos
+        s124: "Islands Marshall"
+        s125: Martinica
+        s126: Mauritania
+        s127: Mauricio
+        s128: Mayotte
+        s129: Macedonia
+        s13: Azerbaiyán
+        s130: Mexico
+        s131: Micronesia
+        s132: Moldavia
+        s133: Mónaco
+        s134: Mongolia
+        s135: Montenegro
+        s136: Montserrat
+        s137: Mozambique
+        s138: Birmania
+        s139: Namibia
+        s14: Etipoía
+        s140: Nauru
+        s141: Nepal
+        s142: "Nueva Caledonia"
+        s143: "Nueva Zelanda"
+        s144: Nicaragua
+        s145: Holanda
+        s146: "Antillas Holandesas"
+        s147: Níger
+        s148: Nigeria
+        s149: Niue
+        s15: Australia
+        s150: "Islas Marianas del Norte"
+        s151: "Isla Norfolk"
+        s152: Noruega
+        s153: Omán
+        s154: Austria
+        s155: "Timor Oriental"
+        s156: Pakistán
+        s157: Palaos
+        s158: Panamá
+        s159: "Papúa Nueva Guinea"
+        s16: Bahamas
+        s160: Paraguay
+        s161: Perú
+        s162: Filipinas
+        s163: "Islas Pitcairn"
+        s164: Polonia
+        s165: Portugal
+        s166: "Puerto Rico"
+        s167: Catar
+        s168: Reunión
+        s169: Ruanda
+        s17: Bahrein
+        s170: Rumanía
+        s171: Rusia
+        s172: "San Cristóbal y Nieves"
+        s173: "Saint Lucía"
+        s174: "San Vicente y las Granadinas"
+        s175: Zambia
+        s176: Samoa
+        s177: "San Marino"
+        s178: "Santo Tomé y Príncipe"
+        s179: "Arabia Saudita"
+        s18: Bangladesh
+        s180: Suecia
+        s181: Suiza
+        s182: Senegal
+        s183: Serbia
+        s184: Seychelles
+        s185: "Sierra Leona"
+        s186: Zimbabue
+        s187: Singapur
+        s188: "Sint Maarten"
+        s189: Eslovaquia
+        s19: Barbados
+        s190: Eslovenia
+        s191: "Islas Salomón"
+        s192: Somalia
+        s193: España
+        s194: "Sri Lanka"
+        s195: "Isla Santa Elena"
+        s196: Sudáfrica
+        s197: "Islas Georgias y Sandwich del Sur"
+        s198: Surinam
+        s199: "Svalbard y Jan Mayen"
+        s2: Albania
+        s20: Belice
+        s200: Suazilandia
+        s201: Tayikistán
+        s202: "Isla de Taiwán"
+        s203: Tanzania
+        s204: Tailandia
+        s205: Togo
+        s206: Tokelau
+        s207: Tonga
+        s208: "Trinidad y Tobago"
+        s209: Chad
+        s21: Bélgica
+        s210: "República Checa"
+        s211: Túnez
+        s212: Turquía
+        s213: Turkmenistán
+        s214: "Islas Turcas y Caicos"
+        s215: Tuvalu
+        s216: Uganda
+        s217: Ucrania
+        s218: Hungría
+        s219: Uruguay
+        s22: Benín
+        s220: Uzbekistán
+        s221: Vanuatu
+        s222: "Ciudad del Vaticano"
+        s223: Venezuela
+        s224: "Estados Unidos"
+        s225: "Reino Unido"
+        s226: "Emiratos Árabes Unidos"
+        s227: Vietnam
+        s228: "Wallis y Futuna"
+        s229: "Isla de Navidad"
+        s23: Bermudas
+        s230: Bielorrusia
+        s231: "Sahara Occidental"
+        s232: "República Centroafricana"
+        s233: Chipre
+        s234: Argentina
+        s24: Bután
+        s25: Bolivia
+        s26: "Bonaire, S. Eustaquio Eustatius y Saba"
+        s27: Bosnia-Herzegovina
+        s28: Botsuana
+        s29: "Isla de Bouvet"
+        s3: Algeria
+        s30: Brasil
+        s31: "Territorio Británico del Océano Índico"
+        s32: Brunéi
+        s33: Bulgaria
+        s34: "Burkina Faso"
+        s35: Burundi
+        s36: Chile
+        s37: China
+        s38: "Islas Cook"
+        s39: "Costa Rica"
+        s4: "Samoa Americana"
+        s40: Curazao
+        s41: Dinamarca
+        s42: Alemania
+        s43: Dominica
+        s44: "República Dominicana"
+        s45: Yibuti
+        s46: Ecuador
+        s47: "El Salvador"
+        s48: "Costa de Marfil"
+        s49: Eritrea
+        s5: Andorra
+        s50: Estonia
+        s51: "Islas Malvinas"
+        s52: "Islas Feroe"
+        s53: Fiyi
+        s54: Finlandia
+        s55: Francia
+        s56: "Guayana Francesa"
+        s57: "Polinesia Francesa"
+        s58: "Tierras Australes y Antárticas Francesas"
+        s59: Gabon
+        s6: Angola
+        s60: Gambia
+        s61: Georgia
+        s62: Ghana
+        s63: Gibraltar
+        s64: Granada
+        s65: Grecia
+        s66: Groenlandia
+        s67: Guadalupe
+        s68: Guam
+        s69: Guatemala
+        s7: Anguila
+        s70: Guinea
+        s71: "Guinea Bisáu"
+        s72: Guyana
+        s73: Haiti
+        s74: "Islas Heard y McDonald"
+        s75: Honduras
+        s76: Hong-Kong
+        s77: India
+        s78: Indonesia
+        s79: Irlanda
+        s8: Antártica
+        s80: Islandia
+        s81: Israel
+        s82: Italia
+        s83: Jamaica
+        s84: Japón
+        s85: Yemen
+        s86: Jordania
+        s87: "Islas Vírgenes Británicas"
+        s88: "Islas Vírgenes de Estados Unidos"
+        s89: "Islas Caimán"
+        s9: "Antigua y Barbuda"
+        s90: Camboya
+        s91: Camerún
+        s92: Canadá
+        s93: "Cabo Verde"
+        s94: Kazajistán
+        s95: Kenia
+        s96: Kirguistán
+        s97: Kiribati
+        s98: "Islas ultramarinas de Estados Unidos"
+        s99: "Islas Cocos"
+      facebook: 
+        s1: "Sus datos serán usados para rellenar los campos de su perfil de estudiante de modo que resulte más fácil empezar"
+        s2: "Use el ránking mundial para contactar con las mejores empresas del mundo. Compruebe su puntuación y sepa cómo mejorar sus habilidades para aumentar su valor en el mercado rápidamente. Compárese con sus compañeros de estudio y amigos en todo el mundo, en su país y en su universidad."
+        s3: "Use el ránking mundial para contactar con las mejores empresas del mundo."
+        s4: "Global ranking. Global jobs."
+      global_links: 
+        s1: "Ver todos los empleos"
+        s2: "Ver todos los eventos"
+        s3: "Ver todas las actividades"
+        s4: "Ver todos los estudiantes"
+        s5: "Ver todas las preguntas"
+        s6: "Ver todas las universidades"
+        s7: "Ver todos los amigos"
+        s8: "Ver todas las empresas"
+      languages: 
+        s0: "No seleccionar"
+        s1: "Otro idioma"
+        s10: Alemán
+        s11: Inglés
+        s12: Finlandés
+        s13: Francés
+        s14: Griego
+        s142: "Lenguaje de signos"
+        s15: Hebreo
+        s16: Hindi
+        s17: Islandés
+        s18: Italiano
+        s19: Japanonés
+        s2: "Griego clásico"
+        s20: Serbo-Croata
+        s21: Coreano
+        s22: Latín
+        s23: Holandés
+        s24: Noruego
+        s25: Polaco
+        s26: Portugués
+        s27: Punjabi
+        s28: Ruso
+        s29: Sueco
+        s3: Árabe
+        s30: Español
+        s31: Checo
+        s32: Turco
+        s33: Húngaro
+        s34: Básico
+        s35: Bueno
+        s36: Avanzado
+        s37: Fluido
+        s37a: Nativo
+        s4: Bengalí
+        s5: "Chino (Mandarín)"
+        s6: "Chino (Wu)"
+        s7: "Chino (Cantonés)"
+        s8: "Chino (Otro)"
+        s9: Danés
+      level: 
+        s1: Principante
+        s2: "Con experiencia"
+        s3: Experto
+      prize: 
+        s1: Premio
+        s2: "Troféo (Deporte)"
+        s3: Local
+        s4: Regional
+        s5: Nacional
+        s6: Internacional
+      publications: 
+        s1: "Otras publicaciones"
+        s2: "Artículo periódico"
+        s3: "Ensayo científico"
+        s4: Ensayo
+        s5: Libro
+      role: 
+        s1: "Miembro activo"
+        s2: "Miembro pasivo"
+        s3: "Funciones administrativas (e.g. Asistente)"
+        s4: "Funciones de liderazgo local (e.g. Formador)"
+        s5: "Funciones directivas(e.g. Miembro de Junta Directiva)"
+      sort: 
+        s1: "Puntuación Personal"
+        s2: "Puntuación Social"
+      studyarea: 
+        s0: Todas
+        s1: Agricultura
+        s10: "Ciencias Sociales y Políticas"
+        s11: "Lengua y Literatura"
+        s12: "Administración y Dirección de Empresas"
+        s13: Otras
+        s14: "Ingeniería Eléctrica"
+        s15: "Ingeniería Industrial"
+        s16: Informática
+        s17: Humanidades
+        s18: Economía
+        s19: Biología
+        s2: "Ingeniería (otras)"
+        s20: Química
+        s21: Física
+        s22: Geología
+        s23: "Ingeniería Mecánica"
+        s24: "Ingeniería Civil"
+        s25: "Ingeniería Química"
+        s26: "Ingeniería Energética"
+        s27: "Ingeniería Nuclear"
+        s28: "Ingeniería Forestal y de Pesca"
+        s29: Ganadería
+        s3: Derecho
+        s30: Arquitectura
+        s31: "Nutrición y Deportes"
+        s32: Música
+        s33: Turismo
+        s34: "Filosofía y Teología"
+        s35: Econometría
+        s36: Farmacia
+        s37: Veterinaria
+        s38: "Comunicación, Periodismo y RRPP"
+        s4: Educación
+        s5: Matemáticas
+        s6: Medicina
+        s7: "Arte y Diseño"
+        s8: "Ciencias Naturales (otras)"
+        s9: Psicología
+      titel: 
+        s1: Todos
+        s10: Magistrado
+        s11: "Máster en Filosofía y Letras"
+        s12: "Máster en Ingeniería"
+        s13: "Máster en Bellas Artes"
+        s14: "Máster en Educación"
+        s15: "Máster en Música"
+        s16: "Diplom (Dual)"
+        s17: "Diplom (FH)"
+        s18: "Diplom (Univ.)"
+        s19: "Doctor en Medicina"
+        s2: "Lic. Ciencias"
+        s20: Doctorado
+        s21: Licenciado
+        s22: Anderes
+        s23: "Lic. Ciencias con honores"
+        s24: "Máster en Administración de Empresas"
+        s25: "Máster en Administración de Empresas (Ejecutivos)"
+        s26: Diplomado
+        s3: "Lic. Artes"
+        s4: "Lic. Ingeniería"
+        s5: "Lic. Derecho"
+        s6: "Lic. Bellas Artes"
+        s7: "Lic. Música"
+        s8: "Lic. Educación"
+        s9: "Máster en Ciéncias"
+      travel: 
+        s0: "No seleccionar"
+        s1: "Máximo 25%"
+        s2: "Máximo 50%"
+        s3: "Máximo 75%"
+        s4: 100%
+        s5: "No Viajar"
+      validations: 
+        pdf: "Solo archivos PDF"
+    employers: 
+      confirmations: 
+        s1: "Reenviar email de confirmación"
+      edit: 
+        s1: "Configuración para"
+      form: 
+        s1: "Datos de contacto"
+        s2: "Datos de facturación"
+      passwords: 
+        editnew: 
+          s1: "Cambiar contraseña?"
+          s2: "Cambiar contraseña"
+          s3: "Olvidó su contraseña?"
+          s4: "Enviar información sobre la contraseña"
+      registrations: 
+        new: 
+          s1: "Han ocurrido algunos errores"
+          s10: "Política de Privacidad"
+          s11: "y las"
+          s12: "Condiciones de Uso"
+          s13: Registrarse
+          s14: "Ya está registrado?"
+          s2: "Para reclutadores"
+          s3: "Iniciar sesión"
+          s4: "Permanecer conectado"
+          s5: "Olvidó su contraseña?"
+          s6: Registrarse
+          s7: "Confirmar contraseña"
+          s8: Acepto
+          s9: la
+      sessions: 
+        new: 
+          s1: "Errores en el proceso de inicio de sesión"
+          s10: o
+          s11: Problemas?
+          s2: "Para reclutadores"
+          s3: "Iniciar sesión"
+          s4: "Permanecer conectado"
+          s5: Registrarse
+          s6: "Olvidó su contraseña?"
+          s7: "No tiene cuenta?"
+          s8: "Regístrese aquí"
+      show: 
+        s1: "Configuración para"
+        s2: "Website de la empresa"
+        s3: Facebook
+        s4: "Su nombre"
+        s5: "Número de teléfono"
+        s6: "Número fiscal"
+        s7: Dirección
+        s8: "Editar preferencias"
+        s9: "Insertar oferta de trabajo"
+      unlocks: 
+        s1: "Reenviar email de confirmación"
+    events: 
+      form: 
+        s1: "Han ocurrido algunos errores."
+        s2: "Pista: El símbolo verde encima le permite previsualizar su oferta de trabajo en código HTML."
+      index: 
+        s1: "Eventos para Estudiantes y Graduados"
+        s2: "Más información..."
+        s3: Organizador
+        s4: Fecha
+        s5: Localización
+        s6: "Fecha límite de inscripción"
+        s7: "Inscríbase aquí"
+        s8: Inscripción
+        s9: "Crear un nuevo evento"
+      index2: 
+        s1: "Sus eventos"
+      newedit: 
+        s1: "Editar evento"
+        s2: "Nuevo evento"
+        s3: "Ahorrar tiempo?"
+        s4: "Ahorrar tiempo"
+        s5: "Nosotros añadimos su evento: Envíenos un email a la misma dirección de las ofertas de trabajo con una descripción en PDF o en HTML:"
+        s6: info@thestudentranking.com
+        s7: "Visite nuestras"
+        s8: Tarifas
+      show: 
+        s1: "Editar evento"
+        s2: "Inscribir aquí"
+        s3: "Editar evento"
+        s4: "Oferta visible hasta"
+        s5: Visto
+        s6: xxx
+    futurejobs: 
+      form: 
+        s1: "Su proyecto de carrera"
+        s1a: "Puesto jornada completa"
+        s1b: Prácticas
+        s2: "Puesto de jornada completa"
+        s3: "Disponible para prácticas"
+        s4: "Localización y disponibilidad para viajar"
+        s5: Sí
+        s6: "No"
+      newedit: 
+        s1: "Su proyecto de carrera"
+        s2: "Use esta web para encontrar prácticas interesantes y puestos de trabajo con remuneraciones por encima de la media. Facilite que las empresas le encuentren y le contraten: las empresas pueden usar nuestra Base de Datos para contactarle directamente e invitarle a posibles eventos y entrevistas de trabajo. Aumente sus posibilidades de recibir ofertas indicando su interés en realizar prácticas o en puestos de trabajo de jornada completa."
+    global: 
+      cancel: Cancelar
+      delete: Eliminar
+      go: Ir
+      save: Guardar
+      saved: "Guardado correctamente."
+      saved_changes: "Cambios guardados."
+      sign_in: "Iniciar sesión"
+    invoices: 
+      index: 
+        s1: "Sus facturas"
+        s10: IVA
+        s11: Total
+        s12: "Creado el"
+        s13: Logo
+        s14: "Enviar como"
+        s15: "Enviar como"
+        s16: "Pago de"
+        s17: Evento
+        s18: "200 CV Visitados"
+        s19: "Balance de cuenta"
+        s2: "Categoría: Sponsor"
+        s20: "Por favor, enviar pagos a"
+        s21: "KTO: 1071232373"
+        s22: "BLZ: 39050000"
+        s23: "Institute: Sparkasse Aachen"
+        s24: Referencia
+        s25: "Preguntas sobre pagos? llámanos"
+        s26: "Teléfono: 0049 2405 1402428"
+        s27: "Email: info@thestudentranking.com"
+        s28: "200 Mensajes"
+        s29: "Oferta de trabajo"
+        s3: "Según nuestro acuerdo, estos servicio son gratuitos. La infomación mostrada abajo puede ofrecerle una versión cronológica general."
+        s4: "Factura actual:"
+        s5: "Las facturas serán enviadas a:"
+        s6: "Alterar datos de pago"
+        s7: Pagos
+        s8: Servicio
+        s9: Precio
+    joboffers: 
+      form: 
+        s1: Error
+        s10: Requisitos
+        s11: "Condiciones ofrecidas"
+        s12: "Proceso de la inscripción"
+        s2: "Pista: El símbolo verde encima le permite previsualizar su oferta de trabajo en código HTML."
+        s3: "Enlace a la página de inscripciones"
+        s4: "Su logo visible? (+ 10,- EUR)"
+        s5: "Los precios dependen del tiempo de exposición (30 días a 89,- EUR, 1,- EUR por cada día extra.)"
+        s6: HTML
+        s7: Preguntas
+        s8: "Escoja entre responder a preguntas o usar código HTML para completar los detalles"
+        s9: "Descripción de la posición"
+      index: 
+        s1: "Buscar localización"
+        s10: "Nueva oferta de trabajo"
+        s11: "Media Jornada"
+        s12: Proyecto
+        s13: xxx
+        s14: xxx
+        s15: xxx
+        s16: xxx
+        s17: xxx
+        s18: xxx
+        s19: xxx
+        s2: "Cód Postal / Ciudad"
+        s20: xxx
+        s3: Distancia
+        s4: Posiciones
+        s5: "Jornada completa"
+        s6: Prácticas
+        s7: Área
+        s8: Ofertas
+        s9: Localización
+      index2: 
+        s1: "Sus ofertas de trabajo"
+        s2: "No hay ofertas de trabajo registradas."
+        s3: Editar
+        s4: Copiar
+        s5: "Nueva oferta de trabajo"
+        s6: "Sin logotipo"
+      newedit: 
+        s1: "Editar oferta de trabajo"
+        s2: "Pista: El símbolo verde encima le permite previsualizar su oferta de trabajo en código HTML."
+        s3: "Mostrar el logo de la empresa"
+        s4: "No mostrar el logo de la empresa"
+        s5: "Nueva oferta de trabajo"
+        s6: "Ahorrar tiempo?"
+        s7: Hasta
+      show: 
+        s1: "Código postal / Ciudad"
+        s10: Prácticas
+        s11: Área
+        s12: Educación
+        s13: "Construcción y Paisajismo"
+        s14: Consultoría
+        s15: Finanzas
+        s16: Investigación
+        s17: "Capital privado y Capital de riesgo"
+        s18: "Tecnología de la información"
+        s19: "Ingeniería e Investigación"
+        s2: Buscar
+        s20: "Logística, Transportes, Aprovisionamiento"
+        s21: "Marketing, Diseño, Publicidad, Relaciones Públicas, Editorial"
+        s22: "Medicina y Salud"
+        s23: "Organización, Administración, Derecho"
+        s24: "Recursos Humanos"
+        s25: "Operador técnico, producción"
+        s26: Ventas
+        s27: Editar
+        s28: "Mantener hasta"
+        s29: Visto
+        s3: "Volver a resumen"
+        s4: Favoritos
+        s5: "Añadir a favoritos"
+        s6: "Eliminar de favoritos"
+        s7: "Edita oferta de trabajo"
+        s8: "Inscribirse aquí"
+        s9: "Jornada completa"
+    jobs: 
+      form: 
+        s1: Actualmente
+        s2: "Añadir más información"
+        s3: "Puede ampliar este campo usando su ratón."
+      newedit: 
+        s1: "Experiencia laboral"
+    languages: 
+      form: 
+        s1: "Añadir idioma"
+      newedit: 
+        s1: Idiomas
+        s2: "Por favor, marque su lengua nativa como como \"nativo\"."
+    layouts: 
+      accountedit: 
+        s1: "Cuenta editada"
+        s2: "Su cuenta ha sido editada por uno de nuestros administradores."
+        s3: "Motivo:"
+        s4: "El número de créditos era incorrecto"
+        s5: "El sistema de notas era incorrecto"
+        s6: "El número de horas invertidas era incorrecto"
+        s7: "Por favor, revise nuestras"
+        s8: directrices
+        s9: "para saber los motivos de los cambios realizados."
+      application: 
+        s0: "theStudentRanking.com: Conoce tu ránking de forma gratuita y consigue fantásticas ofertas de trabajo de empresas en todo el mundo."
+        s1: Idioma
+        s10: "Sobre mí"
+        s11: "Proyecto de carrera"
+        s11a: "Configuración de privacidad"
+        s12: "Mi Ránking"
+        s12a: "Quiénes somos"
+        s12b: "Ránking de Estudiantes"
+        s13: Empleo
+        s14: Favoritos
+        s15: Eventos
+        s16: Contacto
+        s17: Inicio
+        s18: "Mis ofertas de trabajo"
+        s19: "Todas las ofertas de trabajo"
+        s2: "Iniciar sesión"
+        s20: "Crear nueva oferta de trabajo"
+        s21: "Mis eventos"
+        s22: "Todos los eventos"
+        s23: "Crear nuevo evento"
+        s24: "Base de Datos"
+        s25: "Buscar candidatos"
+        s26: "Enviar mensajes"
+        s27: "Mis favoritos"
+        s28: Configuración
+        s29: "Información sobre la empresa"
+        s3: Registrarse
+        s30: Facturas
+        s31: Aviso
+        s32: "Su cuenta debe ser verificada manualmente por uno de nuestros empleados. El acceso a la Base de Datos no está disponible en estos momentos. Aunque es posible crear ofertas de trabajo y eventos, éstos no estarán disponibles hasta que la verificación se haya completado."
+        s33: "Por favor, póngase en contacto con nosotros"
+        s34: "a través de teléfono o email, empezaremos el proceso de verificación de su cuenta inmediatamente."
+        s35: "El ránking"
+        s35a: "Ránking Universitario"
+        s35b: "Ránking Universitario"
+        s36: Reclutadores
+        s37: "Aviso legal"
+        s38: "Política de Privacidad"
+        s39: "Condiciones de Uso"
+        s3a: Problemas?
+        s4: o
+        s40: Tarifas
+        s41: Empleo
+        s42: "Nos pondremos en contactos con usted para confirmar su cuenta. Mientras tanto puede crear nuevas ofertas de trabajo y eventos que serán publicados en el momento en que su cuenta haya sido confirmada. Hasta ese momento el acceso a la base de datos de CV estará restringido."
+        s43: "Confirmación de la cuenta pendiente"
+        s44: Prensa
+        s45: Blog
+        s5: "Inicio de sesión como"
+        s6: "Mi cuenta"
+        s7: "Cerrar sesión"
+        s8: "Mi perfil"
+        s9: Configuración
+    listjobs: 
+      index: 
+        s1: Favoritos
+        s2: "Sus ofertas de trabajo guardadas:"
+        s3: "Ofertas de trabajo recomendadas:"
+        s4: "Las siguientes ofertas de trabajo puede que también sean de su interés:"
+    messageags: 
+      errors: 
+        s1: "Por favor, rellene todos los campos"
+      success: 
+        s1: "Su mensaje ha sido enviado."
+    messages: 
+      index: 
+        s1: "Mensajes enviados"
+        s2: "Puede usar el ID para encontrar el candidato correspondiente."
+        s3: Candidato
+        s4: Asunto
+        s5: Mensaje
+        s6: "Enviado el"
+        s7: Borrar
+    pagination: 
+      first: "Primera página |"
+      last: "| Última página"
+      next: Siguiente
+      previous: Anterior
+      truncate: "..."
+    participants: 
+      edit: 
+        s1: "Sobre mí"
+      form: 
+        s1: Mujer
+        s2: Hombre
+        s3: Otro
+        s4: "No facilitado"
+      links: 
+        s1: "Puntuación Personal"
+        s2: "Puntuación Social"
+        s3: "Habilidades confirmadas"
+        s4: Gráficas
+        s5: "Comparación con amigos"
+        s6: "Análisis de empresa"
+        s7: "Análisis y Sugerencias"
+      profile_bars: 
+        s1: Top
+      profile_small: 
+        s1: Anónimo
+        s10: Recomendaciones
+        s11: Recomendar
+        s12: "Recomendación confirmada."
+        s13: "No hay recomendaciones. Anime a sus amigos a que le recomienden y aumente su puntuación social."
+        s14: "No hay recomendaciones. Inicie sesión para realizar la primera recomendación."
+        s14a: "No hay recomendaciones por el momento."
+        s15: Puntos
+        s16: Habilidades
+        s16a: "No se han especificado habilidades."
+        s17: Confirmar
+        s18: "Pida a sus amigos que le recomienden"
+        s19: "A través de Facebook"
+        s2: R
+        s20: "A través de E-mail"
+        s21: "Puede recomendarme en"
+        s22: theStudentRanking.com?
+        s23: "Sus recomendaciones incrementarán mis posibilidades de que las empresas me seleccionen y contraten. Además, si se registra en la web, podrá ganar un iPad."
+        s24: "Gracias de antemano!"
+        s3: pts
+        s4: S
+        s5: º
+        s6: "Perfil de"
+        s7: X
+        s8: "Este participante no desea compartir más información. Las empresas pueden ver el perfil completo"
+        s9: aquí
+      ranking: 
+        s1: "Volver al perfil"
+        s10: "Universidad y estudios"
+        s100: "Análisis y sugerencias"
+        s101: "La inscripción para puestos de trabajo y prácticas es la demostración definitiva de sus credenciales. Eche un vistazo abajo para encontrar ideas y sugerencias relacionadas con su CV y con lo que puede hacer para presentarse mejor."
+        s102: "Análisis de los elementos positivos"
+        s103: "Sus notas son excelentes."
+        s104: "Usted es un estudiante motivado, enfocado y trabajador. Sus notas demuestran un profundo conocimiento de la teoría y sus resultados le colocan como un compañero valioso."
+        s105: "Describa su motivación y la forma de trabajar que tiene para conseguir las notas que quiere. Qué le motivó para desempeñar su trabajo tan bien? Comparta su motivación en cartas de presentación, así como en las entrevistas de trabajo."
+        s106: "Usted acabó sus estudios con notas excelentes."
+        s107: "Sus resultados académicos demuestran un abordaje disciplinado en sus exámenes y su trabajo."
+        s108: "Explique cómo se prepara y como se enfrenta a nuevos desafíos (no se enfoque demasiado en los resultados). Las empresas buscan compañeros formales, motivados y diligentes. Sus notas ya demuestran que usted es uno de ellos."
+        s109: "Habilidadeses lingüísticas elevadas."
+        s11: Participantes
+        s110: "Dependiendo del tipo de industria y empresa a la que se dirija, usted será un recurso muy valioso para cualquier empresa. Aprender un idioma no solo le proporciona mayores capacidades comunicativas, sino que también le permiten aprender más sobre otras culturas y analizar situaciones de forma diferente."
+        s110a: "Consejo: "
+        s111: "Enfóquese en sus capacidades lingüísticas y en la flexibilidad que ello proporcionará a su empresa. Las multinacionales prefieren candidatos plurilíngües."
+        s112: "Muchos intereses y capacidades"
+        s113: "Usted ha ganado experiencia en muchas y diversas situaciones y está acostumbrado a lidiar con nuevos entornos y temas. Un abundante set de capacidades y conocimientos es muy valioso para demostrar que usted es una persona abierta al aprendizaje y al perfeccionamento de nuevas habilidades."
+        s114: "Describa lo que le motivó a adquirir estas capacidades. Por qué disfrutaba desarrollándolas? La pasión es algo emocionante que tanto empresas como compañeros de trabajo estarían encantados de ver cómo usted traslada esa misma pasión a su trabajo."
+        s115: "Usted ha desempeñado actividades de servicio comunitario y está comprometido con causas positivas."
+        s116: "Sus esfuerzos son reconocidos. Usted ha colaborado con organizaciones para cambiar el mundo y con ello ha ganado experiencia a la hora de lidiar con contratiempos y dificultades personales y sociales. Usted también tiene experiencia a la hora de motivar y convencer a las personas - una capacidad muy valiosa para cualquier empresa."
+        s117: "Una abundante experiencia en servicio comunitario proporciona una serie de capacidades y talentos muy útiles para el día a día en el trabajo. Presente estas experiencias y los aprendizajes correspondientes. Qué situaciones resultaron particularmente difíciles y cómo las manejó? Qué mejoraría la próxima vez? Qué capacidades desarrolló? "
+        s118: "Usted tiene muchas publicaciones."
+        s119: "Su profundo conocimiento en temas de interés y su técnica refinada o su capacidad comunicativa le han llevado a desarrollar múltiples publicaciones con su nombre. Usted ha invertido tiempo y esfuerzo en estos temas y se ha convertido en un experto en ellos - lo cual demuestra su perseverancia y motivación para proporcionar resultados completos."
+        s12: Top
+        s120: "Las publicaciones son una credencial para respaldar y demostrar una actitud de trabajo muy profesional. Proporcione enlaces a sus publicaciones y comunique las capacidades que ha mejorado durante el proceso de creación y publicación."
+        s121: "Usted ha recibido premios y reconocimientos."
+        s122: "La pasión nos influye en nuestra actuación. Y su actuación fue reconocida - sea un logro intelectual o deportivo, con ello usted demuestra resultados excepcionales y que se lo reconocieron."
+        s123: "La pasión es muy importante. Y también los resultados. Cuando se esté inscribiendo para un trabajo, mencione sus esfuerzos y lo que le motiva y hable de sus nuevos retos."
+        s124: "Ha recibido remuneración"
+        s125: "Poseer una beca es sinónimo de que alguien ya le ha seleccionado en el pasado. Otros ya han reconocido alguna cualidad en usted que les ha llevado a recompensarle económica o a ayudarle con algún tipo de apoyo finaciero. Tener una beca facilita a las empresas su búsqueda de excelencia - y usted ya tiene esa beca."
+        s126: "Usted ha trabajado duro para recibir dicha beca y debería explicar cómo le ha ayudado a alisar el camino, aunque sea un poquito, mientras se enfocaba en mejorar aún más su rendimiento académico."
+        s127: "Siga así!"
+        s128: Mejoras
+        s129: "Carece de experiencia laboral significativa."
+        s13: "Análisis empresarial"
+        s130: "La falta de experiencia laboral significativa es considerada por las empresas como un factor de riesgo. Si usted nunca trabajó en una industria antes, tal vez no le resulte fácil comprender o respetar la cultura del trabajo y las tareas desempeñadas por sus compañeros en su futuro puesto de trabajo. Existe un pequeño riesgo en que usted se desilusione por la carga de trabajo diario e intentará buscar otras oportunidades de trabajo."
+        s131: "Complete algunas prácticas en industrias de referencia y experimente cómo se siente. Aunque no esté realmente interesado, esto le permitirá crear una lista de trabajos que excluye y de esta forma generar gradualmente una opinión sobre el tipo de industria en el que realmente quiere trabajar."
+        s132: "Sus notas escolares están por debajo de la media."
+        s133: "No se pueden alterar. Pero eso no tiene porqué afectar a su rendimiento futuro en el trabajo - si está motivado para rendir al máximo, se enfoca en las tareas asignadas y prefiere un trabajo cotidiano en vez de un trabajo más teórico, entonces debería poder vender sus capacidades a potenciales empresas sin problemas. Claro que ello resultará más fácil si puede proporcionar, al mismo tiempo, prácticas significativas y certificados por el trabajo realizado."
+        s134: "Enfóquese en otras cosas más importantes y hable de lo que realmente interesa a las empresas. Su entrevistador sabe cuán irrelevantes pueden llegar a ser las notas académicas para determinados puestos de trabajo y estará más interesado en conocer los motivos por los cuales considera que rendirá bien. Céntrese en estas cosas e ignore el pasado."
+        s135: "Sus notas académicas están por debajo de la media."
+        s136: "Tal vez todavía esté a tiempo de mejorar estas notas. Dependiendo del sector, las empresas se fijarán en sus notas si su futuro puesto de trabajo requiere conocimiento teórico. No obstante, si usted cambia de sector, unas notas flojas no deberían ser un problema - siempre y cuando sea capaz de explicar que las notas recibidas son resultado de factores externos y no a la falta de esfuerzo o trabajo."
+        s137: "Unas notas bajas no debería limitar su capacidad para convertirse en un excelente trabajador en su puesto. Transmita eso y explique a su entrevistador su proyecto de carrera así como sus aspiraciones y cómo planea cumplirlas. No todo el mundo necesita un doctorado en dos carreras - en realidad, algunos trabajos requieren el abordaje de una persona más bien práctica."
+        s138: "Ofertas de trabajo a medida"
+        s139: "Las siguientes empresas están interesadas en trabajar con usted. Estas sugerencias se basan en su ránking, sus estudios y la disponibilidad indicada."
+        s14: ""
+        s140: "Pinche aquí para ofertas adicionales."
+        s141: "*Resaltar"
+        s142: "Los resultados son estadísticamente no trascendentes. Cada análisis requiere un cierto número de participantes de modo que aumente su trascendencia. Debido al incremento en número de participantes, esperamos tener resultados válidos a partir del 1 de Mayo de 2013."
+        s143: "puede ser suyo!"
+        s144: "Recomiéndenos y participe en la lotería del día 15 de Diciembre de 2012. Con un poco de suerte, recibirá en su casa un iPad3 antes de Navidad."
+        s145: "Actualización categoría (3 Tickets)"
+        s146: "Me gusta (1 Ticket)"
+        s147: "Su amigo"
+        s148: "theStudentRanking.com - "
+        s149: "ha formado parte"
+        s15: "Puntos (Comparación sobre año de nacimiento"
+        s150: "Pertenece a los mejores"
+        s151: "de este año"
+        s152: "ha obtenido"
+        s153: Puntos.
+        s154: "La comparación mundial entre estudiantes le muestra su posición en el ránking. Es usted mejore que"
+        s155: obtenidos
+        s156: "Puntos y pertenece a los mejores"
+        s157: "en sus carrera"
+        s158: "en la"
+        s159: "Es usted incluso mejor?"
+        s16: ".."
+        s160: "La comparación mundial entre estudiantes le muestra su posición en el ránking. Es usted mejore que"
+        s161: "Encuentre la clasificación de sus compañeros. Cuál es su posición en el ránking?"
+        s162: "dentro de"
+        s163: "Usted tiene"
+        s164: cupones
+        s165: en
+        s166: Mundial
+        s167: Desglose
+        s17: ""
+        s18: "puede ser suyo!"
+        s19: ""
+        s2: Puntos
+        s20: "Actualización categoría"
+        s21: "Me gusta"
+        s22: Ránkings
+        s23: "Todos los participantes"
+        s24: "Ránking de grupo"
+        s25: Puntos
+        s26: "Mostrar explicación"
+        s27: Evaluación
+        s28: "Ha obtenido"
+        s29: "Puntos, lo que significa que está agrupado en el top"
+        s3: "Ránking mundial"
+        s30: "La media en este ránking es de"
+        s31: Puntos
+        s32: "Basado en este resultado, theStudentRanking le clasifica como"
+        s33: "muy por debajo de la media"
+        s34: "por debajo de la media"
+        s35: "justo por debajo de la media"
+        s36: "un participante en la media"
+        s37: "justo por encima de la media"
+        s38: "por encima de la media"
+        s39: "claramente por encima de la media"
+        s4: Estudios
+        s40: "muy por encima de la media"
+        s41: "un gran estudiante"
+        s42: "uno de los mejores estudiantes"
+        s43: "un estudiante excelente"
+        s44: "un estudiante sobresaliente"
+        s45: "un estudiante de élite"
+        s46: "uno de los mejores estudiantes de élite."
+        s47: "En este ránking se incluyen todos los participantes, independientemente de la carrera académica seleccionada; por lo tanto, no refleja sus posibilidades reales de encontrar un trabajo en su área, sobre todo si usted ha trabajado duro para conseguir especializarse, acaba de empezar a estudiar o si es más joven que el resto de participantes. No obstante, este gráfico puede serle de ayuda para automotivarse, enfocar sus estudios en una dirección determinada o invertir su tiempo sabiamente para conseguir aumentar su valor en el mercado laboral."
+        s47c: "En este ránking se incluyen aquellos participantes que seleccionaron la misma carrera y nacieron en el mismo año. Estos grupos comparativos son bastante amplios y suelen incluir muchos participantes, cada uno con su experiencia y sus objetivos. Si usted no está entre los primeros de este grupo, no se preocupe; tenga en cuenta que una especialización o un enfoque diferente durante sus estudios le harán destacar rápidamente y aumentar su valor en el mercado laboral, haciendo con que sus posibilidades de encontrar trabajo suban considerablemente. Si, por otro lado, usted ya forma parte de los primeros en este ránking, muchas felicidades!"
+        s48: "El sistema no puede calcular su puntuación. Por favor, proporcione más información sobre usted, y sobre todo sobre sus estudios y experiencia académica, para producir resultados válidos."
+        s49: Ránking
+        s5: Escuela
+        s50: "Año de nacimiento"
+        s51: "Mostrar explicación"
+        s52: Evaluación
+        s53: "Ha obtenido"
+        s54: "Puntos, lo que significa que está agrupado en el top"
+        s55: "La media en este ránking es de"
+        s56: Puntos
+        s57: "Comparado con otros participantes de su mismo año de nacimiento, theStudentRanking le considera"
+        s58: "Este ránking está basado en todos aquellos participantes nacidos en "
+        s59: "Este ránking ofrece una visión más clara de sus posibilidades de carerra: Sobre todo si usted no se ha auto-especializado o si está interesado en un puesto de trabajo muy popular. Si quiere aumentar sus posibilidades puede auto-especializarse y ganar expericencia mediante prácticas de modo que se convierta en un valor aún más interesante para las empresas."
+        s6: "Experiencia laboral"
+        s60: "Ránking: Año de nacimiento, Grupo comparativo"
+        s61: "Año de nacimiento"
+        s62: "Grupo comparativo"
+        s63: Evaluación
+        s64: "Ha obtenido"
+        s65: "Puntos, lo que significa que está agrupado en el top"
+        s66: "La media en este ránking es de"
+        s67: Puntos
+        s68: "Comparado con otros participantes de su mismo año de nacimiento y que hayan seleccionado el mismo grupo comparativo, theStudentRanking le considera "
+        s69: "Este ránking está basado en todos aquellos participantes nacidos en "
+        s7: Idiomas
+        s70: "y que han seleccionado el mismo grupo comparativo"
+        s71: "Este análisis le resultará útil para evaluar sus posibilidades de carrera, sobre todo si usted está interesado en un puesto de trabajo muy popular si usted no se ha auto-especializado."
+        s72: "Ránking: Sus compañeros"
+        s73: "Este ránking compara su perfil con el de sus compañeros nacidos en"
+        s74: estudiando
+        s75: en
+        s76: "Invitar a un amigo de"
+        s77: ". Cuantos más participantes, mayores resultados. "
+        s78: "Actualización categoría "
+        s79: "Desglose de puntos"
+        s8: "Actividades de voluntariado"
+        s80: Grupo
+        s81: Estudios
+        s82: Escuela
+        s83: Experiencia
+        s84: Idiomas
+        s85: Habilidadeses
+        s86: Premios
+        s87: Publicaciones
+        s88: Becas
+        s89: "Actividades de voluntariado"
+        s9: "Grupo comparativo basado en año de nacimiento"
+        s90: Usted
+        s91: Top
+        s92: "Ejemplo participantes de grupos, nacidos en"
+        s93: "Análisis empresarial"
+        s93a: "Si usted ha añadido"
+        s94: "empresas preferidas"
+        s95: "puede que obtenga un ránking comparativo con otros participantes."
+        s96: "A continuación podrá encontrar un análisis que compara sus posibilidades de trabajar en una de sus empresas preferidas frente a las de otros candidatos."
+        s97: "Mostrar análisis"
+        s98: "Ocultar / Mostrar"
+        s99: "Se muestran únicamente los primeros diez resultados."
+      ranking_profile: 
+        s1: Anónimo
+        s2: "de entre"
+        s3: "en todo el mundo"
+        s4: º
+        s5: "Personal:"
+        s6: "Social:"
+        s7: pts
+        s8: "Clasificación por edad"
+      settings: 
+        s1: "Configuración de privacidad"
+        s10: "Su dirección de correo electrónico nunca será compartida."
+        s11: "Correo relacionado con el sorteo"
+        s12: "Cada cuánto quiere recibir correos relacionados con la lotería?"
+        s13: "Después de cada sorteo"
+        s14: "Cada mes"
+        s15: Nunca
+        s2: "Invitaciones a eventos, a ofertas de trabajo y a prácticas. The Student Ránking quiere proporcionarle el acceso a fabulosas oportunidades."
+        s3: "De vez en cuando enviaremos emails con actualizaciones relacionadas con su posición en el ránking, ofertas de trabajo e invitaciones a eventos."
+        s4: "Actualizar un nuevo puesto de trabajo"
+        s5: "Recibir email cada tres meses, indicando su nueva posición?"
+        s6: "Ofertas de trabajo e invitaciones"
+        s7: "Sí, quiero recibir ofertas de trabajo e invitaciones a eventos."
+        s8: "Visible para reclutadores?"
+        s8a: "Visible en el ránking?"
+        s8b: "Sí, mis datos de perfil y mi foto son visibles para los visitantes a theStudentRanking.com. También acepto recomendaciones y confirmaciones de habilidades por parte de otros."
+        s9: "Sí, los reclutadores y cazatalentos pueden ver mi perfil y enviarme mensajes sobre ofertas de trabajo muy bien remuneradas o eventos de interés."
+      show: 
+        s1: "Su perfil:"
+        s10: en
+        s11: Intercambio
+        s12: Meses
+        s13: "Añadir estudios"
+        s14: "2. Educación Secundaria"
+        s15: Media
+        s16: "Añadir último curso escolar"
+        s17: "Añadir último curso escolar"
+        s18: "Añadir información sobre su escuela y sus estudios académicos para ver más opciones."
+        s19: "3. Experiencia laboral"
+        s2: Puntos
+        s20: actual
+        s21: "Añadir experiencia laboral"
+        s22: "4. Idiomas"
+        s23: "Añadir idioma"
+        s24: "5. Habilidades"
+        s25: Años
+        s26: Meses
+        s27: "Usando actualmente"
+        s28: en
+        s29: "Usada por última vez hace"
+        s29a: " "
+        s3: "Calcular ránking"
+        s30: en
+        s31: "aprendido en privado"
+        s31a: "Añadir habilidades"
+        s31b: "6. Premios"
+        s32: "aprendido en privado"
+        s33: "Añadir premios"
+        s34: "7. Publicaciones"
+        s35: "Añadir publicaciones"
+        s36: "8. Becas"
+        s37: "Añadir beca"
+        s37a: "9. Actividades de Voluntariado & Intereses"
+        s38: actual
+        s39: "Añadir actividades de voluntariado o intereses"
+        s4: "Rellene su perfil para calcular su posición en el ránking. Cada elemento equivale a un determinado número de puntos e influye en su posición final."
+        s40: "10. Empresas preferidas"
+        s41: "Añadir empresa"
+        s42: "A. Mi Plan de Carrera"
+        s43: "Interesado en"
+        s44: "Puesto de jornada completa"
+        s45: "Disponible en"
+        s46: Prácticas
+        s46a: "Próxima disponibilidad"
+        s47: Localización
+        s48: Traslado
+        s49: "Mudarse dentro del país"
+        s5: "Fecha de nacimiento"
+        s50: "No deseo mudarme"
+        s51: "Mudarse fuera del país"
+        s52: "No deseo mudarme"
+        s53: "Disponibilidad para viajar"
+        s54: "Proyecto de carrera"
+        s55: "Habilidades confirmadas por los usuarios"
+        s6: "Interesado en"
+        s7: "Su información es confidencial y únicamente visible para usted y nuestros administradores. Si desea que su perfil sea visible a reclutadores, por favor pinche"
+        s7a: aquí
+        s7b: "1. Educación Universitaria"
+        s8: Carrera
+        s9: Media
+      studentranking: 
+        s1: "Mis amigos"
+        s10: Recalcular
+        s11: "Buscar por nombre"
+        s2: "Ránking de Estudiantes"
+        s3: Filtrar
+        s4: "Todas las nacionalidades"
+        s5: "Todas las carreras"
+        s6: "Todos los años"
+        s7: "Todos los años"
+        s8: de
+        s9: "Debe iniciar sesión en Facebook para recomendar esta web a sus amigos y comparar su posición en el ránking a la de usted."
+    prizes: 
+      newedit: 
+        s1: Premios
+    publications: 
+      newedit: 
+        s1: Publicaciones
+    public: 
+      agb: 
+        s1: "Condiciones de Uso"
+        s10: "1. Die Nutzung von theStudentRanking.com ist für Studenten, Absolventen und Young Professionals kostenfrei."
+        s11: "2. Arbeitgebern entstehen durch die Nutzung der Dienstleistung Kosten im Rahmen der veröffentlichten"
+        s12: Preisliste.
+        s13: "4. Generelle Nutzung der Inhalte"
+        s14: "1. Sie müssen 16 Jahre oder älter sein, um die Webseiten und Dienstleistungen von theStudentRanking.com zu nutzen. Falls Sie unter 18 Jahren sind, dürfen Sie die Webseiten und Dienstleistungen nur unter Aufsicht eines Elternteils, Erziehungsberechtigten oder anderen für Sie zuständigen Erwachsenen nutzen."
+        s15: "2. Jeder Nutzer ist für die von Ihm eingestellten Inhalte selber verantwortlich. Diese müssen legal, richtig und korrekt sein. Dies betrifft besonders das Rankingprofil. theStudentRanking.com behält sich das Recht vor, unpassende, fehlerhafte oder inaktive Profile zu sperren oder zu löschen."
+        s16: "3. Durch Einstellung Ihres Nutzerprofils geben Sie theStudentRanking.com das Recht, diese Daten für registrierte Arbeitgeber und Partnerunternehmen verfügbar zu machen. "
+        s17: "4. theStudentRanking.com erlaubt Ihnen die Nutzung, den Besuch und das Herunterladen von Inhalten zu Ihrer persönlichen, nicht aber kommerziellen Nutzung. Dies betrifft besonders das Rankingprofil."
+        s18: "5. Kommerzielle Nutzungsrechte werden auf Anfrage schriftlich erteilt."
+        s19: "5. Bedingungen für Arbeitgeber"
+        s2: "Esta página describe nuestras condiciones de uso. Están en alemán. Si tiene cualquier duda, envíenos un email. Diese Seite legt die Nutzungsbedingungen fest, unter denen Sie die Dienstleistungen und Seiten von theStudentRanking.com nutzen können."
+        s20: "1. Sie sind selbst für die Wahrung der Vetraulichkeit Ihres Kontos, Ihres Profils und Ihrer Passwörter verantwortlich. Sie dürfen Ihr Passwort und sonstige Zugangsinformationen nicht mit Dritten teilen, weder zeitlich begrenzt noch dauerhaft. Sie sind für die Nutzung Ihres Kontos auf theStudentRanking.com verantwortlich, egal ob eine Nutzung von Ihnen autorisiert wurde oder nicht. Sollte Ihr Konto unautorisiert genutzt werden, dann informieren Sie uns schnellstmöglich, damit wir Ihr Konto sperren können."
+        s21: "2. Jede Firma darf ein Konto bei theStudentRanking.com führen, mehrere Konten für das gleiche Unternehmen sind nicht erlaubt."
+        s22: "5.1 Stellenangebote"
+        s23: "1. Stellenangebote sind kostenpflichtig und werden Ihnen nach einem Klick auf \"Speichern\" in Rechnung gestellt."
+        s24: "2. Stellenangebote dürfen keine unautorisierten Elemente (geschützte Markenzeichen, versteckte/schadhafte Verknüpfungen und Links, irreführende, unleserliche oder versteckte Stichwörter, schadhafter Code, die Namen, Logos und Warenzeichen von Unternehmen, Organisationen, Institution oder Ländern, welche nicht im Zusammenhang mit der Stellenanzeige stehen, multiple Stellenangebote oder ungenaue und irreführende Informationen enthalten) enthalten."
+        s25: "3. theStudentRanking.com behält sich das Recht vor, eigenmächtig Stellenangebote ohne Angaben von Gründen zu sperren, falls diese dem Sinne der Plattform widerlaufen."
+        s26: "4. Die Laufzeit einer Stellenanzeige wird von Ihnen selbstständig festgelegt. Abgelaufene Stellenazeigen werden nicht mehr in der Suche angezeigt, bleiben jedoch bei genauer Angabe der passenden URL verfügbar."
+        s27: "5. Stellenanzeigen können per Email eingereicht werden. Ist hierbei keine Laufzeit festgelegt, wird eine Laufzeit von 90 Tagen angenommen. Preise siehe Preisliste."
+        s28: "5.2 Events"
+        s29: "1. Events sind kostenpflichtig und werden Ihnen nach einem Klick auf \"Speichern\" in Rechnung gestellt."
+        s3: "Grundlage unserer Zusammenarbeit ist Vertrauen und eine klare Kommunikation. Wir möchten Ihnen eine gute Dienstleistung anbieten und dabei gemeinsam profitieren. Sollte es Unklarheiten geben, genügt im Regelfall eine einfache Kontaktaufnahme via Email oder Telefon, um diese zu beseitigen."
+        s30: "2. Events dürfen keine unautorisierten Elemente (geschützte Markenzeichen, versteckte/schadhafte Verknüpfungen und Links, irreführende, unleserliche oder versteckte Stichwörter, schadhafter Code, die Namen, Logos und Warenzeichen von Unternehmen, Organisationen, Institution oder Ländern, welche nicht im Zusammenhang mit der Stellenanzeige stehen, multiple Stellenangebote oder ungenaue und irreführende Informationen enthalten) enthalten."
+        s31: "3. theStudentRanking.com behält sich das Recht vor, eigenmächtig Events ohne Angaben von Gründen zu sperren, falls diese dem Sinne der Plattform widerlaufen."
+        s32: "4. Die Laufzeit eines Events wird von Ihnen selbstständig festgelegt. Abgelaufene Events werden nicht mehr in der Suche angezeigt, bleiben jedoch bei genauer Angabe der passenden URL verfügbar."
+        s33: "5. Events können per Email eingereicht werden. Ist hierbei keine Laufzeit festgelegt, wird die Laufzeit aus dem Text des Events entnommen. Preise siehe Preisliste."
+        s34: "5.3 Datenbank"
+        s35: "1. Die Lebenslaufdatenbank von theStudentRanking.com dient Arbeitgebern zum Zwecke der Anwerbung von Mitarbeitern. Im Rahmen dessen haben Arbeitgeber Zugriff auf die Datenbank und können die Daten von Kandidaten einsehen, speichern und innerhalb Ihres Unternehmens verwenden. Eine Verwendung zu anderen Zwecken als zur Anwerbung oder Einladung zu Veranstaltungen ist explizit nicht erlaubt."
+        s36: "2. Finanzvermittler, Versicherungsmakler und Verkäufer von Dienstleistungen dürfen die Datenbank nicht nutzen, um Kandidaten Werbung für Produkte zukommen zu lassen. Erlaubt ist lediglich eine Nutzung zur Einladung zu Events oder Stellenangeboten. Events dürfen keine \"Beratungsgeschäfte\" oder \"Trainings\" mit anschliessender Verkaufsabsicht umfassen."
+        s37: "3. Die Nutzung der Datenbank ist kostenpflichtig. Preise siehe Preisliste."
+        s38: "4. Das Anschreiben von Kandidaten über die Datenbank ist kostenpflichtig. Preise fallen pro versandter Nachricht an. Preise siehe Preisliste. "
+        s39: "5. Es ist nicht erlaubt, mehrmals die gleiche Nachricht an den gleichen Kandidaten zu versenden. Jegliche Art von SPAM ist untersagt. "
+        s4: "1. Geltungsbereich und Abwehrklausel"
+        s40: "6. theStudentRanking.com übernimmt keine Verantwortung für die Richtigkeit der eingestellten Profile. Wir prüfen die Datenbank in täglichen Abständen und filtern fehlerhafte Profile, können aber hunderprozentige Exaktheit nicht garantieren."
+        s41: "5.4 Rechnungen"
+        s42: "1. theStudentRanking.com stellt Ihnen für genutzte Dienstleistungen jeweils am ersten Tag eines Monats eine Rechnung aus. Diese wird postalisch übermittelt. "
+        s43: "2. Ihr Arbeitgeberkonto wird freigeschaltet, sobald korrekte Rechnungsdaten vorliegen. Sollten Rechnungsdaten fehlen, kann Ihr Account vorrübergehend gesperrt werden."
+        s44: "5.5 Verfügbarkeit"
+        s45: "1. theStudentRanking.com garantiert nicht für die Verfügbarkeit des Systems. Wartungsarbeiten können zu Ausfällen führen, in denen das System nicht erreichbar ist. Unser Ziel ist eine Verfügbarkeit von 99.9% - eine Garantie hierfür können wir aber nicht geben."
+        s46: "6. Kommunikation"
+        s47: "1. theStudentRanking.com verschickt in unregelmäßigem Abstand Emails mit Stellenangeboten und Einladungen zu Events an Nutzer der Plattform. Sollten Sie keine Emails mit Stellenangeboten und Events erhalten wollen, dann können Sie diese unter Ihrem Konto abbestellen."
+        s48: "7. Salvatorische Klausel"
+        s49: "Sollte eine Bestimmung dieser Allgemeinen Geschäftsbedingungen unwirksam sein, wird davon die Wirksamkeit der übrigen Bestimmungen nicht berührt."
+        s5: "1. Für alle entstandenen Rechtsbeziehungen durch Nutzung dieser Webseite gelten ausschliesslich die folgenden AGB von theStudentRanking.com. Abweichende Allgemeine Geschäftsbedingungen des Kunden werden zurückgewiesen."
+        s6: "2. Zustandekommen eines Vertrages"
+        s7: "1. Wenn Sie diese Webseite als Student, Absolvent oder Young Professional nutzen, stellen Sie uns Ihre Daten zur Erbringung unserer Dienstleistung zur Verfügung. Dabei gelten unsere Datenschutzgrundsätze. Die Nutzung von theStudentRanking.com ist kostenlos."
+        s8: "2. Arbeitgeber nutzen theStudentRanking.com als Firma durch eine Registration und Bestätigung Ihrer Emailadresse. Für die Registration und Anmeldung entstehen keine Kosten. Kosten fallen erst an, sobald weitergehende Dienste wie die Einrichtung eines Stellenangebots, eines Events oder Zugriff auf die Datenbank erbracht werden. Ein kostenpflichtiger Vertrag ensteht dabei durch einen Klick auf den Knopf \"Speichern\" bei Stellenangeboten und Events, sowie durch einen Klick auf die Knöpfe \"Zugang erwerben\" für die Datenbank und \"Anschreiben\" für eine Kontaktaufnahme mit einem Kandidaten."
+        s9: "3. Kosten"
+      blogs0: 
+        s1: Prácticas
+        s2: "Construye tu perfil y tu red de contactos"
+        s3: "¿Vas a realizar prácticas este verano?"
+        s4: "Realizar prácticas en un sector relacionado con tus estudios y tu carrera es una buena forma de conocer el terreno y ganar perspectiva sobre la empresa correspondiente. Si lo planificas con tiempo, puedes hacer prácticas en diferentes sectores cada verano para, poco a poco, construir las habilidades necesarias para el trabajo que deseas obtener una vez termines la carrera. Por ejemplo, puedes considerar hacer prácticas en publicidad el primer verano, relaciones públicas en el segundo y marketing en el tercero, de forma que, cuando te gradúes, estés mejor preparado para entrar en el mundo laboral."
+        s5: "Gracias a las prácticas, sabrás realmente si ese es el área que más te interesa. Si no es así, quizás quieras estudiar otros cursos el próximo semestre para explorar otras áreas interesantes. Si, por otro lado, dichas prácticas confirman tus intereses y tu trayectoria profesional, entonces haz cursos que te permitan mejorar tus conocimientos y habilidades en esa materia."
+        s6: "Cuando solicitas un trabajo, la experiencia que tengas en prácticas aumentará tus posibilidades de ser contratado, independientemente de las notas que tengas. Eso te ayudará a transmitir a las empresas la idea de que eres un estudiante práctico, además de conocedor de la teoría."
+        s7: "Entre unas prácticas no remuneradas que añaden valor a tu CV y un trabajo de media jornada pagado que no te enseña nada, dale prioridad a la opción que añade valor a tu carrera y aumenta tus posibilidades de conseguir tu futuro trabajo perfecto. Si necesitas el dinero, acepta las dos prácticas e intenta llegar a un acuerdo con ambas empresas en relación a tu horario. El mercado laboral es muy competitivo, haz todo lo que puedas para aumentar tu valor."
+        s8: "Y cuando estés en las prácticas ponte como meta aprender nuevas habilidades, maximizar tus fortalezas y obtener una buena carta de recomendación al finalizar."
+        s9: "Próxima entrega: Conseguir el primer empleo (Serie de artículos sobre cómo hacerlo realidad)"
+      blogs1: 
+        s1: Artículos
+        s10: "No obstante, las reglas de este nuevo juego son bastante más complejas  y no siempre es fácil encontrar a alguien que te las explique todas – la gente está muy ocupada. La dimensión también es diferente en este caso. Los juegos normales se acaban en unas horas – este juego dura días, semanas, meses, años y hasta décadas."
+        s11: "Y mientras los ganadores o perdedores son fácilmente identificables en la mayoría de juegos de mesa, la falta de transparencia, feedback y asesoramiento hace más difícil el aprender rápido."
+        s12: "Seis reglas que te ayudarán a jugar – y ganar: "
+        s13: "Primera. Esta es tu partida y la juegas solo."
+        s14: "Sí, es verdad, tus padres, tus amigos y tus profesores estarán dispuestos a ayudarte; pero, al fin de cuentas, jugar, tomar decisiones y establecer la estrategia que te hará feliz, es una responsabilidad tuya."
+        s15: "Esto es asustador y revitalizante al mismo tiempo, pues, en última instancia, te da libertad para delinear tu propio camino. Ten confianza en ti mismo y aprende a jugar bien – las habilidades que ganes serán muy valiosas, una vez tras otra."
+        s16: "Segunda. Este juego es increíblemente flexible en cuanto a movimientos y acciones. "
+        s17: "Podrías pasarte el día durmiendo u ocho horas completando formularios; puedes aceptar un puesto de trabajo en un club de golf con el único propósito de conocer nuevas personas o quedarte en casa viendo el programa popular de turno. (Nota: si haces lo mismo que hace la mayoría de la gente, tarde o temprano acabarás siendo como ellos)."
+        s18: "Puedes optar por presentarte directamente a las personas o esperar que éstas te descubran mientras estás sentado en tu sofá. Explora lo que funciona y lo que no funciona, y mejora con el tiempo."
+        s19: "Tercera. Este juego no es justo y nadie lo supervisa. "
+        s2: "Conseguir el primer empleo"
+        s20: "Puede que haya  cientos de puestos de trabajo que paguen 100.000 € al año a recién graduados que han acabado su carrera sin pena ni gloria, pero eso no quiere decir que todo el mundo los conozca. En algunas ocasiones, la falta de conocimiento impide a las personas dar ese gran paso al frente, y en otras, puede ser falta de cualificaciones o habilidades interesantes."
+        s21: "Con esto quiero decir que puede que seas un estudiante con excelentes notas y aun así tengas dificultades para encontrar trabajo."
+        s22: "La experiencia académica será muy poco útil si no está acompañada de habilidades que demuestren que eres un trabajador y pensador independiente o que entiendes las normas del juego. La economía cambia y los países se reorganizan constantemente para funcionar mejor a nivel económico. Así que, tú también puedes – independientemente de lo que hayas estudiado. Si vives en un lugar influenciado negativamente por la economía y las fuerzas políticas y sociales del trabajo, tal vez sea el momento de progresar. El ser humano es un explorador nato por lo que, si tus opciones de desarrollo son mejores en cualquier otro sitio, significa que tu momento para avanzar ha llegado. Sé valiente y busca oportunidades, no riesgo. Siempre puedes volver donde estabas."
+        s23: "La cuarta regla es simple: tú vales."
+        s24: "Como fundador de theStudentRanking, sé que siempre hay cosas que hacer, y estoy orgulloso de trabajar con un equipo fantástico que se enfrenta a los retos y busca activamente la forma de resolverlos. Se parece a ese momento en que tu fiesta de cumpleaños se termina – a ti te encantaría contar con ayuda para limpiar, pero por alguna extraña razón, solo unos cuantos se quedan para ayudar."
+        s25: "No se trata de tener experiencia o intelecto; se trata, en gran medida, de la actitud. Tu disponibilidad para trabajar y aprender es lo que te da valor; tu disposición para acometer nuevos desafíos siempre estará bien vista.  Y si acabas de terminar la universidad significa que posees una serie de habilidades y conocimientos que pueden ser usados o adaptados para resolver los problemas que las empresas están atravesando actualmente."
+        s26: "Incluso si tienes muy poca experiencia laboral en comparación con otros, en pocas semanas te convertirás en un experto para una determinada tarea. Eso ocurrirá en el momento que sepas más que tu entorno sobre una determinada función; asume la tarea y finalízala con un estándar profesional (tema para un futuro artículo). No pienses que vales menos por el hecho de que no tuvieras suerte encontrando un trabajo. La gran diferencia radica en encontrar la persona correcta para el puesto correcto, y si tú sabes cuál es tu verdadero valor, encontrarás, sin duda, la oportunidad que necesitas para contribuir."
+        s27: "Quinta regla: Tú eres tu propia empresa y tienes que aprender a vender."
+        s28: "En este juego, tú eres dueño de una empresa que cuenta con una persona brillante. Asegúrate de que esta persona haga algo útil y pueda aprender y convertirse en un profesional - esta persona es tu producto."
+        s29: "Pero incluso con un gran producto, el marketing y las ventas son absolutamente cruciales para su éxito. Si tu producto no es nada especial (aún), entonces, saber posicionarse te abrirá puertas y te dará la oportunidad de crecer rápidamente. Esto requiere un análisis claro de las demandas del mercado, sobre las cualidades que los clientes buscan y sobre tu estrategia de ventas."
+        s3: "9 breves artículos que te ayudarán a tener éxito"
+        s30: "A menos que tú puedas ofrecer un servicio sobresaliente con un reconocimiento de marca enorme (¿hubieras contratado a Steve Jobs si pudieras? ¿Por qué?), nadie va a venir tras de ti."
+        s31: "Tienes que ponerte en el mercado, facilitar que te encuentren y buscar activamente oportunidades de forma profesional. Suponiendo que estás leyendo este artículo en theStudentRanking, ya estás trabajando en ello, lo que es inteligente de por sí."
+        s32: "Pero no es suficiente estar presente en un único canal: busca otras formas para que te encuentren, intenta demostrar tus habilidades en un entorno profesional (preferiblemente en frente de futuros clientes o empresas) e invierte tiempo, dinero y esfuerzo en mejorar dichas habilidades. Si no tienes ni idea de ventas, lee algunos libros de ventas en las librerías (¡es gratis!) y elabora tu propio proceso."
+        s33: "¿Cómo contactarás a las empresas? ¿Cómo facilitarás el que te encuentren? ¿Cómo harás para ser único y valioso para cada una de ellas? ¿Cómo buscarás activamente oportunidades? Las ventas son un trabajo duro y una gran venta puede llevar semanas, meses y hasta años antes de dar sus frutos."
+        s34: "Regla 6: La mayoría de los mercados sufren debido a su ineficiencia extrema – raramente vemos la oferta y la demanda equilibrada y las oportunidades suelen estar escondidas o un poco fuera de tu zona de confort."
+        s35: "Es tu responsabilidad analizar a los proveedores de trabajo: las grandes empresas siempre están buscando nuevos miembros para sus equipos que puedan hacerles aún mayores; aunque no siempre se encuentren en tu barrio."
+        s36: "¿Estás dispuesto a trasladarte? Un sí como respuesta aumentará el número de proveedores y abrirá nuevos mercados para ti, especialmente si hablas los idiomas que se buscan. Ninguna empresa pagará por tus clases para aprender un idioma (a no ser que seas un jugador de fútbol), así que ¿estás dispuesto a invertir tiempo y esfuerzo en aumentar tus posibilidades?"
+        s37: "Si tienes tiempo y un poco de dinero, aprovéchalo para estudiar un curso que te otorgue un certificado y demuestra tus nuevas habilidades en las entrevistas. Cuánto más esfuerzo pongas, mayor será la recompensa."
+        s38: "Por otro lado, tus clientes tendrán un problema similar. Ellos querrían contratar candidatos sobresalientes, pero no les resulta fácil encontrar políglotas de 23 años de edad, doctores, con 5 años de experiencia laboral y dispuestos a aceptar un salario medio."
+        s39: "Las empresas también se tienen que vender a los candidatos y a menudo invierten mucho tiempo, dinero y esfuerzos en estar presentes en el máximo número de canales posible. Y aun así, no siempre reciben tantas inscripciones para sus ofertas como querrían – especialmente las PYMES de marcas menos conocidas – y por ello agradecen la oportunidad de conocerte."
+        s4: "Habiendo experimentado unos años atrás las dificultades de encontrar un trabajo para mí mismo y ahora que he aprendido un poco sobre el proceso de selección y contratación (he contratado 18 personas en los últimos 3 meses), he pensado que sería interesante escribir una serie de artículos que te ayuden a conseguir esa primera oportunidad de trabajo."
+        s40: "Acércate a ellas de forma activa y ayúdales a encontrar el candidato ideal – tú."
+        s41: "Esto no es solo cuestión de talento, también se necesita suerte: nosotros recibimos muchos formularios de gente con mucho talento y experiencia que querían cubrir un puesto de trabajo aquí, pero en ese momento ya teníamos todos los puestos cubiertos (y el presupuesto agotado) y nuestro foco pasó de contratar a terminar el trabajo que habíamos empezado. Así que no te preocupes mucho – la suerte juega un papel en todo esto, pero si tú pones esfuerzo y cariño, las posibilidades acabarán por subir y en algún momento la suerte también caerá de tu lado."
+        s42: "5 preguntas que te ayudarán a tener éxito"
+        s43: "Cubre las reglas básicas del juego económico de la búsqueda de empleo. En nuestro próximo artículo debatiremos cómo prepararse de forma profesional para dicha búsqueda y responderemos a cinco preguntas clave que todo recién graduado debería responder para tener éxito a la hora de entrar en el mercado laboral."
+        s44: "Próxima entrega: 5 preguntas que se prepara un candidato inteligente"
+        s5: "Con la crisis económica afectando tantos países, y en caso de que estés a punto de graduarte, conseguir el primer empleo es un paso extremadamente importante."
+        s6: "¿Por qué es tan importante ese primer empleo?  Pues no solo porque pagará tus recibos, sino que te permitirá ganar una experiencia laboral dentro de un entorno profesional. Los puestos más avanzados siempre requieren experiencia, así que empezar pronto permite conseguir mejores puestos de trabajo en el futuro."
+        s7: "Estas son las reglas del juego."
+        s8: "Con la llegada de la globalización, hemos empezado a jugar todos juntos un gran juego que se parece bastante al Monopoly, al ajedrez o al Risk."
+        s9: "Si eres un principiante en estos juegos, tienes dos opciones: que otro jugador te explique las reglas o que te las aprendes tu solito, lo que no suele llevar más de una hora."
+      datenschutz: 
+        s1: "Política de Privacidad - Datenschutz"
+        s10: "Übermittlung an Dritte"
+        s11: "Eine Weitergabe von Daten an Dritte erfolgt grundsätzlich nicht, sofern dies nicht zur Erbringung der Dienstleistung oder zur Vertragsdurchführung notwendig ist. Behörden oder anderen staatlichen Institutionen werden nur im Rahmen der gesetzlichen Informationspflichten oder aufgrund gerichtlicher Entscheidungen Auskunft erteilt.</p><p> Auf Anordnung der zuständigen Stellen dürfen wir im Einzelfall Auskunft über diese Daten erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist."
+        s12: "Daten von Kindern und Jugendlichen"
+        s13: "Personen unter 18 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. Wir fordern wissentlich keine personenbezogenen Daten von Kindern und Jugendlichen an, sammeln diese nicht und geben sie nicht an Dritte weiter."
+        s14: Cookies
+        s15: "Diese Website nutzt Cookies. Cookies erlauben es uns beispielsweise, eine Website Ihren Interessen anzupassen oder Ihr Kennwort zu speichern, damit Sie dies nicht jedes Mal neu eingeben müssen. Selbstverständlich können Sie unsere Website auch ohne Cookies betrachten. Wenn Sie nicht möchten, dass wir Ihren Computer wiedererkennen, können Sie das Speichern von Cookies auf Ihrer Festplatte verhindern, indem Sie in Ihren Browser-Einstellungen \"keine Cookies akzeptieren\" wählen. Wie das funktioniert, können Sie der Anleitung Ihres Browser-Herstellers entnehmen. Wenn Sie keine Cookies akzeptieren,  kann dieses aber zu Funktionseinschränkungen unserer Inhalte führen."
+        s16: E-Mail-Marketing
+        s17: "Wenn Sie sich in unserem System registrieren, akzeptieren Sie unsere auf dem HGB-basierenden AGB. Einige unserer Kunden und Kooperationspartner möchten Sie gerne auf Stellenangebote oder Events hinweisen, dazu geben wir diesen Kunden die Möglichkeit, Sie direkt zu kontaktieren. Allerdigns wird in keinem Fall Ihre Emailadresse weitergegeben - wir leiten Dokumente lediglich an Sie weiter. Wenn Sie keine Stellenangebote unserer Partner erholten möchten, können Sie dies in Ihrem System unter \"Persönliche Daten\" deaktivieren. Alternativ können Sie uns auch eine Email schreiben."
+        s18: "Google Analytics"
+        s19: "Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. (Google). Google Analytics verwendet sog. Cookies, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichenDie durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung der IP-Anonymisierung auf dieser Website, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt.</p><p>Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren. Der aktuelle Link ist http://tools.google.com/dlpage/gaoptout?hl=de. "
+        s2: "Esta página describe nuestra política de privacidad. Está en alemán dado que estamos ubicados en Alemania y por lo tanto vinculados a las estrictas leyes alemanas de protección de datos. Envíenos un email si tiene cualquier duda. Einleitung und Verschwiegenheit der Mitarbeiter"
+        s20: "Datentransfer ins Ausland"
+        s21: "Unsere Server liegen teilweise im europäischen und globalen Ausland. Daher werden personenbezogene Daten auch in ein Land außerhalb der Europäischen Union übermittelt. Die von uns genutzten Dienstleister versprechen die höchstmögliche Sicherheit Ihrer Daten - Zugriff hat lediglich unser System, allerdings kein Anbieter."
+        s22: Facebook-Plugins
+        s23: "Unsere Website besitzt Plugins des sozialen Netzwerks Facebook, 1601 South California Avenue, Palo Alto, CA 94304, USA. Die Facebook-Plugins erkennen Sie an dem Facebook-Logo oder dem Like-Button (Gefällt mir)  auf unserer Website. Eine Übersicht zu den Facebook-Plugins finden Sie unter: http://developers.facebook.com/docs/plugins/ Wenn Sie unsere Website besuchen, wird über das Plugin eine direkte Verbindung zwischen Ihrem Browser und dem Facebook-Server hergestellt. Facebook erhält dadurch die Information, dass Sie mit Ihrer IP-Adresse unsere Website besucht haben. Wenn Sie den Facebook Like-Button anklicken während Sie mit Ihrem Facebook-Account angemeldet sind, können Sie die Inhalte unserer Website auf Ihrem Facebook-Profil verlinken. Dadurch kann Facebook den Besuch unserer Website Ihrem Benutzerkonto zuordnen.</p><p> Wir weisen darauf hin, dass wir als Anbieter der Websites keine Informationen oder Inhalt der übermittelten Daten sowie deren Nutzung durch Facebook erhalten. Weitere Informationen hierzu finden Sie in den Datenverwendungsrichtlinien von facebook, abrufbar unter http://de-de.facebook.com/policy.php Wenn Sie nicht wünschen, dass Facebook den Besuch unserer Seiten Ihrem Facebook-Nutzerkonto zuordnen kann, loggen Sie sich bitte aus Ihrem Facebook-Benutzerkonto aus."
+        s24: Sicherheitsmaßnahmen
+        s25: "Zum Schutz Ihrer bei uns vorgehaltenen personenbezogenen Daten vor unberechtigtem Zugriff und Missbrauch haben wir umfangreiche technische und betriebliche Sicherheitsvorkehrungen getroffen. Unsere Sicherheitsverfahren zum Schutz gegen Beschädigungen, Zerstörung oder den unberechtigten Zugriff werden regelmäßig überprüft und dem technologischen Fortschritt angepasst."
+        s26: Links
+        s27: "Diese Website verfügt über Links zu externen Seiten. Wenn Sie diese Links anklicken, muss Ihnen klar sein, dass die IP-Adresse in den meisten Fällen ebenfalls im Protokoll dieser Websites auftaucht. Diese Datenschutzerklärung gilt nur für diese Website und nicht für Websites Dritter."
+        s28: "Auskunft und Widerruf"
+        s29: "Sie erhalten jederzeit ohne Angabe von Gründen kostenfrei Auskunft über Ihre bei uns gespeicherten Daten. Sie können jederzeit Ihre bei uns erhobenen Daten sperren, berichtigen oder löschen lassen und der Datenerhebung und -speicherung zu Optimierungszwecken unserer Website widersprechen. Auch können Sie jederzeit die uns erteilte Einwilligung zur Datenerhebung und Verwendung ohne Angaben von Gründen widerrufen. Wenden Sie sich hierzu bitte an die im Impressum angegebene Kontaktadresse. Wir stehen Ihnen jederzeit gern für weitergehende Fragen zu unserem Hinweis zum Datenschutz und zur Verarbeitung Ihrer persönlichen Daten zur Verfügung."
+        s3: "Der Schutz Ihrer persönlichen Daten ist ein wichtiger Punkt unserer täglichen Arbeit. Wir möchten Sie daher an dieser Stelle über die Datenschutz-Prinzipien unserer Website informieren. Grundlage bieten dafür die Bestimmungen des Bundesdatenschutzgesetzes (BDSG) und andere datenschutzrechtliche Bestimmungen. Unternehmensintern ist der Datenschutz ebenfalls ein großes Anliegen von uns. Unsere Mitarbeiter sind von uns zur Geheimhaltung und Verschwiegenheit sowie zur Einhaltung der datenschutzrechtlichen Bestimmungen explizit verpflichtet worden."
+        s30: Löschung
+        s31: "Nach vollständiger Vertragsabwicklung und nach Ablauf der steuer- und handelsrechtlichen Vorschriften werden Ihre personenbezogenen Daten gelöscht, sofern Sie nicht ausdrücklich einer darüber hinausgehenden Datenverwendung zugestimmt haben."
+        s32: "Fragen und Erreichbarkeit"
+        s33: "Sollten Sie anderweitige Fragen oder auch Anregungen zum Datenschutz haben, nutzen Sie bitte unsere Kontaktinformationen aus dem Impressum."
+        s34: "Diese Datenschutzerklärung basiert auf \"Modulare Vorlage fuer eine Datenschutzerklaerung auf Webseiten\" von SCHUTZWERK GmbH (http://www.schutzwerk.com) und steht unter einer Creative Commons Namensnennung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz."
+        s4: "Die Informationen auf dieser Website wurden mit großer Sorgfalt zusammengestellt. Für die Richtigkeit und Vollständigkeit kann gleichwohl keine Gewähr übernommen werden. Aus diesem Grund ist jegliche Haftung für eventuelle Schäden im Zusammenhang mit der Nutzung dieser Website ausgeschlossen. Durch die Nutzung unserer Website kommt keinerlei Vertragsverhältnis zwischen dem Nutzer und uns zustande."
+        s5: "Personenbezogene Daten"
+        s6: "Relevant für den Datenschutz sind personenbezogene Daten. Diese sind nach § 3 Abs. 1 BDSG Einzelangaben über persönliche oder sachliche Verhältnisse einer bestimmten oder bestimmbaren natürlichen Person. Dazu zählen insbesondere Angaben wie Name, Anschrift, E-Mail-Adresse oder Telefonnummer aber auch, entsprechend einiger Gerichtsentscheidungen, Nutzungsdaten wie die IP-Adresse."
+        s7: "Nutzung und Zweck der Datenerhebung"
+        s8: "Grundsätzlich ist die Angabe von personenbezogenen Daten für die Nutzung unserer Website nicht erforderlich. Zur Erbringung unserer Dienstleistungen benötigen wir jedoch Ihre personenbezogenen Daten.  Bei einer Beauftragung erheben, speichern und verwenden wir Ihre persönlichen Daten nur, soweit dies für die Erbringung unserer Dienstleistungen und die Erfüllung des Vertrages notwendig ist. Dies gilt auch bei der Zusendung von Informationsmaterial, der Erstellung von Angeboten sowie für die Beantwortung individueller Fragen. </p><p> Bei der Nutzung unserer Website speichern wir zu statistischen Zwecken Daten wie Betriebssystem, Ihrem Browser, IP-Adresse (der zuvor aufgerufenen Website - Referrer-URL) und der Uhrzeit. Diese Daten erheben wir ausschließlich zu statistischen Zwecken, um unseren Internetauftritt weiter zu optimieren. Zudem behalten wir uns vor, diese Daten im Falle eines Systemmissbrauchs zu verwenden, um die Gründe und den Auslöser des Missbrauchs zu ermitteln."
+        s9: "Es wird darauf hingewiesen, dass hinsichtlich der Datenübertragung über das Internet (z.B. bei der Kommunikation per E-Mail) keine sichere Übertragung gewährleistet ist.  Empfindliche Daten sollten daher entweder gar nicht oder nur über eine sichere Verbindung bzw. verschlüsselt übertragen werden.</p><p> Weitere personenbezogene Daten wie Name, Anschrift, Telefonnummer oder E-Mail-Adresse werden im Rahmen der Nutzung der Website nicht erfasst, es sei denn, diese Angaben werden von Ihnen freiwillig gemacht, zum Beispiel im Rahmen des Rankings, einer Umfrage, eines Wettbewerbs oder einer Informationsanfrage. Personenbezogene Daten werden ausschließlich nach den rechtlichen Vorschriften des Landes verarbeitet, in welchem unsere Gesellschaft ihren Sitz hat."
+      employerindex: 
+        s1: "Tabla para"
+        s10: Hay
+        s11: "Participantes en nuestra base de datos"
+        s12: "Candidatos guardados"
+        s13: "Buscar base de datos"
+        s2: Recibo
+        s3: "Mostrar detalles del recibo"
+        s4: "Ofertas de trabajo"
+        s5: "Ofertas de trabajo en el sistema "
+        s6: "Crear una nueva oferta de trabajo"
+        s7: "Eventos en el sistema"
+        s8: "Crear un nuevo evento"
+        s9: "Base de Datos de CV"
+      faq: 
+        s1: "Preguntas frecuentes:"
+        s10: "5. ¿Cuántos puntos me conceden por mis notas? ¿Qué es mejor, tener sobresaliente o haber realizado más prácticas?"
+        s11: "Utilizamos un algoritmo que se basa en las horas invertidas en una actividad para así calcular la puntuación total. Algunos logros académicos, como las notas que obtuvo en secundaria y en la universidad tienen un multiplicador adicional que incrementa el valor total y hace que este logro sea más importante en el resultado final. Sin embargo, las prácticas también pueden otorgar varios puntos, por lo que si está considerando entre quedarse viendo la TV o empezar unas prácticas en el verano, no lo dude y haga las prácticas."
+        s12: "6. ¿Algún consejo para aquellos estudiantes que quieran ser líderes del ránking?"
+        s13: "Los estudiantes líderes suelen tener buenas notas, algunas experiencias en prácticas, buenas habilidades sociales y manejo de varias lenguas. Normalmente, esto es fruto de un esfuerzo concentrado por desarrollar habilidades. Piense en sus intereses y realice actividades que sean relevantes en ese campo. Trabajar media jornada o hacer prácticas le ayudarán a desarrollar capacidades y eso se reflejará inmediatamente en el ránking."
+        s14: "Otro consejo: La vida profesional es como un maratón, no una carrera. Si quiere mantener un buen rendimiento, debe tratar a su cuerpo y cerebro de forma perfecta. Cuando esté cansado y desconcentrado, vaya a dormir, esto es lo que necesita su cuerpo. Cuando se despierte, trabaje y desarrolle algo útil. Esto no sólo le llevará a tener un buen resultado en el ránking, sino que también a tener una vida sana y feliz."
+        s15: "7. El sistema de notas y la calidad de la educación difieren en cada país.  ¿Cómo se refleja esto en el sistema?"
+        s16: "Hay una gran diversidad en la escala de notas y en el nivel de aprendizaje, no sólo por país, también entre centros académicos dentro de un mismo país. Nuestro sistema no puede evaluar cada curso y la calidad de la educación de cada escuela. No obstante, lo que hacemos es ver la media de las notas que obtienen los estudiantes de cada universidad y proveemos esta información en la página del ránking de universidades para desmotivar la “inflación de notas”. A nivel mundial, la inflación de notas puede conllevar resultados sesgados e incomparables entre países, pero cuando se reduce el ránking al nivel nacional, la clasificación generada debería ser más exacta. A la hora de contratar, las empresas exigirán justificantes de los títulos obtenidos y las notas del posible candidato."
+        s17: "8. ¿Debo presentar certificados que verifiquen mi perfil?"
+        s18: "No pedimos certificados para participar en el ránking. Sin embargo, las empresas prefieren un perfil completo que incluya transcripciones y documentos adicionales. Por eso, por cada documento verificado, nuestro ránking provee un pequeño bonus de puntos. Cuando la empresa le contacte, preguntarán por sus habilidades y normalmente pedirán ver los documentos originales. Si los candidatos no pueden proveer los documentos cuando se les soliciten, esto puede conllevar a la terminación del contrato (incluso después de que haya sido firmado) y podría implicar procedimientos legales."
+        s18a: "9. ¿Mis amigos, colegas y otros usuarios pueden ver mi posición en el ránking?"
+        s18b: "Su información es siempre privada, pero puede hacerse pública si usted lo desea. Puede controlar la visibilidad de su perfil a través de su cuenta y puede cambiarla en cualquier momento."
+        s19: "10. ¿Qué sucede con mi información?"
+        s2: "1. ¿Cómo puedo participar en el ránking? ¿Tengo que pagar para obtener mi puntuación?"
+        s20: "Usted controla toda su información. Si desea que las empresas le identifiquen y recibir ofertas de trabajo, le recomendamos que permita a éstas poder acceder a su información completa. No obstante, si prefiere ser invisible al público puede ocultar dicha información muy fácilmente en la configuración de su cuenta."
+        s21: "11. ¿Vale la pena hacer trampa?"
+        s22: "No. Quizás sea posible liderar el ránking por un tiempo hasta que la cuenta sea revisada, modificada o eliminada. El sistema tiene controles internos de medición para averiguar y alertarnos sobre cualquier cuenta sospechosa. Una vez que una cuenta sea puesta en alerta, será invisible para los demás y sólo el usuario y nuestros administradores podrán verla. Al revisarla, nuestros administradores pedirán que verifique cierta información y realice algunas modificaciones, o en caso contrario su cuenta sería eliminada. Por lo general, las empresas prefieren ver documentos originales antes de contratar a un candidato por lo que no sirve de mucho intentar engañar al sistema. Adicionalmente, vale la pena recalcar que falsificar documentos representa un fraude y puede conllevar acciones legales."
+        s23: "12. ¿Qué puedo hacer si no estoy de acuerdo con mi posición en el ránking?"
+        s24: "Si usted considera que el sistema carece de algunos criterios de medición importantes para generar la puntuación total, no dude en ponerse en contacto con nosotros a través del email. Nuestro equipo revisa regularmente ideas y estamos abiertos a incluir nuevas sugerencias al sistema, aunque esto pueda conllevar algunos días."
+        s25: "13. ¿Puede la plataforma ayudar a combatir el desempleo?"
+        s26: "Sí, porque la información es una de las claves para combatir el desempleo. Altas cifras de desempleo suelen estar asociadas a una baja disponibilidad de información relacionada con las oportunidades de trabajo. Si usted está dispuesto a mudarse a otros sitios de trabajo que proveen mejores condiciones económicas, entonces nuestra plataforma facilita eso a través del sistema de ránking mundial."
+        s27: "14. ¿Cuánto cuesta obtener mi puntuación?"
+        s28: "Es gratis y siempre será gratis para estudiantes y graduados."
+        s29: "15. ¿Cómo puedo hacer seguimiento de mi ránking?"
+        s3: "Es gratis. Lo único que debe hacer es registrarse con su cuenta de Facebook o con su e-mail. Una vez que introduzca sus datos y logros académicos, el sistema calculará su puntuación y le comparará con sus amigos."
+        s30: "A medida que tenga nuevos datos, puede adicionarlos a su perfil. ¿Acaba de terminar un periodo de prácticas? ¿Ha completado un curso de idiomas? No dude en incluirlos a su perfil y actualizar su posición en el ránking."
+        s31: "16. ¿Cómo puedo hacer seguimiento de mis registros a ofertas de trabajo?"
+        s32: "Nuestro sistema le proporciona un breve resumen de las ofertas de trabajo a las que ya se ha inscrito. En estos momentos estamos probando dicha función pero debería estar listas en unas semanas."
+        s33: "17. Terminé mis estudios y he encontrado un trabajo. ¿Debo mantener mi perfil?"
+        s34: "Puede mantener su cuenta y actualizarla de vez en cuando. Otras personas de su edad probablemente harán lo mismo y puede seguir comparándose con sus amigos y con otras personas. Además, puede seguir recibiendo ofertas de trabajo ocasionalmente. Nunca se sabe lo que están buscando los reclutadores y qué oportunidad puede asomarse."
+        s35: "18. ¿Puedo pagar para incrementar las visitas a mi perfil?"
+        s36: "No. Todo se basa en logros académicos, habilidades y experiencias laborales."
+        s37: "19. ¿Mi cuenta tiene fecha de caducidad? "
+        s38: "Mantener el perfil actualizado sirve para que las empresas le contacten más fácilmente. La inactividad en su cuenta no hará con que sea cancelada."
+        s39: "20. ¿El sistema es perfecto?"
+        s4: "2. ¿Creo que no supero el promedio de estudiantes, debería inscribirme de todas formas?"
+        s40: "Es bastante bueno y por lo menos… ¡Nosotros estamos bastante impresionados! Hemos observado que el ránking provee una visión bastante matizada y justa, ya que toma distintos factores en consideración. Hemos encontrado maneras de mejorar la calidad del ránking y del sistema, seguiremos trabajando en el mismo y las sugerencias siempre son bienvenidas."
+        s41: "Preguntas técnicas:"
+        s42: "21. ¿Cómo recupero mi contraseña?"
+        s43: "Cuando intente iniciar sesión, haga clic en el botón de “recuperar contraseña”. Si no puede acceder a la cuenta de e-mail con la cual se registró, entonces deberá contactar a uno de los country managers y hacerles llegar una copia electrónica de su pasaporte o documento de identificación de modo que podamos darle acceso a su cuenta nuevamente. Este proceso puede demorar algunos días, pero lo hacemos así para proteger su privacidad."
+        s44: "22. ¿Qué sucede si no recibo el email para recuperar mi contraseña?"
+        s45: "Por favor, primero revise su bandeja de correo no deseado y si no lo encuentra allí, vuelva a enviarnos su e-mail correctamente en el campo indicado. Dependiendo del tráfico, el envío del e-mail puede tomar algunos minutos. "
+        s46: "23. ¿Puedo darle mi contraseña a otra persona?"
+        s47: "No facilite su contraseña a nadie. Esto incluye administradores, country managers, miembros de la página, amigos o a algún extraño en el tren. Nosotros nunca le pediremos que revele su contraseña."
+        s48: "24. ¿Cómo puedo eliminar mi cuenta?"
+        s49: "Basta enviar un correo electrónico a info@thestudentranking.com desde la dirección de e-mail que utilizó para crear la cuenta. Revisaremos su solicitud y borraremos su cuenta sin hacerle ninguna pregunta."
+        s5: "Sí, porque cada persona es única y puede beneficiarse del ránking. El resultado del ránking y los consejos del sistema le ayudarán a ver cómo puede ser mejor y más valioso. Incluso si su puntuación en el ránking no le coloca en la posición que le gustaría, sigue siendo único debido a la combinación específica de su experiencia, sus habilidades y el área donde reside. Esto le hace interesante a los ojos de las empresas que buscan esa combinación específica. ¡Nunca sabe lo que pueden estar buscando las empresas!"
+        s50: "25. ¿Si solicito que eliminen mi cuenta, mis resultados se mantendrán en el ránking?"
+        s51: "No, sus resultados serán eliminados del ránking. Borramos toda su información y nada se mantendrá en nuestro sistema."
+        s52: "26. ¿Los spammers tendrán acceso a mi cuenta de e-mail?"
+        s53: "Nosotros también odiamos a los spammers. Mantendremos su e-mail confidencial y nunca se lo facilitaremos a socios, patrocinadores o cualquier otro grupo o persona. Esa no es nuestra forma de trabajar."
+        s54: "Para empresas y reclutadores:"
+        s55: "27. ¿Qué ofrecemos?"
+        s56: "Ayudamos a las empresas a encontrar al estudiante ideal o al recién graduado con un talento sobresaliente; y lo hacemos muy rápido ya que disponemos de una base de datos mundial de estudiantes clasificados según sus habilidades y rendimiento académico. Tanto si buscas a los mejores de la clase como al experto en una capacidad en particular, nosotros podemos ayudarte. Ofrecemos a los estudiantes un ránking mundial que les permite aprender acerca de su valor en el mercado y las oportunidades de trabajo que ofrecen las grandes empresas. Además, también publicamos un ránking semestral de universidades basado en la calidad de los estudiantes que estudian en cada una de ellas."
+        s57: "28. ¿Cómo funciona el ránking?"
+        s58: "Lo estudiantes reciben puntos por cada logro académico obtenido: diplomas universitarios, educación secundaria, experiencia laboral, idiomas y habilidades personales, además de otros factores que los hacen únicos y reflejan sus competencias. Luego utilizamos estos puntos para comparar en nuestro ránking estudiantes de una edad similar y permitimos a las empresas filtrar a los candidatos en base a sus estudios, ubicación, nacionalidad, fecha de graduación, disponibilidad, intereses y otra información relevante."
+        s59: "29. ¿Cuántos usuarios tenemos? ¿A qué ritmo crece la página?"
+        s6: "3. ¿Es muy importante tener experiencia laboral? ¿Puedo registrarme a pesar de tener mucha experiencia laboral? "
+        s60: "Acabamos de realizar el lanzamiento y sólo tenemos a los usuarios de la fase de prueba inicial. Con el factor multiplicador y el boca-oreja de las redes sociales, esperamos tener varios miles de usuarios dentro de las próximas dos semanas y alcanzar los 20.000 usuarios para finales año. Este crecimiento debería continuar hasta que alcancemos cierto nivel de saturación."
+        s61: "30. ¿Los resultados del ránking son fiables?"
+        s62: "La fiabilidad del ránking depende de la calidad de la información facilitada. Utilizamos una gran variedad de formas para animar a los usuarios a que introduzcan información fidedigna y certificable. Nuestro sistema nos alerta cuando una cuenta está intentando crear perfiles imposibles; nuestros administradores revisan tanto las cuentas con alertas como las cuentas nuevas. Nuestro sistema también premia a los usuarios que suban certificados y transcripciones a nuestra plataforma para aumentar la calidad de su perfil."
+        s63: "31. ¿Los datos son estadísticamente significativos?"
+        s64: "Con cada nuevo estudiante, nuestro ránking genera datos más significativos. Dependiendo del análisis y el número de usuarios en la página, en los próximos meses podremos proporcionar un análisis bastante significativo de la fuente de talento acumulado tanto a nivel nacional como mundial."
+        s65: "32. ¿Por qué deberíamos colocar ofertas de empleo en su página?"
+        s66: "Porque desean conseguir los mejores candidatos y nosotros podemos ayudarles a encontrarlos. Casi todos los estudiantes quieren saber cuál es su valor de mercado en comparación a sus compañeros, lo que los lleva a registrarse en nuestra página. Nuestro ránking facilita que encuentren y contacten a los mejores candidatos de forma rápida. Colocar un anuncio de empleo incrementa la velocidad del proceso ya que abre las puertas a que los estudiantes expresen el tipo de trabajo que buscan. Pruébalo ahora – su primer anuncio de una oferta de trabajo es gratis."
+        s67: "33. ¿Queremos competir con servicios como LinkedIn y Monster.com?"
+        s68: "Más bien proporcionamos una alternativa para que estudiantes y empresas se encuentren y tanto LinkedIn como Monster juegan un gran papel en este sentido. Nuestra ventaja es que nos enfocamos en un grupo específico y proporcionamos oportunidades para que nuestros usuarios consigan empleos acordes con su talento. Y al mismo tiempo las empresas pueden encontrar candidatos en todo el mundo a través de nuestro ránking. En ese sentido, somos únicos."
+        s69: "34. ¿Cómo evitamos que los usuarios coloquen información falsa en el sistema?"
+        s7: "Sí. Usted recibirá una evaluación basada en una comparación con sus compañeros. Las empresas usan nuestro sistema para observar los distintos tipos de candidatos y puede que les interese su perfil, especialmente si tiene una experiencia laboral importante. "
+        s70: "Nuestra plataforma tiene sistemas visibles e invisibles de filtrado, los cuales aceptan la información subida y certifican que los perfiles son fiables. Cuando una cuenta es sospechosa, automáticamente aparece una alerta y nuestros administradores confirman,  limpian, modifican o eliminan perfiles según las necesidades. Realizamos un gran esfuerzo para crear sistemas de confirmación que verifican las cuentas, por lo que tratar de hacer trampa sería una pérdida de tiempo para el usuario."
+        s71: "35. ¿Cuánto cuesta anunciar ofertas de trabajo y eventos?"
+        s72: "La primera publicación de un puesto de trabajo es gratis y el resto de servicios tienen precios bastante competitivos. Por favor consulte la sección de “Tarifas” en nuestra página web donde podrá encontrar todos los detalles. Si tiene muchas ofertas de trabajo o desea asociarse a nosotros, puede contactar nuestro country manager directamente para obtener la mejor oferta."
+        s73: "36. ¿Cómo puedo hacer mis ofertas de trabajo más visibles?"
+        s74: "Puede colocar un logo junto a su oferta de trabajo para obtener más visibilidad en el resultado del ránking. Además, puede colocar publicidad en la página web para atraer mayor audiencia a su compañía o al puesto de trabajo en concreto. Si desea estar pendiente de forma activa de los mejores candidatos, entonces puede lanzar una campaña de e-mail a un grupo específico de candidatos para asegurar una gran respuesta."
+        s75: "37. ¿Cómo podemos convertirnos en socios para publicitar nuestros servicios?"
+        s76: "Póngase en contacto con uno de nuestros country managers directamente a través de la página de nuestro equipo o rellene el formulario de contacto. Nos pondremos en contacto con usted en menos de 24 horas."
+        s77: "38. ¿Cómo puedo convertirme en patrocinador?"
+        s78: "Póngase en contacto con uno de nuestros country managers directamente a través de la página de nuestro equipo o llene el formulario de contacto. Nos pondremos en contacto con usted en menos de 24 horas."
+        s8: "4. ¿Cómo hace el sistema para otorgar puntos a los estudiantes? ¿Cómo funciona?"
+        s9: "El sistema se basa en el único factor que no puede ser alterado para hacer trampa: el tiempo. Comparamos a los estudiantes en base a su edad y simplemente observamos sus logros. ¿En dónde invirtieron su tiempo? ¿Tienen logros académicos cuantificables? ¿Cómo rendimiento escolar? ¿Cuántas lenguas hablan y a qué nivel? ¿Cuánta experiencia laboral poseen? Todos estos factores contribuyen a la hora de determinar la puntuación total. Una vez que tenemos el resultado final, podemos comparar estudiantes con otros de su mismo año de nacimiento y de esta forma crear un grupo de comparación más justo. Los estudiantes también pueden elegir ser comparados con otros grupos ya sean dentro de su universidad o a nivel mundial. Esto arroja distintos resultados y en conjunto le otorga una visión más equilibrada."
+      impressum: 
+        s1: "Aviso legal"
+        s2: "Responable por la Protección de Datos"
+        s3: "Contacto para Empresas y Reclutadores"
+      home: 
+        s1: "Global Student Ranking"
+        s10: "Compruebe el "
+        s10a: "Ránking universitario"
+        s10b: "o colabore con su universidad "
+        s11: "formando parte del ránking"
+        s12: "Muéstrese a los cazatalentos, acceda a Ofertas de Trabajo y a Eventos"
+        s13: "Empresas de renombre alrededor del mundo están siempre a la caza de los candidatos ideales para cubrir sus puestos de trabajo. Además de"
+        s13a: "Ofertas de trabajo"
+        s13b: "e invitaciones a "
+        s14: "Cupones para ganar un iPad mini"
+        s15: "también podrá utilizar nuestra web para ser seleccionado por los cazatalentos de las empresas líderes en el mercado."
+        s16: "Si desea que le encuentren, comparta su perfil con reclutadores y cazatalentos que están a la búsqueda de candidatos como usted: "
+        s17: "Déjese encontrar."
+        s18: "puede ser suyo!"
+        s19: "Qué color prefiere? Sorteamos un iPad mini cada mes! Rellene su perfil y participe en el sorteo - cada nuevo perfil completado y cada recomendación realizada incrementa la opciones de ganar -. Con un poco de suerte, en unos días puede ser suyo!"
+        s2: "Sabe cuál es su posición? Nuestro "
+        s20: "Regístrese y gane!"
+        s21: "Recomiende nuestro ránking y consiga tickets para la lotería, puede ganar un iPad mini!"
+        s22: "Resultado del Ránking: Su resultado"
+        s23: "Resultado del Ránking: Desglose de puntos"
+        s24: "Resultado del Ránking: Su posición global"
+        s25: "Resultado del Ránking: Estudios y Año de Nacimiento"
+        s26: "Redes sociales"
+        s27: "Actividad reciente"
+        s28: Empleo
+        s29: Eventos
+        s3: ránking
+        s30: Enlaces
+        s31: "Comentarios de nuestros clientes"
+        s32: "Preguntas frecuentes"
+        s4: "le ofrece información relacionada con su posición: una comparativa personalizada con otros estudiantes alrededor del mundo, de su país, de su área de estudios y de su universidad. Simplemente introduzca su CV y rellene su perfil, y verá el resultado"
+        s5: "Formar parte del ránking sólo le llevará unos minutos:"
+        s5a: "Compruebe su posición en el ránking ahora"
+        s6: Ejemplo
+        s7: "Ránking Universitario"
+        s8: "Nuestro ránking universitario le ofrece información que necesita: Qué universidades tienen los mejores estudiantes? Dónde encontrará los mejores ingenieros? y los estudiantes de empresariales más sobresalientes? "
+        s8a: "El ránking universitario se basa en nuestro ránking global de estudiantes y le ayudará a escoger su próxima universidad."
+        s9: ""
+      kontakt: 
+        s1: Contacto
+        s2: "Aguardamos su mensaje. Recibirá una respuesta en 24 horas."
+        s3: Nombre
+        s4: Empresa
+        s5: Email
+        s6: Teléfono
+        s7: Mensaje
+        s8: Enviar
+      lottery: 
+        s1: "Anteriores ganadores"
+      preise: 
+        s0: Contacto
+        s1: "Ofertas de trabajo"
+        s10: o
+        s11: "Iniciar sesión"
+        s12: "Anuncie sus eventos"
+        s13: "Invite participantes excelentes a sus eventos. Si quere llegar a una gran audiencia de estudiantes sobresalientes, publique sus eventos aquí."
+        s14: "Anuncie un evento"
+        s15: "durante 30 días"
+        s16: "cada día adicional"
+        s17: "Evento con Logo"
+        s18: incluido
+        s19: "Enviar por email"
+        s2: "Presente sus ofertas de trabajo a un grupo de excelentes y muy motivados estudiantes y cubra sus vacantes con compañeros competentes y motivados."
+        s20: "Banner publicidad"
+        s21: "Presente su marca con publicidad profesional y reciba mayor audiencia hacia su empresa y sus ofertas de trabajo. "
+        s22: Banner
+        s23: Precio
+        s24: "Precio en CPM"
+        s25: "Base de datos de CV"
+        s26: "Obtenga acceso a nuestra potente base de datos con excelentes estudiantes alrededor del mundo. Busque entre perfiles activos para encontrar el candidato ideal e invítelo a trabajar con usted."
+        s27: "Acceso a la base de datos p.a."
+        s28: "50 Mensajes"
+        s29: E-Mail-Marketing
+        s2a: "Puede publicar gratuitamente los dos primeros puestos de trabajo."
+        s3: Servicio
+        s30: "Le gustaría invitar de una sola vez a un grupo específico de candidatos? Seleccione por estudios, media académica, proyecto de carrera o puntos en el ránking y envíales un email personalizado con su oferta de trabajo."
+        s31: Destinatarios
+        s32: Hasta
+        s33: "Asóciese a nosotros"
+        s34: "Nuestros socios están siempre visibles. Su logo será colocado en la página principal y en cada una de las páginas de nuestra web, podrá publicar un número ilimitado de ofertas de trabajo, podrá enviar a todos los candidatos dos campañas de E-Mail-Marketing por añor y podrá usar todas las funciones adicionales a mitad de precio. Nuestros socios quieren reclutar a los mejores - quiere unirse a ellos?"
+        s35: Socio
+        s36: "Logo en la página principal"
+        s37: "Ilimitado número de ofertas de trabajo"
+        s38: "Ilimitado número de eventos"
+        s39: "50% de descuento en publicidad con banners"
+        s4: Precio
+        s40: "Acceso a la base de datos"
+        s41: "50% de descuento en mensajes"
+        s42: "50% de descuento en campañas de email"
+        s43: "Dos campañas p.a. incluidas"
+        s44: "Los precios no incluyen IVA."
+        s45: "Servicios y precios por unidad"
+        s46: "Socio Nacional"
+        s47: "Socio por Idioma"
+        s48: "Socio Global"
+        s5: "Oferta de trabajo"
+        s6: "para 30 días"
+        s7: "cada día adicional"
+        s8: "Oferta con logo"
+        s9: "Enviar por email"
+      preise_partial: 
+        s1: "Seleccione un país y podrá tener acceso completo a la base de datos de usuarios de dicho páis. Los anuncios, las ofertas de trabajo y los demás servicios se adaptarán al país seleccionado. Y si lo desea, también puede seleccionar este paquete varias veces para acceder a otros países."
+        s10: "Publicar eventos"
+        s11: ilimitado
+        s12: "Boletines de Correo"
+        s13: "Publicidad Banner"
+        s14: "Descuentos en publicidad adicional"
+        s15: "Logo empresa en página principal"
+        s16: "Logo empresa en todas las páginas"
+        s17: "Rotación destacada de la compañia"
+        s18: "Socio por Idioma"
+        s19: "Seleccione un idioma y podrá tener acceso completo a la base de datos de usuarios que escogieron dicho idioma como preferido. Los anuncios, las ofertas de trabajo y los demás servicios se adaptarán al idioma seleccionado y solo se mostrarán a dichos usuarios. Y si lo desea, también puede seleccionar este paquete varias veces para acceder a otros idiomas."
+        s2: Básico
+        s20: "Socio Partner"
+        s21: "Tendrá acceso total a la base de datos y podrá contactar con cualquier usuario del mundo. El logo de la empresa, sus ofertas de trabajo premium y los eventos se mostrarán a candidatos de todos los países e idiomas. Solo puede seleccionar este paquete una vez."
+        s3: Avanzado
+        s4: Premium
+        s5: "Socio Nacional"
+        s6: "Acceso a la Base de Datos"
+        s7: "Mensajes Directos"
+        s8: "Ofertas de empleo premium (30 días)"
+        s9: "Descuentos en servicios"
+      ranking: 
+        s1: "El ránking de estudiantes: Cuánto vale su experiencia?"
+        s2: "Nuestro ránking proporciona puntos en función de los logros alcanzados hasta el momento y los compara con los de sus compañeros de carrera y otros estudiantes."
+        s3: "Usted recibirá puntos por buenas notas, por servicios comunitarios, por trabajos de media jornada y de jornada completa, por prácticas y por todas las habilidades que tenga."
+        s4: "Quiere saber qué posición ocupan otros estudiantes en su mismo grupo de edad? Nuestro sistema hace comparativas basándose en su edad, en sus estudios y en su universidad. Quién es el mejor de su universidad? Cuál es la mejor universidad?"
+        s5: "Descubra su posición en el ránking  - empiece ahora!"
+        s6: xxx
+      statistics: 
+        s1: "Universidades destacadas"
+        s10: "La mayoría de los participantes"
+        s11: "Los estudiantes de élite"
+        s12: "Las mejores estudiantes (mujeres)"
+        s13: "Los mejores estudiantes (hombres)"
+        s2: "Los mejores estudiantes en"
+        s24: "Año de Nacimiento"
+        s25: Puntos
+        s26: Puntos
+        s27: "Media global de puntos"
+        s28: "Resaltar: Los cálculos varían diáriamente dado el aumento de participantes."
+        s3: "Mejores estudiantes en"
+        s30: "Los mejores estudiantes a nivel global"
+        s31: "Los cinco mejores estudiantes"
+        s32: "Medias globales"
+        s33: "Distribución de títulos"
+        s34: "Media global por Nacionalidad"
+        s35: "Año de Nacimiento"
+        s36: Hombre
+        s37: Mujer
+        s38: Media
+        s39: Título
+        s4: Ingeniería
+        s40: Porcentaje
+        s41: Doctor
+        s42: "Máster en Ciencias o similar"
+        s43: "Máster en Artes o similar"
+        s44: "Licenciado en Ciencias"
+        s45: "Licenciado en Artes o similar"
+        s46: Otros
+        s47: Nacionalidad
+        s5: Derecho
+        s6: Matemáticas
+        s7: Medicina
+        s8: "Ciéncias Naturales"
+        s9: "Ciencias Empresariales y Económicas"
+      team: 
+        s1: "Quiénes somos"
+        s10: "Hannah es nuestra Country Manager para Taiwán y China y es la responsable de nuestra estrategia global de Relaciones Públicas."
+        s11: "Después de haber trabajado durante seis años en una compañía de traducción en New York, Hannah es ahora dueña de una agencia de traducción. Tiene un Máster en Comunicaciones por la Universidad de San Diego State, se especializó en relaciones públicas y comunicación interpersonal; además enseña oratoria a estudiantes de pregrado. Ha trabajado en distintas compañías de Relaciones Públicas en Taiwán y en Estados Unidos, especialmente con clientes de la industria de telefonía móvil y en comercio business-to-business. Posee una licenciatura en Inglés por la Universidad Nacional de Chiao Tung, donde se especializó en traducciones e interpretaciones."
+        s12: "Hannah habla perfectamente chino e inglés. Práctica y enseña salsa y también le gusta bucear y viajar."
+        s13: "Kristina es nuestra Country Manager para Francia."
+        s14: "Antes de empezar a trabajar con nosotros, Kristina enseñó inglés en la Escuela de Ingeniería IPSA en París y trabajó como gerente de eventos para organizaciones culturales. Kristina se graduó en Administración de Empresas por la Université Catholique de l'Ouest en Angers."
+        s15: "Kristina habla inglés, francés y macedonio. Le gusta el arte y colabora con ciertas galerías como asistente de curador."
+        s16: "Michael es fundador y desarrollador de theStudentRanking.com y responsable del mercado alemán y de la dirección general de la empresa."
+        s17: "Michael ha dirigido su propia consultoría y ha trabajado como Global Business Management & International Client Relations para Deutsche Bank en Frankfurt. Se formó en Gestión Internacional por la universidad de Maastricht y la BI Norwegian School of Management y posee un Máster en esta misma área por la Rotterdam School of Management y NHH Bergen."
+        s18: "Michael habla perfectamente alemán e inglés y tiene un buen nivel de holandés y noruego."
+        s19: "Giulio es nuestro Country Manager para Italia."
+        s2: "Acceso directo al país que busca:"
+        s20: "Antes de unirse a theStudentRanking.com, Giulio trabajó en la Industria del Carbón como Desarrollador de Negocios y Márketing. Obtuvo su Máster en Administración Internacional en la Escuela de Administración de Rotterdam en conjunto con la Escuela de negocios ESADE de Barcelona. Giulio se graduó en Administración de Empresas por la Università Commerciale Luigi Bocconi de Milán y por la Otago Business School en Dunedin (Nueva Zelanda)."
+        s21: "Giulio habla perfectamente inglés, italiano y castellano; además posee un nivel intermedio de alemán. Le gusta jugar voleibol y cocinar."
+        s22: "Gaia reside en Italia y es la responsable de nuestra estrategia global de medios sociales."
+        s23: "Tiene experiencia en el campo de negocios de comunicación, siendo la coordinadora de varios proyectos para agencias y compañías en Italia. Además, trabaja como profesora de comunicación y negocios en Brasil. Gaia tiene un doctorado en Ciencias de la Comunicación y Organizaciones Complejas por la Universidad Libera Maria Ss. Assunta de Roma y completó su licenciatura y su Máster en la Universidad Sapienza de Roma."
+        s24: "Gaia habla perfectamente italiano, inglés y portugués; además tiene un conocimiento básico de francés e italiano. Le interesa todo lo relacionado con medios y comunidades digitales."
+        s25: "Laura es la responsable por el desarrollo de negocios en Italia."
+        s26: "Antes de unirse a theStudentRanking.com, trabajó para el programa Erasmus en Roma. Laura posee un Máster en Relaciones Internacionales (cum laude) por la Universidad Sapienza de Roma, concentrándose en los estudios de África Ecuatorial. También estuvo casi un año estudiando ciencias sociales en la Universidad Humboldt de Berlín. Laura también completó su licenciatura en Ciencias Políticas y Relaciones Internacionales por la Universidad de Sapienza."
+        s27: "Laura habla italiano e inglés y tiene un nivel intermedio de alemán y español. Le apasiona el medio ambiente y le gusta la pastelería."
+        s28: "Salvatore es el responsable del desarrollo corporativo en Italia."
+        s29: "Con más de quince años de experiencia en ventas, marketing y desarrollo de negocios en la industria automotora, Salvatore es el Country Manager para Italia de Dataforce, compañía alemana líder en estudios de mercado de flotas. Se graduó en Administración y Economía y posee un Máster en Marketing y Comunicaciones. Enseñó la materia de manejo de flotas y movilidad de negocios en la Academia de Flotas y ha escrito publicaciones para varias revistas italianas de automóviles. Es instructor en Seguridad y Conducción Agonística y enseña en las escuelas más prestigiosas de Italia. Es además Consultor Senior de JW-Consulting, concentrándose en estrategia, apoyo operacional y formación en el negocio automotor."
+        s3: Subir
+        s30: "Salvatore habla italiano e inglés y tiene un conocimiento básico de francés y español. Le gusta viajar, tocar guitarra y practicar deportes como carreras de coches, buceo y kick boxing. También publicó una novela."
+        s31: "Jesús es nuestro Business Developer para España y Latinoamérica."
+        s32: "Antes de unirse a theStudentRanking.com, Jesús trabajó como consultor de negocios para A2 System, una empresa líder en desarrollo de software y aplicaciones para móviles de Sudamérica. Jesús se graduó por la Universidad Central de Venezuela y en estos momentos está realizando un Máster en International Business Management por la Universidad Autónoma de Barcelona."
+        s33: "Jesús habla perfectamente inglés y español y está aprendiendo catalán. Le gusta practicar deporte, leer libros de historia y conocer nuevos y exóticos destinos."
+        s34: "Adela es nuestra Country Manager para Polonia."
+        s35: "Obtendrá su título en Contabilidad y Finanzas por la Warsaw School of Economics en junio de 2013 y en estos momentos es miembro activo de Oikos Warsaw, donde administra competencias estudiantiles. Antes de unirse a theStudentRanking.com, Adela trabajó en INDITEX Group en Londres y Varsovia, en donde obtuvo valiosa experiencia en ventas dentro de un contexto internacional."
+        s36: "Adela habla perfectamente polaco e inglés y además tiene un conocimiento bastante avanzado de alemán. Le gusta hacer yoga y le interesa todo lo relacionado con Capital de Riesgo y CSR."
+        s37: "Diana es parte de nuestro equipo en Polonia."
+        s38: "Tiene experiencia como especialista en CRM en Deutsche Bank y ha trabajado para varias asociaciones de estudiantes en Varsovia. En la actualidad está terminando su licenciatura en Finanzas y Contabilidad en la Escuela de Economía de Varsovia. También estudia inglés y ruso en el Departamento de Lenguas Aplicadas."
+        s39: "Diana habla perfectamente polaco, inglés y ruso, y en la actualidad se encuentra aprendiendo castellano. Le encanta preparar sushi para sus amigos y practicar yoga."
+        s4: Latinoamérica
+        s40: "Ricardo es nuestro Country Manager para Brasil y Portugal."
+        s41: "Ricardo posee bastante experiencia como banquero en Millenium BCP, especialmente como desarrollador de negocios, relaciones públicas, ventas y en aumentar el capital de riesgo. Posee un Máster en Finanzas por la Escuela de Negocios de Porto y es graduado en Administración de Bancos por la Escuela de Asociación de Bancos Portugueses (ISGB). Ricardo es Mentor Ejecutivo de COHiTEC, una organización portuguesa que apoya desde el comienzo el espíritu empresarial y el desarrollo de ideas de alta tecnología."
+        s42: "Ricardo habla perfectamente portugués, inglés y castellano y maneja el francés a nivel conversacional. Le gusta escalar montañas y es miembro activo del Oporto Toastmasters Club."
+        s43: "Teresa es parte de nuestro equipo en Portugal."
+        s44: "Teresa trae gran experiencia a theStudentRanking.com. Como una ex gerente ejecutiva de la Asociación de Proveedores Automotores (AFIA), es una experta en los campos de estrategia, innovación, transferencia técnica y administración, entre otros. Teresa tiene un Doctorado en Economía y un Máster en Innovación y Transferencia Tecnológica, ambos por la Universidad de Oporto. En la actualidad estudia otro Doctorado en el campo de Sustentabilidad Social y Desarrollo."
+        s45: "Teresa habla portugués, inglés, francés y español y entiende el italiano bastante bien. Le gusta pintar, nadar y cantar."
+        s46: "Sofía es nuestra Country Manager para Rusia."
+        s47: "Antes de unirse a theStudentRanking.com, Sofía asesoraba a departamentos legales de agencias de bienes y raíces y a una compañía de servicios públicos en Kaliningrado. Actualmente se encuentra terminando su Máster en International Business Management por la Univerisdad Autónoma de Barcelona y se graduó con honores en Derecho por la Universidad Báltica Federal Immanuel Kant de Kaliningrado."
+        s48: "Sofía habla perfectamente ruso e inglés y actualmente toma clases de castellano. Le gusta el yoga, deportes de baile y esquiar."
+        s49: "Victor es nuestro Country Manager para Canadá, España, Reino Unido y Estados Unidos."
+        s5: "Para contactar con ella,"
+        s50: "Victor creció y se educó en una familia de emprendedores y actualmente forma parte de una organización mundial que fomenta y apoya a empresarios que crean compañías innovadoras, por lo que se maneja muy bien comunicándose con todo tipo de personas y ayudándolas a cumplir sus objetivos. Formado en Diseño Industrial (licenciado por la Escuela de Diseño EINA, en Barcelona), a Victor le apasiona desarrollar soluciones para las necesidades de hoy en día, tales como conectar estudiantes destacados con las empresas adecuadas."
+        s51: "Victor habla perfectamente español, catalán, inglés y portugués y tiene conocimientos básicos de italiano y persa. Uno de sus hobbies es la caligrafía."
+        s52: "Clément es parte de nuestro equipo en Francia."
+        s53: "Clément creció en Francia y en el Reino Unido y actualmente estudia International Business and Marketing por la IECS -  Escuela de Negocios de Estrasburgo."
+        s54: "Clément habla francés e inglés y está aprendiendo español. Le interesa profundamente la tecnología y todo lo relacionado con matemáticas y física."
+        s6: "Para contactar con él,"
+        s7: "Marijke es nuestra Country Manager para Bélgica, Luxemburgo y Holanda."
+        s8: "Antes de unirse a theStudentRanking.com, Marijke era productora en el sector de conferencias y eventos de Madrid; preparaba programas para conferencias, suministraba material de marketing y poseía un amplio conocimiento de varios sectores industriales. Marijke posee un Máster en Empresariales y Economía, especializado en Economía Financiera por la Erasmus School of Economics. Se graduó en International Business Management por la Rotterdam School of Management y realizó un semestre de intercambio en la Universidad Nacional de Taiwán."
+        s9: "Marijke habla perfectamente holandés e inglés y tiene un nivel intermedio de español y francés. Le gusta viajar y practicar deporte, especialmente ballet e hípica."
+    schools: 
+      editnew: 
+        s1: "Educación secundaria"
+        s2: "Por favor, proporcione su graduado escolar más alto."
+      form: 
+        s1: "Australia (50-100%)"
+        s10: "Hong-Kong (E, D, C, B, A)"
+        s11: "India (40-100%)"
+        s12: "Irlanda (40-100%)"
+        s13: "Israel (60-100%)"
+        s14: "Italia (60-100)"
+        s15: "Japón (60-100%)"
+        s16: "Canadá (50-100)"
+        s17: "Holanda (5.5-10)"
+        s18: "Noruega (E, D, C, B, A)"
+        s19: "Austria (4.0-1.0)"
+        s2: "Bélgica (60-100%)"
+        s20: "Polonia (2.0-5.0)"
+        s21: "Portugal (9.5-20)"
+        s22: "Suecia (E, D, C, B, A)"
+        s23: "Suiza (4.0-6.0)"
+        s24: "Singapur (D, D+, C, C+, B, B+, A, AD)"
+        s25: "España (5.5-10)"
+        s26: "República Checa (50-100%)"
+        s27: "Estados Unidos (1.0-4.0)"
+        s27a: "Rusia (1-5)"
+        s28: "Taiwan (0-100)"
+        s29: "Mexico (0-100)"
+        s3: "Brasil (60-100%)"
+        s30: "Colombia (1.0-5.0)"
+        s31: "Argentina (0-10)"
+        s32: "Perú (0-20)"
+        s33: "Venezuela (0-20)"
+        s34: "Chile (0.0-7.0)"
+        s35: "Ecuador (0.0-10.0)"
+        s36: "Guatemala (0-100)"
+        s37: "Cuba (0.00-5.00)"
+        s38: "República Dominicana (0-100%)"
+        s39: "Haití (0-100%)"
+        s4: "China (60-100%)"
+        s40: "Bolivia (0-100%)"
+        s41: "Honduras (2.00-5.00)"
+        s42: "Paraguay (1-5)"
+        s43: "El Salvador (1.0-10.0)"
+        s44: "Nicaragua (0-100)"
+        s45: "Costa Rica (0.00-10.00)"
+        s46: "Uruguay (1-12)"
+        s47: "Panama (0-100)"
+        s48: "Jamaica (F, C, B-, B, A)"
+        s49: "Trinidad y Tobago (0-100%)"
+        s5: "Dinamarca (2-12)"
+        s6: "Alemania (4,0-1,0)"
+        s7: "Finlandia (1-5)"
+        s8: "Francia (10-20)"
+        s9: "Reino Unido (A-level: E-A*)"
+    services: 
+      form: 
+        s1: "Actividades de voluntariado e Intereses"
+        s10: "Miembro pasivo"
+        s11: "Funciones administrativas (e.g. Asistente)"
+        s12: "Funciones de liderazgo local (e.g. Formador)"
+        s13: "Funciones directivas(e.g. Miembro de Junta Directiva)"
+        s14: Actual
+        s15: "En caso de ocupar más de un puesto en la misma organización, por favor introduzca una entrada por cada puesto. De esta forma podrá asegurarse de que el cálculo de puntos sea correcto y proporciona la información completa a los reclutadores."
+        s2: Universidad/Escuela
+        s3: Social
+        s4: Club
+        s5: Fiestas
+        s6: Cultura
+        s7: Científica
+        s8: Otra
+        s9: "Miembro activo"
+    shared: 
+      activities: 
+        s1: "ha obtenido"
+        s10: hace
+        s1a: " "
+        s2: "se ha registrado"
+        s2a: " "
+        s3: "acaba de conocer su puntuación!"
+        s3a: " "
+        s4: "ha recomendado"
+        s4a: " "
+        s5: "ha confirmado"
+        s5a: " "
+        s6: "en sus habilidades"
+        s7: atrás
+        s8: "por una nueva carrera"
+        s9: "por su eduación secundaria"
+      arbeitgeberkontakt: 
+        s1: "Busca lo mejor?"
+        s10: Contacto
+        s11: Teléfono
+        s12: Fax
+        s13: info@thestudentranking.com
+        s14: "Enviar ofertas de trabajo por email"
+        s15: "Envie ofertas de trabajo por email adjuntand una descripción en PDF o en HTML a "
+        s16: info@thestudentranking.com
+        s2: "Aguardamos su mensaje. Recibirá una respuesta en 24 horas."
+        s3: "Nombre:"
+        s4: Empresa
+        s5: Email
+        s6: Teléfono
+        s7: Mensaje
+        s8: Enviar
+      currency: 
+        s1: "Mostrar precios en"
+      direct: 
+        s1: "Enviar una oferta de trabajo sin registrarse?"
+        s2: "Enviar ofertas de trabajo por email junto con una descripción en PDF o en HTML a "
+        s3: info@thestudentranking.com
+        s4: Tarifas
+        s5: "Crearemos una oferta de trabajo y rellenaremos todos los campos en consonancia con su solicitud."
+        s6: xxx
+      errorbox: 
+        s1: "Los campos tienen que ser rellenados."
+      faq: 
+        s1: "Cuánto cuesta?"
+        s2: "Para los estudiantes es gratis y la primera oferta de empleo de las empresas también. Regístrese y pruébelo."
+        s3: "Qué ofrecemos?"
+        s4: "Un sistema de clasificación mundial para aquellos estudiantes que quieran saber cuál es su valor en el mercado laboral y quieran ser identificados por las empresas."
+        s5: "Mis datos se mantendrán privados?"
+        s6: "Usted controla la información que quiera facilitar. Los visitantes y las empresas solo podrán aquello que usted autorice."
+        s7: "Más preguntas"
+      message: 
+        s1: Candidato
+        s2: Mensaje
+        s3: Enviar
+        s4: "Enviar mensajes incurre en ciertos costes en corcondancia con nuestras"
+        s5: Tarifas
+        s6: "Podrá encontrar los mensajes enviados"
+        s7: aquí
+      press: 
+        s1: "Cómo nos presentan"
+      profile_completion: 
+        s1: "Subir foto de perfil"
+        s10: "Tiene experiencia laboral?"
+        s11: "Añadir empresas favoritas"
+        s12: "Terminar perfil"
+        s2: "Añadir información sobre estudios universitarios"
+        s3: "Añadir educación secundaria"
+        s4: "Seleccionar nacionalidad"
+        s5: "Añadir nombre"
+        s6: "Añadir apellido"
+        s7: "Actualizar fecha nacimiento"
+        s8: "Cuáles son sus objetivos?"
+        s9: "Qué idiomas habla?"
+      rankingmenu: 
+        s0: "Ránking Global"
+        s1: "Másters en Gestión"
+        s10: Medicina
+        s11: "Ciencias Naturales"
+        s12: Informática
+        s13: Psicología
+        s14: "Ciencias Sociales"
+        s15: Lengua
+        s2: "Máster en Dirección de Empresas"
+        s3: Empresariales
+        s4: Ingeniería
+        s5: "Ingeniería Electrónica"
+        s6: "Ingeniería Industrial"
+        s7: Derecho
+        s8: Educación
+        s9: Matemáticas
+      slider: 
+        s1: "El mayor ránking de estudiantes del mundo."
+        s10: anónima
+        s11: ahora
+        s12: "Su ránking"
+        s13: "Descubra su posición en el ránking"
+        s14: "Compárese a sus amigos"
+        s15: "Mejore su posición y visibilidad"
+        s16: "Su carrera"
+        s17: "Consiga mayor visibilidad ante las empresas"
+        s18: "Reciba fabulosas ofertas de trabajo"
+        s19: "Planifique su carrera profesional"
+        s2: "Su puntuación le proporcionará trabajo en todo el mundo"
+        s20: "Sin riesgos"
+        s21: "Es gratuito!"
+        s22: "Es rápido: menos de 10 minutos!"
+        s23: "Protegemos sus datos personales"
+        s24: "Es seguro: No spam"
+        s3: "Puntuación media global:"
+        s4: "Su perfil"
+        s5: "Su puntuación"
+        s6: "Haga click aquí para empezar"
+        s7: "Conózca su puntuación de forma"
+        s8: gratuita
+        s9: "y"
+      sponsors: 
+        s1: "Éstas y muchas otras empresas están buscando candidatos"
+      testimonial: 
+        s1: "Buscamos a los graduados más sobresalientes para ocupar los puestos de trabajo más exigentes para nuestros clientes destacados en Alemania. TheStudentRanking.com es la apuesta perfecta para nosotros y creemos que este sistema va a crecer muy rápidamente y va a facilitar la contratación de los mejores candidatos."
+        s2: xxx
+      whatwedo: 
+        s1: "theStudentRanking.com proporciona el mayor ránking de estudiantes del mundo. Si usted está estudiando y quiere saber más sobre su valor en el mercado laboral, sobre sus perspectivas de trabajo y sobre cómo conseguir un puesto en las empresas líderes en el mundo, aquí es donde todo estudiante debe estar."
+        s2: "Para las empresas, ofrecemos soluciones para la selección de personal dirigidas a estudiantes y recién graduados. Proporcionamos acceso a los candidatos perfectos para programas de formación de talentos y aprendizaje. Aquí podrá encontra gran potencial y los grandes profesionales del futuro."
+    skills: 
+      s1: Habilidadeses
+      s2: "Por favor, indique sus habilidadeses adicionales aquí. Por ejemplo, programación, música, conocimiento de softwares específicos, u otros talentos ..."
+      s3: Principante
+      s4: "Con experiencia"
+      s5: Experto
+      s6: Autodidacta
+      s7: "La puntuación final depende del número de horas de experiencia utilizando una determinada habilidad. Es muy diferente haber trabajado con, por ejemplo, Microsoft Excel durante 50 horas o durante 500 horas."
+      s8: "La puntuación final depende del número de horas de formación recibida para adquirir una determinada habilidad. Las formaciones pueden incluir lecturas de libros, asesoramiento profesional, workshops, participación en seminarios o otras actividades."
+    stipends: 
+      s1: becas
+    template: 
+      s1: xxx
+      s10: xxx
+      s11: xxx
+      s12: xxx
+      s13: xxx
+      s14: xxx
+      s15: xxx
+      s16: xxx
+      s17: xxx
+      s18: xxx
+      s19: xxx
+      s2: xxx
+      s20: xxx
+      s3: xxx
+      s4: xxx
+      s5: xxx
+      s6: xxx
+      s7: xxx
+      s8: xxx
+      s9: xxx
+    universities: 
+      rankingspages: 
+        s0: "Global University Ranking"
+        s1: "Ránking Universitario: Empresariales"
+        s10: "Ránking Universitario: Medicina "
+        s11: "Ránking Universitario: Mástes en Gestión "
+        s12: "Ránking Universitario: Ciencias Naturales "
+        s13: "Ránking Universitario: Psicología "
+        s14: "Ránking Universitario: Ciencias Sociales"
+        s15: "Ránking Universitario: Educación "
+        s16: Puntos
+        s17: "Perfil completo para "
+        s18: "Año de nacimiento"
+        s19: Puntos
+        s2: "Ránking Universitario: Informática"
+        s20: "Esta universidad usa el siguiente sistema de notas:"
+        s21: "Promedio de notas"
+        s22: Participantes
+        s23: "Más información"
+        s24: "Estudiantes destacados"
+        s25: Precio
+        s26: Nacional
+        s27: Internacional
+        s28: Graduado
+        s29: Máster
+        s3: "Ránking Universitario: Ingeniería Electrónica "
+        s30: "Estudiantes de esta universidad también estudiaron en:"
+        s31: "Más universidades"
+        s32: "No hay datos disponibles."
+        s33: "Estudiantes de esta universidad trabajaron para:"
+        s34: "Más empresas"
+        s35: "Este ránking se actualiza diariamente."
+        s36: "Qué universidad tiene los mejores estudiantes? Este ránking usa datos archivados de las puntuaciones medias de los estudiantes para ofrecer una idea general de la calidad y el grado de habilidades de los estudiantes. También se ofrece la puntuación media de todos los participantes, la cual puede ser usada para comprobar si unas notas excesivamente buenas podrían haber condicionado unos resultados sesgados. Todos los ránkings, a excepción del ránking de másters, están basados en los grupos de edad comprendidos entre los años de nacimiento 1990 y 1992, dado que este es el grupo de edad con más estudiantes estudiando actualmente en todas las universidades del mundo."
+        s37: "Podrá encontrar más detalles sobre el funcionamiento del ránking"
+        s38: "al final de la página."
+        s4: "Ránking Universitario: Ingeniería "
+        s5: "Ránking Universitario: Ingeniería Industrial "
+        s6: "Ránking Universitario: Lengua"
+        s7: "Ránking Universitario: Derecho"
+        s8: "Ránking Universitario: Matemáticas "
+        s9: "Ránking Universitario: Máster en Administración de Empresas "
+      show: 
+        s1: Resumen
+        s10: Educación
+        s11: Matemáticas
+        s12: Medicina
+        s13: "Ciencias Naturales"
+        s14: Psicología
+        s15: "Ciencias Sociales"
+        s16: Lengua
+        s17: Empesariales
+        s18: "Ingeniería Electrónica"
+        s19: "Ingeniería Civil"
+        s2: Anterior
+        s20: Informática
+        s21: "Los cálculos están basados en la media de los estudiantes nacidos entre 1990 y 1992"
+        s22: "No obstante, los resultados de los Másters de Administración de Empresas y de Gestión están basados en los años 1981 y 1988"
+        s23: "Puntuación de los estudiantes (resumen)"
+        s24: "Año de nacimiento"
+        s25: "Promedio de notas"
+        s26: Participantes
+        s27: "Esta universidad usa el siguiente sistema de notas"
+        s28: "Solo están incluidos los resultados de los estudiantes nacidos entre los años 1990 y 1992."
+        s29: "Estudiantes destacados"
+        s3: Siguiente
+        s30: "No hay estudiantes destacados"
+        s31: Precio
+        s32: Nacional
+        s33: Internacional
+        s34: Graduado
+        s35: Máster
+        s36: "Estudiantes de esta universidad también estudiaron en:"
+        s37: "Más universidades"
+        s38: "No hay datos disponibles."
+        s39: "Estudiantes de esta universidad trabajaron para:"
+        s4: Puntos
+        s40: "Más empresas"
+        s5: "Resultados por disciplina"
+        s6: "Máster en Gestión"
+        s7: "Máster en Administración de Empresas"
+        s8: Derecho
+        s9: Ingeniería

@@ -1,0 +1,29 @@
+pl:
+  work_experience:
+    attributes: &ATTRIBUTES
+      start_date: Data rozpoczęcia
+      end_date: Data zakończenia
+      current: Obecnie
+      role: Rola
+      contract: Kontrakt
+      average_hours: Godzin w tygodniu
+      summary: Podsumowanie
+      description: Opis
+      company_name: Nazwa firmy lub organizacji
+    contract:
+      1: 'Praktyka'
+      2: 'Staż'
+      3: 'W pełnym wymiarze czasu'
+      4: 'W niepełnym wymiarze czasu'
+      5: 'Umowa o pracę'
+      6: 'Samozatrudnienie'
+  activerecord:
+    models:
+      work_experience: 'Doświadczenie zawodowe'
+    attributes:
+      work_experience:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      work_experience:
+        <<: *ATTRIBUTES  

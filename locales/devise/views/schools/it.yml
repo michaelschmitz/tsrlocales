@@ -1,0 +1,13 @@
+it:
+  schools:
+    edit:
+      s1: Modifica scuola
+    modal:
+     html:
+      s1: Lingua
+    new:
+      s1: Nuova scuola
+    show:
+      s1: Scuola
+    school:
+      s1: Media dei voti

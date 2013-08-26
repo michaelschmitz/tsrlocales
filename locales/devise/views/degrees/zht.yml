@@ -1,0 +1,19 @@
+zht:
+  degrees:
+    edit:
+      s1: 編輯學歷
+    modal:
+      html:
+        s1: 學歷
+    new:
+      s1: 新增學歷
+    show:
+      s1: 學歷
+    degree:
+      s1: 在學平均成績 (GPA)
+      s2: Faculty
+      s3: 主修
+      s4: 副修
+    form:
+      s1: 新增大學
+      s2: 新增交換大學

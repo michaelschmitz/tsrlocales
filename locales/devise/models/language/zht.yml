@@ -1,0 +1,20 @@
+zht:
+  language:
+    attributes: &ATTRIBUTES
+      name: 語言
+      level: 程度
+      certificate: 證書
+      certificate_grade: 成績
+    level:
+      1: '基礎'
+      2: '中階'
+      3: '高階'
+      4: '很流利 / 母語'
+  activerecord:
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

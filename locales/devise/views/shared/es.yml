@@ -1,0 +1,18 @@
+es:
+  shared:
+    profile_completion:
+        s1: "Subir foto de perfil"
+        s10: "Tienes experiencia laboral?"
+        s11: "Añade tus empresas favoritas"
+        s12: "Cumplimentación perfil"
+        s13: "Qué habilidades tienes?"
+        s2: "Añadir información sobre estudios"
+        s3: "Añadir educación secundaria"
+        s4: "Selecciona nacionalidad"
+        s5: "Añadir nombre"
+        s6: "Añadir apellido"
+        s7: "Actualiza fecha de nacimiento"
+        s8: "Cuáles son tus objetivos?"
+        s9: "Qué idiomas hablas?"
+    jobs_suggested:
+        s1: "Sugerencia de ofertas de trabajo"

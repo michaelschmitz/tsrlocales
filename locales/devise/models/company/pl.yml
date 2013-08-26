@@ -1,0 +1,21 @@
+pl:
+  company:
+    attributes: &ATTRIBUTES
+      name: Firma
+      vat_number: Numer identyfikacji podatkowej (NIP)
+      street: Adres
+      city: Miasto
+      code: Kod pocztowy
+      country: Państwo
+      url: Url
+      facebook_page: Link do strony firmy na Facebooku
+  activerecord:
+    models:
+      company: 'Firma'
+    attributes:
+      company:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      company:
+        <<: *ATTRIBUTES   

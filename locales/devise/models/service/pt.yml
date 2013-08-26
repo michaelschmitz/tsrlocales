@@ -1,0 +1,35 @@
+pt:
+  service:
+    attributes: &ATTRIBUTES
+      hours: Horas por semana
+      role: Função
+      description: Descrição
+      area: Área
+      start_date: Data de início
+      end_date: Data-fim
+      current: Actual
+      organization_name: Nome da Organização
+    area:
+      1: "Universidade/Escola"
+      2: "Social"
+      3: "Clube"
+      4: "Diversão"
+      5: "Cultura"
+      6: "Ciência"
+      7: "Outro"
+    role:
+      1: 'Papel activo'
+      2: 'Papel secundário'
+      3: 'Operacionalfuncional (p.ex. Gestão)'
+      4: 'Papel de liderança (p.ex. Treinador ou Formador)'
+      5: 'Liderança estratégica (p.ex. Membro da Direção)'
+  activerecord:
+    models:
+      service: 'Serviço Social'
+    attributes:
+      service:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      service:
+        <<: *ATTRIBUTES   

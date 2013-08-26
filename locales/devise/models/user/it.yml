@@ -1,0 +1,34 @@
+it:
+  user:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Password
+      password_confirmation: Conferma password
+      first_name: Nome
+      last_name: Cognome
+      avatar: Foto del profilo
+      nationality: Nazionalità
+      language: Lingua
+      date_of_birth: Data di nascita
+      gender: Sesso
+      about: Che tipo di opportunità stai cercando?
+      location: Luogo
+    gender:
+      1: 'Femmina'
+      2: 'Maschio'
+      3: 'Altro'
+      4: 'Non indicato'
+    frequency_emails:  
+      1: 'Dopo ogni evento'
+      2: 'Ogni mese'
+      3: 'Mai'
+  activerecord:
+    models:
+      user: 'Utente'  
+    attributes:
+      user:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      user:
+        <<: *ATTRIBUTES      

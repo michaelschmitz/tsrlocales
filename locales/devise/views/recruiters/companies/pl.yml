@@ -1,0 +1,19 @@
+pl:
+  recruiters:
+    companies:
+      form:
+        s1: Adres firmy
+        s2: Fakturowanie
+        s3: Linki
+      edit:
+        s1: Edytuj profil firmy
+      new:
+        s1: Edytuj profil firmy   
+      show:
+        s1: Informacje o firmie
+        s2: Adres
+        s3: Dodatkowe informacje
+        s4: Ta informacja nie jest widoczna publicznie
+        s5: Numer VAT
+        s6: Strona firmy
+        s7: Strona na Facebooku

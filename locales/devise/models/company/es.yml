@@ -1,0 +1,21 @@
+es:
+  company:
+    attributes: &ATTRIBUTES
+      name: Nombre
+      vat_number: NIF
+      street: Dirección
+      city: Ciudad
+      code: Código Postal
+      country: País
+      url: Url
+      facebook_page: Página de Facebook
+  activerecord:
+    models:
+      company: 'Empresa'
+    attributes:
+      company:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      company:
+        <<: *ATTRIBUTES   

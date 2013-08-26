@@ -1,0 +1,11 @@
+pl:
+  awards:
+    edit:
+      s1: Edytuj Nagrodę
+    modal:
+      html:
+        s1: Nagrody
+    new:
+      s1: Nowa Nagroda
+    show:
+      s1: Nagrody

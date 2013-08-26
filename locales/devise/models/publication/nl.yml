@@ -1,0 +1,20 @@
+nl:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Link
+      description: Beschrijving
+      area: Type
+    area:
+      1: 'Overige publicaties'
+      2: 'Krantenartikel'
+      3: 'Wetenschappelijk artikel'
+      4: 'Essay'
+      5: 'Boek'
+  activerecord:
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

@@ -1,0 +1,23 @@
+pl:
+  skill:
+    attributes: &ATTRIBUTES
+      name: Name
+      level: Poziom
+      hours_application: Czas (w godzinach) użycia w praktyce
+      hours_training: Czas (w godzinach) treningu, szkoleń
+      explanation: Objaśnienie
+      included: 'Ostatnio używane w'
+    level:
+      1: 'Początkujący'
+      2: 'Zaawansowny'
+      3: 'Biegły'
+  activerecord:
+    models:
+      skill: 'Umiejętność'
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skill:
+        <<: *ATTRIBUTES      
