@@ -6,3 +6,8 @@ en:
       s1: Your friends    
       s2: Friends registered
       s3: Invite your friends
+    suggestion_ranking:
+      s1: People you may know
+      s2: xxx
+      s3: Request sent
+      s4: Connect

@@ -63,13 +63,10 @@ es:
         s8: Mostrar
         s9: Nueva búsqueda
       modal:
-       html:
-        s1: Educación
-       html:
-        s2: Experiencia
-       html:
-        s3: Otras experiencias
-       html:
-        s4: Ranking 
+        html:
+          s1: Educación
+          s2: Experiencia
+          s3: Otras experiencias
+          s4: Ranking 
       show:
         s1: Buscar en la base de datos

@@ -71,9 +71,10 @@ zht:
         s8: Show
         s9: New Search
       modal:
-        s1: Education
-        s2: Experience
-        s3: Other experience
-        s4: Ranking
+        html:
+          s1: Education
+          s2: Experience
+          s3: Other experience
+          s4: Ranking
       show:
         s1: Search the database

@@ -7,7 +7,7 @@ en:
       city: City
       code: City code
       country: Country
-      url: Url
+      url: Website
       facebook_page: Facebook page
   activerecord:
     models:

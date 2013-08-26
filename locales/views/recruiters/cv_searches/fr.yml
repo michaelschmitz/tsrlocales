@@ -62,9 +62,10 @@ fr:
         s8: Montrer
         s9: Nouveau recherche
       modal:
-        s1: Education
-        s2: Expérience
-        s3: Autre expérience
-        s4: Classement
+        html:
+          s1: Education
+          s2: Expérience
+          s3: Autre expérience
+          s4: Classement
       show:
         s1: Rechercher sur la base de donnés

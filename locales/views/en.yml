@@ -702,6 +702,7 @@ en:
       yes: "Yes"
       no: "No"
       na: "Not available"
+      details: "Details"
       close: "Close"
       save: "Save"
       edit: "Edit"
