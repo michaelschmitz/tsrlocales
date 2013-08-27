@@ -1,47 +1,47 @@
 zht:
   student_ranking:
     public_anon_profile_small:
-      s1: Anonymous
-      s2: Internship
-      s3: Graduate
-      s4: View details
+      s1: 匿名
+      s2: 實習
+      s3: 已畢業
+      s4: 詳細內容
     public_profile_small:
-      s1: Internship
-      s2: Graduate
-      s3: View details
+      s1: 實習
+      s2: 已畢業
+      s3: 詳細內容
     public_profile:
       s1: xxx
-      s2: Student
-      s3: Current
-      s4: Previous
-      s5: Education
-      s6: Internships
-      s7: Graduate
-      s8: Yes, from 
-      s9: Yes
-      s10: Recommendations
-      s11: Skill confirmations
-      s12: Connections
-      s13: Message
-      s14: Connect
-      s15: Compare with your CV
+      s2: 學生
+      s3: 現任
+      s4: 前任
+      s5: 教育
+      s6: 時習
+      s7: 已畢業
+      s8: 是，從 
+      s9: 是
+      s10: 推薦人
+      s11: 已確認的技能
+      s12: 人脈關係
+      s13: 訊息
+      s14: 建立關係
+      s15: 和你的履歷表做比較
       s16: Report
       s17: Report received
       s18: Request sent
     public_recommendations:
-      s1: Recommendations
-      s2: No recommendations yet.
-      s3: Remove recommendation
-      s4: Recommend
+      s1: 推薦人
+      s2: 尚未有任何推薦人
+      s3: 移除推薦人
+      s4: 推薦此人
     public_skills:
-      s1: Skills
-      s2: Confirm
-      s3: This user has not indicated skills yet.
+      s1: 技能
+      s2: 確認此技能
+      s3: 這位使用者尚未表明任何技能
     show:
-      s1: Worldwide student ranking
-      s2: Search by name
-      s3: Achievement Points
-      s4: Social Points
-      s5: Search
-      s6: No results available for your search terms.
-      s7: Results
+      s1: 全球學生排名
+      s2: 依姓名搜尋
+      s3: 成就積分
+      s4: 社會積分
+      s5: 搜尋
+      s6: 這些搜尋條件沒有任何結果，試試別的條件?
+      s7: 搜尋結果
