@@ -711,7 +711,15 @@ pt:
         advice_link: Sugestões
         hi: Olá
         here: aqui
-     available: 
+        yes: "Sim"
+        no: "Não"
+        na: "Indisponível"
+        details: "Detalhes"
+        close: "Fechar"
+        save: "Gravar"
+        edit: "Editar"
+        cancel: "Cancelar"
+      available: 
         s1: "Todas as opções"
         s2: Imediata
         s3: "No prazo de 2 semanas"
