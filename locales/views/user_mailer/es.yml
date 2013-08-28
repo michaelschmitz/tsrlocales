@@ -1,159 +1,161 @@
-es:  
-  user_mailer:
-    suggestions:
-      s1: Las empresas buscan idiomas o habilidades en tu perfil
-      s2: Las empresas filtran las búsquedas en función de la puntuación social para encontrar los mejores candidatos
-      s3: El plan de carrera te ayuda a tener más éxito
-      s4: Tu recientes prácticas
-      s5: Las empresas buscan candidatos como tú
-      completed_internship:
-        s1: Por lo que parece, acabas de terminar unas prácticas – o por lo menos eso es lo que dice tu plan de carrera. 
-        s2: Si es así, te animamos a que actualices tu perfil para obtener más puntos gracias a la experiencia laboral obtenida: 
-        s3: Actualizar mi experiencia laboral
-        s4: Quizás también sea bueno actualizar tu plan de carrera para reflejar tus metas y disponibilidades actuales. ¿Estás disponible para hacer más prácticas en los próximos años? 
-        s5: Actualizar mi plan de carrera
-        s6: Cuando actualizas tu perfil, no solo incrementas tu visibilidad, sino que también aumenta la puntuación social de aquellos amigos a los que has recomendado, haciéndoles más visibles ante las empresas que buscan los mejores candidatos.        
-        s7: ¿Te gustaría tener más conexiones? Invita a tus amigos y aumenta tu puntuación social.
-        s8: Incrementa tu puntuación social
-        s9: Que tengas un día fabuloso,
-        s10: Michael      
-      empty_career_plan:
-        s1: A menudo, las empresas en proceso de contratación filtran las búsquedas de candidatos en función de su “plan de carrera”: ¿Cuál es tu disponibilidad para empezar prácticas o puestos de jornada completa en dichas empresas?
-        s2: Cuando las empresas seleccionan tu perfil, tienen la posibilidad de enviarte mensajes e invitaciones a eventos. Por ello, es muy importante que tu plan de carrera esté siempre actualizado, sobre todo en lo que concierne a tu disponibilidad.
-        s3: Actualizar experiencia laboral
-        s4: Actualizar plan de carrera
-        s5: Haz que las empresas te encuentren y contacten contigo fácilmente. Aprovecha las oportunidades que te ofrecen y empieza una gran carrera profesional.
-        s6: A tu disposición,
-        s7: Michael
-      inactive:
-        s1: soy Michael de theStudentRanking.com. Imagino que has estado muy ocupado/a en los últimos meses. Seguro que habrás tenido nuevas experiencias, adquirido algunas habilidades y crecido personalmente.  
-        s2: Te escribo porque es muy probable que tu posición en theStudentRanking.com hay subido debido, especialmente, a las horas invertidas en estudios, experiencias laborales y nuevas habilidades adquiridas.  
-        s3: Te animo a que actualices tu perfil para que conozcas tu nueva posición en el ránking y  también para saber cómo han evolucionado tus amigos.
-        s4: Ver mi perfil
-        s5: Deseándote un buen día,
-        s6: Michael
-      languages_skills:
-        s1: soy Michael de theStudentRanking.com. Veo que has rellenado algunas partes de tu perfil, lo cual es muy bueno porque esto te debería dar los primeros resultados de tu ránking y permite a las empresas acceder a tu CV.
-        s2: Para facilitar aún más que las empresas contacten contigo, te recomendamos que introduzcas más datos sobre tus habilidades y logros académicos. 
-        s3: Actualizar idiomas
-        s4: Actualizar habilidades
-        s5: Actualizar logros
-        s6: Estas habilidades sumarán puntos a tu puntuación personal que harán que subas en la clasificación global. 
-        s7: En estos momentos, esta es tu puntuación personal: "
-        s8: Para demostrar tus habilidades, puedes invitar a tus amigos a que se unan a theStudentRanking y ellos podrán confirmar tus capacidades. 
-        s9: Invitar amigos
-        s10: Si hay cualquier cosa que pueda hacer por ti en relación a tu perfil, no dudes en contactar conmigo.         
-        s11: Atentamente,
-        s12: Michael
-      profile_empty:
-        s1: soy Michael de theStudentRanking.com.  
-        s2: Para construir tu carrera es necesario conectar con las empresas. En estos momentos tienes un perfil en theStudentRanking pero, al estar vacío, las empresas no pueden encontrarte. Dale un empujón a tu carrera rellenando tu perfil y podrás comprobar los resultados por ti mismo - ¿cuántos mensajes de las empresas te estarás perdiendo en estos momentos? 
-        s3: Añadir estudios
-        s4: Actualizar el perfil de vez en cuando te ayudará a ver tu progreso en comparación con otros candidatos – si quieres mejorar tu visibilidad, esta es tu oportunidad. 
-        s5: Tú y tus amigos también podéis poneros metas en común para mejorar notas, habilidades lingüísticas o vuestra experiencia laboral. Usad nuestro sistema para mejorar mientras os apoyáis unos a los otros. 
-        s6: Invitar amigos
-        s7: Estamos muy contentos de tenerte a bordo,
-        s8: Michael
-        s9: PD: Cualquier comentario o sugerencia que tengas no dudes en hacérmela llegar. Puedes escribirme cuando quieras.
-      social_points:
-        s1: soy Michael de theStudentRanking.com. Con el fin de dar mayor visibilidad a tu perfil, nos hemos dado cuenta de que tus amigos en Facebook no han conectado contigo en theStudentRanking lo que hace que tu puntuación social sea cero.
-        s2: Como sabes, theStudentRanking les ayudará a conocer su valor en el mercado y, tanto a ellos como a ti, os dará una idea de cómo aumentar ese valor en el mercado. Trabajar en conjunto será una fuente de estímulo para vosotros y hará más fácil mejorar dicho valor.
-        s3: Invitar a tus amigos es muy fácil y rápido (tus datos seguirán permaneciendo seguros). 
-        s4: Invitar a tus amigos
-        s5: Una vez los hayas invitado, te sugerimos que hagas recomendaciones y confirmes sus habilidades de modo que obtengan los primeros puntos sociales y las empresas les encuentren más rápidamente. Cuando ellos hagan lo mismo, tú obtendrás más puntos y aumentarás tu visibilidad ante las empresas.
-        s6: Deseándote un buen día,
-        s7: Michael
-    invite_email:
+--- 
+es: 
+  user_mailer: 
+    blog_digest: 
+      s1: "New blog digest mail"
+    confirmed_connection: 
+      s1: "acaba de aceptar tu invitación para unirse a tu red de contactos en theStudentRanking.com. Ya puedes ver su perfil, comparar posiciones y descubrir cómo os podéis ayudar mutuamente para mejorar vuestras puntuaciones."
+      s10: "Puntuación Personal"
+      s11: "Atentamente,\n"
+      s12: Michael
+      s2: "Ver perfil de"
+      s3: " "
+      s4: "También puedes recomendar a"
+      s5: "y confirmar sus habilidades. Esto permitirá que gane puntos y mejore su ranking social, haciendo mucho más fácil que las empresas le encuentren."
+      s6: "Recomendar a"
+      s7: "Confirmar sus habilidades"
+      s8: "Para saber más sobre las puntuaciones personales y sociales:"
+      s9: "Puntuación Social"
+    email_message: 
+      s1: "te ha enviado un mensaje"
+      s2: "Tu dirección de correo no va a ser cedida a terceros. Las empresas usan un formulario online de nuestra web para entrar en contacto contigo. Puedes modificar tus preferencias de contacto haciendo click en \"Mi perfil\" una vez hayas iniciado sesión."
+    event_digest: 
+      s1: "Resumen de nuevos eventos"
+    invite_email: 
       s1: "te ha invitado a unirte a theStudentranking.com"
       s2: "te ha invitado a unirte a theStudentranking.com"
       s3: "Pruébalo aquí."
       s4: "theStudentRanking.com proporciona un ranking global para estudiantes y recién graduados. Compárate con tus pares a nivel mundial, nacional e, incluso, dentro de tu universidad y de tu especialidad. También puedes comprobar el desarrollo de tus amigos y contactar con algunas de las empresas más reconocidas del mundo. Compruébalo ahora - es gratis!"
-    email_message: 
-      s1: "te ha enviado un mensaje"
-      s2: "Tu dirección de correo no va a ser cedida a terceros. Las empresas usan un formulario online de nuestra web para entrar en contacto contigo. Puedes modificar tus preferencias de contacto haciendo click en \"Mi perfil\" una vez hayas iniciado sesión."
-    job_digest:
+    job_digest: 
       s0: ": Grandes empresas están buscando candidatos como tú"
       s1: "Ofertas de interés para ti"
-      s2: Ver todas las ofertas de trabajo
-      s3: Ver oferta
+      s2: "Ver todas las ofertas de trabajo"
+      s3: "Ver oferta"
       s4: "Deja que te contraten rápidamente"
-      s5: Actualiza tu perfil
-    blog_digest:
-      s1: "New blog digest mail"
-    event_digest:
-      s1: "Resumen de nuevos eventos"
-    welcome_email:
-      s1: soy Michael, de theStudentRanking.com. Gracias por registrarte en nuestra web - ¡espero que disfrutes con nuestro sistema! Juntos vamos a intentar conocer tu perfil y el de tus amigos para ayudarte a mejorar tus logros y aumentar tu valor en el mercado de modo que las empresas de todo el mundo contacten contigo lo más pronto posible.
-      s2: Este mensaje sirve para confirmar tu registro y también será de ayuda a la hora de encontrar los datos de tu cuenta. Te has registrado con el email XXX.XXX@XXX.com. En caso de que te olvidas de tu contraseña, puedes solicitar una nueva
-      s3: ¿Estás preparado para construir tu carrera? Actualiza ahora mismo tu perfil con tus últimos logros y empieza a ganar los primeros puntos y mayor visibilidad.
-      s4: Crear tu perfil
-      s5: A menudo, las empresas buscan candidatos que puedan certificar “socialmente” sus logros y habilidades. Gracias a las confirmaciones que tus amigos pueden hacer de tus habilidades, podrás certificar tus logros y ello aumentará tu puntuación social: por cada recomendación recibida de un amigo, te ofreceremos el 5% de su puntuación personal y los añadiremos a tu puntuación social; además, por cada habilidad certificada también ganarás puntos. En estos momentos tu puntuación social es cero, pero puedes empezar a sumar puntos invitando a tus amigos a unirse a theStudentRanking.com. 
-      s6: Invitar amigos
-      s7: También puedes configurar tus preferencias
-      s8: Conseguir el primer empleo
-      s9: es una serie de 9 artículos que hemos redactado para prepararte para el mercado laboral. Visita nuestro blog para saber cómo conseguir algunos de los mejores puestos de trabajo que existen. Es muy fácil.
-      s10: Estamos muy contentos de tenerte a bordo,
-      s11: Michael
-      s12: PD: Cualquier comentario o sugerencia que tengas no dudes en hacérmela llegar. Puedes escribirme cuando quieras.
-    skill_confirmed:
-      s1: tu contacto
-      s2: acaba de confirmar algunas de tus habilidades:
-      s3: Estas confirmaciones han elevado tu puntuación social a
-      s4: Ver mi perfil
-      s5: ha introducido recientemente algunas habilidades. Ayúdale también a aumentar su puntuación social y a ganar visibilidad frente a las empresas que buscan los mejores candidatos. ¿Puedes confirmar algunas de las siguientes habilidades?
-      s6: Confirmar estas habilidades
-      s7: Atentamente,
-      s8: Michael
-    recommendation_received:
-      s1: Acabas de recibir una recomendación de  
-      s2: Esto ha permitido que tu puntuación social aumente. Visita tu perfil para comprobar tu ranking social.
-      s3: Ver mi perfil
-      s4: También puedes recomendar a 
-      s5: para ayudarle a mejorar su puntuación social. 
-      s6: Recomendar a
-      s7: Las recomendaciones recibidas de los ocho amigos con mayor puntuación personal proporcionarán un 5% de sus puntos a 
-      s8: los cuales serán reflejados en su puntuación social. Para aumentar tu puntuación social, puedes obtener más información aquí:
-      s9: Sistema de puntuación social
-      s10: Atentamente,
-      s11: Michael
-    confirmed_connection:
-      s1: acaba de aceptar tu invitación para unirse a tu red de contactos en theStudentRanking.com. Ya puedes ver su perfil, comparar posiciones y descubrir cómo os podéis ayudar mutuamente para mejorar vuestras puntuaciones.
-      s2: "Ver perfil de"
-      s3: " "
-      s4: También puedes recomendar a 
-      s5: y confirmar sus habilidades. Esto permitirá que gane puntos y mejore su ranking social, haciendo mucho más fácil que las empresas le encuentren. 
-      s6: Recomendar a 
-      s7: Confirmar sus habilidades
-      s8: Para saber más sobre las puntuaciones personales y sociales:
-      s9: Puntuación Social
-      s10: Puntuación Personal
-      s11: Atentamente,
-      s12: Michael
-    new_position:
-      s0: Has obtenido una nueva posición en theStudentRanking.com
-      s1: Como nos habías pedido que te informaramos cuando tu posición en theStudentRanking.com cambie, queremos informarte de que el sistema ha recalculado tu posición ahora que hay más de
-      s2: usuarios en la plataforma.
-      s3: Haz click aquí para conocer tu posición
-      s4: Algunos de tus contactos también han cambiado de posición y de puntuación. Aprovecha para recomendarles o para confirmar algunas de sus habilidades.
-      s5: Haz click aquí para ver tus contactos
-      s6: Atentamente,
+      s5: "Actualiza tu perfil"
+    new_position: 
+      s0: "Has obtenido una nueva posición en theStudentRanking.com"
+      s1: "Como nos habías pedido que te informaramos cuando tu posición en theStudentRanking.com cambie, queremos informarte de que el sistema ha recalculado tu posición ahora que hay más de"
+      s2: "usuarios en la plataforma."
+      s3: "Haz click aquí para conocer tu posición"
+      s4: "Algunos de tus contactos también han cambiado de posición y de puntuación. Aprovecha para recomendarles o para confirmar algunas de sus habilidades."
+      s5: "Haz click aquí para ver tus contactos"
+      s6: "Atentamente,\n"
       s7: Michael
-    weekly_digest:
-      s1: Este es el resumen semanal de theStudentRanking.com.
-      s2: Contactos:
+    recommendation_received: 
+      s1: "Acabas de recibir una recomendación de"
+      s10: "Atentamente,\n"
+      s11: Michael
+      s2: "Esto ha permitido que tu puntuación social aumente. Visita tu perfil para comprobar tu ranking social."
+      s3: "Ver mi perfil"
+      s4: "También puedes recomendar a"
+      s5: "para que gane más puntos."
+      s6: "Recomendar a"
+      s7: "Las recomendaciones recibidas de los ocho amigos con mayor puntuación personal proporcionarán un 5% de sus puntos a"
+      s8: "los cuales serán reflejados en su puntuación social. Para aumentar tu puntuación social, puedes obtener más información aquí:"
+      s9: "Sistema de puntuación social"
+    skill_confirmed: 
+      s1: "tu contacto"
+      s2: "acaba de confirmar algunas de tus habilidades:"
+      s3: "Estas confirmaciones han elevado tu puntuación social a"
+      s4: "Ver mi perfil"
+      s5: "ha introducido recientemente algunas habilidades. Ayúdale también a aumentar su puntuación social y a ganar visibilidad frente a las empresas que buscan los mejores candidatos. ¿Puedes confirmar algunas de las siguientes habilidades?"
+      s6: "Confirmar estas habilidades"
+      s7: "Atentamente,\n"
+      s8: Michael
+    suggestions: 
+      completed_internship: 
+        s1: "Por lo que parece, acabas de terminar unas prácticas – o por lo menos eso es lo que dice tu plan de carrera."
+        s10: Michael
+        s2: "Si es así, te animamos a que actualices tu perfil para obtener más puntos gracias a la experiencia laboral obtenida:"
+        s3: "Actualizar mi experiencia laboral"
+        s4: "Quizás también sea bueno actualizar tu plan de carrera para reflejar tus metas y disponibilidades actuales. ¿Estás disponible para hacer más prácticas en los próximos años?"
+        s5: "Actualizar mi plan de carrera"
+        s6: "Cuando actualizas tu perfil, no solo incrementas tu visibilidad, sino que también aumenta la puntuación social de aquellos amigos a los que has recomendado, haciéndoles más visibles ante las empresas que buscan los mejores candidatos."
+        s7: "¿Te gustaría tener más conexiones? Invita a tus amigos y aumenta tu puntuación social."
+        s8: "Incrementa tu puntuación social"
+        s9: "Que tengas un día fabuloso,\n"
+      empty_career_plan: 
+        s1: "A menudo, las empresas en proceso de contratación filtran las búsquedas de candidatos en función de su plan de carrera: ¿Cuál es tu disponibilidad para empezar prácticas o puestos de jornada completa en dichas empresas?"
+        s2: "Cuando las empresas seleccionan tu perfil, tienen la posibilidad de enviarte mensajes e invitaciones a eventos. Por ello, es muy importante que tu plan de carrera esté siempre actualizado, sobre todo en lo que concierne a tu disponibilidad."
+        s3: "Actualizar experiencia laboral"
+        s4: "Actualizar plan de carrera"
+        s5: "Haz que las empresas te encuentren y contacten contigo fácilmente. Aprovecha las oportunidades que te ofrecen y empieza una gran carrera profesional."
+        s6: "A tu disposición,\n"
+        s7: Michael
+      inactive: 
+        s1: "soy Michael de theStudentRanking.com. Imagino que has estado muy ocupado/a en los últimos meses. Seguro que habrás tenido nuevas experiencias, adquirido algunas habilidades y crecido personalmente."
+        s2: "Te escribo porque es muy probable que tu posición en theStudentRanking.com hay subido debido, especialmente, a las horas invertidas en estudios, experiencias laborales y nuevas habilidades adquiridas."
+        s3: "Te animo a que actualices tu perfil para que conozcas tu nueva posición en el ránking y  también para saber cómo han evolucionado tus amigos."
+        s4: "Ver mi perfil"
+        s5: "Deseándote un buen día,\n"
+        s6: Michael
+      languages_skills: 
+        s1: "soy Michael de theStudentRanking.com. Veo que has rellenado algunas partes de tu perfil, lo cual es muy bueno porque esto te debería dar los primeros resultados de tu ránking y permite a las empresas acceder a tu CV."
+        s10: "Si hay cualquier cosa que pueda hacer por ti en relación a tu perfil, no dudes en contactar conmigo."
+        s11: "Atentamente,\n"
+        s12: Michael
+        s2: "Para facilitar aún más que las empresas contacten contigo, te recomendamos que introduzcas más datos sobre tus habilidades y logros académicos."
+        s3: "Actualizar idiomas"
+        s4: "Actualizar habilidades"
+        s5: "Actualizar logros"
+        s6: "Estas habilidades sumarán puntos a tu puntuación personal que harán que subas en la clasificación global."
+        s7: "En estos momentos, esta es tu puntuación personal:"
+        s8: "Para demostrar tus habilidades, puedes invitar a tus amigos a que se unan a theStudentRanking y ellos podrán confirmar tus capacidades."
+        s9: "Invitar amigos"
+      profile_empty: 
+        s1: "soy Michael de theStudentRanking.com."
+        s2: "Para construir tu carrera es necesario conectar con las empresas. En estos momentos tienes un perfil en theStudentRanking pero, al estar vacío, las empresas no pueden encontrarte. Dale un empujón a tu carrera rellenando tu perfil y podrás comprobar los resultados por ti mismo - ¿cuántos mensajes de las empresas te estarás perdiendo en estos momentos?"
+        s3: "Añadir estudios"
+        s4: "Actualizar el perfil de vez en cuando te ayudará a ver tu progreso en comparación con otros candidatos – si quieres mejorar tu visibilidad, esta es tu oportunidad."
+        s5: "Tú y tus amigos también podéis poneros metas en común para mejorar notas, habilidades lingüísticas o vuestra experiencia laboral. Usad nuestro sistema para mejorar mientras os apoyáis unos a los otros."
+        s6: "Invitar amigos"
+        s7: "Estamos muy contentos de tenerte a bordo,\n"
+        s8: Michael
+        s9: "PD: Cualquier comentario o sugerencia que tengas no dudes en hacérmela llegar. Puedes escribirme cuando quieras."
+      s1: "Las empresas buscan idiomas o habilidades en tu perfil"
+      s2: "Las empresas filtran las búsquedas en función de la puntuación social para encontrar los mejores candidatos"
+      s3: "El plan de carrera te ayuda a tener más éxito"
+      s4: "Tu recientes prácticas"
+      s5: "Las empresas buscan candidatos como tú"
+      social_points: 
+        s1: "soy Michael de theStudentRanking.com. Con el fin de dar mayor visibilidad a tu perfil, nos hemos dado cuenta de que tus amigos en Facebook no han conectado contigo en theStudentRanking lo que hace que tu puntuación social sea cero."
+        s2: "Como sabes, theStudentRanking les ayudará a conocer su valor en el mercado y, tanto a ellos como a ti, os dará una idea de cómo aumentar ese valor en el mercado. Trabajar en conjunto será una fuente de estímulo para vosotros y hará más fácil mejorar dicho valor."
+        s3: "Invitar a tus amigos es muy fácil y rápido (tus datos seguirán permaneciendo seguros)."
+        s4: "Invitar a tus amigos"
+        s5: "Una vez los hayas invitado, te sugerimos que hagas recomendaciones y confirmes sus habilidades de modo que obtengan los primeros puntos sociales y las empresas les encuentren más rápidamente. Cuando ellos hagan lo mismo, tú obtendrás más puntos y aumentarás tu visibilidad ante las empresas."
+        s6: "Deseándote un buen día,\n"
+        s7: Michael
+    weekly_digest: 
+      s1: "Este es el resumen semanal de theStudentRanking.com."
+      s10: "de tus habilidades han sido confirmadas durante esta semana."
+      s11: "ha apoyado tu carrera."
+      s12: "Confirma las habilidades de tus contactos aquí y ayudaros mutuamente a encontrar trabajo."
+      s13: "Confirmar habilidades"
+      s14: "Recomendaciones:"
+      s15: "No has recibido ninguna recomendación durante esta semana."
+      s16: "Has recibido recomendaciones durante esta semana"
+      s17: "Ver recomendaciones"
+      s18: "Haz click aquí para ayudar a tus amigos a desarrollar su carrera."
+      s2: "Contactos:"
       s3: "Tienes 5 nuevos contactos – "
-      s4: te ha añadido
-      s5: Tienes un nuevo contacto
-      s6: No tienes nuevos contactos
-      s7: Añadir contactos aquí
-      s8: Habilidades:
-      s9: Tus contactos no han confirmado ninguna de tus habilidades durante esta semana.
-      s10: de tus habilidades han sido confirmadas durante esta semana. 
-      s11: ha apoyado tu carrera.
-      s12: Confirma las habilidades de tus contactos aquí y ayudaros mutuamente a encontrar trabajo.
-      s13: Confirmar habilidades
-      s14: Recomendaciones:
-      s15: No has recibido ninguna recomendación durante esta semana.
-      s16: "Has recibido recomendaciones durante esta semana" 
-      s17: Ver recomendaciones
-      s18: Haz click aquí para ayudar a tus amigos a desarrollar su carrera.
+      s4: "te ha añadido"
+      s5: "Tienes un nuevo contacto"
+      s6: "No tienes nuevos contactos"
+      s7: "Añadir contactos aquí"
+      s8: "Habilidades:"
+      s9: "Tus contactos no han confirmado ninguna de tus habilidades durante esta semana."
+    welcome_email: 
+      s1: "soy Michael, de theStudentRanking.com. Gracias por registrarte en nuestra web - ¡espero que disfrutes con nuestro sistema! Juntos vamos a intentar conocer tu perfil y el de tus amigos para ayudarte a mejorar tus logros y aumentar tu valor en el mercado de modo que las empresas de todo el mundo contacten contigo lo más pronto posible."
+      s10: "Estamos muy contentos de tenerte a bordo,\n"
+      s11: Michael
+      s12: "PD: Cualquier comentario o sugerencia que tengas no dudes en hacérmela llegar. Puedes escribirme cuando quieras."
+      s2: "Este mensaje sirve para confirmar tu registro y también será de ayuda a la hora de encontrar los datos de tu cuenta. Te has registrado con el email XXX.XXX@XXX.com. En caso de que te olvidas de tu contraseña, puedes solicitar una nueva"
+      s3: "¿Estás preparado para construir tu carrera? Actualiza ahora mismo tu perfil con tus últimos logros y empieza a ganar los primeros puntos y mayor visibilidad."
+      s4: "Crear tu perfil"
+      s5: "A menudo, las empresas buscan candidatos que puedan certificar socialmente sus logros y habilidades. Gracias a las confirmaciones que tus amigos pueden hacer de tus habilidades, podrás certificar tus logros y ello aumentará tu puntuación social: por cada recomendación recibida de un amigo, te ofreceremos el 5% de su puntuación personal y los añadiremos a tu puntuación social; además, por cada habilidad certificada también ganarás puntos. En estos momentos tu puntuación social es cero, pero puedes empezar a sumar puntos invitando a tus amigos a unirse a theStudentRanking.com."
+      s6: "Invitar amigos"
+      s7: "También puedes configurar tus preferencias"
+      s8: "Conseguir el primer empleo"
+      s9: "es una serie de 9 artículos que hemos redactado para prepararte para el mercado laboral. Visita nuestro blog para saber cómo conseguir algunos de los mejores puestos de trabajo que existen. Es muy fácil."
+
