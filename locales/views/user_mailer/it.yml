@@ -8,17 +8,17 @@ it:
       s5: Le aziende ricercano candidati come te
       completed_internship:
         s1: sembra che tu abbia appena concluso uno stage- almeno è quello che si evince dal tuo piano di carriera. 
-        s2: Se è così, aggiorna subito il tuo profilo e guadagna punti per il risultato che hai conseguito:
+        s2: 'Se è così, aggiorna subito il tuo profilo e guadagna punti per il risultato che hai conseguito'
         s3: Aggiorna la mia esperienza lavorativa
-        s4: Potresti anche aggiornare il tuo piano di carriera per riflettere i tuoi nuovi obiettivi e progetti: sarai disponibile a svolgere un altro stage nei prossimi anni? 
+        s4: Potresti anche aggiornare il tuo piano di carriera per riflettere i tuoi nuovi obiettivi e progetti, sarai disponibile a svolgere un altro stage nei prossimi anni? 
         s5: Aggiorna il mio piano di carriera
-        s6: Aggiornare il profilo è utile non sono per te, ma anche per i tuoi amici: le persone che hai raccomandato beneficeranno in percentuale del tuo punteggio e saranno trovate più facilmente dai recruiter che ricercano candidati brillanti come te.
+        s6: Aggiornare il profilo è utile non sono per te, ma anche per i tuoi amici. Le persone che hai raccomandato beneficeranno in percentuale del tuo punteggio e saranno trovate più facilmente dai recruiter che ricercano candidati brillanti come te.
         s7: Vuoi più contatti? Invita tutti i tuoi contatti e aumenta il tuo punteggio social!
         s8: Aumenta il punteggio social
         s9: Buona giornata,
         s10: Michael
       empty_career_plan:
-        s1: I recruiter effettuano spesso una ricerca dei profili filtrandoli in base ai piani di carriera: stai ricercando uno stage o una posizione full-time? 
+        s1: I recruiter effettuano spesso una ricerca dei profili filtrandoli in base ai piani di carriera, stai ricercando uno stage o una posizione full-time? 
         s2: Una volta in grado ti rintracciarti all’interno del sistema, i recruiter potranno inviarti messaggi e inviti. Ciò richiede, da parte tua, un costante aggiornamento del tuo piano di carriera, nel quale è bene indicare la tua disponibilità. 
         s3: Aggiorna esperienza lavorativa
         s4: Aggiorna il tuo piano di carriera
@@ -33,7 +33,7 @@ it:
         s5: Buona giornata,
         s6: Michael
       languages_skills:
-        s1: sono Michael di theStudentRanking.com. Hai già completato gran parte del tuo profilo: è un’ottima cosa visto che in questo modo puoi visualizzare il tuoi risultato nel ranking ed essere trovato facilmente dai recruiter. 
+        s1: sono Michael di theStudentRanking.com. Hai già completato gran parte del tuo profilo, è un’ottima cosa visto che in questo modo puoi visualizzare il tuoi risultato nel ranking ed essere trovato facilmente dai recruiter. 
         s2: Per rendergli la ricerca ancora più facile, inserisci qualche dettaglio in più sulle tue competenze e sui tuoi risultati.
         s3: Aggiorna le tue lingue
         s4: Aggiorna le tue competenze
@@ -54,7 +54,7 @@ it:
         s6: Invita i tuoi amici
         s7: Felice di averti a bordo,
         s8: Michael
-        s9: PS: ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.
+        s9: PS ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.
       social_points:
         s1: Sono Michael di theStudentRanking.com. Dando un’occhiata al tuo profilo, ho notato che nessuno dei tuoi amici di Facebook si è connesso con te su  theStudentRanking – il tuo punteggio social è pari a zero.
         s2: Utilizzando il nostro sistema, anche loro potrebbero imparare qualcosa in più su loro stessi e scoprire come migliorarsi. Ciò aiuterà anche te ad essere più motivato e potrete unire le vostre forze per diventare più efficienti nel mercato del lavoro.
@@ -72,7 +72,7 @@ it:
       s1: "ti ha inviato un messaggio"
       s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha utilizzato il form presente sul nostro sito per contattarti. Puoi modificare le impostazioni di contatto cliccando su \"Il mio account\" dopo esserti registrato."
     job_digest:
-      s0: ": Le migliori aziende cercano candidati come te"
+      s0: "Le migliori aziende cercano candidati come te"
       s1: "Lavori che potrebbero interessarti"
       s2: Visualizza tutte le offerte di lavoro
       s3: Visualizza offerta di lavoro
@@ -94,10 +94,10 @@ it:
       s9: è una serie di 9 articoli che ti aiuterà a prepararti all’ingresso nel mondo del lavoro. Dai un’occhiata al nostro Blog per capire come approfittare delle migliori offerte che ti si prospetteranno.
       s10: Felice di averti a bordo,
       s11: Michael
-      s12: PS: ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.
+      s12: PS ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.
     skill_confirmed:
       s1: Il tuo contatto 
-      s2: ha appena confermato le tue competenze:
+      s2: ha appena confermato le tue competenze
       s3: Questo ha aumentato il tuo punteggio Social di 
       s4: Controlla il mio profilo
       s5: ha aggiunto nuove competenze di recente. Aiutalo ad aumentare il suo punteggio e ad essere trovato più facilmente dai recruiter alla ricerca dei migliori candidati. Puoi confermare le seguenti competenze? 
@@ -112,7 +112,7 @@ it:
       s5: e aiutarlo a guadagnare punti social.  
       s6: Raccomanda 
       s7: Le raccomandazioni effettuate dai tuoi migliori otto contatti (valutati in base alla posizione in classifica) forniscono il 5% del loro punteggio totale al tuo 
-      s8: punteggio Social. Se vuoi saperne qualcosa in più e migliorare, leggi qui:
+      s8: punteggio Social. Se vuoi saperne qualcosa in più e migliorare, leggi qui
       s9: Il sistema di punteggio Social
       s10: Cordiali saluti,
       s11: Michael
@@ -124,7 +124,7 @@ it:
       s5: XXX e confermare le sue competenze. In questo modo lo aiuterai a guadagnare punti e a migliorare il suo punteggio social, permettendo anche alle aziende di trovarlo più facilmente. 
       s6: Raccomanda
       s7: Conferma le competenze
-      s8: Se vuoi saperne di più sui sistemi di punteggio Personale e Social clicca qui:
+      s8: Se vuoi saperne di più sui sistemi di punteggio Personale e Social clicca qui
       s9: Punteggio Social
       s10: Punteggio Personale
       s11: Cordiali saluti,
@@ -146,7 +146,7 @@ it:
       s5: Hai un nuovo contatto
       s6: Non hai nuovi contatti
       s7: Aggiungi nuovi contatti qui
-      s8: Competenze:
+      s8: Competenze
       s9: Nessun contatto ha confermato le tue competenze questa settimana.
       s10: delle tue competenze sono state confermate questa settimana.
       s11: ha supportato la tua carriera.
