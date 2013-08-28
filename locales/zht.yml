@@ -2,8 +2,8 @@ zht:
   activerecord:
     errors:
       messages:
-        after: "should end later"
-        before: "should start before"
+        after: "至少要晚於"
+        before: "至少要早於"
   nationalities:
     AL: "Albania"
     DZ: "Algeria"
@@ -262,16 +262,16 @@ zht:
     80: 'Cebuano'
     103: 'Chew'
     76: 'Chhattisgarhi'
-    7: 'Chinese (Cantonese)'
-    65: 'Chinese (Gan)'
-    60: 'Chinese (Hakka)'
-    5: 'Chinese (Mandarin)'
-    95: 'Chinese (Min Bei)'
-    100: 'Chinese (Min Dong)'
-    44: 'Chinese (Min Nan)'
-    8: 'Chinese (Other)'
-    6: 'Chinese (Wu)'
-    52: 'Chinese (Xiang)'
+    7: '中文 (粵語)'
+    65: '中文 (贛語)'
+    60: '中文 (客家語)'
+    5: '中文 (漢語)'
+    95: '中文 (閩北語)'
+    100: '中文 (閩東語)'
+    44: '中文 (閩南語)'
+    8: '中文 (其他)'
+    6: '中文 (吳語)'
+    52: '中文 (湘語)'
     92: 'Chittagonian'
     31: 'Czech'
     9: 'Danish'
