@@ -1,15 +1,15 @@
 zht:
   work_experiences:
     edit:
-      s1: Edit work experience
+      s1: 編輯工作經驗
     modal:
       html:
-        s1: Work Experience
+        s1: 工作經驗
     new:
-      s1: New work experience
+      s1: 新增工作經驗
     show:
-      s1: Work experience
+      s1: 工作經驗
     work_experience:
-      s1: Description
-      s2: Hours
-      s3: per week
+      s1: 內容描述
+      s2: 時數
+      s3: 每週
