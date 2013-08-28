@@ -698,6 +698,20 @@ it:
         s5: "Non hai ancora ricevuto la email di sblocco?"
         s6: "Accedi con"
     dry: 
+      yes: "Si"
+      no: "No"
+      na: "Non disponibile"
+      details: "Dettagli"
+      close: "Chiudi"
+      save: "Salva"
+      edit: "Modifica"
+      cancel: "Cancella"
+      customize_settings_link: Personalizza i messaggi che vuoi ricevere
+      edit_privacy_link: Modifica le impostazioni sulla privacy
+      jobs_link: Offerte di lavoro
+      advice_link: Consigli
+      hi: Ciao
+      here: qui    
       area: 
         s1: Università/Scuola
         s2: Social
