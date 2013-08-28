@@ -2,7 +2,7 @@ en:
   user_mailer: 
     blog_digest: 
       s1: "Email-resumo do novo blog"
-    confirmed_connection: 
+    connection_confirmed: 
       s1: "aceitou o teu convite no theStudentRanking.com. Agora podes ver o seu perfil, comparar os vossos resultados e descobrir como se ajudarem mutuamente a melhorar."
       s10: "Resultado das realizações"
       s11: "Atentamente,\n"
@@ -15,9 +15,13 @@ en:
       s7: "Confirmar competências"
       s8: "Se quiseres saber mais sobre como funcionam os resultados social e das realizações:"
       s9: "Resultado Social"
+    connection_request:
+      s1: "quer ligar-se a ti através do theStudentRanking.com. Isto permite-te receber mais recomendações e ter mais competências confirmadas - o que melhora o teu resultado social."
+      s2: "Liga-te agora e torna mais fácil para ambos serem encontrados por recrutadores."
+      s3: "Confirmar pedido"
     email_message: 
       s1: "enviou-te uma mensagem"
-      s2: "O seu email está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para entrar em contacto consigo. Pode mudar as suas preferências de contacto se carregar em \"Minha conta\" após login."
+      s2: "O teu email está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para entrar em contacto consigo. Pode mudar as suas preferências de contacto se carregar em \"Minha conta\" após login."
     event_digest: 
       s1: "Email-resumo de novo evento"
     invite_email: 
