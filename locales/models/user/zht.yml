@@ -4,8 +4,8 @@ zht:
       email: E-mail
       password: 密碼
       password_confirmation: 確認密碼
-      first_name: 姓名
-      last_name: Last name
+      first_name: 中文姓名
+      last_name: 英文姓名
       avatar: 檔案照
       nationality: 國籍
       language: 語言
