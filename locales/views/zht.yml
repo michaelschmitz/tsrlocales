@@ -64,8 +64,8 @@ zht:
         locations: 現在所居城市
         max_salary: 最高薪資
         min_salary: "xxx: 最低薪資 "
-        recruit_me: 理想中的僱主
-        remind_me: 新的排名位置更新
+        recruit_me: 理想的僱主
+        remind_me: 更新排名
         work_in_germany: 能合法工作於
       publication: 
         description: 名稱
@@ -86,7 +86,7 @@ zht:
         startdate: 開始日期
       skill: 
         document: 上傳證明文件
-        level: 程度
+        level: 技能等級
         months: 月數
         name: 技能名稱
         years: 年數
@@ -96,7 +96,7 @@ zht:
         name: 名稱
         startdate: 開始日期
       user: 
-        accepted_tos: 服務條款與資料隱私
+        accepted_tos: 服務條款與隱私政策
     errors: 
       messages: 
         accepted: 必須接受
@@ -200,10 +200,10 @@ zht:
         one: 大約1小時
         other: "大約%{count}小時"
       about_x_months: 
-        one: "大約1 month"
-        other: "大約%{count}月"
+        one: "大約1個月"
+        other: "大約%{count}個月"
       about_x_years: 
-        one: "大約1 year"
+        one: "大約1年"
         other: "大約%{count}年"
       almost_x_years: 
         one: 幾乎1年
@@ -241,13 +241,13 @@ zht:
   helpers: 
     label: 
       companies: 
-        name: 公司名
+        name: 公司名稱
       cvsearch: 
         age_group: 出生年份
         average: "GPA (平均在學成績)"
         exchange: 交換/合作大學名稱
         festanstellung_available: 何時可到職
-        festanstellung_date: 固定日期
+        festanstellung_date: 特定日期
         grade_scale: 成績系統
         graduation_year: 畢業年份
         internship_experience: 實習經驗總月數
@@ -270,7 +270,7 @@ zht:
         document: 上傳成績單、畢業證書等文件
         ects: 已完成學分/歐洲學分轉換系統(?)
         enddate: "(預計) 畢業日期"
-        featured: 你想要被本網站標榜為此大學的特色學生之一嗎？這將使你個人的部分資料公開。
+        featured: 你想要被標榜為此大學的特色學生之一嗎？這將使你個人的部分資料公開。
         grade_final_work: 最終成績
         major: 主修
         name: "大學 (高等教育)"
@@ -291,9 +291,9 @@ zht:
         logo: 公司商標
         password: 密碼
         payment_preference: 付款方式
-        rebatecode: 折扣代碼
+        rebatecode: 優惠代碼
         street: 地址
-        url: 申請網址
+        url: 網址
         vat_number: "VAT 號碼"
       event: 
         anmerkung: 日期內容
@@ -303,7 +303,7 @@ zht:
         intro: "簡介 (最多320字)"
         link: 活動網址
         location: 地址
-        sponsor: 其他贊助廠商
+        sponsor: 贊助商
       exchangeuni: 
         enddate: 結束日期
         name: 大學
@@ -321,7 +321,7 @@ zht:
         move_city: 你願意搬到國內的另一個地方工作嗎？
         move_country: 你願意搬到國外工作嗎？
         teilzeit: 你在找的工作性質
-        travel: 出差多少是可以接受的？
+        travel: 出差意願
       job: 
         average_hours: "每週時數 (大約)"
         company: 公司或組織名稱
