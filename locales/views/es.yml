@@ -977,7 +977,7 @@ es:
         s3: "Use el ránking mundial para contactar con las mejores empresas del mundo."
         s4: "Global ranking. Global jobs."
       global_links: 
-        s1: "Ver todos los empleos"
+        s1: "Ver todas las ofertas"
         s2: "Ver todos los eventos"
         s3: "Ver todas las actividades"
         s4: "Ver todos los estudiantes"
@@ -2546,3 +2546,4 @@ es:
         s7: "Máster en Administración de Empresas"
         s8: Derecho
         s9: Ingeniería
+
