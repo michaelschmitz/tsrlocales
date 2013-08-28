@@ -18,11 +18,11 @@ zht:
         titel: 學位
         title: 學科
       employer: 
-        accepted_tos: 服務條款與資料隱私
+        accepted_tos: 服務條款與隱私政策
         company_name: 公司
         contact_name: 您的姓名
         password: 密碼
-        rebatecode: 折扣代碼
+        rebatecode: 優惠代碼
       event: 
         date: 日期
         deadline: 申請截止日
@@ -30,7 +30,7 @@ zht:
         intro: 簡介
         link: 申請網址
         location: 地址
-        sponsor: 其他贊助商
+        sponsor: 贊助商
         titel: 活動名稱
       job: 
         average_hours: "每周時數 (大約)"
