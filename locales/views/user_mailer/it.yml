@@ -87,7 +87,7 @@ it:
       s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con XXX.XXX@XXX.com. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
       s3: Sei pronto per costruire la tua carriera? Inizia subito aggiornando il tuo profilo con i tuoi risultati, in modo da ottenere punti e visibilità. 
       s4: Crea il tuo profilo
-      s5: Le aziende ricercano candidati in grado di fornire una “conferma sociale” dei propri risultati. Avere dei contatti che confermino le tue competenze e forniscano raccomandazioni può essere molto utile nella ricerca di un lavoro e migliorerà il tuo punteggio Social: guadagni il 5% del punteggio Personale di chi ti ha raccomandato e ulteriori punti per ogni competenza confermata. Ad ora il tuo punteggio Social è pari a zero. Puoi aumentarlo invitando i tuoi contatti a partecipare al ranking. 
+      s5: "Le aziende ricercano candidati in grado di fornire una \“conferma sociale\” dei propri risultati. Avere dei contatti che confermino le tue competenze e forniscano raccomandazioni può essere molto utile nella ricerca di un lavoro e migliorerà il tuo punteggio Social: guadagni il 5% del punteggio Personale di chi ti ha raccomandato e ulteriori punti per ogni competenza confermata. Ad ora il tuo punteggio Social è pari a zero. Puoi aumentarlo invitando i tuoi contatti a partecipare al ranking." 
       s6: Invita i tuoi contatti
       s7: Puoi anche modificare le tue preferenze in modo facile e veloce 
       s8: Come ottenere il tuo primo lavoro
@@ -140,7 +140,7 @@ it:
       s7: Michael
     weekly_digest:
       s1: Questo è il riassunto settimanale di theStudentRanking.com.
-      s2: Contatti:
+      s2: Contatti
       s3: "Hai cinque nuovi contatti – "
       s4: ti ha aggiunto
       s5: Hai un nuovo contatto
@@ -152,7 +152,7 @@ it:
       s11: ha supportato la tua carriera.
       s12: Conferma le competenze dei tuoi contatti cliccando qui e aiutali ad essere trovati dai recruiter.
       s13: Conferma competenze
-      s14: Raccomandazioni:
+      s14: Raccomandazioni
       s15: Non hai ricevuto raccomandazioni questa settimana
       s16: "Hai ricevuto raccomandazioni questa settimana"
       s17: Visualizza le tue raccomandazioni
