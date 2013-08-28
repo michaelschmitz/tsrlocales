@@ -6,7 +6,7 @@ pt:
       password_confirmation: Confirmar Password 
       first_name: Primeiro nome
       last_name: Último nome
-      avatar: Imagem
+      avatar: Foto de perfil
       nationality: Nacionalidade
       language: Língua
       date_of_birth: Data de nascimento
