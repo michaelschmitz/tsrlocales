@@ -86,12 +86,12 @@ en:
         startdate: "Start date"
       skill: 
         document: Certificate
-        hours_application: "Hours of practical usage"
-        hours_training: "Hours of Training"
         level: Level
         months: Months
         name: "Name of skill"
         years: Years
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
       stipend: 
         document: Attachment
         enddate: "End date"
@@ -246,7 +246,7 @@ en:
         name: Name
       cvsearch: 
         age_group: "Year of birth"
-        average: "Grade point average"
+        average: "GPA studies"
         exchange: "Name of Exchange/Partner University"
         festanstellung_available: Availability
         festanstellung_date: "Fixed date"
@@ -267,6 +267,7 @@ en:
         travel: "Willing to travel"
         university: University
         work_experience: "Work experience in months"
+        average: Grade point average
       degree: 
         average: Average
         document: Transcript
@@ -383,7 +384,6 @@ en:
         firstname: "First name"
         gender: Gender
         job_confirmation: "Job offers"
-        language: "Preferred language"
         lastname: "Last name"
         max_salary: "Salary: Maximum"
         min_salary: "Salary: Minimum"
@@ -392,6 +392,7 @@ en:
         recruit_me: "Preferred Employer"
         score_email: "Update on new position"
         work_in_germany: "Allowed to work"
+        language: "Preferred language"
       prize: 
         area: "Award or Prize"
         document: Attachment
@@ -418,12 +419,12 @@ en:
         organization: "Name of organization"
       skill: 
         document: Certificate
-        hours_application: "Hours of practical usage"
-        hours_training: "Hours of Training"
         included: "Last used at"
         level: Level
         months: "Experience Months"
         years: "Experience Years"
+        hours_application: "Hours of practical usage"
+        hours_training: "Hours of Training"
       stipend: 
         document: Attachment
         enddate: "End date"
@@ -503,7 +504,8 @@ en:
       sshort: "%d. %B %Y"
     pm: pm
   views: 
-    anschreiben_mailer: ~
+    anschreiben_mailer: 
+      
     candidates: 
       index: 
         s1: Candidates
@@ -551,14 +553,14 @@ en:
         s25: until
         s26: "Last school degree, Grade"
         s27: "Work experience"
-        s28: Languages
-        s28a: Skills
+        s28: "Languages"
+        s28a: "Skills"
         s3: Locations
         s34: Interests
         s4: "Willing to travel"
         s47: Experience
-        s48: "hours application"
-        s49: "hours training"
+        s48: hours application
+        s49: hours training
         s5: Move
         s50: current
         s51: at
@@ -696,8 +698,21 @@ en:
         s4: "Confirmation mail not received?"
         s5: "Unlock email not received?"
         s6: "Sign in with"
-    dry: 
+    dry:
+      yes: "Yes"
+      no: "No"
+      na: "Not available"
+      details: "Details"
+      close: "Close"
+      save: "Save"
+      edit: "Edit"
+      cancel: "Cancel"
+      customize_settings_link: Customize which messages you receive
+      edit_privacy_link: Edit privacy settings
+      jobs_link: Jobs
       advice_link: Advice
+      hi: Hello
+      here: here
       area: 
         s1: University/School
         s2: Social
@@ -731,8 +746,6 @@ en:
         s7: "Information Technology"
         s8: "Engineering and Research Services"
         s9: "Logistics, Transportation, Procurement"
-      cancel: Cancel
-      close: Close
       contract: 
         s1: Apprenticeship
         s2: Internship
@@ -975,16 +988,11 @@ en:
         s97: Kiribati
         s98: "United States MO Islands"
         s99: "Cocos Islands (Keeling-Islands)"
-      customize_settings_link: "Customize which messages you receive"
-      details: Details
-      edit: Edit
-      edit_privacy_link: "Edit privacy settings"
       facebook: 
         s1: "Your data is used to fill the details in your student profile and to make it easier to get started"
         s2: "Use the global ranking and your profile to connect with the world's best companies. View your result and learn how to improve your skills and market value quickly. Compare yourself with your friends and fellow students globally, in your country and at your university"
         s3: "Use the global ranking and your profile to connect with the world's best companies."
         s4: "Global ranking. Global jobs."
-      false: "No"
       global_links: 
         s1: "View all jobs"
         s2: "View all events"
@@ -994,9 +1002,6 @@ en:
         s6: "View all universities"
         s7: "View all friends"
         s8: "View all employers"
-      here: here
-      hi: Hello
-      jobs_link: Jobs
       languages: 
         s0: "No selection"
         s1: "Other language"
@@ -1043,10 +1048,10 @@ en:
         s137: Yiddish
         s138: Schwyzerdütsch
         s139: Farsi
-        s14: Greek
         s140: Esperanto
         s141: Euskara
-        s142: "Sign language"
+        s142: Sign language
+        s14: Greek
         s15: Hebrew
         s16: Hindi
         s17: Icelandic
@@ -1145,7 +1150,6 @@ en:
         s1: Beginner
         s2: Experienced
         s3: Expert
-      na: "Not available"
       prize: 
         s1: Award
         s2: "Prize (Sport)"
@@ -1165,27 +1169,25 @@ en:
         s3: "Functional role (e.g. Administration)"
         s4: "Local leadership role (e.g. Trainer)"
         s5: "Strategic leadership role (e.g. Board member)"
-      save: Save
       sort: 
         s1: "Achivement Score"
         s2: "Social Score"
       studyarea: 
         s0: All
-        s1: Agriculture
+        s1: "Agriculture"
         s10: "Social and Political Sciences"
-        s11: Languages
+        s11: "Languages"
         s12: "Business and Economics"
         s13: Other
         s14: "Engineering (Electrical)"
         s15: "Engineering (Industrial)"
         s16: "Computer Science"
-        s17: Humanities
-        s18: Economics
-        s19: Biology
-        s2: "Engineering (other)"
-        s20: Chemistry
-        s21: Physics
-        s22: Geology
+        s17: "Humanities"
+        s18: "Economics"
+        s19: "Biology"
+        s20: "Chemistry"
+        s21: "Physics"
+        s22: "Geology"
         s23: "Engineering (Mechanical)"
         s24: "Engineering (Civil)"
         s25: "Engineering (Chemical)"
@@ -1193,22 +1195,23 @@ en:
         s27: "Engineering (Nuclear)"
         s28: "Forestry, Fishery"
         s29: "Animal husbandry"
-        s3: Law
-        s30: Architecture
+        s30: "Architecture"
         s31: "Nutrition and Sports"
-        s32: Music
+        s32: "Music"
         s33: "Hospitality and Tourism"
         s34: "Philosophy, Theology"
-        s35: Econometrics
-        s36: Pharmacology
+        s35: "Econometrics"
+        s36: "Pharmacology"
         s37: "Veterinary medicine"
         s38: "Communication, Journalism and PR"
+        s2: Engineering (other)
+        s3: Law
         s4: Teaching
         s5: Mathemathics
         s6: Medicine
         s7: "Art and Design"
         s8: "Natural Sciences (other)"
-        s9: Psychology
+        s9: "Psychology"
       titel: 
         s1: All
         s10: Magister
@@ -1243,7 +1246,6 @@ en:
         s3: "Maximum 75%"
         s4: 100%
         s5: "No Travel"
-      true: "Yes"
       validations: 
         pdf: "Only .pdf documents allowed"
     employers: 
@@ -1376,7 +1378,7 @@ en:
         s26: "Telephone: 0049 2405 1402428"
         s27: "Email: info@thestudentranking.com"
         s28: "200 Messages"
-        s28a: Message
+        s28a: "Message"
         s29: "Job offer"
         s3: "Services are free of charge according to our agreement. Information shown below serves as a chronological overview."
         s4: "Current Invoice:"
@@ -1528,7 +1530,7 @@ en:
         s36: Recruiters
         s37: Imprint
         s38: "Data privacy"
-        s39: "Terms of Service"
+        s39: Terms of Service
         s3a: "Login problems?"
         s4: or
         s40: Pricing
@@ -1578,7 +1580,7 @@ en:
         s4: "Not provided"
       links: 
         s1: "Achivement comparison"
-        s2: Recommendations
+        s2: "Recommendations"
         s3: "Confirmed Skills"
         s4: "Ranking charts"
         s5: "Friend comparison"
@@ -1598,14 +1600,14 @@ en:
         s16: Skills
         s16a: "No skills specified so far."
         s17: Confirm
-        s18: "Ask for recommendations from your friends"
-        s19: "via Facebook"
-        s2: A
-        s20: "via Email"
-        s21: "Please provide a recommendation for me on"
+        s18: Ask for recommendations from your friends 
+        s19: via Facebook
+        s20: via Email
+        s21: Please provide a recommendation for me on 
         s22: theStudentRanking.com.
-        s23: "This increases my chances to be found and hired by employers and you might also win an iPad mini if you sign up."
-        s24: "Thanks already!"
+        s23: This increases my chances to be found and hired by employers and you might also win an iPad mini if you sign up.
+        s24: Thanks already!
+        s2: A
         s3: pts
         s4: S
         s5: St.
@@ -1823,7 +1825,7 @@ en:
         s27: current
         s28: at
         s29: "last used"
-        s29a: ago
+        s29a: "ago"
         s3: "Calculate rank"
         s30: at
         s31: "privately learned"
@@ -1878,7 +1880,10 @@ en:
     prizes: 
       newedit: 
         s1: Awards
-    public: 
+    publications: 
+      newedit: 
+        s1: Publications
+    public:
       ranking: 
         s1: "The student ranking: How valuable are your experiences?"
         s2: "Our global ranking test provides you with points for everything you achieved so far - and then compares you with colleagues and other students."
@@ -1886,9 +1891,6 @@ en:
         s4: "Do you want to find out how others in your age group have been doing? Our global system runs comparisons based on your age, your studies and your university. Who is the best at your university, which university is the best?"
         s5: "Get your ranking result - start now!"
         s6: xxx
-    publications: 
-      newedit: 
-        s1: Publications
     schools: 
       editnew: 
         s1: School
@@ -1961,7 +1963,7 @@ en:
         s7: Science
         s8: Other
         s9: "Active membership"
-    shared: 
+    shared:
       activities: 
         s1: "has earned"
         s1a: ""
@@ -1987,8 +1989,8 @@ en:
         s15: "Submit a job offer via email with a PDF or HTML description to "
         s16: info@thestudentranking.com
         s2: "We are looking forward to your message and will reply within 24 hours."
-        s3: Name
-        s4: Company
+        s3: "Name"
+        s4: "Company"
         s5: Email
         s6: Telephone
         s7: Message
@@ -2020,8 +2022,8 @@ en:
         s5: Prices
         s6: "Sent messages can be found"
         s7: here
-      rankingmenu: 
-        s0: "Global Ranking"
+      rankingmenu:
+        s0: Global Ranking 
         s1: "Masters in Management"
         s10: Medicine
         s11: "Natural Sciences"
@@ -2037,7 +2039,7 @@ en:
         s7: Law
         s8: Teaching
         s9: Mathematics
-      slider: ~
+      slider: 
       sponsors: 
         s1: "These companies and many more are looking for new colleagues"
       testimonial: 
@@ -2098,7 +2100,7 @@ en:
         s22: Participants
         s23: "More information"
         s24: "Featured Students"
-        s25: Fees
+        s25: "Fees"
         s26: Domestic
         s27: International
         s28: Undergraduate
@@ -2111,8 +2113,8 @@ en:
         s34: "More companies"
         s35: "This ranking is updated daily."
         s36: "Which university has the best students? This ranking uses the average student achievement score to provide an indication of the overall quality and skill level of the students. The average grade of all participants is also provided, which can be used to check whether overly positive grading may have led to skewed results. All rankings, apart from the MBA ranking, are based on the age group of 1990-1992, as these are the most populous group of students currently studying and present at almost all universities worldwide."
-        s37: "Details about the ranking methodology can be found at the"
-        s38: "bottom of this page."
+        s37: Details about the ranking methodology can be found at the
+        s38: bottom of this page.
         s4: "University Ranking: Engineering "
         s5: "University Ranking: Industrial Engineering "
         s6: "University Ranking: Language Studies"
