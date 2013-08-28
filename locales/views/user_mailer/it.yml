@@ -101,12 +101,12 @@ it:
       s3: Questo ha aumentato il tuo punteggio Social di 
       s4: Controlla il mio profilo
       s5: ha aggiunto nuove competenze di recente. Aiutalo ad aumentare il suo punteggio e ad essere trovato più facilmente dai recruiter alla ricerca dei migliori candidati. Puoi confermare le seguenti competenze? 
-      s6: Conferma questa competenza
+      s6: Conferma
       s7: Cordiali saluti,
       s8: Michael
     recommendation_received:
       s1: hai appena ricevuto una raccomandazione da
-      s2: , aumentando il tuo punteggio Social. Controlla il tuo profilo per vedere com’è cambiata la tua posizione nel ranking dei punteggi Social.
+      s2: aumentando il tuo punteggio Social. Controlla il tuo profilo per vedere com’è cambiata la tua posizione nel ranking dei punteggi Social.
       s3: Controlla il mio profilo
       s4: Puoi anche raccomandare a tua volta 
       s5: e aiutarlo a guadagnare punti social.  
