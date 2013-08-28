@@ -1,159 +1,160 @@
-en:  
-  user_mailer:
-    suggestions:
-      s1: Companies search for languages or skills on your profile
-      s2: Companies filter by social points to find great candidates
-      s3: Your career plan helps you become more successful
-      s4: Your recent internship
-      s5: Companies are looking for candidates like you
-      completed_internship:
-        s1: it seems like you just finished an internship - at least that's what your career plan indicates.
-        s2: If you did, then quickly update your profile and earn achievement points for the work you have done:
-        s3: Update my work experience
-        s4: You might also want to update your career plan to reflect your new goals and timeline. Will you be available for another internship during the next years? 
-        s5: Update my career plans
-        s6: Updating your profile is valuable not only for yourself, but also of great value for your friends: People you have recommended will benefit from your achievement score and will be found more easily be recruiters looking for great candidates like you. 
-        s7: Want more connections? Invite your contacts and grow your social score!
-        s8: Gain social score
-        s9: Have a great day,
-        s10: Michael      
-      empty_career_plan:
-        s1: recruiters looking for your profile often filter by career plans: When will you be available for internships or full-time positions? 
-        s2: Once recruiters can find you inside the system, they will be able to send you messages and invitations. This requires an up-to-date career plan when it comes to your availability.
-        s3: Update work experience
-        s4: Update new career plans
-        s5: Make it easy for them to find and connect with you - then take your chances and ensure a great career.
-        s6: Let me know if I can help,
-        s7: Michael
-      inactive:
-        s1: this is Michael from theStudentRanking.com. You must have been busy during the last few months - experiencing new challenges, learning new skills and building yourself. 
-        s2: It is very likely that your rank on theStudentRanking.com has increased. Specifically, the time you invested into your studies, work experiences and skills has paid off by now. 
-        s3: Update your profile to find out where you stand - and what has happened with your friends in the meantime.
-        s4: Quickly check my profile
-        s5: Have a nice day,
-        s6: Michael
-      languages_skills:
-        s1: this is Michael from theStudentRanking.com. You filled in parts of your profile already, which is great - you should be able to get some ranking results and be found by recruiters as well.
-        s2: Make it even easier for them to find you by providing more details about your skills and achievements.
-        s3: Update your languages
-        s4: Update your skills
-        s5: Update your achievements
-        s6: These skills will also boost your achievement score, moving you up in the global ranking.
-        s7: "Your current social score is:"
-        s8: If you want to provide more social proof of your abilities and achievements, ask your friends and contacts to join the system. 
-        s9: Tell your friends
-        s10: Let me know if I can help you with anything regarding your profile.        
-        s11: Kind regards
-        s12: Michael
-      profile_empty:
-        s1: this is Michael from theStudentRanking.com. 
-        s2: If you want to build your career, then connecting with recruiters is key. You already have an empty profile on theStudentRanking.com, but recruiters can't find you yet. Give your career a boost and fill in your profile, then see the results yourself - how many messages are you missing from recruiters right now?
-        s3: Add your studies
-        s4: Updating the profile will also give you insights into your ranking compared to other candidates - if you want to improve and get better, then this is your opportunity.
-        s5: You can also work together with your friends in setting yourself goals to improve your grades, language skills or experiences. Use the system to get better by encouraging each other.
-        s6: Invite friends
-        s7: Happy to have you on board,
-        s8: Michael
-        s9: PS: Feedback is welcome - just write me at any time.
-      social_points:
-        s1: this is Michael from theStudentRanking.com. Checking your profile, it seems like none of your Facebook friends have yet connected with you on theStudentRanking - your social score is zero.
-        s2: Getting them into the system helps them learn more about themselves and provides you both with an insight into what you can do to improve. This will help you become more motivated and you can work together in becoming more valuable in the job market.
-        s3: Inviting them is easy and only takes a few seconds (and your data is safe at all times).
-        s4: Invite your friends
-        s5: Once you have invited your friends, provide them with recommendations and confirm a few of their skills, so they can be found more easily by companies. At the same time, they will do the same for you, helping you in becoming more visible as well.
-        s6: Have a nice day,
-        s7: Michael     
-    invite_email:
+--- 
+en: 
+  user_mailer: 
+    blog_digest: 
+      s1: "New blog digest mail"
+    confirmed_connection: 
+      s1: "accepted your invitation to connect on theStudentRanking.com. Now you can see his profile, compare your scores and discover how you can help each others to improve."
+      s10: "Achievement Score"
+      s11: "Kind regards,\n"
+      s12: Michael
+      s2: Check
+      s3: profile
+      s4: "You can also recommend"
+      s5: "and confirm skills. This will help your connection in gaining more points and improving their Social score, making it easier for companies to find them."
+      s6: Recommend
+      s7: "Confirm skills"
+      s8: "If you want to learn more about the achievement and social score system:"
+      s9: "Social Score"
+    email_message: 
+      s1: "has sent you a message"
+      s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact preferences by clicking on \"My account\" after logging in."
+    event_digest: 
+      s1: "New event digest mail"
+    invite_email: 
       s0: "has invited you to join theStudentranking.com"
       s1: "has invited you to join theStudentranking.com"
       s2: "Try it here."
       s3: "theStudentRanking.com provides a global student ranking for students and young professionals. Compare yourself with other people like yourself globally, nationally and even at your university or within your field. You can also learn more about how your friends are doing and connect with some of the world's best companies. Try it now - it's free!"
-    email_message:
-      s1: "has sent you a message"
-      s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact preferences by clicking on \"My account\" after logging in."
-    job_digest:
+    job_digest: 
       s0: ": Great companies are looking for candidates like you"
       s1: "Jobs you may be interested in"
-      s2: View all jobs
-      s3: View job
+      s2: "View all jobs"
+      s3: "View job"
       s4: "Get hired faster:"
-      s5: Update your profile
-    blog_digest:
-      s1: "New blog digest mail"
-    event_digest:
-      s1: "New event digest mail"
-    welcome_email:
-      s1: this is Michael from theStudentRanking.com. Thanks for your registration - I hope you will enjoy using the system. Together, we will help you learn more about yourself and your friends, support you in improving your achievements and market value and connect you with companies worldwide.
-      s2: This email confirms your registration and helps you find your account again. You registered with XXX.XXX@XXX.com. If you ever forget your password, you can request a new one
-      s3: Ready to build your career? Get started now by updating your profile with some of your achievements and earn points and visibility.
-      s4: Build your profile
-      s5: Companies often look for candidates that can provide "social proof" of their achievements. Having your connections confirm your skills and provide recommendations can be highly valuable for your job search and will improve your social score: You gain 5% of each recommenders' achievement score to your social score and additional points for each confirmed skill. Right now, your social score is zero. Build it by inviting your connections to join the ranking.
-      s6: Invite connections
-      s7: You can also quickly edit your preferences
-      s8: Getting that first job
-      s9: is our 9-part article series about preparing yourself for the job market.  Check out our blog and learn how to get some of the best positions out there - easily.
-      s10: Happy to have you on board,
-      s11: Michael
-      s12: PS: Feedback is welcome - just write me at any time.
-    skill_confirmed:
-      s1: your connection
-      s2: just confirmed some of your skills:
-      s3: This has increased your social score to
-      s4: Check my profile
-      s5: has recently added some skills as well. Help him grow his score and be found more easily by recruiters looking for great candidates. Can you confirm the following skills?
-      s6: Confirm this skill
-      s7: Kind regards,
-      s8: Michael
-    recommendation_received:
-      s1: you just received a recommendation from 
-      s2: This has increased your social score. Check out your profile to see how you are doing in the social score ranking.
-      s3: Check my profile
-      s4: You can also recommend 
-      s5: and help increase the social score.
-      s6: Recommend
-      s7: Recommendations from the eight highest ranked connections provide 5% of their total points to 
-      s8: social score. If you want to improve, read more about the social score system here:
-      s9: The social score system
-      s10: Kind regards,
-      s11: Michael
-    confirmed_connection:
-      s1: accepted your invitation to connect on theStudentRanking.com. Now you can see his profile, compare your scores and discover how you can help each others to improve.
-      s2: "Check"
-      s3: "profile"
-      s4: You can also recommend
-      s5: and confirm skills. This will help your connection in gaining more points and improving their Social score, making it easier for companies to find them. 
-      s6: Recommend
-      s7: Confirm skills
-      s8: If you want to learn more about the achievement and social score system:
-      s9: Social Score
-      s10: Achievement Score
-      s11: Kind regards,
-      s12: Michael
-    new_position:
-      s0: You have gained a new position on theStudentRanking.com
-      s1: you have asked to be informed when you position on theStudentRanking.com has changed. The system has recalculated your position now, with more than
-      s2: users in the system.
-      s3: Click here to view your ranking
-      s4: Some of your connections have also changed their positions and scores. Use the chance to recommend them or to confirm their skills.
-      s5: Click here to view your connections
-      s6: Kind regards,
+      s5: "Update your profile"
+    new_position: 
+      s0: "You have gained a new position on theStudentRanking.com"
+      s1: "you have asked to be informed when you position on theStudentRanking.com has changed. The system has recalculated your position now, with more than"
+      s2: "users in the system."
+      s3: "Click here to view your ranking"
+      s4: "Some of your connections have also changed their positions and scores. Use the chance to recommend them or to confirm their skills."
+      s5: "Click here to view your connections"
+      s6: "Kind regards,\n"
       s7: Michael
-    weekly_digest:
-      s1: This is your weekly summary from theStudentRanking.com.
-      s2: Connections:
+    recommendation_received: 
+      s1: "you just received a recommendation from"
+      s10: "Kind regards,\n"
+      s11: Michael
+      s2: "This has increased your social score. Check out your profile to see how you are doing in the social score ranking."
+      s3: "Check my profile"
+      s4: "You can also recommend"
+      s5: "and help increase the social score."
+      s6: Recommend
+      s7: "Recommendations from the eight highest ranked connections provide 5% of their total points to"
+      s8: "social score. If you want to improve, read more about the social score system here:"
+      s9: "The social score system"
+    skill_confirmed: 
+      s1: "your connection"
+      s2: "just confirmed some of your skills:"
+      s3: "This has increased your social score to"
+      s4: "Check my profile"
+      s5: "has recently added some skills as well. Help him grow his score and be found more easily by recruiters looking for great candidates. Can you confirm the following skills?"
+      s6: "Confirm this skill"
+      s7: "Kind regards,\n"
+      s8: Michael
+    suggestions: 
+      completed_internship: 
+        s1: "it seems like you just finished an internship - at least that's what your career plan indicates."
+        s10: Michael
+        s2: "If you did, then quickly update your profile and earn achievement points for the work you have done"
+        s3: "Update my work experience"
+        s4: "You might also want to update your career plan to reflect your new goals and timeline. Will you be available for another internship during the next years?"
+        s5: "Update my career plans"
+        s6: "Updating your profile is valuable not only for yourself, but also of great value for your friends: People you have recommended will benefit from your achievement score and will be found more easily be recruiters looking for great candidates like you. "
+        s7: "Want more connections? Invite your contacts and grow your social score!"
+        s8: "Gain social score"
+        s9: "Have a great day,\n"
+      empty_career_plan: 
+        s1: "recruiters looking for your profile often filter by career plans: When will you be available for internships or full-time positions? "
+        s2: "Once recruiters can find you inside the system, they will be able to send you messages and invitations. This requires an up-to-date career plan when it comes to your availability."
+        s3: "Update work experience"
+        s4: "Update new career plans"
+        s5: "Make it easy for them to find and connect with you - then take your chances and ensure a great career."
+        s6: "Let me know if I can help,\n"
+        s7: Michael
+      inactive: 
+        s1: "this is Michael from theStudentRanking.com. You must have been busy during the last few months - experiencing new challenges, learning new skills and building yourself."
+        s2: "It is very likely that your rank on theStudentRanking.com has increased. Specifically, the time you invested into your studies, work experiences and skills has paid off by now."
+        s3: "Update your profile to find out where you stand - and what has happened with your friends in the meantime."
+        s4: "Quickly check my profile"
+        s5: "Have a nice day,\n"
+        s6: Michael
+      languages_skills: 
+        s1: "this is Michael from theStudentRanking.com. You filled in parts of your profile already, which is great - you should be able to get some ranking results and be found by recruiters as well."
+        s10: "Let me know if I can help you with anything regarding your profile."
+        s11: "Kind regards"
+        s12: Michael
+        s2: "Make it even easier for them to find you by providing more details about your skills and achievements."
+        s3: "Update your languages"
+        s4: "Update your skills"
+        s5: "Update your achievements"
+        s6: "These skills will also boost your achievement score, moving you up in the global ranking."
+        s7: "Your current social score is:"
+        s8: "If you want to provide more social proof of your abilities and achievements, ask your friends and contacts to join the system."
+        s9: "Tell your friends"
+      profile_empty: 
+        s1: "this is Michael from theStudentRanking.com."
+        s2: "If you want to build your career, then connecting with recruiters is key. You already have an empty profile on theStudentRanking.com, but recruiters can't find you yet. Give your career a boost and fill in your profile, then see the results yourself - how many messages are you missing from recruiters right now?"
+        s3: "Add your studies"
+        s4: "Updating the profile will also give you insights into your ranking compared to other candidates - if you want to improve and get better, then this is your opportunity."
+        s5: "You can also work together with your friends in setting yourself goals to improve your grades, language skills or experiences. Use the system to get better by encouraging each other."
+        s6: "Invite friends"
+        s7: "Happy to have you on board,\n"
+        s8: Michael
+        s9: "PS: Feedback is welcome - just write me at any time."
+      s1: "Companies search for languages or skills on your profile"
+      s2: "Companies filter by social points to find great candidates"
+      s3: "Your career plan helps you become more successful"
+      s4: "Your recent internship"
+      s5: "Companies are looking for candidates like you"
+      social_points: 
+        s1: "this is Michael from theStudentRanking.com. Checking your profile, it seems like none of your Facebook friends have yet connected with you on theStudentRanking - your social score is zero."
+        s2: "Getting them into the system helps them learn more about themselves and provides you both with an insight into what you can do to improve. This will help you become more motivated and you can work together in becoming more valuable in the job market."
+        s3: "Inviting them is easy and only takes a few seconds (and your data is safe at all times)."
+        s4: "Invite your friends"
+        s5: "Once you have invited your friends, provide them with recommendations and confirm a few of their skills, so they can be found more easily by companies. At the same time, they will do the same for you, helping you in becoming more visible as well."
+        s6: "Have a nice day,\n"
+        s7: Michael
+    weekly_digest: 
+      s1: "This is your weekly summary from theStudentRanking.com."
+      s10: "of your skills were confirmed this week."
+      s11: "supported your career."
+      s12: "Confirm your connections skills by clicking here and help each other be found."
+      s13: "Confirm skills"
+      s14: "Recommendations:"
+      s15: "You did not receive any recommendations this week."
+      s16: "You received recommendations this week"
+      s17: "View your recommendations"
+      s18: "Click here to help your connections in building their career."
+      s2: "Connections:"
       s3: "You have five new connections – "
-      s4: added you
-      s5: You have one new connection
-      s6: You have no new connections.
-      s7: Add new connections here
-      s8: Skills:
-      s9: None of your connections have confirmed any of your skills this week.
-      s10: of your skills were confirmed this week. 
-      s11: supported your career.
-      s12: Confirm your connections’ skills by clicking here and help each other be found.
-      s13: Confirm skills
-      s14: Recommendations:
-      s15: You did not receive any recommendations this week.
-      s16: "You received recommendations this week" 
-      s17: View your recommendations
-      s18: Click here to help your connections in building their career. 
+      s4: "added you"
+      s5: "You have one new connection"
+      s6: "You have no new connections."
+      s7: "Add new connections here"
+      s8: "Skills:"
+      s9: "None of your connections have confirmed any of your skills this week."
+    welcome_email: 
+      s1: "this is Michael from theStudentRanking.com. Thanks for your registration - I hope you will enjoy using the system. Together, we will help you learn more about yourself and your friends, support you in improving your achievements and market value and connect you with companies worldwide."
+      s10: "Happy to have you on board,\n"
+      s11: Michael
+      s12: "PS: Feedback is welcome - just write me at any time."
+      s2: "This email confirms your registration and helps you find your account again. You registered with XXX.XXX@XXX.com. If you ever forget your password, you can request a new one"
+      s3: "Ready to build your career? Get started now by updating your profile with some of your achievements and earn points and visibility."
+      s4: "Build your profile"
+      s5: "Companies often look for candidates that can provide \"social proof\" of their achievements. Having your connections confirm your skills and provide recommendations can be highly valuable for your job search and will improve your social score: You gain 5% of each recommenders' achievement score to your social score and additional points for each confirmed skill. Right now, your social score is zero. Build it by inviting your connections to join the ranking."
+      s6: "Invite connections"
+      s7: "You can also quickly edit your preferences"
+      s8: "Getting that first job"
+      s9: "is our 9-part article series about preparing yourself for the job market. Check out our blog and learn how to get some of the best positions out there - easily."
