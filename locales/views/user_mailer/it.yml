@@ -64,11 +64,96 @@ it:
         s6: Buona giornata,
         s7: Michael   
     invite_email:
+      s0: "ti ha invitato a unirti a theStudentranking.com"
       s1: "ti ha invitato a unirti a theStudentranking.com"
-      s2: "ti ha invitato a unirti a theStudentranking.com"
-      s3: "Provalo qui."
-      s4: "theStudentRanking.com fornisce un ranking globale per studenti e giovani professionisti. Confrontati con i tuoi pari a livello globale, nazionale, e anche all'interno della tua università e nella tua area di studio. Puoi scoprire come il percorso dei tuoi amici ed entrare in contatto con le migliori aziende del mondo. Provalo adesso- è gratis!"
+      s2: "Provalo qui."
+      s3: "theStudentRanking.com fornisce un ranking globale per studenti e giovani professionisti. Confrontati con i tuoi pari a livello globale, nazionale, e anche all'interno della tua università e nella tua area di studio. Puoi scoprire il percorso dei tuoi amici ed entrare in contatto con le migliori aziende del mondo. Provalo adesso- è gratis!"
     email_message:
       s1: "ti ha inviato un messaggio"
       s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha utilizzato il form presente sul nostro sito per contattarti. Puoi modificare le impostazioni di contatto cliccando su \"Il mio account\" dopo esserti registrato."
-
+    job_digest:
+      s0: ": Le migliori aziende cercano candidati come te"
+      s1: "Lavori che potrebbero interessarti"
+      s2: Visualizza tutte le offerte di lavoro
+      s3: Visualizza offerta di lavoro
+      s4: "Fatti assumere velocemente:"
+      s5: Aggiorna il tuo profilo
+    blog_digest:
+      s1: "New blog digest mail"
+    event_digest:
+      s1: "Sintesi dei nuovi eventi"
+    welcome_email:
+      s1: sono Michael di theStudentRanking.com. Ti ringrazio per esserti registrato sul nostro sito- spero ti divertirai a usare il sistema! Ti aiuteremo a scoprire nuove utili informazioni su te stesso e su i tuoi amici, a migliorare i tuoi risultati e il tuo valore nel mercato del lavoro e a entrare in contatto con le aziende di tutto il mondo. 
+      s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con XXX.XXX@XXX.com. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
+      s3: Sei pronto per costruire la tua carriera? Inizia subito aggiornando il tuo profilo con i tuoi risultati, in modo da ottenere punti e visibilità. 
+      s4: Crea il tuo profilo
+      s5: Le aziende ricercano candidati in grado di fornire una “conferma sociale” dei propri risultati. Avere dei contatti che confermino le tue competenze e forniscano raccomandazioni può essere molto utile nella ricerca di un lavoro e migliorerà il tuo punteggio Social: guadagni il 5% del punteggio Personale di chi ti ha raccomandato e ulteriori punti per ogni competenza confermata. Ad ora il tuo punteggio Social è pari a zero. Puoi aumentarlo invitando i tuoi contatti a partecipare al ranking. 
+      s6: Invita i tuoi contatti
+      s7: Puoi anche modificare le tue preferenze in modo facile e veloce 
+      s8: Come ottenere il tuo primo lavoro
+      s9: è una serie di 9 articoli che ti aiuterà a prepararti all’ingresso nel mondo del lavoro. Dai un’occhiata al nostro Blog per capire come approfittare delle migliori offerte che ti si prospetteranno.
+      s10: Felice di averti a bordo,
+      s11: Michael
+      s12: PS: ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.
+    skill_confirmed:
+      s1: Il tuo contatto 
+      s2: ha appena confermato le tue competenze:
+      s3: Questo ha aumentato il tuo punteggio Social di 
+      s4: Controlla il mio profilo
+      s5: ha aggiunto nuove competenze di recente. Aiutalo ad aumentare il suo punteggio e ad essere trovato più facilmente dai recruiter alla ricerca dei migliori candidati. Puoi confermare le seguenti competenze? 
+      s6: Conferma questa competenza
+      s7: Cordiali saluti,
+      s8: Michael
+    recommendation_received:
+      s1: hai appena ricevuto una raccomandazione da
+      s2: , aumentando il tuo punteggio Social. Controlla il tuo profilo per vedere com’è cambiata la tua posizione nel ranking dei punteggi Social.
+      s3: Controlla il mio profilo
+      s4: Puoi anche raccomandare a tua volta 
+      s5: e aiutarlo a guadagnare punti social.  
+      s6: Raccomanda 
+      s7: Le raccomandazioni effettuate dai tuoi migliori otto contatti (valutati in base alla posizione in classifica) forniscono il 5% del loro punteggio totale al tuo 
+      s8: punteggio Social. Se vuoi saperne qualcosa in più e migliorare, leggi qui:
+      s9: Il sistema di punteggio Social
+      s10: Cordiali saluti,
+      s11: Michael
+    confirmed_connection:
+      s1: ha accettato il tuo invito a connettersi a theStudentRanking.com. Ora sei in grado di accedere al suo profilo, confrontare i vostri punteggi  e scoprire in che modo potete darvi una mano per migliorare.
+      s2: "Controlla"
+      s3: "il profilo"
+      s4: Puoi anche raccomandare 
+      s5: XXX e confermare le sue competenze. In questo modo lo aiuterai a guadagnare punti e a migliorare il suo punteggio social, permettendo anche alle aziende di trovarlo più facilmente. 
+      s6: Raccomanda
+      s7: Conferma le competenze
+      s8: Se vuoi saperne di più sui sistemi di punteggio Personale e Social clicca qui:
+      s9: Punteggio Social
+      s10: Punteggio Personale
+      s11: Cordiali saluti,
+      s12: Michael
+    new_position:
+      s0: Hai ottenuto una nuova posizione su theStudentRanking.com
+      s1: come ci avevi richiesto, ti informiamo ogni volta che la tua posizione cambia. Il sistema ha ricalcolato la tua posizione ora che ci sono più di
+      s2: utenti nel sistema.
+      s3: Clicca qui per visualizzare la tua posizione nel ranking
+      s4: Anche la posizione e il punteggio di alcuni dei tuoi contatti è cambiata. Approfitta di questa occasione per raccomandarli o per confermare le loro competenze. 
+      s5: Clicca qui per visualizzare i tuoi contatti
+      s6: Cordiali saluti,
+      s7: Michael
+    weekly_digest:
+      s1: Questo è il riassunto settimanale di theStudentRanking.com.
+      s2: Contatti:
+      s3: "Hai cinque nuovi contatti – "
+      s4: ti ha aggiunto
+      s5: Hai un nuovo contatto
+      s6: Non hai nuovi contatti
+      s7: Aggiungi nuovi contatti qui
+      s8: Competenze:
+      s9: Nessun contatto ha confermato le tue competenze questa settimana.
+      s10: delle tue competenze sono state confermate questa settimana.
+      s11: ha supportato la tua carriera.
+      s12: Conferma le competenze dei tuoi contatti cliccando qui e aiutali ad essere trovati dai recruiter.
+      s13: Conferma competenze
+      s14: Raccomandazioni:
+      s15: Non hai ricevuto raccomandazioni questa settimana
+      s16: "Hai ricevuto raccomandazioni questa settimana"
+      s17: Visualizza le tue raccomandazioni
+      s18: Clicca qui per aiutare i tuoi contatti a costruire la loro carriera 
