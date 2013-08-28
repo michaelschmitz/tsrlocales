@@ -22,6 +22,54 @@ en:
       1: 'After every event'
       2: 'Every month'
       3: 'Never'
+    new_position_email:
+      0: 'never'
+      1: '1 week'
+      2: '2 weeks'
+      4: '1 month'
+      12: '3 months'
+      24: '6 months'
+      48: '12 months'
+    suggestion_email:
+      0: 'never'
+      1: '1 week'
+      2: '2 weeks'
+      4: '1 month'
+      12: '3 months'
+      24: '6 months'
+      48: '12 months'
+    job_email:
+      0: 'never'
+      1: '1 week'
+      2: '2 weeks'
+      4: '1 month'
+      12: '3 months'
+      24: '6 months'
+      48: '12 months'
+    recomendation_skill_email:
+      individual: "Individual email"
+      weekly: "Weekly Summary"
+      never: "Never"
+    connection_request_email:
+      individual: "Individual email"
+      weekly: "Weekly Summary"
+      never: "Never"
+    event_email:
+      0: 'never'
+      1: '1 week'
+      2: '2 weeks'
+      4: '1 month'
+      12: '3 months'
+      24: '6 months'
+      48: '12 months'
+    blog_email:
+      0: 'never'
+      1: '1 week'
+      2: '2 weeks'
+      4: '1 month'
+      12: '3 months'
+      24: '6 months'
+      48: '12 months'
   activerecord:
     models:
       user: 'User'
