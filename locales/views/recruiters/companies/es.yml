@@ -11,7 +11,7 @@ es:
         s1: Editar su empresa   #Exacto -> Cada reclutador tiene una empresa asignada, por lo que solo podrá editar los datos de una empresa, no crearla de nuevo.
       show:
         s1: Información sobre la empresa
-        s2: Dircción
+        s2: Dirección
         s3: Información adicional
         s4: Esta información no estará visible para el público
         s5: Número fiscal
