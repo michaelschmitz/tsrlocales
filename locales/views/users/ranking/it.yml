@@ -2,10 +2,6 @@
 it: 
   users: 
     ranking: 
-      achievement_ranking: 
-        s1: "Confronto per punteggio personale"
-        s2: "Punti per +1"
-        s3: Congratulazioni!
       analysis: 
         s100: "Analisi e Suggerimenti"
         s101: "Fare domanda per lavori e stage è il test definitivo per le tue credenziali. Qui sotto potrai trovare consigli per il tuo CV e suggerimenti su cosa fare per migliorare la tua performance."
@@ -626,25 +622,29 @@ it:
         s18d: "E la tua esperienza in questi ruoli è molto preziosa. Usa la tua esperienza per cercare nuove opportunità e presentare le tue competenze e abilità descrivendo in che modo sarebbero applicabili al nuovo ruolo. Una volta ottenuto il lavoro, concentrati sui risultati che ti rendono un elemento indispensabile per i manager."
         s18e: "Ad ogni modo la più grande sfida che dovrai affrontare riguarda la situazione economica attuale e il modo in cui influisce sulla tua condizione e sulla tua specializzazione. Per crescere a livello personale e professionale cerca di ottenere un buon lavoro full-time, anche in un altro settore o fuori dalla tua comfort zone."
         s18f: "L'esperienza che acquisirai potrà essere usata in futuro per ottenere una posizione migliore in un altro campo e potrai sfruttare l'occasione per crearti un network di contatti in nuovo settore."
-        s18g: "Mettiti alla ricerca di opportunità e vedrai che si presenteranno da sole."        
+        s18g: "Mettiti alla ricerca di opportunità e vedrai che si presenteranno da sole." 
+      main_chart:
+        explanation_button: "Mostra spiegazione"
+        asessment_title: <b>Valutazione</b> Hai guadagnato %{points} punti e ti sei classificato nella top %{percent}%
+        asessment_body_1: Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, soprattutto se sei altamente specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore.
+        asessment_body_2: Questo ranking include tutti i partecipanti di %{university} che sono nati nel tuo stesso anno. Questo confronto è adatto a valutare le tue possibilità di carriera, soprattutto se provieni da un'università che offre titoli di studio simili in un determinato ambito di studio. Se la tua università è molto grande questo tipo di confronto è solamente indicativo delle tue possibilità di carriera se fai parte dei gruppi maggiori.
+        in: in
+      achievement_ranking:
+        s1: Confronto per punteggio personale
+        s2: "Punti per +1"
+        s3: Congratulazioni!        
       breakdown_chart: 
-        s1: "Example participants from groups, born in"
+        s1: "Esempio di gruppo di partecipanti nati nel"
       charts: 
         s1: Confronto
         s2: Università
         s3: Globale
         s4: Guasto
         s5: Nazionale
-      main_chart: 
-        asessment_body_1: "Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, specialmente se sei molto specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore."
-        asessment_body_2: "Questo ranking include tutti i partecipanti di %{university} che sono nati nel tuo stesso anno. Questo confronto è adatto a valutare le tue possibilità di carriera, soprattutto se provieni da un'università che offre titoli di studio simili in un determinato ambito di studio. Se la tua università è molto grande questo tipo di confronto è solamente indicativo delle tue possibilità di carriera se fai parte dei gruppi maggiori."
-        asessment_title: "<b>Valutazione</b> Hai ottenuto %{points} I punti sono raggruppati nella top %{percent}%"
-        explanation_button: "Mostra spiegazione"
-        in: in
       preferred_employer: 
         s1: "Analisi dell'azienda"
       profile: 
-        s1: "Visualizza CV"
+        s1: "Visualizza profilo"
         s2: "Ranking globale"
         s3: su
         s4: "punti per +1"
