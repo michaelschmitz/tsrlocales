@@ -5,8 +5,8 @@ zht:
       password: 密碼
       password_confirmation: 確認密碼
       phone: 電話
-      first_name: 姓名
-      last_name: Last name
+      first_name: 中文姓名
+      last_name: 英文姓名
       title: 職稱
   activerecord:
     attributes:
