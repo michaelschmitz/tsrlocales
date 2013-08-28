@@ -1,10 +1,10 @@
 zht:  
   user_mailer:
     invite_email:
-      s1: "has invited you to join theStudentranking.com"
-      s2: "has invited you to join theStudentranking.com"
-      s3: "Try it here."
-      s4: "theStudentRanking.com provides a global student ranking for students and young professionals. Compare yourself with other people like yourself globally, nationally and even at your university or within your field. You can also learn more about how your friends are doing and connect with some of the world's best companies. Try it now - it's free!"
+      s1: "邀請你加入學生排行榜"
+      s2: "邀請你加入學生排行榜"
+      s3: "接受邀請"
+      s4: "學生排行榜為全球的學生及年輕的專業人士提供一全球排名。跟全國和全球同年齡的學生較勁，甚至同校或同領域都可以比。你也可以看看你的朋友的排名如何，並和校友及全球頂尖的公司聯絡。今天就試試吧，完全免費喔！"
     email_message:
-      s1: "has sent you a message"
+      s1: "送給你一則訊息"
       s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
