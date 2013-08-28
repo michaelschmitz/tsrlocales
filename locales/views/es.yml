@@ -696,6 +696,20 @@ es:
         s5: "No recibió el email de desbloqueo?"
         s6: "Iniciar sesión con"
     dry: 
+      yes: "Sí"
+      no: "No"
+      na: "No disponible"
+      details: "Detalles"
+      close: "Cerrar"
+      save: "Guardar"
+      edit: "Editar"
+      cancel: "Cancelar"
+      customize_settings_link: Especifica qué mensajes deseas recibir
+      edit_privacy_link: Editar configuración de privacidad
+      jobs_link: Empleo
+      advice_link: Sugerencia
+      hi: Hola
+      here: aquí
       area: 
         s1: Universidad/Escuela
         s2: Social
