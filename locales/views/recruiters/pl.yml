@@ -2,7 +2,7 @@ pl:
   recruiters:
     jobs:
       form:
-        s1: Wprowadź ręcznie
+        s1: Dodaj ofertę ręcznie
         s2: Prześlij PDF
         s3: Dokumenty
       edit:
