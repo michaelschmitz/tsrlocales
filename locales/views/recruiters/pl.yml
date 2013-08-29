@@ -44,10 +44,10 @@ pl:
     public:
       home:
         s1: "Pulpit nawigacyjny dla"
-        s10: "Wszyscy"
-        s11: "użytkownicy w naszej bazie danych"
-        s12: "Zapisz kandydatów"
-        s13: "Wyszukiwanie w bazie danych"
+        s10: "Obecnie, w bazie dostępnych jest"
+        s11: "profili"
+        s12: "Wybranych kandydatów"
+        s13: "Szukaj w bazie CV"
         s2: Płatności
         s3: "Pokaż szczegóły płatności"
         s4: "Oferty pracy"
@@ -59,14 +59,14 @@ pl:
         s14: Strona firmy
         s15: Oferty pracy
         s16: Dodaj ofertę pracy
-        s17: Za darmo.
-        s18: Szybko.
-        s19: Dla Ciebie. 
+        s17: Za darmo
+        s18: Szybko
+        s19: Skutecznie 
         s20: Baza CV
-        s21: Przeszukaj bazę danych
-        s22: Pełen dostęp.
-        s23: Tysiące kandydatów.
-        s24: Całkowicie za darmo przez 10 dni.
+        s21: Wyszukaj kandydatów w bazie CV
+        s22: Pełen dostęp
+        s23: Tysiące kandydatów
+        s24: Całkowicie za darmo przez 10 dni
         s25: Zaloguj się
         s26: Zaloguj się
         s27: Nie masz jeszcze konta?
