@@ -116,7 +116,7 @@ it:
       s9: Il sistema di punteggio Social
       s10: Cordiali saluti,
       s11: Michael
-    confirmed_connection:
+    connection_confirmed:
       s1: ha accettato il tuo invito a connettersi a theStudentRanking.com. Ora sei in grado di accedere al suo profilo, confrontare i vostri punteggi  e scoprire in che modo potete darvi una mano per migliorare.
       s2: "Controlla"
       s3: "il profilo"
@@ -129,6 +129,10 @@ it:
       s10: Punteggio Personale
       s11: Cordiali saluti,
       s12: Michael
+    connection_request:
+      s1: "vuole connettersi con te su theStudentRanking.com. In questo modo puoi ricevere raccomandazioni e conferma delle tue competenze, aumentando il tuo punteggio social."     
+      s2: "Connettiti ora e permetti a entrambi di essere trovati più facilmente dai recruiter!"
+      s3: "Conferma richiesta"
     new_position:
       s0: Hai ottenuto una nuova posizione su theStudentRanking.com
       s1: come ci avevi richiesto, ti informiamo ogni volta che la tua posizione cambia. Il sistema ha ricalcolato la tua posizione ora che ci sono più di
