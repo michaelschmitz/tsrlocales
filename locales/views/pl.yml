@@ -710,6 +710,12 @@ pl:
         s5: "Nie otrzymałeś maila odblokowującego?"
         s6: "Zaloguj się z"
     dry: 
+      customize_settings_link: "Personalizuj wiadomości, które chcesz otrzymywać"
+      edit_privacy_link: "Edytuj ustawienia prywatności"
+      jobs_link: "Oferty pracy"
+      advice_link: "Porady"
+      hi: "Cześć"
+      here: tutaj
       area: 
         s1: "Studia / Szkoła"
         s2: "Organizacja społeczna"
