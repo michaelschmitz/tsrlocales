@@ -8,7 +8,10 @@ es:
         s1: "Cambiar contraseña"
         s2: "Nueva contraseña"
         s3: "Confirmar nueva contraseña"
-        s4: "Actualizar contraseña new: s1: Olvidó su contraseña s2: Enviar enlace para recuperar mi contraseña "
+        s4: "Actualizar contraseña"
+      new:
+        s1: Olvidó su contraseña?
+        s2: Enviar enlace para recuperar mi contraseña
     rank: 
       s1: Perfil
       s2: Recomendaciones
@@ -44,13 +47,25 @@ es:
       s2: "Invitaciones a eventos, a ofertas de trabajo y a prácticas. The Student Ránking quiere proporcionarle el acceso a fabulosas oportunidades."
       s3: "De vez en cuando enviaremos emails con actualizaciones relacionadas con su posición en el ránking, ofertas de trabajo e invitaciones a eventos."
       s4: "Actualizar un nuevo puesto de trabajo"
-      s5: "Recibir email cada tres meses, indicando su nueva posición?"
+      s5: "Sí, quiero recibir mensajes cada tres meses con una actualización de mi posición"
       s6: "Ofertas de trabajo e invitaciones"
       s7: "Sí, quiero recibir ofertas de trabajo e invitaciones a eventos."
       s8: "Visible para reclutadores?"
       s8a: "Visible en el ranking?"
       s8b: "Sí, mis datos de perfil y mi foto son visibles para los visitantes a theStudentRanking.com. También acepto recomendaciones y confirmaciones de habilidades por parte de otros."
       s9: "Sí, los reclutadores y cazatalentos pueden ver mi perfil y enviarme mensajes sobre ofertas de trabajo muy bien remuneradas o eventos de interés."
+      s20: "Sugerencias para mejorar"
+      s21: "Sí, quiero recibir sugerencias sobre cómo mejorar mi perfil"
+      s22: "Recomendaciones y Confirmaciones"
+      s23: "Sí, quiero recibir mensajes cada vez que alguien me recomiende o confirme alguna de mis habilidades."
+      s24: "Solicitud de contacto"
+      s25: "Sí, quiero recibir mensajes cada vez que alguien solicite añadirme a sus contactos."
+      s26: "Avisos de ofertas de trabajo"
+      s27: "Me interesan las siguientes áreas: (elección múltiple)"
+      s28: "Eventos"
+      s29: "Sí, quiero recibir invitaciones a eventos tales como ferias y charlas."
+      s30: "Blogs"
+      s31: "Sí, quiero recibir blogs y artículos sobre empleo, redacción de CV, preparación de entrevistas, etc."
     shared: 
       links: 
         s1: "Olvidó su contraseña"
