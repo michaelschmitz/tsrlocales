@@ -48,7 +48,7 @@ pl:
       s2: "Dzięki czemu masz teraz więcej punktów za rekomendację. Sprawdź swój profil, aby zobaczyć, jak radzisz sobie w rankingu punktów za rekomendację."
       s3: "Sprawdź mój profil"
       s4: "Ty również możesz zarekomendować użytkowania"
-      s5: "i pomóc mu w zdobywaniu punktów. "
+      s5: "i pomóc mu w zdobywaniu punktów za rekomendacje. "
       s6: "Zarekomenduj użytkownika"
       s7: "Rekomendacje od ośmiu znajomych zajmujących najwyższe pozycje w rankingu, dodają 5% ich łącznych punktów za osiągnięcia, do punktów za rekomendację użytkownika "
       s8: "Jeśli chcesz poprawić swój wynik, przeczytaj więcej o systemie punktów za rekomendację tutaj:"
@@ -59,7 +59,7 @@ pl:
       s3: "Co podwyższyło Twój wynik punktowy za rekomendację do"
       s4: "Sprawdź mój profil"
       s5: "również ostatnio dodał nowe umiejętności. Pomóż mu poprawić jego wynik i być bardziej widocznym dla rekruterów szukających najlepszych kandydatów. Czy sądzisz, że możesz potwierdzić jego następujące umiejętności?"
-      s6: "Potwierdź tą umiejętność"
+      s6: "Potwierdź umiejętność"
       s7: "Pozdrawiam serdecznie,\n"
       s8: Michael
     suggestions: 
