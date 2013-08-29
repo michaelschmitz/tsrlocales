@@ -20,6 +20,10 @@ pl:
       s13: "Po każdej loterii"
       s14: "Co miesiąc"
       s15: Nigdy
+      s16: "Widoczność dla znajomych"
+      s17: "Tak, mój profil z moim nazwiskiem i zdjęciem profilowym jest widoczny dla moich znajomych. Mogę otrzymać od nich rekomendacje oraz potwierdzenia moich umiejętności."
+      s18: "Znajomi mogą widzieć mój wynik."
+      s19: "Tak, moi znajomi mogą zobaczyć moje osiągnięcia i wynik punktowy za rekomendacje."
       s2: "Zaproszenia na imprezy, interesujące oferty pracy oraz szeroki wybór płatnych staży. theStudentRanking.com zapewni Ci dostęp do doskonałych szans rozwoju kariery."
       s3: "W zależności od Twoich preferencji, możemy wysyłać Ci wiadomości z Twoją aktualną pozycją w rankingu, wyselekcjonowanymi ofertami pracy oraz zaproszeniami na ciekawe wydarzenia."
       s4: "Aktualna pozycja w rankingu."
@@ -30,6 +34,18 @@ pl:
       s8a: "Chcesz być widoczny w rankingu?"
       s8b: "Tak, mój profil z moim imieniem i nazwiskiem może być widoczny w globalnym rankingu studentów."
       s9: "Tak, pracodawcy mogą przeglądać mój profil i wysłać mi prywatne wiadomości o swoich ofertach pracach oraz ciekawych wydarzeniach."
+      s20: "Propozycje moźliwości poprawy Twojego profilu"
+      s21: "Tak, wyślij mi wskazówki, jak mogę poprawić mój profil"
+      s22: "Rekomendacje i Potwierdzenia"
+      s23: "Tak, wyślij mi e-mail, gdy ktoś zarekomendował mnie lub potwierdził moją umiejętność."
+      s24: "Proźby o nawiązanie kontaktu"
+      s25: "Tak, wyślij mi e-mail, gdy ktoś zaprosi mnie do znajomych."
+      s26: "Powiadomienia o nowych ofertach pracy"
+      s27: "Kategorie, którymi jestem zainteresowany: (wiele wyborów)"
+      s28: "Wydarzenia"
+      s29: "Wyślij mi zaproszenia na wydarzenia, takie jak targi pracy, spotkania z firmami."
+      s30: "Blog"
+      s31: "Informuj mnie o nowych artykułach o poszukiwaniu pracy, listach motywacyjnych, rozmach o pracę itd, udostępnianych na blogu."
     shared:
       links:
         s1: Nie pamiętasz hasła?
