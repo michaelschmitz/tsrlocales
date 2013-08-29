@@ -4,7 +4,7 @@ pl:
       comparisons:
         s1: Porównanie globalne
       edit:
-        s1: "Nazwa wyszukiwania"
+        s1: "Nazwa bazy kandydatów"
       form:
         s1: Text
         s2: "Język 1"
@@ -14,11 +14,11 @@ pl:
         s5: "Język 4"
         s6: Lokalizacja
         s7: Dostępność
-        s8: Przez uczelnie
+        s8: Uczelnia
         s9: Doświadczenie
         s10: Umiejętności
         s11: Chęć do podróżowania 
-        s12: rezultaty
+        s12: rezultatów
       recruiter_profile_small:
         s1: Praktyki
         s2: Pozycja dla absolwenta
@@ -35,8 +35,8 @@ pl:
         s6: Top
         s7: Praktyki
         s8: Pozycja dla absolwenta
-        s9: Zmiana miast zamieszkania
-        s10: Zmiana państwa zamieszkania
+        s9: Zmiana miasta 
+        s10: Zmiana państwa
         s11: Chęć do podróżowani
         s12: Praca w
         s13: Ocena
@@ -71,4 +71,4 @@ pl:
           s3: Inne doświadczenie
           s4: Ranking
       show:
-        s1: Wyszukiwanie w bazie danych
+        s1: Wyszukiwanie w bazie CV
