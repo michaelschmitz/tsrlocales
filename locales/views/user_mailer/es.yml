@@ -16,6 +16,10 @@ es:
       s7: "Confirmar sus habilidades"
       s8: "Para saber más sobre las puntuaciones personales y sociales:"
       s9: "Puntuación Social"
+    connection_request:
+      s1: "ha solicitado añadirte a sus contactos en theStudentRanking.com. Aceptando contactos permitirás que puedan recomendarte y confirmar tus habilidades, lo que a su vez incrementará tu puntuación social."
+      s2: "Acepta la solicitud para que las empresas os encuentren antes."
+      s3: "Aceptar solicitud"
     email_message: 
       s1: "te ha enviado un mensaje"
       s2: "Tu dirección de correo no va a ser cedida a terceros. Las empresas usan un formulario online de nuestra web para entrar en contacto contigo. Puedes modificar tus preferencias de contacto haciendo click en \"Mi perfil\" una vez hayas iniciado sesión."
