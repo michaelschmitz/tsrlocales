@@ -22,6 +22,10 @@ pl:
       show:
         s1: "Użytkownicy, którzy wyświetlili ofertę"
         s1: "Użytkownicy, którzy aplikowali"
+      job_visitors_and_applicants:
+        s1: "Użytkownicy, którzy aplikowali"
+        s2: "Użytkownicy, którzy wyświetlili oferę"
+        s3: "Brak aplikacji."
     mailer:
       email_message:
         s1: "wysłał Ci wiadomość"
