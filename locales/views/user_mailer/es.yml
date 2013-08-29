@@ -3,7 +3,7 @@ es:
   user_mailer: 
     blog_digest: 
       s1: "New blog digest mail"
-    confirmed_connection: 
+    connection_confirmed: 
       s1: "acaba de aceptar tu invitación para unirse a tu red de contactos en theStudentRanking.com. Ya puedes ver su perfil, comparar posiciones y descubrir cómo os podéis ayudar mutuamente para mejorar vuestras puntuaciones."
       s10: "Puntuación Personal"
       s11: "Atentamente,\n"
