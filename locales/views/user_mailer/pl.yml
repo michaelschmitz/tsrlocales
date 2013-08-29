@@ -2,7 +2,7 @@ pl:
   user_mailer: 
     blog_digest: 
       s1: "Nowy wpis na blogu"
-    confirmed_connection: 
+    connection_confirmed: 
       s1: "przyjął Twoje zaproszenie do znajomych na theStudentRanking.com. Teraz masz dostęp do jego profilu, możesz porównać waszą pozycją w rankingu i dowiedzieć się co zrobić, aby pomóc sobie wzajemnie w poprawie waszych wyników."
       s10: "System punktów za osiągnięcia"
       s11: "Pozdrawiam serdecznie,\n"
@@ -15,6 +15,10 @@ pl:
       s7: "Potwierdź"
       s8: "Przeczytaj więcej o systemie punktów za rekomendację lub osiągnięcia tutaj:"
       s9: "System punktów za rekomendację"
+    connection_request:
+      s1: "chce zostać Twoim znajomym na theStudentRanking.com. Dzięki znajomym możesz otrzymywać rekomendację i potwiedzenia Twoich umiejętności - co zwiększa Twój wynik punktowy za rekomendację."
+      s2: "Zakecptuj zaproszenie i zwiększ swoje szanse na znalezienie pracy."
+      s3: "Potwierdź znajomość"
     email_message: 
       s1: "wysłał do Ciebie wiadomość"
       s2: "Twój adres e-mail jest bezpieczny i nigdy nie został udostępniony. Firma, która się z Tobą kontaktuje wykorzystuje formularz kontaktowy na naszej stronie. Możesz zmienić swoje preferencje dotyczące kontaktów, klikając na \"Moje konto \" po zalogowaniu się."
