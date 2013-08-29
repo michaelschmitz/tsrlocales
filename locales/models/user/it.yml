@@ -22,6 +22,54 @@ it:
       1: 'Dopo ogni evento'
       2: 'Ogni mese'
       3: 'Mai'
+    new_position_email:
+      0: 'mai'
+      1: '1 settimana'
+      2: '2 settimane'
+      4: '1 mese'
+      12: '3 mesi'
+      24: '6 mesi'
+      48: '12 mesi'
+    suggestion_email:
+      0: 'mai'
+      1: '1 settimana'
+      2: '2 settimane'
+      4: '1 mese'
+      12: '3 mesi'
+      24: '6 mesi'
+      48: '12 mesi'
+    job_email:
+      0: 'mai'
+      1: '1 settimana'
+      2: '2 settimane'
+      4: '1 mese'
+      12: '3 mesi'
+      24: '6 mesi'
+      48: '12 mesi'
+    recomendation_skill_email:
+      individual: "Email individuale"
+      weekly: "Riassunto settimanale"
+      never: "Mai"
+    connection_request_email:
+      individual: "Email individuale"
+      weekly: "Riassunto settimanale"
+      never: "Mai"
+    event_email:
+      0: 'mai'
+      1: '1 settimana'
+      2: '2 settimane'
+      4: '1 mese'
+      12: '3 mesi'
+      24: '6 mesi'
+      48: '12 mesi'
+    blog_email:
+      0: 'mai'
+      1: '1 settimana'
+      2: '2 settimane'
+      4: '1 mese'
+      12: '3 mesi'
+      24: '6 mesi'
+      48: '12 mesi'      
   activerecord:
     models:
       user: 'Utente'  
