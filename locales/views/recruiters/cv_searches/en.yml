@@ -25,6 +25,10 @@ en:
         s10: Skills
         s11: Travel
         s12: results
+        s13: Min points
+        s14: Distance max
+        s15: Work experience
+        s16: Internship experience
       recruiter_profile_small:
         s1: Internship
         s2: Graduate position
