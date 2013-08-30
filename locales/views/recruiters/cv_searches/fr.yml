@@ -22,28 +22,6 @@ fr:
         s3: Retirer du contact
         s4: Ajouter aux candidats
         s5: Envoyé un message
-      recruiter_profile:
-        s0: Etudiant
-        s1: Ajouter à la liste
-        s2: Message
-        s3: Nouveau message
-        s4: Afficher tous les messages
-        s5: Haut
-        s6: Haut
-        s7: Stages
-        s8: Etudes supérieures
-        s9: Déplacer la ville
-        s10: Déplacer pays
-        s11: Voyage
-        s12: Travaux en
-        s13: Note
-        s14: Education
-        s15: Expérience
-        s16: Langues
-        s17: Compétences
-        s18: Monter
-        s19: Total
-        s20: Modifier les facteurs
       recruiter_recommendations:
         s1: Recommandations
         s2: Pas de recommandations encore

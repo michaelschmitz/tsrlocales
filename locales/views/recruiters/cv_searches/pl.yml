@@ -25,28 +25,6 @@ pl:
         s3: Usuń z listy kandydatów
         s4: Dodaj do listy kandydatów
         s5: Wyślij wiadomość
-      recruiter_profile:
-        s0: Student
-        s1: Dodaj do listy 
-        s2: Wiadomość
-        s3: Nowa wiadomość
-        s4: Pokaż wszystkie wiadomości
-        s5: Top
-        s6: Top
-        s7: Praktyki
-        s8: Pozycja dla absolwenta
-        s9: Zmiana miasta 
-        s10: Zmiana państwa
-        s11: Chęć do podróżowani
-        s12: Praca w
-        s13: Ocena
-        s14: Edukacja
-        s15: Doświadczenie
-        s16: Języki
-        s17: Umiejętności
-        s18: Dopasowanie
-        s19: Łącznie
-        s20: Edytuj czynniki
       recruiter_recommendations:
         s1: Rekomendacje
         s2: Brak rekomendacji 

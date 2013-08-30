@@ -31,28 +31,6 @@ zht:
         s3: Remove from candidates
         s4: Add to candidates
         s5: Send message
-      recruiter_profile:
-        s0: Student
-        s1: Add to list
-        s2: Message
-        s3: New message
-        s4: Show all messages
-        s5: Top
-        s6: Top
-        s7: Internships
-        s8: Graduate position
-        s9: Move city
-        s10: Move country
-        s11: Travel
-        s12: Work in
-        s13: Rating
-        s14: Education
-        s15: Experience
-        s16: Languages
-        s17: Skills
-        s18: Fit
-        s19: Total
-        s20: Edit factors
       recruiter_recommendations:
         s1: Recommendations
         s2: No recommendations yet
