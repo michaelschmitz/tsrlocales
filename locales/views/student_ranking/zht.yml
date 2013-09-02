@@ -25,8 +25,8 @@ zht:
       s13: 訊息
       s14: 建立關係
       s15: 和你的履歷表做比較
-      s16: Report
-      s17: Report received
+      s16: 檢舉錯誤或不實
+      s17: 我們已收到你的檢舉
       s18: Request sent
     public_recommendations:
       s1: 推薦人
