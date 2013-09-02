@@ -19,6 +19,10 @@ it:
         s10: Competenze
         s11: Viaggiare
         s12: risultati
+        s13: Punteggio minimo
+        s14: Distanza massima
+        s15: Esperienza lavorativa
+        s16: Esperienza di stage
       recruiter_profile_small:
         s1: Stage
         s2: Posizione per laureati
