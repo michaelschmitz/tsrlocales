@@ -2,57 +2,56 @@ zht:
   recruiters:
     cv_searches:
       edit:
-        s1: "Name your search"
+        s1: "更改名稱"
       modal:
         html:
-          s1: Education
-          s2: Work experience
-          s3: Other experience
-          s4: Ranking
+          s1: 教育
+          s2: 工作經驗
+          s3: 其他經驗
+          s4: 排名
       comparisons:
-        s1: Global comparison
+        s1: 全球比較
       form:
-        s1: Text
-        s2a: Language
-        s2: "Language 1"
-        s3: "Language 2"
-        s4: "Language 3"
-        s5: "Language 4"
-        s6: Location
-        s7: Availability
-        s8: By University
-        s9: Experience
-        s10: Skills
-        s11: Travel
-        s12: results
+        s1: 關鍵字
+        s2a: 語言
+        s2: "語言 1"
+        s3: "語言 2"
+        s4: "語言 3"
+        s5: "語言 4"
+        s6: 城市
+        s7: 性質
+        s8: 大學或成績
+        s9: 經驗
+        s10: 技能
+        s11: 出差意願
+        s12: 筆結果
+        s13: 最低積分至少：
+        s14: 包括方圓幾公里：
+        s15: 工作經驗
+        s16: 實習經驗
       recruiter_profile_small:
-        s1: Internship
-        s2: Graduate position
-        s3: Remove from candidates
-        s4: Add to candidates
-        s5: Send message
+        s1: 實習生
+        s2: 已畢業
+        s3: 自名單移除
+        s4: 加入名單
+        s5: 傳訊息
       recruiter_recommendations:
-        s1: Recommendations
-        s2: No recommendations yet
+        s1: 推薦人
+        s2: 尚無推薦人
       recruiter_skills:
-        s1: Skills
-        s2: Confirm
-        s3: This user has not indicated skills yet.
+        s1: 技能
+        s2: 確認
+        s3: 此人尚未表明技能
       index:
-        s1: CV Searches
-        s2: Name
-        s3: Show candidates
-        s4: Edit
-        s5: Continue
-        s6: Candidates
-        s7: Change name
-        s8: Show
-        s9: New Search
-      modal:
-        html:
-          s1: Education
-          s2: Experience
-          s3: Other experience
-          s4: Ranking
+        s1: 履歷表搜尋
+        s2: 搜尋清單
+        s3: 
+        s4: 
+        s5: 繼續搜尋
+        s6: 候選人
+        s7: 更改名稱
+        s8: 顯示
+        s9: 建立新的搜尋
+
       show:
-        s1: Search the database
+        s1: 搜尋資料庫
