@@ -1,5 +1,7 @@
 en:
   friend_invitations:
+    flash:
+      create: "Message sent"
     modal:
       html:
         s1: Add connections
