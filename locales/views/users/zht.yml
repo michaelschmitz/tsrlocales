@@ -34,6 +34,18 @@ zht:
       s8a: "公開我的排名"
       s8b: "是的，在全球排名頁公開我的檔案和照片。"
       s9: "是的，僱主與獵人頭公司都可以看到我的檔案，並能就相關的工作機會或活動聯絡我。"
+      s20: "Improvement suggestions"
+      s21: "Yes, send me suggestions on how to improve my profile"
+      s22: "Recommendations and Confirmations"
+      s23: "Yes, send me an email when someone has recommended me or has confirmed a skill."
+      s24: "Connection request"
+      s25: "Yes, send me an email when someone has invited me to connect."
+      s26: "Job alerts"
+      s27: "The areas I am interested in are: (multiple choices)"
+      s28: "Events"
+      s29: "Send me invitations to events such as career fares and speech opportunities."
+      s30: "Blogs"
+      s31: "Send me blogs and articles about job searching, resume writing, interview tips, etc."
     shared:
       links:
         s1: 忘記密碼？
@@ -54,3 +66,12 @@ zht:
         s4: 在此登入
     update_friends:
       flash: 更新朋友開始
+    passwords:
+      edit:
+        s1: "更改密碼"
+        s2: "新密碼"
+        s3: "確認密碼"
+        s4: "更新密碼"
+      new:
+        s1: 忘記密碼？
+        s2: 寄 E-mail 給我讓我重設密碼
