@@ -53,4 +53,4 @@ zht:
         s3: 已經有帳號了？
         s4: 在此登入
     update_friends:
-      flash: 開始更新朋友
+      flash: 更新朋友開始
