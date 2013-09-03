@@ -3,14 +3,14 @@ pl:
     attributes: &ATTRIBUTES
       title: Pozycja
       description: Opis
-      locations: Lokatizacja
-      contact: Kontrakt
-      link: Link
+      locations: Lokalizacja
+      contact: Kontakt
+      link: Link do oferty
       run_until: Oferta dostępna do
       views: Liczba wyświetleń
       area: Kategoria
       contract_type: Typ kontraktu
-      contract: Kontrakt
+      contract: Wymiar czasu
       longitude: Długość geograficzna
       latitude: Szerokość geograficzna
       disabled: Nieaktywny
