@@ -1,4 +1,249 @@
 fr:
+  shared:
+    whatwedo: 
+      s1: "theStudentRanking.com fournit le plus grand du monde classement mondial d'étudiants Si vous êtes un étudiant à la recherche pour en apprendre davantage au sujet de votre valeur marchande, au sujet de votre point de vue sur le marché du travail et si vous voulez vous trouvé et embauché par certains des plus grands du monde. entreprises, alors nous sommes votre destination idéale. "
+      s2: "Pour les entreprises, nous proposons des solutions de recrutement et des services axés sur les diplômés et les étudiants nous donnent accès à des candidats idéaux pour les programmes de talent, des programmes de cycles supérieurs et stagiaires pogroms jeunes professionnels et des hauts potentiels peuvent être consultés sur notre site..."
+  dry:
+    countries: 
+      S119: Malaisie
+      S121: Mali
+      s1: Egypte
+      s10: "Guinée équatoriale"
+      s100: Colombie
+      s101: Comores
+      s102: Congo
+      s103: "Congo, République démocratique"
+      s104: Corée
+      s105: Croatie
+      s106: Koweït
+      s107: "Lao, République démocratique"
+      s108: Lesotho
+      s109: Lettonie
+      s11: Arménie
+      s110: Liban
+      s111: Liberia
+      s112: Libye
+      s113: Liechtenstein
+      s114: Lithuana
+      s115: Luxembourg
+      s116: Macao
+      s117: Madagascar
+      s118: Malawi
+      s12: Aruba
+      s120: Maldives
+      s122: Malte
+      s123: Maroc
+      s124: "Îles Marshall"
+      s125: Martinique
+      s126: Mauritanie
+      s127: Maurice
+      s128: Mayotte
+      s129: Macédoine
+      s13: Azerbaïdjan
+      s130: Mexique
+      s131: "Micronésie, États fédérés de"
+      s132: "Moldawia, la République"
+      s133: Monaco
+      s134: Mongolie
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambique
+      s138: Myanmar
+      s139: Namibie
+      s14: Ethiopie
+      s140: Nauru
+      s141: Népal
+      s142: Nouvelle-Calédonie
+      s143: Nouvelle-Zélande
+      s144: Nicaragua
+      s145: Pays-Bas
+      s146: "Antilles néerlandaises"
+      s15: Australie
+      s150: "Îles Mariannes du Nord"
+      s151: "L'île Norfold"
+      s152: Norvège
+      s153: Oman
+      s154: Autriche
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: Papouasie-Nouvelle-Guinée
+      s16: Bahamas
+      s160: Paraguay
+      s161: Pérou
+      s162: Philippines
+      s163: Pitcairn
+      s164: Pologne
+      s165: Portugal
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahreïn
+      s170: Roumanie
+      s171: "Fédération de Russie"
+      s172: Saint-Kitts-et-Nevis
+      s173: Sainte-Lucie
+      s174: Saint-Vincent-et-les-Grenadines
+      s175: Zambie
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tomé-et-Principe"
+      s179: "L'Arabie Saoudite"
+      s18: Bangladesh
+      s180: Suède
+      s181: Suisse
+      s182: Sénégal
+      s183: Serbie
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapour
+      s188: "Sint Maarten"
+      s189: Slovaquie
+      s19: Barbade
+      s190: Slovénie
+      s191: Iles-Salomon
+      s192: Somalie
+      s193: Espagne
+      s194: "Sri Lanka"
+      s195: Sainte-Hélène
+      s196: "Afrique du Sud"
+      s197: "La Géorgie du Sud et les îles S.S."
+      s198: Suriname
+      s199: "Svalbard et Jan Mayen"
+      s2: Albanie
+      s20: Belize
+      s200: Swaziland
+      s201: Tadjikistan
+      s202: Taiwan
+      s203: "La Tanzanie, République-Unie de"
+      s204: Thaïlande
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: Trinité-et-Tobago
+      s209: Tchad
+      s21: Belgique
+      s210: "République tchèque"
+      s211: Tunisie
+      s212: Turquie
+      s213: Turkménistan
+      s214: "Turks-et-Caïques Îles-"
+      s215: Tuvalu
+      s216: Ouganda
+      s217: Ukraine
+      s218: Hongrie
+      s219: Uruguay
+      s22: Bénin
+      s220: Ouzbékistan
+      s221: Vanuatu
+      s222: Vatican
+      s223: Venezuela
+      s224: "Etats-Unis d'Amérique"
+      s225: Royaume-Uni
+      s226: "Emirats Arabes Unis"
+      s227: Vietnam
+      s228: "Wallis et Futuna"
+      s229: "Christmas Islands"
+      s23: Bermudes
+      s230: Belarus
+      s231: "Sahara occidental"
+      s232: "République centrafricaine"
+      s233: Chypre
+      s234: Argentine
+      s24: Bhoutan
+      s25: Bolivie
+      s26: "Bonaire, Saint-Eustache et Saba"
+      s27: "La Bosnie-Herzégovine"
+      s28: Botswana
+      s29: Bouvetisland
+      s3: Algérie
+      s30: Brésil
+      s31: "British Indian Ocean Territory"
+      s32: "Brunei Darussalam"
+      s33: Bulgarie
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chili
+      s37: Chine
+      s38: Iles-Cook
+      s39: "Costa Rica"
+      s4: American-Samoa
+      s40: Curaçao
+      s41: Danemark
+      s42: Allemagne
+      s43: Dominique
+      s44: "République dominicaine"
+      s45: Djibouti
+      s46: Equateur
+      s47: "El Salvador"
+      s48: "Côte D'Ivoire"
+      s49: Erythrée
+      s5: Andorre
+      s50: Estonie
+      s51: "Iles Falkland (Malwina)"
+      s52: Iles-Feroe
+      s53: Fidji
+      s54: Finlande
+      s55: France
+      s56: "Guyane française"
+      s57: "Polynésie française"
+      s58: "French Southern Territories"
+      s59: Gabon
+      s6: Angola
+      s60: Gambie
+      s61: Géorgie
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenade
+      s65: Grèce
+      s66: Groenland
+      s67: Guadeloupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinée
+      s71: Guinée-Bissau
+      s72: Guyana
+      s73: Haïti
+      s74: "Heard et îles McDonald"
+      s75: Honduras
+      s76: Hongkong
+      s77: Inde
+      s78: Indonésie
+      s79: Irlande
+      s8: Antarctique
+      s80: Islande
+      s81: Israël
+      s82: Italie
+      s83: Jamaïque
+      s84: Japon
+      s85: Yémen
+      s86: Jordan
+      s87: "Îles Vierges britanniques"
+      s88: "Virgin Islands, USA"
+      s89: Iles-Cayman
+      s9: Antigua-et-Barbuda
+      s90: Cambodge
+      s91: Cameroun
+      s92: Canada
+      s93: Cap-Vert
+      s94: Kazakhstan
+      s95: Kenya
+      s96: Kirghizistan
+      s97: Kiribati
+      s98: "États-Unis Îles mineures Outyling"
+      s99: "Les îles Cocos (Keeling-Îles)"
+    global_links: 
+      s1: "Voir toutes les offres"
+      s2: "Voir tous les événements"
+      s3: "Voir toutes les activités"
+      s4: "Voir tous les élèves"
+      s5: "Voir toutes les questions"
+      s6: "Voir toutes les universités"
+      s7: "Voir tous les amis"
+      s8: "Voir tous les employeurs"
   activerecord:
     errors:
       messages:

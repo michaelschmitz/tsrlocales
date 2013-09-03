@@ -1,4 +1,253 @@
 nl:
+  shared:
+     whatwedo: 
+        s1: "theStudentRanking.com biedt 's werelds grootste globale studentenranking. Als u een student bent die graag meer wil leren over zijn marktwaarde, zijn perspectief op de arbeidsmarkt en als u graag gevonden en aangenomen wilt worden door 's werelds toonaangevende bedrijven, dan bent u hier op de juiste plek."
+        s2: "Voor bedrijven bieden wij recruitmentoplossingen en -diensten die zich focussen op student en recent afgestudeerden. Wij geven u toegang tot ideale kandidaten voor talentprogramma's, graduate programma's en traineeships. U vindt young professionals en studenten met een hoge potentie op onze site."
+  dry:
+    countries: 
+      s1: Egypte
+      s10: Equatoriaal-Guinea
+      s100: Colombia
+      s101: Comoren
+      s102: Congo
+      s103: "Congo, Democratisch Republiek"
+      s104: "Korea, Republiek"
+      s105: Kroatië
+      s106: Koeweit
+      s107: "Laos, Democratisch Republiek"
+      s108: Lesotho
+      s109: Letland
+      s11: Armenië
+      s110: Libanon
+      s111: Liberië
+      s112: Libië
+      s113: Liechtenstein
+      s114: Litouwen
+      s115: Luxemburg
+      s116: Macao
+      s117: Madagaskar
+      s118: Malawi
+      s119: Maleisië
+      s12: Aruba
+      s120: Malediven
+      s121: Mali
+      s122: Malta
+      s123: Marokko
+      s124: Marshalleilanden
+      s125: Martinique
+      s126: Mauritanië
+      s127: Mauritius
+      s128: Mayotte
+      s129: "Macedonië, Voormalig Joegoslavië"
+      s13: Azerbeidzjan
+      s130: Mexico
+      s131: "Micronesië, Federale Staten van"
+      s132: "Moldavië, Republiek"
+      s133: Monaco
+      s134: Mongolië
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambique
+      s138: Myanmar
+      s139: Namibië
+      s14: Ethiopië
+      s140: Nauru
+      s141: Nepal
+      s142: Nieuw-Caledonië
+      s143: Nieuw-Zeeland
+      s144: Nicaragua
+      s145: Nederland
+      s146: "Nederlandse Antillen"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australië
+      s150: "Noordelijke Marianeneilanden"
+      s151: Norfolkeiland
+      s152: Noorwegen
+      s153: Oman
+      s154: Oostenrijk
+      s155: Oost-Timor
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: Papoea-Nieuw-Guinea
+      s16: Bahamas
+      s160: Paraguay
+      s161: Peru
+      s162: Filipijnen
+      s163: Pitcairn
+      s164: Polen
+      s165: Portugal
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrain
+      s170: Roemenië
+      s171: "Russische Federatie"
+      s172: "Saint Kitts en Nevis"
+      s173: "Saint Lucia"
+      s174: "Saint Vincent en de Grenadines"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tomé and Principe"
+      s179: Saoedi-Arabië
+      s18: Bangladesh
+      s180: Zweden
+      s181: Zwitzerland
+      s182: Senegal
+      s183: Servië
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapore
+      s188: "Sint Maarten"
+      s189: Slowakije
+      s19: Barbados
+      s190: Slovenië
+      s191: Salomoneilanden
+      s192: Somalië
+      s193: Spanje
+      s194: "Sri Lanka"
+      s195: Sint-Helena
+      s196: Zuid-Africa
+      s197: "Zuid-Georgië en Z.S. eilanden"
+      s198: Suriname
+      s199: "Svalbard en Jan Mayen"
+      s2: Albanië
+      s20: Belize
+      s200: Swaziland
+      s201: Tadzjikistan
+      s202: Taiwan
+      s203: "Tanzania, Verenigde Republiek"
+      s204: Thailand
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trinidad en Tobago"
+      s209: Tsjaad
+      s21: België
+      s210: Tsechië
+      s211: Tunesië
+      s212: Turkije
+      s213: Turkmenistan
+      s214: "Turks- en Caicoseilanden"
+      s215: Tuvalu
+      s216: Oeganda
+      s217: Oekraïne
+      s218: Hungarije
+      s219: Uruguay
+      s22: Benin
+      s220: Oezbekistan
+      s221: Vanuatu
+      s222: Vaticaanstad
+      s223: Venezuela
+      s224: "Verenigde Staten"
+      s225: "Verenigd Koninkrijk"
+      s226: "Verenigde Arabische Emiraten"
+      s227: Vietnam
+      s228: "Wallis en Futuna"
+      s229: Christmaseiland
+      s23: Bermuda
+      s230: Belarus
+      s231: West-Sahara
+      s232: "Centraal-Afrikaanse Republiek"
+      s233: Cyprus
+      s234: Argentinië
+      s24: Bhutan
+      s25: Bolivia
+      s26: "Bonaire/Saint Eustatius/Saba"
+      s27: Bosnië-Herzegovina
+      s28: Botswana
+      s29: Bouveteiland
+      s3: Algerije
+      s30: Brazilië
+      s31: "Britse Gebieden (Indische Oceaan)"
+      s32: "Brunei Darussalam"
+      s33: Bulgarije
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chili
+      s37: China
+      s38: Cookeilanden
+      s39: "Costa Rica"
+      s4: Amerikaans-Samoa
+      s40: Curaçao
+      s41: Denemarken
+      s42: Duitsland
+      s43: Dominica
+      s44: "Dominicaanse Republiek"
+      s45: Djibouti
+      s46: Ecuador
+      s47: "El Salvador"
+      s48: Ivoorkust
+      s49: Eritrea
+      s5: Andorra
+      s50: Estland
+      s51: Falklandeilanden(Malwina)
+      s52: Faeröer
+      s53: Fiji
+      s54: Finland
+      s55: Frankrijk
+      s56: Frans-Guyana
+      s57: Frans-Polynesië
+      s58: "Franse Gebieden (Indische Oceaan)"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Georgië
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenada
+      s65: Griekenland
+      s66: Groenland
+      s67: Guadeloupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinee
+      s71: Guinee-Bissau
+      s72: Guyana
+      s73: Haïti
+      s74: "Heard- en McDonaldeilanden"
+      s75: Honduras
+      s76: "Hong Kong"
+      s77: India
+      s78: Indonesië
+      s79: Ierland
+      s8: Antarctica
+      s80: Ijsland
+      s81: Israël
+      s82: Italië
+      s83: Jamaica
+      s84: Japan
+      s85: Yemen
+      s86: Jordanië
+      s87: "Maagdeneilanden, Britse"
+      s88: "Maagdeneilanden, Amerikaanse"
+      s89: Caymaneilanden
+      s9: "Antigua en Barbuda"
+      s90: Cambodja
+      s91: Kameroen
+      s92: Canada
+      s93: Kaapverdië
+      s94: Kazachstan
+      s95: Kenia
+      s96: Kirgizië
+      s97: Kiribati
+      s98: "VS - Eilanden"
+      s99: "Cocoseilanden (Keeling)"
+    global_links: 
+      s1: "Zie alle banen"
+      s2: "Zie alle events"
+      s3: "Zie alle activiteiten"
+      s4: "Zie alle studenten"
+      s5: "Zie alle vragen"
+      s6: "Zie alle universiteiten"
+      s7: "Zie alle vrienden"
+      s8: "Zie alle werkgevers"
   activerecord:
     errors:
       messages:

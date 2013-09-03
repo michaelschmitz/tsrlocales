@@ -1,4 +1,268 @@
 pl:
+  shared:
+    whatwedo: 
+      s1: "theStudentRanking.com oferuje największy na świecie globalny ranking studentów. Jeśli jesteś studentem i chciałbyś dowiedzieć się więcej o swojej wartości dla pracodawców, o swojej perspektywie rozwoju na rynku pracy lub jeśli chcesz zostać znalezionym i zatrudnionym przez wiodące firm na świecie, jesteśmy doskonałym miejscem właśnie dla Ciebie."
+      s2: "Nasz oferta dla firm to nowe spojrzenie na proces rekrutacji oraz promocji wydarzeń i usług wśród społeczności studenckiej. Zapewniamy dostęp do bazy idealnych kandydatów chętnych do udziału w programach rozwoju talentów, programach dla abslowentów i innych które oferuje Twoja firma. Jeśli szukasz młodych profesjonalistów oraz ambitnych studentów, dostęp do nich zapewi Ci właśnie nasz system."
+  dry:
+    yes: "Tak"
+    no: "Nie"
+    na: "Nie dostępny"
+    details: "Szczegóły"
+    close: "Zamknij"
+    save: "Zapisz"
+    edit: "Edytuj"
+    cancel: "Usuń"
+    customize_settings_link: "Personalizuj wiadomości, które chcesz otrzymywać"
+    edit_privacy_link: "Edytuj ustawienia prywatności"
+    jobs_link: "Oferty pracy"
+    advice_link: "Porady"
+    hi: "Cześć"
+    here: tutaj
+    countries: 
+      s0: "Brak wyboru"
+      s1: Egipt
+      s10: "Gwinea Równikowa"
+      s100: Kolumbia
+      s101: Komory
+      s102: Kongo
+      s103: "Demokratyczna Republika Konga"
+      s104: "Korea Południowa"
+      s105: Chorwacja
+      s106: Kuewjt
+      s107: Laos
+      s108: Lesotho
+      s109: Łotwa
+      s11: Armenia
+      s110: Liban
+      s111: Liberia
+      s112: Libia
+      s113: Liechtenstein
+      s114: Litwa
+      s115: Luksemburg
+      s116: Makau
+      s117: Madagaskar
+      s118: Malawi
+      s119: Malezja
+      s12: Aruba
+      s120: Maladiwy
+      s121: Mali
+      s122: Malta
+      s123: Maroko
+      s124: "Wyspy Marshalla"
+      s125: Martynika
+      s126: Mauretania
+      s127: Mauritius
+      s128: Majotta
+      s129: Macedonia
+      s13: Azerbejdżan
+      s130: Meksyk
+      s131: Mikronezja
+      s132: Mołdawia
+      s133: Monako
+      s134: Mongolia
+      s135: Czarnogóra
+      s136: Montserrat
+      s137: Mozambik
+      s138: Mjanma
+      s139: Namibia
+      s14: Etiopia
+      s140: Nauru
+      s141: Nepal
+      s142: "Nowa Kaledonia"
+      s143: "Nowa Zelandia"
+      s144: Nikaragua
+      s145: Holandia
+      s146: "Antyle Holenderskie"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australia
+      s150: "Mariany Północne"
+      s151: "Wyspa Norfolk"
+      s152: Norwegia
+      s153: Oman
+      s154: Austria
+      s155: "Timor Wschodni"
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: "Papua-Nowa Gwinea"
+      s16: Bahamy
+      s160: Parawaj
+      s161: Peru
+      s162: Filipiny
+      s163: Pitcairn
+      s164: Polska
+      s165: Portugalia
+      s166: Portoryko
+      s167: Katar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrajn
+      s170: Rumunia
+      s171: Rosja
+      s172: "Saint Kitts and Nevis"
+      s173: "Saint Lucia"
+      s174: "Saint Vincent i Grenadyny"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Wyspy Świętego Tomasza i Książęca"
+      s179: "Arabia Saudyjska"
+      s18: Bangladesz
+      s180: Szwecja
+      s181: Szwajcaria
+      s182: Senegal
+      s183: Serbia
+      s184: Seszele
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapur
+      s188: "Sint Maarten"
+      s189: Słowacja
+      s19: Barbados
+      s190: Słowenia
+      s191: "Wyspy Salomona"
+      s192: Somalia
+      s193: Hiszpania
+      s194: "Sri Lanka"
+      s195: "Wyspa Świętej Heleny"
+      s196: "Republika Południowej Afryki"
+      s197: "Georgia Południowa Sandwich Południowy"
+      s198: Surinam
+      s199: "Svalbard i Jan Mayen"
+      s2: Albania
+      s20: Belize
+      s200: Szwajcaria
+      s201: Tadżykistan
+      s202: Tajwan
+      s203: Tanzania
+      s204: Tajlandia
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trynidad i Tobago"
+      s209: Czad
+      s21: Belgia
+      s210: "Republika Czeska"
+      s211: Tunezja
+      s212: Turcja
+      s213: Turkmenistan
+      s214: "Turks i Caicos"
+      s215: Tuvalu
+      s216: Uganda
+      s217: Ukraina
+      s218: Węgry
+      s219: Urugwaj
+      s22: Benin
+      s220: Uzbekistan
+      s221: Vanuatu
+      s222: Watykan
+      s223: Wenezuela
+      s224: "Stany Zjednoczone Ameryki"
+      s225: "Wielka Brytania"
+      s226: "Zjednoczone Emiraty Arabskie"
+      s227: Wietnam
+      s228: "Wallis and Futuna"
+      s229: "Wyspa Bożego Narodzenia"
+      s23: Bermudy
+      s230: Białoruś
+      s231: "Sahara Zachodnia"
+      s232: "Republika Środkowoafrykańska"
+      s233: Cypr
+      s234: Argentyna
+      s24: Bhutan
+      s25: Boliwia
+      s26: "Sint Eustatius"
+      s27: "Bośnia i Hercegowina"
+      s28: Botswana
+      s29: "Wyspa Bouveta"
+      s3: Algieria
+      s30: Brazylia
+      s31: "Brytyjskie TO Indyjskiego"
+      s32: Brunea
+      s33: Bulgaria
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chile
+      s37: Chiny
+      s38: "Wyspy Cooka"
+      s39: Kostaryka
+      s4: "Samoa Amerykańskie"
+      s40: Curaçao
+      s41: Dania
+      s42: Niemcy
+      s43: Dominika
+      s44: Dominikana
+      s45: Dżibuti
+      s46: Ekwador
+      s47: Salwador
+      s48: "Wybrzeże Kości Słoniowej"
+      s49: Erytrea
+      s5: Andora
+      s50: Estonia
+      s51: "Falklandy (Malwiny)"
+      s52: "Wyspy Owcze"
+      s53: Fidżi
+      s54: Finlandia
+      s55: Francja
+      s56: "Gujana Francuska"
+      s57: "Polinezja Francuska"
+      s58: "Francuskie Terytoria Południowe"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Gruzja
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenada
+      s65: Grecja
+      s66: Grenlandia
+      s67: Gwadelupa
+      s68: Guam
+      s69: Gwatemala
+      s7: Anguilla
+      s70: Gwinea
+      s71: "Gwinea Bissau"
+      s72: Gujana
+      s73: Haiti
+      s74: "Wyspy Heard i McDonalda "
+      s75: Honduras
+      s76: Hongkong
+      s77: Indie
+      s78: Indonezja
+      s79: Irlandia
+      s8: Antarktyda
+      s80: Islandia
+      s81: Izrael
+      s82: Włochy
+      s83: Jamajka
+      s84: Japonia
+      s85: Jemen
+      s86: Jordania
+      s87: "Brytyjskie Wyspy Dziewicze"
+      s88: "Wyspy Dziewicze Stanów Zjednoczonych"
+      s89: Kajmany
+      s9: "Antigua i Barbuda"
+      s90: Kambodża
+      s91: Kamerun
+      s92: Kanada
+      s93: "Wyspy Zielonego Przylądka"
+      s94: Kazachstan
+      s95: Kenja
+      s96: Kirgistan
+      s97: Kiribati
+      s98: "Dalekie Wyspy Mniejsze US"
+      s99: "Wyspy Kokosowe"
+    global_links: 
+      s1: "Zobacz wszystkie ofery pracy"
+      s2: "Zobacz wszystkie wydarzenia"
+      s3: "Zobacz wszystkie aktywności"
+      s4: "Zobacz wszystkich studentów"
+      s5: "Zobacz wszystkie pytania"
+      s6: "Zobacz wszystkie uczelnie"
+      s7: "Zobacz wszystkich znajomych"
+      s8: "Zobacz wszystkich pracodawców"
   activerecord:
     errors:
       messages:

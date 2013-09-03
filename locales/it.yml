@@ -1,10 +1,272 @@
 it:
-  dry:
-    new: 'Nuovo'
-    edit: 'Modifica'
-    update: 'Aggiorna'
-    show: 'Mostra'
-    delete: 'Cancella'
+  shared:
+    whatwedo: 
+      s1: "theStudentRanking.com offre il più grande ranking globale per gli studenti. Se sei interessato a saperne qualcosa di più sul tuo valore di mercato, sulle tue prospettive nel mercato del lavoro e se vuoi essere trovato e assunto dalle più importanti aziende internazionali, allora facciamo al caso tuo!."
+      s2: "Alle aziende offriamo soluzioni di reclutamento focalizzate su laureati e studenti. Nel nostro sito puoi trovare giovani professionisti con grandissime potenzialità, sia che tu cerchi specifici talenti, neolaureati o stagisti."
+    dry:
+      new: 'Nuovo'
+      edit: 'Modifica'
+      update: 'Aggiorna'
+      show: 'Mostra'
+      delete: 'Cancella'
+      yes: "Si"
+      no: "No"
+      na: "Non disponibile"
+      details: "Dettagli"
+      close: "Chiudi"
+      save: "Salva"
+      edit: "Modifica"
+      cancel: "Cancella"
+      customize_settings_link: Personalizza i messaggi che vuoi ricevere
+      edit_privacy_link: Modifica le impostazioni sulla privacy
+      jobs_link: Offerte di lavoro
+      advice_link: Consigli
+      hi: Ciao
+      here: qui  
+      countries: 
+        s1: Egitto
+        s10: "Guinea Equatoriale"
+        s100: Colombia
+        s101: Comoros
+        s102: Congo
+        s103: "Repubblica Democratica del Congo"
+        s104: "Repubblica di Corea"
+        s105: Croazia
+        s106: Kuwait
+        s107: Laos
+        s108: Lesotho
+        s109: Lettonia
+        s11: Armenia
+        s110: Libano
+        s111: Liberia
+        s112: Libia
+        s113: Liechtenstein
+        s114: Lituania
+        s115: Lussemburgo
+        s116: Macao
+        s117: Madagascar
+        s118: Malawi
+        s119: Malesia
+        s12: Aruba
+        s120: Maldive
+        s121: Mali
+        s122: Malta
+        s123: Marocco
+        s124: "Isole Marshall"
+        s125: Martinica
+        s126: Mauritania
+        s127: Mauritius
+        s128: Mayotte
+        s129: Macedonia
+        s13: Azerbaijan
+        s130: Messico
+        s131: Micronesia
+        s132: "Repubblica Moldava"
+        s133: Monaco
+        s134: Mongolia
+        s135: Montenegro
+        s136: Montserrat
+        s137: Mozambico
+        s138: Myanmar
+        s139: Namibia
+        s14: Etiopia
+        s140: Nauru
+        s141: Nepal
+        s142: "Nuova Caledonia"
+        s143: "Nuova Zelanda"
+        s144: Nicaragua
+        s145: "Paesi Bassi"
+        s146: "Antille Olandesi"
+        s147: Niger
+        s148: Nigeria
+        s149: Niue
+        s15: Australia
+        s150: "Isole Marianna"
+        s151: "Isola di Norfold"
+        s152: Norvegia
+        s153: Oman
+        s154: Austria
+        s155: "Timor Est"
+        s156: Pakistan
+        s157: Palau
+        s158: Panama
+        s159: "Papua Nuova Guinea"
+        s16: Bahamas
+        s160: Paraguay
+        s161: Perù
+        s162: Filippine
+        s163: Pitcairn
+        s164: Polonia
+        s165: Portogallo
+        s166: "Puerto Rico"
+        s167: Qatar
+        s168: Reunion
+        s169: Rwanda
+        s17: Bahrain
+        s170: Romania
+        s171: Russia
+        s172: "Saint Kitts e Nevis"
+        s173: "Santa Lucia"
+        s174: "Saint Vincent e Grenadina"
+        s175: Zambia
+        s176: Samoa
+        s177: "San Marino"
+        s178: "Sao Tome e Principe"
+        s179: "Arabia Saudita"
+        s18: Bangladesh
+        s180: Svezia
+        s181: Svizzera
+        s182: Senegal
+        s183: Serbia
+        s184: Seychelles
+        s185: "Sierra Leone"
+        s186: Zimbabwe
+        s187: Singapore
+        s188: "Sint Maarten"
+        s189: Slovacchia
+        s19: Barbados
+        s190: Slovenia
+        s191: "Isole Salomone"
+        s192: Somalia
+        s193: Spagna
+        s194: "Sri Lanka"
+        s195: Sant'Elena
+        s196: "Sud Africa"
+        s197: "Georgia del Sud e isole Sandwich"
+        s198: Suriname
+        s199: "Svalbard e Jan Mayen"
+        s2: Albania
+        s20: Belize
+        s200: Swaziland
+        s201: Tajikistan
+        s202: Taiwan
+        s203: Tanzania
+        s204: Tailandia
+        s205: Togo
+        s206: Tokelau
+        s207: Tonga
+        s208: "Trinidad e Tobago"
+        s209: Ciad
+        s21: Belgio
+        s210: "Repubblica Ceca"
+        s211: Tunisia
+        s212: Turchia
+        s213: Turkmenistan
+        s214: "Turks e Caicos"
+        s215: Tuvalu
+        s216: Uganda
+        s217: Ucraina
+        s218: Ungheria
+        s219: Uruguay
+        s22: Benin
+        s220: Uzbekistan
+        s221: Vanuatu
+        s222: "Città del Vaticano"
+        s223: Venezuela
+        s224: USA
+        s225: "Regno Unito"
+        s226: "Emirati Arabi Uniti"
+        s227: Vietnam
+        s228: "Wallis e Futuna"
+        s229: "Isola del Natale"
+        s23: Bermuda
+        s230: Bielorussia
+        s231: "Sahara Occidentale"
+        s232: "Repubblica Centrafricana"
+        s233: Cipro
+        s234: Argentina
+        s24: Bhutan
+        s25: Bolivia
+        s26: "Bonaire, Saint Eustatius e Saba"
+        s27: "Bosnia Erzegovina"
+        s28: Botswana
+        s29: "Isola Bouvet"
+        s3: Algeria
+        s30: Brasile
+        s31: "Territorio britannico dell'Oceano Indiano"
+        s32: "Brunei Darussalam"
+        s33: Bulgaria
+        s34: "Burkina Faso"
+        s35: Burundi
+        s36: Cile
+        s37: Cina
+        s38: "Isole Cook"
+        s39: "Costa Rica"
+        s4: "Samoa Americane"
+        s40: Curaçao
+        s41: Danimarca
+        s42: Germania
+        s43: Dominica
+        s44: "Repubblica Dominicana"
+        s45: Gibuti
+        s46: Ecuador
+        s47: "El Salvador"
+        s48: "Costa D'Avorio"
+        s49: Eritrea
+        s5: Andorra
+        s50: Estonia
+        s51: "Isole Falkland"
+        s52: "Isole Faroer"
+        s53: Fiji
+        s54: Finlandia
+        s55: Francia
+        s56: "Guiana Francese"
+        s57: "Polinesia Francese"
+        s58: "Terre Australi e Antartiche Francesi"
+        s59: Gabon
+        s6: Angola
+        s60: Gambia
+        s61: Georgia
+        s62: Ghana
+        s63: Gibilterra
+        s64: Grenada
+        s65: Grecia
+        s66: Gronenlandia
+        s67: Guadalupe
+        s68: Guam
+        s69: Guatemala
+        s7: Anguilla
+        s70: Guinea
+        s71: Guinea-Bissau
+        s72: Guyana
+        s73: Haiti
+        s74: "Isole Heard-McDonald"
+        s75: Honduras
+        s76: Hongkong
+        s77: India
+        s78: Indonesia
+        s79: Irlanda
+        s8: Antartide
+        s80: Islanda
+        s81: Israele
+        s82: Italia
+        s83: Giamaica
+        s84: Giappone
+        s85: Yemen
+        s86: Giordania
+        s87: "Isole Vergini, UK"
+        s88: "Isole Vergini, USA"
+        s89: "Isole Cayman"
+        s9: "Antigua e Barbuda"
+        s90: Cambogia
+        s91: Camerun
+        s92: Canada
+        s93: "Capo Verde"
+        s94: Kazakistan
+        s95: Kenya
+        s96: Kyrgyzstan
+        s97: Kiribati
+        s98: "Isole minori esterne, USA"
+        s99: "Isole Cokos"
+      global_links: 
+        s1: "Visualizza tutti i lavori"
+        s2: "Visualizza tutti gli eventi"
+        s3: "Visualizza tutte le attività"
+        s4: "Visualizza tutti gli studenti"
+        s5: "Visualizza tutte le domande"
+        s6: "Visualizza tutte le università"
+        s7: "Visualizza tutti gli amici"
+        s8: "Visualizza tutte le aziende"
   activerecord:
     errors:
       messages:

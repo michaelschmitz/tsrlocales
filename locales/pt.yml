@@ -1,4 +1,267 @@
 pt:
+  shared:
+    whatwedo: 
+      s1: "O theStudentRanking.com oferece o maior Ranking de Estudantes a nível mundial. Se está a estudar e quer saber mais sobre o seu valor no mercado de trabalho, as suas perspetivas futuras e quiser ser encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, este é o sítio certo."
+      s2: "Para as Empresas, oferecemos soluções de recrutamento e serviços focados em Estudantes e Recém-Graduados. Damos-lhe acesso aos melhores Candidatos para programas de captação de talentos, programas dirigidos a Recém-Graduados e programas de Estágios. Aqui poderá encontrar os melhores jovens de elevado potencial."
+  dry:
+    yes: "Sim"
+    no: "Não"
+    na: "Indisponível"
+    details: "Detalhes"
+    close: "Fechar"
+    save: "Gravar"
+    edit: "Editar"
+    cancel: "Cancelar"
+    customize_settings_link: Personalize as mensagens a receber
+    edit_privacy_link: Editar definições de privacidade
+    jobs_link: Empregos
+    advice_link: Sugestões
+    hi: Olá
+    here: aqui
+    countries: 
+      s1: Egypt
+      s10: "Equatorial Guinea"
+      s100: Columbia
+      s101: Comoros
+      s102: Congo
+      s103: "Congo, Democratic Republic"
+      s104: "Korea, Republic"
+      s105: Kroatia
+      s106: Kuwait
+      s107: "Lao, Democratic Republic"
+      s108: Lesotho
+      s109: Latvia
+      s11: Armenia
+      s110: Lebanon
+      s111: Liberia
+      s112: Libya
+      s113: Liechtenstein
+      s114: Lithuana
+      s115: Luxemburg
+      s116: Macao
+      s117: Madagascar
+      s118: Malawi
+      s119: Malaysia
+      s12: Aruba
+      s120: Maldives
+      s121: Mali
+      s122: Malta
+      s123: Marocco
+      s124: "Marshall Islands"
+      s125: Martinique
+      s126: Mauritania
+      s127: Mauritius
+      s128: Mayotte
+      s129: "Macedonia, F. Yugoslav Republic"
+      s13: Azerbaijan
+      s130: Mexico
+      s131: "Micronesia, Federal States of"
+      s132: "Moldawia, Republic"
+      s133: Monaco
+      s134: Mongolia
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambique
+      s138: Myanmar
+      s139: Namibia
+      s14: Ethiopia
+      s140: Nauru
+      s141: Nepal
+      s142: "New Caledonia"
+      s143: "New Zeeland"
+      s144: Nicaragua
+      s145: Netherlands
+      s146: "Dutch Antilles"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australia
+      s150: "Northern Mariana Islands"
+      s151: "Norfold Island"
+      s152: Norway
+      s153: Oman
+      s154: Austria
+      s155: "Eastern Timor"
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: "Papua New Guinea"
+      s16: Bahamas
+      s160: Paraguay
+      s161: Peru
+      s162: Philippines
+      s163: Pitcairn
+      s164: Poland
+      s165: Portugal
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrain
+      s170: Romania
+      s171: "Russian Federation"
+      s172: "Saint Kitts and Nevis"
+      s173: "Saint Lucia"
+      s174: "Saint Vincent and Grenadines"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tome and Principe"
+      s179: "Saudi Arabia"
+      s18: Bangladesh
+      s180: Sweden
+      s181: Switzerland
+      s182: Senegal
+      s183: Serbia
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Simbabwe
+      s187: Singapur
+      s188: "Sint Maarten"
+      s189: Slovakia
+      s19: Barbados
+      s190: Slovenia
+      s191: Solomon-Islands
+      s192: Somalia
+      s193: Spain
+      s194: "Sri Lanka"
+      s195: "Saint Helena"
+      s196: "South Africa"
+      s197: "South Georgia and SS-Islands"
+      s198: Suriname
+      s199: "Svalbard- and Jan Mayen"
+      s2: Albania
+      s20: Belize
+      s200: Swaziland
+      s201: Tajikistan
+      s202: Taiwan
+      s203: "Tanzania, United Republic of"
+      s204: Thailand
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trinidad und Tobago"
+      s209: Tschad
+      s21: Belgium
+      s210: "Czech Republic"
+      s211: Tunesia
+      s212: Turkey
+      s213: Turkmenistan
+      s214: "Turks- and Caicos-Islands"
+      s215: Tuvalu
+      s216: Uganda
+      s217: Ukraine
+      s218: Ungarn
+      s219: Uruguay
+      s22: Benin
+      s220: Usbekistan
+      s221: Vanuatu
+      s222: Vatikanstadt
+      s223: Venezuela
+      s224: "United States of America"
+      s225: "United Kingdom"
+      s226: "United Arab Emirates"
+      s227: "Viet Nam"
+      s228: "Wallis and Futuna"
+      s229: "Christmas Islands"
+      s23: Bermuda
+      s230: Belarus
+      s231: "Western Sahara"
+      s232: "Central African Republic"
+      s233: Cyprus
+      s234: Argentina
+      s24: Bhutan
+      s25: Bolivia
+      s26: "Bonaire, St. Eustatius, Saba"
+      s27: "Bosnia and Herzegowina"
+      s28: Botswana
+      s29: Bouvetisland
+      s3: Algeria
+      s30: Brazil
+      s31: "British Indian OT"
+      s32: "Brunei Darussalam"
+      s33: Bulgaria
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chile
+      s37: China
+      s38: Cook-Islands
+      s39: "Costa Rica"
+      s4: American-Samoa
+      s40: Curaçao
+      s41: Denmark
+      s42: Germany
+      s43: Dominica
+      s44: "Dominican Republic"
+      s45: Djibouti
+      s46: Ecuador
+      s47: "El Salvador"
+      s48: "Cote D\\'Ivoire"
+      s49: Eritrea
+      s5: Andorra
+      s50: Estonia
+      s51: "Falkland-Islands (Malwina)"
+      s52: Faroe-Islands
+      s53: Fiji
+      s54: Finland
+      s55: France
+      s56: "French Guiana"
+      s57: "French Polynesia"
+      s58: "French Southern Territories"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Georgia
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenada
+      s65: Greece
+      s66: Greenland
+      s67: Guadeloupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinea
+      s71: Guinea-Bissau
+      s72: Guyana
+      s73: Haiti
+      s74: "Heard- und McDonald Islands"
+      s75: Honduras
+      s76: Hongkong
+      s77: India
+      s78: Indonesia
+      s79: Ireland
+      s8: Antarctica
+      s80: Iceland
+      s81: Israel
+      s82: Italy
+      s83: Jamaica
+      s84: Japan
+      s85: Yemen
+      s86: Jordan
+      s87: "Virgin Islands, Britisch"
+      s88: "Virgin Islands, USA"
+      s89: Cayman-Islands
+      s9: "Antigua and Barbuda"
+      s90: Cambodia
+      s91: Cameroon
+      s92: Canada
+      s93: "Cape Verde"
+      s94: Kazakhstan
+      s95: Kenya
+      s96: Kyrgyzstan
+      s97: Kiribati
+      s98: "United States MOI"
+      s99: "Cokos Islands (Keeling)"
+    global_links: 
+      s1: "Ver todas as Ofertas"
+      s2: "Ver todos os Eventos"
+      s3: "Ver todas as Atividades"
+      s4: "Ver todos os Estudantes"
+      s5: "Ver todas as Questões"
+      s6: "Ver todas as Universidades"
+      s7: "Ver todos os Amigos"
+      s8: "Ver todas as Empresas"
   activerecord:
     errors:
       messages:
