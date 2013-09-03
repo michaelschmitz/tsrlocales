@@ -2,11 +2,11 @@ zht:
   student_ranking:
     public_anon_profile_small:
       s1: 匿名
-      s2: 實習
+      s2: 實習生
       s3: 已畢業
       s4: 詳細內容
     public_profile_small:
-      s1: 實習
+      s1: 實習生
       s2: 已畢業
       s3: 詳細內容
     public_profile:
@@ -15,7 +15,7 @@ zht:
       s3: 現任
       s4: 前任
       s5: 教育
-      s6: 時習
+      s6: 實習生
       s7: 已畢業
       s8: 是，從 
       s9: 是
