@@ -1,4 +1,10 @@
 zht:
+  dry:
+    new: '新增'
+    edit: '編輯'
+    update: '更新'
+    show: '顯示'
+    delete: '刪除'
   activerecord:
     errors:
       messages:
