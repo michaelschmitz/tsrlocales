@@ -18,22 +18,22 @@ zht:
       s11: "Emails regarding the lottery"
       s12: "How often do you want to receive emails regarding the lottery?"
       s13: "After every event"
-      s14: "Every month"
-      s15: "Never"
-      s16: "Visible for friends"
-      s17: "Yes, my profile with my name and picture is visible to my friends and connections. I can receive recommendations and skill confirmations from them."
-      s18: "Friends can see my score"
-      s19: "Yes, my friends and connections can see my achievement and social score."
-      s2: "Event invitations, job offers and internships. theStudentranking.com wants to provide you with access to excellent opportunities."
-      s3: "Every now and then we'll send out emails with an update to your position, job offers and invitations to events."
-      s4: "Update on new position"
-      s5: "Yes, send me an email every few months when my position has changed."
-      s6: "Job offers and invitations"
-      s7: "Yes, I want job offers and invitations to events."
-      s8: "Visible for recruiters?"
-      s8a: "Visible in the ranking?"
-      s8b: "Yes, my profile with my name and picture is visible to the public in the global Student Ranking."
-      s9: "Yes, recruiters and headhunters can view my profile and send me messages about high paying jobs or interesting events."
+      s14: "每個月"
+      s15: "永遠不要"
+      s16: "我的檔案"
+      s17: "是的，讓我的朋友和人脈可以看見我的姓名、照片與檔案。讓我能接受他們的推薦與技能確認。"
+      s18: "我的積分"
+      s19: "是的，讓我的朋友和人脈可以看見我的成就積分與社會積分。"
+      s2: "讓 theStudentRanking.com 帶你前往絕佳的活動邀請、工作機會和實習機會。"
+      s3: "我們會不定時的寄送 e-mail 給你，提供有關你的職務、工作機會和活動邀請的最新消息。請讓我們知道你的通訊喜好。"
+      s4: "排名更新"
+      s5: "是的，如果我的排名改變了，每三個月告知我一次。"
+      s6: "工作機會與活動邀請"
+      s7: "是的，我想收到工作機會和活動的邀請。"
+      s8: "讓僱主能看到我"
+      s8a: "公開我的排名"
+      s8b: "是的，在全球排名頁公開我的檔案和照片。"
+      s9: "是的，僱主與獵人頭公司都可以看到我的檔案，並能就相關的工作機會或活動聯絡我。"
     shared:
       links:
         s1: 忘記密碼？
@@ -53,4 +53,4 @@ zht:
         s3: 已經有帳號了？
         s4: 在此登入
     update_friends:
-      flash: Friend Update Started
+      flash: 開始更新朋友
