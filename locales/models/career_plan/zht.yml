@@ -34,6 +34,8 @@ zht:
       4: '100%'
       5: '不希望出差'
   activerecord:
+    models:
+      career_plan: '職涯規劃'
     attributes:
       career_plan:
         <<: *ATTRIBUTES
