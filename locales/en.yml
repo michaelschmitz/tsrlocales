@@ -1,4 +1,9 @@
 en:
+  helpers:
+    submit:
+      create: "Create"
+      submit: "Save"
+      update: "Update"
   shared:
     whatwedo: 
       s1: "theStudentRanking.com provides the world's biggest global student ranking. If you are a student looking to learn more about your market value, about your perspective on the job market and if you want to get found and hired by some of the world's leading companies, then we are your ideal destination."
