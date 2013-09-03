@@ -1,8 +1,8 @@
 zht:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: '長期合約 (全職屬此類)'
-      internship: 實習
+      contract: '已畢業'
+      internship: 實習生
       project: 長期計畫 (如建築類)
       promotion: 企業內的博士研究計畫
       part_time: 兼職
