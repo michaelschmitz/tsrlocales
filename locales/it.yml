@@ -1,4 +1,10 @@
 it:
+  dry:
+    new: 'Nuovo'
+    edit: 'Modifica'
+    update: 'Aggiorna'
+    show: 'Mostra'
+    delete: 'Cancella'
   activerecord:
     errors:
       messages:
