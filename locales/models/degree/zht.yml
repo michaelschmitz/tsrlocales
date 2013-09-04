@@ -135,6 +135,8 @@ zht:
       AR: "阿根廷 (0-10)"
       HK: "香港 (E, D, C, B, A)"
   activerecord:
+    models:
+      degree: '學位'  
     attributes:
       degree:
         <<: *ATTRIBUTES
