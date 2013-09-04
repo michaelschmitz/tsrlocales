@@ -46,11 +46,11 @@ es:
         s10: "Hay"
         s11: "usuarios en nuestra base de datos"
         s12: "Candidatos seleccionados"
-        s13: "Buscar en baste de datos"
+        s13: "Buscar en base de datos"
         s2: Factura
         s3: "Detalles de la factura"
         s4: "Ofertas de trabajo"
-        s5: "Ofertas de trabajo en el sistema "
+        s5: "Ofertas de trabajo en el sistema"
         s6: "Crear nueva oferta de trabajo"
         s7: "Eventos en el sistema"
         s8: "Crear un nuevo evento"
@@ -60,7 +60,7 @@ es:
         s16: Publicar una oferta
         s17: Es gratis.
         s18: Es rápido.
-        s19: Es su solución.
+        s19: Es la solución.
         s20: Base de Datos de CV
         s21: Buscar en la base de datos
         s22: Acceso total
