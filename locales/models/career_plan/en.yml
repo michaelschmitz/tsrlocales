@@ -19,6 +19,8 @@ en:
       move_city: Move city
       move_country: Move country
       location: Location
+      i_am: Position
+      my_industry: Industry
     available:
       1: 'Immediately'
       2: 'Within 2 weeks'
