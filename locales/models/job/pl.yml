@@ -25,8 +25,8 @@ pl:
       applications: Aplikacje
       alternative_name: Alternatywna nazwa
     area:
-      1: Praktyki
-      2: Construction
+      1: Edukacja
+      2: Konstrukcje / Budownictwo
       3: Konsulting
       4: Finanse / Rachunkowość
       5: Badanie
@@ -41,14 +41,14 @@ pl:
       14: Operacje techniczne, produkcja
       15: Sprzedaż
     contract_type:
-      1: Ograniczony
+      1: Umowa na czas określony
       2: Umowa o pracę
-      3: Praktyka
+      3: Praktyki
       4: Projekt
-      5: Awans
-      6: Szkolenie
+      5: Doktorat
+      6: Program absolwencki
       7: Wolontariat
-      8: Stowarzyszenie
+      8: Associate
     contract:
       1: W niepełnym wymiarze czasu
       2: W pełnym wymiarze czasu

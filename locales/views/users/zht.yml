@@ -1,20 +1,20 @@
 zht:
   users:
     rank:
-      s1: Profile
-      s2: Recommendations
-      s3: Skills
-      s4: Achievement Ranking
-      s5: Ranking Charts
-      s6: Company analysis
-      s7: Analysis and Suggestions
+      s1: 檔案
+      s2: 推薦人
+      s3: 技能
+      s4: 成就排名
+      s5: 排名圖表
+      s6: 公司分析
+      s7: 分析與建議
     show:
-      s1: About me
+      s1: 關於我
     edit:
-      s1: About me
+      s1: 關於我
     settings:
-      s1: "Privacy settings"
-      s10: "Your email address will never be shared."
+      s1: "隱私設定"
+      s10: "我們絕不會透露你的 e-mail。"
       s11: "Emails regarding the lottery"
       s12: "How often do you want to receive emails regarding the lottery?"
       s13: "After every event"
@@ -36,21 +36,21 @@ zht:
       s9: "Yes, recruiters and headhunters can view my profile and send me messages about high paying jobs or interesting events."
     shared:
       links:
-        s1: Forgot your password?
-        s2: Didn\'t receive confirmation instructions?
-        s3: Didn\'t receive unlock instructions?
-        s4: Sign in with
+        s1: 忘記密碼？
+        s2: 尚未收到確認信？
+        s3: 尚未收到解鎖信？
+        s4: 登入用
     sessions:
       new:
-        s1: Sign in
-        s2: Sign in
-        s3: No account yet?
-        s4: Sign up here
+        s1: 登入
+        s2: 登入
+        s3: 沒有帳號？
+        s4: 在此註冊
     registrations:
       new:
-        s1: Sign up
-        s2: Sign up
-        s3: Already have an acount?
-        s4: Sign in here
+        s1: 註冊
+        s2: 註冊
+        s3: 已經有帳號了？
+        s4: 在此登入
     update_friends:
       flash: Friend Update Started

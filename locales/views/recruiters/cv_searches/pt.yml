@@ -18,34 +18,16 @@ pt:
         s10: Competências
         s11: Viajar
         s12: resultados
+        s13: Pontuação mínima
+        s14: Distância máxima
+        s15: Experiência profissional
+        s16: Experiência estágios
       recruiter_profile_small:
         s1: Estágio
         s2: Vagas para Recém-Formados
         s3: Remover dos candidatos
         s4: Adicionar aos candidatos
         s5: Enviar mensagem
-      recruiter_profile:
-        s0: Estudante
-        s1: Adicionar à lista
-        s2: Mensagem
-        s3: Nova mensagem
-        s4: Mostrar todas as mensagens
-        s5: Top
-        s6: Top
-        s7: Estágios
-        s8: Vagas para Recém-formados
-        s9: Mudar de cidade
-        s10: Mudar de país
-        s11: Viajar
-        s12: Trabalhar em
-        s13: Classificação
-        s14: Educação
-        s15: Experiência
-        s16: Idiomas
-        s17: Competências
-        s18: Fit
-        s19: Total
-        s20: Editar fatores
       recruiter_recommendations:
         s1: Recommendações
         s2: Ainda sem recomendações

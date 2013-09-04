@@ -295,7 +295,7 @@ pl:
       s78: "Skontaktuj się bezpośrednio z naszym przedstawicielem w twoim kraju przez naszą stronę lub wypełnij formularz, który również możesz znaleźć na naszym portalu. Odpowiemy na Twoją wiadomość w ciągu 24 godziny, aby przedstawić Ci możliwości współpracy."
       s8: "4. W jaki sposób system oblicza pozycje rankingową użytkowników? Jak działa ranking? "
       s9: "Obliczając wynik system bierze pod uwagę kategorię, której nie da się zakwestionować: czas. Porównuje on studentów na podstawie ich wieku zwracając uwagę na ich dotychczasowe osiągnięcia. Ocenia jak zainwestowali oni swój czas? W jakich – mierzalnych dziedzinach udało im się odnieść sukces? Jak przebiegały ich studia? Jakie języki znają i na jakim poziomie? Jakim doświadczeniem zawodowe dysponują? Wszystkie te elementy składają się na indywidulany wynik każdego użytkownika, który następnie porównywany jest z rezultatami użytkowników w tym samym wieku. Swój wynik można również porównać z grupą studentów jednego uniwersytetu,  w zestawianiu międzynarodowej lub porównać z wynikami studentów kończących studia w tym samym czasie. Wszystko to pomoże dać sprawiedliwy, lepiej zbalansowany obraz każdego profilu."
-    data_privacy: 
+    data_protection: 
       s1: "Privacy policy"
       s10: "Disclosure to outside parties"
       s11: "We do not provide personally identifiable information to outside parties, unless this is required to perform our services to you. We will share information with law enforcement only if we receive a binding court decision (in Germany) requesting us to do so."

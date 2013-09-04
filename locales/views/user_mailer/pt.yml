@@ -1,10 +1,163 @@
-pt:  
-  user_mailer:
-    invite_email:
-      s1: "convidou-te para aderires ao theStudentRanking.com"
-      s2: "convidou-te para aderires ao theStudentranking.com"
-      s3: "Adere por aqui."
-      s4: "theStudentRanking.com oferece uma ranking global de estudantes e jovens profissionais. Compara-te com outros colegas em todo o mundo, no teu país e na tua universidade. Também podes aprender mais acerca do desempenho dos teus colegas e ligares-te às melhores empresas mundiais. Experimenta - é grátis!"
-    email_message:
+pt: 
+  user_mailer: 
+    blog_digest: 
+      s1: "Email-resumo do novo blog"
+    connection_confirmed: 
+      s1: "aceitou o teu convite no theStudentRanking.com. Agora podes ver o seu perfil, comparar os vossos resultados e descobrir como se ajudarem mutuamente a melhorar."
+      s10: "Resultado das realizações"
+      s11: "Atentamente,\n"
+      s12: Michael
+      s2: Verificar
+      s3: perfil
+      s4: "Também podes recomendar"
+      s5: "e confirmar as suas competências, contribuindo para que ganhe mais pontos, melhore o seu score social e tornar mais fácil a identificação do seu perfil pelas empresas."
+      s6: Recomendar
+      s7: "Confirmar competências"
+      s8: "Se quiseres saber mais sobre como funcionam os resultados social e das realizações:"
+      s9: "Resultado Social"
+    connection_request:
+      s1: "quer ligar-se a ti através do theStudentRanking.com. Isto permite-te receber mais recomendações e ter mais competências confirmadas - o que melhora o teu resultado social."
+      s2: "Liga-te agora e torna mais fácil para ambos serem encontrados por recrutadores."
+      s3: "Confirmar pedido"
+    email_message: 
       s1: "enviou-te uma mensagem"
-      s2: "O teu endereço de e-mail está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para te contactar. Podes mudar as tuas preferências de contacto. Para isso basta clicares em \"Conta\" após teres efetuado login."
+      s2: "O teu email está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para entrar em contacto consigo. Pode mudar as suas preferências de contacto se carregar em \"Minha conta\" após login."
+    event_digest: 
+      s1: "Email-resumo de novo evento"
+    invite_email: 
+      s0: "convidou-te para te juntares ao theStudentranking.com"
+      s1: "convidou-te para te juntares ao theStudentranking.com"
+      s2: "Experimenta aqui"
+      s3: "theStudentRanking.com oferece um ranking global de estudantes e jovens profissionais. Compare-se com outras pessoas a nível global, nacional e mesmo ao nível da sua universidade ou do seu campo de estudos. Também pode saber melhor o que os seus amigos estão a fazer e ligar-se a algumas das melhores empresas mundiais. Experimente agora - é gratuito!"
+    job_digest: 
+      s0: ": Grandes empresas procuram candidatos como tu"
+      s1: "Empregos que te podem interessar"
+      s2: "Ver todas as ofertas"
+      s3: "Ver oferta de emprego"
+      s4: "Ser contratado mais rápido:"
+      s5: "Atualiza o teu perfil"
+    new_position: 
+      s0: "Ganhaste uma nova posição no theStudentRanking.com"
+      s1: "pediste para receber informações sempre que a tua posição no ranking se alterasse. O sistema recalculou a tua posição atual, com mais de"
+      s2: "utilizadores registados."
+      s3: "Carrega aqui para veres a tua posição no ranking"
+      s4: "Alguns dos teus contactos também viram as suas posições alteradas. Aproveita para os recomendar ou para confirmar as suas competências."
+      s5: "Carrega aqui para veres os teus contactos"
+      s6: "Atentamente,\n"
+      s7: Michael
+    recommendation_received: 
+      s1: "Acabaste de receber uma recomendação de"
+      s10: "Atentamente,\n"
+      s11: Michael
+      s2: "Melhoraste assim o teu Resultado Social. Verifica o teu perfil para veres a tua posição no ranking social."
+      s3: "Verificar o meu perfil"
+      s4: "Também podes recomendar"
+      s5: "e ajudar a melhorar o seu resultado social."
+      s6: Recommend
+      s7: "As recomendações dos teus contatos com maior pontuação (os oito primeiros) dão-te 5% da sua"
+      s8: "pontuação social. Se queres melhorar, lê mais acerca das regras da pontuação social aqui:"
+      s9: "Funcionamento da pontuação social"
+    skill_confirmed: 
+      s1: "O teu contacto"
+      s2: "confimou mesmo agora algumas das tuas competências:"
+      s3: "O que fez aumentar o teu resultado social para"
+      s4: "Verificar o meu perfil"
+      s5: "Também adicionou algumas competências. Ajuda a fazer crescer o seu resultado e a ficar mais visível para recrutadores à procura de excelentes profissionais. Podes confirmar as seguintes competências?"
+      s6: "Confirmar esta competência"
+      s7: "Atentamente,\n"
+      s8: Michael
+    suggestions: 
+      completed_internship: 
+        s1: "reparámos que acabaste de terminar um estágio – pelo menos é o que o teu plano de carreira indica."
+        s10: Michael
+        s2: "Se assim for, atualiza já o teu perfil e ganha mais pontos por realizações pelo trabalho que fizeste"
+        s3: "Atualizar a minha experiência profissional"
+        s4: "Poderás também querer atualizar o teu plano de carreira para pensares nos teus próximos objetivos e prazo para os concretizares. Estarás disponível para outro estágio durante os próximos anos?"
+        s5: "Atualizar o meu plano de carreira"
+        s6: "A atualização do teu perfil é útil não só para ti mas também para os teus amigos: as pessoas que recomendaste irão beneficiar do resultado das tuas realizações e também serão encontradas mais rapidamente por empresas e recrutadores."
+        s7: "Queres mais contactos? Convida os teus amigos e faz crescer o teu resultado social!"
+        s8: "Melhorar o resultado social"
+        s9: "Desejo-te um dia excelente,\n"
+      empty_career_plan: 
+        s1: "As empresas que procuram o teu perfil, normalmente filtram a sua pesquisa pelo plano de carreira: Qual a tua disponibilidade para estágios ou posições full-time?"
+        s2: "Os recrutadores são capazes de te enviar mensagens ou convites quando te encontram na nossa plataforma. Mas para que isto aconteça, deves ter o teu plano de carreira sempre atualizado, particularmente no que se refere à tua disponibilidade."
+        s3: "Atualizar experiência profissional"
+        s4: "Atualizar plano de carreira"
+        s5: "Torna mais fácil às empresas e recrutadores encontrarem o teu perfil e contatarem-te. Depois, arrisca as tuas hipóteses e assegura uma grande carreira."
+        s6: "Diz-me se eu puder ajudar em alguma coisa,\n"
+        s7: Michael
+      inactive: 
+        s1: "sou o Michael dom theStudentRanking.com. Deves ter tido muito que fazer nos últimos meses - encarando novos desafios, ganhando novas competências e a melhorares."
+        s2: "É muito provável que o teu resultado no theStudentRanking.com tenha melhorado. Particularmente, o tempo que investiste nos teus estudos, experiência profissional e competências terá certamente compensado."
+        s3: "Atualiza o teu perfil para saberes como que qualificas - e o que aconteceu com os teus amigos entretanto."
+        s4: "Verificar o meu perfil rapidamente"
+        s5: "Tem um dia excelente,\n"
+        s6: Michael
+      languages_skills: 
+        s1: "sou o Michael do theStudentRanking.com. Já preencheste algumas partes do teu perfil, o que é excelente – já deves conseguir observar alguns resultados no ranking e estar visível para empresas e recrutadores."
+        s10: "Se eu puder ajudar em alguma coisa relacionada com o teu perfil, por favor não deixes de me escrever."
+        s11: "Atentamente,"
+        s12: Michael
+        s2: "Torna ainda mais fácil a vida de quem te quer encontrar, partilhando mais detalhes acerca das tuas competências e realizações pessoais."
+        s3: "Atualizar idiomas"
+        s4: "Atualizar competências"
+        s5: "Atualizar realizações"
+        s6: "Estas novas competências irão aumentar muito o teu resultado, promovendo o teu nome no ranking global."
+        s7: "O teu resultado social atual é:"
+        s8: "Se quiseres partilhar a confirmação das tuas habilidades e realizações, pede aos teus amigos e contatos para se juntarem a nós e recomendarem o teu perfil."
+        s9: "Diz aos teus amigos"
+      profile_empty: 
+        s1: "sou o Michael do theStudentRanking.com."
+        s2: "Se procuras construir uma carreira, então é fundamental ligares-te com empresas e recrutadores. Já tens um perfil criado no theStudentRanking.com,  mas as empresas ainda não te conseguem encontrar. Dá um impulso à tua carreira e preenche o teu perfil. Vê então os resultados – quantas mensagens estás a perder neste momento por parte de empresas e recrutadores?"
+        s3: "Adicionar formação"
+        s4: "Atualizar o perfil irá também dar-te algumas sugestões sobre a tua posição em comparação com outros candidatos – se procuras melhorar, então esta é a tua oportunidade."
+        s5: "Também podes trabalhar em conjunto com os teus amigos, estabelecendo objetivos comuns para melhoria de notas, aperfeiçoamento de idiomas ou novas experiências profissionais. Utilizem  a plataforma para melhorarem, encorajando-se uns aos outros."
+        s6: "Convidar amigos"
+        s7: "Estou muito feliz por te ver connosco,\n"
+        s8: Michael
+        s9: "PS: Feedback é benvindo - escreve-me quando quiseres."
+      s1: "As empresas procuram por idiomas e competências no teu perfil"
+      s2: "As empresas filtram por realizações sociais para encontrarem os melhores"
+      s3: "O teu plano de carreira ajuda-te a alcançares o sucesso"
+      s4: "O teu estágio recente"
+      s5: "As empresas procuram por candidatos como tu"
+      social_points: 
+        s1: "sou o Michael do theStudentRanking.com. Ao verificar o teu perfil, parece que nenhum dos teus amigos no Facebook se ligou a ti através do theStudentRanking – o teu social social score é zero."
+        s2: "Ao trazê-los para a nossa plataforma, irás ajudá-los a saberem mais acerca de si próprios e ambos percebem melhor aquilo que podem fazer para melhorar. Terás motivação acrescida e poderão trabalhar em conjunto para se tornarem mais valorizados pelo mercado de trabalho."
+        s3: "É fácil convidares os teus amigos e apenas demora alguns segundos (e asseguramos sempre a confidencialidade dos vossos dados)."
+        s4: "Convida os teus amigos"
+        s5: "Depois de os convidares, recomenda o seu perfil e confirma alguma das suas competências, para que eles possam ser encontrados mais facilmente pelas empresas. Se eles fizerem o mesmo, estarão também a ajudar-te a tornares-te mais visível no ranking."
+        s6: "Tem um bom dia,\n"
+        s7: Michael
+    weekly_digest: 
+      s1: "Este é o teu resumo semanal do theStudentRanking.com."
+      s10: "das tuas competências foram confirmadas esta semana."
+      s11: "apoiaram a tua carreira."
+      s12: "Confirma as competências dos teus contactos carregando aqui e ajudem-se mutuamente a serem encontrados."
+      s13: "Confirmar competências"
+      s14: "Recomendações:"
+      s15: "Não recebeste qualquer recomendação esta semana."
+      s16: "Recebeste recomendações esta semana"
+      s17: "Ver as tuas recomendações"
+      s18: "Carrega aqui para ajudares os teus contactos a desenvolverem a sua carreira"
+      s2: "Contactos:"
+      s3: "Tens 5 novos contactos – "
+      s4: "adicionaram-te"
+      s5: "Tens um novo contacto"
+      s6: "Não tens contactos novos."
+      s7: "Adicionar contactos aqui"
+      s8: "Competências:"
+      s9: "Nenhum dos teus contactos confirmou alguma das tuas competências esta semana."
+    welcome_email: 
+      s1: "sou o Michael do theStudentRanking.com. Obrigado pelo teu registo – espero que te gostes de utilizar a nossa plataforma. Juntos, iremos ajudar-te a aprenderes mais acerca do teu potencial e dos teus amigos, apoiando-te na melhoria das tuas realizações e do teu valor de mercado, ligando-te às melhores empresas em todo o mundo."
+      s10: "Estou muito contente por te ter connosco,\n"
+      s11: Michael
+      s12: "PS: Feedback é benvindo - escreve-me sempre que quiseres."
+      s2: "Este e-mail serve para confirmar o teu registo e ajuda-te a encontrares a tua conta outra vez. Registaste-te com XXX.XXX@XXX.com. Se alguma vez te esqueceres da tua password, poderás pedir uma nova aqui"
+      s3: "Vamos lá construir a tua carreira? Podes começar por atualizar o teu perfil com algumas das tuas realizações, ganhando já alguns pontos e visibilidade."
+      s4: "Construir o teu perfil"
+      s5: "As empresas muitas vezes procuram por candidatos que possam evidenciar “comprovativos sociais” das suas realizações. Se os teus contatos confirmarem as tuas competências e recomendarem o teu perfil, poderás adicionar valor à tua pesquisa de emprego e irás melhorar o teu resultado social: recebes 5% dos pontos de cada pessoa que te recomendar e pontos adicionais sempre que uma das tuas competências for confirmada."
+      s6: "Convidar contactos"
+      s7: "Também podes editar rapidamente as tuas preferências"
+      s8: "Conseguir o primeiro emprego"
+      s9: "é o nosso artigo de 9 capítulos que te ajudará a preparares-te para o mercado de trabalho. Visita o nosso blog e aprende como conseguires uma boa primeira experiência de trabalho – facilmente."

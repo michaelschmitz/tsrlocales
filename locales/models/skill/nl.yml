@@ -17,5 +17,7 @@ nl:
         <<: *ATTRIBUTES
   simple_form:
     labels:
+      skills:
+        <<: *ATTRIBUTES 
       skill:
-        <<: *ATTRIBUTES      
+        <<: *ATTRIBUTES       

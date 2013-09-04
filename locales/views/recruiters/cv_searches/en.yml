@@ -3,16 +3,10 @@ en:
     cv_searches:
       edit:
         s1: "Name your search"
-      modal:
-        html:
-          s1: Education
-          s2: Work experience
-          s3: Other experience
-          s4: Ranking
       comparisons:
         s1: Global comparison
       form:
-        s1: Text
+        s1: Keyword search
         s2a: Language
         s2: "Language 1"
         s3: "Language 2"
@@ -25,34 +19,16 @@ en:
         s10: Skills
         s11: Travel
         s12: results
+        s13: Minimum points
+        s14: Distance max  (km)
+        s15: Work experience (months)
+        s16: Internship experience (months)
       recruiter_profile_small:
         s1: Internship
         s2: Graduate position
         s3: Remove from candidates
         s4: Add to candidates
         s5: Send message
-      recruiter_profile:
-        s0: Student
-        s1: Add to list
-        s2: Message
-        s3: New message
-        s4: Show all messages
-        s5: Top
-        s6: Top
-        s7: Internships
-        s8: Graduate position
-        s9: Move city
-        s10: Move country
-        s11: Travel
-        s12: Work in
-        s13: Rating
-        s14: Education
-        s15: Experience
-        s16: Languages
-        s17: Skills
-        s18: Fit
-        s19: Total
-        s20: Edit factors
       recruiter_recommendations:
         s1: Recommendations
         s2: No recommendations yet
@@ -61,7 +37,7 @@ en:
         s2: Confirm
         s3: This user has not indicated skills yet.
       index:
-        s1: CV Searches
+        s1: My saved search results
         s2: Name
         s3: Show candidates
         s4: Edit

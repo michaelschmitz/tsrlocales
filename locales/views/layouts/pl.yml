@@ -14,16 +14,17 @@ pl:
       s11: Rejestracja
       s12: Rekrutuj z nami
     recruiter_nav:
-      s1: Pulpit nawigacyjny
+      s1: Strona nawigacyjna
       s2: Strona firmy
       s3: Pokaż stronę
       s4: Edytuj stronę
-      s5: Opis
-      s6: Dodaj ofertę pracy
+      s5: Dodane oferty
+      s6: Dodaj nową ofertę
       s7: Wyszukiwarka CV
-      s8: Indeks
-      s9: Nowy
+      s8: Zapisane wyniki
+      s9: Nowe wyszukiwanie
       s10: Wyloguj się
+      s11: Oferty pracy
     bottomfooter:
       s1: Start
       s2: Wydarzenia

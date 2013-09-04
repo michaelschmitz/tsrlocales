@@ -140,5 +140,7 @@ zht:
         <<: *ATTRIBUTES
   simple_form:
     labels:
+      degrees:
+        <<: *ATTRIBUTES 
       degree:
         <<: *ATTRIBUTES 

@@ -1,6 +1,9 @@
 en:
   recruiters:
     companies:
+      flash:
+        create: Company was successfully created.
+        update: Company was successfully updated.
       form:
         s1: Company address
         s2: Invoicing

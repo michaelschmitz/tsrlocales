@@ -22,6 +22,10 @@ es:
       show:
         s1: Visitas
         s1: Inscripciones
+      job_visitors_and_applicants:
+        s1: Inscripciones
+        s2: Visitas
+        s3: No hay inscripciones.
     mailer:
       email_message:
         s1: "le ha enviado un mensaje"

@@ -42,6 +42,18 @@ it:
       s8a: "Visibile nel ranking?"
       s8b: "Sì, il mio profilo e la mia foto sono visibili al pubblico nel Ranking Globale degli Studenti. Posso anche ricevere raccomandazioni e conferma delle competenze dagli altri utenti."
       s9: "Si, recruiters e headhunters possono vedere il mio profilo e inviarmi messaggi riguardo lavori retribuiti od inviti ad eventi interessanti."
+      s20: "Suggerimenti per migliorare"
+      s21: "Si, potete inviarmi suggerimenti su come migliorare il mio profilo"
+      s22: "Raccomandazioni e Conferme"
+      s23: "Si, inviatemi una mail quando qualcuno mi raccomanda o conferma le mie competenze."
+      s24: "Richiesta di contatto"
+      s25: "Si, inviatemi una mail quando qualcuno mi invia una richiesta di contatto."
+      s26: "Avvisi offerte di lavoro"
+      s27: "Le aree che mi interessano sono: (scelta multipla)"
+      s28: "Eventi"
+      s29: "Potete inviarmi inviti a eventi come job meetings e conferenze."
+      s30: "Blog"
+      s31: "Potete inviarmi articoli relativi alla ricerca di lavoro, alla redazione del CV, ai consigli per i colloqui, ecc."
     shared:
       links:
         s3: "Password dimenticata?"

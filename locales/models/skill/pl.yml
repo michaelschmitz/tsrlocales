@@ -19,5 +19,7 @@ pl:
         <<: *ATTRIBUTES
   simple_form:
     labels:
+      skills:
+        <<: *ATTRIBUTES 
       skill:
         <<: *ATTRIBUTES      

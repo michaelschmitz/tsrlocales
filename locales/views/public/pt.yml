@@ -20,7 +20,7 @@ pt:
       s6: Telefone
       s7: Mensagem
       s8: Submeter
-    data_privacy: 
+    data_protection: 
       s1: "Política de Privacidade"
       s10: "Divulgação de informação para terceiros"
       s11: "Não fornecemos qualquer tipo de informação pessoal a terceiros, a não ser que se revele necessário à prestação do serviço que nos propomos prestar aos nossos utilizadores. Apenas partilharemos informação com o sistema judicial se a tal formos obrigados por decisão de um tribunal (na Alemanha) e apenas a pedido deste."
