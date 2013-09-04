@@ -2,13 +2,13 @@ zht:
   contact_message:
     attributes: &ATTRIBUTES
       name: 姓名
-      company: 公司名稱
+      company: 公司名稱 (若您代表某公司，請提供公司名稱)
       email: E-mail
-      phone: 電話號碼 (let us know if you want to be called)
+      phone: 電話號碼 (如果您希望我們以電話聯絡，請提供電話號碼)
       body: 訊息內容
   activerecord:
     models:
-      contact_message: 'Contact Message'
+      contact_message: '送出'
     attributes:
       contact_message:
         <<: *ATTRIBUTES
