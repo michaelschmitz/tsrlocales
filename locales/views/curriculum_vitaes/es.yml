@@ -7,7 +7,7 @@ es:
       s1: Estudiante
     career_plans:
       s1: Plan de Carrera
-      s2: Añadir Plan de Carrera
+      s2: Añadir plan de carrera
     degrees:
       s1: Educación Universitaria
       s2: Añadir estudios
@@ -26,7 +26,7 @@ es:
       s6: Contactos
       s7: Invitar amigos
       s8: Mi ranking
-      s9: Configuración privacidad
+      s9: Configuración de privacidad
       s10: Actualizar contactos Facebook
       s11: Mensaje
     publications:
@@ -39,8 +39,8 @@ es:
       s1: Educación secundaria
       s2: Añadir educación
     services:
-      s1: Servicios
-      s2: Añadir servicio
+      s1: Aficiones, actividades voluntariado, asociaciones
+      s2: Añadir actividad
     skills:
       s1: Habilidades
       s2: Añadir habilidad
