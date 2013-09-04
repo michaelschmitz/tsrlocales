@@ -46,6 +46,8 @@ en:
       s29: "Send me invitations to events such as career fares and speech opportunities."
       s30: "Blogs"
       s31: "Send me blogs and articles about job searching, resume writing, interview tips, etc."
+      s32: Messages
+      s33: Visibility
     shared:
       links:
         s1: Forgot your password?
