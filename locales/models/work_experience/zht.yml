@@ -18,6 +18,8 @@ zht:
       5: '合約制'
       6: '自僱'
   activerecord:
+    models:
+      work_experience: '工作經驗'
     attributes:
       work_experience:
         <<: *ATTRIBUTES
