@@ -11,6 +11,8 @@ zht:
       link: 連結
       comment_on_location: 活動地址描述
   activerecord:
+    models:
+      event: '活動'  
     attributes:
       event:
         <<: *ATTRIBUTES
