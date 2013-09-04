@@ -53,6 +53,8 @@ zht:
       1: 兼職
       2: 全職
   activerecord:
+    models:
+      job: '職缺'
     attributes:
       job:
         <<: *ATTRIBUTES
