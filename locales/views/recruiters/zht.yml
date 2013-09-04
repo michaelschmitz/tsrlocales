@@ -21,7 +21,7 @@ zht:
         s1: 新增工作機會
       show:
         s1: 訪客
-        s1: 申請者
+        s2: 申請者
       job_visitors_and_applicants:
         s1: 申請者
         s2: 訪客
@@ -37,7 +37,7 @@ zht:
       index:
         s1: 我的訊息
         s2: 標題
-        s2: 寄備份到電子信箱？
+        s3: 寄備份到電子信箱？
       modal:
         html:
           s1: 訊息
