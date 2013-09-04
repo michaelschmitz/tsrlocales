@@ -23,6 +23,8 @@ zht:
       2: '每個月'
       3: '永不'
   activerecord:
+    models:
+      user: '個人檔案'
     attributes:
       user:
         <<: *ATTRIBUTES
