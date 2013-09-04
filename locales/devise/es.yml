@@ -17,7 +17,7 @@ es:
       unauthenticated: 'Debe iniciar sesión o registrarse antes de continuar.'
       unconfirmed: 'Debe confirmar su cuenta antes de continuar.'
       locked: 'Su cuenta ha sido bloqueada.'
-      invalid: 'Email o contreseña incorrectos.'
+      invalid: 'Email o contraseña incorrectos.'
       invalid_token: 'Código de verificación incorrecto.'
       timeout: 'Su sesión ha caducado, por favor, inicie sesión nuevamente para continuar.'
       inactive: 'Su cuenta aún no ha sido activada.'
@@ -42,8 +42,8 @@ es:
       signed_up_but_inactive: 'Se ha inscrito correctamente. No obstante, no hemos podido iniciar su sesión porque su cuenta no ha sido activada.'
       signed_up_but_locked: 'Se ha inscrito correctamente. No obstante, no hemos podido iniciar su sesión porque su cuenta ha sido bloqueada.'
       updated: 'Ha actualizado su cuenta correctamente.'
-      update_needs_confirmation: "Actualizó su cuenta correctamente, pero necesitamos verificar su nueva dirección de correo. Por favor, compruebe su correo electrónico y clique en el enlace recibido para confirmar su nueva dirección de correo."
-      destroyed: 'Hasta la próxima! Su cuenta ha sido cancelada con éxito. Esperamos verle de nuevo brevemente.'
+      update_needs_confirmation: "Ha actualizado su cuenta correctamente pero necesitamos verificar su nueva dirección de correo. Por favor, compruebe su correo electrónico y clique en el enlace recibido para confirmar su nueva dirección de correo."
+      destroyed: 'Su cuenta ha sido cancelada con éxito. Esperamos verle de nuevo brevemente. Hasta la próxima!'
     unlocks:
       send_instructions: 'En breve recibirá un email con instrucciones para desbloquear su cuenta.'
       unlocked: 'Su cuenta ha sido desbloqueada con éxito. Por favor, inicie sesión para continuar.'
