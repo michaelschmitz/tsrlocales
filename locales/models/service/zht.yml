@@ -24,6 +24,8 @@ zht:
       4: '區域性領導角色 (例如：訓練、指導)'
       5: '策略性領導角色 (例如：董事會成員)'
   activerecord:
+    models:
+      service: '興趣、會員、社交活動'
     attributes:
       service:
         <<: *ATTRIBUTES
