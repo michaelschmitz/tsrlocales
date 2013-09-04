@@ -19,6 +19,8 @@ zht:
       move_city: 搬到別的城市的意願
       move_country: 搬到別的國家的意願
       location: 地點
+      i_am: 職稱
+      my_industry: 產業
     available:
       1: '立即'
       2: '兩週之內'
@@ -42,4 +44,4 @@ zht:
   simple_form:
     labels:
       career_plan:
-        <<: *ATTRIBUTES      
+        <<: *ATTRIBUTES
