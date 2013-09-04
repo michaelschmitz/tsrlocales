@@ -66,6 +66,7 @@ pl:
         s4: Zaloguj się tutaj
     update_friends:
       flash: "Rozpocznij aktualizację listy znajomych"
+      flash: "Lista znajomych została zaktualizowana."
     passwords:
       edit:
         s1: "Zmień hasło"

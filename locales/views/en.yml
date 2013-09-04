@@ -706,7 +706,13 @@ en:
       close: "Close"
       save: "Save"
       edit: "Edit"
-      cancel: "Cancel" 
+      cancel: "Cancel"
+      customize_settings_link: Customize which messages you receive
+      edit_privacy_link: Edit privacy settings
+      jobs_link: Jobs
+      advice_link: Advice
+      hi: Hello
+      here: here
       area: 
         s1: University/School
         s2: Social

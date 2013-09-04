@@ -1,7 +1,7 @@
 zht:
   degree:
     attributes: &ATTRIBUTES
-      name: 姓名
+      name: Name
       country: 國家
       university_id: 大學
       title: 學位
@@ -10,7 +10,7 @@ zht:
       end_date: 結束日期
       grade_scale: 成績系統
       average: 平均成績
-      study_area: 比較群組
+      study_area: 學術領域
       faculty: 科系
       major: 主修
       minor: 副修
@@ -135,6 +135,8 @@ zht:
       AR: "阿根廷 (0-10)"
       HK: "香港 (E, D, C, B, A)"
   activerecord:
+    models:
+      degree: '學位'  
     attributes:
       degree:
         <<: *ATTRIBUTES

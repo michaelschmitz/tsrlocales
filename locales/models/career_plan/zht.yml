@@ -1,8 +1,8 @@
 zht:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: '長期合約 (全職屬此類)'
-      internship: 實習
+      contract: '已畢業'
+      internship: 實習生
       project: 長期計畫 (如建築類)
       promotion: 企業內的博士研究計畫
       part_time: 兼職
@@ -19,6 +19,8 @@ zht:
       move_city: 搬到別的城市的意願
       move_country: 搬到別的國家的意願
       location: 地點
+      i_am: 職稱
+      my_industry: 產業
     available:
       1: '立即'
       2: '兩週之內'
@@ -34,10 +36,12 @@ zht:
       4: '100%'
       5: '不希望出差'
   activerecord:
+    models:
+      career_plan: '職涯規劃'
     attributes:
       career_plan:
         <<: *ATTRIBUTES
   simple_form:
     labels:
       career_plan:
-        <<: *ATTRIBUTES      
+        <<: *ATTRIBUTES

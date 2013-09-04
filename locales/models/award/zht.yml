@@ -1,4 +1,3 @@
-
 zht:
   award:
     attributes: &ATTRIBUTES
@@ -14,6 +13,8 @@ zht:
       3: 國家級
       4: 國際級
   activerecord:
+    models:
+      award: '獎章'
     attributes:
       award:
         <<: *ATTRIBUTES

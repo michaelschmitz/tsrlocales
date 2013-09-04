@@ -11,6 +11,8 @@ zht:
       3: '高階'
       4: '很流利 / 母語'
   activerecord:
+    models:
+      language: '語言'
     attributes:
       language:
         <<: *ATTRIBUTES

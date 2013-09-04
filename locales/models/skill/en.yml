@@ -22,4 +22,4 @@ en:
       skills:
         <<: *ATTRIBUTES 
       skill:
-        <<: *ATTRIBUTES      
+        <<: *ATTRIBUTES     

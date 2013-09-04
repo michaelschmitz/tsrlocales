@@ -7,16 +7,16 @@ en:
       s1: Student
     career_plans:
       s1: Career Plan
-      s2: Add Career Plan
+      s2: Add a career plan
     degrees:
       s1: University Education
-      s2: Add Degree
+      s2: Add education
     languages:
       s1: Languages
-      s2: Add language
+      s2: Add a language
     preferred_employers:
       s1: Preferred Employers
-      s2: Add company
+      s2: Add a company
     profile:
       s1: Current
       s2: Previous
@@ -31,19 +31,19 @@ en:
       s11: Message
     publications:
       s1: Publications
-      s2: Add publication
+      s2: Add publications
     scholarships:
       s1: Scholarships
-      s2: Add scholarship
+      s2: Add scholarships
     schools:
-      s1: Secondary education
+      s1: Secondary Education
       s2: Add education
     services:
       s1: "Interests, memberships, social activities"
       s2: Add services
     skills:
       s1: Skills
-      s2: Add skill
+      s2: Add a skill
     works:
       s1: Work Experience
       s2: Add work experience

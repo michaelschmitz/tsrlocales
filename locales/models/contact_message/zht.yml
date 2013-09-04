@@ -1,0 +1,18 @@
+zht:
+  contact_message:
+    attributes: &ATTRIBUTES
+      name: 姓名
+      company: 公司名稱 (若您代表某公司，請提供公司名稱)
+      email: E-mail
+      phone: 電話號碼 (如果您希望我們以電話聯絡，請提供電話號碼)
+      body: 訊息內容
+  activerecord:
+    models:
+      contact_message: '聯絡我們'
+    attributes:
+      contact_message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      contact_message:
+        <<: *ATTRIBUTES   

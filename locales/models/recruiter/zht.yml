@@ -9,6 +9,8 @@ zht:
       last_name: 英文姓名
       title: 職稱
   activerecord:
+    models:
+      recruiter: '僱主'
     attributes:
       recruiter:
         <<: *ATTRIBUTES

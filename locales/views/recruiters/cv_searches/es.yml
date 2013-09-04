@@ -17,6 +17,10 @@ es:
         s10: Habilidades
         s11: Viajar
         s12: Resultados
+        s13: Puntuación mín.
+        s14: Distancia máx.
+        s15: Experiencia laboral
+        s16: Experiencia en prácticas
       recruiter_profile_small:
         s1: Prácticas
         s2: Posición para graduado
@@ -29,7 +33,7 @@ es:
       recruiter_skills:
         s1: Habilidades
         s2: Confirmar
-        s3: El usuario aún no ha introducido habilidades.
+        s3: El usuario no ha introducido habilidades.
       index:
         s1: Búsquedas de CV
         s2: Nombre

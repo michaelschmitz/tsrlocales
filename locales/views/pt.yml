@@ -705,6 +705,20 @@ pt:
         s5: Cultura
         s6: Científica
         s7: Outra
+        yes: "Sim"
+        no: "Não"
+        na: "Indisponível"
+        details: "Detalhes"
+        close: "Fechar"
+        save: "Gravar"
+        edit: "Editar"
+        cancel: "Cancelar"
+        customize_settings_link: Personalize as mensagens a receber
+        edit_privacy_link: Editar definições de privacidade
+        jobs_link: Empregos
+        advice_link: Sugestões
+        hi: Olá
+        here: aqui
       available: 
         s1: "Todas as opções"
         s2: Imediata

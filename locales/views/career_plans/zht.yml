@@ -1,7 +1,7 @@
 zht:
   career_plans:
     career_plan:
-      s1: Graduate position
+      s1: 已畢業
       s2: 長期合約
       s3: 長期計畫 (如建築類)
       s4: 企業內的博士研究計畫
@@ -11,11 +11,11 @@ zht:
       s8: 志工
       s9: Associate offers
       s10: 短期合約
-      s11: Graduate positions
-      s12: or from
-      s13: Availability not indicated.
-      s14: 實習
-      s15: from
+      s11: 已畢業
+      s12: 或自
+      s13: 尚無表明
+      s14: 實習生
+      s15: 自
       s16: 對實習不感興趣。
       s17: 出差意願
       s18: 出差意願沒有提供。

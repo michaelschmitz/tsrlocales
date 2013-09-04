@@ -18,11 +18,11 @@ zht:
         titel: 學位
         title: 學科
       employer: 
-        accepted_tos: 服務條款與資料隱私
+        accepted_tos: 服務條款與隱私政策
         company_name: 公司
         contact_name: 您的姓名
         password: 密碼
-        rebatecode: 折扣代碼
+        rebatecode: 優惠代碼
       event: 
         date: 日期
         deadline: 申請截止日
@@ -30,7 +30,7 @@ zht:
         intro: 簡介
         link: 申請網址
         location: 地址
-        sponsor: 其他贊助商
+        sponsor: 贊助商
         titel: 活動名稱
       job: 
         average_hours: "每周時數 (大約)"
@@ -64,8 +64,8 @@ zht:
         locations: 現在所居城市
         max_salary: 最高薪資
         min_salary: "xxx: 最低薪資 "
-        recruit_me: 理想中的僱主
-        remind_me: 新的排名位置更新
+        recruit_me: 理想的僱主
+        remind_me: 更新排名
         work_in_germany: 能合法工作於
       publication: 
         description: 名稱
@@ -78,7 +78,7 @@ zht:
         school_average: 平均成績
         startdate: 開始日期
       service: 
-        company: 公司或組織名稱
+        company: 組織名稱
         document: 上傳證明文件
         enddate: 結束日期
         organization: 組織名稱
@@ -86,7 +86,7 @@ zht:
         startdate: 開始日期
       skill: 
         document: 上傳證明文件
-        level: 程度
+        level: 技能等級
         months: 月數
         name: 技能名稱
         years: 年數
@@ -96,7 +96,7 @@ zht:
         name: 名稱
         startdate: 開始日期
       user: 
-        accepted_tos: 服務條款與資料隱私
+        accepted_tos: 服務條款與隱私政策
     errors: 
       messages: 
         accepted: 必須接受
@@ -200,10 +200,10 @@ zht:
         one: 大約1小時
         other: "大約%{count}小時"
       about_x_months: 
-        one: "大約1 month"
-        other: "大約%{count}月"
+        one: "大約1個月"
+        other: "大約%{count}個月"
       about_x_years: 
-        one: "大約1 year"
+        one: "大約1年"
         other: "大約%{count}年"
       almost_x_years: 
         one: 幾乎1年
@@ -241,13 +241,13 @@ zht:
   helpers: 
     label: 
       companies: 
-        name: 公司名
+        name: 公司名稱
       cvsearch: 
         age_group: 出生年份
         average: "GPA (平均在學成績)"
         exchange: 交換/合作大學名稱
         festanstellung_available: 何時可到職
-        festanstellung_date: 固定日期
+        festanstellung_date: 特定日期
         grade_scale: 成績系統
         graduation_year: 畢業年份
         internship_experience: 實習經驗總月數
@@ -270,7 +270,7 @@ zht:
         document: 上傳成績單、畢業證書等文件
         ects: 已完成學分/歐洲學分轉換系統(?)
         enddate: "(預計) 畢業日期"
-        featured: 你想要被本網站標榜為此大學的特色學生之一嗎？這將使你個人的部分資料公開。
+        featured: 你想要被標榜為此大學的特色學生之一嗎？這將使你個人的部分資料公開。
         grade_final_work: 最終成績
         major: 主修
         name: "大學 (高等教育)"
@@ -291,9 +291,9 @@ zht:
         logo: 公司商標
         password: 密碼
         payment_preference: 付款方式
-        rebatecode: 折扣代碼
+        rebatecode: 優惠代碼
         street: 地址
-        url: 申請網址
+        url: 網址
         vat_number: "VAT 號碼"
       event: 
         anmerkung: 日期內容
@@ -303,7 +303,7 @@ zht:
         intro: "簡介 (最多320字)"
         link: 活動網址
         location: 地址
-        sponsor: 其他贊助廠商
+        sponsor: 贊助商
       exchangeuni: 
         enddate: 結束日期
         name: 大學
@@ -321,7 +321,7 @@ zht:
         move_city: 你願意搬到國內的另一個地方工作嗎？
         move_country: 你願意搬到國外工作嗎？
         teilzeit: 你在找的工作性質
-        travel: 出差多少是可以接受的？
+        travel: 出差意願
       job: 
         average_hours: "每週時數 (大約)"
         company: 公司或組織名稱
@@ -697,8 +697,22 @@ zht:
         s5: 沒有收到解鎖信？
         s6: 登入用
     dry: 
+      yes: "是"
+      no: "不是"
+      na: "Not available"
+      details: "詳細內容"
+      close: "關閉"
+      save: "儲存"
+      edit: "編輯"
+      cancel: "取消"
+      customize_settings_link: 選擇欲收到的訊息類型
+      edit_privacy_link: 編輯隱私設定
+      jobs_link: 工作機會
+      advice_link: 建議
+      hi: Hello
+      here: 這裡
       area: 
-        s1: 大學/學校
+        s1: 大學/中學
         s2: 社交性質
         s3: 社團或運動性質
         s4: 政治團體
@@ -1136,10 +1150,10 @@ zht:
         s3: 專家級
       prize: 
         s1: "獎章 (學術類與一般)"
-        s2: "獎章 (運動類與其他)"
+        s2: "獎章 (運動類)"
         s3: 地方級
         s4: 州、省級
-        s5: 國內級
+        s5: 國家級
         s6: 國際級
       publications: 
         s1: 其他著作
@@ -1239,8 +1253,8 @@ zht:
         s2: 帳單細節
       passwords: 
         editnew: 
-          s1: 改變密碼?
-          s2: 改變密碼
+          s1: 更改密碼?
+          s2: 更改密碼
           s3: 忘記你的密碼？
           s4: 傳送密碼資訊
       registrations: 
@@ -1403,18 +1417,18 @@ zht:
         s8: 工作機會
         s9: 地址
       index2: 
-        s1: 您刊登的工作機會
-        s2: 尚未刊登任何工作。
+        s1: 您刊登的職缺
+        s2: 尚未刊登任何職缺。
         s3: 編輯
         s4: 複製
-        s5: 刊登新的工作機會
+        s5: 刊登新的職缺
         s6: 無公司商標
       newedit: 
-        s1: 編輯工作機會
+        s1: 編輯職缺
         s2: 提示：點選綠色的標記就可預覽您的求才內容。
         s3: 顯示公司商標
         s4: 無公司商標
-        s5: 刊登新的工作機會
+        s5: 刊登新的職缺
         s6: 想要節省時間？
         s7: 刊登直到
       show: 
@@ -1444,7 +1458,7 @@ zht:
         s4: 我的最愛
         s5: 加到我的最愛
         s6: 從我的最愛移除
-        s7: 編輯工作機會
+        s7: 編輯職缺
         s8: 在此申請
         s9: 全職
     jobs: 
@@ -1486,10 +1500,10 @@ zht:
         s15: 活動
         s16: 聯絡我們
         s17: 首頁
-        s18: 我刊登的工作機會
-        s19: 所有的工作機會
+        s18: 我刊登的職缺會
+        s19: 所有的職缺
         s2: 登入
-        s20: 刊登新的工作機會
+        s20: 刊登新的職缺
         s21: 我的活動
         s22: 所有活動
         s23: 建立新的活動
@@ -1516,7 +1530,7 @@ zht:
         s4: 或
         s40: 服務價格
         s41: 工作機會
-        s42: 我們會與您聯絡以確認您的帳號。您現在可以開始刊登工作機會和活動，但他們要在帳號確認後才能被使用者看到，搜尋資料庫的功能也要到帳號確認後才會開放。
+        s42: 我們會與您聯絡以確認您的帳號。您現在可以開始刊登職缺和活動，但他們要在帳號確認後才能被使用者看到，搜尋資料庫的功能也要到帳號確認後才會開放。
         s43: 您的帳號尚待確認
         s44: 媒體室
         s5: 目前登入的帳號為
@@ -1984,8 +1998,8 @@ zht:
         s7: 讓我們先從遊戲規則講起。
         s8: 由於全球化的關係，我們都在玩一場龐大的遊戲，這遊戲類似大富翁或象棋。
         s9: 身為一個初學者，通常會有另一個玩家告訴你遊戲規則，或者你可以自己讀說明書，最多一個小時可以讀完。
-      datenschutz: 
-        s1: "Privacy policy - Datenschutz"
+      data_protection: 
+        s1: "Privacy policy - data protection"
         s10: "Übermittlung an Dritte"
         s11: "Eine Weitergabe von Daten an Dritte erfolgt grundsätzlich nicht, sofern dies nicht zur Erbringung der Dienstleistung oder zur Vertragsdurchführung notwendig ist. Behörden oder anderen staatlichen Institutionen werden nur im Rahmen der gesetzlichen Informationspflichten oder aufgrund gerichtlicher Entscheidungen Auskunft erteilt.</p><p> Auf Anordnung der zuständigen Stellen dürfen wir im Einzelfall Auskunft über diese Daten erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist."
         s12: "Daten von Kindern und Jugendlichen"
@@ -2026,11 +2040,11 @@ zht:
         s12: 你已儲存的求職者：
         s13: 搜尋資料庫
         s2: 帳單
-        s3: 顯示帳單細節
-        s4: 刊登的工作機會
-        s5: 已刊登的工作筆數：
-        s6: 建立新的工作機會
-        s7: 系統裡的活動
+        s3: 顯示帳單明細
+        s4: 我刊登的職缺數：
+        s5: 所有刊登的職缺數：
+        s6: 建立新的職缺
+        s7: 系統裡的活動筆數：
         s8: 建立新的活動
         s9: 個人簡歷資料庫
       faq: 

@@ -1,9 +1,19 @@
 es:
+  helpers:
+    submit:
+      create: "Crear"
+      submit: "Guardar"
+      update: "Actualizar"
   shared:
     whatwedo: 
-        s1: "theStudentRanking.com proporciona el mayor ránking de estudiantes del mundo. Si usted está estudiando y quiere saber más sobre su valor en el mercado laboral, sobre sus perspectivas de trabajo y sobre cómo conseguir un puesto en las empresas líderes en el mundo, aquí es donde todo estudiante debe estar."
-        s2: "Para las empresas, ofrecemos soluciones para la selección de personal dirigidas a estudiantes y recién graduados. Proporcionamos acceso a los candidatos perfectos para programas de formación de talentos y aprendizaje. Aquí podrá encontra gran potencial y los grandes profesionales del futuro."
+        s1: "theStudentRanking.com es el mayor ránking de estudiantes del mundo. Si estás estudiando y quieres saber más sobre tu valor en el mercado laboral, sobre tus perspectivas de futuro y sobre cómo conseguir un puesto de trabajo en las grandes empresas de todo el mundo, aquí es donde deberías estar."
+        s2: "En cuanto a las empresas, ofrecemos soluciones para la selección de personal centradas en estudiantes y recién graduados. También ofrecemos programas de formación de talentos dirigidos a los mejores estudiantes. Las empresas encontrarán aquí un gran potencial y los grandes profesionales del futuro."
   dry:
+    new: 'Nuevo'
+    edit: 'Editar'
+    update: 'Actualizar'
+    show: 'Mostrar'
+    delete: 'Eliminar'
     yes: "Sí"
     no: "No"
     na: "No disponible"
@@ -47,7 +57,7 @@ es:
       s121: Mali
       s122: Malta
       s123: Marruecos
-      s124: "Islands Marshall"
+      s124: "Islas Marshall"
       s125: Martinica
       s126: Mauritania
       s127: Mauricio
@@ -254,7 +264,7 @@ es:
       s98: "Islas ultramarinas de Estados Unidos"
       s99: "Islas Cocos"
     global_links:
-      s1: "Ver todos los empleos"
+      s1: "Ver todas las ofertas"
       s2: "Ver todos los eventos"
       s3: "Ver todas las actividades"
       s4: "Ver todos los estudiantes"
@@ -508,7 +518,7 @@ es:
     10: "Alemán"
     74: "Amhárico"
     132: "Amharique"
-    121: "Armenian"
+    121: "Armenio"
     77: "Assamese"
     48: "Awadhi"
     68: "Azerbayano"
@@ -568,7 +578,7 @@ es:
     38: "Javanés"
     99: "Kanaujii"
     54: "Kannada"
-    124: "Karelian"
+    124: "Carelia"
     105: "Kazaco"
     83: "Khmer"
     112: "Konkani"
@@ -585,7 +595,7 @@ es:
     55: "Maithili"
     107: "Makuwa"
     82: "Malagasy"
-    51: "Malay"
+    51: "Malayo"
     53: "Malayalam"
     134: "Maltés"
     39: "Marathi"
@@ -612,7 +622,7 @@ es:
     20: "Serbo-Croata"
     94: "Shona"
     66: "Sindhi"
-    79: "Sinhalese"
+    79: "Cingalés"
     115: "Eslovaco"
     118: "Esloveno"
     87: "Somalí"
@@ -636,7 +646,7 @@ es:
     67: "Uzbeco"
     41: "Vietnamita"
     110: "Xhose"
-    137: "Yiddish"
+    137: "Yídish"
     71: "Yoruba"
     96: "Zulu"
     3: "Árabe"

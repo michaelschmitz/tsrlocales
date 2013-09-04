@@ -8,24 +8,24 @@ zht:
           s3: 其他經驗
           s4: 排名
       recruiter_profile:
-        s0: Student
-        s1: Add to list
-        s2: Message
-        s3: New message
-        s4: Show all messages
+        s0: 學生
+        s1: 加入名單
+        s2: 訊息
+        s3: 新訊息
+        s4: 顯示所有訊息
         s5: Top
         s6: Top
-        s7: Internships
-        s8: Graduate position
-        s9: Move city
-        s10: Move country
-        s11: Travel
+        s7: 實習生
+        s8: 已畢業
+        s9: 搬到另一個城市的意願
+        s10: 搬到另一個國家的意願
+        s11: 出差意願
         s12: Work in
         s13: Rating
-        s14: Education
-        s15: Experience
-        s16: Languages
-        s17: Skills
+        s14: 教育
+        s15: 經驗
+        s16: 語言
+        s17: 技能
         s18: Fit
         s19: Total
         s20: Edit factors

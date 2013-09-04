@@ -11,6 +11,8 @@ zht:
       4: '一般文章'
       5: '書籍'
   activerecord:
+    models:
+      publication: '著作'
     attributes:
       publication:
         <<: *ATTRIBUTES

@@ -10,6 +10,8 @@ zht:
       url: 連結
       facebook_page: 臉書網頁
   activerecord:
+    models:
+      company: '公司'
     attributes:
       company:
         <<: *ATTRIBUTES

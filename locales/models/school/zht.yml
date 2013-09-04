@@ -59,6 +59,8 @@ zht:
       UY: "烏拉圭 (1-12)"
       VE: "委內瑞拉 (0-20)"
   activerecord:
+    models:
+      school: '學校'
     attributes:
       school:
         <<: *ATTRIBUTES

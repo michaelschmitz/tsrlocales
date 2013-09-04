@@ -698,6 +698,20 @@ it:
         s5: "Non hai ancora ricevuto la email di sblocco?"
         s6: "Accedi con"
     dry: 
+      yes: "Si"
+      no: "No"
+      na: "Non disponibile"
+      details: "Dettagli"
+      close: "Chiudi"
+      save: "Salva"
+      edit: "Modifica"
+      cancel: "Cancella"
+      customize_settings_link: Personalizza i messaggi che vuoi ricevere
+      edit_privacy_link: Modifica le impostazioni sulla privacy
+      jobs_link: Offerte di lavoro
+      advice_link: Consigli
+      hi: Ciao
+      here: qui    
       area: 
         s1: Università/Scuola
         s2: Social
@@ -991,11 +1005,52 @@ it:
         s0: "Nessuna selezione"
         s1: "Altra lingua"
         s10: Tedesco
+        s100: "Cinese (Min Dong)"
+        s101: Lombardo
+        s102: Uiguro
+        s103: Chew
+        s104: Bielorusso
+        s105: Kazako
+        s106: Akan
+        s107: Makuwa
+        s108: Tatar-Bashkir
+        s109: Bagheli        
         s11: Inglese
+        s110: Xhose
+        s111: "Creolo haitiano"
+        s112: Konkani
+        s113: Lettone
+        s114: Lituano
+        s115: Slovacco
+        s116: Serbo
+        s117: Bosniaco
+        s118: Sloveno
+        s119: Bulgaro
         s12: Finlandese
+        s120: Macedone
+        s121: Armeno
+        s122: Albanese
+        s123: Estone
+        s124: Careliano
+        s125: Sami
+        s126: Georgiano
+        s127: Azero
+        s128: Tibetano
         s13: Francese
+        s130: Thai-Lao
+        s131: Thai-Zhuang
+        s132: Amarico
+        s133: Tigrinya
+        s134: Maltese
+        s135: Fidjian
+        s136: Samoano
+        s137: Yiddish
+        s138: Schwyzerdütsch
+        s139: Farsi
+        s140: Esperanto
+        s141: Euskara
+        s142: Linguaggio dei segni        
         s14: Greco
-        s142: "Linguaggio dei segni"
         s15: Ebraico
         s16: Hindi
         s17: Islandese
@@ -1023,11 +1078,71 @@ it:
         s37: Esperto
         s37a: Madrelingua
         s4: Bengalese
+        s40: Telugu
+        s41: Vietnamita
+        s42: Tamil
+        s43: Pashto
+        s44: "Cinese (Min Nan)"
+        s45: Gujarati
+        s46: Persiano
+        s47: Bhojpuri
+        s48: Awadhi
+        s49: Ucraino        
         s5: "Cinese (Mandarino)"
+        s50: Catalano
+        s51: Malese 
+        s52: "Cinese (Xiang)"
+        s53: Malayalam
+        s54: Kannada
+        s55: Maithili
+        s56: Sudanese
+        s57: Birmano
+        s58: Oriya
+        s59: Marwari        
         s6: "Cinese (Wu)"
+        s60: "Cinese (Hakka)"
+        s61: Tailandese
+        s62: Hausa
+        s63: Tagalog
+        s64: Romeno
+        s65: "Cinese (Gan)"
+        s66: Sindhi
+        s67: Uzbeko
+        s68: Azerbaijano
+        s69: Rajasthano        
         s7: "Cinese (Cantonese)"
+        s70: Lao-Isan
+        s71: Yoruba
+        s72: Igbo
+        s73: "Berbero del Nord"
+        s74: Amarico
+        s75: Oromo
+        s76: Chhattisgarhi
+        s77: Assamese
+        s78: Curdo
+        s79: Cingalese       
         s8: "Cinese (Altro)"
+        s80: Cebuano
+        s81: Rangpuri
+        s82: Malagasy
+        s83: Khmer
+        s84: Sotho-Tswana
+        s85: Nepalese
+        s86: Rwanda-Rundi
+        s87: Somalo
+        s88: Madurese
+        s89: Haryanvi        
         s9: Danese
+        s90: Fula
+        s91: Magahi
+        s92: Chittagonian
+        s93: Deccan
+        s94: Shona
+        s95: "Cinese (Min Bei)"
+        s96: Zulu
+        s97: Sylheti
+        s98: Basco
+        s99: Kanaujii        
       level: 
         s1: Principiante
         s2: Intermedio
@@ -1052,8 +1167,8 @@ it:
         s4: "Local leadership role (es. Trainer)"
         s5: "Strategic leadership role (es. Board member)"
       sort: 
-        s1: Personal
-        s2: Social
+        s1: Punteggio Personale
+        s2: Punteggio Social
       studyarea: 
         s0: Tutti
         s1: Agraria
@@ -1096,31 +1211,31 @@ it:
         s9: Psicologia
       titel: 
         s1: Tutti
-        s10: Magister
-        s11: M.A.
-        s12: M.Eng
-        s13: M.F.A.
-        s14: M.Ed
-        s15: M.Mus
+        s10: Dottorato- Magister
+        s11: Laurea magistrale- M.A.
+        s12: Laurea magistrale- M.Eng
+        s13: Laurea magistrale- M.F.A.
+        s14: Laurea magistrale- M.Ed
+        s15: Laurea magistrale- M.Mus
         s16: "Diplom (Dual)"
         s17: "Diplom (FH)"
         s18: "Diplom (Univ.)"
         s19: "Dr. med."
-        s2: B.Sc.
-        s20: PhD
+        s2: Laurea triennale- B.Sc.
+        s20: Dottorato- PhD
         s21: Lic.
-        s22: Anderes
-        s23: "B.Sc. Honours"
+        s22: Altro
+        s23: "Laurea triennale scientifica con lode- B.Sc. Honours"
         s24: MBA
         s25: EMBA
         s26: Associato
-        s3: B.A.
-        s4: B.Eng
+        s3: Laurea triennale- B.A.
+        s4: Laurea triennale- B.Eng
         s5: LL.B.
-        s6: B.F.A.
-        s7: B.Mus
-        s8: B.Ed
-        s9: M.Sc.
+        s6: Laurea triennale- B.F.A.
+        s7: Laurea triennale- B.Mus
+        s8: Laurea triennale- B.Ed
+        s9: Laurea magistrale- M.Sc.
       travel: 
         s0: "Nessuna selezione"
         s1: "Massimo 25%"
@@ -1260,6 +1375,7 @@ it:
         s26: "Telefono: 0049 2405 1402428"
         s27: "Email: info@thestudentranking.com"
         s28: "200 messaggi"
+        s28a: "Messaggio"
         s29: "Offerta di lavoro"
         s3: "I servizi sono gratuiti in concordanza con il nostro accordo. Le informazioni mostrate qui sotto servono come riassunto cronologico."
         s4: "Fattura attuale:"
@@ -1330,7 +1446,7 @@ it:
         s17: "Private Equity e Venture Capital"
         s18: "Information Technology"
         s19: "Ingegneria e Ricerca"
-        s2: Ricerca
+        s2: Cerca
         s20: "Logistica, Trasporti, Approvvigionamento"
         s21: "Marketing, Design, Advertising, Pubbliche Relazioni, Editing"
         s22: "Medicina e assistenza"
@@ -1339,7 +1455,7 @@ it:
         s25: "Operazioni tecniche, Produzione"
         s26: Vendite
         s27: Modifica
-        s28: "Mostra fino"
+        s28: "Valido fino"
         s29: Visite
         s3: "Indietro a sommario"
         s4: Preferiti
@@ -1446,10 +1562,10 @@ it:
         s6: "Mandato il"
         s7: Cancella
     pagination: 
-      first: "First page |"
-      last: "| Last page"
-      next: Forward
-      previous: Previous
+      first: "Prima pagina |"
+      last: "| Ultima pagina"
+      next: Avanti
+      previous: Precedente
       truncate: "..."
     participants: 
       edit: 
@@ -1460,8 +1576,8 @@ it:
         s3: Altro
         s4: "Non indicato"
       links: 
-        s1: Personal
-        s2: Social
+        s1: Confronto sul Punteggio Personale
+        s2: Raccomandazioni
         s3: "Competenze confermate"
         s4: Grafici
         s5: "Confronto con un amico"
@@ -1481,13 +1597,13 @@ it:
         s16: Competenze
         s16a: "Nessuna competenza specificata finora"
         s17: Conferma
-        s18: "Chiedi una raccomandazione ai tuoi amici"
-        s19: "Tramite Facebook"
+        s18: Chiedi una raccomandazione ai tuoi amici
+        s19: Tramite Facebook
         s2: P
-        s20: "Tramite Email"
-        s21: "Per favore raccomandami su"
-        s22: theStudentRanking.com
-        s23: "Così aumenterai le mie chance di essere trovato e assunto dalle aziende e tu potresti vincere un iPad mini se ti registri al sito"
+        s20: Tramite Email
+        s21: Per favore raccomandami su
+        s22: theStudentRanking.co
+        s23: Così aumenterai le mie chance di essere trovato e assunto dalle aziende e tu potresti vincere un iPad mini se ti registri al sito
         s24: Grazie!
         s3: pti
         s4: S
@@ -1497,7 +1613,7 @@ it:
         s8: "Questo membro ha deciso di non condividere ulteriori informazioni. I recruiter possono visualizzare il profilo completo"
         s9: qui
       ranking: 
-        s1: "Torna a profilo"
+        s1: "Torna al profilo"
         s10: "Università e scuola superiore"
         s100: "Analisi e Suggerimenti"
         s101: "Fare domanda per lavori e stage è il test definitivo per le tue credenziali. Qui sotto potrai trovare consigli per il tuo CV e suggerimenti su cosa fare per migliorare la tua performance."
@@ -1558,7 +1674,7 @@ it:
         s150: "appartiene ai migliori"
         s151: "del suo anno"
         s152: "ha guadagnato"
-        s153: punti.
+        s153: Punti.
         s154: "Il ranking mondiale di studenti ti mostra la tua posizione nella classifica. Sei meglio di"
         s155: "ha guadagnato"
         s156: "punti e rientra nei migliori"
@@ -1599,7 +1715,7 @@ it:
         s37: "appena sopra la media"
         s38: "sopra la media"
         s39: "molto sopra la media"
-        s4: Università
+        s4: Studi
         s40: "significativamente sopra la media"
         s41: "uno studente brillante"
         s42: "uno degli studenti migliori"
@@ -1611,7 +1727,7 @@ it:
         s47c: "Questo ranking includi tutti i partecipanti che fanno parte del tuo gruppo di riferimento e sono nati nel tuo stesso anno. I gruppi di riferimento possono essere abbastanza ampi ed includere partecipanti con background ed obiettivi diversi. A meno che tu non faccia già parte del gruppo dei migliori ricordati che la specializzazione intrapresa durante i tuoi studi ti renderanno più prezioso all'interno di quel gruppo. Nel caso tu faccia parte dei migliori, congratulazioni!"
         s48: "Il sistema non è in grado di calcolare la tua posizione nel ranking. Per ottenere risultati migliori per favore fornisci più informazioni, soprattutto relative al tuo percorso scolastico e universitario."
         s49: "Ranking: Anno di nascita"
-        s5: "Scuola superiore"
+        s5: Scuola superiore
         s50: "Anno di nascita"
         s51: "Mostra spiegazione"
         s52: Valutazione

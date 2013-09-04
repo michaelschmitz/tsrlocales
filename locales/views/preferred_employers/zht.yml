@@ -1,0 +1,11 @@
+zht:
+  preferred_employers:
+    edit:
+      s1: 編輯理想僱主
+    modal:
+      html:
+        s1: 理想僱主
+    new:
+      s1: 新增理想僱主
+    show:
+      s1: 理想僱主

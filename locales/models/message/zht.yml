@@ -5,6 +5,8 @@ zht:
       body: 訊息內容
       copy: 寄這份訊息的副本給我
   activerecord:
+    models:
+      message: '訊息'
     attributes:
       message:
         <<: *ATTRIBUTES

@@ -1,0 +1,18 @@
+zht:
+  search: 
+    attributes: &ATTRIBUTES
+      nationality: 國家
+      year_of_birth: 出生年份
+      study_area: 領域
+      graduation_year: 畢業年份
+      order: 排序
+  activerecord:
+    models:
+      search: '搜尋'
+    attributes:
+      search:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      search:
+        <<: *ATTRIBUTES  

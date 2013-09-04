@@ -696,6 +696,20 @@ es:
         s5: "No recibió el email de desbloqueo?"
         s6: "Iniciar sesión con"
     dry: 
+      yes: "Sí"
+      no: "No"
+      na: "No disponible"
+      details: "Detalles"
+      close: "Cerrar"
+      save: "Guardar"
+      edit: "Editar"
+      cancel: "Cancelar"
+      customize_settings_link: Especifica qué mensajes deseas recibir
+      edit_privacy_link: Editar configuración de privacidad
+      jobs_link: Empleo
+      advice_link: Sugerencia
+      hi: Hola
+      here: aquí
       area: 
         s1: Universidad/Escuela
         s2: Social
@@ -977,7 +991,7 @@ es:
         s3: "Use el ránking mundial para contactar con las mejores empresas del mundo."
         s4: "Global ranking. Global jobs."
       global_links: 
-        s1: "Ver todos los empleos"
+        s1: "Ver todas las ofertas"
         s2: "Ver todos los eventos"
         s3: "Ver todas las actividades"
         s4: "Ver todos los estudiantes"
@@ -2546,3 +2560,4 @@ es:
         s7: "Máster en Administración de Empresas"
         s8: Derecho
         s9: Ingeniería
+

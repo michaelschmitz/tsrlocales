@@ -12,6 +12,8 @@ zht:
       2: '有經驗的'
       3: '專家級'
   activerecord:
+    models:
+      skill: '技能'
     attributes:
       skill:
         <<: *ATTRIBUTES
