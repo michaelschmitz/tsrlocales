@@ -27,20 +27,32 @@ en:
       document: PDF mit Stellenbeschreibung
     area:
       1: Education
-      2: Construction
+      2: 'Real Estate & Construction'
       3: Consulting
       4: Finances
       5: Research
-      6: Management and investments
+      6: Management
       7: Information technology
       8: Engineering
       9: Logistics
-      10: Marketing
+      10: 'Marketing & Communication'
       11: Medicine
       12: Organisation
       13: Human resources
-      14: Production
+      14: Manufacturing
       15: Sales
+      16: Administration
+      17: Banking
+      18: Customer Service
+      19: Legal
+      20: 'Tourism & Hospitality'
+      21: 'Science'
+      22: Government
+      23: 'Arts & Design'
+      24: 'Others'
+      25: 'Health'
+      26: 'Logistics & Supply Chain'
+      27: Journalism
     contract_type:
       1: Limited
       2: Contract
