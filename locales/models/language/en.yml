@@ -1,7 +1,7 @@
 en:
   language:
     attributes: &ATTRIBUTES
-      name: Name
+      name: Language
       level: Level
       certificate: Certificate
       certificate_grade: Certificate grade
