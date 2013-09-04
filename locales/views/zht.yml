@@ -78,7 +78,7 @@ zht:
         school_average: 平均成績
         startdate: 開始日期
       service: 
-        company: 公司或組織名稱
+        company: 組織名稱
         document: 上傳證明文件
         enddate: 結束日期
         organization: 組織名稱
@@ -1998,8 +1998,8 @@ zht:
         s7: 讓我們先從遊戲規則講起。
         s8: 由於全球化的關係，我們都在玩一場龐大的遊戲，這遊戲類似大富翁或象棋。
         s9: 身為一個初學者，通常會有另一個玩家告訴你遊戲規則，或者你可以自己讀說明書，最多一個小時可以讀完。
-      datenschutz: 
-        s1: "Privacy policy - Datenschutz"
+      data_protection: 
+        s1: "Privacy policy - data protection"
         s10: "Übermittlung an Dritte"
         s11: "Eine Weitergabe von Daten an Dritte erfolgt grundsätzlich nicht, sofern dies nicht zur Erbringung der Dienstleistung oder zur Vertragsdurchführung notwendig ist. Behörden oder anderen staatlichen Institutionen werden nur im Rahmen der gesetzlichen Informationspflichten oder aufgrund gerichtlicher Entscheidungen Auskunft erteilt.</p><p> Auf Anordnung der zuständigen Stellen dürfen wir im Einzelfall Auskunft über diese Daten erteilen, soweit dies für Zwecke der Strafverfolgung, zur Gefahrenabwehr, zur Erfüllung der gesetzlichen Aufgaben der Verfassungsschutzbehörden oder des Militärischen Abschirmdienstes oder zur Durchsetzung der Rechte am geistigen Eigentum erforderlich ist."
         s12: "Daten von Kindern und Jugendlichen"
@@ -2040,11 +2040,11 @@ zht:
         s12: 你已儲存的求職者：
         s13: 搜尋資料庫
         s2: 帳單
-        s3: 顯示帳單細節
-        s4: 刊登的工作機會
-        s5: 已刊登的工作筆數：
-        s6: 建立新的工作機會
-        s7: 系統裡的活動
+        s3: 顯示帳單明細
+        s4: 我刊登的職缺數：
+        s5: 所有刊登的職缺數：
+        s6: 建立新的職缺
+        s7: 系統裡的活動筆數：
         s8: 建立新的活動
         s9: 個人簡歷資料庫
       faq: 
