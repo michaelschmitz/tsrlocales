@@ -8,7 +8,7 @@ zht:
       body: 訊息內容
   activerecord:
     models:
-      contact_message: '送出'
+      contact_message: '聯絡我們'
     attributes:
       contact_message:
         <<: *ATTRIBUTES
