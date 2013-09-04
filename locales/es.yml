@@ -1,4 +1,9 @@
 es:
+  helpers:
+    submit:
+      create: "Crear"
+      submit: "Guardar"
+      update: "Actualizar"
   shared:
     whatwedo: 
         s1: "theStudentRanking.com es el mayor ránking de estudiantes del mundo. Si estás estudiando y quieres saber más sobre tu valor en el mercado laboral, sobre tus perspectivas de futuro y sobre cómo conseguir un puesto de trabajo en las grandes empresas de todo el mundo, aquí es donde deberías estar."
