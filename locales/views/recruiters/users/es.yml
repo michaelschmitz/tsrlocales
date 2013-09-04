@@ -1,6 +1,12 @@
 es:
   recruiters:
     users:
+      modal:
+        html:
+          s1: Educación
+          s2: Experiencia
+          s3: Otras experiencias
+          s4: Ranking 
       recruiter_profile:
         s0: Estudiante
         s1: Añadir a la lista

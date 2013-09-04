@@ -3,16 +3,10 @@ en:
     cv_searches:
       edit:
         s1: "Name your search"
-      modal:
-        html:
-          s1: Education
-          s2: Work experience
-          s3: Other experience
-          s4: Ranking
       comparisons:
         s1: Global comparison
       form:
-        s1: Text
+        s1: Keyword search
         s2a: Language
         s2: "Language 1"
         s3: "Language 2"
@@ -25,10 +19,10 @@ en:
         s10: Skills
         s11: Travel
         s12: results
-        s13: Min points
-        s14: Distance max
-        s15: Work experience
-        s16: Internship experience
+        s13: Minimum points
+        s14: Distance max  (km)
+        s15: Work experience (months)
+        s16: Internship experience (months)
       recruiter_profile_small:
         s1: Internship
         s2: Graduate position
@@ -43,7 +37,7 @@ en:
         s2: Confirm
         s3: This user has not indicated skills yet.
       index:
-        s1: CV Searches
+        s1: My saved search results
         s2: Name
         s3: Show candidates
         s4: Edit

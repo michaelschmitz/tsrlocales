@@ -3,12 +3,6 @@ zht:
     cv_searches:
       edit:
         s1: "更改名稱"
-      modal:
-        html:
-          s1: 教育
-          s2: 工作經驗
-          s3: 其他經驗
-          s4: 排名
       comparisons:
         s1: 全球比較
       form:

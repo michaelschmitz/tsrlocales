@@ -46,11 +46,5 @@ pl:
         s7: Zmień nazwę
         s8: Pokaż
         s9: Nowe wyszukiwanie
-      modal:
-        html:
-          s1: Edukacja
-          s2: Doświadczenie
-          s3: Inne doświadczenie
-          s4: Ranking
       show:
         s1: Wyszukiwanie w bazie CV

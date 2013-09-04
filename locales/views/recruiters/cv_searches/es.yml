@@ -44,11 +44,5 @@ es:
         s7: Cambiar nombre
         s8: Mostrar
         s9: Nueva búsqueda
-      modal:
-        html:
-          s1: Educación
-          s2: Experiencia
-          s3: Otras experiencias
-          s4: Ranking 
       show:
         s1: Buscar en la base de datos

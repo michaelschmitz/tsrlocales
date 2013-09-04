@@ -21,7 +21,7 @@ en:
         s1: Post a new job
       show:
         s1: Visitors
-        s1: Applicants
+        s2: Applicants
       job_visitors_and_applicants:
         s1: Applicants
         s2: Visitors

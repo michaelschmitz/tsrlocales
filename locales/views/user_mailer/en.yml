@@ -1,10 +1,9 @@
---- 
 en: 
   user_mailer: 
     blog_digest: 
       s1: "New blog digest mail"
-    confirmed_connection: 
-      s1: "accepted your invitation to connect on theStudentRanking.com. Now you can see his profile, compare your scores and discover how you can help each other to improve."
+    connection_confirmed: 
+      s1: "accepted your invitation to connect on theStudentRanking.com. Now you can see his profile, compare your scores and discover how you can help each others to improve."
       s10: "Achievement Score"
       s11: "Kind regards,\n"
       s12: Michael
@@ -63,11 +62,15 @@ en:
       s6: "Confirm this skill"
       s7: "Kind regards,\n"
       s8: Michael
+    connection_request:
+      s1: "wants to connect with you on theStudentRanking.com. This allows you to receive recommendations and to have more confirmed skills - which increases your social score."
+      s2: "Connect now and make it easier for both of you to be found by recruiters."
+      s3: "Confirm request"
     suggestions: 
       completed_internship: 
         s1: "it seems like you just finished an internship - at least that's what your career plan indicates."
         s10: Michael
-        s2: "If you did, then quickly update your profile and earn achievement points for the work you have done"
+        s2: "If you did, then quickly update your profile and earn achievement score for the work you have done"
         s3: "Update my work experience"
         s4: "You might also want to update your career plan to reflect your new goals and timeline. Will you be available for another internship during the next years?"
         s5: "Update my career plans"
@@ -114,7 +117,7 @@ en:
         s8: Michael
         s9: "PS: Feedback is welcome - just write me at any time."
       s1: "Companies search for languages or skills on your profile"
-      s2: "Companies filter by social points to find great candidates"
+      s2: "Companies filter by social score to find great candidates"
       s3: "Your career plan helps you become more successful"
       s4: "Your recent internship"
       s5: "Companies are looking for candidates like you"
@@ -145,7 +148,8 @@ en:
       s7: "Add new connections here"
       s8: "Skills:"
       s9: "None of your connections have confirmed any of your skills this week."
-    welcome_email: 
+    welcome_email:
+      s0: "Welcome to theStudentRanking.com"
       s1: "this is Michael from theStudentRanking.com. Thanks for your registration - I hope you will enjoy using the system. Together, we will help you learn more about yourself and your friends, support you in improving your achievements and market value and connect you with companies worldwide."
       s10: "Happy to have you on board,\n"
       s11: Michael
