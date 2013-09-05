@@ -25,21 +25,33 @@ pl:
       applications: Aplikacje
       alternative_name: Alternatywna nazwa
     area:
-      1: Edukacja
-      2: Konstrukcje / Budownictwo
-      3: Konsulting
-      4: Finanse / Rachunkowość
-      5: Badanie
+      1: Edukacja, Kształcenia,Szkolelenia
+      2: Nieruchomości i Budownictwo
+      3: Consulting
+      4: Finanse i Rachunkowość
+      5: Badania i Rozwój
       6: Zarządzanie
-      7: Technologia informacyjna 
-      8: Inżynieria
-      9: Logistykas
-      10: Marketing
-      11: Zdrowie i Opieka
-      12: Administracja, Prawo
-      13: Zasoby ludzkie HR
-      14: Operacje techniczne, produkcja
+      7: Informatyka i Oprogramowanie 
+      8: Technika i Inżynieria
+      9: Logistyka
+      10: Marketing i Reklama
+      11: Medycyna
+      12: Zarządzanie Projektami i Programami
+      13: Human Resources i Kadry
+      14: Produkcja i Przemysł
       15: Sprzedaż
+      16: Administracja
+      17: Bankowość
+      18: Obsługa klienta
+      19: Prawo
+      20: Hotelarstwo i Katering
+      21: Nauka
+      22: Sektor publiczny
+      23: Kreacja i Projektowanie
+      24: Inne
+      25: Zdrowie
+      26: Transport
+      27: Redakcja i Dokumentowanie
     contract_type:
       1: Umowa na czas określony
       2: Umowa o pracę
