@@ -1,9 +1,19 @@
 pt:
+  helpers:
+    submit:
+      create: "Criar"
+      submit: "Guardar"
+      update: "Atualizar"
   shared:
     whatwedo: 
       s1: "O theStudentRanking.com oferece o maior Ranking de Estudantes a nível mundial. Se está a estudar e quer saber mais sobre o seu valor no mercado de trabalho, as suas perspetivas futuras e quiser ser encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, este é o sítio certo."
       s2: "Para as Empresas, oferecemos soluções de recrutamento e serviços focados em Estudantes e Recém-Graduados. Damos-lhe acesso aos melhores Candidatos para programas de captação de talentos, programas dirigidos a Recém-Graduados e programas de Estágios. Aqui poderá encontrar os melhores jovens de elevado potencial."
   dry:
+    new: "Adicionar"
+    edit: "Editar"
+    update: "Atualizar"
+    show: "Ver"
+    delete: "Apagar"
     yes: "Sim"
     no: "Não"
     na: "Indisponível"

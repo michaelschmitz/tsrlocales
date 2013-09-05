@@ -54,6 +54,8 @@ it:
       s29: "Potete inviarmi inviti a eventi come job meetings e conferenze."
       s30: "Blog"
       s31: "Potete inviarmi articoli relativi alla ricerca di lavoro, alla redazione del CV, ai consigli per i colloqui, ecc."
+      s32: Messaggi
+      s33: Visibilità
     shared:
       links:
         s3: "Password dimenticata?"

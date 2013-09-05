@@ -837,3 +837,4 @@ zht:
   activerecord:
     errors:
       <<: *errors
+    TW: "台灣"

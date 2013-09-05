@@ -2,7 +2,7 @@ es:
   degree:
     attributes: &ATTRIBUTES
       name: Nombre
-      country: Ciudad
+      country: País
       university_id: Universidad
       title: Título
       credits: Créditos

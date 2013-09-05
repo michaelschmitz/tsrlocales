@@ -1,0 +1,81 @@
+en:
+  job:
+    attributes: &ATTRIBUTES
+      title: Title
+      description: Description
+      locations: Locations
+      contact: Contract
+      link: Link
+      run_until: Run Until
+      views: Views
+      area: Area
+      contract_type: Contract Type
+      contract: Contract
+      longitude: Longitude
+      latitude: Latitude
+      disabled: Disabled
+      disabled_on: Disabled On
+      service_level: Service Level
+      advertising_budget: Advertising Budget
+      delivery: Delivery
+      describe_role: Describe Role
+      describe_qualification: Describe Qualification
+      describe_benefits: Describe Benefits
+      describe_application: Describe Application
+      applications: Applications
+      alternative_name: Alternative Name
+      document: PDF mit Stellenbeschreibung
+    area:
+      1: Education
+      2: 'Real Estate & Construction'
+<<<<<<< HEAD
+=======
+      3: Consulting
+>>>>>>> 90d3f6e9b352abee83158061565325945c4d3986
+      4: Finances
+      5: Research
+      6: Management
+      7: Information technology
+      8: Engineering
+      9: Logistics
+      10: 'Marketing & Communication'
+      11: Medicine
+      12: Organisation
+      13: Human resources
+      14: Manufacturing
+      15: Sales
+      16: Administration
+      17: Banking
+      18: Customer Service
+      19: Legal
+      20: 'Tourism & Hospitality'
+      21: 'Science'
+      22: Government
+      23: 'Arts & Design'
+      24: 'Others'
+      25: 'Health'
+      26: 'Logistics & Supply Chain'
+      27: Journalism
+<<<<<<< HEAD
+      28: Accounting
+=======
+>>>>>>> 90d3f6e9b352abee83158061565325945c4d3986
+    contract_type:
+      1: Limited contract
+      2: Unlimited contract
+      3: Internship
+      4: Project
+      6: Traineeship
+    contract:
+      1: Part time
+      2: Full time
+  activerecord:
+    models:
+      job: 'Job'
+    attributes:
+      job:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      job:
+        <<: *ATTRIBUTES      
