@@ -27,15 +27,14 @@ pl:
     area:
       1: Edukacja, Kształcenia,Szkolelenia
       2: Nieruchomości i Budownictwo
-      3: Consulting
       4: Finanse i Rachunkowość
       5: Badania i Rozwój
       6: Zarządzanie
       7: Informatyka i Oprogramowanie 
       8: Technika i Inżynieria
-      9: Logistyka
+      9: Transport i Logistyka
       10: Marketing i Reklama
-      11: Medycyna
+      11: Medycyna i Zdrowie
       12: Zarządzanie Projektami i Programami
       13: Human Resources i Kadry
       14: Produkcja i Przemysł
@@ -49,8 +48,6 @@ pl:
       22: Sektor publiczny
       23: Kreacja i Projektowanie
       24: Inne
-      25: Zdrowie
-      26: Transport
       27: Redakcja i Dokumentowanie
     contract_type:
       1: Umowa na czas określony
