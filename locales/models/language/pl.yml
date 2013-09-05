@@ -1,7 +1,7 @@
 pl:
   language:
     attributes: &ATTRIBUTES
-      name: Nazwa
+      name: Język
       level: Poziom
       certificate: Certyfikat
       certificate_grade: Stopień
