@@ -45,7 +45,7 @@ pt:
       s5: "Carrega aqui para veres os teus contactos"
       s6: "Atentamente,\n"
       s7: Michael
-    recommendation_received: 
+    recommendation_confirmation: 
       s1: "Acabaste de receber uma recomendação de"
       s10: "Atentamente,\n"
       s11: Michael

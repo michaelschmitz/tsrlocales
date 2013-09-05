@@ -46,7 +46,7 @@ es:
       s5: "Haz click aquí para ver tus contactos"
       s6: "Atentamente,\n"
       s7: Michael
-    recommendation_received: 
+    recommendation_confirmation: 
       s1: "Acabas de recibir una recomendación de"
       s10: "Atentamente,\n"
       s11: Michael

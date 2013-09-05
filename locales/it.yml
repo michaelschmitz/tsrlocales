@@ -8,270 +8,408 @@ it:
     whatwedo: 
       s1: "theStudentRanking.com offre il più grande ranking globale per gli studenti. Se sei interessato a saperne qualcosa di più sul tuo valore di mercato, sulle tue prospettive nel mercato del lavoro e se vuoi essere trovato e assunto dalle più importanti aziende internazionali, allora facciamo al caso tuo!."
       s2: "Alle aziende offriamo soluzioni di reclutamento focalizzate su laureati e studenti. Nel nostro sito puoi trovare giovani professionisti con grandissime potenzialità, sia che tu cerchi specifici talenti, neolaureati o stagisti."
-    dry:
-      new: 'Nuovo'
-      edit: 'Modifica'
-      update: 'Aggiorna'
-      show: 'Mostra'
-      delete: 'Cancella'
-      yes: "Si"
-      no: "No"
-      na: "Non disponibile"
-      details: "Dettagli"
-      close: "Chiudi"
-      save: "Salva"
-      edit: "Modifica"
-      cancel: "Cancella"
-      customize_settings_link: Personalizza i messaggi che vuoi ricevere
-      edit_privacy_link: Modifica le impostazioni sulla privacy
-      jobs_link: Offerte di lavoro
-      advice_link: Consigli
-      hi: Ciao
-      here: qui  
-      countries: 
-        s1: Egitto
-        s10: "Guinea Equatoriale"
-        s100: Colombia
-        s101: Comoros
-        s102: Congo
-        s103: "Repubblica Democratica del Congo"
-        s104: "Repubblica di Corea"
-        s105: Croazia
-        s106: Kuwait
-        s107: Laos
-        s108: Lesotho
-        s109: Lettonia
-        s11: Armenia
-        s110: Libano
-        s111: Liberia
-        s112: Libia
-        s113: Liechtenstein
-        s114: Lituania
-        s115: Lussemburgo
-        s116: Macao
-        s117: Madagascar
-        s118: Malawi
-        s119: Malesia
-        s12: Aruba
-        s120: Maldive
-        s121: Mali
-        s122: Malta
-        s123: Marocco
-        s124: "Isole Marshall"
-        s125: Martinica
-        s126: Mauritania
-        s127: Mauritius
-        s128: Mayotte
-        s129: Macedonia
-        s13: Azerbaijan
-        s130: Messico
-        s131: Micronesia
-        s132: "Repubblica Moldava"
-        s133: Monaco
-        s134: Mongolia
-        s135: Montenegro
-        s136: Montserrat
-        s137: Mozambico
-        s138: Myanmar
-        s139: Namibia
-        s14: Etiopia
-        s140: Nauru
-        s141: Nepal
-        s142: "Nuova Caledonia"
-        s143: "Nuova Zelanda"
-        s144: Nicaragua
-        s145: "Paesi Bassi"
-        s146: "Antille Olandesi"
-        s147: Niger
-        s148: Nigeria
-        s149: Niue
-        s15: Australia
-        s150: "Isole Marianna"
-        s151: "Isola di Norfold"
-        s152: Norvegia
-        s153: Oman
-        s154: Austria
-        s155: "Timor Est"
-        s156: Pakistan
-        s157: Palau
-        s158: Panama
-        s159: "Papua Nuova Guinea"
-        s16: Bahamas
-        s160: Paraguay
-        s161: Perù
-        s162: Filippine
-        s163: Pitcairn
-        s164: Polonia
-        s165: Portogallo
-        s166: "Puerto Rico"
-        s167: Qatar
-        s168: Reunion
-        s169: Rwanda
-        s17: Bahrain
-        s170: Romania
-        s171: Russia
-        s172: "Saint Kitts e Nevis"
-        s173: "Santa Lucia"
-        s174: "Saint Vincent e Grenadina"
-        s175: Zambia
-        s176: Samoa
-        s177: "San Marino"
-        s178: "Sao Tome e Principe"
-        s179: "Arabia Saudita"
-        s18: Bangladesh
-        s180: Svezia
-        s181: Svizzera
-        s182: Senegal
-        s183: Serbia
-        s184: Seychelles
-        s185: "Sierra Leone"
-        s186: Zimbabwe
-        s187: Singapore
-        s188: "Sint Maarten"
-        s189: Slovacchia
-        s19: Barbados
-        s190: Slovenia
-        s191: "Isole Salomone"
-        s192: Somalia
-        s193: Spagna
-        s194: "Sri Lanka"
-        s195: Sant'Elena
-        s196: "Sud Africa"
-        s197: "Georgia del Sud e isole Sandwich"
-        s198: Suriname
-        s199: "Svalbard e Jan Mayen"
-        s2: Albania
-        s20: Belize
-        s200: Swaziland
-        s201: Tajikistan
-        s202: Taiwan
-        s203: Tanzania
-        s204: Tailandia
-        s205: Togo
-        s206: Tokelau
-        s207: Tonga
-        s208: "Trinidad e Tobago"
-        s209: Ciad
-        s21: Belgio
-        s210: "Repubblica Ceca"
-        s211: Tunisia
-        s212: Turchia
-        s213: Turkmenistan
-        s214: "Turks e Caicos"
-        s215: Tuvalu
-        s216: Uganda
-        s217: Ucraina
-        s218: Ungheria
-        s219: Uruguay
-        s22: Benin
-        s220: Uzbekistan
-        s221: Vanuatu
-        s222: "Città del Vaticano"
-        s223: Venezuela
-        s224: USA
-        s225: "Regno Unito"
-        s226: "Emirati Arabi Uniti"
-        s227: Vietnam
-        s228: "Wallis e Futuna"
-        s229: "Isola del Natale"
-        s23: Bermuda
-        s230: Bielorussia
-        s231: "Sahara Occidentale"
-        s232: "Repubblica Centrafricana"
-        s233: Cipro
-        s234: Argentina
-        s24: Bhutan
-        s25: Bolivia
-        s26: "Bonaire, Saint Eustatius e Saba"
-        s27: "Bosnia Erzegovina"
-        s28: Botswana
-        s29: "Isola Bouvet"
-        s3: Algeria
-        s30: Brasile
-        s31: "Territorio britannico dell'Oceano Indiano"
-        s32: "Brunei Darussalam"
-        s33: Bulgaria
-        s34: "Burkina Faso"
-        s35: Burundi
-        s36: Cile
-        s37: Cina
-        s38: "Isole Cook"
-        s39: "Costa Rica"
-        s4: "Samoa Americane"
-        s40: Curaçao
-        s41: Danimarca
-        s42: Germania
-        s43: Dominica
-        s44: "Repubblica Dominicana"
-        s45: Gibuti
-        s46: Ecuador
-        s47: "El Salvador"
-        s48: "Costa D'Avorio"
-        s49: Eritrea
-        s5: Andorra
-        s50: Estonia
-        s51: "Isole Falkland"
-        s52: "Isole Faroer"
-        s53: Fiji
-        s54: Finlandia
-        s55: Francia
-        s56: "Guiana Francese"
-        s57: "Polinesia Francese"
-        s58: "Terre Australi e Antartiche Francesi"
-        s59: Gabon
-        s6: Angola
-        s60: Gambia
-        s61: Georgia
-        s62: Ghana
-        s63: Gibilterra
-        s64: Grenada
-        s65: Grecia
-        s66: Gronenlandia
-        s67: Guadalupe
-        s68: Guam
-        s69: Guatemala
-        s7: Anguilla
-        s70: Guinea
-        s71: Guinea-Bissau
-        s72: Guyana
-        s73: Haiti
-        s74: "Isole Heard-McDonald"
-        s75: Honduras
-        s76: Hongkong
-        s77: India
-        s78: Indonesia
-        s79: Irlanda
-        s8: Antartide
-        s80: Islanda
-        s81: Israele
-        s82: Italia
-        s83: Giamaica
-        s84: Giappone
-        s85: Yemen
-        s86: Giordania
-        s87: "Isole Vergini, UK"
-        s88: "Isole Vergini, USA"
-        s89: "Isole Cayman"
-        s9: "Antigua e Barbuda"
-        s90: Cambogia
-        s91: Camerun
-        s92: Canada
-        s93: "Capo Verde"
-        s94: Kazakistan
-        s95: Kenya
-        s96: Kyrgyzstan
-        s97: Kiribati
-        s98: "Isole minori esterne, USA"
-        s99: "Isole Cokos"
-      global_links: 
-        s1: "Visualizza tutti i lavori"
-        s2: "Visualizza tutti gli eventi"
-        s3: "Visualizza tutte le attività"
-        s4: "Visualizza tutti gli studenti"
-        s5: "Visualizza tutte le domande"
-        s6: "Visualizza tutte le università"
-        s7: "Visualizza tutti gli amici"
-        s8: "Visualizza tutte le aziende"
+  dry:
+    new: 'Nuovo'
+    edit: 'Modifica'
+    update: 'Aggiorna'
+    show: 'Mostra'
+    delete: 'Cancella'
+    yes: "Si"
+    no: "No"
+    na: "Non disponibile"
+    details: "Dettagli"
+    close: "Chiudi"
+    save: "Salva"
+    edit: "Modifica"
+    cancel: "Cancella"
+    customize_settings_link: Personalizza i messaggi che vuoi ricevere
+    edit_privacy_link: Modifica le impostazioni sulla privacy
+    jobs_link: Offerte di lavoro
+    advice_link: Consigli
+    hi: Ciao
+    here: qui  
+    languages:
+      106: "Akan"
+      122: "Albanian"
+      1: "Altra lingua"
+      74: "Amharic"
+      132: "Amharique"
+      3: "Arabo"
+      121: "Armenian"
+      77: "Assamese"
+      48: "Awadhi"
+      68: "Azerbaijani"
+      127: "Azeri"
+      109: "Bagheli"
+      98: "Basque"
+      104: "Belarusian"
+      4: "Bengalese"
+      47: "Bhojpuri"
+      117: "Bosnian"
+      119: "Bulgarian"
+      57: "Burmese"
+      50: "Catalan"
+      80: "Cebuano"
+      31: "Ceco"
+      103: "Chew"
+      76: "Chhattisgarhi"
+      65: "Chinese (Gan)"
+      60: "Chinese (Hakka)"
+      95: "Chinese (Min Bei)"
+      100: "Chinese (Min Dong)"
+      44: "Chinese (Min Nan)"
+      52: "Chinese (Xiang)"
+      92: "Chittagonian"
+      8: "Cinese (Altro)"
+      7: "Cinese (Cantonese)"
+      5: "Cinese (Mandarino)"
+      6: "Cinese (Wu)"
+      21: "Coreano"
+      9: "Danese"
+      93: "Deccan"
+      15: "Ebraico"
+      140: "Esperanto"
+      123: "Estonian"
+      141: "Euskara"
+      139: "Farsi"
+      135: "Fidjian"
+      12: "Finlandese"
+      13: "Francese"
+      90: "Fula"
+      126: "Georgian"
+      19: "Giapponese"
+      14: "Greco"
+      2: "Greco antico"
+      45: "Gujarati"
+      111: "Haitian Creole"
+      89: "Haryanvi"
+      62: "Hausa"
+      16: "Hindi"
+      72: "Igbo"
+      11: "Inglese"
+      17: "Islandese"
+      18: "Italiano"
+      38: "Javanese"
+      99: "Kanaujii"
+      54: "Kannada"
+      124: "Karelian"
+      105: "Kazakh"
+      83: "Khmer"
+      112: "Konkani"
+      78: "Kurdish"
+      70: "Lao-Isan"
+      22: "Latino"
+      113: "Latvian"
+      142: "Linguaggio dei segni"
+      114: "Lithuanian"
+      101: "Lombard"
+      120: "Macedonian"
+      88: "Madurese"
+      91: "Magahi"
+      55: "Maithili"
+      107: "Makuwa"
+      82: "Malagasy"
+      51: "Malay"
+      53: "Malayalam"
+      134: "Maltese"
+      39: "Marathi"
+      59: "Marwari"
+      85: "Nepali"
+      73: "Northern Berber"
+      24: "Norvegese"
+      23: "Olandese"
+      58: "Oriya"
+      75: "Oromo"
+      43: "Pashto"
+      46: "Persian"
+      25: "Polacco"
+      26: "Portoghese"
+      27: "Punjabi"
+      69: "Rajasthani"
+      81: "Rangpuri"
+      64: "Romanian"
+      28: "Russo"
+      86: "Rwanda-Rundi"
+      125: "Sami"
+      136: "Samoan"
+      138: "Schwyzerdütsch"
+      20: "Serbo-Croato"
+      94: "Shona"
+      66: "Sindhi"
+      79: "Sinhalese"
+      115: "Slovak"
+      118: "Slovenian"
+      87: "Somali"
+      116: "Sorbian"
+      84: "Sotho-Tswana"
+      30: "Spagnolo"
+      56: "Sundanese"
+      29: "Svedese"
+      97: "Sylheti"
+      63: "Tagalog"
+      42: "Tamil"
+      108: "Tatar-Bashkir"
+      10: "Tedesco"
+      40: "Telugu"
+      61: "Thai"
+      130: "Thai-Lao"
+      131: "Thai-Zhuang"
+      128: "Tibetan"
+      133: "Tigrinya"
+      32: "Turco"
+      49: "Ukrainian"
+      33: "Ungherese"
+      102: "Uyghur"
+      67: "Uzbek"
+      41: "Vietnamese"
+      110: "Xhose"
+      137: "Yiddish"
+      71: "Yoruba"
+      96: "Zulu"
+    countries: 
+      s1: Egitto
+      s10: "Guinea Equatoriale"
+      s100: Colombia
+      s101: Comoros
+      s102: Congo
+      s103: "Repubblica Democratica del Congo"
+      s104: "Repubblica di Corea"
+      s105: Croazia
+      s106: Kuwait
+      s107: Laos
+      s108: Lesotho
+      s109: Lettonia
+      s11: Armenia
+      s110: Libano
+      s111: Liberia
+      s112: Libia
+      s113: Liechtenstein
+      s114: Lituania
+      s115: Lussemburgo
+      s116: Macao
+      s117: Madagascar
+      s118: Malawi
+      s119: Malesia
+      s12: Aruba
+      s120: Maldive
+      s121: Mali
+      s122: Malta
+      s123: Marocco
+      s124: "Isole Marshall"
+      s125: Martinica
+      s126: Mauritania
+      s127: Mauritius
+      s128: Mayotte
+      s129: Macedonia
+      s13: Azerbaijan
+      s130: Messico
+      s131: Micronesia
+      s132: "Repubblica Moldava"
+      s133: Monaco
+      s134: Mongolia
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambico
+      s138: Myanmar
+      s139: Namibia
+      s14: Etiopia
+      s140: Nauru
+      s141: Nepal
+      s142: "Nuova Caledonia"
+      s143: "Nuova Zelanda"
+      s144: Nicaragua
+      s145: "Paesi Bassi"
+      s146: "Antille Olandesi"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australia
+      s150: "Isole Marianna"
+      s151: "Isola di Norfold"
+      s152: Norvegia
+      s153: Oman
+      s154: Austria
+      s155: "Timor Est"
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: "Papua Nuova Guinea"
+      s16: Bahamas
+      s160: Paraguay
+      s161: Perù
+      s162: Filippine
+      s163: Pitcairn
+      s164: Polonia
+      s165: Portogallo
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrain
+      s170: Romania
+      s171: Russia
+      s172: "Saint Kitts e Nevis"
+      s173: "Santa Lucia"
+      s174: "Saint Vincent e Grenadina"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tome e Principe"
+      s179: "Arabia Saudita"
+      s18: Bangladesh
+      s180: Svezia
+      s181: Svizzera
+      s182: Senegal
+      s183: Serbia
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapore
+      s188: "Sint Maarten"
+      s189: Slovacchia
+      s19: Barbados
+      s190: Slovenia
+      s191: "Isole Salomone"
+      s192: Somalia
+      s193: Spagna
+      s194: "Sri Lanka"
+      s195: Sant'Elena
+      s196: "Sud Africa"
+      s197: "Georgia del Sud e isole Sandwich"
+      s198: Suriname
+      s199: "Svalbard e Jan Mayen"
+      s2: Albania
+      s20: Belize
+      s200: Swaziland
+      s201: Tajikistan
+      s202: Taiwan
+      s203: Tanzania
+      s204: Tailandia
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trinidad e Tobago"
+      s209: Ciad
+      s21: Belgio
+      s210: "Repubblica Ceca"
+      s211: Tunisia
+      s212: Turchia
+      s213: Turkmenistan
+      s214: "Turks e Caicos"
+      s215: Tuvalu
+      s216: Uganda
+      s217: Ucraina
+      s218: Ungheria
+      s219: Uruguay
+      s22: Benin
+      s220: Uzbekistan
+      s221: Vanuatu
+      s222: "Città del Vaticano"
+      s223: Venezuela
+      s224: USA
+      s225: "Regno Unito"
+      s226: "Emirati Arabi Uniti"
+      s227: Vietnam
+      s228: "Wallis e Futuna"
+      s229: "Isola del Natale"
+      s23: Bermuda
+      s230: Bielorussia
+      s231: "Sahara Occidentale"
+      s232: "Repubblica Centrafricana"
+      s233: Cipro
+      s234: Argentina
+      s24: Bhutan
+      s25: Bolivia
+      s26: "Bonaire, Saint Eustatius e Saba"
+      s27: "Bosnia Erzegovina"
+      s28: Botswana
+      s29: "Isola Bouvet"
+      s3: Algeria
+      s30: Brasile
+      s31: "Territorio britannico dell'Oceano Indiano"
+      s32: "Brunei Darussalam"
+      s33: Bulgaria
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Cile
+      s37: Cina
+      s38: "Isole Cook"
+      s39: "Costa Rica"
+      s4: "Samoa Americane"
+      s40: Curaçao
+      s41: Danimarca
+      s42: Germania
+      s43: Dominica
+      s44: "Repubblica Dominicana"
+      s45: Gibuti
+      s46: Ecuador
+      s47: "El Salvador"
+      s48: "Costa D'Avorio"
+      s49: Eritrea
+      s5: Andorra
+      s50: Estonia
+      s51: "Isole Falkland"
+      s52: "Isole Faroer"
+      s53: Fiji
+      s54: Finlandia
+      s55: Francia
+      s56: "Guiana Francese"
+      s57: "Polinesia Francese"
+      s58: "Terre Australi e Antartiche Francesi"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Georgia
+      s62: Ghana
+      s63: Gibilterra
+      s64: Grenada
+      s65: Grecia
+      s66: Gronenlandia
+      s67: Guadalupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinea
+      s71: Guinea-Bissau
+      s72: Guyana
+      s73: Haiti
+      s74: "Isole Heard-McDonald"
+      s75: Honduras
+      s76: Hongkong
+      s77: India
+      s78: Indonesia
+      s79: Irlanda
+      s8: Antartide
+      s80: Islanda
+      s81: Israele
+      s82: Italia
+      s83: Giamaica
+      s84: Giappone
+      s85: Yemen
+      s86: Giordania
+      s87: "Isole Vergini, UK"
+      s88: "Isole Vergini, USA"
+      s89: "Isole Cayman"
+      s9: "Antigua e Barbuda"
+      s90: Cambogia
+      s91: Camerun
+      s92: Canada
+      s93: "Capo Verde"
+      s94: Kazakistan
+      s95: Kenya
+      s96: Kyrgyzstan
+      s97: Kiribati
+      s98: "Isole minori esterne, USA"
+      s99: "Isole Cokos"
+    global_links: 
+      s1: "Visualizza tutti i lavori"
+      s2: "Visualizza tutti gli eventi"
+      s3: "Visualizza tutte le attività"
+      s4: "Visualizza tutti gli studenti"
+      s5: "Visualizza tutte le domande"
+      s6: "Visualizza tutte le università"
+      s7: "Visualizza tutti gli amici"
+      s8: "Visualizza tutte le aziende"
   activerecord:
     errors:
       messages:
@@ -512,141 +650,203 @@ it:
     YE: "Yemen"
     ZM: "Zambia"
     ZW: "Zimbabwe"
-  languages:
-    106: "Akan"
-    122: "Albanian"
-    1: "Altra lingua"
-    74: "Amharic"
-    132: "Amharique"
-    3: "Arabo"
-    121: "Armenian"
-    77: "Assamese"
-    48: "Awadhi"
-    68: "Azerbaijani"
-    127: "Azeri"
-    109: "Bagheli"
-    98: "Basque"
-    104: "Belarusian"
-    4: "Bengalese"
-    47: "Bhojpuri"
-    117: "Bosnian"
-    119: "Bulgarian"
-    57: "Burmese"
-    50: "Catalan"
-    80: "Cebuano"
-    31: "Ceco"
-    103: "Chew"
-    76: "Chhattisgarhi"
-    65: "Chinese (Gan)"
-    60: "Chinese (Hakka)"
-    95: "Chinese (Min Bei)"
-    100: "Chinese (Min Dong)"
-    44: "Chinese (Min Nan)"
-    52: "Chinese (Xiang)"
-    92: "Chittagonian"
-    8: "Cinese (Altro)"
-    7: "Cinese (Cantonese)"
-    5: "Cinese (Mandarino)"
-    6: "Cinese (Wu)"
-    21: "Coreano"
-    9: "Danese"
-    93: "Deccan"
-    15: "Ebraico"
-    140: "Esperanto"
-    123: "Estonian"
-    141: "Euskara"
-    139: "Farsi"
-    135: "Fidjian"
-    12: "Finlandese"
-    13: "Francese"
-    90: "Fula"
-    126: "Georgian"
-    19: "Giapponese"
-    14: "Greco"
-    2: "Greco antico"
-    45: "Gujarati"
-    111: "Haitian Creole"
-    89: "Haryanvi"
-    62: "Hausa"
-    16: "Hindi"
-    72: "Igbo"
-    11: "Inglese"
-    17: "Islandese"
-    18: "Italiano"
-    38: "Javanese"
-    99: "Kanaujii"
-    54: "Kannada"
-    124: "Karelian"
-    105: "Kazakh"
-    83: "Khmer"
-    112: "Konkani"
-    78: "Kurdish"
-    70: "Lao-Isan"
-    22: "Latino"
-    113: "Latvian"
-    142: "Linguaggio dei segni"
-    114: "Lithuanian"
-    101: "Lombard"
-    120: "Macedonian"
-    88: "Madurese"
-    91: "Magahi"
-    55: "Maithili"
-    107: "Makuwa"
-    82: "Malagasy"
-    51: "Malay"
-    53: "Malayalam"
-    134: "Maltese"
-    39: "Marathi"
-    59: "Marwari"
-    85: "Nepali"
-    73: "Northern Berber"
-    24: "Norvegese"
-    23: "Olandese"
-    58: "Oriya"
-    75: "Oromo"
-    43: "Pashto"
-    46: "Persian"
-    25: "Polacco"
-    26: "Portoghese"
-    27: "Punjabi"
-    69: "Rajasthani"
-    81: "Rangpuri"
-    64: "Romanian"
-    28: "Russo"
-    86: "Rwanda-Rundi"
-    125: "Sami"
-    136: "Samoan"
-    138: "Schwyzerdütsch"
-    20: "Serbo-Croato"
-    94: "Shona"
-    66: "Sindhi"
-    79: "Sinhalese"
-    115: "Slovak"
-    118: "Slovenian"
-    87: "Somali"
-    116: "Sorbian"
-    84: "Sotho-Tswana"
-    30: "Spagnolo"
-    56: "Sundanese"
-    29: "Svedese"
-    97: "Sylheti"
-    63: "Tagalog"
-    42: "Tamil"
-    108: "Tatar-Bashkir"
-    10: "Tedesco"
-    40: "Telugu"
-    61: "Thai"
-    130: "Thai-Lao"
-    131: "Thai-Zhuang"
-    128: "Tibetan"
-    133: "Tigrinya"
-    32: "Turco"
-    49: "Ukrainian"
-    33: "Ungherese"
-    102: "Uyghur"
-    67: "Uzbek"
-    41: "Vietnamese"
-    110: "Xhose"
-    137: "Yiddish"
-    71: "Yoruba"
-    96: "Zulu"
+  date:
+    abbr_day_names:
+    - dom
+    - lun
+    - mar
+    - mer
+    - gio
+    - ven
+    - sab
+    abbr_month_names:
+    -
+    - gen
+    - feb
+    - mar
+    - apr
+    - mag
+    - giu
+    - lug
+    - ago
+    - set
+    - ott
+    - nov
+    - dic
+    day_names:
+    - domenica
+    - lunedì
+    - martedì
+    - mercoledì
+    - giovedì
+    - venerdì
+    - sabato
+    formats:
+      default: ! '%d/%m/%Y'
+      long: ! '%d %B %Y'
+      short: ! '%d %b'
+    month_names:
+    -
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: circa un'ora
+        other: circa %{count} ore
+      about_x_months:
+        one: circa un mese
+        other: circa %{count} mesi
+      about_x_years:
+        one: circa un anno
+        other: circa %{count} anni
+      almost_x_years:
+        one: circa 1 anno
+        other: circa %{count} anni
+      half_a_minute: mezzo minuto
+      less_than_x_minutes:
+        one: meno di un minuto
+        other: meno di %{count} minuti
+      less_than_x_seconds:
+        one: meno di un secondo
+        other: meno di %{count} secondi
+      over_x_years:
+        one: oltre un anno
+        other: oltre %{count} anni
+      x_days:
+        one: 1 giorno
+        other: ! '%{count} giorni'
+      x_minutes:
+        one: 1 minuto
+        other: ! '%{count} minuti'
+      x_months:
+        one: 1 mese
+        other: ! '%{count} mesi'
+      x_seconds:
+        one: 1 secondo
+        other: ! '%{count} secondi'
+    prompts:
+      day: Giorno
+      hour: Ora
+      minute: Minuto
+      month: Mese
+      second: Secondi
+      year: Anno
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: deve essere accettata
+      blank: non può essere lasciato in bianco
+      confirmation: non coincide con la conferma
+      empty: non può essere vuoto
+      equal_to: deve essere uguale a %{count}
+      even: deve essere pari
+      exclusion: è riservato
+      greater_than: deve essere superiore a %{count}
+      greater_than_or_equal_to: deve essere superiore o uguale a %{count}
+      inclusion: non è incluso nella lista
+      invalid: non è valido
+      less_than: deve essere meno di %{count}
+      less_than_or_equal_to: deve essere meno o uguale a %{count}
+      not_a_number: non è un numero
+      not_an_integer: non è un intero
+      odd: deve essere dispari
+      record_invalid: ! 'Validazione fallita: %{errors}'
+      taken: è già in uso
+      too_long:
+        one: è troppo lungo (il massimo è 1 carattere)
+        other: è troppo lungo (il massimo è %{count} caratteri)
+      too_short:
+        one: è troppo corto (il minimo è 1 carattere)
+        other: è troppo corto (il minimo è %{count} caratteri)
+      wrong_length:
+        one: è della lunghezza sbagliata (deve essere di 1 carattere)
+        other: è della lunghezza sbagliata (deve essere di %{count} caratteri)
+    template:
+      body: ! 'Per favore ricontrolla i seguenti campi:'
+      header:
+        one: ! 'Non posso salvare questo %{model}: 1 errore'
+        other: ! 'Non posso salvare questo %{model}: %{count} errori.'
+  helpers:
+    select:
+      prompt: Per favore, seleziona
+  number:
+    currency:
+      format:
+        delimiter: .
+        format: ! '%n %u'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: false
+        unit: €
+    format:
+      delimiter: .
+      precision: 2
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: Miliardi
+          million: Milioni
+          quadrillion: Biliardi
+          thousand: Mila
+          trillion: Bilioni
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: Byte
+            other: Byte
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ' e '
+      two_words_connector: ! ' e '
+      words_connector: ! ', '
+  time:
+    am: am
+    formats:
+      default: ! '%a %d %b %Y, %H:%M:%S %z'
+      long: ! '%d %B %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: pm
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors

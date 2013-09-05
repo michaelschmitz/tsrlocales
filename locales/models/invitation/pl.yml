@@ -1,15 +1,16 @@
-invitations:
-  attributes: &ATTRIBUTES
-    emails: "Wpisz e-maile osób, którym chcesz wysłać zaproszenia"
-    contacts: Kontakty
-    message: Wiadomość
-activerecord:
-  attributes:
-    models:
-      invitations: 'Zaproszenia'
-    invitations:
-      <<: *ATTRIBUTES
-simple_form:
-  labels:
-    invitations:
-      <<: *ATTRIBUTES   
+pl:
+  invitations:
+    attributes: &ATTRIBUTES
+      emails: "Wpisz e-maile osób, którym chcesz wysłać zaproszenia"
+      contacts: Kontakty
+      message: Wiadomość
+  activerecord:
+    attributes:
+      models:
+        invitations: 'Zaproszenia'
+      invitations:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      invitations:
+        <<: *ATTRIBUTES   

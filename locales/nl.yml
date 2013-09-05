@@ -4,6 +4,144 @@ nl:
         s1: "theStudentRanking.com biedt 's werelds grootste globale studentenranking. Als u een student bent die graag meer wil leren over zijn marktwaarde, zijn perspectief op de arbeidsmarkt en als u graag gevonden en aangenomen wilt worden door 's werelds toonaangevende bedrijven, dan bent u hier op de juiste plek."
         s2: "Voor bedrijven bieden wij recruitmentoplossingen en -diensten die zich focussen op student en recent afgestudeerden. Wij geven u toegang tot ideale kandidaten voor talentprogramma's, graduate programma's en traineeships. U vindt young professionals en studenten met een hoge potentie op onze site."
   dry:
+    languages:
+      106: "Akan"
+      122: "Albanian"
+      74: "Amharic"
+      132: "Amharique"
+      1: "Andere taal"
+      3: "Arabisch"
+      121: "Armenian"
+      77: "Assamese"
+      48: "Awadhi"
+      68: "Azerbaijani"
+      127: "Azeri"
+      109: "Bagheli"
+      98: "Basque"
+      104: "Belarusian"
+      4: "Bengali"
+      47: "Bhojpuri"
+      117: "Bosnian"
+      119: "Bulgarian"
+      57: "Burmese"
+      50: "Catalan"
+      80: "Cebuano"
+      103: "Chew"
+      76: "Chhattisgarhi"
+      5: "Chinees (Mandarijn)"
+      8: "Chinees (Overig)"
+      65: "Chinese (Gan)"
+      60: "Chinese (Hakka)"
+      7: "Chinese (Kantonees)"
+      95: "Chinese (Min Bei)"
+      100: "Chinese (Min Dong)"
+      44: "Chinese (Min Nan)"
+      6: "Chinese (Wu)"
+      52: "Chinese (Xiang)"
+      92: "Chittagonian"
+      93: "Deccan"
+      9: "Deens"
+      10: "Duits"
+      11: "Engels"
+      140: "Esperanto"
+      123: "Estonian"
+      141: "Euskara"
+      139: "Farsi"
+      135: "Fidjian"
+      12: "Fins"
+      13: "Frans"
+      90: "Fula"
+      142: "Gebarentaal"
+      126: "Georgian"
+      14: "Grieks"
+      45: "Gujarati"
+      111: "Haitian Creole"
+      89: "Haryanvi"
+      62: "Hausa"
+      15: "Hebreeuws"
+      16: "Hindi"
+      33: "Hungaars"
+      72: "Igbo"
+      17: "Ijslands"
+      18: "Italiaans"
+      19: "Japans"
+      38: "Javanese"
+      99: "Kanaujii"
+      54: "Kannada"
+      124: "Karelian"
+      105: "Kazakh"
+      83: "Khmer"
+      112: "Konkani"
+      21: "Koreaans"
+      78: "Kurdish"
+      70: "Lao-Isan"
+      22: "Latijn"
+      113: "Latvian"
+      114: "Lithuanian"
+      101: "Lombard"
+      120: "Macedonian"
+      88: "Madurese"
+      91: "Magahi"
+      55: "Maithili"
+      107: "Makuwa"
+      82: "Malagasy"
+      51: "Malay"
+      53: "Malayalam"
+      134: "Maltese"
+      39: "Marathi"
+      59: "Marwari"
+      23: "Nederlands"
+      85: "Nepali"
+      24: "Noors"
+      73: "Northern Berber"
+      58: "Oriya"
+      75: "Oromo"
+      2: "Oud Grieks"
+      43: "Pashto"
+      46: "Persian"
+      25: "Pools"
+      26: "Portugees"
+      27: "Punjabi"
+      69: "Rajasthani"
+      81: "Rangpuri"
+      64: "Romanian"
+      28: "Russisch"
+      86: "Rwanda-Rundi"
+      125: "Sami"
+      136: "Samoan"
+      138: "Schwyzerdütsch"
+      20: "Servisch-Kroatisch"
+      94: "Shona"
+      66: "Sindhi"
+      79: "Sinhalese"
+      115: "Slovak"
+      118: "Slovenian"
+      87: "Somali"
+      116: "Sorbian"
+      84: "Sotho-Tswana"
+      30: "Spaans"
+      56: "Sundanese"
+      97: "Sylheti"
+      63: "Tagalog"
+      42: "Tamil"
+      108: "Tatar-Bashkir"
+      40: "Telugu"
+      61: "Thai"
+      130: "Thai-Lao"
+      131: "Thai-Zhuang"
+      128: "Tibetan"
+      133: "Tigrinya"
+      31: "Tsjechisch"
+      32: "Turks"
+      49: "Ukrainian"
+      102: "Uyghur"
+      67: "Uzbek"
+      41: "Vietnamese"
+      110: "Xhose"
+      137: "Yiddish"
+      71: "Yoruba"
+      96: "Zulu"
+      29: "Zweeds"
     countries: 
       s1: Egypte
       s10: Equatoriaal-Guinea
@@ -488,141 +626,197 @@ nl:
     GS: "Zuid-Georgië en Z.S. eilanden"
     SE: "Zweden"
     CH: "Zwitzerland"
-  languages:
-    106: "Akan"
-    122: "Albanian"
-    74: "Amharic"
-    132: "Amharique"
-    1: "Andere taal"
-    3: "Arabisch"
-    121: "Armenian"
-    77: "Assamese"
-    48: "Awadhi"
-    68: "Azerbaijani"
-    127: "Azeri"
-    109: "Bagheli"
-    98: "Basque"
-    104: "Belarusian"
-    4: "Bengali"
-    47: "Bhojpuri"
-    117: "Bosnian"
-    119: "Bulgarian"
-    57: "Burmese"
-    50: "Catalan"
-    80: "Cebuano"
-    103: "Chew"
-    76: "Chhattisgarhi"
-    5: "Chinees (Mandarijn)"
-    8: "Chinees (Overig)"
-    65: "Chinese (Gan)"
-    60: "Chinese (Hakka)"
-    7: "Chinese (Kantonees)"
-    95: "Chinese (Min Bei)"
-    100: "Chinese (Min Dong)"
-    44: "Chinese (Min Nan)"
-    6: "Chinese (Wu)"
-    52: "Chinese (Xiang)"
-    92: "Chittagonian"
-    93: "Deccan"
-    9: "Deens"
-    10: "Duits"
-    11: "Engels"
-    140: "Esperanto"
-    123: "Estonian"
-    141: "Euskara"
-    139: "Farsi"
-    135: "Fidjian"
-    12: "Fins"
-    13: "Frans"
-    90: "Fula"
-    142: "Gebarentaal"
-    126: "Georgian"
-    14: "Grieks"
-    45: "Gujarati"
-    111: "Haitian Creole"
-    89: "Haryanvi"
-    62: "Hausa"
-    15: "Hebreeuws"
-    16: "Hindi"
-    33: "Hungaars"
-    72: "Igbo"
-    17: "Ijslands"
-    18: "Italiaans"
-    19: "Japans"
-    38: "Javanese"
-    99: "Kanaujii"
-    54: "Kannada"
-    124: "Karelian"
-    105: "Kazakh"
-    83: "Khmer"
-    112: "Konkani"
-    21: "Koreaans"
-    78: "Kurdish"
-    70: "Lao-Isan"
-    22: "Latijn"
-    113: "Latvian"
-    114: "Lithuanian"
-    101: "Lombard"
-    120: "Macedonian"
-    88: "Madurese"
-    91: "Magahi"
-    55: "Maithili"
-    107: "Makuwa"
-    82: "Malagasy"
-    51: "Malay"
-    53: "Malayalam"
-    134: "Maltese"
-    39: "Marathi"
-    59: "Marwari"
-    23: "Nederlands"
-    85: "Nepali"
-    24: "Noors"
-    73: "Northern Berber"
-    58: "Oriya"
-    75: "Oromo"
-    2: "Oud Grieks"
-    43: "Pashto"
-    46: "Persian"
-    25: "Pools"
-    26: "Portugees"
-    27: "Punjabi"
-    69: "Rajasthani"
-    81: "Rangpuri"
-    64: "Romanian"
-    28: "Russisch"
-    86: "Rwanda-Rundi"
-    125: "Sami"
-    136: "Samoan"
-    138: "Schwyzerdütsch"
-    20: "Servisch-Kroatisch"
-    94: "Shona"
-    66: "Sindhi"
-    79: "Sinhalese"
-    115: "Slovak"
-    118: "Slovenian"
-    87: "Somali"
-    116: "Sorbian"
-    84: "Sotho-Tswana"
-    30: "Spaans"
-    56: "Sundanese"
-    97: "Sylheti"
-    63: "Tagalog"
-    42: "Tamil"
-    108: "Tatar-Bashkir"
-    40: "Telugu"
-    61: "Thai"
-    130: "Thai-Lao"
-    131: "Thai-Zhuang"
-    128: "Tibetan"
-    133: "Tigrinya"
-    31: "Tsjechisch"
-    32: "Turks"
-    49: "Ukrainian"
-    102: "Uyghur"
-    67: "Uzbek"
-    41: "Vietnamese"
-    110: "Xhose"
-    137: "Yiddish"
-    71: "Yoruba"
-    96: "Zulu"
-    29: "Zweeds"
+  date:
+    abbr_day_names:
+    - zon
+    - maa
+    - din
+    - woe
+    - don
+    - vri
+    - zat
+    abbr_month_names:
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - mei
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
+    day_names:
+    - zondag
+    - maandag
+    - dinsdag
+    - woensdag
+    - donderdag
+    - vrijdag
+    - zaterdag
+    formats:
+      default: ! '%d/%m/%Y'
+      long: ! '%e %B %Y'
+      short: ! '%e %b'
+    month_names:
+    -
+    - januari
+    - februari
+    - maart
+    - april
+    - mei
+    - juni
+    - juli
+    - augustus
+    - september
+    - oktober
+    - november
+    - december
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: ongeveer een uur
+        other: ongeveer %{count} uur
+      about_x_months:
+        one: ongeveer een maand
+        other: ongeveer %{count} maanden
+      about_x_years:
+        one: ongeveer een jaar
+        other: ongeveer %{count} jaar
+      almost_x_years:
+        one: bijna een jaar
+        other: bijna %{count} jaar
+      half_a_minute: een halve minuut
+      less_than_x_minutes:
+        one: minder dan een minuut
+        other: minder dan %{count} minuten
+      less_than_x_seconds:
+        one: minder dan een seconde
+        other: minder dan %{count} seconden
+      over_x_years:
+        one: meer dan een jaar
+        other: meer dan %{count} jaar
+      x_days:
+        one: 1 dag
+        other: ! '%{count} dagen'
+      x_minutes:
+        one: 1 minuut
+        other: ! '%{count} minuten'
+      x_months:
+        one: 1 maand
+        other: ! '%{count} maanden'
+      x_seconds:
+        one: 1 seconde
+        other: ! '%{count} seconden'
+    prompts:
+      day: dag
+      hour: uur
+      minute: minuut
+      month: maand
+      second: seconde
+      year: jaar
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: moet worden geaccepteerd
+      blank: moet opgegeven zijn
+      confirmation: komt niet met de bevestiging overeen
+      empty: moet opgegeven zijn
+      equal_to: moet gelijk zijn aan %{count}
+      even: moet even zijn
+      exclusion: is niet beschikbaar
+      greater_than: moet groter zijn dan %{count}
+      greater_than_or_equal_to: moet groter dan of gelijk zijn aan %{count}
+      inclusion: is niet in de lijst opgenomen
+      invalid: is ongeldig
+      less_than: moet minder zijn dan %{count}
+      less_than_or_equal_to: moet minder dan of gelijk zijn aan %{count}
+      not_a_number: is geen getal
+      not_an_integer: moet een geheel getal zijn
+      odd: moet oneven zijn
+      record_invalid: ! 'Validatie mislukt: %{errors}'
+      taken: is al in gebruik
+      too_long: is te lang (maximaal %{count} tekens)
+      too_short: is te kort (minimaal %{count} tekens)
+      wrong_length: heeft onjuiste lengte (moet %{count} tekens lang zijn)
+    template:
+      body: ! 'Controleer de volgende velden:'
+      header:
+        one: ! '%{model} niet opgeslagen: 1 fout gevonden'
+        other: ! '%{model} niet opgeslagen: %{count} fouten gevonden'
+  helpers:
+    select:
+      prompt: Selecteer
+  number:
+    currency:
+      format:
+        delimiter: .
+        format: ! '%u%n'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: false
+        unit: €
+    format:
+      delimiter: .
+      precision: 2
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: miljard
+          million: miljoen
+          quadrillion: biljard
+          thousand: duizend
+          trillion: biljoen
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ' en '
+      two_words_connector: ! ' en '
+      words_connector: ! ', '
+  time:
+    am: ! '''s ochtends'
+    formats:
+      default: ! '%a %d %b %Y %H:%M:%S %Z'
+      long: ! '%d %B %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: ! '''s middags'
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors

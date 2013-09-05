@@ -4,6 +4,144 @@ fr:
       s1: "theStudentRanking.com fournit le plus grand du monde classement mondial d'étudiants Si vous êtes un étudiant à la recherche pour en apprendre davantage au sujet de votre valeur marchande, au sujet de votre point de vue sur le marché du travail et si vous voulez vous trouvé et embauché par certains des plus grands du monde. entreprises, alors nous sommes votre destination idéale. "
       s2: "Pour les entreprises, nous proposons des solutions de recrutement et des services axés sur les diplômés et les étudiants nous donnent accès à des candidats idéaux pour les programmes de talent, des programmes de cycles supérieurs et stagiaires pogroms jeunes professionnels et des hauts potentiels peuvent être consultés sur notre site..."
   dry:
+    languages:
+      106: "Akan"
+      122: "Albanian"
+      10: "Allemand"
+      74: "Amharic"
+      132: "Amharique"
+      11: "Anglais"
+      3: "Arabe"
+      121: "Armenian"
+      77: "Assamese"
+      1: "Autre langue"
+      48: "Awadhi"
+      68: "Azerbaijani"
+      127: "Azeri"
+      109: "Bagheli"
+      98: "Basque"
+      104: "Belarusian"
+      4: "Bengali"
+      47: "Bhojpuri"
+      117: "Bosnian"
+      119: "Bulgarian"
+      57: "Burmese"
+      50: "Catalan"
+      80: "Cebuano"
+      103: "Chew"
+      76: "Chhattisgarhi"
+      65: "Chinese (Gan)"
+      60: "Chinese (Hakka)"
+      95: "Chinese (Min Bei)"
+      100: "Chinese (Min Dong)"
+      44: "Chinese (Min Nan)"
+      52: "Chinese (Xiang)"
+      7: "Chinois (Cantonese)"
+      5: "Chinois (Mandarin)"
+      6: "Chinois (Wu)"
+      8: "Chinois (autre)"
+      92: "Chittagonian"
+      21: "Coréen"
+      9: "Danois"
+      93: "Deccan"
+      30: "Espagnol"
+      140: "Esperanto"
+      123: "Estonian"
+      141: "Euskara"
+      139: "Farsi"
+      135: "Fidjian"
+      12: "Finnois"
+      13: "Français"
+      90: "Fula"
+      126: "Georgian"
+      2: "Grec antique"
+      14: "Grecque"
+      45: "Gujarati"
+      111: "Haitian Creole"
+      89: "Haryanvi"
+      62: "Hausa"
+      15: "Hebreu"
+      16: "Hindi"
+      23: "Hollandais"
+      33: "Hongrois"
+      72: "Igbo"
+      17: "Islandais"
+      18: "Italienne"
+      19: "Japonais"
+      38: "Javanese"
+      99: "Kanaujii"
+      54: "Kannada"
+      124: "Karelian"
+      105: "Kazakh"
+      83: "Khmer"
+      112: "Konkani"
+      78: "Kurdish"
+      70: "Lao-Isan"
+      22: "Latin"
+      113: "Latvian"
+      114: "Lithuanian"
+      101: "Lombard"
+      120: "Macedonian"
+      88: "Madurese"
+      91: "Magahi"
+      55: "Maithili"
+      107: "Makuwa"
+      82: "Malagasy"
+      51: "Malay"
+      53: "Malayalam"
+      134: "Maltese"
+      39: "Marathi"
+      59: "Marwari"
+      85: "Nepali"
+      73: "Northern Berber"
+      24: "Norvegien"
+      58: "Oriya"
+      75: "Oromo"
+      43: "Pashto"
+      46: "Persian"
+      25: "Polonais"
+      26: "Portugais"
+      27: "Punjabi"
+      69: "Rajasthani"
+      81: "Rangpuri"
+      64: "Romanian"
+      28: "Russe"
+      86: "Rwanda-Rundi"
+      125: "Sami"
+      136: "Samoan"
+      138: "Schwyzerdütsch"
+      20: "Serbo-croate"
+      94: "Shona"
+      142: "Sign language"
+      66: "Sindhi"
+      79: "Sinhalese"
+      115: "Slovak"
+      118: "Slovenian"
+      87: "Somali"
+      116: "Sorbian"
+      84: "Sotho-Tswana"
+      29: "Suedois"
+      56: "Sundanese"
+      97: "Sylheti"
+      63: "Tagalog"
+      42: "Tamil"
+      108: "Tatar-Bashkir"
+      31: "Tcheque"
+      40: "Telugu"
+      61: "Thai"
+      130: "Thai-Lao"
+      131: "Thai-Zhuang"
+      128: "Tibetan"
+      133: "Tigrinya"
+      32: "Turque"
+      49: "Ukrainian"
+      102: "Uyghur"
+      67: "Uzbek"
+      41: "Vietnamese"
+      110: "Xhose"
+      137: "Yiddish"
+      71: "Yoruba"
+      96: "Zulu"
     countries: 
       S119: Malaisie
       S121: Mali
@@ -484,141 +622,212 @@ fr:
     MP: "Îles Mariannes du Nord"
     MH: "Îles Marshall"
     VG: "Îles Vierges britanniques"
-  languages:
-    106: "Akan"
-    122: "Albanian"
-    10: "Allemand"
-    74: "Amharic"
-    132: "Amharique"
-    11: "Anglais"
-    3: "Arabe"
-    121: "Armenian"
-    77: "Assamese"
-    1: "Autre langue"
-    48: "Awadhi"
-    68: "Azerbaijani"
-    127: "Azeri"
-    109: "Bagheli"
-    98: "Basque"
-    104: "Belarusian"
-    4: "Bengali"
-    47: "Bhojpuri"
-    117: "Bosnian"
-    119: "Bulgarian"
-    57: "Burmese"
-    50: "Catalan"
-    80: "Cebuano"
-    103: "Chew"
-    76: "Chhattisgarhi"
-    65: "Chinese (Gan)"
-    60: "Chinese (Hakka)"
-    95: "Chinese (Min Bei)"
-    100: "Chinese (Min Dong)"
-    44: "Chinese (Min Nan)"
-    52: "Chinese (Xiang)"
-    7: "Chinois (Cantonese)"
-    5: "Chinois (Mandarin)"
-    6: "Chinois (Wu)"
-    8: "Chinois (autre)"
-    92: "Chittagonian"
-    21: "Coréen"
-    9: "Danois"
-    93: "Deccan"
-    30: "Espagnol"
-    140: "Esperanto"
-    123: "Estonian"
-    141: "Euskara"
-    139: "Farsi"
-    135: "Fidjian"
-    12: "Finnois"
-    13: "Français"
-    90: "Fula"
-    126: "Georgian"
-    2: "Grec antique"
-    14: "Grecque"
-    45: "Gujarati"
-    111: "Haitian Creole"
-    89: "Haryanvi"
-    62: "Hausa"
-    15: "Hebreu"
-    16: "Hindi"
-    23: "Hollandais"
-    33: "Hongrois"
-    72: "Igbo"
-    17: "Islandais"
-    18: "Italienne"
-    19: "Japonais"
-    38: "Javanese"
-    99: "Kanaujii"
-    54: "Kannada"
-    124: "Karelian"
-    105: "Kazakh"
-    83: "Khmer"
-    112: "Konkani"
-    78: "Kurdish"
-    70: "Lao-Isan"
-    22: "Latin"
-    113: "Latvian"
-    114: "Lithuanian"
-    101: "Lombard"
-    120: "Macedonian"
-    88: "Madurese"
-    91: "Magahi"
-    55: "Maithili"
-    107: "Makuwa"
-    82: "Malagasy"
-    51: "Malay"
-    53: "Malayalam"
-    134: "Maltese"
-    39: "Marathi"
-    59: "Marwari"
-    85: "Nepali"
-    73: "Northern Berber"
-    24: "Norvegien"
-    58: "Oriya"
-    75: "Oromo"
-    43: "Pashto"
-    46: "Persian"
-    25: "Polonais"
-    26: "Portugais"
-    27: "Punjabi"
-    69: "Rajasthani"
-    81: "Rangpuri"
-    64: "Romanian"
-    28: "Russe"
-    86: "Rwanda-Rundi"
-    125: "Sami"
-    136: "Samoan"
-    138: "Schwyzerdütsch"
-    20: "Serbo-croate"
-    94: "Shona"
-    142: "Sign language"
-    66: "Sindhi"
-    79: "Sinhalese"
-    115: "Slovak"
-    118: "Slovenian"
-    87: "Somali"
-    116: "Sorbian"
-    84: "Sotho-Tswana"
-    29: "Suedois"
-    56: "Sundanese"
-    97: "Sylheti"
-    63: "Tagalog"
-    42: "Tamil"
-    108: "Tatar-Bashkir"
-    31: "Tcheque"
-    40: "Telugu"
-    61: "Thai"
-    130: "Thai-Lao"
-    131: "Thai-Zhuang"
-    128: "Tibetan"
-    133: "Tigrinya"
-    32: "Turque"
-    49: "Ukrainian"
-    102: "Uyghur"
-    67: "Uzbek"
-    41: "Vietnamese"
-    110: "Xhose"
-    137: "Yiddish"
-    71: "Yoruba"
-    96: "Zulu"
+  date:
+    abbr_day_names:
+      - dim
+      - lun
+      - mar
+      - mer
+      - jeu
+      - ven
+      - sam
+    abbr_month_names:
+      - ~
+      - jan.
+      - fév.
+      - mar.
+      - avr.
+      - mai
+      - juin
+      - juil.
+      - août
+      - sept.
+      - oct.
+      - nov.
+      - déc.
+    day_names:
+      - dimanche
+      - lundi
+      - mardi
+      - mercredi
+      - jeudi
+      - vendredi
+      - samedi
+    formats:
+      default: "%d/%m/%Y"
+      short: "%e %b"
+      long: "%e %B %Y"
+    month_names:
+      - ~
+      - janvier
+      - février
+      - mars
+      - avril
+      - mai
+      - juin
+      - juillet
+      - août
+      - septembre
+      - octobre
+      - novembre
+      - décembre
+    order:
+      - :day
+      - :month
+      - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one:   "environ une heure"
+        other: "environ %{count} heures"
+      about_x_months:
+        one:   "environ un mois"
+        other: "environ %{count} mois"
+      about_x_years:
+        one:   "environ un an"
+        other: "environ %{count} ans"
+      almost_x_years:
+        one:   "presqu'un an"
+        other: "presque %{count} ans"
+      half_a_minute: "une demi-minute"
+      less_than_x_minutes:
+        zero:  "moins d'une minute"
+        one:   "moins d'une minute"
+        other: "moins de %{count} minutes"
+      less_than_x_seconds:
+        zero:  "moins d'une seconde"
+        one:   "moins d'une seconde"
+        other: "moins de %{count} secondes"
+      over_x_years:
+        one:   "plus d'un an"
+        other: "plus de %{count} ans"
+      x_days:
+        one:   "1 jour"
+        other: "%{count} jours"
+      x_minutes:
+        one:   "1 minute"
+        other: "%{count} minutes"
+      x_months:
+        one:   "1 mois"
+        other: "%{count} mois"
+      x_seconds:
+        one:   "1 seconde"
+        other: "%{count} secondes"
+    prompts:
+      day:    "Jour"
+      hour:   "Heure"
+      minute: "Minute"
+      month:  "Mois"
+      second: "Seconde"
+      year:   "Année"
+  errors: &errors
+    format: "%{attribute} %{message}"
+    messages: &errors_messages
+      accepted: "doit être accepté(e)"
+      blank: "doit être rempli(e)"
+      confirmation: "ne concorde pas avec la confirmation"
+      empty: "doit être rempli(e)"
+      equal_to: "doit être égal à %{count}"
+      even: "doit être pair"
+      exclusion: "n'est pas disponible"
+      greater_than: "doit être supérieur à %{count}"
+      greater_than_or_equal_to: "doit être supérieur ou égal à %{count}"
+      inclusion: "n'est pas inclus(e) dans la liste"
+      invalid: "n'est pas valide"
+      less_than: "doit être inférieur à %{count}"
+      less_than_or_equal_to: "doit être inférieur ou égal à %{count}"
+      not_a_number: "n'est pas un nombre"
+      not_an_integer: "doit être un nombre entier"
+      odd: "doit être impair"
+      record_invalid: "La validation a échoué : %{errors}"
+      restrict_dependent_destroy:
+        one: "Suppression impossible: un autre enregistrement est lié"
+        many: "Suppression impossible: d'autres enregistrements sont liés"
+      taken: "n'est pas disponible"
+      too_long:
+        one: "est trop long (pas plus d'un caractère)"
+        other: "est trop long (pas plus de %{count} caractères)"
+      too_short:
+        one: "est trop court (au moins un caractère)"
+        other: "est trop court (au moins %{count} caractères)"
+      wrong_length:
+        one: "ne fait pas la bonne longueur (doit comporter un seul caractère)"
+        other: "ne fait pas la bonne longueur (doit comporter %{count} caractères)"
+    template: &errors_template
+      body: "Veuillez vérifier les champs suivants : "
+      header:
+        one:   "Impossible d'enregistrer ce(tte) %{model} : 1 erreur"
+        other: "Impossible d'enregistrer ce(tte) %{model} : %{count} erreurs"
+  helpers:
+    select:
+      prompt: "Veuillez sélectionner"
+    submit:
+      create: "Créer"
+      submit: "Enregistrer"
+      update: "Modifier"
+  number:
+    currency:
+      format:
+        delimiter: " "
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "€"
+    format:
+      delimiter: " "
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: "milliard"
+          million: "million"
+          quadrillion: "million de milliards"
+          thousand: "millier"
+          trillion: "billion"
+          unit: ""
+      format:
+        delimiter: ""
+        precision: 2
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one:   "octet"
+            other: "octets"
+          gb: "Go"
+          kb: "ko"
+          mb: "Mo"
+          tb: "To"
+    percentage:
+      format:
+        delimiter: ""
+    precision:
+      format:
+        delimiter: ""
+  support:
+    array:
+      last_word_connector: " et "
+      two_words_connector: " et "
+      words_connector: ", "
+  time:
+    am: 'am'
+    formats:
+      default: "%d %B %Y %H:%M:%S"
+      long: "%A %d %B %Y %H:%M"
+      short: "%d %b %H:%M"
+    pm: 'pm'
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors

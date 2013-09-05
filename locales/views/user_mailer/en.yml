@@ -41,7 +41,7 @@ en:
       s5: "Click here to view your connections"
       s6: "Kind regards,\n"
       s7: Michael
-    recommendation_received: 
+    recommendation_confirmation: 
       s1: "you just received a recommendation from"
       s10: "Kind regards,\n"
       s11: Michael

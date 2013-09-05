@@ -45,7 +45,7 @@ pl:
       s5: "Kliknij tu aby zobaczyć listę swoich znajomych"
       s6: "Pozdrawiam serdecznie,\n"
       s7: Michael
-    recommendation_received: 
+    recommendation_confirmation: 
       s1: "właśnie otrzymałeś rekomendację od "
       s10: "Pozdrawiam serdecznie,\n"
       s11: Michael

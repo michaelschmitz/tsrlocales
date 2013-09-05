@@ -18,6 +18,142 @@ pl:
     advice_link: "Porady"
     hi: "Cześć"
     here: tutaj
+    languages:
+      97: "(bengalski - Sylheti)"
+      1: "Inny język"
+      110: "Xhose"
+      106: "akan"
+      122: "albański"
+      132: "amharski"
+      11: "angielski"
+      3: "arabski"
+      121: "armeński"
+      77: "asamski"
+      48: "awadhi"
+      68: "azerbejdżański"
+      127: "azerski"
+      109: "bagheli"
+      141: "baskijski"
+      108: "baszkirski"
+      4: "bengalski"
+      47: "bhodźpuri"
+      104: "białoruski"
+      57: "birmański"
+      117: "bośniacki"
+      119: "bułgarski"
+      80: "cebuański"
+      92: "chatgaya"
+      65: "chiński (Gan)"
+      60: "chiński (Hakka)"
+      95: "chiński (Min Bei)"
+      100: "chiński (Min Dong)"
+      44: "chiński (Min Nan)"
+      52: "chiński (Xiang)"
+      8: "chiński (inny)"
+      7: "chiński (katoński)"
+      5: "chiński mandaryński"
+      6: "chiński(Wu)"
+      31: "czeski"
+      103: "cziczewa"
+      93: "deccan"
+      9: "duński"
+      140: "esperanto"
+      123: "estoński"
+      135: "fidżyjski"
+      12: "fiński"
+      13: "francuski"
+      90: "ful"
+      14: "grecki"
+      126: "gruziński"
+      45: "gudźarati"
+      89: "haryanvi"
+      62: "hausa"
+      15: "hebrajski"
+      16: "hinduski"
+      30: "hiszpański"
+      23: "holenderski"
+      72: "igbo"
+      17: "islandzki"
+      19: "japoński"
+      38: "jawajski"
+      137: "jidysz"
+      71: "joruba"
+      99: "kanji"
+      54: "kannada"
+      124: "karelski"
+      50: "kataloński"
+      105: "kazachski"
+      83: "khmerski"
+      112: "konkani"
+      21: "koreański"
+      111: "kreolski haitański"
+      78: "kurdyjski"
+      70: "laotański-Isan"
+      125: "lapoński"
+      114: "litewski"
+      101: "lombardzki"
+      120: "macedoński"
+      88: "madurski"
+      91: "magahi"
+      55: "maithili"
+      107: "makua"
+      53: "malajalam"
+      51: "malajski"
+      82: "malgaski"
+      134: "maltański"
+      39: "marathi"
+      59: "marwari"
+      142: "migowy"
+      85: "nepalski"
+      10: "niemiecki"
+      24: "norweski"
+      139: "nowoperski"
+      58: "orija"
+      75: "oromo"
+      43: "paszto"
+      27: "pendżabski"
+      46: "perski"
+      25: "polski"
+      26: "portugalski"
+      73: "północny berberyjskie"
+      69: "radżastani"
+      81: "rangpurski"
+      28: "rosyjski"
+      86: "ruanda-rundi"
+      64: "rumuński"
+      136: "samoański"
+      138: "schwyzerdütsch"
+      116: "serbski"
+      20: "serbsko-chorwacki"
+      94: "shona"
+      66: "sindhi"
+      87: "somalijski"
+      84: "sotho-tswana"
+      2: "starożytna greka"
+      56: "sundajski"
+      79: "syngaleski"
+      29: "szwedzki"
+      115: "słowacki"
+      118: "słoweński"
+      63: "tagalski"
+      61: "tajski"
+      130: "tajski-Lao"
+      131: "tajski-Zhuang"
+      42: "tamilski"
+      40: "telugu"
+      133: "tigrinia"
+      32: "turecki"
+      128: "tybetański"
+      102: "ujgurski"
+      49: "ukraiński"
+      67: "uzbecki"
+      41: "wietnamski"
+      33: "węgierski"
+      18: "włoski"
+      96: "zulu"
+      76: "ćhattisgarhi"
+      22: "łaciński"
+      113: "łotewski"
     countries: 
       s0: "Brak wyboru"
       s1: Egipt
@@ -502,139 +638,223 @@ pl:
     ZW: "Zimbabwe"
     AE: "Zjednoczone Emiraty Arabskie"
     LV: "Łotwa"
-  languages:
-    97: "(bengalski - Sylheti)"
-    1: "Inny język"
-    110: "Xhose"
-    106: "akan"
-    122: "albański"
-    132: "amharski"
-    11: "angielski"
-    3: "arabski"
-    121: "armeński"
-    77: "asamski"
-    48: "awadhi"
-    68: "azerbejdżański"
-    127: "azerski"
-    109: "bagheli"
-    141: "baskijski"
-    108: "baszkirski"
-    4: "bengalski"
-    47: "bhodźpuri"
-    104: "białoruski"
-    57: "birmański"
-    117: "bośniacki"
-    119: "bułgarski"
-    80: "cebuański"
-    92: "chatgaya"
-    65: "chiński (Gan)"
-    60: "chiński (Hakka)"
-    95: "chiński (Min Bei)"
-    100: "chiński (Min Dong)"
-    44: "chiński (Min Nan)"
-    52: "chiński (Xiang)"
-    8: "chiński (inny)"
-    7: "chiński (katoński)"
-    5: "chiński mandaryński"
-    6: "chiński(Wu)"
-    31: "czeski"
-    103: "cziczewa"
-    93: "deccan"
-    9: "duński"
-    140: "esperanto"
-    123: "estoński"
-    135: "fidżyjski"
-    12: "fiński"
-    13: "francuski"
-    90: "ful"
-    14: "grecki"
-    126: "gruziński"
-    45: "gudźarati"
-    89: "haryanvi"
-    62: "hausa"
-    15: "hebrajski"
-    16: "hinduski"
-    30: "hiszpański"
-    23: "holenderski"
-    72: "igbo"
-    17: "islandzki"
-    19: "japoński"
-    38: "jawajski"
-    137: "jidysz"
-    71: "joruba"
-    99: "kanji"
-    54: "kannada"
-    124: "karelski"
-    50: "kataloński"
-    105: "kazachski"
-    83: "khmerski"
-    112: "konkani"
-    21: "koreański"
-    111: "kreolski haitański"
-    78: "kurdyjski"
-    70: "laotański-Isan"
-    125: "lapoński"
-    114: "litewski"
-    101: "lombardzki"
-    120: "macedoński"
-    88: "madurski"
-    91: "magahi"
-    55: "maithili"
-    107: "makua"
-    53: "malajalam"
-    51: "malajski"
-    82: "malgaski"
-    134: "maltański"
-    39: "marathi"
-    59: "marwari"
-    142: "migowy"
-    85: "nepalski"
-    10: "niemiecki"
-    24: "norweski"
-    139: "nowoperski"
-    58: "orija"
-    75: "oromo"
-    43: "paszto"
-    27: "pendżabski"
-    46: "perski"
-    25: "polski"
-    26: "portugalski"
-    73: "północny berberyjskie"
-    69: "radżastani"
-    81: "rangpurski"
-    28: "rosyjski"
-    86: "ruanda-rundi"
-    64: "rumuński"
-    136: "samoański"
-    138: "schwyzerdütsch"
-    116: "serbski"
-    20: "serbsko-chorwacki"
-    94: "shona"
-    66: "sindhi"
-    87: "somalijski"
-    84: "sotho-tswana"
-    2: "starożytna greka"
-    56: "sundajski"
-    79: "syngaleski"
-    29: "szwedzki"
-    115: "słowacki"
-    118: "słoweński"
-    63: "tagalski"
-    61: "tajski"
-    130: "tajski-Lao"
-    131: "tajski-Zhuang"
-    42: "tamilski"
-    40: "telugu"
-    133: "tigrinia"
-    32: "turecki"
-    128: "tybetański"
-    102: "ujgurski"
-    49: "ukraiński"
-    67: "uzbecki"
-    41: "wietnamski"
-    33: "węgierski"
-    18: "włoski"
-    96: "zulu"
-    76: "ćhattisgarhi"
-    22: "łaciński"
-    113: "łotewski"
+  date:
+    abbr_day_names:
+    - nie
+    - pon
+    - wto
+    - śro
+    - czw
+    - pią
+    - sob
+    abbr_month_names:
+    -
+    - sty
+    - lut
+    - mar
+    - kwi
+    - maj
+    - cze
+    - lip
+    - sie
+    - wrz
+    - paź
+    - lis
+    - gru
+    day_names:
+    - niedziela
+    - poniedziałek
+    - wtorek
+    - środa
+    - czwartek
+    - piątek
+    - sobota
+    formats:
+      default: ! '%d-%m-%Y'
+      long: ! '%B %d, %Y'
+      short: ! '%d %b'
+    month_names:
+    -
+    - styczeń
+    - luty
+    - marzec
+    - kwiecień
+    - maj
+    - czerwiec
+    - lipiec
+    - sierpień
+    - wrzesień
+    - październik
+    - listopad
+    - grudzień
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        few: około %{count} godziny
+        one: około godziny
+        other: około %{count} godzin
+        many: około %{count} godzin
+      about_x_months:
+        few: około %{count} miesiące
+        one: około miesiąca
+        other: około %{count} miesięcy
+        many: około %{count} miesięcy
+      about_x_years:
+        few: około %{count} lata
+        one: około rok
+        other: około %{count} lat
+        many: około %{count} lat
+      almost_x_years:
+        few: prawie %{count} lata
+        one: prawie rok
+        other: prawie %{count} lat
+        many: prawie %{count} lat
+      half_a_minute: pół minuty
+      less_than_x_minutes:
+        few: mniej niż %{count} minuty
+        one: mniej niż minutę
+        other: mniej niż %{count} minut
+        many: mniej niż %{count} minut
+      less_than_x_seconds:
+        few: mniej niż %{count} sekundy
+        one: mniej niż sekundę
+        other: mniej niż %{count} sekund
+        many: mniej niż %{count} sekund
+      over_x_years:
+        few: ponad %{count} lata
+        one: ponad rok
+        other: ponad %{count} lat
+        many: ponad %{count} lat
+      x_days:
+        few: ! '%{count} dni'
+        one: 1 dzień
+        other: ! '%{count} dni'
+        many: ! '%{count} dni'
+      x_minutes:
+        few: ! '%{count} minuty'
+        one: 1 minuta
+        other: ! '%{count} minut'
+        many: ! '%{count} minut'
+      x_months:
+        few: ! '%{count} miesiące'
+        one: 1 miesiąc
+        other: ! '%{count} miesięcy'
+        many: ! '%{count} miesięcy'
+      x_seconds:
+        few: ! '%{count} sekundy'
+        one: 1 sekunda
+        other: ! '%{count} sekund'
+        many: ! '%{count} sekund'
+    prompts:
+      day: Dzień
+      hour: Godzina
+      minute: Minuta
+      month: Miesiąc
+      second: Sekundy
+      year: Rok
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: musi zostać zaakceptowane
+      blank: nie może być puste
+      confirmation: nie zgadza się z potwierdzeniem
+      empty: nie może być puste
+      equal_to: musi być równe %{count}
+      even: musi być parzyste
+      exclusion: jest zarezerwowane
+      greater_than: musi być większe od %{count}
+      greater_than_or_equal_to: musi być większe lub równe %{count}
+      inclusion: nie znajduje się na liście dopuszczalnych wartości
+      invalid: jest nieprawidłowe
+      less_than: musi być mniejsze od %{count}
+      less_than_or_equal_to: musi być mniejsze lub równe %{count}
+      not_a_number: nie jest liczbą
+      not_an_integer: musi być liczbą całkowitą
+      odd: musi być nieparzyste
+      record_invalid: ! 'Negatywne sprawdzenie poprawności: %{errors}'
+      taken: zostało już zajęte
+      too_long: jest za długie (maksymalnie %{count} znaków)
+      too_short: jest za krótkie (przynajmniej %{count} znaków)
+      wrong_length: ma nieprawidłową długość (powinna wynosić %{count} znaków)
+    template:
+      body: ! 'Błędy dotyczą następujących pól:'
+      header:
+        one: ! '%{model} nie został zachowany z powodu jednego błędu'
+        few: ! '%{model} nie został zachowany z powodu %{count} błędów'
+        other: ! '%{model} nie został zachowany z powodu %{count} błędów'
+        many: ! '%{model} nie został zachowany z powodu %{count} błędów'
+  helpers:
+    select:
+      prompt: Proszę wybrać
+  number:
+    currency:
+      format:
+        delimiter: ! ' '
+        format: ! '%u %n'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: true
+        unit: PLN
+    format:
+      delimiter: ! ' '
+      precision: 3
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: Miliard
+          million: Milion
+          quadrillion: Biliard
+          thousand: Tysiąc
+          trillion: Bilion
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: bajt
+            few: bajty
+            many: bajty
+            other: bajty
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ' oraz '
+      two_words_connector: ! ' i '
+      words_connector: ! ', '
+  time:
+    am: przed południem
+    formats:
+      default: ! '%a, %d %b %Y %H:%M:%S %z'
+      long: ! '%B %d, %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: po południu
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors
