@@ -27,19 +27,30 @@ pt:
     area:
       1: Ensino
       2: Imobiliário e Construção
-      3: Consultoria
+      3: 
       4: Finanças
       5: Investigação
       6: Gestão
       7: Tecnologias de informação
       8: Engenharia
-      9: Logística
+      9: Logística e Cadeia de Abastecimento
       10: Marketing e Comunicação
-      11: Medicina
-      12: Administração
+      11: Medicina e Serviços de Saúde
+      12: Organização
       13: Recursos humanos
       14: Produção
       15: Vendas
+      16: Administração
+      17: Serviços Bancários
+      18: Serviço ao Cliente
+      19: Legal
+      20: Turismo e Hospitalidade
+      21: Ciências
+      22: Administração Pública
+      23: Arte e Design
+      24: Outras
+      25: 
+      26: 
     contract_type:
       1: Com termo
       2: Contrato
