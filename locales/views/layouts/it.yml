@@ -18,17 +18,17 @@ it:
       s2: Pagina dell'azienda
       s3: Mostra pagina
       s4: Modifica pagina
-      s5: Panoramica
+      s5: Panoramica delle offerte di lavoro
       s6: Pubblica un'offerta di lavoro
       s7: Cerca CV 
       s8: Indice
       s9: Nuovo
       s10: Esci
-      s11: Lavori
+      s11: Offerte di lavoro
     bottomfooter:
       s1: Home
       s2: Eventi
-      s3: Lavori
+      s3: Offerte di lavoro
       s4: Ranking Studenti
       s5: Frequenty asked questions
       s6: Per i recruiter
@@ -37,7 +37,7 @@ it:
       s9: Team
       s10: Stampa
       s11: Imprint
-      s12: Privacy
+      s12: Informativa sulla Privacy
       s13: Termini del servizio
       s14: Prezzi
       s30: Links
