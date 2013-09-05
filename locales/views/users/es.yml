@@ -66,6 +66,8 @@ es:
       s29: "Sí, quiero recibir invitaciones a eventos tales como ferias y charlas."
       s30: "Blogs"
       s31: "Sí, quiero recibir blogs y artículos sobre empleo, redacción de CV, preparación de entrevistas, etc."
+      s32: "Mensajes"
+      s33: "Visibilidad"
     shared: 
       links: 
         s1: "Olvidó su contraseña"
