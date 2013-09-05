@@ -38,8 +38,8 @@ pt:
       s11: "Emails relacionados com o sorteio"
       s12: "Com que frequência pretende receber mensagens relacionadas com o sorteio?"
       s13: "Em cada novo evento"
-      s14: Mensalmente
-      s15: Nunca
+      s14: "Mensalmente"
+      s15: "Nunca"
       s16: "Visível para os amigos"
       s17: "Sim, quero o meu perfil com o meu nome e fotografia visível para os meus amigos e contatos. Eles poderão enviar-me recomendações e confirmar as minhas competências."
       s18: "Os meus amigos podem ver o meu resultado"
@@ -58,8 +58,10 @@ pt:
       s3: "Enviaremos e-mails com a atualização da sua posição no ranking, ofertas de emprego e convites para eventos relevantes."
       s30: "Blogs"
       s31: "Enviem-me artigos sobre pesquisa de emprego, dicas para entrevistas e CV, etc"
+      s32: "Mensagens"
+      s33: "Visibilidade"
       s4: "Atualizar a posição no ranking"
-      s5: "Receber um e-mail de 3 em 3 meses, com indicação da sua nova classificação?"
+      s5: "Sim, pretendo receber um e-mail sempre que a minha classificação se alterar"
       s6: "Ofertas de emprego e convites"
       s7: "Sim, quero receber ofertas de emprego e convites para eventos."
       s8: "Visível para empresas e recrutadores?"
