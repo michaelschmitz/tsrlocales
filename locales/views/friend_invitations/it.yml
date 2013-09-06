@@ -3,6 +3,8 @@ it:
     modal:
       html:
         s1: Aggiungi contatti
+        s2: I tuoi contatti sono al sicuro con noi
+        s3: Importiamo la tua rubrica in modo da facilitare la connessione con i tuoi contatti. Non memorizzeremo la tua password e non invieremo nessuna email senza il tuo consenso.
     form:
       s1: Deseleziona tutti
       s2: Importa da Gmail
