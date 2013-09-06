@@ -19,6 +19,7 @@ it:
     yes: "Si"
     no: "No"
     na: "Non disponibile"
+    search: Cerca
     details: "Dettagli"
     close: "Chiudi"
     save: "Salva"
