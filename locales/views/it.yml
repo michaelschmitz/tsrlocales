@@ -702,6 +702,7 @@ it:
       no: "No"
       na: "Non disponibile"
       details: "Dettagli"
+      send: "Invia"
       close: "Chiudi"
       save: "Salva"
       edit: "Modifica"
