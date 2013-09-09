@@ -3,7 +3,9 @@ es:
     modal:
       html:
         s1: Añadir contactos
-    form:
+        s2: "Importaremos tu libreta de direcciones para sugerirte posibles conexiones y ayudarte a contactar con ellas. No almacenamos ni contraseñas ni direcciones de correo sin tu permiso."
+        s3: "Tu lista de contactos estará siempre protegida" 
+    form: 
       s1: Deseleccionar todos 
       s2: Importar desde Gmail
       s3: Importar desde Yahoo
