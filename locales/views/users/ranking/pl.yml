@@ -637,6 +637,7 @@ pl:
       breakdown_chart:
         s1: Przykładowi użytkownicy z grup, urodzeni w
       charts:
+        s0: Wykresy porównawcze
         s1: Porównanie
         s2: Uczelnia
         s3: Globalnie
