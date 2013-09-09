@@ -18,13 +18,14 @@ pl:
       s2: Strona firmy
       s3: Pokaż stronę
       s4: Edytuj stronę
-      s5: Dodane oferty
+      s5: Moje oferty
       s6: Dodaj nową ofertę
       s7: Wyszukiwarka CV
-      s8: Zapisane wyniki
+      s8: Moje wyszukiwania
       s9: Nowe wyszukiwanie
       s10: Wyloguj się
       s11: Oferty pracy
+      s12: Wszystkie oferty
     bottomfooter:
       s1: Start
       s2: Wydarzenia
