@@ -3,7 +3,7 @@ it:
     attributes: &ATTRIBUTES
       name_of_degree: Tipo di diploma
       school_type: Istituto
-      average: Media 
+      average: Voto finale 
       start_date: Data d'inizio
       end_date: Data di fine 
       grade_scale: Sistema di valutazione
