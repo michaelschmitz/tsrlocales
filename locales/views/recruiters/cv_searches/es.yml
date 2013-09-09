@@ -4,7 +4,7 @@ es:
       comparisons:
         s1: Comparación global
       form:
-        s1: Texto
+        s1: Palabra clave
         s2: "Idioma 1"
         s2a: "Idioma"
         s3: "Idioma 2"
