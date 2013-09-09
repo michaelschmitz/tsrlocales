@@ -4,9 +4,9 @@ pl:
       comparisons:
         s1: Porównanie globalne
       edit:
-        s1: "Nazwa bazy kandydatów"
+        s1: "Nazwij wyszukiwanie"
       form:
-        s1: Text
+        s1: Słowo kluczowe
         s2: "Język 1"
         s2a: "Język"
         s3: "Język 2"
