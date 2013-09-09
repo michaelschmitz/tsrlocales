@@ -5,6 +5,8 @@ pl:
     modal:
       html:
         s1: Dodaj kontakty
+        s2: Twoje kontakty są bezpieczne 
+        s3: "Importujemy kontakty z Twoje skrzynki mailowej, aby pomoc Ci zarządzać swoimi kontaktami. Nie będziemy przechowywać Twojego hasła, ani kontaktów bez Twoje zgody."
     form:
       s1: Odznacz wszystko
       s2: Importuj kontakty z Gmail
