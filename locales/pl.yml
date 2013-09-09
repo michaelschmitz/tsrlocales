@@ -1,4 +1,12 @@
 pl:
+  simple_form:
+    "yes": 'Tak'
+    "no": 'Nie'
+    required:
+      text: 'wymagane'
+      mark: '*'
+    error_notification:
+      default_message: "Znaleziono błędy, sprawdź czy wypełniłes wszystkie pola poprawnie:"
   helpers:
     submit:
       create: "Utwórz"
@@ -872,3 +880,5 @@ pl:
     errors:
       <<: *errors
 Liban
+
+    KW: 
