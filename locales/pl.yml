@@ -16,6 +16,7 @@ pl:
     update: 'Aktualizuj'
     show: 'Pokaż'
     delete: 'Usuń'
+    search: "Szukaj"
     yes: "Tak"
     no: "Nie"
     na: "Nie dostępny"
