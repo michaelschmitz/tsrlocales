@@ -21,8 +21,8 @@ pl:
         s12: rezultatów
         s13: Min liczba punktów
         s14: Max odległość
-        s15: Doświadczenie zawodowe
-        s16: Doświadczenie - praktyki
+        s15: Doświadczenie zawodowe (w miesiącach)
+        s16: Doświadczenie - praktyki (w miesiącach)
       recruiter_profile_small:
         s1: Praktyki
         s2: Pozycja dla absolwenta
