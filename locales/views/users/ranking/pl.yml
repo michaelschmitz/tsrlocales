@@ -436,7 +436,7 @@ pl:
         s4b: "pytania i odpowiedzi."        
         s5: "Żaden z Twoich znajomych nie potwierdził jeszcze Twoich umiejętności.  Potwierdzone umiejętności poprawiają Twój wynik punktowy za rekomendację oraz ułatwiają rekruterom znalezienie Twojego profilu, podczas poszukiwań kandydatów na dostępne wakaty."        
         s6: "Znajomi z Facebook"
-        s7: "Kontakty na LinkedIn"
+        s7: "Kontakty"
         s8: "Zaproś znajomych"        
       analysis_skills:
         s1: "Umiejętności"
