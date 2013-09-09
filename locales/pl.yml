@@ -1,4 +1,12 @@
 pl:
+  simple_form:
+    "yes": 'Tak'
+    "no": 'Nie'
+    required:
+      text: 'wymagane'
+      mark: '*'
+    error_notification:
+      default_message: "Znaleziono błędy, sprawdź czy wypełniłes wszystkie pola poprawnie:"
   helpers:
     submit:
       create: "Utwórz"
@@ -9,11 +17,14 @@ pl:
       s1: "theStudentRanking.com oferuje największy na świecie globalny ranking studentów. Jeśli jesteś studentem i chciałbyś dowiedzieć się więcej o swojej wartości dla pracodawców, o swojej perspektywie rozwoju na rynku pracy lub jeśli chcesz zostać znalezionym i zatrudnionym przez wiodące firm na świecie, jesteśmy doskonałym miejscem właśnie dla Ciebie."
       s2: "Nasz oferta dla firm to nowe spojrzenie na proces rekrutacji oraz promocji wydarzeń i usług wśród społeczności studenckiej. Zapewniamy dostęp do bazy idealnych kandydatów chętnych do udziału w programach rozwoju talentów, programach dla abslowentów i innych które oferuje Twoja firma. Jeśli szukasz młodych profesjonalistów oraz ambitnych studentów, dostęp do nich zapewi Ci właśnie nasz system."
   dry:
+    reset: 'Zresetuj'
+    back: 'Wstecz'
     new: 'Nowy'
     edit: 'Edytuj'
     update: 'Aktualizuj'
     show: 'Pokaż'
     delete: 'Usuń'
+    search: "Szukaj"
     yes: "Tak"
     no: "Nie"
     na: "Nie dostępny"
@@ -868,3 +879,6 @@ pl:
   activerecord:
     errors:
       <<: *errors
+Liban
+
+    KW: 

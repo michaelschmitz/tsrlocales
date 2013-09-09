@@ -1,6 +1,9 @@
 pl:
   recruiters:
     companies:
+      flash:
+        create: Strona firmy została stworzona.
+        update: Strona firmy została zaaktualizowana.
       form:
         s1: Adres firmy
         s2: Fakturowanie

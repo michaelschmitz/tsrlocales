@@ -635,7 +635,8 @@ it:
         s3: Congratulazioni!        
       breakdown_chart: 
         s1: "Esempio di gruppo di partecipanti nati nel"
-      charts: 
+      charts:
+        s0: Grafici di confronto
         s1: Confronto
         s2: Università
         s3: Globale
