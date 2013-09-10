@@ -1,6 +1,7 @@
 en:
   degree:
     attributes: &ATTRIBUTES
+      exchange: Exchange
       name: Name of the degree
       country: Country
       university_id: University
