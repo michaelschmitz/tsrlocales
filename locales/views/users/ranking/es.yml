@@ -630,6 +630,7 @@ es:
       breakdown_chart: 
         s1: "Ejemplo de usuarios en grupos, nacidos en"
       charts: 
+        s0: Gráficos comparativos
         s1: Comparación
         s2: Universidad
         s3: Global
