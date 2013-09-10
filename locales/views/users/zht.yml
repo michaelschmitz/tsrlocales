@@ -27,25 +27,27 @@ zht:
       s2: "讓 theStudentRanking.com 帶你前往絕佳的活動邀請、工作機會和實習機會。"
       s3: "我們會不定時的寄送 e-mail 給你，提供有關你的職務、工作機會和活動邀請的最新消息。請讓我們知道你的通訊喜好。"
       s4: "排名更新"
-      s5: "是的，如果我的排名改變了，每三個月告知我一次。"
+      s5: "是的，如果我的排名改變了，請通知我。"
       s6: "工作機會與活動邀請"
       s7: "是的，我想收到工作機會和活動的邀請。"
       s8: "讓僱主能看到我"
       s8a: "公開我的排名"
       s8b: "是的，在全球排名頁公開我的檔案和照片。"
-      s9: "是的，僱主與獵人頭公司都可以看到我的檔案，並能就相關的工作機會或活動聯絡我。"
-      s20: "Improvement suggestions"
-      s21: "Yes, send me suggestions on how to improve my profile"
-      s22: "Recommendations and Confirmations"
-      s23: "Yes, send me an email when someone has recommended me or has confirmed a skill."
-      s24: "Connection request"
-      s25: "Yes, send me an email when someone has invited me to connect."
-      s26: "Job alerts"
-      s27: "The areas I am interested in are: (multiple choices)"
-      s28: "Events"
-      s29: "Send me invitations to events such as career fares and speech opportunities."
-      s30: "Blogs"
-      s31: "Send me blogs and articles about job searching, resume writing, interview tips, etc."
+      s9: "是的，僱主與獵人頭公司都可以看到我的檔案並聯絡我。"
+      s20: "改進的建議"
+      s21: "是的，建議我如何改進我的檔案。"
+      s22: "推薦與確認"
+      s23: "是的，當有人推薦我或確認我的技能時，請通知我。"
+      s24: "建立人脈關係的請求"
+      s25: "是的，當有人要與我建立關係時，請通知我。"
+      s26: "職缺情報"
+      s27: "我有興趣的產業是：(可複選)"
+      s28: "活動"
+      s29: "邀請我參加像企業徵才及演講等活動。"
+      s30: "部落格"
+      s31: "寄有關找工作、寫履歷表、面試技巧的部落格與文章給我。"
+      s32: 訊息
+      s33: 公開程度
     shared:
       links:
         s1: 忘記密碼？
@@ -65,7 +67,7 @@ zht:
         s3: 已經有帳號了？
         s4: 在此登入
     update_friends:
-      flash: 更新朋友開始
+      flash: 更新朋友中
     passwords:
       edit:
         s1: "更改密碼"
@@ -74,4 +76,4 @@ zht:
         s4: "更新密碼"
       new:
         s1: 忘記密碼？
-        s2: 寄 E-mail 給我讓我重設密碼
+        s2: 寄 e-mail 給我讓我重設密碼

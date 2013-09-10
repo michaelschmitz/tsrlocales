@@ -455,6 +455,24 @@ pt:
       analysis_social_connections:
         s1: "Pontuação Social"
         s2: "TheStudentRanking usa a tua pontuação social para ajudar os recrutadores encontrarem os melhores candidatos."
+<<<<<<< HEAD
+        s2a: "Conectando a tua conta via Facebook ou LinkedIn e convidando as pessoas a partir de tua rede para conectarem-se em TheStudentranking pode ajudá-lo a crescer consideravelmente na tua pontuação social."
+        s2b: "A tua pontuação social cresce 5% da pontuação que o usuário cada vez que alguém recomenda que você e sempre que alguém confirma a habilidade de vocês."
+        s2c: "Você também vai aumentar a sua pontuação se suas conexões de ganhar mais pontos de conquista."
+        s2d: "A ideia aqui é simples: pessoas semelhantes tendem a ficar juntos, e se um recrutador encontra um perfil interessante, podemos torná-lo fácil para eles para apresentar candidatos semelhantes. Engenheiros muitas vezes recomendam outros engenheiros, e isso ajuda a todas as partes envolvidas para encontrar o par perfeito."
+        s2e: "TheStudentRanking também quer apoiar todos os membros no desenvolvimento das tuas habilidades mais, e conexões em theStudentRanking nos permitem publicar desafios e actividades comuns, onde as pessoas podem fechar um pacto de estudo para melhorar o seu perfil de dinâmica de grupo são muito importantes para o seu sucesso -. se você passar tempo com as pessoas de sucesso, que são mais propensos a tornar-se mais bem sucedido se, como os grupos de nível de motivação e energia ajuda você a ser mais ativo na busca de seus objetivos "
+        s3: "Não tens conexões no theStudentRanking.com quando recrutadores encontram um candidato interessante, às vezesprocuram as conexões desse candidato."
+        s3a: "No teu caso, eles são incapazes de fazê-lo, o que limita a quantidade de recrutadores que visita o teu perfil. Também são incapazes de receber recomendações ou confirmações de habilidades de outras pessoas."
+        s3b: "Normalmente, as conexões são automaticamente estabelecido se entrares no Facebook, e se os teus amigos do Facebook estam usando o sistema também."
+        s3c: "Também podes procurar os teus amigos, usando o seu nome ou endereço de e-mail na página do Student Ranking público - se encontrares alguém que conheças, conecta-te com eles e começa a construir a tua pontuação social."
+        s4: "Ainda não tens recomendações. Uma vez que comeces a dar recomendações para outras pessoas, provavelmente irás também começar a receber recomendações por sua vez. As recomendações das tuas oito maiores conexões classificadas são mostradas no teu perfil e fornece o total de 5% da sua realização. Pontuação - recomendações adicionais acrescentar mais, mas limitado pontos sociais. "
+        s4a: "Podes encontrar mais detalhes sobre recomendações, habilidades confirmadas e a tua pontuação social."
+        s4b: "Perguntas Frequentes"
+        s5: "Nenhuma das tuas conexões confirmou uma das tuas habilidades ainda habilidades Confirmados fornecer pontuação social e também tornará mais fácil para os recrutadores para encontrar o seu perfil, quando procurar candidatos."
+        s6: "Amigos no Facebook"
+        s7: "Conexões do LinkedIn"
+        s8: "Convidar conexões"
+=======
         s2a: "Acedendo à tua conta através do Facebook ou Linkedin e convidando as pessoas a partir da tua rede para se ligarem no TheStudentranking, pode ajudar-te a fazeres crescer consideravelmente a tua pontuação social."
         s2b: "A tua pontuação social cresce 5% da pontuação do utilizador que te recomendar e sempre que alguém confirmar as tuas competências."
         s2c: "Também irás aumentar o teu resultado quando os teus contactos ganharem mais pontos."
@@ -471,6 +489,7 @@ pt:
         s6: "Amigos no Facebook"
         s7: "Contactos"
         s8: "Convidar pessoas"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
       analysis_work: 
         s1: "Experiência de trabalho"
         s2: "Sugestão: De momento ainda não indicaste qualquer experiência de trabalho, o que é bastante comum para os alunos de licenciatura"

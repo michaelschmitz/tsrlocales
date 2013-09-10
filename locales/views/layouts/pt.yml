@@ -18,13 +18,14 @@ pt:
       s2: Página de Empresa
       s3: Mostrar Página
       s4: Editar Página
-      s5: Visão Global
+      s5: As minhas ofertas
       s6: Inserir Oferta
       s7: Pesquisa de CV
-      s8: Índice
+      s8: As minhas pesquisas
       s9: Nova Pesquisa
       s10: Logout
       s11: Ofertas de emprego
+      s12: Todas as ofertas de emprego
     bottomfooter:
       s1: Home
       s2: Eventos

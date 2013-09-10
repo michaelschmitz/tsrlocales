@@ -9,7 +9,7 @@ it:
       start_date: Data d'inizio
       end_date: Data di fine
       grade_scale: Metro di valutazione
-      average: Media
+      average: Voto finale
       study_area: Area di studio
       faculty: Facoltà
       major: Specializzazione

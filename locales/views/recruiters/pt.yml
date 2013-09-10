@@ -1,5 +1,9 @@
 pt:
   recruiters:
+    companies:
+      flash:
+        create: Empresa criada com sucesso
+        update: Empresa atualizada com sucesso
     jobs:
       job_visitors_and_applicants:
         s1: Candidatos

@@ -1,4 +1,11 @@
 pt:
+<<<<<<< HEAD
+=======
+  helpers:
+    submit:
+      create: "Criar"
+      submit: "Guardar"
+      update: "Atualizar"
   simple_form:
     "sim": 'Sim'
     "não": 'Não'
@@ -7,6 +14,7 @@ pt:
       mark: '*'
     error_notification:
       default_message: "Encontrámos alguns erros, por favor verifique:"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
   shared:
     whatwedo: 
       s1: "A theStudentRanking.com oferece a maior plataforma de  Ranking de Estudantes a nível mundial. Se estás a estudar e queres saber mais sobre o teu valor no mercado de trabalho, as tuas perspetivas futuras e aumentar a probabilidade de seres encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, então estás é o sítio certo."

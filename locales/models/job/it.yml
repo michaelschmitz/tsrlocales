@@ -27,15 +27,14 @@ it:
     area:
       1: Istruzione
       2: Immobiliare e Edilizia
-      3: Consulenza
       4: Finanza
       5: Ricerca
       6: Management
       7: Information technology
       8: Ingegneria
-      9: Logistica
+      9: Logistica e Supply Chain
       10: Marketing e Comunicazione
-      11: Medicina
+      11: Medicina e salute
       12: Organizzazione
       13: Risorse Umane
       14: Produzione e settore manifatturiero 
@@ -49,8 +48,6 @@ it:
       22: Governo
       23: 'Arte & Design'
       24: Altro
-      25: Salute
-      26: Logistica e Supply Chain
       27: Giornalismo
     contract_type:
       1: Determinato

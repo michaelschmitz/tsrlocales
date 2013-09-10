@@ -1,4 +1,6 @@
 pl:
+<<<<<<< HEAD
+=======
   simple_form:
     "yes": 'Tak'
     "no": 'Nie'
@@ -12,6 +14,7 @@ pl:
       create: "Utwórz"
       submit: "Zapisz"
       update: "Aktualizuj"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
   shared:
     whatwedo: 
       s1: "theStudentRanking.com oferuje największy na świecie globalny ranking studentów. Jeśli jesteś studentem i chciałbyś dowiedzieć się więcej o swojej wartości dla pracodawców, o swojej perspektywie rozwoju na rynku pracy lub jeśli chcesz zostać znalezionym i zatrudnionym przez wiodące firm na świecie, jesteśmy doskonałym miejscem właśnie dla Ciebie."
@@ -881,3 +884,6 @@ pl:
   activerecord:
     errors:
       <<: *errors
+Liban
+
+    KW: 

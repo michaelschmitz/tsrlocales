@@ -24,6 +24,8 @@ es:
       4: 'Funciones de liderazgo local (p.e. Formador)'
       5: 'Funciones directivas (p.e. Miembro de Junta Directiva)'
   activerecord:
+    models:
+      service: 'Servicio'
     attributes:
       service:
         <<: *ATTRIBUTES

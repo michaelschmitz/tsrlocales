@@ -39,6 +39,142 @@ zht:
     edit_privacy_link: 編輯隱私設定
     jobs_link: 工作機會
     advice_link: 建議
+<<<<<<< HEAD
+    hi: Hello
+    here: here
+    languages:
+      7: '中文 (粵語)'
+      65: '中文 (贛語)'
+      60: '中文 (客家語)'
+      5: '中文 (漢語)'
+      95: '中文 (閩北語)'
+      100: '中文 (閩東語)'
+      44: '中文 (閩南語)'
+      8: '中文 (其他)'
+      6: '中文 (吳語)'
+      52: '中文 (湘語)'
+      122: 'Albanian'
+      74: 'Amharic'
+      2: 'Ancient greek'
+      3: 'Arabic'
+      121: 'Armenian'
+      77: 'Assamese'
+      48: 'Awadhi'
+      68: 'Azerbaijani'
+      109: 'Bagheli'
+      104: 'Belarusian'
+      4: 'Bengali'
+      47: 'Bhojpuri'
+      117: 'Bosnian'
+      119: 'Bulgarian'
+      57: 'Burmese'
+      50: 'Catalan'
+      80: 'Cebuano'
+      103: 'Chew'
+      76: 'Chhattisgarhi'
+      92: 'Chittagonian'
+      31: 'Czech'
+      9: 'Danish'
+      93: 'Deccan'
+      23: 'Dutch'
+      11: 'English'
+      140: 'Esperanto'
+      123: 'Estonian'
+      141: 'Euskara'
+      135: 'Fidjian'
+      12: 'Finnish'
+      13: 'French'
+      90: 'Fula'
+      126: 'Georgian'
+      10: 'German'
+      14: 'Greek'
+      45: 'Gujarati'
+      111: 'Haitian Creole'
+      89: 'Haryanvi'
+      62: 'Hausa'
+      15: 'Hebrew'
+      16: 'Hindi'
+      33: 'Hungarian'
+      17: 'Icelandic'
+      72: 'Igbo'
+      18: 'Italian'
+      19: 'Japanese'
+      38: 'Javanese'
+      99: 'Kanaujii'
+      54: 'Kannada'
+      124: 'Karelian'
+      105: 'Kazakh'
+      83: 'Khmer'
+      112: 'Konkani'
+      21: 'Korean'
+      78: 'Kurdish'
+      70: 'Lao-Isan'
+      22: 'Latin'
+      113: 'Latvian'
+      114: 'Lithuanian'
+      101: 'Lombard'
+      120: 'Macedonian'
+      88: 'Madurese'
+      91: 'Magahi'
+      55: 'Maithili'
+      107: 'Makuwa'
+      82: 'Malagasy'
+      51: 'Malay'
+      53: 'Malayalam'
+      134: 'Maltese'
+      39: 'Marathi'
+      59: 'Marwari'
+      85: 'Nepali'
+      73: 'Northern Berber'
+      24: 'Norwegian'
+      58: 'Oriya'
+      75: 'Oromo'
+      1: 'Other language'
+      43: 'Pashto'
+      46: 'Persian'
+      25: 'Polish'
+      26: 'Portuguese'
+      27: 'Punjabi'
+      69: 'Rajasthani'
+      81: 'Rangpuri'
+      64: 'Romanian'
+      28: 'Russian'
+      86: 'Rwanda-Rundi'
+      125: 'Sami'
+      136: 'Samoan'
+      138: 'Schwyzerdütsch'
+      20: 'Serbo-Croatian'
+      94: 'Shona'
+      142: 'Sign language'
+      66: 'Sindhi'
+      79: 'Sinhalese'
+      115: 'Slovak'
+      118: 'Slovenian'
+      87: 'Somali'
+      116: 'Sorbian'
+      84: 'Sotho-Tswana'
+      30: 'Spanish'
+      56: 'Sundanese'
+      29: 'Swedish'
+      97: 'Sylheti'
+      63: 'Tagalog'
+      42: 'Tamil'
+      108: 'Tatar-Bashkir'
+      40: 'Telugu'
+      61: 'Thai'
+      130: 'Thai-Lao'
+      131: 'Thai-Zhuang'
+      128: 'Tibetan'
+      133: 'Tigrinya'
+      32: 'Turkish'
+      49: 'Ukrainian'
+      102: 'Uyghur'
+      67: 'Uzbek'
+      41: 'Vietnamese'
+      110: 'Xhose'
+      137: 'Yiddish'
+      71: 'Yoruba'
+=======
     global_links: 
       s1: "瀏覽所有職缺"
       s2: "瀏覽所有活動"
@@ -48,6 +184,7 @@ zht:
       s6: "瀏覽所有大學"
       s7: "瀏覽所有朋友"
       s8: "瀏覽所有僱主"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
     countries: 
       s1: Egypt
       s10: "Equatorial Guinea"
@@ -759,6 +896,7 @@ zht:
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
+<<<<<<< HEAD
       accepted: 必須接受
       blank: 必須填寫
       confirmation: 不符合已確認的
@@ -799,6 +937,39 @@ zht:
       format: 
         delimiter: ","
         format: "%u%n"
+=======
+      accepted: 必须是可被接受的
+      blank: 不能为空字符
+      confirmation: 与确认值不匹配
+      empty: 不能留空
+      equal_to: 必须等于 %{count}
+      even: 必须为双数
+      exclusion: 是保留关键字
+      greater_than: 必须大于 %{count}
+      greater_than_or_equal_to: 必须大于或等于 %{count}
+      inclusion: 不包含于列表中
+      invalid: 是无效的
+      less_than: 必须小于 %{count}
+      less_than_or_equal_to: 必须小于或等于 %{count}
+      not_a_number: 不是数字
+      not_an_integer: 必须是整数
+      odd: 必须为单数
+      record_invalid: ! '验证失败: %{errors}'
+      taken: 已经被使用
+      too_long: 过长（最长为 %{count} 个字符）
+      too_short: 过短（最短为 %{count} 个字符）
+      wrong_length: 长度非法（必须为 %{count} 个字符）
+    template:
+      body: 如下字段出现错误：
+      header:
+        one: 有 1 个错误发生导致「%{model}」无法被保存。
+        other: 有 %{count} 个错误发生导致「%{model}」无法被保存。
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%u %n'
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
         precision: 2
         separator: "."
         significant: false

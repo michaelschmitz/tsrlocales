@@ -1,0 +1,15 @@
+pl:
+  friend_invitations:
+    flash:
+      create: "Wiadomość wysłana"
+    modal:
+      html:
+        s1: Dodaj kontakty
+        s2: Twoje kontakty są bezpieczne 
+        s3: "Importujemy kontakty z Twoje skrzynki mailowej, aby pomoc Ci zarządzać swoimi kontaktami. Nie będziemy przechowywać Twojego hasła, ani kontaktów bez Twoje zgody."
+    form:
+      s1: Odznacz wszystko
+      s2: Importuj kontakty z Gmail
+      s3: Importuj kontakty z Yahoo
+      s4: Importuj kontakty z Hotmail
+      s5: "Cześć,\\n\\nI chcę zaprosić Cię do swoich znajomych na theStudentRanking.com.\\nJeśli przyjmiesz to zaproszenie dowiesz się, jak radzisz sobie na tle innych studentów oraz zwiększysz swoje szanse na rozwój kariery.\\n\\nPozdrawiam,\\n"

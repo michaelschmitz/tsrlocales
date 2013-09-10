@@ -1,6 +1,9 @@
 it:
   recruiters:
     companies:
+      flash:
+        create: L'azienda è stata creata con successo.
+        update: L'azienda è stata aggiornata con successo.    
       form:
         s1: Indirizzo dell'azienda o organizzazione
         s2: Fatturazione

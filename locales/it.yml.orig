@@ -1,4 +1,6 @@
 it:
+<<<<<<< HEAD
+=======
   simple_form:
     "yes": 'Si'
     "no": 'No'
@@ -12,6 +14,7 @@ it:
       create: "Crea"
       submit: "Salva"
       update: "Aggiorna"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
   shared:
     whatwedo: 
       s1: "theStudentRanking.com offre il più grande ranking globale per gli studenti. Se sei interessato a saperne qualcosa di più sul tuo valore di mercato, sulle tue prospettive nel mercato del lavoro e se vuoi essere trovato e assunto dalle più importanti aziende internazionali, allora facciamo al caso tuo!."

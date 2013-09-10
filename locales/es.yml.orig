@@ -1,4 +1,6 @@
 es:
+<<<<<<< HEAD
+=======
   simple_form:
     "yes": 'Sí'
     "no": 'No'
@@ -12,6 +14,7 @@ es:
       create: "Crear"
       submit: "Guardar"
       update: "Actualizar"
+>>>>>>> 743ac858c6577b65b10a7f6e36702dda735a0cff
   shared:
     whatwedo: 
         s1: "theStudentRanking.com es el mayor ránking de estudiantes del mundo. Si estás estudiando y quieres saber más sobre tu valor en el mercado laboral, sobre tus perspectivas de futuro y sobre cómo conseguir un puesto de trabajo en las grandes empresas de todo el mundo, aquí es donde deberías estar."

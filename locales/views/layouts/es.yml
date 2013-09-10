@@ -18,13 +18,14 @@ es:
       s2: Página empresa
       s3: Mostrar página
       s4: Editar página
-      s5: Resumen
+      s5: Mis ofertas
       s6: Publicar oferta
       s7: Búsqueda CV
-      s8: Índice
-      s9: Nuevo
+      s8: Mis búsquedas
+      s9: Nueva búsqueda
       s10: Cerrar sesión
       s11: Ofertas
+      s12: Todas las ofertas
     bottomfooter:
       s1: Inicio
       s2: Eventos

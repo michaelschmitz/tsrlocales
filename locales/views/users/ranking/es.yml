@@ -473,7 +473,7 @@ es:
         s4b: "en Preguntas Frecuentes."
         s5: "Tus contactos no han confirmado ninguna de tus habilidades. Cuando las habilidades son confirmadas por otros, obtienes más puntos sociales y facilita el que las empresas te encuentren cuando hacen búsquedas de candidatos."
         s6: "Amigos en Facebook"
-        s7: "Contactos en LinkedIn"
+        s7: "Contactos"
         s8: "Invitar contactos"
       analysis_work: 
         s1: "Experiencia laboral"
@@ -630,6 +630,7 @@ es:
       breakdown_chart: 
         s1: "Ejemplo de usuarios en grupos, nacidos en"
       charts: 
+        s0: Gráficos comparativos
         s1: Comparación
         s2: Universidad
         s3: Global
