@@ -1,4 +1,12 @@
 es:
+  simple_form:
+    "yes": 'Sí'
+    "no": 'No'
+    required:
+      text: 'obligatorio'
+      mark: '*'
+    error_notification:
+      default_message: "Hemos encontrado algunos errores, por favor revisa tus datos:"
   helpers:
     submit:
       create: "Crear"

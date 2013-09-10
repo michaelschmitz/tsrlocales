@@ -4,11 +4,20 @@ pt:
       create: "Criar"
       submit: "Guardar"
       update: "Atualizar"
+  simple_form:
+    "sim": 'Sim'
+    "não": 'Não'
+    required:
+      text: 'requerido'
+      mark: '*'
+    error_notification:
+      default_message: "Encontrámos alguns erros, por favor verifique:"
   shared:
     whatwedo: 
-      s1: "O theStudentRanking.com oferece o maior Ranking de Estudantes a nível mundial. Se está a estudar e quer saber mais sobre o seu valor no mercado de trabalho, as suas perspetivas futuras e quiser ser encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, este é o sítio certo."
-      s2: "Para as Empresas, oferecemos soluções de recrutamento e serviços focados em Estudantes e Recém-Graduados. Damos-lhe acesso aos melhores Candidatos para programas de captação de talentos, programas dirigidos a Recém-Graduados e programas de Estágios. Aqui poderá encontrar os melhores jovens de elevado potencial."
+      s1: "A theStudentRanking.com oferece a maior plataforma de  Ranking de Estudantes a nível mundial. Se estás a estudar e queres saber mais sobre o teu valor no mercado de trabalho, as tuas perspetivas futuras e aumentar a probabilidade de seres encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, então estás é o sítio certo."
+      s2: "Para as Empresas, oferecemos soluções de recrutamento e serviços focados nos Estudantes e Recém-Graduados. Na Thestudentranking.com damos-lhe acesso aos melhores Candidatos para programas de captação de talentos, programas dirigidos a Recém-Graduados e programas de Estágios. Aqui poderá encontrar os melhores jovens e candidatos de elevado potencial."
   dry:
+    search: "Pesquisar"
     new: "Adicionar"
     edit: "Editar"
     update: "Atualizar"
@@ -22,7 +31,7 @@ pt:
     save: "Gravar"
     edit: "Editar"
     cancel: "Cancelar"
-    customize_settings_link: Personalize as mensagens a receber
+    customize_settings_link: Personalizar
     edit_privacy_link: Editar definições de privacidade
     jobs_link: Empregos
     advice_link: Sugestões
@@ -30,7 +39,7 @@ pt:
     here: aqui
     languages:
       106: "Akan"
-      122: "Albanian"
+      122: "Albanês"
       23: "Alemão"
       74: "Amharic"
       121: "Armenian"
@@ -162,19 +171,19 @@ pt:
       96: "Zulu"
       3: "Árabe"
     countries: 
-      s1: Egypt
-      s10: "Equatorial Guinea"
-      s100: Columbia
-      s101: Comoros
+      s1: Egipto
+      s10: "Guiné Equatorial"
+      s100: Colombia
+      s101: Comores
       s102: Congo
-      s103: "Congo, Democratic Republic"
-      s104: "Korea, Republic"
-      s105: Kroatia
+      s103: "Congo, Républica Democratica"
+      s104: "Coreia, Republica"
+      s105: Croácia
       s106: Kuwait
-      s107: "Lao, Democratic Republic"
-      s108: Lesotho
-      s109: Latvia
-      s11: Armenia
+      s107: "Lao, Républica Democrática"
+      s108: Lesoto
+      s109: Letónia
+      s11: Arménia
       s110: Lebanon
       s111: Liberia
       s112: Libya
@@ -744,9 +753,9 @@ pt:
   errors: &errors
     format: ! '%{attribute} %{message}'
     messages:
-      accepted: tem de ser aceite
-      blank: não pode estar em branco
-      confirmation: não coincide com a confirmação
+      accepted: Tem de ser aceite
+      blank: Não pode dexiar em branco
+      confirmation: Não coincide com a confirmação
       empty: não pode estar vazio
       equal_to: tem de ser igual a %{count}
       even: tem de ser par

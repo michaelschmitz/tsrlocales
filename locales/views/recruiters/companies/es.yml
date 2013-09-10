@@ -1,6 +1,9 @@
 es:
   recruiters:
     companies:
+      flash:
+        create: Cuenta de empresa creada con éxito.
+        update: Cuenta de empresa creada con éxito.
       form:
         s1: Dirección empresa
         s2: Factura

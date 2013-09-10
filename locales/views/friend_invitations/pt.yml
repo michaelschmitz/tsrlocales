@@ -3,8 +3,11 @@ en:
     modal:
       html:
         s1: Adicionar contatos
+        s2: Os teus contactos estão seguros connosco
+        s3: Importamos os teus contactos para te sugerir novas ligações e ajudar-te a gerir a tua agenda. Não guardamos a tua password nem escrevemos a ninguém, sem a tua autorização expressa. 
     form:
       s1: Desmarcar tudo
       s2: Importar do Gmail
       s3: Importar do Yahoo
       s4: Importar do Hotmail
+      s5: Olá\\n\nGostaria de te convidar a ligares-te a mim através do theStudentRanking.com.\\nPodes saber mais sobre o teu desempenho e dar um novo impulso à tua carreira.\\n\\nAtentamente,\\n

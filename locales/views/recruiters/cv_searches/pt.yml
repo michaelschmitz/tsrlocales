@@ -6,7 +6,7 @@ pt:
       edit:
         s1: "Dê um nome à sua pesquisa"
       form:
-        s1: Texto
+        s1: "Pesquisa por palavras-chave"
         s2: "Idioma 1"
         s3: "Idioma 2"
         s4: "Idioma 3"
