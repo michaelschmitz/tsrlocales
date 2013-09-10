@@ -1,9 +1,24 @@
 zht:
+  simple_form:
+    "yes": '是'
+    "no": '否'
+    required:
+      text: '必須填寫'
+      mark: '*'
+    error_notification:
+      default_message: "輸入時有錯誤，請檢查以下欄位："
+  helpers:
+    submit:
+      create: "建立"
+      submit: "儲存"
+      update: "更新"
   shared:
     whatwedo: 
       s1: "TheStudentRanking.com 提供全球最大的學生排名。如果你還是在學生或畢業不久，想要知道你的市場價值、你對就業市場的認知、或者想要被全球領先的企業發掘並僱用，那我們是你的不二選擇。"
       s2: 對企業而言，我們提供的是鎖定學生與畢業生族群的徵才解決方案與服務。我們為企業提供未來菁英培訓、研究計畫與實習訓練的理想人選。在我們的網站，企業與僱主可以找到年輕的專業人士和潛力無窮的人才。
   dry:
+    reset: '重設'
+    back: '回到上一步'
     new: '新增'
     edit: '編輯'
     update: '更新'
@@ -12,153 +27,27 @@ zht:
     yes: "是"
     no: "不是"
     na: "Not available"
+    search: "搜尋"
+    save: "儲存"
+    send: "送出"
+    cancel: "取消"
     details: "詳細內容"
     close: "關閉"
-    save: "儲存"
-    edit: "編輯"
-    cancel: "取消"
+    hi: Hello
+    here: 請按此
     customize_settings_link: 選擇欲收到的訊息類型
     edit_privacy_link: 編輯隱私設定
     jobs_link: 工作機會
     advice_link: 建議
-    hi: Hello
-    here: here
-    languages:
-      7: '中文 (粵語)'
-      65: '中文 (贛語)'
-      60: '中文 (客家語)'
-      5: '中文 (漢語)'
-      95: '中文 (閩北語)'
-      100: '中文 (閩東語)'
-      44: '中文 (閩南語)'
-      8: '中文 (其他)'
-      6: '中文 (吳語)'
-      52: '中文 (湘語)'
-      122: 'Albanian'
-      74: 'Amharic'
-      132: 'Amharique'
-      2: 'Ancient greek'
-      3: 'Arabic'
-      121: 'Armenian'
-      77: 'Assamese'
-      48: 'Awadhi'
-      68: 'Azerbaijani'
-      127: 'Azeri'
-      109: 'Bagheli'
-      98: 'Basque'
-      104: 'Belarusian'
-      4: 'Bengali'
-      47: 'Bhojpuri'
-      117: 'Bosnian'
-      119: 'Bulgarian'
-      57: 'Burmese'
-      50: 'Catalan'
-      80: 'Cebuano'
-      103: 'Chew'
-      76: 'Chhattisgarhi'
-      92: 'Chittagonian'
-      31: 'Czech'
-      9: 'Danish'
-      93: 'Deccan'
-      23: 'Dutch'
-      11: 'English'
-      140: 'Esperanto'
-      123: 'Estonian'
-      141: 'Euskara'
-      139: 'Farsi'
-      135: 'Fidjian'
-      12: 'Finnish'
-      13: 'French'
-      90: 'Fula'
-      126: 'Georgian'
-      10: 'German'
-      14: 'Greek'
-      45: 'Gujarati'
-      111: 'Haitian Creole'
-      89: 'Haryanvi'
-      62: 'Hausa'
-      15: 'Hebrew'
-      16: 'Hindi'
-      33: 'Hungarian'
-      17: 'Icelandic'
-      72: 'Igbo'
-      18: 'Italian'
-      19: 'Japanese'
-      38: 'Javanese'
-      99: 'Kanaujii'
-      54: 'Kannada'
-      124: 'Karelian'
-      105: 'Kazakh'
-      83: 'Khmer'
-      112: 'Konkani'
-      21: 'Korean'
-      78: 'Kurdish'
-      70: 'Lao-Isan'
-      22: 'Latin'
-      113: 'Latvian'
-      114: 'Lithuanian'
-      101: 'Lombard'
-      120: 'Macedonian'
-      88: 'Madurese'
-      91: 'Magahi'
-      55: 'Maithili'
-      107: 'Makuwa'
-      82: 'Malagasy'
-      51: 'Malay'
-      53: 'Malayalam'
-      134: 'Maltese'
-      39: 'Marathi'
-      59: 'Marwari'
-      85: 'Nepali'
-      73: 'Northern Berber'
-      24: 'Norwegian'
-      58: 'Oriya'
-      75: 'Oromo'
-      1: 'Other language'
-      43: 'Pashto'
-      46: 'Persian'
-      25: 'Polish'
-      26: 'Portuguese'
-      27: 'Punjabi'
-      69: 'Rajasthani'
-      81: 'Rangpuri'
-      64: 'Romanian'
-      28: 'Russian'
-      86: 'Rwanda-Rundi'
-      125: 'Sami'
-      136: 'Samoan'
-      138: 'Schwyzerdütsch'
-      20: 'Serbo-Croatian'
-      94: 'Shona'
-      142: 'Sign language'
-      66: 'Sindhi'
-      79: 'Sinhalese'
-      115: 'Slovak'
-      118: 'Slovenian'
-      87: 'Somali'
-      116: 'Sorbian'
-      84: 'Sotho-Tswana'
-      30: 'Spanish'
-      56: 'Sundanese'
-      29: 'Swedish'
-      97: 'Sylheti'
-      63: 'Tagalog'
-      42: 'Tamil'
-      108: 'Tatar-Bashkir'
-      40: 'Telugu'
-      61: 'Thai'
-      130: 'Thai-Lao'
-      131: 'Thai-Zhuang'
-      128: 'Tibetan'
-      133: 'Tigrinya'
-      32: 'Turkish'
-      49: 'Ukrainian'
-      102: 'Uyghur'
-      67: 'Uzbek'
-      41: 'Vietnamese'
-      110: 'Xhose'
-      137: 'Yiddish'
-      71: 'Yoruba'
+    global_links: 
+      s1: "瀏覽所有職缺"
+      s2: "瀏覽所有活動"
+      s3: "瀏覽所有動態"
+      s4: "瀏覽所有學生"
+      s5: "瀏覽所有問題"
+      s6: "瀏覽所有大學"
+      s7: "瀏覽所有朋友"
+      s8: "瀏覽所有僱主"
     countries: 
       s1: Egypt
       s10: "Equatorial Guinea"
@@ -394,15 +283,142 @@ zht:
       s97: Kiribati
       s98: "United States Minor Outyling Islands"
       s99: "Cocos Islands (Keeling-Islands)"
-    global_links: 
-      s1: 瀏覽所有工作機會
-      s2: 瀏覽所有活動
-      s3: 瀏覽所有動態
-      s4: 瀏覽所有學生
-      s5: 瀏覽所有問題
-      s6: 瀏覽所有大學
-      s7: 瀏覽所有朋友
-      s8: 瀏覽所有僱主
+    languages:
+      7: '中文 (粵語)'
+      65: '中文 (贛語)'
+      60: '中文 (客家語)'
+      5: '中文 (漢語)'
+      95: '中文 (閩北語)'
+      100: '中文 (閩東語)'
+      44: '中文 (閩南語)'
+      8: '中文 (其他)'
+      6: '中文 (吳語)'
+      52: '中文 (湘語)'
+      122: 'Albanian'
+      74: 'Amharic'
+      132: 'Amharique'
+      2: 'Ancient greek'
+      3: 'Arabic'
+      121: 'Armenian'
+      77: 'Assamese'
+      48: 'Awadhi'
+      68: 'Azerbaijani'
+      127: 'Azeri'
+      109: 'Bagheli'
+      98: 'Basque'
+      104: 'Belarusian'
+      4: 'Bengali'
+      47: 'Bhojpuri'
+      117: 'Bosnian'
+      119: 'Bulgarian'
+      57: 'Burmese'
+      50: 'Catalan'
+      80: 'Cebuano'
+      103: 'Chew'
+      76: 'Chhattisgarhi'
+      92: 'Chittagonian'
+      31: 'Czech'
+      9: 'Danish'
+      93: 'Deccan'
+      23: 'Dutch'
+      11: 'English'
+      140: 'Esperanto'
+      123: 'Estonian'
+      141: 'Euskara'
+      139: 'Farsi'
+      135: 'Fidjian'
+      12: 'Finnish'
+      13: 'French'
+      90: 'Fula'
+      126: 'Georgian'
+      10: 'German'
+      14: 'Greek'
+      45: 'Gujarati'
+      111: 'Haitian Creole'
+      89: 'Haryanvi'
+      62: 'Hausa'
+      15: 'Hebrew'
+      16: 'Hindi'
+      33: 'Hungarian'
+      17: 'Icelandic'
+      72: 'Igbo'
+      18: 'Italian'
+      19: 'Japanese'
+      38: 'Javanese'
+      99: 'Kanaujii'
+      54: 'Kannada'
+      124: 'Karelian'
+      105: 'Kazakh'
+      83: 'Khmer'
+      112: 'Konkani'
+      21: 'Korean'
+      78: 'Kurdish'
+      70: 'Lao-Isan'
+      22: 'Latin'
+      113: 'Latvian'
+      114: 'Lithuanian'
+      101: 'Lombard'
+      120: 'Macedonian'
+      88: 'Madurese'
+      91: 'Magahi'
+      55: 'Maithili'
+      107: 'Makuwa'
+      82: 'Malagasy'
+      51: 'Malay'
+      53: 'Malayalam'
+      134: 'Maltese'
+      39: 'Marathi'
+      59: 'Marwari'
+      85: 'Nepali'
+      73: 'Northern Berber'
+      24: 'Norwegian'
+      58: 'Oriya'
+      75: 'Oromo'
+      1: 'Other language'
+      43: 'Pashto'
+      46: 'Persian'
+      25: 'Polish'
+      26: 'Portuguese'
+      27: 'Punjabi'
+      69: 'Rajasthani'
+      81: 'Rangpuri'
+      64: 'Romanian'
+      28: 'Russian'
+      86: 'Rwanda-Rundi'
+      125: 'Sami'
+      136: 'Samoan'
+      138: 'Schwyzerdütsch'
+      20: 'Serbo-Croatian'
+      94: 'Shona'
+      142: 'Sign language'
+      66: 'Sindhi'
+      79: 'Sinhalese'
+      115: 'Slovak'
+      118: 'Slovenian'
+      87: 'Somali'
+      116: 'Sorbian'
+      84: 'Sotho-Tswana'
+      30: 'Spanish'
+      56: 'Sundanese'
+      29: 'Swedish'
+      97: 'Sylheti'
+      63: 'Tagalog'
+      42: 'Tamil'
+      108: 'Tatar-Bashkir'
+      40: 'Telugu'
+      61: 'Thai'
+      130: 'Thai-Lao'
+      131: 'Thai-Zhuang'
+      128: 'Tibetan'
+      133: 'Tigrinya'
+      32: 'Turkish'
+      49: 'Ukrainian'
+      102: 'Uyghur'
+      67: 'Uzbek'
+      41: 'Vietnamese'
+      110: 'Xhose'
+      137: 'Yiddish'
+      71: 'Yoruba'
   activerecord:
     errors:
       messages:
@@ -768,9 +784,6 @@ zht:
       header:
         one: 有 1 个错误发生导致「%{model}」无法被保存。
         other: 有 %{count} 个错误发生导致「%{model}」无法被保存。
-  helpers:
-    select:
-      prompt: 请选择
   number:
     currency:
       format:
