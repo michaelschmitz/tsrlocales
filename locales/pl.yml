@@ -1,9 +1,4 @@
 pl:
-  helpers:
-    submit:
-      create: "Utwórz"
-      submit: "Zapisz"
-      update: "Aktualizuj"
   shared:
     whatwedo: 
       s1: "theStudentRanking.com oferuje największy na świecie globalny ranking studentów. Jeśli jesteś studentem i chciałbyś dowiedzieć się więcej o swojej wartości dla pracodawców, o swojej perspektywie rozwoju na rynku pracy lub jeśli chcesz zostać znalezionym i zatrudnionym przez wiodące firm na świecie, jesteśmy doskonałym miejscem właśnie dla Ciebie."
@@ -34,14 +29,12 @@ pl:
       110: "Xhose"
       106: "akan"
       122: "albański"
-      132: "amharski"
       11: "angielski"
       3: "arabski"
       121: "armeński"
       77: "asamski"
       48: "awadhi"
       68: "azerbejdżański"
-      127: "azerski"
       109: "bagheli"
       141: "baskijski"
       108: "baszkirski"
@@ -117,7 +110,6 @@ pl:
       85: "nepalski"
       10: "niemiecki"
       24: "norweski"
-      139: "nowoperski"
       58: "orija"
       75: "oromo"
       43: "paszto"
@@ -798,6 +790,10 @@ pl:
         other: ! '%{model} nie został zachowany z powodu %{count} błędów'
         many: ! '%{model} nie został zachowany z powodu %{count} błędów'
   helpers:
+    submit:
+      create: "Utwórz"
+      submit: "Zapisz"
+      update: "Aktualizuj"
     select:
       prompt: Proszę wybrać
   number:

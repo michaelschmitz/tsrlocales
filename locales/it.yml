@@ -1,9 +1,4 @@
 it:
-  helpers:
-    submit:
-      create: "Crea"
-      submit: "Salva"
-      update: "Aggiorna"
   shared:
     whatwedo: 
       s1: "theStudentRanking.com offre il più grande ranking globale per gli studenti. Se sei interessato a saperne qualcosa di più sul tuo valore di mercato, sulle tue prospettive nel mercato del lavoro e se vuoi essere trovato e assunto dalle più importanti aziende internazionali, allora facciamo al caso tuo!."
@@ -33,15 +28,12 @@ it:
       122: "Albanian"
       1: "Altra lingua"
       74: "Amharic"
-      132: "Amharique"
       3: "Arabo"
       121: "Armenian"
       77: "Assamese"
       48: "Awadhi"
       68: "Azerbaijani"
-      127: "Azeri"
       109: "Bagheli"
-      98: "Basque"
       104: "Belarusian"
       4: "Bengalese"
       47: "Bhojpuri"
@@ -71,7 +63,6 @@ it:
       140: "Esperanto"
       123: "Estonian"
       141: "Euskara"
-      139: "Farsi"
       135: "Fidjian"
       12: "Finlandese"
       13: "Francese"
@@ -782,6 +773,10 @@ it:
         one: ! 'Non posso salvare questo %{model}: 1 errore'
         other: ! 'Non posso salvare questo %{model}: %{count} errori.'
   helpers:
+    submit:
+      create: "Crea"
+      submit: "Salva"
+      update: "Aggiorna"
     select:
       prompt: Per favore, seleziona
   number:

@@ -16,7 +16,7 @@ en:
       s2: Add a language
     preferred_employers:
       s1: Preferred Employers
-      s2: Add a company
+      s2: Add employers
     profile:
       s1: Current
       s2: Previous
@@ -34,13 +34,13 @@ en:
       s2: Add publications
     scholarships:
       s1: Scholarships
-      s2: Add scholarships
+      s2: Add a scholarship
     schools:
       s1: Secondary Education
       s2: Add education
     services:
       s1: "Interests, memberships, social activities"
-      s2: Add more
+      s2: Add social services
     skills:
       s1: Skills
       s2: Add a skill

@@ -637,6 +637,7 @@ en:
       breakdown_chart:
         s1: Example participants from groups, born in
       charts:
+        s0: Comparison charts
         s1: Comparison
         s2: University
         s3: Global

@@ -8,16 +8,13 @@ nl:
       106: "Akan"
       122: "Albanian"
       74: "Amharic"
-      132: "Amharique"
       1: "Andere taal"
       3: "Arabisch"
       121: "Armenian"
       77: "Assamese"
       48: "Awadhi"
       68: "Azerbaijani"
-      127: "Azeri"
       109: "Bagheli"
-      98: "Basque"
       104: "Belarusian"
       4: "Bengali"
       47: "Bhojpuri"
@@ -46,7 +43,6 @@ nl:
       140: "Esperanto"
       123: "Estonian"
       141: "Euskara"
-      139: "Farsi"
       135: "Fidjian"
       12: "Fins"
       13: "Frans"
@@ -752,6 +748,10 @@ nl:
         one: ! '%{model} niet opgeslagen: 1 fout gevonden'
         other: ! '%{model} niet opgeslagen: %{count} fouten gevonden'
   helpers:
+    submit:
+      create: Создать
+      submit: Сохранить
+      update: Сохранить
     select:
       prompt: Selecteer
   number:

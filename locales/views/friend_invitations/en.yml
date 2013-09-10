@@ -5,8 +5,11 @@ en:
     modal:
       html:
         s1: Add connections
+        s2: Your contacts are safe with us
+        s3: We import your address book to suggest connections and help you manage your contacts. And we won't store your password or email anyone without your permission.
     form:
       s1: Uncheck all
       s2: Import from Gmail
       s3: Import from Yahoo
       s4: Import from Hotmail
+      s5: "Hi,\\n\\nI would like to invite you to connect on theStudentRanking.com.\\nYou can learn how well you are doing and can give your career a boost as well.\\n\\nKind regards,\\n"

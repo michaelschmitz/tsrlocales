@@ -21,13 +21,14 @@ en:
       s2: Company Page
       s3: Show Page
       s4: Edit Page
-      s5: Overview
+      s5: My jobs
       s6: Post a job
       s7: CV Search
-      s8: Index
-      s9: New
+      s8: My searches
+      s9: New search
       s10: Logout
       s11: Jobs
+      s12: All jobs
     bottomfooter:
       s1: Home
       s2: Events

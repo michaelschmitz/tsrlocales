@@ -1,9 +1,4 @@
 pt:
-  helpers:
-    submit:
-      create: "Criar"
-      submit: "Guardar"
-      update: "Atualizar"
   shared:
     whatwedo: 
       s1: "O theStudentRanking.com oferece o maior Ranking de Estudantes a nível mundial. Se está a estudar e quer saber mais sobre o seu valor no mercado de trabalho, as suas perspetivas futuras e quiser ser encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, este é o sítio certo."
@@ -33,14 +28,11 @@ pt:
       122: "Albanian"
       23: "Alemão"
       74: "Amharic"
-      132: "Amharique"
       121: "Armenian"
       77: "Assamese"
       48: "Awadhi"
       68: "Azerbaijani"
-      127: "Azeri"
       109: "Bagheli"
-      98: "Basque"
       104: "Belarusian"
       4: "Bengali"
       47: "Bhojpuri"
@@ -69,7 +61,6 @@ pt:
       140: "Esperanto"
       123: "Estonian"
       141: "Euskara"
-      139: "Farsi"
       135: "Fidjian"
       12: "Finlandês"
       13: "Francês"
@@ -775,6 +766,10 @@ pt:
         one: ! 'Não foi possível guardar %{model}: 1 erro'
         other: ! 'Não foi possível guardar %{model}: %{count} erros'
   helpers:
+    submit:
+      create: "Criar"
+      submit: "Guardar"
+      update: "Atualizar"
     select:
       prompt: Por favor seleccione
     submit:
