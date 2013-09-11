@@ -17,6 +17,7 @@ pt:
       document: Comprovativo
       university:
         name: Instituição de Ensino
+      exchange: Intercâmbio
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"
