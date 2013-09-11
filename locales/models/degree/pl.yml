@@ -1,7 +1,7 @@
 pl:
   degree:
     attributes: &ATTRIBUTES
-      name: Nazwa
+      name: Kierunek
       country: Państwo
       university_id: Uczelnia
       title: Tytuł naukowy
