@@ -1,7 +1,7 @@
 pt:
   degree:
     attributes: &ATTRIBUTES
-      name: Nome
+      name: Grau académico
       country: País
       university_id: Universidade
       title: Título
