@@ -1,6 +1,7 @@
 it:
   degree:
     attributes: &ATTRIBUTES
+      exchange: Progetto di scambio
       name: Nome della laurea
       country: Paese
       university_id: Università
