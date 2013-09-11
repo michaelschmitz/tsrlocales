@@ -10,6 +10,7 @@ pl:
       end_date: Data zakończenia
       grade_scale: Skala oceniania
       average: Średnia
+      exchange: Uczelnia z wymiany
       study_area: Obszar studiów
       faculty: Wydział
       major: Specjalność
