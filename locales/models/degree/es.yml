@@ -1,7 +1,8 @@
 es:
   degree:
     attributes: &ATTRIBUTES
-      name: Nombre
+      exchange: Intercambio
+      name: Estudios
       country: País
       university_id: Universidad
       title: Título
