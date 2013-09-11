@@ -1,7 +1,7 @@
 it:
   degree:
     attributes: &ATTRIBUTES
-      name: Nome 
+      name: Nome della laurea
       country: Paese
       university_id: Università
       title: Titolo
