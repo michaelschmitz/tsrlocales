@@ -1,6 +1,7 @@
 pt:
   degree:
     attributes: &ATTRIBUTES
+      exchange: Intercâmbio
       name: Grau académico
       country: País
       university_id: Universidade
@@ -17,7 +18,6 @@ pt:
       document: Comprovativo
       university:
         name: Instituição de Ensino
-      exchange: Intercâmbio
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"
