@@ -1,6 +1,7 @@
 zht:
   degree:
     attributes: &ATTRIBUTES
+      exchange: 交換大學
       name: 文憑上學位全名 (例如：國際管理學士)
       country: 國家
       university_id: 大學
