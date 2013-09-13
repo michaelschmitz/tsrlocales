@@ -1,19 +1,22 @@
 zht:
   recruiters:
     companies:
+      flash:
+        create: 公司已成功建立。
+        update: 公司已更新成功。
       form:
-        s1: Company address
-        s2: Invoicing
-        s3: Links
+        s1: 公司地址
+        s2: 發票
+        s3: 連結
       edit:
-        s1: Edit your company
+        s1: 編輯公司資料
       new:
-        s1: Edit your company   #This is correct -> Every new recruiter always has a company, so he can only edit it, never create a new one
+        s1: 編輯公司資料   #This is correct -> Every new recruiter always has a company, so he can only edit it, never create a new one
       show:
-        s1: Your company information
-        s2: Address
-        s3: Additional information
-        s4: This information is not visible to the public
-        s5: VAT number
-        s6: Company website
-        s7: Facebook page
+        s1: 公司資料
+        s2: 地址
+        s3: 其他資料
+        s4: 這個資料不會在網頁公開。
+        s5: VAT
+        s6: 公司網址
+        s7: 臉書網址
