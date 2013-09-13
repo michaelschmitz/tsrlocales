@@ -12,4 +12,16 @@ en:
       s2: Import from Gmail
       s3: Import from Yahoo
       s4: Import from Hotmail
-      s5: "Hi,\\n\\nI would like to invite you to connect on theStudentRanking.com.\\nYou can learn how well you are doing and can give your career a boost as well.\\n\\nKind regards,\\n"
+      s5: Hi,
+
+
+          I would like to invite you to connect on theStudentRanking.com.
+          You can learn how well you are doing and can give your career a boost as well.
+
+
+          Kind regards,
+          
+
+          %{name}
+      s6: Quickly find people you may know by searching your email contacts.*
+      s7: Imported contacts

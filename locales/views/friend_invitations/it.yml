@@ -10,4 +10,14 @@ it:
       s2: Importa da Gmail
       s3: Importa da Yahoo
       s4: Importa da Hotmail
-      s5: Ciao,\\n\\nI ti invita a connetterti su theStudentRanking.com.\\nPotrai scoprire il valore della tua performance accademica e dare una spinta alla tua carriera.\\n\\nCordiali saluti,\\n
+      s5: Ciao,
+
+
+          I ti invita a connetterti su theStudentRanking.com.
+          Potrai scoprire il valore della tua performance accademica e dare una spinta alla tua carriera.
+
+
+          Cordiali saluti,
+
+
+          %{name}
