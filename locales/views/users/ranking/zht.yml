@@ -637,6 +637,7 @@ zht:
       breakdown_chart:
         s1: 排名群組依參與者出生自
       charts:
+        s0: 比較圖表
         s1: 比較
         s2: 大學
         s3: 全球
