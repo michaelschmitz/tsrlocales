@@ -16,3 +16,8 @@ es:
         s9: "Qué idiomas hablas?"
     jobs_suggested:
         s1: "Sugerencia de ofertas de trabajo"
+    register_modal:
+        s1: Crear cuenta como
+        s2: Crear cuenta
+        s3: Ya tiene cuenta?
+        s4: Iniciar sesión aquí
