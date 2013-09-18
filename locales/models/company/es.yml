@@ -1,7 +1,7 @@
 es:
   company:
     attributes: &ATTRIBUTES
-      name: Nombre
+      name: Nombre de la empresa
       vat_number: NIF
       street: Dirección
       city: Ciudad
