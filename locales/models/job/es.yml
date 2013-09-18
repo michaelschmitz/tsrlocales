@@ -27,19 +27,18 @@ es:
     area:
       1: Educación
       2: Inmobiliario y Construcción
-      4: Finanzas
+      4: Finanzas y Contabilidad
       5: Investigación
       6: Gestión empresarial
-      7: Tecnologías de la Información
+      7: Informática
       8: Ingeniería
       9: Logística y Almacén
-      10: Marketing y Comunicación
+      10: Marketing
       11: Medicina y Salud
-      12: Organización
-      13: Recursos humanos
+      12: Organización y Administración
+      13: Recursos Humanos
       14: Producción
       15: Ventas
-      16: Administración
       17: Banca
       18: Atención al cliente
       19: Legal
@@ -48,7 +47,7 @@ es:
       22: Servicio Público
       23: Arte y Diseño
       24: Otros
-      27: Periodismo
+      27: Comunicación y Periodismo
     contract_type:
       1: Temporal
       2: Indefinido
