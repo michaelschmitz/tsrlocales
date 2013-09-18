@@ -2,7 +2,7 @@ es:
   degree:
     attributes: &ATTRIBUTES
       exchange: Intercambio
-      name: Estudios
+      name: Estudios (tal como aparece en el diploma)
       country: País
       university_id: Universidad
       title: Título
