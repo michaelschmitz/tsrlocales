@@ -16,3 +16,13 @@ it:
         s9: "Che lingue parli?"
     jobs_suggested:
         s1: "Offerte di lavoro consigliate" 
+    signup_modal:
+        s1: Accedi come 
+        s2: Accedi
+        s3: Non hai ancora un account?
+        s4: Registrati qui
+    register_modal:
+        s1: Registrati come
+        s2: Registrati
+        s3: Hai già un account?
+        s4: Accedi qui        
