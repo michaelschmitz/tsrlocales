@@ -1,4 +1,7 @@
 pl:
+  flash:
+    incomplete_user: "Uzupełnij swój profil, aby wziąć udział w rankingu."
+    database_unauthorized_recruiter: "Brak autoryzacji do wyszukiwania w bazie CV."
   layouts:
     user_nav:
       s1: Profil
