@@ -28,21 +28,21 @@ pt:
       1: Ensino
       2: Imobiliário e Construção
       3: 
-      4: Finanças
+      4: Finanças e Contabilidade
       5: Investigação
       6: Gestão
-      7: Tecnologias de informação
-      8: Engenharia
-      9: Logística e Cadeia de Abastecimento
-      10: Marketing e Comunicação
+      7: Engenharia Informática
+      8: Engenharia (Outras)
+      9: Logística
+      10: Marketing
       11: Medicina e Serviços de Saúde
-      12: Organização
+      12: Administração de Empresas
       13: Recursos humanos
       14: Produção
       15: Vendas
       17: Serviços Bancários
       18: Serviço ao Cliente
-      19: Legal
+      19: Legal e Jurídico
       20: Turismo e Hospitalidade
       21: Ciências
       22: Administração Pública
@@ -50,6 +50,7 @@ pt:
       24: Outras
       25: 
       26: 
+      27: Comunicação, Jornalismo, RP e Publicidade
     contract_type:
       1: Com termo
       2: Sem termo
