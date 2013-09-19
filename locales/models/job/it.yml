@@ -26,8 +26,8 @@ it:
       alternative_name: Nome alternativo
     area:
       1: Istruzione
-      2: Immobiliare e Edilizia
-      4: Finanza
+      2: 'Immobiliare e Edilizia'
+      4: Finanza e Consulenza
       5: Ricerca
       6: Management
       7: Information technology
