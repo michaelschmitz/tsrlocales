@@ -1,7 +1,7 @@
 pl:
   company:
     attributes: &ATTRIBUTES
-      name: Firma
+      name: Nazwa firmy
       vat_number: Numer identyfikacji podatkowej (NIP)
       street: Adres
       city: Miasto
