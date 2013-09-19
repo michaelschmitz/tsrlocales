@@ -1,4 +1,7 @@
 it:
+  flash:
+    incomplete_user: "Per favore completa il tuo profilo per iniziare il ranking."
+    database_unauthorized_recruiter: "Non autorizzato ad effettuare la ricerca nel database"
   layouts:
     user_nav:
       s1: Profilo
