@@ -15,4 +15,14 @@ pt:
         s8: "Quais são os seus objetivos?"
         s9: "Que idiomas domina?"
     jobs_suggested:
-        s1: "Sugestão de ofertas de emprego"  
+        s1: "Sugestão de ofertas de emprego" 
+    signup_modal:
+        s1: Entrar como
+        s2: Entrar
+        s3: Ainda não tem conta?
+        s4: Registar aqui
+    register_modal:
+        s1: Registar como
+        s2: Registar
+        s3: Já tem uma conta?
+        s4: Entrar aqui
