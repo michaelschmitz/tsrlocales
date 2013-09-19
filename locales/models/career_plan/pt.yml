@@ -1,7 +1,7 @@
 pt:
   career_plan:
     attributes: &ATTRIBUTES
-      contract: 'Vagas para Recém-formados'
+      contract: Vagas para Recém-formados
       internship: Estágio
       project: Projeto
       promotion: Vagas para Phd
@@ -15,7 +15,7 @@ pt:
       available_date: Data de disponibilidade
       intern_start: Inicio do Estágio
       intern_end: Fim do Estágio
-      travel: Viajar
+      travel: Viajar em trabalho
       move_city: Mudar de cidade
       move_country: Mudar de país
       location: Localização
