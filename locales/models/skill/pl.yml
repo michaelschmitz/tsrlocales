@@ -1,7 +1,7 @@
 pl:
   skill:
     attributes: &ATTRIBUTES
-      name: Name
+      name: Nazwa
       level: Poziom
       hours_application: Czas (w godzinach) użycia w praktyce
       hours_training: Czas (w godzinach) treningu, szkoleń
