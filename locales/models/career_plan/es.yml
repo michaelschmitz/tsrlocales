@@ -22,11 +22,11 @@ es:
       i_am: Posición
       my_industry: Sector
     available:
-      1: 'Inmediatamente'
-      2: 'En las próximas dos semanas'
-      3: 'En menos de un mes'
-      4: 'En 1 a 3 meses'
-      5: 'Dentro de más de 3 meses'
+      1: 'Inmediata'
+      2: 'Dentro de dos semanas'
+      3: 'Dentro de un mes'
+      4: 'Dentro de 3 meses'
+      5: 'Dentro de 6 meses'
       6: 'Negociable'
       7: 'Fecha específica'
     travel:

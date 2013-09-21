@@ -15,7 +15,11 @@ en:
         s8: "What are your goals?"
         s9: "Which languages do you speak?"
     jobs_suggested:
+<<<<<<< HEAD
+        s1: "Suggested job offers"
+=======
         s1: "Suggested job offers"        
+>>>>>>> 6c132cdb95e6a17939e9395d86c785e4e66e6ef8
     signup_modal:
         s1: Sign in as a
         s2: Sign in
@@ -25,4 +29,8 @@ en:
         s1: Sign up as a
         s2: Sign up
         s3: Already have an account?
+<<<<<<< HEAD
+        s4: Sign in here      
+=======
         s4: Sign in here
+>>>>>>> 6c132cdb95e6a17939e9395d86c785e4e66e6ef8

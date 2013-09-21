@@ -436,7 +436,7 @@ zht:
         s4b: "in the Frequently Asked Questions."
         s5: "None of your connections has confirmed one of your skills yet. Confirmed skills provide social score and will also make it easier for recruiters to find your profile, when they search for candidates."
         s6: "Facebook friends"
-        s7: "LinkedIn connections"
+        s7: "Connections"
         s8: "Invite connections"        
       analysis_skills:
         s1: "技能"
@@ -637,6 +637,7 @@ zht:
       breakdown_chart:
         s1: 排名群組依參與者出生自
       charts:
+        s0: 比較圖表
         s1: 比較
         s2: 大學
         s3: 全球

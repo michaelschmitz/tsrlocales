@@ -1,7 +1,8 @@
 it:
   degree:
     attributes: &ATTRIBUTES
-      name: Nome 
+      exchange: Progetto di scambio
+      name: Nome della laurea (così come appare sul diploma)
       country: Paese
       university_id: Università
       title: Titolo

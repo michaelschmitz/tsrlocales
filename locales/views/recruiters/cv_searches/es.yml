@@ -21,8 +21,8 @@ es:
         s12: Resultados
         s13: Puntuación mínima
         s14: Distancia máx.
-        s15: Experiencia laboral
-        s16: Experiencia en prácticas
+        s15: "Experiencia laboral (en meses)"
+        s16: "Experiencia en prácticas (en meses)"
       recruiter_profile_small:
         s1: Prácticas
         s2: Posición para graduado

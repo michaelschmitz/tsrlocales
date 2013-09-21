@@ -1,7 +1,7 @@
 it:
   company:
     attributes: &ATTRIBUTES
-      name: Nome
+      name: Nome dell'azienda
       vat_number: Partita IVA
       street: Indirizzo
       city: Città

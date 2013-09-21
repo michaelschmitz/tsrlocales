@@ -26,16 +26,16 @@ it:
       alternative_name: Nome alternativo
     area:
       1: Istruzione
-      2: Immobiliare e Edilizia
-      4: Finanza
+      2: 'Immobiliare e Edilizia'
+      4: Finanza e Contabilità
       5: Ricerca
       6: Management
-      7: Information technology
-      8: Ingegneria
-      9: Logistica e Supply Chain
-      10: Marketing e Comunicazione
-      11: Medicina e salute
-      12: Organizzazione
+      7: Ingegneria Informatica
+      8: Ingegneria (altro)
+      9: Logistica 
+      10: 'Marketing'
+      11: Medicina e Salute
+      12: Amministrazione e Organizzazione
       13: Risorse Umane
       14: Produzione e settore manifatturiero 
       15: Vendite
@@ -43,11 +43,11 @@ it:
       18: Customer Service
       19: Settore legale
       20: 'Turismo & Ospitalità'
-      21: Scienza
+      21: 'Scienza'
       22: Governo
       23: 'Arte & Design'
       24: Altro
-      27: Giornalismo
+      27: Comunicazione, Giornalismo, PR, Pubblicità
     contract_type:
       1: Determinato
       2: Indeterminato

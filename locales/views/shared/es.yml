@@ -17,12 +17,12 @@ es:
     jobs_suggested:
         s1: "Sugerencia de ofertas de trabajo"
     signup_modal:
-        s1: "Iniciar sesión"
-        s2: "Iniciar sesión"
-        s3: "No tiene cuenta?"
-        s4: "Crear cuenta aquí"
+        s1: Iniciar sesión como
+        s2: Iniciar sesión
+        s3: No tiene cuenta?
+        s4: Crear cuenta aquí
     register_modal:
-        s1: "Crear cuenta"
-        s2: "Crear cuenta"
-        s3: "Ya tiene cuenta?"
-        s4: "Inicie sesión aquí"       
+        s1: Crear cuenta como
+        s2: Crear cuenta
+        s3: Ya tiene cuenta?
+        s4: Iniciar sesión aquí

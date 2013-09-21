@@ -1,0 +1,27 @@
+es:
+  friend_invitations:
+    modal:
+      html:
+        s1: Añadir contactos
+        s2: "Importaremos tu libreta de direcciones para sugerirte posibles conexiones y ayudarte a contactar con ellas. No almacenamos ni contraseñas ni direcciones de correo sin tu permiso."
+        s3: "Tu lista de contactos estará siempre protegida" 
+    form: 
+      s1: Deseleccionar todos 
+      s2: Importar desde Gmail
+      s3: Importar desde Yahoo
+      s4: Importar desde Hotmail
+      s5: Hola,
+
+
+          Me gustaría añadirte a mi red de contactos en theStudentRanking.com.
+          De esta forma podrás dar un empujón a tu carrera profesional y conocer tu valor en el mercado laboral.
+          
+
+          Atentamente,
+
+
+<<<<<<< HEAD
+          %{name}
+=======
+          %{name}
+>>>>>>> 6c132cdb95e6a17939e9395d86c785e4e66e6ef8

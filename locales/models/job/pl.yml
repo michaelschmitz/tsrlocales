@@ -33,9 +33,9 @@ pl:
       7: Informatyka i Oprogramowanie 
       8: Technika i Inżynieria
       9: Transport i Logistyka
-      10: Marketing i Reklama
+      10: Marketing
       11: Medycyna i Zdrowie
-      12: Zarządzanie Projektami i Programami
+      12: Administarcja iZarządzanie Projektami
       13: Human Resources i Kadry
       14: Produkcja i Przemysł
       15: Sprzedaż
@@ -47,7 +47,7 @@ pl:
       22: Sektor publiczny
       23: Kreacja i Projektowanie
       24: Inne
-      27: Redakcja i Dokumentowanie
+      27: Redakcja, PR i Reklama
     contract_type:
       1: Umowa na czas określony
       2: Umowa na czas nieokreślony

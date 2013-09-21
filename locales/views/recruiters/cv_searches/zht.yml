@@ -2,7 +2,7 @@ zht:
   recruiters:
     cv_searches:
       edit:
-        s1: "更改名稱"
+        s1: "為此次搜尋命名"
       comparisons:
         s1: 全球比較
       form:
@@ -23,12 +23,13 @@ zht:
         s14: 包括方圓幾公里：
         s15: 工作經驗總月數
         s16: 實習經驗總月數
+        s17: 國籍 
       recruiter_profile_small:
         s1: 實習
         s2: 已畢業
         s3: 自名單移除
         s4: 加入名單
-        s5: 傳訊息
+        s5: 寫訊息
       recruiter_recommendations:
         s1: 推薦人
         s2: 尚無推薦人

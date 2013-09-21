@@ -719,10 +719,10 @@ zht:
         one: 大約1小時
         other: "大約%{count}小時"
       about_x_months: 
-        one: "大約1 month"
-        other: "大約%{count}月"
+        one: "大約1個月"
+        other: "大約%{count}個月"
       about_x_years: 
-        one: "大約1 year"
+        one: "大約1年"
         other: "大約%{count}年"
       almost_x_years: 
         one: 幾乎1年
@@ -767,23 +767,23 @@ zht:
       even: 必須是偶數
       exclusion: 無法使用
       format: "%{attribute} %{message}"
-      greater_than: "必須要大於%{count}"
-      greater_than_or_equal_to: "必須要大於或等於%{count}"
+      greater_than: "必須大於%{count}"
+      greater_than_or_equal_to: "必須大於或等於%{count}"
       inclusion: 不是一個有效的數字
       invalid: 無效
-      less_than: "必須要小於%{count}"
-      less_than_or_equal_to: "必須要小於或等於%{count}"
+      less_than: "必須小於%{count}"
+      less_than_or_equal_to: "必須小於或等於%{count}"
       not_a_number: 不是一個數字
       not_an_integer: 必須是一個整數
       numericality: 不是一個數字。
       odd: 必須是奇數
       record_invalid: "有效性測試失敗：%{errors}"
       taken: 已經被使用。
-      too_long: "過長 (不能超過%{count}字)"
-      too_short: "過短 (不能小於%{count}字)"
-      wrong_length: "長度不對 (必須整整%{count}字)"
+      too_long: "過長 (不能超過%{count}個字)"
+      too_short: "過短 (不能小於%{count}個字)"
+      wrong_length: "長度不對 (必須整整%{count}個字)"
     template: 
-      body: 請檢查以下填寫欄
+      body: 請檢查以下欄位
       header: 
         one: "無法儲存%{model}：一個錯誤。"
         other: "無法儲存%{model}：%{count}個錯誤。"

@@ -17,9 +17,9 @@ it:
       available_date: Disponibile dal
       intern_start: Inizio Stage
       intern_end: Fine Stage
-      travel: Viaggi
-      move_city: Cambiare città
-      move_country: Cambiare paese
+      travel: Disponibilità a viaggiare per lavoro
+      move_city: Disponibilità a cambiare città
+      move_country: Disponibilità a cambiare paese
       location: Luogo
     available:
       1: 'Immediatamente'

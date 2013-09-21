@@ -1,5 +1,8 @@
 pt:
   layouts:
+    flash:
+      incomplete_user: "Por favor complete o seu perfil para iniciar o ranking."
+      database_unauthorized_recruiter: "Sem autorização para utilizar a base de dados."
     user_nav:
       s1: Meu Perfil
       s2: Meu Resultado

@@ -6,7 +6,7 @@ it:
       edit:
         s1: "Dai un nome alla tua ricerca"              
       form:
-        s1: Testo
+        s1: Cerca parola chiave
         s2: "Lingua 1"
         s2a: "Lingua"
         s3: "Lingua 2"

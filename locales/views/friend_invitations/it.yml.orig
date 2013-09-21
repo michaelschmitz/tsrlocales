@@ -1,0 +1,27 @@
+it:
+  friend_invitations:
+    modal:
+      html:
+        s1: Aggiungi contatti
+        s2: I tuoi contatti sono al sicuro con noi
+        s3: Importiamo la tua rubrica in modo da facilitare la connessione con i tuoi contatti. Non memorizzeremo la tua password e non invieremo nessuna email senza il tuo consenso.
+    form:
+      s1: Deseleziona tutti
+      s2: Importa da Gmail
+      s3: Importa da Yahoo
+      s4: Importa da Hotmail
+      s5: Ciao,
+
+
+          I ti invita a connetterti su theStudentRanking.com.
+          Potrai scoprire il valore della tua performance accademica e dare una spinta alla tua carriera.
+
+
+          Cordiali saluti,
+
+
+          %{name}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6c132cdb95e6a17939e9395d86c785e4e66e6ef8
