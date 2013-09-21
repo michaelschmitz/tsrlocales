@@ -12,4 +12,14 @@ pl:
       s2: Importuj kontakty z Gmail
       s3: Importuj kontakty z Yahoo
       s4: Importuj kontakty z Hotmail
-      s5: "Cześć,\\n\\nI chcę zaprosić Cię do swoich znajomych na theStudentRanking.com.\\nJeśli przyjmiesz to zaproszenie dowiesz się, jak radzisz sobie na tle innych studentów oraz zwiększysz swoje szanse na rozwój kariery.\\n\\nPozdrawiam,\\n"
+      s5: Cześć,
+
+
+          I chcę zaprosić Cię do swoich znajomych na theStudentRanking.com.
+          Jeśli przyjmiesz to zaproszenie dowiesz się, jak radzisz sobie na tle innych studentów oraz zwiększysz swoje szanse na rozwój kariery.
+
+
+          Pozdrawiam,
+
+
+          %{name}

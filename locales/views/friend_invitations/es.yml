@@ -10,4 +10,14 @@ es:
       s2: Importar desde Gmail
       s3: Importar desde Yahoo
       s4: Importar desde Hotmail
-      s5: Hola,\\n\\n me gustaría añadirte a mi red de contactos en theStudentRanking.com.\\nDe esta forma podrás dar un empujón a tu carrera profesional y conocer tu valor en el mercado laboral.\\n\\nAtentamente,\\n
+      s5: Hola,
+
+
+          Me gustaría añadirte a mi red de contactos en theStudentRanking.com.
+          De esta forma podrás dar un empujón a tu carrera profesional y conocer tu valor en el mercado laboral.
+          
+
+          Atentamente,
+
+
+          %{name}

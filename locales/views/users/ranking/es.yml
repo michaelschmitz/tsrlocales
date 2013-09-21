@@ -7,6 +7,7 @@ es:
         s2: "Puntos para +1"
         s3: Felicidades!
       analysis: 
+        s1: "Análisis y sugerencias"
         s100: "Análisis y sugerencias"
         s101: "La inscripción para puestos de trabajo y prácticas es la demostración definitiva de sus credenciales. Eche un vistazo abajo para encontrar ideas y sugerencias relacionadas con su CV y con lo que puede hacer para presentarse mejor."
         s102: "Análisis de los elementos positivos"
@@ -649,6 +650,10 @@ es:
         s2: "Posición global"
         s3: de
         s4: "puntos para +1"
+      global_rank:
+        s2: "Posición global"
+        s3: de
+        s4: "puntos para +1"        
       recommendations: 
         s1: Recomendaciones
       skills: 

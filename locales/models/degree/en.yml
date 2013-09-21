@@ -2,7 +2,7 @@ en:
   degree:
     attributes: &ATTRIBUTES
       exchange: Exchange
-      name: Name of the degree
+      name: Name of the degree (as shown on the diploma)
       country: Country
       university_id: University
       title: Title

@@ -15,4 +15,14 @@ fr:
         s8: "Quels sont vos objectifs?"
         s9: "Quelles langues parlez-vous?"
     jobs_suggested:
-        s1: "Les postes proposé" 
+        s1: "Les postes proposé"
+    signup_modal:
+        s1: Inscrivez-vous
+        s2: Inscrivez-vous
+        s3: Vous avez déjà une compte?
+        s4: Inscrivez-vous ici
+    register_modal:
+        s1: Inscrivez-vous
+        s2: Inscrivez-vous
+        s3: Vous avez déjà une compte?
+        s4: Inscrivez-vous ici   

@@ -28,19 +28,18 @@ en:
     area:
       1: Education
       2: 'Real Estate & Construction'
-      4: Finances
+      4: Finance and Accounting
       5: Research
       6: Management
-      7: Information technology
-      8: Engineering
+      7: Computer Engineering
+      8: Engineering (Other)
       9: Logistics
-      10: 'Marketing & Communication'
+      10: 'Marketing'
       11: Medicine
-      12: Organisation
+      12: 'Administration & Organisation'
       13: Human resources
       14: Manufacturing
       15: Sales
-      16: Administration
       17: Banking
       18: Customer Service
       19: Legal
@@ -49,10 +48,7 @@ en:
       22: Government
       23: 'Arts & Design'
       24: 'Others'
-      25: 'Health'
-      26: 'Logistics & Supply Chain'
-      27: Journalism
-      28: Accounting
+      27: Communication, Journalism, PR, Advertising
     contract_type:
       1: Limited contract
       2: Unlimited contract

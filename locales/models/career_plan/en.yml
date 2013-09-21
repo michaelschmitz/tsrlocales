@@ -15,9 +15,9 @@ en:
       available_date: Available Date
       intern_start: Internship Start
       intern_end: Internship End
-      travel: Travel
-      move_city: Move city
-      move_country: Move country
+      travel: Travel for work
+      move_city: Relocate to another city
+      move_country: Relocate to another country
       location: Location
       i_am: Position
       my_industry: Industry

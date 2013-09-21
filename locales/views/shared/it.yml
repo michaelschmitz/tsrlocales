@@ -15,4 +15,14 @@ it:
         s8: "Quali sono i tuoi obiettivi?"
         s9: "Che lingue parli?"
     jobs_suggested:
-        s1: "Offerte di lavoro consigliate" 
+        s1: "Offerte di lavoro consigliate"
+    signup_modal:
+        s1: Registrati
+        s2: Registrati
+        s3: Hai già un account?
+        s4: Accedi qui
+    register_modal:
+        s1: Registrati
+        s2: Registrati
+        s3: Hai già un account?
+        s4: Accedi qui        

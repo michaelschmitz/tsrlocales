@@ -646,6 +646,10 @@ pt:
         s2: "Posição Global"
         s3: em
         s4: "pontos para +1"
+      global_rank:
+        s2: "Posição Global"
+        s3: em
+        s4: "pontos para +1"        
       recommendations: 
         s1: Recomendações
       skills: 

@@ -649,6 +649,10 @@ zht:
         s2: 全球排名
         s3: 之
         s4: "積分就能提高排名一名"
+      global_rank:
+        s2: 全球排名
+        s3: 之
+        s4: "積分就能提高排名一名"        
       recommendations:
         s1: 推薦人
       skills:

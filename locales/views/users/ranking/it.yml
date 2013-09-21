@@ -649,6 +649,10 @@ it:
         s2: "Ranking globale"
         s3: su
         s4: "punti per +1"
+      global_rank:
+        s2: "Ranking globale"
+        s3: su
+        s4: "punti per +1"        
       recommendations: 
         s1: Raccomandazioni
       skills: 

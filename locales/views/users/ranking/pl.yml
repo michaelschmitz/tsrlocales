@@ -650,6 +650,10 @@ pl:
         s2: Ranking globalny
         s3: z
         s4: "punktów do +1"
+      global_rank:
+        s2: Ranking globalny
+        s3: z
+        s4: "punktów do +1"        
       recommendations:
         s1: Rekomendację
       skills:

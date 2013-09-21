@@ -1,4 +1,4 @@
-en:
+pt:
   friend_invitations:
     modal:
       html:
@@ -10,4 +10,14 @@ en:
       s2: Importar do Gmail
       s3: Importar do Yahoo
       s4: Importar do Hotmail
-      s5: Olá\\n\nGostaria de te convidar a ligares-te a mim através do theStudentRanking.com.\\nPodes saber mais sobre o teu desempenho e dar um novo impulso à tua carreira.\\n\\nAtentamente,\\n
+      s5: Olá
+          
+
+          Gostaria de te convidar a ligares-te a mim através do theStudentRanking.com.
+          Podes saber mais sobre o teu desempenho e dar um novo impulso à tua carreira.
+
+
+          Atentamente,
+
+
+          %{name}

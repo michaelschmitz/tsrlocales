@@ -27,7 +27,6 @@ pt:
     area:
       1: Ensino
       2: Imobiliário e Construção
-      3: 
       4: Finanças
       5: Investigação
       6: Gestão
@@ -40,7 +39,6 @@ pt:
       13: Recursos humanos
       14: Produção
       15: Vendas
-      16: Administração
       17: Serviços Bancários
       18: Serviço ao Cliente
       19: Legal
@@ -49,8 +47,8 @@ pt:
       22: Administração Pública
       23: Arte e Design
       24: Outras
-      25: 
-      26: 
+      25: 'Health'
+      26: 'Logistics & Supply Chain'
     contract_type:
       1: Com termo
       2: Sem termo
