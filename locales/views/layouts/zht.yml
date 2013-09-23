@@ -1,4 +1,7 @@
 zht:
+  flash:
+    incomplete_user: "請先完成你的個人檔案再做排名。"
+    database_unauthorized_recruiter: "您沒有搜尋資料庫的權限。"
   layouts:
     user_nav:
       s1: 個人檔案

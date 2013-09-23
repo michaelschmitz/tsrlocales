@@ -643,13 +643,19 @@ zht:
         s3: 全球
         s4: 積分解析
         s5: 全國
+        s6: 點擊任一選項就能查看圖表。
       preferred_employer:
         s1: 公司分析
+        s2: 點擊任一公司就能查看圖表。
       profile:
         s1: 看我的履歷表
         s2: 全球排名
         s3: 之
         s4: "積分就能提高排名一名"
+      global_rank:
+        s2: 全球排名
+        s3: 之
+        s4: "積分就能提高排名一名"        
       recommendations:
         s1: 推薦人
       skills:

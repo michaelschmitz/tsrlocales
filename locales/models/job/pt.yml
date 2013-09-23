@@ -27,7 +27,6 @@ pt:
     area:
       1: Ensino
       2: Imobiliário e Construção
-      3: 
       4: Finanças e Contabilidade
       5: Investigação
       6: Gestão
@@ -48,8 +47,6 @@ pt:
       22: Administração Pública
       23: Arte e Design
       24: Outras
-      25: 
-      26: 
       27: Comunicação, Jornalismo, RP e Publicidade
     contract_type:
       1: Com termo

@@ -19,7 +19,7 @@ en:
         service:
           s1: today
           s2: Hours
-          s3: per week
+          s3: h per week
         skills:
           s1: Skills
           s2: Details

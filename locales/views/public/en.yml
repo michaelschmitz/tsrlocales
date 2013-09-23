@@ -351,8 +351,8 @@ en:
       s10: All articles
       s11: 'Finding that first job:'
     testimonial:
-      s1: Success stories
-      s2: Our key partner Accenture has used theStudentRanking.com to recruit across borders. In one of the latest use cases, Accenture searched for Portuguese speakers to join their company in Poland, receiving dozens of applications and successfully growing their team.
+      s1: Companies look for great candidates
+      s2: Accenture has used theStudentRanking.com to recruit across borders. In one of the latest use cases, Accenture searched for Portuguese speakers to join their company in Poland, receiving dozens of applications and successfully growing their team.
       s3: Michael Schmitz, Founder theStudentRanking.com
     social_activity:
       s1: "has earned"
@@ -372,12 +372,8 @@ en:
       s10: "for"
       s11: "points"
       s12: "an award"
-      
-      
-      
-      
     slider:
-      s1: "The world's largest student ranking."
+      s1: "The world's largest student ranking"
       s2: "Your profile connects you to the best companies worldwide"
       s3: "Current global average score:"
       s4: "Your profile"
@@ -410,7 +406,7 @@ en:
       s1: Jobs
     smallfaq:
       s1: "How much does it cost?"
-      s2: "Free for students, recruiters can post one job for free. Just sign up and try it"
+      s2: "Free for students, recruiters can post jobs for free. Just sign up and try it"
       s3: "What are you offering?"
       s4: "A global ranking system for students that want to learn more about their competitiveness and that want to be found by companies."
       s5: "Is my data private?"

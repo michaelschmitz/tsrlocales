@@ -16,3 +16,13 @@ zht:
         s9: "你會說那些語言？"
     jobs_suggested:
         s1: "我們推薦的工作機會"  
+    signup_modal:
+        s1: 註冊新帳號
+        s2: 註冊
+        s3: 已經有帳號了？
+        s4: 在此登入
+    register_modal:
+        s1: 註冊新帳號
+        s2: 註冊
+        s3: 已經有帳號了？
+        s4: 在此登入      

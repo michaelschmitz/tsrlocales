@@ -15,7 +15,7 @@ pl:
         s8: "Jakie są twoje cele?"
         s9: "Jakimi językami się posługujesz?"
     jobs_suggested:
-        s1: "Sugerowane oferty pracy"   
+        s1: "Sugerowane oferty pracy"
     signup_modal:
         s1: Zaloguj się jako
         s2: Zaloguj się
@@ -26,3 +26,4 @@ pl:
         s2: Zarejestruj się
         s3: Masz już konto?
         s4: Zaloguj się tutaj
+  
