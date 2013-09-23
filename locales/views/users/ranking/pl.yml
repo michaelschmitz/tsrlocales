@@ -643,8 +643,10 @@ pl:
         s3: Globalnie
         s4: Rozkład punktów
         s5: Krajowo
+        s6: Kliknij na wybraną pozycję na pasku nawigacyjnym, aby zobaczyć wykres.
       preferred_employer:
         s1: Analiza porównawcza szans w wybranej firmie.
+        s2: Kliknij na nazwę firmy, aby zobaczyć wykres.
       profile:
         s1: Zobacz CV
         s2: Ranking globalny
