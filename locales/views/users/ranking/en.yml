@@ -643,8 +643,10 @@ en:
         s3: Global
         s4: Breakdown
         s5: National
+        s6: Click the navigation bar to load your charts.
       preferred_employer:
         s1: Company analysis
+        s2: Click the company names to load your charts.
       profile:
         s1: View Profile
         s2: Global rank

@@ -24,6 +24,7 @@ en:
         s15: Work experience (months)
         s16: Internship experience (months)
         s17: Nationality
+        s18: Level
       recruiter_profile_small:
         s1: Internship
         s2: Graduate position
