@@ -23,6 +23,8 @@ pl:
         s14: Max odległość
         s15: Doświadczenie zawodowe (w miesiącach)
         s16: Doświadczenie - praktyki (w miesiącach)
+        s17: Narodowość
+        s18: Poziom
       recruiter_profile_small:
         s1: Praktyki
         s2: Pozycja dla absolwenta
