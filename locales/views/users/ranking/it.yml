@@ -642,8 +642,10 @@ it:
         s3: Globale
         s4: Analisi per anno di nascita
         s5: Nazionale
+        s6: Clicca sulla barra di navigazione per caricare i tuoi grafici
       preferred_employer: 
         s1: "Analisi dell'azienda"
+        s2: Clicca sul nome della compagnia per caricare i tuoi grafici
       profile: 
         s1: "Visualizza profilo"
         s2: "Ranking globale"
