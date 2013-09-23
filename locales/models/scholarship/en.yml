@@ -1,20 +1,10 @@
 en:
   scholarship:
     attributes: &ATTRIBUTES
-      area: Area
       name: Name
-      level: Level
-    area:
-      1: Award
-      2: Prize(Sport)
-    level:
-      1: Local
-      2: Country
-      3: National
-      4: International
+      start_date: Start date
+      end_date: End date
   activerecord:
-    models:
-      scholarship: Scholarship
     attributes:
       scholarship:
         <<: *ATTRIBUTES
