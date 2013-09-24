@@ -642,6 +642,7 @@ pt:
         in: em
       preferred_employer: 
         s1: "Análise de empresa"
+        s2: "Carregar no nome da empresa para visualizar gráficos"
       profile: 
         s1: "Ver CV"
         s2: "Posição Global"
