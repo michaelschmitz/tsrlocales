@@ -633,6 +633,7 @@ pt:
         s3: Global
         s4: Detalhe
         s5: Nacional
+        s6: Carregar na barra de navegação para visualizar gráficos
       main_chart: 
         asessment_body_1: "Este ranking inclui todos os participantes de %{university} e ignora o background académico. Esta comparação não é portanto adequada para prever o potencial de desenvolvimento da sua carreira, particularmente se tiver um perfil altamente especializado, tiver iniciado recentemente os seus estudos ou se tiver menos idade do que os restantes participantes. Contudo, este gráfico poderá trazer-lhe motivação acrescida para se focar nos resultados do seu trabalho e investir o seu tempo de forma sábia, procurando experiências que tornem o seu perfil mais valorizado.\""
         asessment_body_2: "Este ranking inclui todos os participantes de %{university} e que partilham o seu ano de nascimento.  Esta comparação permite-lhe aferir melhor as suas perspetivas de carreira, especialmente se a sua universidade oferecer cursos muito semelhantes em determinada área de estudos. Se a sua universidade for uma instituição de grande dimensão, então esta comparação torna-se apenas indicativa sobre as suas possibilidades de carreir, caso se encontre na liderança do grupo.\""
