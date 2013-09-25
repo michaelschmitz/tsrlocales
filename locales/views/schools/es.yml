@@ -4,7 +4,7 @@ es:
       s1: Editar escuela
     modal:
      html:
-      s1: Idioma
+      s1: Escuela
     new:
       s1: Nueva escuela
     show:
