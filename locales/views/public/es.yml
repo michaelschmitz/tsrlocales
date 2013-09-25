@@ -331,7 +331,7 @@ es:
       s9: "In this context, it is important to note that transmitting information via the internet is (e.g. via email) is not always 100% private. Sensitive information should therefore be only transferred via a secure connection. We do not gather your email, name, address or phone number unless you provide it to take part in the ranking or use other services, to facilitate communication between us or possible employers (if you indicated interest in doing so). Your personal information is stored according to German laws."
     contact: 
       s1: Contacto
-      s2: "Aguardamos su mensaje. Recibirá una respuesta en 24 horas."
+      s2: "Aguardamos su mensaje. Le responderemos en menos de 24 horas."
       s3: Nombre
       s4: Empresa
       s5: Email
@@ -350,7 +350,7 @@ es:
       s9: "¿Por qué debería presentarme a puestos de trabajo complicados?"    
     testimonial:
       s1: Historias de éxito
-      s2: Accenture, uno de nuestros socios clave, ha usado theStudentRanking.com para contratar fuera de sus fronteras. En una de las últimas ocasiones, Accenture buscaba candidatos con portugués que pudieran unirse a ellos en Polonia; recibieron docenas de inscripciones que les permitieron incrementar su equipo.
+      s2: Accenture es uno de nuestros colaboradores principales. Ha usado theStudentRanking.com para encontrar candidatos fuera de sus fronteras y contratárlos. El último ejemplo fue una búsqueda de candidatos que hablaran portugués para trabajar en las oficinas Accenture en Polonia; recibieron docenas de inscripciones que permitieron incrementar su equipo.
       s3: Michael Schmitz, Fundador de theStudentRanking.com
     social_activity:
       s1: "ha obtenido"
