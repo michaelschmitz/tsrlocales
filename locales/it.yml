@@ -30,6 +30,7 @@ it:
     search: Cerca
     details: "Dettagli"
     close: "Chiudi"
+    send: "Invia"
     save: "Salva"
     edit: "Modifica"
     cancel: "Cancella"
