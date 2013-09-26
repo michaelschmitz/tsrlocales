@@ -150,7 +150,7 @@ it:
       s18: Clicca qui per aiutare i tuoi contatti a costruire la loro carriera 
     welcome_email:
       s1: sono Michael di theStudentRanking.com. Ti ringrazio per esserti registrato sul nostro sito- spero ti divertirai a usare il sistema! Ti aiuteremo a scoprire nuove utili informazioni su te stesso e su i tuoi amici, a migliorare i tuoi risultati e il tuo valore nel mercato del lavoro e a entrare in contatto con le aziende di tutto il mondo. 
-      s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con XXX.XXX@XXX.com. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
+      s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con %{email}. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
       s3: Sei pronto per costruire la tua carriera? Inizia subito aggiornando il tuo profilo con i tuoi risultati, in modo da ottenere punti e visibilità. 
       s4: Crea il tuo profilo
       s5: "Le aziende ricercano candidati in grado di fornire una \"conferma sociale\" dei propri risultati. Avere dei contatti che confermino le tue competenze e forniscano raccomandazioni può essere molto utile nella ricerca di un lavoro e migliorerà il tuo punteggio Social: guadagni il 5% del punteggio Personale di chi ti ha raccomandato e ulteriori punti per ogni competenza confermata. Ad ora il tuo punteggio Social è pari a zero. Puoi aumentarlo invitando i tuoi contatti a partecipare al ranking." 

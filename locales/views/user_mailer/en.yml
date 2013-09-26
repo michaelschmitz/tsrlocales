@@ -154,7 +154,7 @@ en:
       s10: "Happy to have you on board,\n"
       s11: Michael
       s12: "PS: Feedback is welcome - just write me at any time."
-      s2: "This email confirms your registration and helps you find your account again. You registered with XXX.XXX@XXX.com. If you ever forget your password, you can request a new one"
+      s2: "This email confirms your registration and helps you find your account again. You registered with %{email}. If you ever forget your password, you can request a new one"
       s3: "Ready to build your career? Get started now by updating your profile with some of your achievements and earn points and visibility."
       s4: "Build your profile"
       s5: "Companies often look for candidates that can provide \"social proof\" of their achievements. Having your connections confirm your skills and provide recommendations can be highly valuable for your job search and will improve your social score: You gain 5% of each recommenders' achievement score to your social score and additional points for each confirmed skill. Right now, your social score is zero. Build it by inviting your connections to join the ranking."

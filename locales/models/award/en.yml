@@ -1,7 +1,7 @@
 en:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: Type
       name: Name
       level: Level
     area:
