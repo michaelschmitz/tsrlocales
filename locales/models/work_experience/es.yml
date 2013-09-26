@@ -10,6 +10,7 @@ es:
       summary: Resumen
       description: Descripción
       company_name: Nombre de la empresa
+      document: Documento
     contract:
       1: 'Aprendiz'
       2: 'Prácticas'
