@@ -1,4 +1,7 @@
 es:
+  flash:
+    incomplete_user: "Por favor, completa tu perfil para poder conocer tu ranking."
+    database_unauthorized_recruiter: "Sin autorización para buscar en la base de datos."
   layouts:
     user_nav:
       s1: Perfil
