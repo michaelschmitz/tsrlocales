@@ -23,6 +23,8 @@ es:
         s14: Distancia máx.
         s15: "Experiencia laboral (en meses)"
         s16: "Experiencia en prácticas (en meses)"
+        s17: Nacionalidad
+        s18: Nivel
       recruiter_profile_small:
         s1: Prácticas
         s2: Posición para graduado
