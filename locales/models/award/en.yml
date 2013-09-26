@@ -4,6 +4,7 @@ en:
       area: Type
       name: Name
       level: Level
+      document: Document
     area:
       1: Award
       2: Prize(Sport)
