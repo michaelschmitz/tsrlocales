@@ -150,6 +150,7 @@ es:
       s8: "Habilidades:"
       s9: "Tus contactos no han confirmado ninguna de tus habilidades durante esta semana."
     welcome_email: 
+      s0: "Bienvenido a theStudentRanking.com"
       s1: "soy Michael, de theStudentRanking.com. Gracias por registrarte en nuestra web - ¡espero que disfrutes con nuestro sistema! Juntos vamos a intentar conocer tu perfil y el de tus amigos para ayudarte a mejorar tus logros y aumentar tu valor en el mercado de modo que las empresas de todo el mundo contacten contigo lo más pronto posible."
       s10: "Estamos muy contentos de tenerte a bordo,\n"
       s11: Michael
