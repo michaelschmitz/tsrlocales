@@ -8,6 +8,7 @@ es:
       first_name: Nombre
       last_name: Apellido
       title: Título
+      remember_me: Recordarme
   activerecord:
     models:
       recruiter: 'Empresa'
