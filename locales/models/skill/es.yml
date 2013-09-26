@@ -3,8 +3,8 @@ es:
     attributes: &ATTRIBUTES
       name: Nombre
       level: Nivel
-      hours_application: Horas de uso
-      hours_training: Horas de formación
+      hours_application: "Horas de uso (total)"
+      hours_training: "Horas de formación (total)"
       explanation: Explicación
       included: 'Cuándo fue usada por última vez'
       document: Documento
