@@ -4,6 +4,7 @@ es:
       area: Tipo
       name: Nombre
       level: Nivel
+      document: Documento
     area:
       1: Premio
       2: Trofeo
