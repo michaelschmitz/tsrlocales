@@ -6,10 +6,11 @@ es:
       hours_application: Horas de uso
       hours_training: Horas de formación
       explanation: Explicación
-      included: 'Última vez que lo usó'
+      included: 'Cuándo fue usada por última vez'
+      document: Documento
     level:
       1: 'Principante'
-      2: 'Con experiencia'
+      2: 'Avanzado'
       3: 'Experto'
   activerecord:
     models:
