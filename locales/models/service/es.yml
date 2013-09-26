@@ -9,13 +9,14 @@ es:
       end_date: Feha fin
       current: Actualmente
       organization_name: Nombre de la organización
+      document: Documento
     area:
       1: "Universidad/Escuela"
       2: "Social"
       3: "Club"
       4: "Fiesta"
-      5: "Cultura"
-      6: "Ciencia"
+      5: "Cultural"
+      6: "Científica"
       7: "Otros"
     role:
       1: 'Miembro activo'
