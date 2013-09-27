@@ -8,6 +8,7 @@ it:
       first_name: Nome
       last_name: Cognome
       title: Titolo
+      remember_me: Recordami
   activerecord:
     models:
       recruiter: 'Recruiter'  
