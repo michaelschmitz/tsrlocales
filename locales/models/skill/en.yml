@@ -3,8 +3,8 @@ en:
     attributes: &ATTRIBUTES
       name: Name
       level: Level
-      hours_application: Hours of application
-      hours_training: Hours of training
+      hours_application: Total hours of application
+      hours_training: Total hours of training
       explanation: Explanation
       included: 'Last used at'
       document: Document
