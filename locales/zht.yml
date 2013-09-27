@@ -425,6 +425,7 @@ zht:
         after: "至少要晚於"
         before: "至少要早於"
   nationalities:
+    TW: "台灣"
     AL: "Albania"
     DZ: "Algeria"
     AS: "American-Samoa"
@@ -658,7 +659,6 @@ zht:
     YE: "Yemen"
     ZM: "Zambia"
     ZW: "Zimbabwe"
-    TW: "台灣"
   date:
     abbr_day_names: 
       - 星期天
