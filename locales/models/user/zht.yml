@@ -13,6 +13,7 @@ zht:
       gender: 性別
       about: 自我介紹
       location: 地點
+      remember_me: 記住我
     gender:
       1: '女性'
       2: '男性'
