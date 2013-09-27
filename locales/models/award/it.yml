@@ -1,7 +1,7 @@
 it:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: Tipo
       name: Nome
       level: Livello
     area:
