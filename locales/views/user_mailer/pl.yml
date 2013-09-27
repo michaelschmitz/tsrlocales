@@ -149,6 +149,7 @@ pl:
       s8: "Umiejętności:"
       s9: "Żaden z Twoich znajomych nie potwierdził Twoich umiejętności w tym tygodniu."
     welcome_email: 
+      s0: "Dołączyłeś do theStudentRanking.com"
       s1: "nazywam się Michael i jestem założycielem theStudentRanking.com. Chciałbym podziękować Ci za rejestrację - Mam nadzieję, że spodoba Ci się korzystanie z serwisu. Razem, możemy osiągnąć więcej!"
       s10: "Z pozdrowieniami,\n"
       s11: Michael

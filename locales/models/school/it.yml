@@ -8,6 +8,7 @@ it:
       end_date: Data di fine 
       grade_scale: Sistema di valutazione
       name: Nome
+      document: Documento
     grade_scale: 
       AU: "Australia (50-100%)"
       AT: "Austria (4.0-1.0)"

@@ -10,6 +10,7 @@ it:
       summary: Riassunto (facoltativo)
       description: Descrizione
       company_name: Nome dell'azienda
+      document: Documento
     contract:
       1: 'Apprendistato'
       2: 'Stage'

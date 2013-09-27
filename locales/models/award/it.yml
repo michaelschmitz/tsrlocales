@@ -1,9 +1,10 @@
 it:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: Tipo
       name: Nome
       level: Livello
+      document: Documento
     area:
       1: Riconoscimento
       2: Premio(Sport)

@@ -545,6 +545,7 @@ es:
         s17: "Excelente: Tienes bastante experiencia laboral en varios puestos de trabajo y en los cuales desempeñaste tus funciones por un periodo considerable de tiempo."
         s17a: "Esto satisfará los criterios de cualquier reclutador que evalúe tu perfil. Como ya sabrás, el historial académico suele ser la parte menos relevante en el entorno laboral; la verdadera diferencia reside en la experiencia práctica, los contactos y las habilidades que uno posee."
         s17b: "Tu experiencia laboral en varios puestos de trabajo resulta muy útil y te distancia de otros candidatos. Intenta encontrar un puesto de trabajo de jornada completa dentro de tu sector preferido para continuar creciendo profesionalmente."
+        s17c: "Puedes usar la experiencia acumulada en otros puestos para abrir nuevas puertas y vender tus habilidades y capacidades describiendo de qué manera van a ser útiles para nuevos retos en otros puestos de trabajo."
         s17d: "Cuando lo consigas, trata de obtener los mejores resultados con el fin de convertirte en un valor para tus superiores."
         s17e: "De todas formas, tu mayor desafío puede que sea la actual situación económica. Intenta encontrar un puesto de trabajo profesional de jornada completa aunque sea en un sector distinto al tuyo y no dejes de crecer profesionalmente. Esta experiencia te servirá para conseguir un puesto mejor y en otro sector más de tu gusto en el futuro; además, puedes aprovechar esta experiencia para aumentar tu red de contactos en otros campos."
         s17f: "Intenta buscar tus oportunidades – se presentarán por sí solas."
@@ -641,7 +642,7 @@ es:
         main_chart: 
         asessment_body_1: "Este ranking incluye todos los participantes de la %{university} sin tener en cuenta la carrera académica seleccionada; por lo tanto, no refleja sus posibilidades reales de encontrar un trabajo en su área, sobre todo si usted ha trabajado duro para conseguir especializarse, acaba de empezar a estudiar o si es más joven que el resto de participantes. No obstante, este gráfico puede serle de ayuda para automotivarse, enfocar sus estudios en una dirección determinada o invertir su tiempo sabiamente para conseguir aumentar su valor en el mercado laboral."
         asessment_body_2: "Este ranking incluye todos los participantes de la %{university} que nacieron en el mismo año. Esta comparativa permite conocer sus posibilidades para desarrollar su carrera profesional, sobre todo si su universidad se enfoca únicamente en cursos similares dentro de una misma area de estudios. Si su universidad es muy grande, esta comparativa le servirá para tener una idea de sus posibilidades en caso de que usted pertenezca al grupo de destacados."
-        asessment_title: "<b>Assessment</b> You earned %{points} Points and are grouped in the top %{percent}%"
+        asessment_title: "<b>Evaluación</b> Has obtenido %{points} puntos y estás dentro del top %{percent}%"
         explanation_button: "Mostrar explicación"
         in: in
       preferred_employer: 

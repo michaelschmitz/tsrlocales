@@ -8,6 +8,7 @@ zht:
       first_name: 中文姓名
       last_name: 英文姓名
       title: 職稱
+      remember_me: 記住我
   activerecord:
     models:
       recruiter: '僱主'

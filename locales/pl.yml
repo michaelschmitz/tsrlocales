@@ -41,9 +41,7 @@ pl:
     hi: "Cześć"
     here: tutaj
     languages:
-      97: "(bengalski - Sylheti)"
       1: "Inny język"
-      110: "Xhose"
       106: "akan"
       122: "albański"
       11: "angielski"
@@ -56,6 +54,7 @@ pl:
       141: "baskijski"
       108: "baszkirski"
       4: "bengalski"
+      97: "bengalski - Sylheti"
       47: "bhodźpuri"
       104: "białoruski"
       57: "birmański"
@@ -75,6 +74,7 @@ pl:
       6: "chiński(Wu)"
       31: "czeski"
       103: "cziczewa"
+      76: "ćhattisgarhi"
       93: "deccan"
       9: "duński"
       140: "esperanto"
@@ -112,6 +112,8 @@ pl:
       125: "lapoński"
       114: "litewski"
       101: "lombardzki"
+      22: "łaciński"
+      113: "łotewski"
       120: "macedoński"
       88: "madurski"
       91: "magahi"
@@ -170,9 +172,6 @@ pl:
       33: "węgierski"
       18: "włoski"
       96: "zulu"
-      76: "ćhattisgarhi"
-      22: "łaciński"
-      113: "łotewski"
     countries: 
       s0: "Brak wyboru"
       s1: Egipt

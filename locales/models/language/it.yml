@@ -5,6 +5,7 @@ it:
       level: Livello
       certificate: Certificato
       certificate_grade: Voto
+      document: Documento
     level:
       1: 'Base'
       2: 'Intermedio'

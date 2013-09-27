@@ -13,6 +13,7 @@ pl:
       gender: Płeć
       about: O Tobie
       location: Miejsce zamieszkania
+      remember_me: Zapamiętaj mnie
     gender:
       1: 'Kobieta'
       2: 'Mężczyzna'
@@ -20,8 +21,56 @@ pl:
       4: 'Nie podano'
     frequency_emails:  
       1: 'Po każdej loterii'
-      2: 'Co miesiąc'
+      2: 'Raz na miesiąc'
       3: 'Nigdy'
+    new_position_email:
+      0: 'Nigdy'
+      1: 'Raz na tydzień'
+      2: 'Raz na dwa tygodnie'
+      4: 'Raz na miesiąc'
+      12: 'Raz na trzy miesiące'
+      24: 'Raz na sześć miesięcy'
+      48: 'Raz do roku'
+    suggestion_email:
+      0: 'Nigdy'
+      1: 'Raz na tydzień'
+      2: 'Raz na dwa tygodnie'
+      4: 'Raz na miesiąc'
+      12: 'Raz na trzy miesiące'
+      24: 'Raz na sześć miesięcy'
+      48: 'Raz do roku'
+    job_email:
+      0: 'Nigdy'
+      1: 'Raz na tydzień'
+      2: 'Raz na dwa tygodnie'
+      4: 'Raz na miesiąc'
+      12: 'Raz na trzy miesiące'
+      24: 'Raz na sześć miesięcy'
+      48: 'Raz do roku'
+    recomendation_skill_email:
+      individual: "Indywidualnie"
+      weekly: "Tygodniowe podsumowanie"
+      never: "Nigdy"
+    connection_request_email:
+      individual: "Indywidualnie"
+      weekly: "Tygodniowe podsumowanie"
+      never: "Nigdy"
+    event_email:
+      0: 'Nigdy'
+      1: 'Raz na tydzień'
+      2: 'Raz na dwa tygodnie'
+      4: 'Raz na miesiąc'
+      12: 'Raz na trzy miesiące'
+      24: 'Raz na sześć miesięcy'
+      48: 'Raz do roku'
+    blog_email:
+      0: 'Nigdy'
+      1: 'Raz na tydzień'
+      2: 'Raz na dwa tygodnie'
+      4: 'Raz na miesiąc'
+      12: 'Raz na trzy miesiące'
+      24: 'Raz na sześć miesięcy'
+      48: 'Raz do roku'
   activerecord:
     models:
       user: 'Użytkownik'

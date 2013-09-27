@@ -1,9 +1,10 @@
 pl:
   award:
     attributes: &ATTRIBUTES
-      area: Kategoria
+      area: Typ
       name: Nazwa
       level: Poziom
+      document: Dokument
     area:
       1: Nagroda
       2: Nagroda (sportowa)

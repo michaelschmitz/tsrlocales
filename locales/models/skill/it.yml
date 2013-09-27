@@ -3,10 +3,11 @@ it:
     attributes: &ATTRIBUTES
       name: Nome
       level: Livello
-      hours_application: Ore di uso pratico
-      hours_training: Ore di formazione
+      hours_application: Ore totali di uso pratico
+      hours_training: Ore totali di formazione
       explanation: Spiegazione
       included: 'Ultimo utilizzo'
+      document: Documento
     level:
       1: 'Principiante'
       2: 'Intermedio'
