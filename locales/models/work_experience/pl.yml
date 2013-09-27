@@ -10,6 +10,7 @@ pl:
       summary: Podsumowanie
       description: Opis
       company_name: Nazwa firmy lub organizacji
+      document: Dokument
     contract:
       1: 'Praktyka'
       2: 'Staż'
