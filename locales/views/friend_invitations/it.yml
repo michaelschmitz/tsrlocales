@@ -2,7 +2,7 @@ it:
   friend_invitations:
     modal:
       html:
-        s1: Aggiungi contatti
+        s1: Invita amici
         s2: I tuoi contatti sono al sicuro con noi
         s3: Importiamo la tua rubrica in modo da facilitare la connessione con i tuoi contatti. Non memorizzeremo la tua password e non invieremo nessuna email senza il tuo consenso.
     form:
