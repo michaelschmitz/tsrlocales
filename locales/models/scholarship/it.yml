@@ -4,6 +4,7 @@ it:
       name: Nome
       start_date: Data d'inizio
       end_date: Data di fine
+      document: Documento
   activerecord:
     attributes:
       scholarship:
