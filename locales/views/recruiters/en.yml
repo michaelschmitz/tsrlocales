@@ -27,6 +27,10 @@ en:
         s2: Visitors
         s3: No applications yet.
     mailer:
+      confirmation_instructions:
+        s1: Welcome
+        s2: You can confirm your account email through the link below
+        s3: Confirm my account
       email_message:
         s1: "has sent you a message"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
