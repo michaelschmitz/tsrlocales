@@ -9,6 +9,7 @@ it:
       end_date: Data di fine
       current: In corso
       organization_name: Nome dell'organizzazione
+      document: Documento
     area:
       1: "Università/Scuola"
       2: "Social"
