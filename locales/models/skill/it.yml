@@ -7,6 +7,7 @@ it:
       hours_training: Ore di formazione
       explanation: Spiegazione
       included: 'Ultimo utilizzo'
+      document: Documento
     level:
       1: 'Principiante'
       2: 'Intermedio'
