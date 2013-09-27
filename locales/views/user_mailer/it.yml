@@ -149,6 +149,7 @@ it:
       s17: Visualizza le tue raccomandazioni
       s18: Clicca qui per aiutare i tuoi contatti a costruire la loro carriera 
     welcome_email:
+      s0: "Benvenuto su theStudentRanking.com"    
       s1: sono Michael di theStudentRanking.com. Ti ringrazio per esserti registrato sul nostro sito- spero ti divertirai a usare il sistema! Ti aiuteremo a scoprire nuove utili informazioni su te stesso e su i tuoi amici, a migliorare i tuoi risultati e il tuo valore nel mercato del lavoro e a entrare in contatto con le aziende di tutto il mondo. 
       s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con %{email}. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
       s3: Sei pronto per costruire la tua carriera? Inizia subito aggiornando il tuo profilo con i tuoi risultati, in modo da ottenere punti e visibilità. 
