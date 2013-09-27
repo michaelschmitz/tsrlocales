@@ -1,6 +1,7 @@
 pl:
   award:
     attributes: &ATTRIBUTES
+      area: Typ
       area: Kategoria
       name: Nazwa
       level: Poziom
