@@ -4,6 +4,7 @@ pl:
       link: Link
       description: Tytuł
       area: Typ
+      document: Dokument
     area:
       1: 'Inne publikacje'
       2: 'Artykuł w gazecie'
