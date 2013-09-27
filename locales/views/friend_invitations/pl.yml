@@ -4,7 +4,7 @@ pl:
       create: "Wiadomość wysłana"
     modal:
       html:
-        s1: Dodaj kontakty
+        s1: Zaproś znajomych
         s2: Twoje kontakty są bezpieczne 
         s3: "Importujemy kontakty z Twoje skrzynki mailowej, aby pomoc Ci zarządzać swoimi kontaktami. Nie będziemy przechowywać Twojego hasła, ani kontaktów bez Twoje zgody."
     form:
@@ -15,7 +15,7 @@ pl:
       s5: Cześć,
 
 
-          I chcę zaprosić Cię do swoich znajomych na theStudentRanking.com.
+          chcę zaprosić Cię do swoich znajomych na theStudentRanking.com.
           Jeśli przyjmiesz to zaproszenie dowiesz się, jak radzisz sobie na tle innych studentów oraz zwiększysz swoje szanse na rozwój kariery.
 
 
