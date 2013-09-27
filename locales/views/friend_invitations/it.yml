@@ -21,3 +21,5 @@ it:
 
 
           %{name}
+      s6: "Trova velocemente le persone che potresti conoscere cercando tra i tuoi contatti email"
+      s7: Contatti importati
