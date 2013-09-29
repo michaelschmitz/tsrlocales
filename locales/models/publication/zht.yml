@@ -3,7 +3,8 @@ zht:
     attributes: &ATTRIBUTES
       link: 連結
       description: 描述
-      area: 類型
+      area: 性質
+      document: 證明文件
     area:
       1: '其他著作'
       2: '報紙文章'
