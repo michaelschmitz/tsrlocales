@@ -9,6 +9,7 @@ zht:
       end_date: 結束日期
       current: 現任
       organization_name: 組織或社團名稱
+      document: 證明文件
     area:
       1: "學校"
       2: "社交性質"
