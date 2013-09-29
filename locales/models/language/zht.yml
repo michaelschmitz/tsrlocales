@@ -5,6 +5,7 @@ zht:
       level: 程度
       certificate: 證書
       certificate_grade: 成績
+      document: 證明文件
     level:
       1: '基礎'
       2: '中階'
