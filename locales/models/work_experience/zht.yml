@@ -10,6 +10,7 @@ zht:
       summary: 工作內容簡述
       description: 工作內容詳述
       company_name: 公司名稱
+      document: 證明文件
     contract:
       1: '學徒'
       2: '實習'
