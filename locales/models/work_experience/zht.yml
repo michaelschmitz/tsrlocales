@@ -6,7 +6,7 @@ zht:
       current: 現職
       role: 職稱
       contract: 工作性質
-      average_hours: 每週工作平均時數
+      average_hours: 每週平均工作時數
       summary: 工作內容簡述
       description: 工作內容詳述
       company_name: 公司名稱
