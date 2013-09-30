@@ -28,7 +28,7 @@ en:
       s16: Report
       s17: Report received
       s18: Request sent
-      s19: Report inapropiate user
+      s19: Report inappropriate user
     public_recommendations:
       s1: Recommendations
       s2: No recommendations yet.
