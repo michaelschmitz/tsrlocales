@@ -1,15 +1,15 @@
 de:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: Bereich
       name: Name
-      level: Level
+      level: Niveau
     area:
-      1: Award
-      2: Prize(Sport)
+      1: Auszeichnung 
+      2: Preis (Sport)
     level:
-      1: Local
-      2: Country
+      1: Lokal
+      2: Regional
       3: National
       4: International
   activerecord:

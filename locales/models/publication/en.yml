@@ -3,7 +3,8 @@ en:
     attributes: &ATTRIBUTES
       link: Link
       description: Description
-      area: Area
+      area: Type
+      document: Document
     area:
       1: 'Other publication'
       2: 'Newspaper article'

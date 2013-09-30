@@ -1,0 +1,17 @@
+de:
+  scholarship:
+    attributes: &ATTRIBUTES
+      name: Name
+      start_date: Anfangsdatum
+      end_date: Enddatum
+      document: Dokument
+  activerecord:
+    models:
+      scholarship: Stipendium
+    attributes:
+      scholarship:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      scholarship:
+        <<: *ATTRIBUTES 

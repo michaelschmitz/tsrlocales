@@ -83,6 +83,8 @@ en:
       23: MBA
       9: Magister
       19: PhD
+      27: Master
+      28: Graduate
       21: Other
     grade_scale:
       "AR": "Argentina (0-10)"

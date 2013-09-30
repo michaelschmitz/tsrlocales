@@ -1,9 +1,10 @@
 en:
   award:
     attributes: &ATTRIBUTES
-      area: Area
+      area: Type
       name: Name
       level: Level
+      document: Document
     area:
       1: Award
       2: Prize(Sport)
@@ -14,7 +15,7 @@ en:
       4: International
   activerecord:
     models:
-      award: 'Award'
+      award: Scholarship
     attributes:
       award:
         <<: *ATTRIBUTES

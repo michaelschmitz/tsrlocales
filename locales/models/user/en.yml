@@ -13,6 +13,7 @@ en:
       gender: Gender
       about: About
       location: Location
+      remember_me: Remember me
     gender:
       1: 'Female'
       2: 'Male'
@@ -58,7 +59,7 @@ en:
       0: 'never'
       1: 'Once a week'
       2: 'Every two weeks'
-      4: 'Once a month month'
+      4: 'Once a month'
       12: 'Every three months'
       24: 'Every six months'
       48: 'Every twelve months'
@@ -66,7 +67,7 @@ en:
       0: 'never'
       1: 'Once a week'
       2: 'Every two weeks'
-      4: 'Once a month month'
+      4: 'Once a month'
       12: 'Every three months'
       24: 'Every six months'
       48: 'Every twelve months'

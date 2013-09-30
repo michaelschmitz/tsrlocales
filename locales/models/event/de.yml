@@ -1,16 +1,18 @@
 de:
   event:
     attributes: &ATTRIBUTES
-      title: Title
-      intro: Intro
-      description: Description
+      title: Titel
+      intro: Einleitung
+      description: Beschreibung
       sponsor: Sponsor
-      date: Date
-      location: Location
-      deadline: Deadline
+      date: Datum
+      location: Ort
+      deadline: Anmeldefrist
       link: Link
-      comment_on_location: Comment on location
+      comment_on_location: Kommentar zum Veranstaltungsort
   activerecord:
+    models:
+      event: 'Event'
     attributes:
       event:
         <<: *ATTRIBUTES

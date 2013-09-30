@@ -22,6 +22,7 @@ it:
     new: 'Nuovo'
     edit: 'Modifica'
     update: 'Aggiorna'
+    language: "Lingue"
     show: 'Mostra'
     delete: 'Cancella'
     yes: "Si"

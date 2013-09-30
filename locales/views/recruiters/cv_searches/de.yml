@@ -1,0 +1,51 @@
+de:
+  recruiters:
+    cv_searches:
+      edit:
+        s1: "Name festlegen"
+      comparisons:
+        s1: Weltweiter Vergleich
+      form:
+        s1: Stichwortsuche
+        s2a: Sprache
+        s2: "Sprache 1"
+        s3: "Sprache 2"
+        s4: "Sprache 3"
+        s5: "Sprache 4"
+        s6: Ort
+        s7: Verfügbarkeit
+        s8: Universität
+        s9: Erfahrung
+        s10: Fähigkeiten
+        s11: Reisebereitschaft
+        s12: Ergebnisse
+        s13: Punktzahl (minimal)
+        s14: Distanz max (km)
+        s15: Arbeitserfahrung in Monaten
+        s16: Praktikaerfahrung in Monaten
+        s17: Nationalität
+      recruiter_profile_small:
+        s1: Praktika
+        s2: Einstiegsposition
+        s3: Von Liste entfernen
+        s4: Zu Kandidaten hinzufügen
+        s5: Nachricht schicken
+      recruiter_recommendations:
+        s1: Empfehlungen
+        s2: Noch keine Empfehlungen
+      recruiter_skills:
+        s1: Fähigkeiten
+        s2: Bestätigen
+        s3: Dieser Nutzer hat noch keine Fähigkeiten angegeben
+      index:
+        s1: Meine gespeicherten Suchergebnisse
+        s2: Name
+        s3: Kandidaten anzeigen
+        s4: Bearbeiten
+        s5: Weitersuchen
+        s6: Kandidaten
+        s7: Namen ändern
+        s8: Anzeigen
+        s9: Neue Suche
+      show:
+        s1: Datenbank durchsuchen

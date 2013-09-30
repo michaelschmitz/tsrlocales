@@ -30,6 +30,7 @@ es:
     search: "Buscar"
     details: "Detalles"
     close: "Cerrar"
+    language: "Idioma"
     save: "Guardar"
     edit: "Editar"
     cancel: "Cancelar"

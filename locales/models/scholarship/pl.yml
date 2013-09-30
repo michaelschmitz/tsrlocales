@@ -1,0 +1,14 @@
+pl:
+  scholarship:
+    attributes: &ATTRIBUTES
+      name: Nazwa
+      start_date: Data rozpoczęcia
+      end_date: Data zakończenia
+  activerecord:
+    attributes:
+      scholarship:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      scholarship:
+        <<: *ATTRIBUTES 

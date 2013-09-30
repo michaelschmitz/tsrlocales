@@ -1,0 +1,48 @@
+de:
+  student_ranking:
+    public_anon_profile_small:
+      s1: Anonym
+      s2: Praktikum
+      s3: Einstiegsposition
+      s4: Details
+    public_profile_small:
+      s1: Praktikum
+      s2: Einstiegsposition
+      s3: Details
+    public_profile:
+      s1: xxx
+      s2: Student
+      s3: Aktuell
+      s4: Früher
+      s5: Ausbildung
+      s6: Praktika
+      s7: Einstiegsposition
+      s8: Ja, von
+      s9: Ja
+      s10: Empfehlungen
+      s11: Bestätige Fähigkeiten
+      s12: Kontakte
+      s13: Nachricht
+      s14: Verbinden
+      s15: Mit Lebenslauf vergleichen
+      s16: Melden
+      s17: Meldung erhalten
+      s18: Anfrage geschickt
+    public_recommendations:
+      s1: Empfehlungen
+      s2: Bisher keine Empfehlungen
+      s3: Empfehlung entfernen
+      s4: Empfehlen
+    public_skills:
+      s1: Fähigkeiten
+      s2: Bestätigen
+      s3: Dieser Teilnehmer hat noch keine Fähigkeiten angegeben.
+      s4: Bestätigung zurückziehen
+    show:
+      s1: Weltweites Studentenranking
+      s2: Nach Namen suchen
+      s3: Leistungspunktzahl
+      s4: Sozialpunkte
+      s5: Suche
+      s6: Keine Resultate für diese Suche
+      s7: Ergebnisse

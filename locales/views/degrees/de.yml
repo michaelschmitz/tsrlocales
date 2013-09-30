@@ -1,0 +1,20 @@
+de:
+  degrees:
+    edit:
+      s1: Studium bearbeiten
+    modal:
+      html:
+        s1: Studium
+    new:
+      s1: Neues Studium
+    show:
+      s1: Studium
+    degree:
+      s1: Notendurchschnitt
+      s2: Fakultät
+      s3: Erster Schwerpunkt
+      s4: Zweiter Schwerpunkt
+    form:
+      s1: Universität hinzufügen
+      s2: Austauschuniversität hinzufügen
+      s3: Aus der Liste auswählen oder

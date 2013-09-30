@@ -17,7 +17,7 @@ en:
       s5: Education
       s6: Internships
       s7: Graduate
-      s8: Yes, from 
+      s8: Yes
       s9: Yes
       s10: Recommendations
       s11: Skill confirmations
@@ -28,6 +28,7 @@ en:
       s16: Report
       s17: Report received
       s18: Request sent
+      s19: Report inapropiate user
     public_recommendations:
       s1: Recommendations
       s2: No recommendations yet.
@@ -45,4 +46,5 @@ en:
       s4: Social Score
       s5: Search
       s6: There are no results available for this search. Perhaps try other search terms?
-      s7: Results   
+      s7: Results 
+      s8: Recruiters can see the complete CV.  

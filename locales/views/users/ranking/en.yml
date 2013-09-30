@@ -630,12 +630,19 @@ en:
         asessment_body_1: This ranking includes all participants that share your year of birth and ignores your study background. This comparison is therefore not suitable to assess your career chances, especially if you are strongly specialized, have just begun your studies or are younger than other participants. However, this chart may motivate you to focus on your work results and to invest your time wisely to gain significant experience that will help you becoming more valuable.
         asessment_body_2: This ranking includes all participants from %{university} which share your year of birth. This comparison is suitable to assess your career chances, especially if your university only offers similar degrees from one field of study. If your university is large, then this comparison is only indicative of your career chances if you belong to the leading group.
         in: in
+        you: You
+        others: Others
+        s1: All participants
+        s2: Ranking group
+        s3: Top
       achievement_ranking:
         s1: Achievement ranking comparison
         s2: "Points for +1"
         s3: Congratulations!
       breakdown_chart:
         s1: Example participants from groups, born in
+        s2: Group
+        s3: Engagement
       charts:
         s0: Comparison charts
         s1: Comparison
@@ -643,13 +650,16 @@ en:
         s3: Global
         s4: Breakdown
         s5: National
+        s6: Click the navigation bar to load your charts.
       preferred_employer:
         s1: Company analysis
+        s2: Click the company names to load your charts.
       profile:
         s1: View Profile
         s2: Global rank
         s3: out of
         s4: "points for +1"
+        s5: All ranking comparisons are always comparing you with other students that share your year of birth (%{year}), with other factors depending on the level of analysis as indicated there
       global_rank:
         s2: Global rank
         s3: out of

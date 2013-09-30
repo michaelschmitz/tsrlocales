@@ -4,6 +4,7 @@ fr:
       s1: "theStudentRanking.com fournit le plus grand du monde classement mondial d'étudiants Si vous êtes un étudiant à la recherche pour en apprendre davantage au sujet de votre valeur marchande, au sujet de votre point de vue sur le marché du travail et si vous voulez vous trouvé et embauché par certains des plus grands du monde. entreprises, alors nous sommes votre destination idéale. "
       s2: "Pour les entreprises, nous proposons des solutions de recrutement et des services axés sur les diplômés et les étudiants nous donnent accès à des candidats idéaux pour les programmes de talent, des programmes de cycles supérieurs et stagiaires pogroms jeunes professionnels et des hauts potentiels peuvent être consultés sur notre site..."
   dry:
+    language: "Langue"
     languages:
       106: "Akan"
       122: "Albanian"

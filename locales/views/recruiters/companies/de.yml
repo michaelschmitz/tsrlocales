@@ -1,0 +1,23 @@
+de:
+  recruiters:
+    companies:
+      flash:
+        create: Firma erfolgreich gespeichert.
+        update: Firma bearbeitet.
+      form:
+        s1: Addresse
+        s2: Rechnungsstellung
+        s3: Links
+      edit:
+        s1: Firma bearbeiten
+      new:
+        s1: Firma bearbeiten   #This is correct -> Every new recruiter always has a company, so he can only edit it, never create a new one
+      show:
+        s1: Firmeninformation
+        s2: Addresse
+        s3: Weitere Informationen
+        s4: Folgende Informationen sind nicht öffentlich sichtbar
+        s5: UST-Nummer
+        s6: Firmenwebseite
+        s7: Facebook-Seite
+ 

@@ -1,56 +1,66 @@
 de:
   job:
     attributes: &ATTRIBUTES
-      title: Title
-      description: Description
-      locations: Locations
-      contact: Contact
+      title: Titel
+      description: Beschreibung
+      locations: Arbeitsort
+      contact: Vertragsart
       link: Link
-      run_until: Run Until
-      views: Views
-      area: Area
-      contract_type: Contract Type
-      contract: Contract
+      run_until: Laufzeit bis
+      views: Ansichten
+      area: Bereich
+      contract_type: Vertragstyp
+      contract: Vertrag
       longitude: Longitude
       latitude: Latitude
-      disabled: Disabled
-      disabled_on: Disabled On
+      disabled: Deaktiviert
+      disabled_on: Deaktiviert am
       service_level: Service Level
-      advertising_budget: Advertising Budget
-      delivery: Delivery
-      describe_role: Describe Role
-      describe_qualification: Describe Qualification
-      describe_benefits: Describe Benefits
-      describe_application: Describe Application
-      applications: Applications
-      alternative_name: Alternative Name
+      advertising_budget: Werbebudget
+      delivery: Anlieferung
+      describe_role: Rollenbeschreibung
+      describe_qualification: Gewünschte Qualifikation
+      describe_benefits: Vorteile
+      describe_application: Bewerbungsprozess
+      applications: Bewerbungen
+      alternative_name: Firmenname (Falls Sie für eine andere Firma posten)
       document: PDF mit Stellenbeschreibung
     area:
-      1: Bildung
-      2: Construction
-      3: Consulting
-      4: Finances
-      5: Research
-      6: Management and investments
-      7: Information technology
-      8: Engineering
-      9: Logistics
-      10: Marketing
-      11: Medicine
-      12: Organisation
-      13: Human resources
-      14: Production
-      15: Sales
+      1: Bildung und Erziehung
+      2: Immobilien und Konstruktion
+      4: Buchhaltung und Finanzen
+      5: Forschung
+      6: Management
+      7: Informationstechnologie
+      8: Entwicklugns- und Ingenieurdienstleistungen
+      9: Logistik
+      10: Marketing und Werbung
+      11: Medizin und Gesundheit
+      12: Organisation und Verwaltung
+      13: Personalwesen
+      14: Technische Tätigkeiten, Produktion
+      15: Verkauf
+      17: Bankgeschäft
+      18: Kundendienst
+      19: Recht
+      20: Tourismus und Gastgewerbe
+      21: Wissenschaft
+      22: Öffentliche Verwaltung
+      23: Kunst und Design
+      24: Anderes
+      27: Kommunikation, Journalismus und PR
     contract_type:
-      1: Limited
-      2: Contract
-      3: Internship
-      4: Project
-      6: Traineeship
+      1: Befristeter Vertrag
+      2: Unbefristeter Vertrag
+      3: Praktikum
+      4: Projektmitarbeit
+      6: Traineeprogramm
     contract:
-      1: Part time
-      2: Full time
+      1: Teilzeit
+      2: Vollzeit
   activerecord:
+    models:
+      job: 'Stellenangebot'
     attributes:
       job:
         <<: *ATTRIBUTES

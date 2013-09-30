@@ -9,6 +9,7 @@ en:
       end_date: End Date
       current: Current
       organization_name: Organization name
+      document: Document
     area:
       1: "University/School"
       2: "Social"

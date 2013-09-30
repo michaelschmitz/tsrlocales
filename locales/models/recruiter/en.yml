@@ -8,6 +8,7 @@ en:
       first_name: First name
       last_name: Last name
       title: Title
+      remember_me: Remember me
   activerecord:
     models:
       recruiter: 'Recruiter'

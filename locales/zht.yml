@@ -30,6 +30,7 @@ zht:
     search: "搜尋"
     save: "儲存"
     send: "送出"
+    language: '語言'
     cancel: "取消"
     details: "詳細內容"
     close: "關閉"

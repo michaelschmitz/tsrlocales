@@ -16,7 +16,7 @@ it:
         s9: "Che lingue parli?"
     jobs_suggested:
         s1: "Offerte di lavoro consigliate"
-   signup_modal:
+    signup_modal:
         s1: Accedi come 
         s2: Accedi
         s3: Non hai ancora un account?

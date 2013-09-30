@@ -24,6 +24,7 @@ pl:
     edit: 'Edytuj'
     update: 'Aktualizuj'
     show: 'Pokaż'
+    language: "Język"
     delete: 'Usuń'
     search: "Szukaj"
     yes: "Tak"

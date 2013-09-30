@@ -1,22 +1,22 @@
 de:
   degree:
     attributes: &ATTRIBUTES
-      name: Name
-      country: Country
-      university_id: University
-      title: Title
-      credits: Credits
-      start_date: Start Date
-      end_date: End Date
-      grade_scale: Grade Scale
-      average: Average
-      study_area: Study Area
-      faculty: Faculty
-      major: Major
-      minor: Minor
-      document: Document
+      name: Name des Studiums
+      country: Land
+      university_id: Universität
+      title: Titel
+      credits: ECTS
+      start_date: Anfangsdatum
+      end_date: Enddatum
+      grade_scale: Notenskala
+      average: Notenschnitt
+      study_area: Vergleichsgruppe
+      faculty: Fakultät
+      major: Schwerpunkt
+      minor: Zweiter Schwerpunkt
+      document: Dokument
       university:
-        name: University Name
+        name: Name der Universität
     study_area: 
       1: "Agrarwissenschaft"
       13: "Anderes"
@@ -84,18 +84,18 @@ de:
       9: "Magister"
       19: "PhD"
     grade_scale:
-      AR: "Argentina (0-10)"
+      AR: "Argentinien (0-10)"
       AU: "Australien (50-100%)"
       BE: "Belgien (60-100%)"
-      BO: "Bolivia (0-100%)"
+      BO: "Bolivien (0-100%)"
       BR: "Brasilien (60-100%)"
       CL: "Chile (0.0-7.0)"
       CN: "China (60-100%)"
-      CO: "Colombia (1.0-5.0)"
+      CO: "Kolumbien (1.0-5.0)"
       CR: "Costa Rica (0.00-10.00)"
-      CU: "Cuba (0.00-5.00)"
+      CU: "Kuba (0.00-5.00)"
       DE: "Deutschland (4,0-1,0)"
-      DO: "Dominican Republic (0-100%)"
+      DO: "Dominikanische Republik (0-100%)"
       DK: "Dänemark (2-12)"
       EC: "Ecuador (0.0-10.0)"
       SV: "El Salvador (1.0-10.0)"
@@ -116,7 +116,7 @@ de:
       MX: "Mexico (60-100)"
       NI: "Nicaragua (0-100)"
       NL: "Niederlande (5.5-10)"
-      'NO': "Norwegen (E, D, C, B, A)"
+      NO: "Norwegen (E, D, C, B, A)"
       PA: "Panama (0-100)"
       PY: "Paraguay (1-5)"
       PE: "Peru (0-20)"
@@ -135,6 +135,8 @@ de:
       US: "Vereinigte Staaten von Amerika (1.0-4.0)"
       AT: "Österreich (4.0-1.0)"
   activerecord:
+    models:
+      degree: 'Studium'  
     attributes:
       degree:
         <<: *ATTRIBUTES

@@ -17,6 +17,7 @@ en:
       s1: "theStudentRanking.com provides the world's biggest global student ranking. If you are a student looking to learn more about your market value, about your perspective on the job market and if you want to get found and hired by some of the world's leading companies, then we are your ideal destination."
       s2: "For companies, we offer recruiting solutions and services focused on graduates and students. We provide access to ideal candidates for talent programs, graduate programs and trainee programs. Young professionals and high potentials can be found on our site."
   dry:
+    add: Add
     reset: 'Reset'
     back: 'Back'
     new: 'New'
@@ -28,11 +29,13 @@ en:
     no: "No"
     na: "Not available"
     search: "Search"
+    language: "Language"
     save: "Save"
     send: "Send"
     cancel: "Cancel"
     details: "Details"
     close: "Close"
+    confirm: "Are you sure?"
     hi: Hello
     here: here
     customize_settings_link: Customize which messages you receive

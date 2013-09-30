@@ -1,10 +1,13 @@
 de:
   message:
     attributes: &ATTRIBUTES
-      topic: Topic
-      body: Body
-      copy: Recieve copy of this message
+      to: An
+      topic: Betreff
+      body: Nachricht
+      copy: Kopie der Nachricht erhalten
   activerecord:
+    models:
+      message: 'Nachricht'
     attributes:
       message:
         <<: *ATTRIBUTES
