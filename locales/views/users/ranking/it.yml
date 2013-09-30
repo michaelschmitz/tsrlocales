@@ -640,6 +640,8 @@ it:
         s3: Congratulazioni!        
       breakdown_chart: 
         s1: "Esempio di gruppo di partecipanti nati nel"
+        s2: Gruppo
+        s3: Impegno
       charts:
         s0: Grafici di confronto
         s1: Confronto
