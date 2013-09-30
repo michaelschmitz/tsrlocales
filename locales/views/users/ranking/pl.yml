@@ -652,6 +652,7 @@ pl:
         s2: Ranking globalny
         s3: z
         s4: "punktów do +1"
+        s5: Wszystkie ranking  porównują Twój wynik z wynikami innych studentów, którzy urodzili się w tym samym roku - (% {rok}), na podstawie różnych czynników, w zależności od wskazanego poziomu analizy. 
       global_rank:
         s2: Ranking globalny
         s3: z
