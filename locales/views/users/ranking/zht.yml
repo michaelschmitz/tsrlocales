@@ -641,6 +641,8 @@ zht:
         s3: 恭喜！
       breakdown_chart:
         s1: 排名群組依參與者出生自
+        s2: 群組
+        s3: 社交活動
       charts:
         s0: 比較圖表
         s1: 比較
