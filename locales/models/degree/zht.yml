@@ -58,32 +58,36 @@ zht:
       14: "工程 (電氣)"
       13: "其他"
     title: 
-      21: "Anderes"
-      25: "Associate"
-      2: "B.A."
-      7: "B.Ed"
-      3: "B.Eng"
-      5: "B.F.A."
-      6: "B.Mus"
-      1: "B.Sc."
-      22: "B.Sc. Honours"
-      15: "Diplom (Dual)"
-      16: "Diplom (FH)"
-      17: "Diplom (Univ.)"
-      18: "Dr. med."
-      24: "EMBA"
-      4: "LL.B."
-      26: J.D.      
-      20: "Lic."
-      10: "M.A."
-      13: "M.Ed"
-      11: "M.Eng"
-      12: "M.F.A."
-      14: "M.Mus"
-      8: "M.Sc."
-      23: "MBA"
-      9: "Magister"
-      19: "PhD"
+      25: Associate
+      2: B.A.
+      7: B.Ed
+      3: B.Eng
+      5: B.F.A.
+      6: B.Mus
+      1: B.Sc.
+      22: B.Sc. Honours
+      28: Bachelor  
+      15: Diplom (Dual)
+      16: Diplom (FH)
+      17: Diplom (Univ.)
+      18: Dr. med.
+      24: EMBA
+      26: J.D.
+      4: LL.B.
+      20: Lic.
+      9: Magister
+      27: Master
+      10: M.A.
+      13: M.Ed
+      11: M.Eng
+      12: M.F.A.
+      14: M.Mus
+      8: M.Sc.
+      9: Magister
+      27: Master
+      23: MBA
+      19: PhD
+      21: Other
     grade_scale:
       TW: "台灣 (1.0-4.0)"
       CN: "中國 (60-100)"
