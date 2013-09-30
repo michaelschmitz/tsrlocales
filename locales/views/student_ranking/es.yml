@@ -27,7 +27,6 @@ es:
       s15: Comparar con tu CV
       s16: Declarar fraudulento
       s17: Informe recibido
-      s18: Las empresas pueden ver su CV.  
     public_recommendations:
       s1: Recomendaciones
       s2: Sin recomendaciones.
@@ -45,3 +44,4 @@ es:
       s5: Buscar
       s6: No hay resultados disponibles para esta búsqueda. Le recomendamos que utilice otras palabras clave.
       s7: Resultados
+      s8: Las empresas pueden ver su CV.  
