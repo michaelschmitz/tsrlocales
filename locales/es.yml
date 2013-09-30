@@ -17,6 +17,7 @@ es:
         s1: "theStudentRanking.com es el mayor ránking de estudiantes del mundo. Si estás estudiando y quieres saber más sobre tu valor en el mercado laboral, sobre tus perspectivas de futuro y sobre cómo conseguir un puesto de trabajo en las grandes empresas de todo el mundo, aquí es donde deberías estar."
         s2: "En cuanto a las empresas, ofrecemos soluciones para la selección de personal centradas en estudiantes y recién graduados. También ofrecemos programas de formación de talentos dirigidos a los mejores estudiantes. Las empresas encontrarán aquí un gran potencial y los grandes profesionales del futuro."
   dry:
+    confirm: Estás seguro?
     reset: 'Reiniciar'
     back: 'Atrás'
     new: 'Nuevo'
