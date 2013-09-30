@@ -651,6 +651,7 @@ it:
         s2: "Ranking globale"
         s3: su
         s4: "punti per +1"
+        s5: "Tutte le classifiche e i grafici di confronto si basano sugli utenti nati nello stesso anno (%{year}) e considerano anche altri fattori che dipendono dal livello di analisi indicato"
       global_rank:
         s2: "Ranking globale"
         s3: su
