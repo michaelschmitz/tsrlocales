@@ -8,6 +8,7 @@ pl:
       end_date: Data zakończenia
       grade_scale: Skala oceniania
       name: Nazwa szkoły
+      document: Dokument
     grade_scale: 
       AU: "Australia (50-100%)"
       AT: "Austria (4.0-1.0)"

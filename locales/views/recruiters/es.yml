@@ -27,6 +27,10 @@ es:
         s2: Visitas
         s3: No hay inscripciones.
     mailer:
+      confirmation_instructions:
+        s1: Bienvenido
+        s2: Mediante el siguiente enlace podrá confirmar su nueva cuenta. 
+        s3: Confirmar cuenta
       email_message:
         s1: "le ha enviado un mensaje"
         s2: "Su dirección de email está segura y no ha sido facilitada a nadie. Esta empresa ha usado un formulario online en nuestra web para ponerse en contacto con usted. Si lo desea, puede modificar sus preferencias de contacto pinchando en \"Mi cuenta\" una vez iniciada su sesión."

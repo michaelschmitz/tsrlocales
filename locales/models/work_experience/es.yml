@@ -6,10 +6,11 @@ es:
       current: Actualmente
       role: Posición
       contract: Contrato
-      average_hours: Promedio de horas
+      average_hours: Promedio de horas por semana
       summary: Resumen
       description: Descripción
       company_name: Nombre de la empresa
+      document: Documento
     contract:
       1: 'Aprendiz'
       2: 'Prácticas'

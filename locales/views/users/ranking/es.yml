@@ -38,7 +38,7 @@ es:
         s126: "Usted ha trabajado duro para recibir dicha beca y debería explicar cómo le ha ayudado a alisar el camino, aunque sea un poquito, mientras se enfocaba en mejorar aún más su rendimiento académico."
         s127: "Siga así!"
         s128: Mejoras
-        s129: "Carece de experiencia laboral significativa."
+        s129: "Falta de experiencia laboral significativa."
         s130: "La falta de experiencia laboral significativa es considerada por las empresas como un factor de riesgo. Si usted nunca trabajó en una industria antes, tal vez no le resulte fácil comprender o respetar la cultura del trabajo y las tareas desempeñadas por sus compañeros en su futuro puesto de trabajo. Existe un pequeño riesgo en que usted se desilusione por la carga de trabajo diario e intentará buscar otras oportunidades de trabajo."
         s131: "Complete algunas prácticas en industrias de referencia y experimente cómo se siente. Aunque no esté realmente interesado, esto le permitirá crear una lista de trabajos que excluye y de esta forma generar gradualmente una opinión sobre el tipo de industria en el que realmente quiere trabajar."
         s132: "Sus notas escolares están por debajo de la media."
@@ -546,6 +546,7 @@ es:
         s17a: "Esto satisfará los criterios de cualquier reclutador que evalúe tu perfil. Como ya sabrás, el historial académico suele ser la parte menos relevante en el entorno laboral; la verdadera diferencia reside en la experiencia práctica, los contactos y las habilidades que uno posee."
         s17b: "Tu experiencia laboral en varios puestos de trabajo resulta muy útil y te distancia de otros candidatos. Intenta encontrar un puesto de trabajo de jornada completa dentro de tu sector preferido para continuar creciendo profesionalmente."
         s17c: "xxx"
+        s17c: "Puedes usar la experiencia acumulada en otros puestos para abrir nuevas puertas y vender tus habilidades y capacidades describiendo de qué manera van a ser útiles para nuevos retos en otros puestos de trabajo."
         s17d: "Cuando lo consigas, trata de obtener los mejores resultados con el fin de convertirte en un valor para tus superiores."
         s17e: "De todas formas, tu mayor desafío puede que sea la actual situación económica. Intenta encontrar un puesto de trabajo profesional de jornada completa aunque sea en un sector distinto al tuyo y no dejes de crecer profesionalmente. Esta experiencia te servirá para conseguir un puesto mejor y en otro sector más de tu gusto en el futuro; además, puedes aprovechar esta experiencia para aumentar tu red de contactos en otros campos."
         s17f: "Intenta buscar tus oportunidades – se presentarán por sí solas."
@@ -629,8 +630,21 @@ es:
         s9e: "Una de las mejores formas de aprender más sobre un sector es haciendo prácticas (a veces no remuneradas) durante unas semanas o meses. Te permitirá conocer mejor una empresa, el sector y un determinado puesto de trabajo, todo al mismo tiempo. Que las prácticas sean interesantes, remuneradas o satisfactorias no importa tanto como mantener los ojos y los oídos atentos a lo que hacen las otras personas e imaginarte a ti mismo desempeñado tareas en dicho puesto de trabajo, en la empresa o incluso en el sector. Basándonos en tu experiencia, es probable que ya tengas una idea de la organización para la que trabajaste."
         s9f: "¿Volverías a trabajar ahí? ¿Trabajarías una jornada completa para ellos? ¿Te imaginas trabajando en dicho sector los próximos 5 años? Aunque tu respuesta sea ‘sí’, no dejes de buscar más experiencias mientras tengas la libertad para hacerlo. Aprovecha tu siguiente experiencia laboral para incrementar tu red de contactos y relacionarte con colegas o personas con poder de decisión. Si haces un buen trabajo, te ayudarán en tu carrera, y ya sabes cuán importante es el factor humano en estas situaciones."
         s9g: "Teniendo ya tus estudios de grado, no te queda mucho tiempo para recoger estas experiencias, así que aprovecha todas las oportunidades relevantes que puedas."
+      main_chart:
+        explanation_button: "Mostrar explicación"
+        asessment_title: <b>Cálculo</b> Has obtenido %{points} puntos y estás dentro del top %{percent}%
+        asessment_body_1: "Este ranking está basado en usuarios nacidos el mismo año que tú, sin tener en cuenta los estudios. Por este motivo, esta comparación no debe ser tomada como guía a la hora de considerar tus posibilidades de desarrollar tu carrera profesional, sobre todo si tienes una especialización muy concreta, acabas de empezar los estudios, o si eres más joven que otros participantes. No obstane, este gráfico puede ser motivador, puede ayudarte a enfocar tu estudio en la obtención de resultados y a invertir bien tu tiempo con el fin de ganar la suficiente experiencia que hará que tu valor de mercado aumente."
+        asessment_body_2: "Este ranking está basado en todos los usuarios que estudiaron en %{university} y que nacieron el mismo año que tú. Este gráfico puede indicar tus posibilidades de desarrollo de carrera, especialmente si tu universidad ofrece estudios dentro de un mismo campo. Si tu universidad es muy grande, esta comparación solo sirviría si tú formaras parte del top 5 o 10%."
+        in: en
+        you: Tú
+        others: Otros
+        s1: Todos los usuarios
+        s2: Grupo comparativo
+        s3: Top
       breakdown_chart: 
         s1: "Ejemplo de usuarios en grupos, nacidos en"
+        s2: Grupo
+        s3: Servicio
       charts: 
         s0: Gráficos comparativos
         s1: Comparación
@@ -638,19 +652,22 @@ es:
         s3: Global
         s4: Desglose
         s5: Nacional
-      main_chart: 
+        s6: "Haz clic en la barra de navegación para mostrar los gráficos."
+        main_chart: 
         asessment_body_1: "Este ranking incluye todos los participantes de la %{university} sin tener en cuenta la carrera académica seleccionada; por lo tanto, no refleja sus posibilidades reales de encontrar un trabajo en su área, sobre todo si usted ha trabajado duro para conseguir especializarse, acaba de empezar a estudiar o si es más joven que el resto de participantes. No obstante, este gráfico puede serle de ayuda para automotivarse, enfocar sus estudios en una dirección determinada o invertir su tiempo sabiamente para conseguir aumentar su valor en el mercado laboral."
         asessment_body_2: "Este ranking incluye todos los participantes de la %{university} que nacieron en el mismo año. Esta comparativa permite conocer sus posibilidades para desarrollar su carrera profesional, sobre todo si su universidad se enfoca únicamente en cursos similares dentro de una misma area de estudios. Si su universidad es muy grande, esta comparativa le servirá para tener una idea de sus posibilidades en caso de que usted pertenezca al grupo de destacados."
-        asessment_title: "<b>Assessment</b> You earned %{points} Points and are grouped in the top %{percent}%"
+        asessment_title: "<b>Evaluación</b> Has obtenido %{points} puntos y estás dentro del top %{percent}%"
         explanation_button: "Mostrar explicación"
         in: in
       preferred_employer: 
         s1: "Análisis de empresa"
+        s2: "Haz clic en el nombre de la empresa para mostrar los gráficos."
       profile: 
         s1: "Ver CV"
         s2: "Posición global"
         s3: de
         s4: "puntos para +1"
+        s5: "Todos los rankings y gráficos comparativos se basan en usuarios que nacieron en el mismo año que tú (%{year}), teniendo en cuenta, además, otros factores dependiendo del nivel de análisis deseado."
       global_rank:
         s2: "Posición global"
         s3: de

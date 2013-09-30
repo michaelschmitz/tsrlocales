@@ -17,16 +17,17 @@ es:
       s5: Educación
       s6: Prácticas
       s7: Graduado
-      s8: Sí, por 
+      s8: Sí
       s9: Sí
       s10: Recomendaciones
       s11: Confirmación habilidades
       s12: Contactos
       s13: Mensaje
-      s14: Contactar
+      s14: Añadir a contactos
       s15: Comparar con tu CV
       s16: Informe
       s17: Informe recibido
+      s18: Las empresas pueden ver su CV.  
     public_recommendations:
       s1: Recomendaciones
       s2: Sin recomendaciones.

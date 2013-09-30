@@ -6,11 +6,11 @@ es:
       expired: "ha caducado, por favor, solicite una nueva"
       not_found: "no encontrado"
       already_confirmed: "ya ha sido confirmada, por favor, intente iniciar sesión"
+      confirmation_period_expired: "se debe confirmar en %{period}, por favor, solicite una nueva"
       not_locked: "no fue bloqueada"
       not_saved:
         one: "1 error impidió que %{resource} fuera guardado:"
         other: "%{count} errores impidieron que este %{resource} fuera guardado:"
-
   devise:
     failure:
       already_authenticated: 'Su sesión ya ha sido iniciada.'
@@ -21,8 +21,7 @@ es:
       invalid_token: 'Código de verificación incorrecto.'
       timeout: 'Su sesión ha caducado, por favor, inicie sesión nuevamente para continuar.'
       inactive: 'Su cuenta aún no ha sido activada.'
-      user:
-        not_found_in_database: "Este usuario no está registrado aquí"
+      not_found_in_database: 'Email o contraseña incorrectos.'
     sessions:
       signed_in: 'Inicio de sesión con éxito.'
       signed_out: 'Cierre de sesión con éxito.'
@@ -49,12 +48,24 @@ es:
       unlocked: 'Su cuenta ha sido desbloqueada con éxito. Por favor, inicie sesión para continuar.'
       send_paranoid_instructions: 'En caso de que su dirección de correo electrónico exista en nuestra base de datos, recibirá, en unos minutos y en dicho correo electrónico, un email con instrucciones para desbloquear su cuenta.'
     omniauth_callbacks:
-      success: 'Verificado con éxito de %{kind} cuenta.'
-      failure: 'No se pudo verificar de %{kind} debido a "%{reason}".'
+      success: 'Verificado con éxito %{kind} cuenta.'
+      failure: 'No se pudo verificar %{kind} debido a "%{reason}".'
     mailer:
       confirmation_instructions:
         subject: 'Instrucciones de confirmación'
+        s1: Hola
+        s2: "La dirección de correo electrónico debe ser confirmada antes de usar la cuenta. Para ello, haz click en el siguiente enlace"
+        s3: "Confirmar dirección de correo electrónico y cuenta"
       reset_password_instructions:
         subject: 'Instrucciones para recuperar contraseña'
+        s1: Hola
+        s2: "Ha sido solicitado un cambio de contraseña para tu cuenta. El siguiente enlace permitirá el cambio de contraseña."
+        s3: "Cambiar contraseña"
+        s4: "Si no ha solicitado un cambio de contraseña, ignore este email."
+        s5: "La nueva contraseña solo funcionará cuando se haya clicado en este enlace y se haya añadido la nueva contraseña."                
       unlock_instructions:
         subject: 'Instrucciones para desbloquear'
+        s1: Hola
+        s2: "Esta cuanta ha sido bloqueada por motivos de seguridad."
+        s3: "Para desbloquear la cuenta, haga click en el siguiente enlace"
+        s4: "Desbloquear cuenta"  

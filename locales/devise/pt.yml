@@ -39,7 +39,7 @@ pt:
       failure: "Não foi possível autenticar a partir da sua conta %{kind} porque \"%{reason}\"."
       success: "Autenticação bem sucedida a partir da sua conta %{kind}."
     passwords: 
-      no_token: "Não conseguirá aceder a esta página sem ser reencaminhado pelo e-mail de reinício da sua password. Se foi reencaminhado de um e-mail de reinício de password, por favor confime se utilizou corretamente o URL disponibilizado."
+      no_token: "Não conseguirá aceder a esta página sem ser reencaminhado pelo e-mail de reinício da sua password. Se foi reencaminhado de um e-mail de reinício de password, por favor confirme se utilizou corretamente o URL disponibilizado."
       send_instructions: "Dentro de alguns minutos irá receber um e-mail com instruções sobre como fazer reset à sua password."
       send_paranoid_instructions: "Se o seu e-mail existir na nossa base de dados, irá receber dentro de poucos minutos um link para recuperar a sua password."
       updated: "A sua password foi alterada com sucesso. Encontra-se agora login."

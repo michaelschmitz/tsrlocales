@@ -25,7 +25,7 @@ pl:
       applications: Aplikacje
       alternative_name: Alternatywna nazwa
     area:
-      1: Edukacja, Kształcenia,Szkolelenia
+      1: Edukacja, Kształcenia ,Szkolenia
       2: Nieruchomości i Budownictwo
       4: Finanse i Rachunkowość
       5: Badania i Rozwój
@@ -35,7 +35,7 @@ pl:
       9: Transport i Logistyka
       10: Marketing
       11: Medycyna i Zdrowie
-      12: Administarcja iZarządzanie Projektami
+      12: Administarcja i Zarządzanie Projektami
       13: Human Resources i Kadry
       14: Produkcja i Przemysł
       15: Sprzedaż

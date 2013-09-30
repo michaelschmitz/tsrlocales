@@ -629,12 +629,19 @@ it:
         asessment_body_1: Questo ranking include tutti i partecipanti di %{university} e ignora il tuo background accademico. Questo confronto non è quindi adatto a valutare le tue chance di carriera, soprattutto se sei altamente specializzato, hai appena iniziato gli studi o sei più giovane degli altri partecipanti. Comunque questo grafico potrebbe motivarti a focalizzare sui risultati del tuo lavoro, ad impiegare saggiamente il tuo tempo e ad accumulare esperienze significative che ti aiuteranno ad accrescere il tuo valore.
         asessment_body_2: Questo ranking include tutti i partecipanti di %{university} che sono nati nel tuo stesso anno. Questo confronto è adatto a valutare le tue possibilità di carriera, soprattutto se provieni da un'università che offre titoli di studio simili in un determinato ambito di studio. Se la tua università è molto grande questo tipo di confronto è solamente indicativo delle tue possibilità di carriera se fai parte dei gruppi maggiori.
         in: in
+        you: Tu
+        others: Altri
+        s1: Tutti gli utenti
+        s2: Gruppo di confronto
+        s3: Top
       achievement_ranking:
         s1: Confronto per punteggio personale
         s2: "Punti per +1"
         s3: Congratulazioni!        
       breakdown_chart: 
         s1: "Esempio di gruppo di partecipanti nati nel"
+        s2: Gruppo
+        s3: Impegno
       charts:
         s0: Grafici di confronto
         s1: Confronto
@@ -642,13 +649,16 @@ it:
         s3: Globale
         s4: Analisi per anno di nascita
         s5: Nazionale
+        s6: Clicca sulla barra di navigazione per caricare i tuoi grafici
       preferred_employer: 
         s1: "Analisi dell'azienda"
+        s2: Clicca sul nome della compagnia per caricare i tuoi grafici
       profile: 
         s1: "Visualizza profilo"
         s2: "Ranking globale"
         s3: su
         s4: "punti per +1"
+        s5: "Tutte le classifiche e i grafici di confronto si basano sugli utenti nati nello stesso anno (%{year}) e considerano anche altri fattori che dipendono dal livello di analisi indicato"
       global_rank:
         s2: "Ranking globale"
         s3: su

@@ -2,7 +2,7 @@ it:
   friend_invitations:
     modal:
       html:
-        s1: Aggiungi contatti
+        s1: Invita amici
         s2: I tuoi contatti sono al sicuro con noi
         s3: Importiamo la tua rubrica in modo da facilitare la connessione con i tuoi contatti. Non memorizzeremo la tua password e non invieremo nessuna email senza il tuo consenso.
     form:
@@ -13,7 +13,7 @@ it:
       s5: Ciao,
 
 
-          I ti invita a connetterti su theStudentRanking.com.
+          Mi piacerebbe aggiungerti tra i miei contatti su theStudentRanking.com.
           Potrai scoprire il valore della tua performance accademica e dare una spinta alla tua carriera.
 
 
@@ -21,3 +21,5 @@ it:
 
 
           %{name}
+      s6: "Trova velocemente le persone che potresti conoscere cercando tra i tuoi contatti email"
+      s7: Contatti importati

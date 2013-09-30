@@ -9,6 +9,7 @@ pl:
       end_date: Data zakończenia
       current: Obecnie
       organization_name: Nazwa firmy lub organizacji
+      document: Dokument
     area:
       1: "Studia / Szkoła"
       2: "Organizacja społeczna"

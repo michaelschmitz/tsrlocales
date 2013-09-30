@@ -1,9 +1,10 @@
 zht:
   award:
     attributes: &ATTRIBUTES
-      area: 獎章
+      area: 性質章
       name: 名稱
       level: 程度
+      document: 證明文件
     area:
       1: 獎章 (學術類與一般)
       2: 獎章 (運動類)
@@ -21,4 +22,4 @@ zht:
   simple_form:
     labels:
       award:
-        <<: *ATTRIBUTES 
+        <<: *ATTRIBUTES

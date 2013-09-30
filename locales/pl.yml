@@ -17,6 +17,7 @@ pl:
       s1: "theStudentRanking.com oferuje największy na świecie globalny ranking studentów. Jeśli jesteś studentem i chciałbyś dowiedzieć się więcej o swojej wartości dla pracodawców, o swojej perspektywie rozwoju na rynku pracy lub jeśli chcesz zostać znalezionym i zatrudnionym przez wiodące firm na świecie, jesteśmy doskonałym miejscem właśnie dla Ciebie."
       s2: "Nasz oferta dla firm to nowe spojrzenie na proces rekrutacji oraz promocji wydarzeń i usług wśród społeczności studenckiej. Zapewniamy dostęp do bazy idealnych kandydatów chętnych do udziału w programach rozwoju talentów, programach dla abslowentów i innych które oferuje Twoja firma. Jeśli szukasz młodych profesjonalistów oraz ambitnych studentów, dostęp do nich zapewi Ci właśnie nasz system."
   dry:
+    confirm: "Czy jesteś pewien?"
     send: 'Wyślij'
     reset: 'Zresetuj'
     back: 'Wstecz'
@@ -42,9 +43,7 @@ pl:
     hi: "Cześć"
     here: tutaj
     languages:
-      97: "(bengalski - Sylheti)"
       1: "Inny język"
-      110: "Xhose"
       106: "akan"
       122: "albański"
       11: "angielski"
@@ -57,6 +56,7 @@ pl:
       141: "baskijski"
       108: "baszkirski"
       4: "bengalski"
+      97: "bengalski - Sylheti"
       47: "bhodźpuri"
       104: "białoruski"
       57: "birmański"
@@ -76,6 +76,7 @@ pl:
       6: "chiński(Wu)"
       31: "czeski"
       103: "cziczewa"
+      76: "ćhattisgarhi"
       93: "deccan"
       9: "duński"
       140: "esperanto"
@@ -113,6 +114,8 @@ pl:
       125: "lapoński"
       114: "litewski"
       101: "lombardzki"
+      22: "łaciński"
+      113: "łotewski"
       120: "macedoński"
       88: "madurski"
       91: "magahi"
@@ -171,9 +174,6 @@ pl:
       33: "węgierski"
       18: "włoski"
       96: "zulu"
-      76: "ćhattisgarhi"
-      22: "łaciński"
-      113: "łotewski"
     countries: 
       s0: "Brak wyboru"
       s1: Egipt
@@ -882,3 +882,4 @@ pl:
   activerecord:
     errors:
       <<: *errors
+Kamerun

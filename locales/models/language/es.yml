@@ -5,6 +5,7 @@ es:
       level: Nivel
       certificate: Certificado
       certificate_grade: Nota certificado
+      document: Documento
     level:
       1: 'Básico'
       2: 'Bueno'

@@ -1,11 +1,13 @@
-en:
+de:
   scholarship:
     attributes: &ATTRIBUTES
       name: Name
-      start_date: Start date
-      end_date: End date
-      document: Document
+      start_date: Anfangsdatum
+      end_date: Enddatum
+      document: Dokument
   activerecord:
+    models:
+      scholarship: Stipendium
     attributes:
       scholarship:
         <<: *ATTRIBUTES

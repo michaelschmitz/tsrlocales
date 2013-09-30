@@ -11,11 +11,10 @@ zht:
       invalid: 電子郵件或密碼無效。
       invalid_token: 驗證碼無效。
       locked: 你的帳戶已被鎖住。
+      not_found_in_database: 電子郵件或密碼無效。
       timeout: 你的時效已過，請重新登入以繼續。
       unauthenticated: 你必須先登入或註冊才能再繼續。
       unconfirmed: 你必須先確認你的帳戶才能再繼續。
-      user: 
-        not_found_in_database: 此用戶沒有在此註冊。
     mailer: 
       confirmation_instructions: 
         s1: 你好

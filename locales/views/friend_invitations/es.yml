@@ -2,7 +2,7 @@ es:
   friend_invitations:
     modal:
       html:
-        s1: Añadir contactos
+        s1: Invitar amigos
         s2: "Importaremos tu libreta de direcciones para sugerirte posibles conexiones y ayudarte a contactar con ellas. No almacenamos ni contraseñas ni direcciones de correo sin tu permiso."
         s3: "Tu lista de contactos estará siempre protegida" 
     form: 
@@ -13,7 +13,7 @@ es:
       s5: Hola,
 
 
-          Me gustaría añadirte a mi red de contactos en theStudentRanking.com.
+          Me gustaría invitarte a usar theStudentRanking.com e incluirte en mi red de contactos.
           De esta forma podrás dar un empujón a tu carrera profesional y conocer tu valor en el mercado laboral.
           
 
@@ -21,3 +21,5 @@ es:
 
 
           %{name}
+      s6: "A través de tus contactos de email encontrarás más rápidamente personas que tal vez conozcas.*"
+      s7: Contactos importados

@@ -23,6 +23,8 @@ it:
         s14: Distanza massima
         s15: Esperienza lavorativa
         s16: Esperienza di stage
+        s17: Nazionalità
+        s18: Livello
       recruiter_profile_small:
         s1: Stage
         s2: Posizione per laureati

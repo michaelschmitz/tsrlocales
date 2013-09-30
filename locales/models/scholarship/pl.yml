@@ -4,6 +4,7 @@ pl:
       name: Nazwa
       start_date: Data rozpoczęcia
       end_date: Data zakończenia
+      document: Dokument
   activerecord:
     attributes:
       scholarship:

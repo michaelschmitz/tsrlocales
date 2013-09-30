@@ -626,16 +626,23 @@ zht:
         s18g: "Try to look for opportunities - they will present themselves."
       main_chart:
         explanation_button: "顯示說明"
-        asessment_title: <b>評估</b> 你得到 %{points} 積分，排名在前 %{percent}%
+        asessment_title: <b>評估</b> 你的積分是 %{points} 分，排名在前 %{percent}%
         asessment_body_1: 這個排名包括了所有的參與者，且不考慮學科背景。這個排名比較不適合用來評估就業機會，特別是如果你所學非常專業，或者你才剛入學，或比其他參與者年輕。然而，這圖表或許可以用來鼓勵你多擷取工作經驗，並將時間花在能提升你市場價值的工作經驗上面。
-        asessment_body_2: 這個排名包括了所有曾就讀於 %{university} 且與你同齡的參與者。這個排名很適合用來評估你的就業機會，特別是如果你的大學只有在你的學科領域才頒發類似的學位。如果你的大學很大，那麼這個排名只有在你名列前茅的情況下，用來評估就業機會會比較準確。
-        in: in
+        asessment_body_2: 這個排名包括了所有就讀於 %{university} 且與你同齡的參與者。這個排名很適合用來評估你的就業機會，特別是如果你的大學只有在你的學科領域才頒發類似的學位。如果你的大學很大，那麼這個排名只有在你名列前茅的情況下，用來評估就業機會會比較準確。
+        in: 之
+        you: 你
+        others: 其他參與者
+        s1: 所有參與者
+        s2: 比較群組
+        s3: 前
       achievement_ranking:
         s1: 成就排名比較
         s2: "積分就能提高排名一名"
         s3: 恭喜！
       breakdown_chart:
         s1: 排名群組依參與者出生自
+        s2: 群組
+        s3: 社交活動
       charts:
         s0: 比較圖表
         s1: 比較
@@ -643,13 +650,16 @@ zht:
         s3: 全球
         s4: 積分解析
         s5: 全國
+        s6: 點擊任一選項就能查看圖表。
       preferred_employer:
         s1: 公司分析
+        s2: 點擊任一公司就能查看圖表。
       profile:
         s1: 看我的履歷表
         s2: 全球排名
         s3: 之
         s4: "積分就能提高排名一名"
+        s5: 所有的排名都是依據與你同在 (%{year}) 年出生的學生來做排名，再加上如你上方點選的因素 (如大學或系所)做分析。
       global_rank:
         s2: 全球排名
         s3: 之

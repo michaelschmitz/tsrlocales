@@ -8,9 +8,10 @@ it:
     failure: 
       already_authenticated: "Sei già registrato."
       inactive: "Il tuo account non è ancora stato attivato."
-      invalid: "Email o password errate."
+      invalid: "Email o password errata."
       invalid_token: "Codice di autenticazione non valido."
       locked: "Il tuo account è bloccato."
+      not_found_in_database: "Email o password errata."
       timeout: "La tua sessione è scaduta, per favore registrati di nuovo per continuare."
       unauthenticated: "è necessario eseguire l'accesso o registrarsi prima di continuare."
       unconfirmed: "è necessario confermare il tuo account prima di continuare."

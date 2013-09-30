@@ -1,5 +1,8 @@
 es:
   jobs:
+    flash:
+      updated: Oferta de trabajo actualizada correctamente.
+      created: Oferta de trabajo creada correctamente.
     show:
       s1: Volver a resultados
       s2: Descripción oferta

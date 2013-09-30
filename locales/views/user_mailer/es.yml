@@ -150,11 +150,12 @@ es:
       s8: "Habilidades:"
       s9: "Tus contactos no han confirmado ninguna de tus habilidades durante esta semana."
     welcome_email: 
+      s0: "Bienvenido a theStudentRanking.com"
       s1: "soy Michael, de theStudentRanking.com. Gracias por registrarte en nuestra web - ¡espero que disfrutes con nuestro sistema! Juntos vamos a intentar conocer tu perfil y el de tus amigos para ayudarte a mejorar tus logros y aumentar tu valor en el mercado de modo que las empresas de todo el mundo contacten contigo lo más pronto posible."
       s10: "Estamos muy contentos de tenerte a bordo,\n"
       s11: Michael
       s12: "PD: Cualquier comentario o sugerencia que tengas no dudes en hacérmela llegar. Puedes escribirme cuando quieras."
-      s2: "Este mensaje sirve para confirmar tu registro y también será de ayuda a la hora de encontrar los datos de tu cuenta. Te has registrado con el email  %{email}. En caso de que te olvidas de tu contraseña, puedes solicitar una nueva"
+      s2: "Este mensaje sirve para confirmar tu registro y también será de ayuda a la hora de encontrar los datos de tu cuenta. Te has registrado con el email %{email}. En caso de que te olvidas de tu contraseña, puedes solicitar una nueva"
       s3: "¿Estás preparado para construir tu carrera? Actualiza ahora mismo tu perfil con tus últimos logros y empieza a ganar los primeros puntos y mayor visibilidad."
       s4: "Crear tu perfil"
       s5: "A menudo, las empresas buscan candidatos que puedan certificar socialmente sus logros y habilidades. Gracias a las confirmaciones que tus amigos pueden hacer de tus habilidades, podrás certificar tus logros y ello aumentará tu puntuación social: por cada recomendación recibida de un amigo, te ofreceremos el 5% de su puntuación personal y los añadiremos a tu puntuación social; además, por cada habilidad certificada también ganarás puntos. En estos momentos tu puntuación social es cero, pero puedes empezar a sumar puntos invitando a tus amigos a unirse a theStudentRanking.com."

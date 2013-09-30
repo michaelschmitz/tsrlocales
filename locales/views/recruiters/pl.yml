@@ -27,6 +27,10 @@ pl:
         s2: "Użytkownicy, którzy wyświetlili oferę"
         s3: "Brak aplikacji."
     mailer:
+      confirmation_instructions:
+        s1: Witamy
+        s2: Możesz potwierdzić swój e-mail poprzez link poniżej
+        s3: Potwierdź konto
       email_message:
         s1: "wysłał Ci wiadomość"
         s2: "Twój adres e-mail jest bezpieczny i nie został udostępniony. Firma skontaktowała się z Tobą wykorzystując formularz na naszej stronie internetowej. Możesz zmienić swoje dane kontaktowe klikając na \"Moje konto\" po zalogowaniu się"
