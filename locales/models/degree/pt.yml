@@ -17,7 +17,7 @@ pt:
       minor: Outros estudos
       document: Comprovativo
       university:
-        name: Instituição de Ensino
+      name: Instituição de Ensino
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"
@@ -84,6 +84,8 @@ pt:
       23: "MBA"
       9: "Magister"
       19: "PhD (Doutoramento)"
+      27: "Master"
+      28: "Graduate"
     grade_scale:
       DE: "Alemanha (4,0-1,0)"
       AR: "Argentina (0-10)"
