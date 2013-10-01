@@ -6,6 +6,8 @@ en:
       end_date: End date
       document: Document
   activerecord:
+    models:
+	scholarship: Scholarship
     attributes:
       scholarship:
         <<: *ATTRIBUTES

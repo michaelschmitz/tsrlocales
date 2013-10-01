@@ -1,0 +1,51 @@
+de:
+  flash:
+    incomplete_user: "Bitte vervollständigen Sie Ihr Profil, um mit dem Ranking zu beginnen"
+    database_unauthorized_recruiter: "Sie haben noch keinen Zugriff auf die Datenbank. Jemand aus unserem Team wird sich bei Ihnen melden."
+  layouts:
+    user_nav:
+      s1: Profil
+      s2: Mein Ranking
+      s3: Studentenranking
+      s4: Stellenangebote
+      s5: Konto
+      s6: Bearbeiten
+      s7: Nachrichten und Privatsphäre
+      s8: Abmelden
+      s9: Los!
+      s10: Anmelden
+      s11: Registrieren
+      s12: Für Arbeitgeber
+      s13: Bestätigen
+      s14: Zurückweisen
+      s15: Kontakte einladen
+    recruiter_nav:
+      s1: Übersicht
+      s2: Firmenseite
+      s3: Seite anzeigen
+      s4: Seite bearbeiten
+      s5: Meine Stellenangebote
+      s6: Stellenangebot erstellen
+      s7: Lebenslaufsuche
+      s8: Meine Suchen
+      s9: Neue Suche
+      s10: Abmelden
+      s11: Stellenangebote
+      s12: Alle Stellenangebote
+    bottomfooter:
+      s1: Home
+      s2: Events
+      s3: Stellenangebote
+      s4: Studentenranking
+      s5: Häufig gestellte Fragen
+      s6: Für Arbeitgeber
+      s7: Blog
+      s8: Kontakt
+      s9: Team
+      s10: Press
+      s11: Impressum
+      s12: Privatsphäre
+      s13: AGB
+      s14: Preise
+      s30: Links
+      

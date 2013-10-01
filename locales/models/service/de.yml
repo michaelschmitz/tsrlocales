@@ -1,29 +1,31 @@
 de:
   service:
     attributes: &ATTRIBUTES
-      hours: Hours per week
-      role: Role
-      description: Description
-      area: Area
-      start_date: Start Date
-      end_date: End Date
-      current: Current
-      organization_name: Organization name
+      hours: Stunden pro Woche
+      role: Rolle
+      description: Beschreibung
+      area: Bereich
+      start_date: Anfangsdatum
+      end_date: Enddatum
+      current: Aktuell
+      organization_name: Name der Organization
     area:
-      1: "University/School"
-      2: "Social"
-      3: "Club"
-      4: "Party"
-      5: "Culture"
-      6: "Science"
-      7: "Other"
+      1: "Universität/Schule"
+      2: "Soziales"
+      3: "Verein"
+      4: "Politische Partei"
+      5: "Kultur"
+      6: "Wissenschaft"
+      7: "Anderes"
     role:
-      1: 'Active role'
-      2: 'Passive role'
-      3: 'Functional role (e.g. Administration)'
-      4: 'Local leadership role (e.g. Trainer)'
-      5: 'Strategic leadership role (e.g. Board member)'
+      1: 'Aktive Rolle'
+      2: 'Passive Rolle'
+      s3: "Aufgabenübernahme (z.B. Verwaltung)"
+      s4: "Lokale Führungsfunktion (z.B. Trainer)"
+      s5: "Übergeordnete Führungsfunktion (z.B. Vorstand)"
   activerecord:
+    models:
+      service: 'Engagement, Hobbies und Interessen'
     attributes:
       service:
         <<: *ATTRIBUTES

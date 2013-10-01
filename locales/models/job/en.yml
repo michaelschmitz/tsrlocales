@@ -23,7 +23,7 @@ en:
       describe_benefits: Describe Benefits
       describe_application: Describe Application
       applications: Applications
-      alternative_name: Alternative Name
+      alternative_name: Company name (if you are posting for another company)
       document: PDF mit Stellenbeschreibung
     area:
       1: Education

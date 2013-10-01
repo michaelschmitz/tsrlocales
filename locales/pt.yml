@@ -26,6 +26,7 @@ pt:
     save: "Gravar"
     edit: "Editar"
     cancel: "Cancelar"
+    language: "Linguagem"
     customize_settings_link: Personalizar
     edit_privacy_link: Editar definições de privacidade
     jobs_link: Empregos

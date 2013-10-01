@@ -28,6 +28,7 @@ en:
       s16: Report
       s17: Report received
       s18: Request sent
+      s19: Report inappropriate user
     public_recommendations:
       s1: Recommendations
       s2: No recommendations yet.
@@ -45,4 +46,5 @@ en:
       s4: Social Score
       s5: Search
       s6: There are no results available for this search. Perhaps try other search terms?
-      s7: Results   
+      s7: Results 
+      s8: Recruiters can see the complete CV.  

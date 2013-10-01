@@ -630,12 +630,19 @@ pl:
         asessment_body_1: Ten ranking obejmuje wszystkich uczestników nie uwzględniając wybranej przez Ciebie grupy porównawczej. W związku z tym warto wziąć pod uwagę, że to porównanie nie jest odpowiednie do precyzyjnej oceny szans Twojej kariery. W szczególności jeśli Twoja ścieżka kariery obejmuje niszowe dziedziny/ sektory lub właśnie rozpoczełeś swoje studia. Mimo to, ranking może zmotywować Cię do osiągania jeszcze lepszych wyników w swojej pracy oraz może pomóc Ci zainwestować czas rozsądnie tak, aby uzyskać doświadczenie, które pomoże Ci stać się bardziej wartościwym dla przyszłych pracodawców.
         asessment_body_2: Ten ranking zawiera wszystkich użytkowników z uczelni %{university}, którzy są w Twoim wieku. To porównanie jest odpowiednie do oceny szans rozwoju Twojej kariery zawodowej, zwłaszcza jeśli Twoja uczelnia oferuje tylko podobne kierunku i profile studiów. Jeśli jednak Twoja uczelnia jest duża, to możesz uznać to porównanie za trafne, tylko jeśli należysz do czołówki studentów na swojej uczelni.
         in: w
+        you: Ty
+        others: Inni
+        s1: Wszyscy użytkownicy
+        s2: Grupa rankingowa
+        s3: Top
       achievement_ranking:
         s1: Twoje osiągnięcia w rankingu
         s2: "Punkty do +1"
         s3: Gratulacje!
       breakdown_chart:
         s1: Przykładowi użytkownicy z grup, urodzeni w
+        s2: Grupa
+        s3: Zaangażowanie
       charts:
         s0: Wykresy porównawcze
         s1: Porównanie
@@ -652,6 +659,7 @@ pl:
         s2: Ranking globalny
         s3: z
         s4: "punktów do +1"
+        s5: Wszystkie ranking  porównują Twój wynik z wynikami innych studentów, którzy urodzili się w tym samym roku - (% {rok}), na podstawie różnych czynników, w zależności od wskazanego poziomu analizy. 
       global_rank:
         s2: Ranking globalny
         s3: z

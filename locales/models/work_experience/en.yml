@@ -10,6 +10,7 @@ en:
       summary: Summary
       description: Description
       company_name: Company Name
+      document: Document
     contract:
       1: 'Apprenticeship'
       2: 'Internship'

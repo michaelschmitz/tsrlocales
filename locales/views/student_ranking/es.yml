@@ -17,15 +17,15 @@ es:
       s5: Educación
       s6: Prácticas
       s7: Graduado
-      s8: Sí, por 
+      s8: Sí
       s9: Sí
       s10: Recomendaciones
       s11: Confirmación habilidades
       s12: Contactos
       s13: Mensaje
-      s14: Contactar
+      s14: Añadir a contactos
       s15: Comparar con tu CV
-      s16: Informe
+      s16: Declarar fraudulento
       s17: Informe recibido
     public_recommendations:
       s1: Recomendaciones
@@ -44,3 +44,4 @@ es:
       s5: Buscar
       s6: No hay resultados disponibles para esta búsqueda. Le recomendamos que utilice otras palabras clave.
       s7: Resultados
+      s8: Las empresas pueden ver su CV.  

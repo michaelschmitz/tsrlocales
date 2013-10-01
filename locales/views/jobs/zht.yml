@@ -1,5 +1,8 @@
 zht:
   jobs:
+    flash:
+      updated: 職缺已成功更新。
+      created: 職缺已成功建立。
     show:
       s1: 回到搜尋結果
       s2: 工作內容描述

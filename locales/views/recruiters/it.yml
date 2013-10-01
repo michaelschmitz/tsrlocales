@@ -27,6 +27,10 @@ it:
       show: 
         s1: Candidature
     mailer: 
+      confirmation_instructions:
+        s1: Benvenuto
+        s2: Potrai confermare il tuo account email tramite il link di seguito.
+        s3: Confermare account    
       email_message: 
         s1: "ti ha inviato un messaggio"
         s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Il mio profilo\" dopo aver effettuato l'accesso."

@@ -17,11 +17,13 @@ it:
       s1: "theStudentRanking.com offre il più grande ranking globale per gli studenti. Se sei interessato a saperne qualcosa di più sul tuo valore di mercato, sulle tue prospettive nel mercato del lavoro e se vuoi essere trovato e assunto dalle più importanti aziende internazionali, allora facciamo al caso tuo!."
       s2: "Alle aziende offriamo soluzioni di reclutamento focalizzate su laureati e studenti. Nel nostro sito puoi trovare giovani professionisti con grandissime potenzialità, sia che tu cerchi specifici talenti, neolaureati o stagisti."
   dry:
+    confirm: Sei sicuro?
     reset: 'Resetta'
     back: 'Indietro'
     new: 'Nuovo'
     edit: 'Modifica'
     update: 'Aggiorna'
+    language: "Lingue"
     show: 'Mostra'
     delete: 'Cancella'
     yes: "Si"

@@ -2,13 +2,15 @@ de:
   recruiter:
     attributes: &ATTRIBUTES
       email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      phone: Phone
-      first_name: First name
-      last_name: Last name
-      title: Title
+      password: Passwort
+      password_confirmation: Passwort bestätigen
+      phone: Telefonnummer
+      first_name: Vorname
+      last_name: Nachname
+      title: Titel
   activerecord:
+    models:
+      recruiter: 'Arbeitgeber'
     attributes:
       recruiter:
         <<: *ATTRIBUTES

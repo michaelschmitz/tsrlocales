@@ -6,6 +6,7 @@ zht:
       hours_application: 實際使用總時數
       hours_training: 受訓總時數
       explanation: 技能描述
+      document: 證明文件
       included: '最近使用此技能於：'
     level:
       1: '初學者'

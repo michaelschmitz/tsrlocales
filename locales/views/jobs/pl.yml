@@ -1,5 +1,8 @@
 pl:
   jobs:
+    flash:
+      updated: Oferta pracy została zaktualizowana.
+      created: Oferta pracy została pomyślnie dodana.
     show:
       s1: Wróć do wyników
       s2: Opis pozycji

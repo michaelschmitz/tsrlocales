@@ -1,0 +1,32 @@
+de:
+  recruiters:
+    cv_searches:      
+      partials:
+        degree:
+          s1: Notendurchschnitt
+        other:
+          s1: Auszeichnungen
+          s2: Veröffentlichungen
+          s3: Link
+          s4: Stipendien
+        languages:
+          s1: Sprachen
+        recommendations:
+          s1: Empfehlungen
+          s2: Bisher keine Empfehlungen
+        school:
+          s1: Notendurchschnitt
+        service:
+          s1: Heute
+          s2: Stunden
+          s3: Stunden pro Woche
+        skills:
+          s1: Fähigkeiten
+          s2: Details
+          s3: Praktische Anwendung
+          s4: Training
+          s5: Stunden
+        work_experience:
+          s1: heute
+          s2: Stunden pro Woche
+          s3: Beschreibung

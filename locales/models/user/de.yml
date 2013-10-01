@@ -2,27 +2,77 @@ de:
   user:
     attributes: &ATTRIBUTES
       email: Email
-      password: Password
-      password_confirmation: Password confirmation
-      first_name: First name
-      last_name: Last name
-      avatar: Avatar
-      nationality: Nationality
-      language: Language
-      date_of_birth: Date of Birth
-      gender: Gender
-      about: About
-      location: Location
+      password: Passwort
+      password_confirmation: Passwort bestätigen
+      first_name: Vorname
+      last_name: Nachname
+      avatar: Profilbild
+      nationality: Nationalität
+      language: Sprache
+      date_of_birth: Geburtsdatum
+      gender: Geschlecht
+      about: Meine Ziele
+      location: Aktueller Wohnort
     gender:
-      1: 'Female'
-      2: 'Male'
-      3: 'Other'
-      4: 'Not provided'
+      1: 'Weiblich'
+      2: 'Männlich'
+      3: 'Anderes'
+      4: 'Keine Angabe'
     frequency_emails:  
-      1: 'After every event'
-      2: 'Every month'
-      3: 'Never'
+      1: 'Nach jedem Ereignis'
+      2: 'Jeden Monat'
+      3: 'Nie'
+    new_position_email:
+      0: 'Nie'
+      1: 'Einmal pro Woche'
+      2: 'Alle zwei Wochen'
+      4: 'Einmal pro Monat'
+      12: 'Alle drei Monate'
+      24: 'Alle sechs Monate'
+      48: 'Alle zwölf Monate'
+    suggestion_email:
+      0: 'Nie'
+      1: 'Einmal pro Woche'
+      2: 'Alle zwei Wochen'
+      4: 'Einmal pro Monat'
+      12: 'Alle drei Monate'
+      24: 'Alle sechs Monate'
+      48: 'Alle zwölf Monate'
+    job_email:
+      0: 'Nie'
+      1: 'Einmal pro Woche'
+      2: 'Alle zwei Wochen'
+      4: 'Einmal pro Monat'
+      12: 'Alle drei Monate'
+      24: 'Alle sechs Monate'
+      48: 'Alle zwölf Monate'
+    recomendation_skill_email:
+      individual: "Einzelne Email"
+      weekly: "Wöchentliche Zusammenfassung"
+      never: "Nie"
+    connection_request_email:
+      individual: "Einzelne Email"
+      weekly: "Wöchentliche Zusammenfassung"
+      never: "Nie"
+    event_email:
+      0: 'Nie'
+      1: 'Einmal pro Woche'
+      2: 'Alle zwei Wochen'
+      4: 'Einmal pro Monat'
+      12: 'Alle drei Monate'
+      24: 'Alle sechs Monate'
+      48: 'Alle zwölf Monate'
+    blog_email:
+      0: 'Nie'
+      1: 'Einmal pro Woche'
+      2: 'Alle zwei Wochen'
+      4: 'Einmal pro Monat'
+      12: 'Alle drei Monate'
+      24: 'Alle sechs Monate'
+      48: 'Alle zwölf Monate'
   activerecord:
+    models:
+      user: 'Nutzer'
     attributes:
       user:
         <<: *ATTRIBUTES

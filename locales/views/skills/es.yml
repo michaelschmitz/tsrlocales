@@ -12,3 +12,6 @@ es:
     skill:
       s1: Uso
       s2: Formación
+    form:
+      s1: "Has indicado una cantidad muy elevada de horas. Añade aquí una breve explicación de cómo has llegado a dedicar tantas horas, teniendo en cuenta la diferenciación entre horas de formación y horas de uso prácticas." 
+

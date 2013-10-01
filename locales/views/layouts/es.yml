@@ -16,6 +16,9 @@ es:
       s10: Iniciar sesión
       s11: Crear cuenta
       s12: Empresas
+      s13: Confirmar
+      s14: Rechazar
+      s15: Invitar amigos
     recruiter_nav:
       s1: Panel de control
       s2: Página empresa
