@@ -9,6 +9,7 @@ pt:
       included: Última utilização
       document: Comprovativo
       hours_application: Nº total de horas dispendidas
+      hours_application: Nº total de horas de formação
     level:
       1: 'Iniciado'
       2: 'Experiente'
