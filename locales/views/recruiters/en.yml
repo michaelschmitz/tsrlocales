@@ -32,7 +32,7 @@ en:
         s2: You can confirm your account email through the link below
         s3: Confirm my account
       email_message:
-        s1: "Hello, this is a message from company"
+        s1: "Hello, this is a message from"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
       message:   #Yes, this is exactly the same as above. Copy paste.
         s1: "has sent you a message"
