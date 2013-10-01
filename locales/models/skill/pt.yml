@@ -6,7 +6,8 @@ pt:
       hours_application: Horas de utilização
       hours_training: Horas de formação
       explanation: Explicação
-      included: 'Última utilização'
+      included: Última utilização
+      document: Comprovativo
     level:
       1: 'Iniciado'
       2: 'Experiente'
