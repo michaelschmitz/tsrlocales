@@ -35,7 +35,7 @@ en:
         s1: "Hello, this is a message from"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
       message:   #Yes, this is exactly the same as above. Copy paste.
-        s1: "has sent you a message"
+        s1: "Hello, this is a message from"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
     messages:
       index:
