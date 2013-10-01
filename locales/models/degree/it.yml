@@ -12,6 +12,7 @@ it:
       grade_scale: Metro di valutazione
       average: Voto finale
       study_area: Area di studio
+      study_lenght: Normale durata degli studi in mesi
       faculty: Facoltà
       major: Specializzazione
       minor: Specializzazione
