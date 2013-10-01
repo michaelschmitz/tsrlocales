@@ -10,6 +10,7 @@ pt:
       summary: Resumo
       description: Descrição
       company_name: Nome da empresa
+      document: Comprovativo
     contract:
       1: 'Aprendizagem'
       2: 'Estágio'
