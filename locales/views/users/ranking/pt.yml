@@ -648,6 +648,7 @@ pt:
         s2: "Posição Global"
         s3: em
         s4: "pontos para +1"
+        s5: "Todos os gráficos comparam-te com outros Estudantes nascidos no ano de (%{year}) e outros factores que dependem do nível de análise indicado em cada rubrica"
       global_rank:
         s2: "Posição Global"
         s3: em
