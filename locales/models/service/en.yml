@@ -21,9 +21,9 @@ en:
     role:
       1: 'Active role'
       2: 'Passive role'
-      3: 'Functional role (e.g. Administration)'
-      4: 'Local leadership role (e.g. Trainer)'
-      5: 'Strategic leadership role (e.g. Board member)'
+      3: 'Functional role (e.g. Administration, PR)'
+      4: 'Local leadership role (e.g. Trainer, Team Leader, Chapter President)'
+      5: 'Strategic leadership role (e.g. Board member, President)'
   activerecord:
     models:
       service: 'Service'
