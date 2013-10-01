@@ -2,6 +2,8 @@ pt:
   skills:
     edit:
       s1: Editar competências
+    form:
+      s1: São muitas horas. Por favor faz um pequeno resumo acerca de como o fizeste, tendo em mente a diferença entre horas de formação e de prática efectiva.
     modal:
       html:
         s1: Competência
