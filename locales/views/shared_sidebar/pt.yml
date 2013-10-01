@@ -3,13 +3,13 @@ pt:
     jobs:
       s1: Ofertas sugeridas
     friends:
-      s1: Os seus amigos    
+      s1: Os teus amigos    
       s2: Amigos registados
-      s3: Convide os seus amigos
+      s3: Convida os teus amigos
     friens_ranking:
       s1: Os meus contactos
     suggestion_ranking:
-      s1: Pessoas que talvez conheça
+      s1: Pessoas que talvez conheças
       s2:
       s3: Pedido enviado
       s4: Conectar
