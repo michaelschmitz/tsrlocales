@@ -634,6 +634,8 @@ it:
         s1: Tutti gli utenti
         s2: Gruppo di confronto
         s3: Top
+        s4: Punti
+        s5: 'n
       achievement_ranking:
         s1: Confronto per punteggio personale
         s2: "Punti per +1"
