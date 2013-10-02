@@ -18,8 +18,8 @@ zht:
       document: 上傳文件
       study_length: 學業正常結束時間以月計
       university:
-        one: University
-        other: Universities
+        one: 大學
+        other: 大學
         name: 大學名稱
     study_area: 
       17: "人文"
