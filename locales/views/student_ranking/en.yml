@@ -19,16 +19,22 @@ en:
       s7: Graduate
       s8: Yes
       s9: Yes
-      s10: Recommendations
-      s11: Skill confirmations
-      s12: Connections
+      s10:
+        one: '%{count} Recommendation'
+        other: '%{count} Recommendations'
+      s11:
+        one: '%{count} Skill confirmation'
+        other: '%{count} Skill confirmations'
+      s12:
+        one: '%{count} Connection'
+        other: '%{count} Connections'
       s13: Message
       s14: Connect
       s15: Compare with your CV
       s16: Report
       s17: Report received
       s18: Request sent
-      s19: Report inappropriate user
+      s19: Report inapropiate user
     public_recommendations:
       s1: Recommendations
       s2: No recommendations yet.

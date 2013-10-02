@@ -18,6 +18,8 @@ pl:
       document: Dokument potwierdzający
       university:
         name: Nazwa uczelni
+        one: University
+        other: Universities
     study_area: 
       30: "Architektura"
       19: "Biolgia"

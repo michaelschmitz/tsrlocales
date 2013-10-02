@@ -17,7 +17,9 @@ pt:
       minor: Outros estudos
       document: Comprovativo
       university:
-      name: Instituição de Ensino
+        one: University
+        other: Universities
+        name: Instituição de Ensino
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"

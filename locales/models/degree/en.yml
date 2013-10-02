@@ -16,8 +16,11 @@ en:
       major: Major
       minor: Minor
       document: Document
+      study_length: Normal study duration in months
       university:
         name: University Name
+        one: University
+        other: Universities
     study_area: 
       1: "Agriculture"
       29: "Animal husbandry"

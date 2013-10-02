@@ -17,6 +17,8 @@ ru:
       document: Транскрипция
       university:
         name: Университет
+        one: University
+        other: Universities
     study_area: 
       1: "Агрикультура"
       30: "Архитектура"

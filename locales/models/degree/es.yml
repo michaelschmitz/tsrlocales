@@ -18,6 +18,8 @@ es:
       document: Documento
       university:
         name: Nombre de la Universidad
+        one: University
+        other: Universities
     study_area: 
       12: "Administración y Dirección de Empresas"
       1: "Agricultura"
