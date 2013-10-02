@@ -109,7 +109,7 @@ en:
         s16b: "Quite often, you might have had to make sacrifices when it came to your personal life, hobbies and interests - and you made them to work on your study progress. You might want to bring this up during interviews, depending on the situation, to illustrate the approach you take when planning larger projects or parts of your career."
         s16c: "Employers like to see long-term thinking and planning, and if you can connect your study speed with your long term career goals, then you may score another point during the interview."
         s17: "It took you a bit longer to finish your undergraduate studies. Depending on your situation, there might have been very good reasons for this - and a lack of focus or motivation at some point during your studies does not need to be a negative factor. "
-        s17a: "In fact, being candid about the challenges you faced during your studies - and how you overcame them - makes you credible and honest during interviews, demonstrating your growth and value as a person. Taking your time might also be more than compensated for if you worked - or had to work - during your studies, and additional experience you gained with other organizations can be highly valuable for emplyers."
+        s17a: "In fact, being candid about the challenges you faced during your studies - and how you overcame them - makes you credible and honest during interviews, demonstrating your growth and value as a person. Taking your time might also be more than compensated for if you worked - or had to work - during your studies, and additional experience you gained with other organizations can be highly valuable for employers."
         s17b: "Advice: Be open about the delays and reasons for them, and if you are still in the process of completing your degree, then try to compensate by adding valuable skills and experiences to your CV."
         s18: "You had average or low grades while you completed your secondary and tertiary education. This can be a negative sign for potential employers, and you are probably not too happy about it either. "
         s18a: "Still, you should be proud of yourself for walking a difficult path - and taking it to the end. Your studies should not only help you gain more knowledge about specific topics, but also help you in finding yourself as a person."
@@ -635,6 +635,8 @@ en:
         s1: All participants
         s2: Ranking group
         s3: Top
+        s4: Points
+        s5: 'n'
       achievement_ranking:
         s1: Achievement ranking comparison
         s2: "Points for +1"

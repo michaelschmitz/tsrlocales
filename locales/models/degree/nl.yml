@@ -17,6 +17,8 @@ nl:
       document: Transcript
       university:
         name: Universiteit Naam
+        one: University
+        other: Universities
     study_area: 
       30: "Architectuur"
       12: "Bedrijfskunde"

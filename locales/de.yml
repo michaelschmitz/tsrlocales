@@ -1,4 +1,11 @@
 de:
+  views:
+  pagination:
+      first: « Start
+      last: Ende »
+      next: Weiter »
+      previous: '&lsaquo; Zurück'
+      truncate: '&hellip;'
   shared:
     whatwedo:
       s1: "theStudentRanking.com bietet für Studenten das weltweit größte und modernste Studentenranking an. Wenn Sie wissen möchten, wie hoch Ihr Marktwert ist oder wie Sie verglichen mit Studenten aus Deutschland, Österreich, der Schweiz oder weltweit abschneiden, dann sind Sie hier richtig. Zusätzlich bieten wir Ihnen die Möglichkeit, von Firmen angesprochen zu werden. "

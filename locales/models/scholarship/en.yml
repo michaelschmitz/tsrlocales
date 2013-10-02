@@ -7,7 +7,7 @@ en:
       document: Document
   activerecord:
     models:
-	scholarship: Scholarship
+      scholarship: Scholarship
     attributes:
       scholarship:
         <<: *ATTRIBUTES

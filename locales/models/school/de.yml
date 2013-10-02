@@ -52,12 +52,13 @@ de:
       ES: "Spanien (5.5-10)"
       SE: "Schweden (E, D, C, B, A)"
       CH: "Schweiz (4.0-6.0)"
-      MX: "Taiwan (0-100)"
+      TW: "Taiwan (0-100)"
       TT: "Trinidad und Tobago (0-100%)"
       GB: "Großbritannien (A-level: E-A*)"
       US: "USA (1.0-4.0)"
       UY: "Uruguay (1-12)"
       VE: "Venezuela (0-20)"
+      MX: "Mexico (0-100)"
   activerecord:
     models:
       school: 'Schule'

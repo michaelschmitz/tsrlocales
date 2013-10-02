@@ -13,10 +13,13 @@ de:
       study_area: Vergleichsgruppe
       faculty: Fakultät
       major: Schwerpunkt
+      study_length: Studiendauer laut Universität
       minor: Zweiter Schwerpunkt
       document: Dokument
       university:
         name: Name der Universität
+        one: University
+        other: Universities
     study_area: 
       1: "Agrarwissenschaft"
       13: "Anderes"
@@ -83,6 +86,7 @@ de:
       23: "MBA"
       9: "Magister"
       19: "PhD"
+      29: MD
     grade_scale:
       AR: "Argentinien (0-10)"
       AU: "Australien (50-100%)"

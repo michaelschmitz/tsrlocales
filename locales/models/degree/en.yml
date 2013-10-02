@@ -16,8 +16,11 @@ en:
       major: Major
       minor: Minor
       document: Document
+      study_length: Normal study duration in months
       university:
         name: University Name
+        one: University
+        other: Universities
     study_area: 
       1: "Agriculture"
       29: "Animal husbandry"
@@ -86,6 +89,7 @@ en:
       27: Master
       28: Graduate
       21: Other
+      29: MD
     grade_scale:
       "AR": "Argentina (0-10)"
       "AT": "Austria (4.0-1.0)"

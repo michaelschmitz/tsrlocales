@@ -1,4 +1,11 @@
 fr:
+  views:
+    pagination:
+      first: '&laquo; Premier'
+      last: Dernier &raquo;
+      next: Suivant &rsaquo;
+      previous: '&lsaquo; Précédent'
+      truncate: '&hellip;'  
   shared:
     whatwedo: 
       s1: "theStudentRanking.com fournit le plus grand du monde classement mondial d'étudiants Si vous êtes un étudiant à la recherche pour en apprendre davantage au sujet de votre valeur marchande, au sujet de votre point de vue sur le marché du travail et si vous voulez vous trouvé et embauché par certains des plus grands du monde. entreprises, alors nous sommes votre destination idéale. "

@@ -17,6 +17,8 @@ fr:
       document: Document
       university:
         name: University Name
+        one: University
+        other: Universities
     study_area: 
       1: "Agriculture"
       30: "Architecture"

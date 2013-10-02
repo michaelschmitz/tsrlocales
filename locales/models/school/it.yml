@@ -42,7 +42,7 @@ it:
       JP: "Japan (60-100%)"
       NL: "Netherlands (5.5-10)"
       NI: "Nicaragua (0-100)"
-      'NO': "Norway (E, D, C, B, A)"
+      NO: "Norway (E, D, C, B, A)"
       PA: "Panama (0-100)"
       PY: "Paraguay (1-5)"
       PE: "Peru (0-20)"
@@ -53,12 +53,13 @@ it:
       ES: "Spain (5.5-10)"
       SE: "Sweden (E, D, C, B, A)"
       CH: "Switzerland (4.0-6.0)"
-      MX: "Taiwan (0-100)"
+      TW: "Taiwan (0-100)"
       TT: "Trinidad and Tobago (0-100%)"
       GB: "UK (A-level: E-A*)"
       US: "United States of America (1.0-4.0)"
       UY: "Uruguay (1-12)"
       VE: "Venezuela (0-20)"
+      MX: "Mexico (0-100)"
   activerecord:
     models:
       school: 'Scuola'  

@@ -1,4 +1,11 @@
 pl:
+  views:
+    pagination: 
+      first: "Pierwsza"
+      last: "Ostatnia"
+      next: "Dalej »"
+      previous: "« Wstecz"
+      truncate: "..."
   simple_form:
     "yes": 'Tak'
     "no": 'Nie'
@@ -882,4 +889,3 @@ pl:
   activerecord:
     errors:
       <<: *errors
-Kamerun

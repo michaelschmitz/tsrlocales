@@ -630,6 +630,13 @@ de:
         asessment_body_1: Dieses Ranking schliesst alle Teilnehmer mit Ihrem Geburtsjahr ein und ignoriert Ihre Studienwahl. Dieser Vergleich ist daher nicht ideal zur Ermittlung Ihrer Karrierechancen geeignet, besonders wenn Sie sich stark spezialisiert haben oder gerade am Anfang des Studiums stehen. Allerdings kann diese Analyse Sie motivieren, sich auf Ihre Arbeitsergebnisse zu konzentrieren und Ihre Zeit sinnvoll in relevante Arbeits- und Lebenserfahrung zu investieren, damit Sie wertvoller werden.
         asessment_body_2: Dieses Ranking schliesst alle Teilnehmer von %{university} ein, welche Ihr Geburtsdatum teilen. Dieser Vergleich ist nützlich, um Ihre Karrierechancen einzuschätzen, besonders wenn Ihre Universität nur wenige ähnliche Studiengänge anbietet und viele Teilnehmer in der Auswertung vertreten sind.
         in: in
+        you: Sie
+        others: Andere Teilnehmer
+        s1: Alle Teilnehmer
+        s2: Rankinggruppe
+        s3: Top
+        s4: Punkte
+        s5: 'n'
       achievement_ranking:
         s1: Leistungsvergleich
         s2: "Punkte für +1"

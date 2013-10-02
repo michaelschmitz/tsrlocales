@@ -1,4 +1,11 @@
 nl:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "..."  
   shared:
      whatwedo: 
         s1: "theStudentRanking.com biedt 's werelds grootste globale studentenranking. Als u een student bent die graag meer wil leren over zijn marktwaarde, zijn perspectief op de arbeidsmarkt en als u graag gevonden en aangenomen wilt worden door 's werelds toonaangevende bedrijven, dan bent u hier op de juiste plek."
