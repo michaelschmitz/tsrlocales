@@ -18,8 +18,8 @@ it:
       minor: Specializzazione
       document: Allegati
       university:
-        one: University
-        other: Universities
+        one: Università
+        other: Università
         name: Nome dell'Università
     study_area: 
       1: "Agraria"

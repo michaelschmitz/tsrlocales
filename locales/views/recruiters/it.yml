@@ -33,10 +33,10 @@ it:
         s3: Confermare account    
       email_message: 
         s1: "Ciao, ti è arrivato un messaggio da"
-        s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Il mio profilo\" dopo aver effettuato l'accesso."
+        s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Preferenze di comunicazione\" dopo aver effettuato l'accesso."
       message: 
         s1: "Ciao, ti è arrivato un messaggio da"
-        s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Il mio profilo\" dopo aver effettuato l'accesso."
+        s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha usato il form presente sul nostro sito per contattarti. Puoi cambiare i tuoi dati di contatto cliccando su \"Preferenze di comunicazione\" dopo aver effettuato l'accesso."
     messages: 
       index: 
         s1: "I miei messaggi"

@@ -5,28 +5,28 @@ zht:
         degree:
           s1: GPA
         other:
-          s1: Awards
-          s2: Publications
-          s3: Link
-          s4: Scholarships
+          s1: 獎章
+          s2: 著作
+          s3: 連結
+          s4: 獎學金
         languages:
-          s1: Languages
+          s1: 語言
         recommendations:
-          s1: Recommendations
-          s2: No recommendations yet
+          s1: 推薦人
+          s2: 尚無任何推薦人
         school:
           s1: GPA
         service:
-          s1: today
-          s2: Hours
-          s3: per week
+          s1: 現在
+          s2: 小時
+          s3: 每週
         skills:
-          s1: Skills
-          s2: Details
-          s3: Application
-          s4: Training
-          s5: hours
+          s1: 技能
+          s2: 詳細內容
+          s3: 實際使用時數
+          s4: 受訓時數
+          s5: 小時
         work_experience:
-          s1: today
-          s2: h per week
-          s3: Description
+          s1: 現在
+          s2: 小時/每週
+          s3: 內容
