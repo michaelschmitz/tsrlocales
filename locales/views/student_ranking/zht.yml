@@ -23,8 +23,8 @@ zht:
         one: '%{count} 位推薦人'
         other: '%{count} 位推薦人'
       s11:
-        one: '%{count} 個技能確認'
-        other: '%{count} 個技能確認'
+        one: '%{count} 個確認的技能'
+        other: '%{count} 個確認的技能'
       s12:
         one: '%{count} 個人脈關係'
         other: '%{count} 個人脈關係'
