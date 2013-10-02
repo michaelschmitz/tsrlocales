@@ -19,7 +19,15 @@ zht:
       s7: 已畢業
       s8: 僱主可以看到完整的履歷表。 
       s9: 是
-      s10: 推薦人
+      s10:
+        one: '%{count} 位推薦人'
+        other: '%{count} 位推薦人'
+      s11:
+        one: '%{count} 個技能確認'
+        other: '%{count} 個技能確認'
+      s12:
+        one: '%{count} 個人脈關係'
+        other: '%{count} 個人脈關係'
       s11: 已確認的技能
       s12: 人脈關係
       s13: 訊息
