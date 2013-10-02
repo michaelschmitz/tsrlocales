@@ -8,6 +8,7 @@ pt:
       end_date: Data-fim
       grade_scale: Escala de gradação
       name: Nome
+      document: Comprovativo
     grade_scale: 
       AU: "Australia (50-100%)"
       AT: "Austria (4.0-1.0)"

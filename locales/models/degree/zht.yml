@@ -18,8 +18,8 @@ zht:
       document: 上傳文件
       study_length: 學業正常結束時間以月計
       university:
-        one: University
-        other: Universities
+        one: 大學
+        other: 大學
         name: 大學名稱
     study_area: 
       17: "人文"
@@ -61,36 +61,35 @@ zht:
       14: "工程 (電氣)"
       13: "其他"
     title: 
-      25: Associate
-      2: B.A.
-      7: B.Ed
-      3: B.Eng
-      5: B.F.A.
-      6: B.Mus
-      1: B.Sc.
-      22: B.Sc. Honours
-      28: Bachelor  
-      15: Diplom (Dual)
-      16: Diplom (FH)
-      17: Diplom (Univ.)
+      25: 副學士 (Associate)
+      28: 學士 (Bachelor)
+      2: 文學學士 (B.A.)
+      7: 教育學學士 (B.Ed)
+      3: 工學學士 (B.Eng)
+      5: 藝術學學士 (B.F.A.)
+      6: 音樂學士 (B.Mus)
+      1: 農/工/理/商學學士 (B.Sc.)
+      22: 榮譽工程學士 (B.Sc. Honours)
+      15: 德國理工科碩士 - Diplom (Dual)
+      16: 德國理工科碩士 - Diplom (FH))
+      17: 德國理工科碩士 - Diplom (Univ.)
+      4: 法律學學士 (LL.B.)
+      26: 美國法律學學士 (J.D.)
+      29: 醫學學士 (M.D.)
       18: Dr. med.
-      24: EMBA
-      26: J.D.
-      4: LL.B.
-      20: Lic.
-      9: Magister
-      27: Master
-      10: M.A.
-      13: M.Ed
-      11: M.Eng
-      12: M.F.A.
-      14: M.Mus
-      8: M.Sc.
-      9: Magister
-      27: Master
+      20: 證照 (Lic.)
+      10: 文學碩士 (M.A.)
+      13: 教育學碩士 (M.Ed)
+      11: 工學碩士 (M.Eng)
+      12: 藝術學碩士 (M.F.A.)
+      14: 音樂碩士 (M.Mus)
+      8: 農/工/理/學碩士 (M.Sc.)
+      9: 德國文科碩士 (Magister)
+      27: 碩士 (Master)
       23: MBA
-      19: PhD
-      21: Other
+      24: EMBA
+      19: 博士 (Ph.D.)
+      21: 其他
     grade_scale:
       TW: "台灣 (1.0-4.0)"
       CN: "中國 (60-100)"

@@ -17,7 +17,7 @@ en:
       s9: "Social Score"
     email_message: 
       s1: "has sent you a message"
-      s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact preferences by clicking on \"My account\" after logging in."
+      s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your settings by clicking on \"Communication Preferences\" after logging in."
     event_digest: 
       s1: "New event digest mail"
     invite_email: 

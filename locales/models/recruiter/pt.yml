@@ -8,6 +8,7 @@ pt:
       first_name: Primeiro nome
       last_name: Último nome
       title: Título
+      remember_me: Lembrar-me
   activerecord:
     models:
       recruiter: 'Recrutador'

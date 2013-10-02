@@ -1,0 +1,159 @@
+it:
+  degree:
+    attributes: &ATTRIBUTES
+      exchange: Progetto di scambio
+      name: Nome della laurea (così come appare sul diploma)
+      country: Paese
+      university_id: Università
+      title: Titolo
+      credits: Crediti
+      start_date: Data d'inizio
+      end_date: Data di fine
+      grade_scale: Metro di valutazione
+      average: Voto finale
+      study_area: Area di studio
+      study_lenght: Normale durata degli studi in mesi
+      faculty: Facoltà
+      major: Specializzazione
+      minor: Specializzazione
+      document: Allegati
+      university:
+<<<<<<< HEAD
+        one: University
+        other: Universities
+=======
+        one: Università
+        other: Università
+>>>>>>> 38be5dcf8d073544b1f18a378f5e29c581b02c92
+        name: Nome dell'Università
+    study_area: 
+      1: "Agraria"
+      13: "Altro"
+      30: "Architettura"
+      7: "Arte e Design"
+      19: "Biologia"
+      20: "Chimica"
+      38: "Comunicazione, Giornalismo e Pubbliche Relazioni"
+      35: "Econometria"
+      18: "Economia"
+      12: "Economia Aziendale"
+      36: "Farmacologia"
+      34: "Filosofia, Teologia"
+      21: "Fisica"
+      22: "Geologia"
+      16: "Informatica"
+      2: "Ingegneria (altro)"
+      25: "Ingegneria Chimica"
+      24: "Ingegneria Civile"
+      14: "Ingegneria Elettrica"
+      26: "Ingegneria Energetica"
+      15: "Ingegneria Industriale"
+      23: "Ingegneria Meccanica"
+      27: "Ingegneria Nucleare"
+      4: "Insegnamento"
+      3: "Legge"
+      11: "Lingue"
+      5: "Matematica"
+      6: "Medicina"
+      32: "Musica"
+      9: "Psicologia"
+      28: "Scienze Forestali e della Pesca"
+      31: "Scienze Motorie e della Nutrizione"
+      8: "Scienze Naturali (altro)"
+      10: "Scienze Politiche e Sociali"
+      17: "Scienze Umanistiche"
+      33: "Scienze del Turismo"
+      37: "Veterinaria"
+      29: "Zootecnica"
+    title: 
+      21: "Altro"
+      25: "Associato"
+      26: J.D. 
+      27: Master
+      28: Laureato
+      2: "Laurea triennale in discipline umanistiche- B.A."
+      7: "Laurea triennale in scienze della formazione- B.Ed"
+      3: "Laurea triennale in lettere- B.Eng"
+      5: "Laurea triennale in Belle Arti- B.F.A."
+      6: "Laurea triennale in discipline musicali- B.Mus"
+      1: "Laurea triennale in discipline scientifiche- B.Sc."
+      22: "Laurea triennale in discipline scientifiche con lode- B.Sc. Honours"
+      15: "Diplom (Dual)"
+      16: "Diplom (FH)"
+      17: "Diplom (Univ.)"
+      18: "Dr. med."
+      24: "EMBA"
+      4: "LL.B."
+      20: "Lic."
+      10: "Laurea magistrale in discipline umanistiche- M.A."
+      13: "Laurea magistrale in scienze della formazione- M.Ed"
+      11: "Laurea magistrale il lettere- M.Eng"
+      12: "Laurea magistrale in Belle Arti- M.F.A."
+      14: "Laurea magistrale in discipline musicali- M.Mus"
+      8: "Laurea magistrale in discipline scientifiche- M.Sc."
+      23: "MBA"
+      9: "Master- Magister"
+      19: "Dottorato- PhD"
+    grade_scale:
+      AR: "Argentina (0-10)"
+      AU: "Australia (50-100%)"
+      AT: "Austria (4.0-1.0)"
+      BE: "Belgio (60-100%)"
+      BO: "Bolivia (0-100%)"
+      BR: "Brasile (60-100%)"
+      CA: "Canada (50-100)"
+      CL: "Cile (0.0-7.0)"
+      CN: "Cina (60-100%)"
+      CO: "Colombia (1.0-5.0)"
+      CR: "Costa Rica (0.00-10.00)"
+      CU: "Cuba (0.00-5.00)"
+      DK: "Danimarca (2-12)"
+      EC: "Ecuador (0.0-10.0)"
+      SV: "El Salvador (1.0-10.0)"
+      FI: "Finlandia (1-5)"
+      FR: "Francia (10-20)"
+      DE: "Germania(4,0-1,0)"
+      JM: "Giamaica (F, C, B-, B, A)"
+      JP: "Giappone (60-100%)"
+      GT: "Guatemala (0-100)"
+      HT: "Haiti (0-100%)"
+      HN: "Honduras (2.00-5.00)"
+      HK: "Hongkong (E, D, C, B, A)"
+      IN: "India (40-100%)"
+      IE: "Irlanda (40-100%)"
+      IL: "Israele (60-100%)"
+      IT: "Italia (18-30)"
+      MX: "Messico(60-100)"
+      NI: "Nicaragua (0-100)"
+      'NO': "Norvegia (E, D, C, B, A)"
+      NL: "Paesi Bassi (5.5-10)"
+      PA: "Panama (0-100)"
+      PY: "Paraguay (1-5)"
+      PE: "Perù (0-20)"
+      PL: "Polonia (3.0-5.0)"
+      PT: "Portogallo (9.5-20)"
+      GB: "Regno Unito (Superato, 3°, 2:2, 2:1, 1°)"
+      CZ: "Repubblica Ceca (50-100%)"
+      DO: "Repubblica Dominicana (0-100%)"
+      RU: "Russia (1-5)"
+      SG: "Singapore (D, D+, C, C+, B, B+, A, AD)"
+      ES: "Spagna (5.5-10)"
+      US: "Stati Uniti d'America (1.0-4.0)"
+      SE: "Svezia (E, D, C, B, A)"
+      CH: "Svizzera (4.0-6.0)"
+      TW: "Taiwan (1.0-4.0)"
+      TT: "Trinidad e Tobago (0-100%)"
+      UY: "Uruguay (1-12)"
+      VE: "Venezuela (0-20)"
+  activerecord:
+    models:
+      degree: 'Laurea'   
+    attributes:
+      degree:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      degrees:
+        <<: *ATTRIBUTES 
+      degree:
+        <<: *ATTRIBUTES 

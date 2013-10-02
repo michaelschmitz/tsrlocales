@@ -2,7 +2,7 @@ pt:
   friend_invitations:
     modal:
       html:
-        s1: Adicionar contatos
+        s1: Convidar amigos
         s2: Os teus contactos estão seguros connosco
         s3: Importamos os teus contactos para te sugerir novas ligações e ajudar-te a gerir a tua agenda. Não guardamos a tua password nem escrevemos a ninguém, sem a tua autorização expressa. 
     form:
@@ -13,11 +13,13 @@ pt:
       s5: Olá
           
 
-          Gostaria de te convidar a ligares-te a mim através do theStudentRanking.com.
-          Podes saber mais sobre o teu desempenho e dar um novo impulso à tua carreira.
+          Olá, gostava que te ligasses a mim através do theStudentRanking.com. 
+          Podes ficar a conhecer melhor o teu desempenho e dar um novo impulso à tua carreira.
 
 
-          Atentamente,
+          Experimenta!
 
 
           %{name}
+      s6: Encontra rapidamente outras pessoas pesquisando os contactos da tua conta de e-mail 
+      s7: Contactos importados

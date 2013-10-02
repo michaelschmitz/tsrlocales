@@ -16,7 +16,7 @@ pt:
       default_message: "Encontrámos alguns erros, por favor verifique:"
   shared:
     whatwedo: 
-      s1: "A theStudentRanking.com oferece a maior plataforma de  Ranking de Estudantes a nível mundial. Se estás a estudar e queres saber mais sobre o teu valor no mercado de trabalho, as tuas perspetivas futuras e aumentar a probabilidade de seres encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, então este é o sítio certo."
+      s1: "O theStudentRanking.com oferece a maior plataforma de  Ranking de Estudantes a nível mundial. Se estás a estudar e queres saber mais sobre o teu valor no mercado de trabalho, as tuas perspetivas futuras e aumentar a probabilidade de seres encontrado e contratado diretamente por algumas das maiores empresas a nível mundial, então este é o sítio certo."
       s2: "Para as Empresas, oferecemos soluções de recrutamento e serviços focados nos Estudantes e Recém-Graduados. Na Thestudentranking.com damos-lhe acesso aos melhores Candidatos para programas de captação de talentos, programas dirigidos a Recém-Graduados e programas de Estágios. Aqui poderá encontrar os melhores jovens e candidatos de elevado potencial."
   dry:
     search: "Pesquisar"
@@ -40,6 +40,7 @@ pt:
     advice_link: Sugestões
     hi: Olá
     here: aqui
+    confirm: Tem a certeza?
     languages:
       106: "Akan"
       122: "Albanês"
@@ -578,7 +579,7 @@ pt:
     NU: "Niue"
     NF: "Norfold Island"
     MP: "Northern Mariana Islands"
-    'NO': "Norway"
+    NO: "Norway"
     OM: "Oman"
     PK: "Pakistan"
     PW: "Palau"

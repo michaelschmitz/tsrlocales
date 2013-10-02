@@ -9,6 +9,7 @@ pt:
       end_date: Data-fim
       current: Actual
       organization_name: Nome da Organização
+      document: Comprovativo
     area:
       1: "Universidade/Escola"
       2: "Social"

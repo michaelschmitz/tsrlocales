@@ -5,6 +5,7 @@ pt:
       level: Nível
       certificate: Certificado
       certificate_grade: Classificação
+      document: Comprovativo
     level:
       1: 'Básico'
       2: 'Bom'

@@ -4,6 +4,7 @@ pt:
       area: Área
       name: Nome
       level: Nível
+      document: Comprovativo
     area:
       1: Distinções
       2: Prémios (Desporto)

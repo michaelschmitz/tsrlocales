@@ -32,8 +32,13 @@ en:
         s2: You can confirm your account email through the link below
         s3: Confirm my account
       email_message:
+<<<<<<< HEAD
+        s1: "Hello, this is a message from company"
+        s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your contact references by clicking on \"My account\" after logging in."
+=======
         s1: "Hello, this is a message from"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your settings by clicking on \"Communication Preferences\" after logging in."
+>>>>>>> 38be5dcf8d073544b1f18a378f5e29c581b02c92
       message:   #Yes, this is exactly the same as above. Copy paste.
         s1: "Hello, this is a message from"
         s2: "Your email address is safe and has not been shared. The company has used a form on our website to contact you. You can change your settings by clicking on \"Communication Preferences\" after logging in."

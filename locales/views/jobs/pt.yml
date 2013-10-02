@@ -1,5 +1,8 @@
 pt:
   jobs:
+    flash:
+      updated: A sua oferta foi atualizada com sucesso
+      created: A sua oferta foi criada com sucesso
     show:
       s1: Voltar aos resultados
       s2: Descrição da função

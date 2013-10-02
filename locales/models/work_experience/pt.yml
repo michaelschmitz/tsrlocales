@@ -10,6 +10,8 @@ pt:
       summary: Resumo
       description: Descrição
       company_name: Nome da empresa
+      document: Comprovativo
+      average_hours: Nº médio de horas por semana
     contract:
       1: 'Aprendizagem'
       2: 'Estágio'

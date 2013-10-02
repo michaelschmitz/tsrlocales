@@ -36,6 +36,8 @@ pt:
       s3: "Ver oferta de emprego"
       s4: "Ser contratado mais rápido:"
       s5: "Atualiza o teu perfil"
+    mailer_welcome:
+      s0: "O theStudentRanking.com dá-te as boasvindas"
     new_position: 
       s0: "Ganhaste uma nova posição no theStudentRanking.com"
       s1: "pediste para receber informações sempre que a tua posição no ranking se alterasse. O sistema recalculou a tua posição atual, com mais de"

@@ -4,6 +4,7 @@ pt:
       link: Link
       description: Descrição
       area: Área
+      document: Comprovativo
     area:
       1: 'Outras publicações'
       2: 'Artigos'

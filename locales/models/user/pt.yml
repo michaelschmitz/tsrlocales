@@ -13,6 +13,7 @@ pt:
       gender: Sexo
       about: Acerca de
       location: Localização
+      remember_me: Lembrar-me
     gender:
       1: 'Feminino'
       2: 'Masculino'

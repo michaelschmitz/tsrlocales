@@ -19,11 +19,11 @@ it:
       6: "Scienza"
       7: "Altro"
     role:
-      1: 'Membro attivo'
-      2: 'Membro passivo'
-      3: 'Ruolo Funzionale (es. Amministrazione)'
-      4: 'Local leadership role (es. Trainer)'
-      5: 'Strategic leadership role (es. Board member)'
+      1: 'Ruolo attivo'
+      2: 'Ruolo passivo'
+      3: 'Ruolo funzionale (es. Amministrazione, PR)'
+      4: 'Ruolo di leadership locale (es. Trainer, Team Leader, Vice Presidente)'
+      5: 'Ruolo di leadership strategica (es. membro del consiglio direttivo, Presidente)'
   activerecord:
     models:
       service: 'Volontariato'  

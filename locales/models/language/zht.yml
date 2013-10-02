@@ -10,7 +10,7 @@ zht:
       1: '基礎'
       2: '中階'
       3: '高階'
-      4: '很流利 / 母語'
+      4: '很流利/母語'
   activerecord:
     models:
       language: '語言'
