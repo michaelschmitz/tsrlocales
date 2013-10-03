@@ -3,7 +3,7 @@ zht:
     attributes: &ATTRIBUTES
       hours: 每周平均時數
       role: 職稱
-      description: 職稱內容
+      description: 內容
       area: 組織性質
       start_date: 開始日期
       end_date: 結束日期
