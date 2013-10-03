@@ -78,18 +78,18 @@ en:
       4: LL.B.
       20: Lic.
       10: M.A.
+      29: M.D.
       13: M.Ed
       11: M.Eng
       12: M.F.A.
       14: M.Mus
       8: M.Sc.
+      27: Master
       23: MBA
       9: Magister
       19: PhD
-      27: Master
       28: Graduate
       21: Other
-      29: MD
     grade_scale:
       "AR": "Argentina (0-10)"
       "AT": "Austria (4.0-1.0)"
