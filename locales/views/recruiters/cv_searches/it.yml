@@ -50,3 +50,4 @@ it:
         s9: Nuova ricerca
       show:
         s1: Cerca nel database
+        s2: Salvando questa ricerca, il sistema memorizzerà gli ultimi risultati e criteri di ricerca.
