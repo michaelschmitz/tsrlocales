@@ -19,9 +19,15 @@ it:
       s7: Laureato
       s8: Si
       s9: Si
-      s10: '%{count}Raccommandazioni'
-      s11: '%{count}Conferme delle competenze'
-      s12: '%{count}Contatti'
+      s10:
+        one: '%{count} Raccommandazione'
+        other: '%{count} Raccomandazioni'
+      s11:
+        one: '%{count} conferma delle competenze'
+        other: '%{count} conferme delle competenze'
+       s12:
+        one: '%{count} Contatto'
+        other: '%{count} Contatti'
       s13: Messaggio
       s14: Connetti
       s15: Confronta con il tuo CV
