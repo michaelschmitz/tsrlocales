@@ -21,7 +21,7 @@ pt:
       s3: "Confirmar pedido"
     email_message: 
       s1: "enviou-te uma mensagem"
-      s2: "O teu email está seguro e não foi partilhado com ninguém. A empresa utilizou um formulário no nosso website para entrar em contacto consigo. Pode mudar as suas preferências de contacto se carregar em \"Minha conta\" após login."
+      s2: "Os teus dados de e-mail estão seguros e não foram partilhados. A empresa utilizou um formulário no nosso website para te contactar. Podes mudar as tuas definições em \"Preferências de comunicação\", após teres efectuado login"
     event_digest: 
       s1: "Email-resumo de novo evento"
     invite_email: 
