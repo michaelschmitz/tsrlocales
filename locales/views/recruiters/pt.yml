@@ -37,10 +37,10 @@ pt:
         s3: Confirmar a minha conta
       email_message:
         s1: "Olá, esta é uma mensagem de"
-        s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
+        s2: "Os teus dados de e-mail estão seguros e não foram partilhados. A empresa utilizou um formulário no nosso website para te contactar. Podes mudar as tuas definições em \"Preferências de comunicação\", após teres efectuado login"
       message:   #Yes, this is exactly the same as above. Copy paste.
         s1: "Olá, esta é uma mensagem de"
-        s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
+        s2: "Os teus dados de e-mail estão seguros e não foram partilhados. A empresa utilizou um formulário no nosso website para te contactar. Podes mudar as tuas definições em \"Preferências de comunicação\", após teres efectuado login"
     messages:
       index:
         s1: As minhas mensagens
