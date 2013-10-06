@@ -56,3 +56,4 @@ pt:
           s4: Ranking
       show:
         s1: Procurar na base de dados
+        s2: Quando gravar esta pesquisa, o sistema irá memorizar os últimos critérios de pesquisa utilizados
