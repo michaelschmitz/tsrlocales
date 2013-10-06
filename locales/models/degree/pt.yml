@@ -20,6 +20,7 @@ pt:
         one: University
         other: Universities
         name: Instituição de Ensino
+      study_length: Duração normal dos estudos em meses
     study_area: 
       1: "Agronomia"
       30: "Arquitectura"
