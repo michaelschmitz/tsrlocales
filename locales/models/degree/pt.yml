@@ -17,8 +17,8 @@ pt:
       minor: Outros estudos
       document: Comprovativo
       university:
-        one: University
-        other: Universities
+        one: Universidade
+        other: Universidades
         name: Instituição de Ensino
       study_length: Duração normal dos estudos em meses
     study_area: 
