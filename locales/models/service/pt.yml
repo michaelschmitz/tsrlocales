@@ -21,9 +21,9 @@ pt:
     role:
       1: 'Papel activo'
       2: 'Papel secundário'
-      3: 'Operacionalfuncional (p.ex. Gestão)'
-      4: 'Papel de liderança (p.ex. Treinador ou Formador)'
-      5: 'Liderança estratégica (p.ex. Membro da Direção)'
+      3: 'Papel funcional (p.ex. Gestão, RP)'
+      4: 'Papel local de liderança (p.ex. Treinador, Líder de equipa ou Formador)'
+      5: 'Papel de Liderança estratégica (p.ex. Membro da Direção, Presidente)'
   activerecord:
     models:
       service: 'Serviço Social'
