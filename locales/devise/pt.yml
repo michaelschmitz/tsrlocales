@@ -15,7 +15,7 @@ pt:
       unauthenticated: "Necessita fazer login ou registar-se antes de continuar."
       unconfirmed: "Neccessita de confirmar a sua conta antes de continuar."
       user: 
-        not_found_in_database: "Este utilizador ainda não se encontra registado"
+      not_found_in_database: "Email ou password inválidos"
     mailer: 
       confirmation_instructions: 
         s1: Olá
