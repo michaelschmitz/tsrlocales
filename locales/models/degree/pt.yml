@@ -89,6 +89,7 @@ pt:
       19: "PhD (Doutoramento)"
       27: "Master"
       28: "Graduate"
+      29: "MD"
     grade_scale:
       DE: "Alemanha (4,0-1,0)"
       AR: "Argentina (0-10)"
