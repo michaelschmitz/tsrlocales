@@ -640,6 +640,13 @@ pt:
         asessment_title: "<b>Assessment</b> Ganhou %{points} Pontos e está no grupo dos melhores %{percent}%"
         explanation_button: "Mostrar Explicação"
         in: em
+        you: Tu
+        others: Outros
+        s1: Todos os participantes
+        s2: Grupo do Ranking
+        s3: Top
+        s4: Pontos
+        s5: 'n'
       preferred_employer: 
         s1: "Análise de empresa"
         s2: "Carregar no nome da empresa para visualizar gráficos"
