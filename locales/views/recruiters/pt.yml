@@ -36,10 +36,10 @@ pt:
         s2: Pode confirmar o e-mail da sua conta através do link seguinte
         s3: Confirmar a minha conta
       email_message:
-        s1: "enviou-lhe uma messagem"
+        s1: "Olá, esta é uma mensagem de"
         s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
       message:   #Yes, this is exactly the same as above. Copy paste.
-        s1: "enviou-lhe uma messagem"
+        s1: "Olá, esta é uma mensagem de"
         s2: "Os seus dados de e-mail estão seguros e não serão partilhados. Utilizámos um formulário no nosso website para entrar em contacto consigo. Pode alterar os seus dados de contacto selecionando \"A minha conta\" após ter efetuado o seu login."
     messages:
       index:
