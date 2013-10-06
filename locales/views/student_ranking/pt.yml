@@ -19,9 +19,15 @@ pt:
       s7: Recém-formado
       s8: Sim
       s9: Sim
-      s10: Recomendações
-      s11: Confirmação de competências
-      s12: Conexões
+      s10:
+        one: '%{count} Recomendação'
+        other: '%{count} Recomendações'
+      s11:
+        one: '%{count} Confirmação de competências'
+        other: '%{count} Confirmações de competências'
+      s12:
+        one: '%{count} Contacto'
+        other: '%{count} Contactos'
       s13: Mensagem
       s14: Conectar
       s15: Comparar com o teu CV
