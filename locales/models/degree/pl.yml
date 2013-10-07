@@ -89,6 +89,7 @@ pl:
       19: "PhD"
       27: "Magister"
       28: "Absolwent"
+      29: "MD"
     grade_scale:
       AR: "Argentyna (0-10)"
       AU: "Australia (50-100%)"
