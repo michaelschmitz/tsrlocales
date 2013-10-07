@@ -19,9 +19,15 @@ pl:
       s7: Absolwent
       s8: Rekruterzy mogą zobaczyć całe CV.
       s9: Tak
-      s10: Rekomendacje
-      s11: Potwierdzenia umiejętności
-      s12: Kontakty
+      s10:
+        one: '%{count} Rekomendacja'
+        other: '%{count} Rekomendacje'
+      s11:
+        one: '%{count} Potwierdzona umiejętność'
+        other: '%{count} Potwierdzonych umiejętności'
+      s12:
+        one: '%{count} Kontakt'
+        other: '%{count} Kontaktów'
       s13: Wiadomość
       s14: Nawiąż kontakt
       s15: Porównaj ze swoim CV
