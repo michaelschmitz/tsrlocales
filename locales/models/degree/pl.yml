@@ -19,8 +19,8 @@ pl:
       study_length: Czas trwania studiów w miesiącach (przewidywany)
       university:
         name: Nazwa uczelni
-        one: University
-        other: Universities
+        one: Uczelnia
+        other: Uczelnie
     study_area: 
       30: "Architektura"
       19: "Biolgia"
