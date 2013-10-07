@@ -635,6 +635,8 @@ pl:
         s1: Wszyscy użytkownicy
         s2: Grupa rankingowa
         s3: Top
+        s4: Punkty
+        s5: n
       achievement_ranking:
         s1: Twoje osiągnięcia w rankingu
         s2: "Punkty do +1"
