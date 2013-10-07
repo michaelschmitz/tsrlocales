@@ -22,8 +22,8 @@ pl:
       1: 'Aktywy członek'
       2: 'Bierny członek'
       3: 'Rola funkcyjna (np. Administartor)'
-      4: 'Lokalna rola przywódcza (np. Instruktor)'
-      5: 'Strategiczna rola przywódcza (np. Członek zarządu)'
+      4: 'Lokalna rola przywódcza (np. Instruktor, Prezydent oddziału)'
+      5: 'Strategiczna rola przywódcza (np. Członek zarządu, Prezydent)'
   activerecord:
     models:
       service: 'Aktywność'
