@@ -21,7 +21,7 @@ pl:
       s3: "Potwierdź znajomość"
     email_message: 
       s1: "wysłał do Ciebie wiadomość"
-      s2: "Twój adres e-mail jest bezpieczny i nigdy nie został udostępniony. Firma, która się z Tobą kontaktuje wykorzystuje formularz kontaktowy na naszej stronie. Możesz zmienić swoje preferencje dotyczące kontaktów, klikając na \"Moje konto \" po zalogowaniu się."
+      s2: "Twój adres e-mail jest bezpieczny i nigdy nie został udostępniony. Firma, która się z Tobą kontaktuje wykorzystuje formularz kontaktowy na naszej stronie. Możesz zmienić swoje preferencje dotyczące kontaktów, klikając na \"Ustawienie prywatności \" po zalogowaniu się."
     event_digest: 
       s1: "Nowe wydarzenie"
     invite_email: 
