@@ -33,6 +33,11 @@ pl:
     update: 'Aktualizuj'
     show: 'Pokaż'
     language: "Język"
+    apply_for_membership: "Aplikuj o członkostwo"
+    confirm_membership: "Potwierdź członkostwo"
+    remove_application: "Zrezygnuj z aplikacji"
+    leave_group: "Opuść grupę"
+    join: "Zapisz się"
     delete: 'Usuń'
     remove: "Usuń"
     search: "Szukaj"
