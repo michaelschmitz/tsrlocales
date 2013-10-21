@@ -34,6 +34,7 @@ pl:
     show: 'Pokaż'
     language: "Język"
     delete: 'Usuń'
+    remove: "Usuń"
     search: "Szukaj"
     yes: "Tak"
     no: "Nie"
