@@ -19,6 +19,9 @@ en:
       s13: Confirm
       s14: Reject
       s15: Invite friends
+      s16: Groups
+      s17: My groups
+      s18: All groups
     recruiter_nav:
       s1: Dashboard
       s2: Company Page

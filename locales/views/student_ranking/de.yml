@@ -19,9 +19,15 @@ de:
       s7: Einstiegsposition
       s8: Ja, von
       s9: Ja
-      s10: Empfehlungen
-      s11: Bestätige Fähigkeiten
-      s12: Kontakte
+      s10: 
+        one: '%{count} Empfehlungen'
+        other: '%{count} Empfehlungen'
+      s11:
+        one: '%{count} Bestätigte Fähigkeiten'
+        other: '%{count} Bestätigte Fähigkeiten'
+      s12: 
+        one: '%{count} Kontakte'
+        other: '%{count} Kontakte'      
       s13: Nachricht
       s14: Verbinden
       s15: Mit Lebenslauf vergleichen

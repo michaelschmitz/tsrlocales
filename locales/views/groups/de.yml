@@ -1,0 +1,32 @@
+de:
+  groups:
+    index:
+      s1: Meine Gruppen
+      s2: Neue Gruppe erstellen
+      s3: Mitglieder
+      s4: Private Gruppe
+      s5: Öffentlich
+    search:
+      s1: Alle Gruppen
+      s2: Neue Gruppe erstellen
+      s3: Mitglieder
+      s4: Private Gruppe
+      s5: Öffentlich
+    form:
+      s1: Private Gruppe
+      s2: Öffentlich
+    show:
+      s1: Bewerbungen
+      s2: Keine offenen Bewerbungen      
+      s3: Mitglieder
+    group_header:
+      s1: Mitglieder
+      s2: Private Gruppe
+      s3: Öffentlich
+      s4: Gruppe erstellt von
+    member:
+      s1: Anonym       
+    new:
+      s1: Neue Gruppe
+    edit:
+      s1: Gruppe bearbeiten  

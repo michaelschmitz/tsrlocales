@@ -31,6 +31,12 @@ en:
     edit: 'Edit'
     update: 'Update'
     show: 'Show'
+    apply_for_membership: "Apply for membership"
+    confirm_membership: "Confirm membership"
+    remove_application: "Cancel application"
+    leave_group: "Leave group"
+    join: "Join"
+    remove: "Remove"
     delete: 'Delete'
     yes: "Yes"
     no: "No"

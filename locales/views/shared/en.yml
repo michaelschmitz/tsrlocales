@@ -4,6 +4,8 @@ en:
         s1: "Upload a profile picture"
         s10: "Do you have work experience?"
         s11: "Add your preferred employers"
+        s11a: "Import your profile"
+        s11b: "Import from"
         s12: "Profile completion"
         s13: "Add a skill"
         s2: "Add degree information"

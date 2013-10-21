@@ -19,9 +19,15 @@ es:
       s7: Graduado
       s8: Sí
       s9: Sí
-      s10: Recomendaciones
-      s11: Confirmación habilidades
-      s12: Contactos
+      s10:
+        one: '%{count} Recomendaciones'
+        other: '%{count} Recomendaciones'
+      s11:
+        one: '%{count} Confirmación habilidades'
+        other: '%{count} Confirmación habilidades'
+      s12:
+        one: '%{count} Contactos'
+        other: '%{count} Contactos'
       s13: Mensaje
       s14: Añadir a contactos
       s15: Comparar con tu CV

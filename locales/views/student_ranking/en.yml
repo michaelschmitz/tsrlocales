@@ -19,9 +19,10 @@ en:
       s7: Graduate
       s8: Yes
       s9: Yes
-      s10:
-        one: '%{count} Recommendation'
+      s10: {
+        one: '%{count} Recommendation' ,
         other: '%{count} Recommendations'
+      }
       s11:
         one: '%{count} Skill confirmation'
         other: '%{count} Skill confirmations'

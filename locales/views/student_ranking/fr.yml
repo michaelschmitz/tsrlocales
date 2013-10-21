@@ -8,9 +8,15 @@ fr:
       s4: "Voir les details"
     public_profile: 
       s1: xxx
-      s10: Recommendations
-      s11: "Confirmations de compétences"
-      s12: Connections
+      s10: 
+        one: '%{count} Recommendations'
+        other: '%{count} Recommendations'
+      s11:
+        one: '%{count} Confirmations de compétences'
+        other: '%{count} Confirmations de compétences'
+      s12:
+        one: '%{count} Connections'
+        other: '%{count} Connections'
       s13: Message
       s14: Connecter
       s15: "Comparer avec votre CV"

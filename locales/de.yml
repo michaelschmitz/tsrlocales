@@ -15,8 +15,15 @@ de:
     edit: 'Bearbeiten'
     update: 'Ändern'
     show: 'Anzeigen'
+    back: "Zurück"
     delete: 'Entfernen'
+    destroy: "Löschen"
     yes: "Ja"
+    confirm_membership: "Mitgliedschaft bestätigen"
+    remove_application: "Bewerbung zurückziehen"
+    leave_group: "Gruppe verlassen"
+    join: "Beitreten"
+    remove: "Entfernen"
     no: "Nein"
     na: "Nicht verfügbar"
     save: "Speichern"
