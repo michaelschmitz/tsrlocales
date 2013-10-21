@@ -1,0 +1,15 @@
+zht:
+  services:
+    edit:
+      s1: 編輯社交活動
+    modal:
+      html:
+        s1: 興趣、會員、社交活動
+    new:
+      s1: 新增社交活動
+    show:
+      s1: 興趣、會員、社交活動
+    service:
+      s1: 內容
+      s2: 小時
+      s3: 每週

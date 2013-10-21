@@ -1,0 +1,53 @@
+pl:
+  recruiters:
+    cv_searches:
+      comparisons:
+        s1: Porównanie globalne
+      edit:
+        s1: "Nazwij wyszukiwanie"
+      form:
+        s1: Słowo kluczowe
+        s2: "Język 1"
+        s2a: "Język"
+        s3: "Język 2"
+        s4: "Język 3"
+        s5: "Język 4"
+        s6: Lokalizacja
+        s7: Dostępność
+        s8: Uczelnia
+        s9: Doświadczenie
+        s10: Umiejętności
+        s11: Chęć do podróżowania 
+        s12: rezultatów
+        s13: Min liczba punktów
+        s14: Max odległość
+        s15: Doświadczenie zawodowe (w miesiącach)
+        s16: Doświadczenie - praktyki (w miesiącach)
+        s17: Narodowość
+        s18: Poziom
+      recruiter_profile_small:
+        s1: Praktyki
+        s2: Pozycja dla absolwenta
+        s3: Usuń z listy kandydatów
+        s4: Dodaj do listy kandydatów
+        s5: Wyślij wiadomość
+      recruiter_recommendations:
+        s1: Rekomendacje
+        s2: Brak rekomendacji 
+      recruiter_skills:
+        s1: Umiejętności
+        s2: Potwierdź
+        s3: Ten użytkownik nie wskazał jeszcze swoich umiejętności.
+      index:
+        s1: Moje zapisane wyniki wyszukiwania
+        s2: Nazwa
+        s3: Pokaż kandydatów
+        s4: Edytuj
+        s5: Kontynuuj
+        s6: Kandydaci
+        s7: Zmień nazwę
+        s8: Pokaż
+        s9: Nowe wyszukiwanie
+      show:
+        s1: Wyszukiwanie w bazie CV
+        s2: Po zapisaniu tego wyszukiwania, system automatycznie zapamięta kryteria i rezultaty wyszukiwania. 

@@ -1,0 +1,20 @@
+en:
+  degrees:
+    edit:
+      s1: Edit Degree
+    modal:
+      html:
+        s1: Degree
+    new:
+      s1: New Degree
+    show:
+      s1: Degree
+    degree:
+      s1: GPA
+      s2: Faculty
+      s3: Major
+      s4: Minor
+    form:
+      s1: Add University
+      s2: Add Exchange University
+      s3: Select from the list or

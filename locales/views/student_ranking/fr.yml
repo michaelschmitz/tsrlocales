@@ -1,0 +1,52 @@
+--- 
+fr: 
+  student_ranking: 
+    public_anon_profile_small: 
+      s1: Anonymous
+      s2: Stage
+      s3: Universitaire
+      s4: "Voir les details"
+    public_profile: 
+      s1: xxx
+      s10: 
+        one: '%{count} Recommendations'
+        other: '%{count} Recommendations'
+      s11:
+        one: '%{count} Confirmations de compétences'
+        other: '%{count} Confirmations de compétences'
+      s12:
+        one: '%{count} Connections'
+        other: '%{count} Connections'
+      s13: Message
+      s14: Connecter
+      s15: "Comparer avec votre CV"
+      s16: Report
+      s17: "Rapport reçu"
+      s2: Etudiant
+      s3: Actuel
+      s4: Precedent
+      s5: Education
+      s6: Stages
+      s7: Universitaire
+      s8: "Oui, depuis"
+      s9: Oui
+    public_profile_small: 
+      s1: Universitaire
+      s3: "Voir les details"
+    public_recommendations: 
+      s1: Recommendations
+      s2: "Pas de recommendations encore."
+      s3: "Suprimer les recommendation"
+      s4: Recommendé
+    public_skills: 
+      s1: Competences
+      s2: Confirmer
+      s3: "Cet utilisateur n'a pas encore indiqué son compétences."
+    show: 
+      s1: "classement étudiant dans le monde s2"
+      s2: "Recherche par nom"
+      s3: "points de réalisation"
+      s4: "Points Sociaux"
+      s5: Rechercher
+      s6: "Pas de résultats disponibles à vos termes de recherche."
+      s7: Résultats

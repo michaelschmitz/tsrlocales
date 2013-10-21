@@ -1,0 +1,16 @@
+en:
+  skills:
+    edit:
+      s1: Edit skill
+    modal:
+      html:
+        s1: Skill
+    new:
+      s1: New skill
+    show:
+      s1: Skill
+    skill:
+      s1: Application
+      s2: Training
+    form:
+      s1: That's a lot of hours. Please provide a quick summary as to how you have achieved this, and keep the difference between training and application in mind.

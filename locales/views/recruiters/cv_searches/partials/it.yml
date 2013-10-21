@@ -1,0 +1,32 @@
+it:
+  recruiters:
+    cv_searches:
+      partials:
+        degree:
+          s1: Media dei voti 
+        other:
+          s1: Premi
+          s2: Pubblicazioni
+          s3: Link
+          s4: Borse di studio
+        languages:
+          s1: Lingue
+        recommendations:
+          s1: Raccomandazioni
+          s2: Non ha ancora ricevuto raccomandazioni
+        school:
+          s1: Media dei voti
+        service:
+          s1: oggi
+          s2: Ore
+          s3: a settimana
+        skills:
+          s1: Competenze
+          s2: Dettagli
+          s3: Applicazione
+          s4: Formazione
+          s5: ore
+        work_experience:
+          s1: oggi
+          s2: h a settimana
+          s3: Descrizione

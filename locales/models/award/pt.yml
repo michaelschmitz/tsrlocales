@@ -1,0 +1,25 @@
+pt:
+  award:
+    attributes: &ATTRIBUTES
+      area: Área
+      name: Nome
+      level: Nível
+      document: Comprovativo
+    area:
+      1: Distinções
+      2: Prémios (Desporto)
+    level:
+      1: Local
+      2: Regional
+      3: Nacional
+      4: Internacional
+  activerecord:
+    models:
+      award: 'Prémio' 
+  attributes:
+      award:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      award:
+        <<: *ATTRIBUTES 

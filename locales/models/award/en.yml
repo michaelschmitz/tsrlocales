@@ -1,0 +1,25 @@
+en:
+  award:
+    attributes: &ATTRIBUTES
+      area: Type
+      name: Name
+      level: Level
+      document: Document
+    area:
+      1: Award
+      2: Prize(Sport)
+    level:
+      1: Local
+      2: Country
+      3: National
+      4: International
+  activerecord:
+    models:
+      award: Scholarship
+    attributes:
+      award:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      award:
+        <<: *ATTRIBUTES 

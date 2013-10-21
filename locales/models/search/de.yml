@@ -1,0 +1,18 @@
+de:
+  search: 
+    attributes: &ATTRIBUTES
+      nationality: Nationalität
+      year_of_birth: Geburtsdatum
+      study_area: Vergleichsgruppe
+      graduation_year: Abschlussjahr
+      order: Reihenfolge
+  activerecord:
+    models:
+      search: 'Suche'
+    attributes:
+      search:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      search:
+        <<: *ATTRIBUTES   

@@ -1,0 +1,28 @@
+pt:
+  skill:
+    attributes: &ATTRIBUTES
+      name: Nome
+      level: Nível
+      hours_application: Horas de utilização
+      hours_training: Horas de formação
+      explanation: Explicação
+      included: Última utilização
+      document: Comprovativo
+      hours_application: Nº total de horas dispendidas
+      hours_application: Nº total de horas de formação
+    level:
+      1: 'Iniciado'
+      2: 'Experiente'
+      3: 'Especialista'
+  activerecord:
+    models:
+      skill: 'Competência'
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skills:
+        <<: *ATTRIBUTES 
+      skill:
+        <<: *ATTRIBUTES      

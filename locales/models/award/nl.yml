@@ -1,0 +1,22 @@
+nl:
+  award:
+    attributes: &ATTRIBUTES
+      area: Type organisatie
+      name: Naam
+      level: Niveau
+    area:
+      1: Award
+      2: Prijs(Sport)
+    level:
+      1: Plaatselijk
+      2: Regionaal
+      3: Nationaal
+      4: Internationaal
+  activerecord:
+    attributes:
+      award:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      award:
+        <<: *ATTRIBUTES 

@@ -1,0 +1,164 @@
+it:
+  user_mailer:
+    blog_digest:
+      s1: "New blog digest mail"
+    connection_confirmed:
+      s1: ha accettato il tuo invito a connettersi a theStudentRanking.com. Ora sei in grado di accedere al suo profilo, confrontare i vostri punteggi  e scoprire in che modo potete darvi una mano per migliorare.
+      s2: "Controlla"
+      s3: "il profilo"
+      s4: Puoi anche raccomandare 
+      s5: XXX e confermare le sue competenze. In questo modo lo aiuterai a guadagnare punti e a migliorare il suo punteggio social, permettendo anche alle aziende di trovarlo più facilmente. 
+      s6: Raccomanda
+      s7: Conferma le competenze
+      s8: Se vuoi saperne di più sui sistemi di punteggio Personale e Social clicca qui
+      s9: Punteggio Social
+      s10: Punteggio Personale
+      s11: Cordiali saluti,
+      s12: Michael
+    connection_request:
+      s1: "vuole connettersi con te su theStudentRanking.com. In questo modo puoi ricevere raccomandazioni e conferma delle tue competenze, aumentando il tuo punteggio social."     
+      s2: "Connettiti ora e permetti a entrambi di essere trovati più facilmente dai recruiter!"
+      s3: "Conferma richiesta"
+    email_message:
+      s1: "ti ha inviato un messaggio"
+      s2: "Il tuo indirizzo email è al sicuro e non è stato condiviso. L'azienda ha utilizzato il form presente sul nostro sito per contattarti. Puoi modificare le impostazioni di contatto cliccando su \"Preferenze di comunicazione\" dopo esserti registrato."
+    event_digest:
+      s1: "Sintesi dei nuovi eventi"
+    invite_email:
+      s0: "ti ha invitato a unirti a theStudentranking.com"
+      s1: "ti ha invitato a unirti a theStudentranking.com"
+      s2: "Provalo qui."
+      s3: "theStudentRanking.com fornisce un ranking globale per studenti e giovani professionisti. Confrontati con i tuoi pari a livello globale, nazionale, e anche all'interno della tua università e nella tua area di studio. Puoi scoprire il percorso dei tuoi amici ed entrare in contatto con le migliori aziende del mondo. Provalo adesso- è gratis!"
+    job_digest:
+      s0: "Le migliori aziende cercano candidati come te"
+      s1: "Lavori che potrebbero interessarti"
+      s2: Visualizza tutte le offerte di lavoro
+      s3: Visualizza offerta di lavoro
+      s4: "Fatti assumere velocemente:"
+      s5: Aggiorna il tuo profilo
+    new_position:
+      s0: Hai ottenuto una nuova posizione su theStudentRanking.com
+      s1: come ci avevi richiesto, ti informiamo ogni volta che la tua posizione cambia. Il sistema ha ricalcolato la tua posizione ora che ci sono più di
+      s2: utenti nel sistema.
+      s3: Clicca qui per visualizzare la tua posizione nel ranking
+      s4: Anche la posizione e il punteggio di alcuni dei tuoi contatti è cambiata. Approfitta di questa occasione per raccomandarli o per confermare le loro competenze. 
+      s5: Clicca qui per visualizzare i tuoi contatti
+      s6: Cordiali saluti,
+      s7: Michael
+    recommendation_confirmation:
+      s1: hai appena ricevuto una raccomandazione da
+      s2: aumentando il tuo punteggio Social. Controlla il tuo profilo per vedere com’è cambiata la tua posizione nel ranking dei punteggi Social.
+      s3: Controlla il mio profilo
+      s4: Puoi anche raccomandare a tua volta 
+      s5: e aiutarlo a guadagnare punti social.  
+      s6: Raccomanda 
+      s7: Le raccomandazioni effettuate dai tuoi migliori otto contatti (valutati in base alla posizione in classifica) forniscono il 5% del loro punteggio totale al tuo 
+      s8: punteggio Social. Se vuoi saperne qualcosa in più e migliorare, leggi qui
+      s9: Il sistema di punteggio Social
+      s10: Cordiali saluti,
+      s11: Michael
+    skill_confirmed:
+      s1: Il tuo contatto 
+      s2: ha appena confermato le tue competenze
+      s3: Questo ha aumentato il tuo punteggio Social di 
+      s4: Controlla il mio profilo
+      s5: ha aggiunto nuove competenze di recente. Aiutalo ad aumentare il suo punteggio e ad essere trovato più facilmente dai recruiter alla ricerca dei migliori candidati. Puoi confermare le seguenti competenze? 
+      s6: Conferma
+      s7: Cordiali saluti,
+      s8: Michael
+    suggestions:
+      completed_internship:
+        s1: sembra che tu abbia appena concluso uno stage- almeno è quello che si evince dal tuo piano di carriera. 
+        s2: 'Se è così, aggiorna subito il tuo profilo e guadagna punti per il risultato che hai conseguito'
+        s3: Aggiorna la mia esperienza lavorativa
+        s4: Potresti anche aggiornare il tuo piano di carriera per riflettere i tuoi nuovi obiettivi e progetti, sarai disponibile a svolgere un altro stage nei prossimi anni? 
+        s5: Aggiorna il mio piano di carriera
+        s6: Aggiornare il profilo è utile non sono per te, ma anche per i tuoi amici. Le persone che hai raccomandato beneficeranno in percentuale del tuo punteggio e saranno trovate più facilmente dai recruiter che ricercano candidati brillanti come te.
+        s7: Vuoi più contatti? Invita tutti i tuoi contatti e aumenta il tuo punteggio social!
+        s8: Aumenta il punteggio social
+        s9: Buona giornata,
+        s10: Michael
+      empty_career_plan:
+        s1: I recruiter effettuano spesso una ricerca dei profili filtrandoli in base ai piani di carriera, stai ricercando uno stage o una posizione full-time? 
+        s2: Una volta in grado ti rintracciarti all’interno del sistema, i recruiter potranno inviarti messaggi e inviti. Ciò richiede, da parte tua, un costante aggiornamento del tuo piano di carriera, nel quale è bene indicare la tua disponibilità. 
+        s3: Aggiorna esperienza lavorativa
+        s4: Aggiorna il tuo piano di carriera
+        s5: Fa’ in modo che per loro sia più facile trovarti ed entrare in contatto con te- poi cogli al volo le opportunità e assicurati una brillante carriera. 
+        s6: Fammi sapere se posso esserti di aiuto,
+        s7: Michael
+      inactive:
+        s1: sono Michael di theStudentRanking.com. Devi essere stato molto impegnato negli ultimi mesi- avrai avuto nuove esperienze, migliorato le tue competenze  e accresciuto il tuo potenziale. 
+        s2: È molto probabile che la tua posizione nel ranking di theStudentRanking.com sia migliorata. Nello specifico il tempo e gli sforzi che hai investito nei tuoi studi, svolgendo esperienze lavorative e acquisendo nuove competenze, stanno dando i loro frutti. 
+        s3: Aggiorna il tuo profilo per controllare la tua posizione e quel che è successo ai tuoi amici nel frattempo. 
+        s4: Controlla velocemente il mio profilo
+        s5: Buona giornata,
+        s6: Michael
+      languages_skills:
+        s1: sono Michael di theStudentRanking.com. Hai già completato gran parte del tuo profilo, è un’ottima cosa visto che in questo modo puoi visualizzare il tuoi risultato nel ranking ed essere trovato facilmente dai recruiter. 
+        s2: Per rendergli la ricerca ancora più facile, inserisci qualche dettaglio in più sulle tue competenze e sui tuoi risultati.
+        s3: Aggiorna le tue lingue
+        s4: Aggiorna le tue competenze
+        s5: Aggiorna i tuoi risultati
+        s6: Queste nuove competenze aumenteranno il tuo punteggio Personale, facendoti salire nel ranking.
+        s7: "Il tuo punteggio Social attuale è: "
+        s8: Se vuoi fornire più conferme sociali delle tue abilità e dei tuoi risultati, chiedi ai tuoi amici e ai tuoi contatti di entrare nel sistema. 
+        s9: Dillo ai tuoi amici
+        s10: Fammi sapere se posso esserti d'aiuto per qualsiasi cosa riguardi il tuo profilo.
+        s11: Cordiali saluti,
+        s12: Michael
+      profile_empty:
+        s1: sono Michael di theStudentRanking.com. 
+        s2: Se vuoi crearti una carriera, entrare in contatto con i recruiter è un fattore chiave. Avendo un profilo non compilato su theStudentRanking.com, i recruiter non sono ancora in grado di trovarti. Dai una svolta alla tua carriera compilando il tuo profilo e verifica tu stesso i risultati- quanti messaggi da parte dei recruiter ti stai perdendo ora? 
+        s3: Aggiungi titolo di studio
+        s4: Inoltre l’aggiornamento del profilo ti fornirà informazioni utili sulla tua posizione nel ranking, permettendoti di confrontarti con gli altri candidati- se vuoi crescere e migliorare questa è una grande opportunità.
+        s5: Potrai anche lavorare insieme ai tuoi amici per definire i tuoi obiettivi, per migliorare I tuoi voti, le tue competenze linguistiche o le esperienze lavorative. Usa il sistema come uno strumento per migliorare incoraggiandovi l’un l’altro. 
+        s6: Invita i tuoi amici
+        s7: Felice di averti a bordo,
+        s8: Michael
+        s9: PS ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.		
+      s1: Le aziende ricercano le lingue e le competenze sul tuo profilo
+      s2: Le aziende filtrano i migliori candidati usando il punteggio social
+      s3: Il tuo piano di carriera ti aiuta ad avere successo
+      s4: Il tuo recente stage
+      s5: Le aziende ricercano candidati come te
+      social_points:
+        s1: Sono Michael di theStudentRanking.com. Dando un’occhiata al tuo profilo, ho notato che nessuno dei tuoi amici di Facebook si è connesso con te su  theStudentRanking – il tuo punteggio social è pari a zero.
+        s2: Utilizzando il nostro sistema, anche loro potrebbero imparare qualcosa in più su loro stessi e scoprire come migliorarsi. Ciò aiuterà anche te ad essere più motivato e potrete unire le vostre forze per diventare più efficienti nel mercato del lavoro.
+        s3: Invitarli è facile, bastano pochi secondi (e i tuoi dati saranno sempre al sicuro).
+        s4: Invita i tuoi amici
+        s5: Una volta invitati i tuoi amici, raccomandali e conferma le loro competenze in modo da renderli più facilmente visibili alle aziende. Loro potranno fare lo stesso per te, aiutandoti a diventare più visibile a tua volta. 
+        s6: Buona giornata,
+        s7: Michael   
+    weekly_digest:
+      s1: Questo è il riassunto settimanale di theStudentRanking.com.
+      s2: Contatti
+      s3: "Hai cinque nuovi contatti – "
+      s4: ti ha aggiunto
+      s5: Hai un nuovo contatto
+      s6: Non hai nuovi contatti
+      s7: Aggiungi nuovi contatti qui
+      s8: Competenze
+      s9: Nessun contatto ha confermato le tue competenze questa settimana.
+      s10: delle tue competenze sono state confermate questa settimana.
+      s11: ha supportato la tua carriera.
+      s12: Conferma le competenze dei tuoi contatti cliccando qui e aiutali ad essere trovati dai recruiter.
+      s13: Conferma competenze
+      s14: Raccomandazioni
+      s15: Non hai ricevuto raccomandazioni questa settimana
+      s16: "Hai ricevuto raccomandazioni questa settimana"
+      s17: Visualizza le tue raccomandazioni
+      s18: Clicca qui per aiutare i tuoi contatti a costruire la loro carriera 
+    welcome_email:
+      s0: "Benvenuto su theStudentRanking.com"    
+      s1: sono Michael di theStudentRanking.com. Ti ringrazio per esserti registrato sul nostro sito- spero ti divertirai a usare il sistema! Ti aiuteremo a scoprire nuove utili informazioni su te stesso e su i tuoi amici, a migliorare i tuoi risultati e il tuo valore nel mercato del lavoro e a entrare in contatto con le aziende di tutto il mondo. 
+      s2: Questa email conferma la tua registrazione al sito e ti sarà utile per avere sott’occhio i dati relativi al tuo account. Ti sei registrato con %{email}. Se in futuro dovessi dimenticare la tua password, puoi richiederne una nuova 
+      s3: Sei pronto per costruire la tua carriera? Inizia subito aggiornando il tuo profilo con i tuoi risultati, in modo da ottenere punti e visibilità. 
+      s4: Crea il tuo profilo
+      s5: "Le aziende ricercano candidati in grado di fornire una \"conferma sociale\" dei propri risultati. Avere dei contatti che confermino le tue competenze e forniscano raccomandazioni può essere molto utile nella ricerca di un lavoro e migliorerà il tuo punteggio Social: guadagni il 5% del punteggio Personale di chi ti ha raccomandato e ulteriori punti per ogni competenza confermata. Ad ora il tuo punteggio Social è pari a zero. Puoi aumentarlo invitando i tuoi contatti a partecipare al ranking." 
+      s6: Invita i tuoi contatti
+      s7: Puoi anche modificare le tue preferenze in modo facile e veloce 
+      s8: Come ottenere il tuo primo lavoro
+      s9: è una serie di 9 articoli che ti aiuterà a prepararti all’ingresso nel mondo del lavoro. Dai un’occhiata al nostro Blog per capire come approfittare delle migliori offerte che ti si prospetteranno.
+      s10: Felice di averti a bordo,
+      s11: Michael
+      s12: PS ogni tipo di feedback è ben accetto – scrivimi in qualsiasi momento.	

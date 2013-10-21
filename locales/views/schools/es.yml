@@ -1,0 +1,13 @@
+es:
+  schools:
+    edit:
+      s1: Editar escuela
+    modal:
+     html:
+      s1: Escuela
+    new:
+      s1: Nueva escuela
+    show:
+      s1: Escuela
+    school:
+      s1: Media

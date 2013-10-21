@@ -1,0 +1,15 @@
+zht:
+  shared_sidebar:
+    jobs:
+      s1: 我們推薦的工作機會
+    friends:
+      s1: 我的朋友    
+      s2: 已註冊的朋友
+      s3: 邀請朋友
+    suggestion_ranking:
+      s1: 你可能認識這些人
+      s2: xxx
+      s3: 請求已送出
+      s4: 建立關係
+    friends_ranking:
+      s1: 我的人脈關係

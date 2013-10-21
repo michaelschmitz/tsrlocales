@@ -1,0 +1,23 @@
+en:
+  language:
+    attributes: &ATTRIBUTES
+      name: Language
+      level: Level
+      certificate: Certificate
+      certificate_grade: Certificate grade
+      document: Document
+    level:
+      1: 'Basic'
+      2: 'Good'
+      3: 'Advanced'
+      4: 'Fluent / Native'
+  activerecord:
+    models:
+      language: 'Language'
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

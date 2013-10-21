@@ -1,0 +1,13 @@
+zht:
+  schools:
+    edit:
+      s1: 編輯中等教育
+    modal:
+      html:
+        s1: 學校
+    new:
+      s1: 新增中等教育
+    show:
+      s1: 學校
+    school:
+      s1: GPA (平均在學成績)

@@ -1,0 +1,15 @@
+pt:
+  work_experiences:
+    edit:
+      s1: Editar experiência profissional
+    modal:
+      html:
+        s1: Experiência profissional
+    new:
+      s1: Nova experiência profissional
+    show:
+      s1: Experiência profissional
+    work_experience:
+      s1: Descrição
+      s2: Horas
+      s3: por semana

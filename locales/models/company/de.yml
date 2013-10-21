@@ -1,0 +1,21 @@
+de:
+  company:
+    attributes: &ATTRIBUTES
+      name: Firmenname
+      vat_number: UST-Nummer
+      street: Straße
+      city: Stadt
+      code: Postleitzahl
+      country: Land
+      url: Webseite
+      facebook_page: Facebook-Seite
+  activerecord:
+    models:
+      company: 'Firma'
+    attributes:
+      company:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      company:
+        <<: *ATTRIBUTES   

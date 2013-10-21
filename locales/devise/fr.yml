@@ -1,0 +1,71 @@
+#UPlloaded 30 03 - 09:49
+--- 
+fr: 
+  devise: 
+    confirmations: 
+      confirmed: "Votre compte a été confirmée. Vous êtes maintenant inscrit"
+      send_instructions: "Vous recevrez un courriel avec des instructions sur la façon de confirmer votre compte en quelques minutes."
+      send_paranoid_instructions: "Si votre adresse email existent dans notre base de données, vous recevrez un email avec des instructions sur la façon de confirmer votre compte en quelques minutes."
+    failure: 
+      already_authenticated: "Vous êtes déjà-connecté"
+      inactive: "Votre compte n'a pas encore activé."
+      invalid: "Invalid email ou mot de passe"
+      invalid_token: "Token d'authentification non valide."
+      locked: "Votre compte est bloqué."
+      timeout: ". Votre session a expiré, s'il vous plaît vous connecter à nouveau pour continuer"
+      unauthenticated: "Vous devez vous connecter ou vous inscrire avant de poursuivre."
+      unconfirmed: "Vous devez confirmer votre compte avant de continuer."
+      user: 
+        not_found_in_database: "Cet utilisateur n'est pas inscrit ici"
+    mailer: 
+      confirmation_instructions: 
+        s1: Bonjour
+        s2: "Vous devez confirmer cette adresse e-mail pour que vous puissiez utiliser votre compte Cliquez sur le lien suivant pour le faire"
+        s3: "Confirmez votre adresse e-mail et compte"
+        subject: "Instructions de confirmation"
+      reset_password_instructions: 
+        s1: Bonjour
+        s2: "Quelqu'un a demandé un changement de mot de passe pour votre compte Le lien suivant vous permet de changer le mot de passe."
+        s3: "Changee mot de passe"
+        s4: "Si vous n'avez pas demandé un nouveau mot de passe, puis simplement ignorer ce message."
+        s5: "Votre mot de passe sera changé que par après que vous avez cliqué sur ce lien et a ajouté un nouveau mot de passe."
+        subject: "Réinitialiser les instructions de mot de passe."
+      unlock_instructions: 
+        s1: bonjour
+        s2: "votre compte a été bloqué pour des raisons de sécurité."
+        s3: "Cliquez sur le lien ci-dessous pour ouvrir votre compte"
+        s4: " déblocer votre compte"
+        subject: "Instructions de déblocage"
+    omniauth_callbacks: 
+      failure: "Impossible de vous authentifier à partir de %{kind} car %{reason}."
+      success: "Authentifié avec succès à partir de %{kind} compter."
+    passwords: 
+      no_token: "Vous ne pouvez pas accéder à cette page sans provenant d'une e-mail de réinitialisation de mot Si vous venez d'un e-mail de réinitialisation de mot, s'il vous plaît assurez-vous que vous avez utilisé l'URL complète fournie."
+      send_instructions: "Vous recevrez un email avec des instructions sur façon de réinitialiser votre mot de passe dans quelques minutes."
+      send_paranoid_instructions: "Si votre adresse email existent dans notre base de données, vous recevrez un lien de récupération de votre mot de passe à votre adresse e-mail dans quelques minutes."
+      updated: "Votre mot de passe a été changé avec succès. Vous êtes maintenant inscrit."
+      updated_not_active: "Votre mot de passe a été modifié avec succès. "
+    registrations: 
+      destroyed: "Au revoir! Votre compte a été annulé. Nous espérons vous revoir bientôt."
+      signed_up: "Votre adresse email a été confirmée. S'il vous plaît remplir votre profil pour recevoir vos résultats du classement."
+      signed_up_but_inactive: "Vous vous êtes inscrit avec succès. Cependant, nous n'avons pu vous connecter car votre compte n'est pas encore activé."
+      signed_up_but_locked: "Vous vous êtes inscrit avec succès. Cependant, nous n'avons pu vous connecter car votre compte est verrouillé."
+      signed_up_but_unconfirmed: "Un message contenant un lien de confirmation a été envoyé à votre adresse email. S'il vous plaît ouvrir le lien pour activer votre compte."
+      update_needs_confirmation: "Vous mis à jour votre compte avec succès, mais nous devons vérifier votre nouvelle adresse email Veuillez vérifier votre email et cliquez sur le lien de confirmation pour finaliser la confirmation de votre adresse e-mail."
+      updated: "Vous avez mis à jour votre compte."
+    sessions: 
+      signed_in: "Signed in successfully."
+      signed_out: "Signed out successfully."
+    unlocks: 
+      send_instructions: "Vous recevrez un email contenant obtenir des instructions de comment déverrouiller votre compte en quelques minutes."
+      send_paranoid_instructions: "Votre compte a été déverrouillée avec succès. S'il vous plaît vous connecter pour continuer."
+      unlocked: "Votre compte a été déverrouillée avec succès. S'il vous plaît vous connecter pour continuer."
+  errors: 
+    messages: 
+      already_confirmed: "a déjà été confirmé, s'il vous plaît essayez de vous connecter"
+      expired: "est expiré, s'il vous plaît demander un nouveau"
+      not_found: "pas trouver"
+      not_locked: "n'a pas été bloqué"
+      not_saved: 
+        one: "1 error interdit cette %{resource} d'être sauvé:"
+        other: "%{count} erreurs interdit de %{resource} d'être sauvé:"

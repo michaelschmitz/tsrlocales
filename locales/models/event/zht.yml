@@ -1,0 +1,22 @@
+zht:
+  event:
+    attributes: &ATTRIBUTES
+      title: 活動名稱
+      intro: 簡述
+      description: 詳細內容
+      sponsor: 贊助商
+      date: 日期
+      location: 地址
+      deadline: 截止日
+      link: 連結
+      comment_on_location: 活動地址描述
+  activerecord:
+    models:
+      event: '活動'  
+    attributes:
+      event:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      event:
+        <<: *ATTRIBUTES   

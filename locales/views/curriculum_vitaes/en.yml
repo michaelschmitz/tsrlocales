@@ -1,0 +1,49 @@
+en:
+  curriculum_vitaes:
+    awards:
+      s1: Awards
+      s2: Add an award
+    career_plan_info:
+      s1: Student
+    career_plans:
+      s1: Career Plan
+      s2: Add a career plan
+    degrees:
+      s1: University Education
+      s2: Add education
+    languages:
+      s1: Languages
+      s2: Add a language
+    preferred_employers:
+      s1: Preferred Employers
+      s2: Add employers
+    profile:
+      s1: Current
+      s2: Previous
+      s3: Education
+      s4: Recommendations
+      s5: Confirmed skills
+      s6: Connections
+      s7: Invite friends
+      s8: My ranking
+      s9: Privacy settings
+      s10: Reload Facebook friends
+      s11: Message
+    publications:
+      s1: Publications
+      s2: Add publications
+    scholarships:
+      s1: Scholarships
+      s2: Add a scholarship
+    schools:
+      s1: Secondary Education
+      s2: Add education
+    services:
+      s1: "Interests, memberships, social activities"
+      s2: Add social activites
+    skills:
+      s1: Skills
+      s2: Add a skill
+    works:
+      s1: Work Experience
+      s2: Add work experience

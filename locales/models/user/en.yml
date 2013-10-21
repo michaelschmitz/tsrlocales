@@ -1,0 +1,83 @@
+en:
+  user:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Password
+      password_confirmation: Password confirmation
+      first_name: First name
+      last_name: Last name
+      avatar: Profile picture
+      nationality: Nationality
+      language: Language
+      date_of_birth: Date of Birth
+      gender: Gender
+      about: About
+      location: Location
+      remember_me: Remember me
+    gender:
+      1: 'Female'
+      2: 'Male'
+      3: 'Other'
+      4: 'Not provided'
+    frequency_emails:  
+      1: 'After every event'
+      2: 'Every month'
+      3: 'Never'
+    new_position_email:
+      0: 'never'
+      1: 'Once a week'
+      2: 'Every two weeks'
+      4: 'Once a month month'
+      12: 'Every three months'
+      24: 'Every six months'
+      48: 'Every twelve months'
+    suggestion_email:
+      0: 'never'
+      1: 'Once a week'
+      2: 'Every two weeks'
+      4: 'Once a month month'
+      12: 'Every three months'
+      24: 'Every six months'
+      48: 'Every twelve months'
+    job_email:
+      0: 'never'
+      1: 'Once a week'
+      2: 'Every two weeks'
+      4: 'Once a month month'
+      12: 'Every three months'
+      24: 'Every six months'
+      48: 'Every twelve months'
+    recomendation_skill_email:
+      individual: "Individual email"
+      weekly: "Weekly Summary"
+      never: "Never"
+    connection_request_email:
+      individual: "Individual email"
+      weekly: "Weekly Summary"
+      never: "Never"
+    event_email:
+      0: 'never'
+      1: 'Once a week'
+      2: 'Every two weeks'
+      4: 'Once a month'
+      12: 'Every three months'
+      24: 'Every six months'
+      48: 'Every twelve months'
+    blog_email:
+      0: 'never'
+      1: 'Once a week'
+      2: 'Every two weeks'
+      4: 'Once a month'
+      12: 'Every three months'
+      24: 'Every six months'
+      48: 'Every twelve months'
+  activerecord:
+    models:
+      user: 'User'
+    attributes:
+      user:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      user:
+        <<: *ATTRIBUTES      

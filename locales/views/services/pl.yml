@@ -1,0 +1,15 @@
+pl:
+  services:
+    edit:
+      s1: Edytuj aktywność
+    modal:
+      html:
+        s1: Aktywności
+    new:
+      s1: Dodaj aktywność
+    show:
+      s1: Aktywności
+    service:
+      s1: Opis
+      s2: Godziny
+      s3: w tygodniu

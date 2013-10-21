@@ -1,0 +1,829 @@
+nl:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "..."  
+  shared:
+     whatwedo: 
+        s1: "theStudentRanking.com biedt 's werelds grootste globale studentenranking. Als u een student bent die graag meer wil leren over zijn marktwaarde, zijn perspectief op de arbeidsmarkt en als u graag gevonden en aangenomen wilt worden door 's werelds toonaangevende bedrijven, dan bent u hier op de juiste plek."
+        s2: "Voor bedrijven bieden wij recruitmentoplossingen en -diensten die zich focussen op student en recent afgestudeerden. Wij geven u toegang tot ideale kandidaten voor talentprogramma's, graduate programma's en traineeships. U vindt young professionals en studenten met een hoge potentie op onze site."
+  dry:
+    languages:
+      106: "Akan"
+      122: "Albanian"
+      74: "Amharic"
+      1: "Andere taal"
+      3: "Arabisch"
+      121: "Armenian"
+      77: "Assamese"
+      48: "Awadhi"
+      68: "Azerbaijani"
+      109: "Bagheli"
+      104: "Belarusian"
+      4: "Bengali"
+      47: "Bhojpuri"
+      117: "Bosnian"
+      119: "Bulgarian"
+      57: "Burmese"
+      50: "Catalan"
+      80: "Cebuano"
+      103: "Chew"
+      76: "Chhattisgarhi"
+      5: "Chinees (Mandarijn)"
+      8: "Chinees (Overig)"
+      65: "Chinese (Gan)"
+      60: "Chinese (Hakka)"
+      7: "Chinese (Kantonees)"
+      95: "Chinese (Min Bei)"
+      100: "Chinese (Min Dong)"
+      44: "Chinese (Min Nan)"
+      6: "Chinese (Wu)"
+      52: "Chinese (Xiang)"
+      92: "Chittagonian"
+      93: "Deccan"
+      9: "Deens"
+      10: "Duits"
+      11: "Engels"
+      140: "Esperanto"
+      123: "Estonian"
+      141: "Euskara"
+      135: "Fidjian"
+      12: "Fins"
+      13: "Frans"
+      90: "Fula"
+      142: "Gebarentaal"
+      126: "Georgian"
+      14: "Grieks"
+      45: "Gujarati"
+      111: "Haitian Creole"
+      89: "Haryanvi"
+      62: "Hausa"
+      15: "Hebreeuws"
+      16: "Hindi"
+      33: "Hungaars"
+      72: "Igbo"
+      17: "Ijslands"
+      18: "Italiaans"
+      19: "Japans"
+      38: "Javanese"
+      99: "Kanaujii"
+      54: "Kannada"
+      124: "Karelian"
+      105: "Kazakh"
+      83: "Khmer"
+      112: "Konkani"
+      21: "Koreaans"
+      78: "Kurdish"
+      70: "Lao-Isan"
+      22: "Latijn"
+      113: "Latvian"
+      114: "Lithuanian"
+      101: "Lombard"
+      120: "Macedonian"
+      88: "Madurese"
+      91: "Magahi"
+      55: "Maithili"
+      107: "Makuwa"
+      82: "Malagasy"
+      51: "Malay"
+      53: "Malayalam"
+      134: "Maltese"
+      39: "Marathi"
+      59: "Marwari"
+      23: "Nederlands"
+      85: "Nepali"
+      24: "Noors"
+      73: "Northern Berber"
+      58: "Oriya"
+      75: "Oromo"
+      2: "Oud Grieks"
+      43: "Pashto"
+      46: "Persian"
+      25: "Pools"
+      26: "Portugees"
+      27: "Punjabi"
+      69: "Rajasthani"
+      81: "Rangpuri"
+      64: "Romanian"
+      28: "Russisch"
+      86: "Rwanda-Rundi"
+      125: "Sami"
+      136: "Samoan"
+      138: "Schwyzerdütsch"
+      20: "Servisch-Kroatisch"
+      94: "Shona"
+      66: "Sindhi"
+      79: "Sinhalese"
+      115: "Slovak"
+      118: "Slovenian"
+      87: "Somali"
+      116: "Sorbian"
+      84: "Sotho-Tswana"
+      30: "Spaans"
+      56: "Sundanese"
+      97: "Sylheti"
+      63: "Tagalog"
+      42: "Tamil"
+      108: "Tatar-Bashkir"
+      40: "Telugu"
+      61: "Thai"
+      130: "Thai-Lao"
+      131: "Thai-Zhuang"
+      128: "Tibetan"
+      133: "Tigrinya"
+      31: "Tsjechisch"
+      32: "Turks"
+      49: "Ukrainian"
+      102: "Uyghur"
+      67: "Uzbek"
+      41: "Vietnamese"
+      110: "Xhose"
+      137: "Yiddish"
+      71: "Yoruba"
+      96: "Zulu"
+      29: "Zweeds"
+    countries: 
+      s1: Egypte
+      s10: Equatoriaal-Guinea
+      s100: Colombia
+      s101: Comoren
+      s102: Congo
+      s103: "Congo, Democratisch Republiek"
+      s104: "Korea, Republiek"
+      s105: Kroatië
+      s106: Koeweit
+      s107: "Laos, Democratisch Republiek"
+      s108: Lesotho
+      s109: Letland
+      s11: Armenië
+      s110: Libanon
+      s111: Liberië
+      s112: Libië
+      s113: Liechtenstein
+      s114: Litouwen
+      s115: Luxemburg
+      s116: Macao
+      s117: Madagaskar
+      s118: Malawi
+      s119: Maleisië
+      s12: Aruba
+      s120: Malediven
+      s121: Mali
+      s122: Malta
+      s123: Marokko
+      s124: Marshalleilanden
+      s125: Martinique
+      s126: Mauritanië
+      s127: Mauritius
+      s128: Mayotte
+      s129: "Macedonië, Voormalig Joegoslavië"
+      s13: Azerbeidzjan
+      s130: Mexico
+      s131: "Micronesië, Federale Staten van"
+      s132: "Moldavië, Republiek"
+      s133: Monaco
+      s134: Mongolië
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambique
+      s138: Myanmar
+      s139: Namibië
+      s14: Ethiopië
+      s140: Nauru
+      s141: Nepal
+      s142: Nieuw-Caledonië
+      s143: Nieuw-Zeeland
+      s144: Nicaragua
+      s145: Nederland
+      s146: "Nederlandse Antillen"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australië
+      s150: "Noordelijke Marianeneilanden"
+      s151: Norfolkeiland
+      s152: Noorwegen
+      s153: Oman
+      s154: Oostenrijk
+      s155: Oost-Timor
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: Papoea-Nieuw-Guinea
+      s16: Bahamas
+      s160: Paraguay
+      s161: Peru
+      s162: Filipijnen
+      s163: Pitcairn
+      s164: Polen
+      s165: Portugal
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrain
+      s170: Roemenië
+      s171: "Russische Federatie"
+      s172: "Saint Kitts en Nevis"
+      s173: "Saint Lucia"
+      s174: "Saint Vincent en de Grenadines"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tomé and Principe"
+      s179: Saoedi-Arabië
+      s18: Bangladesh
+      s180: Zweden
+      s181: Zwitzerland
+      s182: Senegal
+      s183: Servië
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapore
+      s188: "Sint Maarten"
+      s189: Slowakije
+      s19: Barbados
+      s190: Slovenië
+      s191: Salomoneilanden
+      s192: Somalië
+      s193: Spanje
+      s194: "Sri Lanka"
+      s195: Sint-Helena
+      s196: Zuid-Africa
+      s197: "Zuid-Georgië en Z.S. eilanden"
+      s198: Suriname
+      s199: "Svalbard en Jan Mayen"
+      s2: Albanië
+      s20: Belize
+      s200: Swaziland
+      s201: Tadzjikistan
+      s202: Taiwan
+      s203: "Tanzania, Verenigde Republiek"
+      s204: Thailand
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trinidad en Tobago"
+      s209: Tsjaad
+      s21: België
+      s210: Tsechië
+      s211: Tunesië
+      s212: Turkije
+      s213: Turkmenistan
+      s214: "Turks- en Caicoseilanden"
+      s215: Tuvalu
+      s216: Oeganda
+      s217: Oekraïne
+      s218: Hungarije
+      s219: Uruguay
+      s22: Benin
+      s220: Oezbekistan
+      s221: Vanuatu
+      s222: Vaticaanstad
+      s223: Venezuela
+      s224: "Verenigde Staten"
+      s225: "Verenigd Koninkrijk"
+      s226: "Verenigde Arabische Emiraten"
+      s227: Vietnam
+      s228: "Wallis en Futuna"
+      s229: Christmaseiland
+      s23: Bermuda
+      s230: Belarus
+      s231: West-Sahara
+      s232: "Centraal-Afrikaanse Republiek"
+      s233: Cyprus
+      s234: Argentinië
+      s24: Bhutan
+      s25: Bolivia
+      s26: "Bonaire/Saint Eustatius/Saba"
+      s27: Bosnië-Herzegovina
+      s28: Botswana
+      s29: Bouveteiland
+      s3: Algerije
+      s30: Brazilië
+      s31: "Britse Gebieden (Indische Oceaan)"
+      s32: "Brunei Darussalam"
+      s33: Bulgarije
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chili
+      s37: China
+      s38: Cookeilanden
+      s39: "Costa Rica"
+      s4: Amerikaans-Samoa
+      s40: Curaçao
+      s41: Denemarken
+      s42: Duitsland
+      s43: Dominica
+      s44: "Dominicaanse Republiek"
+      s45: Djibouti
+      s46: Ecuador
+      s47: "El Salvador"
+      s48: Ivoorkust
+      s49: Eritrea
+      s5: Andorra
+      s50: Estland
+      s51: Falklandeilanden(Malwina)
+      s52: Faeröer
+      s53: Fiji
+      s54: Finland
+      s55: Frankrijk
+      s56: Frans-Guyana
+      s57: Frans-Polynesië
+      s58: "Franse Gebieden (Indische Oceaan)"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Georgië
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenada
+      s65: Griekenland
+      s66: Groenland
+      s67: Guadeloupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinee
+      s71: Guinee-Bissau
+      s72: Guyana
+      s73: Haïti
+      s74: "Heard- en McDonaldeilanden"
+      s75: Honduras
+      s76: "Hong Kong"
+      s77: India
+      s78: Indonesië
+      s79: Ierland
+      s8: Antarctica
+      s80: Ijsland
+      s81: Israël
+      s82: Italië
+      s83: Jamaica
+      s84: Japan
+      s85: Yemen
+      s86: Jordanië
+      s87: "Maagdeneilanden, Britse"
+      s88: "Maagdeneilanden, Amerikaanse"
+      s89: Caymaneilanden
+      s9: "Antigua en Barbuda"
+      s90: Cambodja
+      s91: Kameroen
+      s92: Canada
+      s93: Kaapverdië
+      s94: Kazachstan
+      s95: Kenia
+      s96: Kirgizië
+      s97: Kiribati
+      s98: "VS - Eilanden"
+      s99: "Cocoseilanden (Keeling)"
+    global_links: 
+      s1: "Zie alle banen"
+      s2: "Zie alle events"
+      s3: "Zie alle activiteiten"
+      s4: "Zie alle studenten"
+      s5: "Zie alle vragen"
+      s6: "Zie alle universiteiten"
+      s7: "Zie alle vrienden"
+      s8: "Zie alle werkgevers"
+  activerecord:
+    errors:
+      messages:
+        after: "should end later"
+        before: "should start before"
+  nationalities:
+    AL: "Albanië"
+    DZ: "Algerije"
+    AS: "Amerikaans-Samoa"
+    AD: "Andorra"
+    AO: "Angola"
+    AI: "Anguilla"
+    AQ: "Antarctica"
+    AG: "Antigua en Barbuda"
+    AR: "Argentinië"
+    AM: "Armenië"
+    AW: "Aruba"
+    AU: "Australië"
+    ET: "Azerbeidzjan"
+    BS: "Bahamas"
+    BH: "Bahrain"
+    BD: "Bangladesh"
+    BB: "Barbados"
+    BY: "Belarus"
+    BE: "België"
+    BZ: "Belize"
+    BJ: "Benin"
+    BM: "Bermuda"
+    BT: "Bhutan"
+    BO: "Bolivia"
+    BQ: "Bonaire/Saint Eustatius/Saba"
+    BA: "Bosnië-Herzegovina"
+    BW: "Botswana"
+    BV: "Bouveteiland"
+    BR: "Brazilië"
+    IO: "Britse Gebieden (Indische Oceaan)"
+    BN: "Brunei Darussalam"
+    BG: "Bulgarije"
+    BF: "Burkina Faso"
+    BI: "Burundi"
+    KH: "Cambodja"
+    CA: "Canada"
+    KY: "Caymaneilanden"
+    CF: "Centraal-Afrikaanse Republiek"
+    CL: "Chili"
+    CN: "China"
+    CX: "Christmaseiland"
+    CC: "Cocoseilanden (Keeling)"
+    CO: "Colombia"
+    KM: "Comoren"
+    CG: "Congo"
+    CD: "Congo, Democratisch Republiek"
+    CK: "Cookeilanden"
+    CR: "Costa Rica"
+    CW: "Curaçao"
+    CY: "Cyprus"
+    DK: "Denemarken"
+    DJ: "Djibouti"
+    DM: "Dominica"
+    DO: "Dominicaanse Republiek"
+    DE: "Duitsland"
+    EC: "Ecuador"
+    EG: "Egypte"
+    SV: "El Salvador"
+    GQ: "Equatoriaal-Guinea"
+    ER: "Eritrea"
+    EE: "Estland"
+    AZ: "Ethiopië"
+    FO: "Faeröer"
+    FK: "Falklandeilanden(Malwina)"
+    FJ: "Fiji"
+    PH: "Filipijnen"
+    FI: "Finland"
+    FR: "Frankrijk"
+    GF: "Frans-Guyana"
+    PF: "Frans-Polynesië"
+    TF: "Franse Gebieden (Indische Oceaan)"
+    GA: "Gabon"
+    GM: "Gambia"
+    GE: "Georgië"
+    GH: "Ghana"
+    GI: "Gibraltar"
+    GD: "Grenada"
+    GR: "Griekenland"
+    GL: "Groenland"
+    GP: "Guadeloupe"
+    GU: "Guam"
+    GT: "Guatemala"
+    GN: "Guinee"
+    GW: "Guinee-Bissau"
+    GY: "Guyana"
+    HT: "Haïti"
+    HM: "Heard- en McDonaldeilanden"
+    HN: "Honduras"
+    HK: "Hong Kong"
+    HU: "Hungarije"
+    IE: "Ierland"
+    IS: "Ijsland"
+    IN: "India"
+    ID: "Indonesië"
+    IL: "Israël"
+    IT: "Italië"
+    CI: "Ivoorkust"
+    JM: "Jamaica"
+    JP: "Japan"
+    JO: "Jordanië"
+    CV: "Kaapverdië"
+    CM: "Kameroen"
+    KZ: "Kazachstan"
+    KE: "Kenia"
+    KG: "Kirgizië"
+    KI: "Kiribati"
+    KW: "Koeweit"
+    KR: "Korea, Republiek"
+    HR: "Kroatië"
+    LA: "Laos, Democratisch Republiek"
+    LS: "Lesotho"
+    LV: "Letland"
+    LB: "Libanon"
+    LR: "Liberië"
+    LY: "Libië"
+    LI: "Liechtenstein"
+    LT: "Litouwen"
+    LU: "Luxemburg"
+    VI: "Maagdeneilanden, Amerikaanse"
+    VG: "Maagdeneilanden, Britse"
+    MO: "Macao"
+    MK: "Macedonië, Voormalig Joegoslavië"
+    MG: "Madagaskar"
+    MW: "Malawi"
+    MV: "Malediven"
+    MY: "Maleisië"
+    ML: "Mali"
+    MT: "Malta"
+    MA: "Marokko"
+    MH: "Marshalleilanden"
+    MQ: "Martinique"
+    MR: "Mauritanië"
+    MU: "Mauritius"
+    YT: "Mayotte"
+    MX: "Mexico"
+    FM: "Micronesië, Federale Staten van"
+    MD: "Moldavië, Republiek"
+    MC: "Monaco"
+    MN: "Mongolië"
+    ME: "Montenegro"
+    MS: "Montserrat"
+    MZ: "Mozambique"
+    MM: "Myanmar"
+    NA: "Namibië"
+    NR: "Nauru"
+    NL: "Nederland"
+    AN: "Nederlandse Antillen"
+    NP: "Nepal"
+    NI: "Nicaragua"
+    NC: "Nieuw-Caledonië"
+    NZ: "Nieuw-Zeeland"
+    NE: "Niger"
+    NG: "Nigeria"
+    NU: "Niue"
+    MP: "Noordelijke Marianeneilanden"
+    'NO': "Noorwegen"
+    NF: "Norfolkeiland"
+    UG: "Oeganda"
+    UA: "Oekraïne"
+    UZ: "Oezbekistan"
+    OM: "Oman"
+    TL: "Oost-Timor"
+    AT: "Oostenrijk"
+    PK: "Pakistan"
+    PW: "Palau"
+    PA: "Panama"
+    PG: "Papoea-Nieuw-Guinea"
+    PY: "Paraguay"
+    PE: "Peru"
+    PN: "Pitcairn"
+    PL: "Polen"
+    PT: "Portugal"
+    PR: "Puerto Rico"
+    QA: "Qatar"
+    RE: "Reunion"
+    RO: "Roemenië"
+    RU: "Russische Federatie"
+    RW: "Rwanda"
+    KN: "Saint Kitts en Nevis"
+    LC: "Saint Lucia"
+    VC: "Saint Vincent en de Grenadines"
+    SB: "Salomoneilanden"
+    WS: "Samoa"
+    SM: "San Marino"
+    ST: "Sao Tomé and Principe"
+    SA: "Saoedi-Arabië"
+    SN: "Senegal"
+    RS: "Servië"
+    SC: "Seychelles"
+    SL: "Sierra Leone"
+    SG: "Singapore"
+    SX: "Sint Maarten"
+    SH: "Sint-Helena"
+    SI: "Slovenië"
+    SK: "Slowakije"
+    SO: "Somalië"
+    ES: "Spanje"
+    LK: "Sri Lanka"
+    SR: "Suriname"
+    SJ: "Svalbard en Jan Mayen"
+    SZ: "Swaziland"
+    TJ: "Tadzjikistan"
+    TW: "Taiwan"
+    TZ: "Tanzania, Verenigde Republiek"
+    TH: "Thailand"
+    TG: "Togo"
+    TK: "Tokelau"
+    TO: "Tonga"
+    TT: "Trinidad en Tobago"
+    CZ: "Tsechië"
+    TD: "Tsjaad"
+    TN: "Tunesië"
+    TR: "Turkije"
+    TM: "Turkmenistan"
+    TC: "Turks- en Caicoseilanden"
+    TV: "Tuvalu"
+    UY: "Uruguay"
+    UM: "VS - Eilanden"
+    VU: "Vanuatu"
+    VA: "Vaticaanstad"
+    VE: "Venezuela"
+    GB: "Verenigd Koninkrijk"
+    AE: "Verenigde Arabische Emiraten"
+    US: "Verenigde Staten"
+    VN: "Vietnam"
+    WF: "Wallis en Futuna"
+    EH: "West-Sahara"
+    YE: "Yemen"
+    ZM: "Zambia"
+    ZW: "Zimbabwe"
+    ZA: "Zuid-Africa"
+    GS: "Zuid-Georgië en Z.S. eilanden"
+    SE: "Zweden"
+    CH: "Zwitzerland"
+  date:
+    abbr_day_names:
+    - zon
+    - maa
+    - din
+    - woe
+    - don
+    - vri
+    - zat
+    abbr_month_names:
+    -
+    - jan
+    - feb
+    - mar
+    - apr
+    - mei
+    - jun
+    - jul
+    - aug
+    - sep
+    - okt
+    - nov
+    - dec
+    day_names:
+    - zondag
+    - maandag
+    - dinsdag
+    - woensdag
+    - donderdag
+    - vrijdag
+    - zaterdag
+    formats:
+      default: ! '%d/%m/%Y'
+      long: ! '%e %B %Y'
+      short: ! '%e %b'
+    month_names:
+    -
+    - januari
+    - februari
+    - maart
+    - april
+    - mei
+    - juni
+    - juli
+    - augustus
+    - september
+    - oktober
+    - november
+    - december
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: ongeveer een uur
+        other: ongeveer %{count} uur
+      about_x_months:
+        one: ongeveer een maand
+        other: ongeveer %{count} maanden
+      about_x_years:
+        one: ongeveer een jaar
+        other: ongeveer %{count} jaar
+      almost_x_years:
+        one: bijna een jaar
+        other: bijna %{count} jaar
+      half_a_minute: een halve minuut
+      less_than_x_minutes:
+        one: minder dan een minuut
+        other: minder dan %{count} minuten
+      less_than_x_seconds:
+        one: minder dan een seconde
+        other: minder dan %{count} seconden
+      over_x_years:
+        one: meer dan een jaar
+        other: meer dan %{count} jaar
+      x_days:
+        one: 1 dag
+        other: ! '%{count} dagen'
+      x_minutes:
+        one: 1 minuut
+        other: ! '%{count} minuten'
+      x_months:
+        one: 1 maand
+        other: ! '%{count} maanden'
+      x_seconds:
+        one: 1 seconde
+        other: ! '%{count} seconden'
+    prompts:
+      day: dag
+      hour: uur
+      minute: minuut
+      month: maand
+      second: seconde
+      year: jaar
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: moet worden geaccepteerd
+      blank: moet opgegeven zijn
+      confirmation: komt niet met de bevestiging overeen
+      empty: moet opgegeven zijn
+      equal_to: moet gelijk zijn aan %{count}
+      even: moet even zijn
+      exclusion: is niet beschikbaar
+      greater_than: moet groter zijn dan %{count}
+      greater_than_or_equal_to: moet groter dan of gelijk zijn aan %{count}
+      inclusion: is niet in de lijst opgenomen
+      invalid: is ongeldig
+      less_than: moet minder zijn dan %{count}
+      less_than_or_equal_to: moet minder dan of gelijk zijn aan %{count}
+      not_a_number: is geen getal
+      not_an_integer: moet een geheel getal zijn
+      odd: moet oneven zijn
+      record_invalid: ! 'Validatie mislukt: %{errors}'
+      taken: is al in gebruik
+      too_long: is te lang (maximaal %{count} tekens)
+      too_short: is te kort (minimaal %{count} tekens)
+      wrong_length: heeft onjuiste lengte (moet %{count} tekens lang zijn)
+    template:
+      body: ! 'Controleer de volgende velden:'
+      header:
+        one: ! '%{model} niet opgeslagen: 1 fout gevonden'
+        other: ! '%{model} niet opgeslagen: %{count} fouten gevonden'
+  helpers:
+    submit:
+      create: 'Toevoegen'
+      submit: 'Opslaan'
+      update: 'Bewaren'
+    select:
+      prompt: Selecteer
+  number:
+    currency:
+      format:
+        delimiter: .
+        format: ! '%u%n'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: false
+        unit: €
+    format:
+      delimiter: .
+      precision: 2
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion: miljard
+          million: miljoen
+          quadrillion: biljard
+          thousand: duizend
+          trillion: biljoen
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 3
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: ! ' en '
+      two_words_connector: ! ' en '
+      words_connector: ! ', '
+  time:
+    am: ! '''s ochtends'
+    formats:
+      default: ! '%a %d %b %Y %H:%M:%S %Z'
+      long: ! '%d %B %Y %H:%M'
+      short: ! '%d %b %H:%M'
+    pm: ! '''s middags'
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors

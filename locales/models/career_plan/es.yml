@@ -1,0 +1,47 @@
+es:
+  career_plan:
+    attributes: &ATTRIBUTES
+      contract: 'Puesto para graduado'
+      internship: Prácticas
+      project: Proyecto
+      promotion: Puesto para doctorado
+      part_time: Media jornada
+      full_time: Jornada completa
+      trainee: Aprendiz
+      voluntary: Voluntario
+      associate: Socio
+      limited: Limitado
+      available: Disponible
+      available_date: Fecha disponible
+      intern_start: Inicio prácticas
+      intern_end: Fin prácticas
+      travel: Viajar
+      move_city: Mudarse de ciudad
+      move_country: Mudarse de país
+      location: Ubicación
+      i_am: Posición
+      my_industry: Sector
+    available:
+      1: 'Inmediata'
+      2: 'Dentro de dos semanas'
+      3: 'Dentro de un mes'
+      4: 'Dentro de 3 meses'
+      5: 'Dentro de 6 meses'
+      6: 'Negociable'
+      7: 'Fecha específica'
+    travel:
+      1: 'Máximo 25%'
+      2: 'Máximo 50%'
+      3: 'Máximo 75%'
+      4: '100%'
+      5: 'No viajar'
+  activerecord:
+    models:
+      career_plan: 'Plan de Carrera'
+    attributes:
+      career_plan:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      career_plan:
+        <<: *ATTRIBUTES      

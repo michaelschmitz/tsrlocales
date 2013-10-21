@@ -1,0 +1,30 @@
+zht:
+  work_experience:
+    attributes: &ATTRIBUTES
+      start_date: 開始日期
+      end_date: 結束日期
+      current: 現職
+      role: 職稱
+      contract: 工作性質
+      average_hours: 每週平均工作時數
+      summary: 工作內容簡述
+      description: 工作內容詳述
+      company_name: 公司名稱
+      document: 證明文件
+    contract:
+      1: '學徒'
+      2: '實習'
+      3: '全職'
+      4: '兼職'
+      5: '合約制'
+      6: '自僱'
+  activerecord:
+    models:
+      work_experience: '工作經驗'
+    attributes:
+      work_experience:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      work_experience:
+        <<: *ATTRIBUTES  

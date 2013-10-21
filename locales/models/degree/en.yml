@@ -1,0 +1,155 @@
+en:
+  degree:
+    attributes: &ATTRIBUTES
+      exchange: Exchange
+      name: Name of the degree (as shown on the diploma)
+      country: Country
+      university_id: University
+      title: Title
+      credits: Credits
+      start_date: Start Date
+      end_date: End Date
+      grade_scale: Grade Scale
+      average: Average (Final Grade or Average Grade)
+      study_area: Study area
+      faculty: Faculty
+      major: Major
+      minor: Minor
+      document: Document
+      study_length: Normal study duration in months
+      university:
+        name: University Name
+        one: University
+        other: Universities
+    study_area: 
+      1: "Agriculture"
+      29: "Animal husbandry"
+      30: "Architecture"
+      7: "Art and Design"
+      19: "Biology"
+      12: "Business and Economics"
+      20: "Chemistry"
+      38: "Communication, Journalism and PR"
+      16: "Computer Science"
+      35: "Econometrics"
+      18: "Economics"
+      25: "Engineering (Chemical)"
+      24: "Engineering (Civil)"
+      14: "Engineering (Electrical)"
+      26: "Engineering (Energy)"
+      15: "Engineering (Industrial)"
+      23: "Engineering (Mechanical)"
+      27: "Engineering (Nuclear)"
+      2: "Engineering (other)"
+      28: "Forestry, Fishery"
+      22: "Geology"
+      33: "Hospitality and Tourism"
+      17: "Humanities"
+      11: "Languages"
+      3: "Law"
+      5: "Mathemathics"
+      6: "Medicine"
+      32: "Music"
+      8: "Natural Sciences (other)"
+      31: "Nutrition and Sports"
+      13: "Other"
+      36: "Pharmacology"
+      34: "Philosophy, Theology"
+      21: "Physics"
+      9: "Psychology"
+      10: "Social and Political Sciences"
+      4: "Teaching"
+      37: "Veterinary medicine"
+    title: 
+      25: Associate
+      26: J.D.
+      2: B.A.
+      7: B.Ed
+      3: B.Eng
+      5: B.F.A.
+      6: B.Mus
+      1: B.Sc.
+      22: B.Sc. Honours
+      15: Diplom (Dual)
+      16: Diplom (FH)
+      17: Diplom (Univ.)
+      18: Dr. med.
+      24: EMBA
+      4: LL.B.
+      20: Lic.
+      10: M.A.
+      29: M.D.
+      13: M.Ed
+      11: M.Eng
+      12: M.F.A.
+      14: M.Mus
+      8: M.Sc.
+      27: Master
+      23: MBA
+      9: Magister
+      19: PhD
+      28: Graduate
+      21: Other
+    grade_scale:
+      "AR": "Argentina (0-10)"
+      "AT": "Austria (4.0-1.0)"
+      "AU": "Australia (50-100%)"
+      "BE": "Belgium (60-100%)"
+      "BO": "Bolivia (0-100%)"
+      "BR": "Brazil (60-100%)"
+      "CA": "Canada (50-100)"
+      "CH": "Switzerland (4.0-6.0)"
+      "CL": "Chile (0.0-7.0)"
+      "CN": "China (60-100%)"
+      "CO": "Colombia (1.0-5.0)"
+      "CR": "Costa Rica (0.00-10.00)"
+      "CU": "Cuba (0.00-5.00)"
+      "CZ": "Czech Republic (50-100%)"
+      "DE": "Germany (4,0-1,0)"
+      "DK": "Denmark (2-12)"
+      "DO": "Dominican Republic (0-100%)"
+      "EC": "Ecuador (0.0-10.0)"
+      "ES": "Spain (5.5-10)"
+      "FI": "Finland (1-5)"
+      "FR": "France (10-20)"
+      "GB": "UK (Pass, 3rd, 2:2, 2:1, 1st)"
+      "GT": "Guatemala (0-100)"
+      "HK": "Hongkong (E, D, C, B, A)"
+      "HN": "Honduras (2.00-5.00)"
+      "HT": "Haiti (0-100%)"
+      "IE": "Ireland (40-100%)"
+      "IL": "Israel (60-100%)"
+      "IN": "India (40-100%)"
+      "IT": "Italy (18-30)"
+      "JM": "Jamaica (F, C, B-, B, A)"
+      "JP": "Japan (60-100%)"
+      "MX": "Mexico (60-100)"
+      "NI": "Nicaragua (0-100)"
+      "NL": "Netherlands (5.5-10)"
+      "NO": "Norway (E, D, C, B, A)"
+      "PA": "Panama (0-100)"
+      "PE": "Peru (0-20)"
+      "PL": "Poland (3.0-5.0)"
+      "PT": "Portugal (9.5-20)"
+      "PY": "Paraguay (1-5)"
+      "RU": "Russian Federation (1-5)"
+      "SE": "Sweden (E, D, C, B, A)"
+      "SG": "Singapore (D - AD)"
+      "SV": "El Salvador (1.0-10.0)"
+      "TT": "Trinidad and Tobago (0-100%)"
+      "TW": "Taiwan (1.0-4.0)"
+      "US": "USA (1.0-4.0)"
+      "UY": "Uruguay (1-12)"
+      "VE": "Venezuela (0-20)"
+  activerecord:
+    models:
+      degree: 'Degree'  
+    attributes:
+      degree:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      degrees:
+        <<: *ATTRIBUTES 
+      degree:
+        <<: *ATTRIBUTES 

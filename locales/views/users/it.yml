@@ -1,0 +1,76 @@
+it:
+  users:
+    passwords.edit:
+      s1: Cambia la tua password
+      s2: Nuova password
+      s3: Conferma la tua password
+      s4: Aggiorna password
+    passwords.new:
+      s1: Password dimenticata?
+      s2: Mandami un link per reimpostare la mia password
+    rank:
+      s1: Profilo
+      s2: Raccomandazioni
+      s3: Competenze
+      s4: Ranking dei risultati
+      s5: Grafici
+      s6: "Analisi dell'azienda"
+      s7: "Analisi e suggerimenti"
+    show:
+      s1: Chi sono
+    edit:
+      s1: Chi sono
+    settings:
+      s1: "Impostazioni sulla Privacy"
+      s10: "Il tuo indirizzo email non verrà mai condiviso con alcuno."
+      s11: "Email relative alla lotteria"
+      s12: "Quanto spesso vuoi ricevere le email relative alla lotteria?"
+      s13: "Dopo ogni evento"
+      s14: "Ogni mese"
+      s15: "Mai"
+      s16: "Visibile agli amici"
+      s17: "Sì, il mio profilo e la mia foto sono visibili ai miei amici e ai miei contatti. Posso anche ricevere raccomandazioni e conferma delle competenze da loro."
+      s18: "I miei amici possono visualizzare il mio punteggio"
+      s19: "Si, i miei amici e miei contatti possono visualizzare il mio punteggio personale e social."
+      s2: "Inviti ad eventi, offerte di lavoro e stage. theStudentranking.com vuole offriti l'accesso a fantastiche opportunità."
+      s3: "Ogni tanto ti invieremo delle email per aggiornarti sulla tua posizione, su nuove offerte di lavoro e su inviti a nuovi eventi."
+      s4: "Aggiornamento su una nuova posizione"
+      s5: "Si, inviatemi una email quando la mia posizione cambia."
+      s6: "Offerte di lavoro ed inviti"
+      s7: "Si, voglio ricevere offerte di lavoro ed inviti."
+      s8: "Visibile ai recruiters?"
+      s8a: "Visibile nel ranking?"
+      s8b: "Sì, il mio profilo e la mia foto sono visibili al pubblico nel Ranking Globale degli Studenti. Posso anche ricevere raccomandazioni e conferma delle competenze dagli altri utenti."
+      s9: "Si, recruiters e headhunters possono vedere il mio profilo e inviarmi messaggi riguardo lavori retribuiti od inviti ad eventi interessanti."
+      s20: "Suggerimenti per migliorare"
+      s21: "Si, potete inviarmi suggerimenti su come migliorare il mio profilo"
+      s22: "Raccomandazioni e Conferme"
+      s23: "Si, inviatemi una mail quando qualcuno mi raccomanda o conferma le mie competenze."
+      s24: "Richiesta di contatto"
+      s25: "Si, inviatemi una mail quando qualcuno mi invia una richiesta di contatto."
+      s26: "Avvisi offerte di lavoro"
+      s27: "Le aree che mi interessano sono: (scelta multipla)"
+      s28: "Eventi"
+      s29: "Potete inviarmi inviti a eventi come job meetings e conferenze."
+      s30: "Blog"
+      s31: "Potete inviarmi articoli relativi alla ricerca di lavoro, alla redazione del CV, ai consigli per i colloqui, ecc."
+      s32: Messaggi
+      s33: Visibilità
+    shared:
+      links:
+        s3: "Password dimenticata?"
+        s4: "Non hai ancora ricevuto la email di conferma?"
+        s5: "Non hai ancora ricevuto la email di sblocco?"
+        s6: "Accedi con"
+    sessions:
+      new:
+        s1: Accedi
+        s2: Accedi
+        s3: Non sei registrato?
+        s4: Registrati qui
+    registrations:
+      new:
+        s1: Registrati
+        s2: Registrati
+        s3: Hai già un account?
+        s4: Accedi qui

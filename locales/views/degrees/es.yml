@@ -1,0 +1,20 @@
+es:
+  degrees:
+    edit:
+      s1: Editar Estudios
+    modal:
+     html:
+      s1: Estudios
+    new:
+      s1: Añadir estudios
+    show:
+      s1: Estudios
+    degree:
+      s1: Media
+      s2: Facultad
+      s3: Major
+      s4: Minor
+    form:
+      s1: Añadir Universidad
+      s2: Añadir Universidad de intercambio
+      s3: Seleccionar de la lista o

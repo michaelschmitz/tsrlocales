@@ -1,0 +1,36 @@
+zht:
+  service:
+    attributes: &ATTRIBUTES
+      hours: 每周平均時數
+      role: 職稱
+      description: 內容
+      area: 組織性質
+      start_date: 開始日期
+      end_date: 結束日期
+      current: 現任
+      organization_name: 組織或社團名稱
+      document: 證明文件
+    area:
+      1: "學校"
+      2: "社交性質"
+      3: "社團或運動性質"
+      4: "政治性質"
+      5: "文化性質"
+      6: "科學性質"
+      7: "其他"
+    role:
+      1: '擁有會員資格且活耀、積極參與活動'
+      2: '擁有會員資格但不參加活動'
+      3: '功能性角色 (例如：人事、公關)'
+      4: '區域性領導角色 (例如：指導、社長、區域性會長)'
+      5: '策略性領導角色 (例如：董事會成員、總部會長)'
+  activerecord:
+    models:
+      service: '興趣、會員、社交活動'
+    attributes:
+      service:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      service:
+        <<: *ATTRIBUTES   

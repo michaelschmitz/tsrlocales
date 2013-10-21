@@ -1,0 +1,32 @@
+pl:
+  jobs:
+    flash:
+      updated: Oferta pracy została zaktualizowana.
+      created: Oferta pracy została pomyślnie dodana.
+    show:
+      s1: Wróć do wyników
+      s2: Opis pozycji
+      s3: Kwalifikacje
+      s4: Benefity
+      s5: Proces rekrutacji
+      s6: Kontakt
+      s7: Dodaj do ulubionych
+      s8: Usuń z ulubionych
+      s9: Aplikuj
+      s10: Aplikowłeś już o tę pozycję.
+      s11: Aplikuj
+      s12: Dodaj do ulubionych
+    index:
+      s1: Oferty pracy
+      s2: Wyniki
+      s3: temu
+      s4: Aplikuj
+      s5: Dodaj do ulubionych
+      s6: Usuń z ulubionych
+      s7: Aplikowłeś już o tę pozycję
+      s8: Aplikuj
+      s9: Dodaj do ulubionych
+      s10: Odległość
+      s11: Szukaj
+      s12: "Zobacz ofertę pracy"
+      s13: "Zaloguj się na swój profil, aby pracodawcy mogli Cię znaleźć oraz abyś mógł zobaczyć i aplikować na dostępne oferty pracy."

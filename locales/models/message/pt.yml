@@ -1,0 +1,16 @@
+pt:
+  message:
+    attributes: &ATTRIBUTES
+      topic: Assunto
+      body: Mensagem
+      copy: Receber uma cópia desta mensagem
+  activerecord:
+    models:
+      message: 'Mensagem'
+    attributes:
+      message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      message:
+        <<: *ATTRIBUTES   

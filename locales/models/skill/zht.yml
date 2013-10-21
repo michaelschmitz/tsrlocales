@@ -1,0 +1,26 @@
+zht:
+  skill:
+    attributes: &ATTRIBUTES
+      name: 技能名稱
+      level: 程度
+      hours_application: 實際使用總時數
+      hours_training: 受訓總時數
+      explanation: 技能描述
+      document: 證明文件
+      included: '最近使用此技能於：'
+    level:
+      1: '初學者'
+      2: '有經驗的'
+      3: '專家級'
+  activerecord:
+    models:
+      skill: '技能'
+    attributes:
+      skill:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      skills:
+        <<: *ATTRIBUTES 
+      skill:
+        <<: *ATTRIBUTES     

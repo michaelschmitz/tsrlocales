@@ -1,0 +1,164 @@
+zht: 
+  user_mailer: 
+    blog_digest: 
+      s1: "新的活動通知"
+    connection_confirmed: 
+      s1: "接受了你自學生排行榜發出的建立關係的邀請。現在你可以看到他的檔案，他的積分，看看你們可以如何幫助彼此進步。"
+      s10: "成就積分"
+      s11: "台灣區總經理\n"
+      s12: 周 涵
+      s2: 查看
+      s3:  個人檔案
+      s4: "你也可以推薦"
+      s5: "和確認朋友的技能。這能幫助你的朋友得到社會積分，且總積分也會提高，讓僱主更容易看見他們。"
+      s6: 推薦
+      s7: "確認技能"
+      s8: "如果你想知道成就積分與社會積分是什麼："
+      s9: "社會積分。"
+    email_message: 
+      s1: "送給你一封訊息。"
+      s2: "不用擔心，我們沒有洩漏你的 e-mail。這個公司是用網站的寄信功能來聯絡你的。你可以登入後前往 \"通訊喜好設定\" 來做更改。"
+    event_digest: 
+      s1: "新的活動通知"
+    invite_email: 
+      s0: "邀請你加入「學生排行榜」！"
+      s1: "邀請你加入「學生排行榜」！"
+      s2: "馬上去看看！"
+      s3: "學生排行榜為學生與年輕的專業人士提供全球的排名。除此之外，現在有越來越多的企業在找有社團經驗的學生，而學生排行榜是全台灣唯一一個有讓學生展現社團與學生會經驗的人力資源網站。你也可以跟同學和學長姐建立人脈關係，看看他們的優勢在哪裡，擷取他們的優點，讓自己的排名更上層樓！今天就上網看看吧！完全免費喔！"
+    job_digest: 
+      s0: ": 很多好公司在找像你這樣的人才"
+      s1: "你可能有興趣的工作機會"
+      s2: "瀏覽所有工作機會"
+      s3: "瀏覽工作機會"
+      s4: "馬上找到工作："
+      s5: "更新你的個人檔案"
+    new_position: 
+      s0: "你在學生排行榜的排名改變了。"
+      s1: "你之前做設定時，要求我們在你排名改變時通知你。我們的系統必須更新排名，是因為現在共有"
+      s2: "位以上的使用者在我們系統裡。"
+      s3: "按這裡來查看你的排名"
+      s4: "你的朋友當中，有些人的排名與成績也有所更動。不妨利用這個時候，多去推薦他們或確認他們的技能。"
+      s5: "按這裡來查看你的人脈關係"
+      s6: "台灣區總經理\n"
+      s7: 周 涵
+    recommendation_confirmation: 
+      s1: "你剛剛得到了一個推薦，是來自"
+      s10: "台灣區總經理\n"
+      s11: 周 涵
+      s2: "這代表你的社會積分目前增加到\"趕快登入你的檔案，看看這對你總體積分與排名的影響！"
+      s3: "查看我的檔案"
+      s4: "你也可以推薦"
+      s5: "並增加他的社會積分喔！"
+      s6: 推薦
+      s7: "在你的人脈關係裡，排名最高的前八名推薦你時，你就會得到他們的總積分的 5% 作為你的"
+      s8: "社會積分。如果你想增加你的積分，可以按以下的連結閱讀有關我們的社會積分系統："
+      s9: "社會積分系統"
+    skill_confirmed: 
+      s1: "你人脈關係裡的"
+      s2: "剛剛確認了你的這些技能："
+      s3: "這代表你的社會積分目前增加到"
+      s4: "查看我的檔案"
+      s5: "最近也增加了一些技能。不妨也幫助他增加他的積分，讓他在僱主找人才時更容易被看到！你能幫他確認這些技能嗎？"
+      s6: "確認此項技能"
+      s7: "台灣區總經理\n"
+      s8: 周 涵
+    connection_request:
+      s1: "想要跟你在「學生排行榜」建立人脈關係。這代表別人可以開始推薦你或者確認你的技能，幫你增加你的社會積分。"
+      s2: "所以趕快接受邀請，推薦彼此，讓雙方都能夠更容易地被僱主看到！"
+      s3: "接受人脈關係"
+    suggestions: 
+      completed_internship: 
+        s1: "it seems like you just finished an internship - at least that's what your career plan indicates."
+        s10: Michael
+        s2: "If you did, then quickly update your profile and earn achievement score for the work you have done"
+        s3: "Update my work experience"
+        s4: "You might also want to update your career plan to reflect your new goals and timeline. Will you be available for another internship during the next years?"
+        s5: "Update my career plans"
+        s6: "Updating your profile is valuable not only for yourself, but also of great value for your friends: People you have recommended will benefit from your achievement score and will be found more easily be recruiters looking for great candidates like you. "
+        s7: "Want more connections? Invite your contacts and grow your social score!"
+        s8: "Gain social score"
+        s9: "Have a great day,\n"
+      empty_career_plan: 
+        s1: "recruiters looking for your profile often filter by career plans: When will you be available for internships or full-time positions? "
+        s2: "Once recruiters can find you inside the system, they will be able to send you messages and invitations. This requires an up-to-date career plan when it comes to your availability."
+        s3: "Update work experience"
+        s4: "Update new career plans"
+        s5: "Make it easy for them to find and connect with you - then take your chances and ensure a great career."
+        s6: "Let me know if I can help,\n"
+        s7: Michael
+      inactive: 
+        s1: "this is Michael from theStudentRanking.com. You must have been busy during the last few months - experiencing new challenges, learning new skills and building yourself."
+        s2: "It is very likely that your rank on theStudentRanking.com has increased. Specifically, the time you invested into your studies, work experiences and skills has paid off by now."
+        s3: "Update your profile to find out where you stand - and what has happened with your friends in the meantime."
+        s4: "Quickly check my profile"
+        s5: "Have a nice day,\n"
+        s6: Michael
+      languages_skills: 
+        s1: "this is Michael from theStudentRanking.com. You filled in parts of your profile already, which is great - you should be able to get some ranking results and be found by recruiters as well."
+        s10: "Let me know if I can help you with anything regarding your profile."
+        s11: "Kind regards"
+        s12: Michael
+        s2: "Make it even easier for them to find you by providing more details about your skills and achievements."
+        s3: "Update your languages"
+        s4: "Update your skills"
+        s5: "Update your achievements"
+        s6: "These skills will also boost your achievement score, moving you up in the global ranking."
+        s7: "Your current social score is:"
+        s8: "If you want to provide more social proof of your abilities and achievements, ask your friends and contacts to join the system."
+        s9: "Tell your friends"
+      profile_empty: 
+        s1: "this is Michael from theStudentRanking.com."
+        s2: "If you want to build your career, then connecting with recruiters is key. You already have an empty profile on theStudentRanking.com, but recruiters can't find you yet. Give your career a boost and fill in your profile, then see the results yourself - how many messages are you missing from recruiters right now?"
+        s3: "Add your studies"
+        s4: "Updating the profile will also give you insights into your ranking compared to other candidates - if you want to improve and get better, then this is your opportunity."
+        s5: "You can also work together with your friends in setting yourself goals to improve your grades, language skills or experiences. Use the system to get better by encouraging each other."
+        s6: "Invite friends"
+        s7: "Happy to have you on board,\n"
+        s8: Michael
+        s9: "PS: Feedback is welcome - just write me at any time."
+      s1: "Companies search for languages or skills on your profile"
+      s2: "Companies filter by social score to find great candidates"
+      s3: "Your career plan helps you become more successful"
+      s4: "Your recent internship"
+      s5: "Companies are looking for candidates like you"
+      social_points: 
+        s1: "this is Michael from theStudentRanking.com. Checking your profile, it seems like none of your Facebook friends have yet connected with you on theStudentRanking - your social score is zero."
+        s2: "Getting them into the system helps them learn more about themselves and provides you both with an insight into what you can do to improve. This will help you become more motivated and you can work together in becoming more valuable in the job market."
+        s3: "Inviting them is easy and only takes a few seconds (and your data is safe at all times)."
+        s4: "Invite your friends"
+        s5: "Once you have invited your friends, provide them with recommendations and confirm a few of their skills, so they can be found more easily by companies. At the same time, they will do the same for you, helping you in becoming more visible as well."
+        s6: "Have a nice day,\n"
+        s7: Michael
+    weekly_digest: 
+      s1: "這個是你在學生排行榜的本週成果。"
+      s10: "個技能已被確認。"
+      s11: "支持你的職業生涯。"
+      s12: "按以下的連結為你的人脈關係確認技能，幫助彼此更容易讓僱主看見。"
+      s13: "確認技能"
+      s14: "推薦人："
+      s15: "本週你沒有任何新的推薦人。"
+      s16: "本週你有新的推薦人"
+      s17: "瀏覽推薦人"
+      s18: "按以下連結來幫助你的人脈關係建立他們的職業生涯。"
+      s2: "人脈關係："
+      s3: "你有5個新的人脈關係 – "
+      s4: "加你了！"
+      s5: "你有一個新的人脈關係。"
+      s6: "你沒有新的人脈關係。"
+      s7: "加新的人脈關係"
+      s8: "技能："
+      s9: "本週你的人脈關係中尚未有人確認你的技能。"
+    welcome_email:
+      s0: "歡迎加入「學生排行榜」！"
+      s1: "我是台灣區總經理，周 涵。謝謝你加入我們的網站，希望你會喜歡我們特別為學生設計的功能與特色，並鼓勵其他人加入。我們希望能為學生建立一個適合學生用的職業社群網站，幫助你了解自己和朋友的市場價值與競爭力，建立人脈關係，協助你一步步向未來的僱主與就業市場前進，或甚至幫助你的學弟妹成長，協助他們未來就業。在此，祝你求學與求職都一帆風順！"
+      s10: "再次歡迎你的加入！\n"
+      s11: 周 涵
+      s12: "PS: 如果你對我們的網站有任何建議，歡迎你隨時與我連絡！"
+      s2: "這是確認你在學生排行榜的註冊，並協助你日後找到你的帳號。你註冊時使用的帳號是 %{email}。如果你忘記了密碼，可以隨時要求一個新的。"
+      s3: "準備好建立你的職涯了嗎？現在就到你的個人檔案告訴僱主你的成就，累積積分，讓全球的僱主都看的到你！"
+      s4: "建立個人檔案"
+      s5: "現在有越來越多的企業在找有社團經驗的學生，而學生排行榜是全台灣唯一一個有讓學生展現社團與學生會經驗的人力資源網站。你也可以跟同學和學長姐建立人脈關係，互相推薦或確認彼此的技能，這樣能提高彼此的社會積分，也可以讓僱主越容易看到你。在你的人脈關係裡，排名最高的前八名使用者推薦你時，你就會得到他們的總積分的 5% 作為你的社會積分，且每個技能被確認時都有加分作用。目前為止，你的社會積分是 0，所以趕快邀請其他的同學與朋友加入，大家一起朝未來努力！"
+      s6: "邀請朋友"
+      s7: "你也可以隨意更改你的通訊喜好設定。"
+      s8: "找到人生的第一份工作"
+      s9: "是我們一系列文章中的第一篇，教你如何準備好進入就業市場。有空時進來我們的部落格逛逛吧！"

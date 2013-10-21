@@ -1,0 +1,22 @@
+it:
+  recruiters:
+    companies:
+      flash:
+        create: L'azienda è stata creata con successo.
+        update: L'azienda è stata aggiornata con successo.    
+      form:
+        s1: Indirizzo dell'azienda o organizzazione
+        s2: Fatturazione
+        s3: Links
+      edit:
+        s1: Modifica i dati della tua azienda o organizzazione
+      new:
+        s1: Modifica i dati della tua azienda o organizzazione #This is correct -> Every new recruiter always has a company, so he can only edit it, never create a new one
+      show:
+        s1: Informazioni sulla tua azienda o organizzazione
+        s2: Indirizzo
+        s3: Ulteriori informazioni
+        s4: Questa informazione non è visibile al pubblico
+        s5: Partita IVA
+        s6: Sito web dell'azienda
+        s7: Pagina Facebook

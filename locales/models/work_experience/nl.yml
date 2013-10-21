@@ -1,0 +1,27 @@
+nl:
+  work_experience:
+    attributes: &ATTRIBUTES
+      start_date: Startdatum
+      end_date: Einddatum
+      current: Huidige positie
+      role: Functie
+      contract: Type Contract
+      average_hours: Uren per week (inschatting)
+      summary: Samenvatting (optioneel)
+      description: Beschrijving
+      company_name: Bedrijf
+    contract:
+      1: 'Stage'
+      2: 'Stage'
+      3: 'Full-time'
+      4: 'Part-time'
+      5: 'Freelance'
+      6: 'Zelfstandig ondernemer'
+  activerecord:
+    attributes:
+      work_experience:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      work_experience:
+        <<: *ATTRIBUTES  

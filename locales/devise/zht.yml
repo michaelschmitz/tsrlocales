@@ -1,0 +1,69 @@
+--- 
+zht: 
+  devise: 
+    confirmations: 
+      confirmed: 你的帳戶已確認成功，你現在已登入了。
+      send_instructions: 你在幾分鐘之內會收到一封電子郵件，說明如何確認你的帳戶。
+      send_paranoid_instructions: 如果你的電子郵件地址存在於我們的資料庫裡，你在幾分鐘之內會收到一封電子郵件，說明如何確認你的帳戶。
+    failure: 
+      already_authenticated: 你現在已登入了。
+      inactive: 你的帳戶尚未被啟用。
+      invalid: 電子郵件或密碼無效。
+      invalid_token: 驗證碼無效。
+      locked: 你的帳戶已被鎖住。
+      not_found_in_database: 電子郵件或密碼無效。
+      timeout: 你的時效已過，請重新登入以繼續。
+      unauthenticated: 你必須先登入或註冊才能再繼續。
+      unconfirmed: 你必須先確認你的帳戶才能再繼續。
+    mailer: 
+      confirmation_instructions: 
+        s1: 你好
+        s2: 你必須先確認該電子郵件地址才能使用你的帳戶。請點擊以下的連結。
+        s3: 確認電子郵件地址和帳戶。
+        subject: 確認步驟
+      reset_password_instructions: 
+        s1: 你好
+        s2: 有人請求更改你的帳戶密碼。請點擊以下的連結來更改密碼。
+        s3: 更改密碼
+        s4: 如果你沒有請求更改你的帳戶密碼，請略過這封電子郵件。
+        s5: 你必須點擊以下的連結並輸入新的密碼才能改變密碼。
+        subject: 重新設置密碼步驟
+      unlock_instructions: 
+        s1: 你好
+        s2: 出於安全理由，你的帳號已被鎖住。
+        s3: 請點擊以下的連結來將你的帳戶解鎖。
+        s4: 帳戶解鎖
+        subject: 解鎖步驟
+    omniauth_callbacks: 
+      failure: "%{kind}的帳戶無法驗證因為\"%{reason}\"。"
+      success: "%{kind}的帳戶已驗證成功。"
+    passwords: 
+      no_token: 你若沒有經由恢復密碼的連結至此，將無法存取此頁面。如果你確實是由恢復密碼的連結至此，請確認你輸入的連結完整無誤。
+      send_instructions: 你在幾分鐘之內會收到一封有關重設密碼的電子郵件。
+      send_paranoid_instructions: 如果你的電子郵件地址存在於我們的資料庫裡，你的電子郵件將在幾分鐘之內收到恢復密碼的連結。
+      updated: 你的密碼修改成功，你現在已登入了。
+      updated_not_active: 你的密碼已修改成功。
+    registrations: 
+      destroyed: 再見！你的帳戶已成功取消。我們希望很快能再見到你。
+      signed_up: 謝謝你的註冊。請先填寫個人資料，才能查看你的排名。
+      signed_up_but_inactive: 你已成功的建立了帳戶，但因為你尚未啟用此帳戶，所以你無法登入。
+      signed_up_but_locked: 你已成功的建立了帳戶，但因為此帳戶被鎖住了，所以你無法登入。
+      signed_up_but_unconfirmed: 你應該已經收到一封確認的電子郵件。請點擊信中的連結來啟用你的帳戶。
+      update_needs_confirmation: 你的帳戶已更新成功，但我們必須確認你新的電子郵件地址。請檢查你的電子郵件，並點擊確認連結，以完成這道確認手續。
+      updated: 你的帳戶已更新成功。
+    sessions: 
+      signed_in: 成功登入。
+      signed_out: 成功登出。
+    unlocks: 
+      send_instructions: 你在幾分鐘之內會收到一封電子郵件，說明如何將你的帳戶解鎖。
+      send_paranoid_instructions: "如果你的帳戶存在，你在幾分鐘之內會收到一封電子郵件，說明如何將你的帳戶解鎖。"
+      unlocked: 你的帳戶已解鎖成功，請重新登入再繼續。
+  errors: 
+    messages: 
+      already_confirmed: 已被確認，請嘗試登入
+      expired: 已過期，請申請一個新的
+      not_found: 找不到
+      not_locked: 沒有被鎖住
+      not_saved: 
+        one: "一個錯誤造成這個%{resource}無法儲存："
+        other: "%{count}錯誤造成這個%{resource}無法儲存："

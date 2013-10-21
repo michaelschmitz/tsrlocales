@@ -1,0 +1,32 @@
+de:
+  jobs:
+    flash:
+      updated: Ihr Stellenangebot wurde aktualisiert
+      created: Ihr Stellenangebot wurde angelegt
+    show:
+      s1: Zurück zur Übersicht
+      s2: Rollenbeschreibung
+      s3: Qualifikationen
+      s4: Vorteile
+      s5: Bewerbungsprozess
+      s6: Kontakt
+      s7: Merken
+      s8: Nicht mehr merken
+      s9: Bewerben
+      s10: Sie haben sich beworben
+      s11: Bewerben
+      s12: Merken
+    index:
+      s1: Stellenangebote
+      s2: Ergebnisse
+      s3: 
+      s4: Bewerben
+      s5: Merken
+      s6: Nicht mehr merken
+      s7: Sie haben sich beworben
+      s8: Bewerben
+      s9: Merken
+      s10: Distanz
+      s11: Suchen   
+      s12: Stellenangebot anzeigen
+      s13: Bitte melden Sie sich mit Ihrem Profil an alle Stellenangebote zu sehen.

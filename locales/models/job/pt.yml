@@ -1,0 +1,70 @@
+pt:
+  job:
+    attributes: &ATTRIBUTES
+      title: Título
+      description: Descrição
+      locations: Localizações
+      contact: Contacto
+      link: Link
+      run_until: Disponível até
+      views: Visualizações
+      area: Área
+      contract_type: Tipo de contrato
+      contract: Contrato
+      longitude: Longitude
+      latitude: Latitude
+      disabled: Inválido
+      disabled_on: Inválido em
+      service_level: Nível de serviço
+      advertising_budget: Orçamento para anunciar
+      delivery: Entrega
+      describe_role: Descrição da função
+      describe_qualification: Descrição das qualificações
+      describe_benefits: Descrição dos benefícios
+      describe_application: Descrição da aplicação
+      applications: Candidaturas
+      alternative_name: Nome alternativo
+    area:
+      1: Ensino
+      2: Imobiliário e Construção
+      4: Finanças e Contabilidade
+      5: Investigação
+      6: Gestão
+      7: Engenharia Informática
+      8: Engenharia (Outras)
+      9: Logística
+      10: Marketing
+      11: Medicina e Serviços de Saúde
+      12: Administração de Empresas
+      13: Recursos humanos
+      14: Produção
+      15: Vendas
+      17: Serviços Bancários
+      18: Serviço ao Cliente
+      19: Legal e Jurídico
+      20: Turismo e Hospitalidade
+      21: Ciências
+      22: Administração Pública
+      23: Arte e Design
+      24: Outras
+      27: Comunicação, Jornalismo, RP e Publicidade
+      28: Organizações Estudantis
+    contract_type:
+      1: Com termo
+      2: Sem termo
+      3: Estágio
+      4: Projeto
+      6: Treino
+    contract:
+      1: Part time
+      2: Full time
+  activerecord:
+    models:
+      job: 'Oferta de Emprego'
+    attributes:
+      job:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      job:
+        <<: *ATTRIBUTES      

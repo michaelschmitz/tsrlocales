@@ -1,0 +1,11 @@
+pt:
+  awards:
+    edit:
+      s1: Editar prémios
+    modal:
+      html:
+        s1: Prémios
+    new:
+      s1: Novo prémio
+    show:
+      s1: Prémios

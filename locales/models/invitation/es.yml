@@ -1,0 +1,16 @@
+es:
+  invitations:
+    attributes: &ATTRIBUTES
+      emails: Introducir direcciones directamente
+      contacts: Contactos
+      message: Mensaje
+  activerecord:
+    attributes:
+      models:
+        invitations: 'Invitaciones'
+      invitations:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      invitations:
+        <<: *ATTRIBUTES

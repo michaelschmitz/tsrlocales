@@ -1,0 +1,17 @@
+de:
+  message:
+    attributes: &ATTRIBUTES
+      to: An
+      topic: Betreff
+      body: Nachricht
+      copy: Kopie der Nachricht erhalten
+  activerecord:
+    models:
+      message: 'Nachricht'
+    attributes:
+      message:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      message:
+        <<: *ATTRIBUTES   

@@ -1,0 +1,64 @@
+pl:
+  student_ranking:
+    public_anon_profile_small:
+      s1: Anonim
+      s2: Praktyka
+      s3: Absolwent
+      s4: Zobacz szczegóły
+    public_profile_small:
+      s1: Praktyka
+      s2: Absolwent
+      s3: Zobacz szczegóły
+    public_profile:
+      s1: xxx
+      s2: Student
+      s3: Obecne
+      s4: Poprzednia
+      s5: Wykształcenie
+      s6: Praktyki
+      s7: Absolwent
+      s8: Rekruterzy mogą zobaczyć całe CV.
+      s9: Tak
+<<<<<<< HEAD
+      s10: 
+        one: '%{count} Rekomendacje'
+        other: '%{count} Rekomendacje'
+      s11:
+        one: '%{count} Potwierdzenia umiejętności'
+        other: '%{count} Potwierdzenia umiejętności'
+      s12: 
+        one: '%{count} Kontakty'
+        other: '%{count} Kontakty'
+=======
+      s10:
+        one: '%{count} Rekomendacja'
+        other: '%{count} Rekomendacje'
+      s11:
+        one: '%{count} Potwierdzona umiejętność'
+        other: '%{count} Potwierdzonych umiejętności'
+      s12:
+        one: '%{count} Kontakt'
+        other: '%{count} Kontaktów'
+>>>>>>> 50935574b3d3b212edfff86c9aa3b6a54a9467c8
+      s13: Wiadomość
+      s14: Nawiąż kontakt
+      s15: Porównaj ze swoim CV
+      s16: Zgłoś błąd
+      s17: Zgłoszenie otrzymane
+    public_recommendations:
+      s1: Rekomendacje
+      s2: Brak rekomendacji.
+      s3: Usuń rekomendacje
+      s4: Rekomenduj
+    public_skills:
+      s1: Umiejętności
+      s2: Potwierdź
+      s3: Ten użytkownik nie wskazał jeszcze żadnych umiejętności.
+    show:
+      s1: Globalny ranking studentów
+      s2: Szukaj według nazwy
+      s3: Punkty za osiągnięcia
+      s4: Punkty za rekomendację
+      s5: Szukaj
+      s6: Brak wyników dla podanych kryteriów. Spróbuj użyć innych filtrów. 
+      s7: Wyniki

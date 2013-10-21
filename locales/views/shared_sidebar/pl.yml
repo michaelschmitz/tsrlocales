@@ -1,0 +1,15 @@
+pl:
+  shared_sidebar:
+    jobs:
+      s1: Sugerowane ofert pracy
+    friends:
+      s1: Twoi znajomi    
+      s2: Zarejestrowani znajomi
+      s3: Zaproś swoich znajomych
+    suggestion_ranking:
+      s1: Osoby, które możesz znać
+      s2: xxx
+      s3: Zaproszenie zostało wysłane
+      s4: Nawiąż kontakt
+    friends_ranking:
+      s1: Moje kontakty

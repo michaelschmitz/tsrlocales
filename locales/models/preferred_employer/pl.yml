@@ -1,0 +1,14 @@
+pl:
+  preferred_employer:
+    attributes: &ATTRIBUTES
+      name: Nazwa firmy
+  activerecord:
+    models:
+      preferred_employer: Preferowany pracodawca
+    attributes:
+      preferred_employer:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      preferred_employer:
+        <<: *ATTRIBUTES   

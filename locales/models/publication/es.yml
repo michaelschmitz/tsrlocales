@@ -1,0 +1,23 @@
+es:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Enlace
+      description: Descripción
+      area: Tipo
+      document: Documento
+    area:
+      1: 'Otras publicaciones'
+      2: 'Artículo de periódico'
+      3: 'Proyecto científico'
+      4: 'Ensayo'
+      5: 'Libro'
+  activerecord:
+    models:
+      publication: 'Publicación'
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

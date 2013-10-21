@@ -1,0 +1,16 @@
+it:
+  invitations:
+    attributes: &ATTRIBUTES
+      emails: Inserisci le email direttamente
+      contacts: Contatti
+      message: Messaggio
+  activerecord:
+    attributes:
+      models:
+        invitations: 'Inviti'
+      invitations:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      invitations:
+        <<: *ATTRIBUTES 

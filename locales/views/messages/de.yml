@@ -1,0 +1,8 @@
+de:
+  messages:
+    flash:
+      create: Nachricht abgeschickt.
+      error: Nachricht nicht abgeschickt.
+    modal:
+      html:
+        s1: Neue Nachricht

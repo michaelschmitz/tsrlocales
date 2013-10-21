@@ -1,0 +1,27 @@
+de:
+  friend_invitations:
+    flash:
+      create: "Gesendet"
+    modal:
+      html:
+        s1: Kontakt hinzufügen
+        s2: Ihre Kontakte sind bei uns sicher
+        s3: Wir nutzen das Addressbuch um Ihre Einladung zu verschicken und speichern Ihr Passwort nicht. Wir werden niemals Emails ohne Ihre Genehmigung verschicken.
+    form:
+      s1: Alle abwählen
+      s2: Gmail
+      s3: Yahoo
+      s4: Hotmail
+      s5: Hallo,
+
+
+          ich möchte Sie gerne zu theStudentRanking.com, dem weltgrößten Studentenvergleich, einladen.
+          Dadurch können Sie mehr über Ihren Marktwert erfahren und Ihre Karrierechance deutlich verbessern.
+
+
+          Freundliche Grüße,
+          
+
+          %{name}
+      s6: Schnell Kontakte in Ihrem Addressbuch finden*
+      s7: Importierte Kontakte

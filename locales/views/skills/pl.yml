@@ -1,0 +1,16 @@
+pl:
+  skills:
+    edit:
+      s1: Edytuj umiejętność
+    modal:
+      html:
+        s1: Umiejętności
+    new:
+      s1: Dodaj umiejętność
+    show:
+      s1: Umiejętności
+    skill:
+      s1: Zastosowanie
+      s2: Kształcenie
+    form:
+      s1: To bardzo dużo godzin. Przedstaw krótkie podsumowanie, w jaki sposób udało Ci się do tego dojść. Pamiętaj o różnicy między treningiem, a użyciem w praktyce. 

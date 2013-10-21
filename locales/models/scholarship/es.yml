@@ -1,0 +1,15 @@
+es:
+  scholarship:
+    attributes: &ATTRIBUTES
+      name: Nombre de la beca
+      start_date: Fecha de inicio
+      end_date: Fecha de fin
+      document: Documento
+  activerecord:
+    attributes:
+      scholarship:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      scholarship:
+        <<: *ATTRIBUTES

@@ -1,0 +1,28 @@
+fr:
+  shared:
+    profile_completion:
+        s1: "Ajouter une photo de profil"
+        s10: "Avez-vous expérience professionnelle?"
+        s11: "Ajoutez vos employeurs préférés"
+        s12: "Le Profil est rempli"
+        s13: "Ajouter une compétence"
+        s2: "Ajouter des informations de degré"
+        s3: "Ajouter l'enseignement secondaire"
+        s4: "Choisir la nationalité"
+        s5: "Ajouter votre prénom"
+        s6: "Ajoutez votre nom de famille"
+        s7: "Mettre à jour votre date de naissance"
+        s8: "Quels sont vos objectifs?"
+        s9: "Quelles langues parlez-vous?"
+    jobs_suggested:
+        s1: "Les postes proposé"
+    signup_modal:
+        s1: Inscrivez-vous
+        s2: Inscrivez-vous
+        s3: Vous avez déjà une compte?
+        s4: Inscrivez-vous ici
+    register_modal:
+        s1: Inscrivez-vous
+        s2: Inscrivez-vous
+        s3: Vous avez déjà une compte?
+        s4: Inscrivez-vous ici   

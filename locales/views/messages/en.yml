@@ -1,0 +1,8 @@
+en:
+  messages:
+    flash:
+      create: Message sent.
+      error: Message not sent.
+    modal:
+      html:
+        s1: New Message

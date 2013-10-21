@@ -1,0 +1,23 @@
+zht:
+  publication:
+    attributes: &ATTRIBUTES
+      link: 連結
+      description: 描述
+      area: 性質
+      document: 證明文件
+    area:
+      1: '其他著作'
+      2: '報紙文章'
+      3: '科學類、論文'
+      4: '一般文章'
+      5: '書籍'
+  activerecord:
+    models:
+      publication: '著作'
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

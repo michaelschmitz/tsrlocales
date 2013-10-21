@@ -1,0 +1,21 @@
+pl:
+  recruiter:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Hasło
+      password_confirmation: Potwierdź hasło
+      phone: Telefon
+      first_name: Imię
+      last_name: Nazwisko
+      title: Kierunek
+      remember_me: Zapamiętaj mnie
+  activerecord:
+    models:
+      recruiter: 'Rekruter'
+    attributes:
+      recruiter:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      recruiter:
+        <<: *ATTRIBUTES   

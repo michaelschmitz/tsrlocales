@@ -1,0 +1,83 @@
+pt:
+  user:
+    attributes: &ATTRIBUTES
+      email: Email
+      password: Password
+      password_confirmation: Confirmar Password 
+      first_name: Primeiro nome
+      last_name: Último nome
+      avatar: Foto de perfil
+      nationality: Nacionalidade
+      language: Língua
+      date_of_birth: Data de nascimento
+      gender: Sexo
+      about: Acerca de
+      location: Localização
+      remember_me: Lembrar-me
+    gender:
+      1: 'Feminino'
+      2: 'Masculino'
+      3: 'Outro'
+      4: 'Não revelado'
+    frequency_emails:  
+      1: 'Após cada atualização'
+      2: 'Todos os meses'
+      3: 'Nunca'
+    new_position_email:
+      0: 'nunca'
+      1: '1 semana'
+      2: '2 semanas'
+      4: '1 mês'
+      12: '3 meses'
+      24: '6 meses'
+      48: '12 meses'
+    suggestion_email:
+      0: 'nunca'
+      1: '1 semana'
+      2: '2 semanas'
+      4: '1 mês'
+      12: '3 meses'
+      24: '6 meses'
+      48: '12 meses'
+    job_email:
+      0: 'nunca'
+      1: '1 semana'
+      2: '2 semanas'
+      4: '1 mês'
+      12: '3 meses'
+      24: '6 meses'
+      48: '12 meses'
+    recomendation_skill_email:
+      individual: "Email individual"
+      weekly: "Resumo Semanal"
+      never: "Nunca"
+    connection_request_email:
+      individual: "Email individual"
+      weekly: "Resumo Semanal"
+      never: "Nunca"
+    event_email:
+      0: 'nunca'
+      1: '1 semana'
+      2: '2 semanas'
+      4: '1 mês'
+      12: '3 meses'
+      24: '6 meses'
+      48: '12 meses'
+    blog_email:
+      0: 'nunca'
+      1: '1 semana'
+      2: '2 semanas'
+      4: '1 mês'
+      12: '3 meses'
+      24: '6 meses'
+      48: '12 meses'
+  activerecord:
+    models:
+      user: 'Utilizador'
+    attributes:
+      user:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      user:
+        <<: *ATTRIBUTES      

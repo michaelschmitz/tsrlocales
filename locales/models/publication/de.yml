@@ -1,0 +1,22 @@
+de:
+  publication:
+    attributes: &ATTRIBUTES
+      link: Link
+      description: Beschreibung
+      area: Art
+    area:
+      s1: "Andere Veröffentlichung"
+      s2: Zeitungsartikel
+      s3: "Wissenschaftliche Arbeit"
+      s4: Aufsatz
+      s5: Buch
+  activerecord:
+    models:
+      publication: 'Veröffentlichung'    
+    attributes:
+      publication:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      publication:
+        <<: *ATTRIBUTES   

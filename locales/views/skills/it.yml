@@ -1,0 +1,18 @@
+it:
+  skills:
+    edit:
+      s1: Modifica competenza
+    modal:
+     html:
+      s1: Competenza
+    new:
+      s1: Nuova competenza
+    show:
+      s1: Competenza
+    skill:
+      s1: Applicazione
+      s2: Formazione
+    form:
+      s1: "Hai indicato una quantità di ore molto elevata. Qui puoi riassumere brevemente in che modo hai raggiunto questa quantità di ore, spiegando la differenza tra ore di formazione e ore di uso pratico."
+
+      

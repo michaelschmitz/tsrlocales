@@ -1,0 +1,32 @@
+pl:
+  recruiters:
+    cv_searches:      
+      partials:
+        degree:
+          s1: Średnia ocen
+        other:
+          s1: Nagrody
+          s2: Publikacje
+          s3: Link
+          s4: Stypendia
+        languages:
+          s1: Języki
+        recommendations:
+          s1: Rekomendacje
+          s2: Brak rekomendacji
+        school:
+          s1: Średnia ocen
+        service:
+          s1: dziś
+          s2: Godziny
+          s3: w tygodniu
+        skills:
+          s1: Umiejętności
+          s2: Szczegóły
+          s3: Aplikacja
+          s4: Szkolenie
+          s5: godzin
+        work_experience:
+          s1: dziś
+          s2: godzin w tygodniu
+          s3: Opis

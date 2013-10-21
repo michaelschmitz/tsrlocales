@@ -1,0 +1,10 @@
+fr:
+  friend_invitations:
+    modal:
+      html:
+        s1: Ajouter des connections
+    form:
+      s1: Décocher
+      s2: Import à partir de Gmail
+      s3: Importation de Yahoo
+      s4: Import de Hotmail

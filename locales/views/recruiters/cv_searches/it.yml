@@ -1,0 +1,53 @@
+it:
+  recruiters:
+    cv_searches:
+      comparisons:
+        s1: Confronto globale
+      edit:
+        s1: "Dai un nome alla tua ricerca"              
+      form:
+        s1: Cerca parola chiave
+        s2: "Lingua 1"
+        s2a: "Lingua"
+        s3: "Lingua 2"
+        s4: "Lingua 3"
+        s5: "Lingua 4"
+        s6: Luogo
+        s7: Disponibilità
+        s8: Per Università
+        s9: Esperienza
+        s10: Competenze
+        s11: Viaggiare
+        s12: risultati
+        s13: Punteggio minimo
+        s14: Distanza massima
+        s15: Esperienza lavorativa
+        s16: Esperienza di stage
+        s17: Nazionalità
+        s18: Livello
+      recruiter_profile_small:
+        s1: Stage
+        s2: Posizione per laureati
+        s3: Rimuovi dai candidati
+        s4: Aggiungi ai candidati
+        s5: Invia messaggio
+      recruiter_recommendations:
+        s1: Raccomandazioni
+        s2: Non hai ancora ricevuto raccomandazioni
+      recruiter_skills:
+        s1: Competenze
+        s2: Conferma
+        s3: Questo utente non ha ancora indicato le sue competenze.
+      index:
+        s1: Cerca CV 
+        s2: Nome
+        s3: Mostra candidati
+        s4: Modifica
+        s5: Continua
+        s6: Candidati
+        s7: Cambia nome
+        s8: Mostra
+        s9: Nuova ricerca
+      show:
+        s1: Cerca nel database
+        s2: Salvando questa ricerca, il sistema memorizzerà gli ultimi risultati e criteri di ricerca.

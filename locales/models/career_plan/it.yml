@@ -1,0 +1,47 @@
+it:
+  career_plan:
+    attributes: &ATTRIBUTES
+      i_am: Posizione
+      my_industry: Settore
+      contract: 'Posizione per laureati'
+      internship: Stage
+      project: Progetto
+      promotion: Posizione per dottorandi/dottori
+      part_time: Part-time
+      full_time: Full-time
+      trainee: Apprendista
+      voluntary: Volontario
+      associate: Socio
+      limited: Limitato
+      available: Disponibile
+      available_date: Disponibile dal
+      intern_start: Inizio Stage
+      intern_end: Fine Stage
+      travel: Disponibilità a viaggiare per lavoro
+      move_city: Disponibilità a cambiare città
+      move_country: Disponibilità a cambiare paese
+      location: Luogo
+    available:
+      1: 'Immediatamente'
+      2: 'Entro 2 settimane'
+      3: 'Entro meno di un mese'
+      4: 'Tra 1-3 mesi'
+      5: 'Tra più di 3 mesi'
+      6: 'Negoziabile'
+      7: 'Data specifica'
+    travel:
+      1: 'Massimo 25%'
+      2: 'Massimo 50%'
+      3: 'Massimo 75%'
+      4: '100%'
+      5: 'Nessuno spostamento'
+  activerecord:
+    models:
+      career_plan: 'Piano di carriera'  
+    attributes:
+      career_plan:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      career_plan:
+        <<: *ATTRIBUTES      

@@ -1,0 +1,23 @@
+pl:
+  language:
+    attributes: &ATTRIBUTES
+      name: Język
+      level: Poziom
+      certificate: Certyfikat
+      certificate_grade: Stopień
+      document: Dokument
+    level:
+      1: 'podstawowy'
+      2: 'średni'
+      3: 'zaawansowany'
+      4: 'biegły / ojczysty'
+  activerecord:
+    models:
+      language: 'Język'
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

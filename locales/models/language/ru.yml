@@ -1,0 +1,20 @@
+ru:
+  language:
+    attributes: &ATTRIBUTES
+      name: Имя
+      level: Уровень
+      certificate: Сертификат
+      certificate_grade: Оценка
+    level:
+      1: 'Базовый'
+      2: 'Xороший'
+      3: 'Продвинутый'
+      4: 'Свободный / Родной'
+  activerecord:
+    attributes:
+      language:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      language:
+        <<: *ATTRIBUTES   

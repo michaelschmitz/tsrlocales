@@ -1,0 +1,47 @@
+it:
+  flash:
+    incomplete_user: "Per favore completa il tuo profilo per iniziare il ranking."
+    database_unauthorized_recruiter: "Non autorizzato ad effettuare la ricerca nel database"
+  layouts:
+    user_nav:
+      s1: Profilo
+      s2: Il mio Ranking
+      s3: Ranking Studenti
+      s4: Offerte di lavoro
+      s5: Account
+      s6: Il mio account
+      s7: Preferenze di comunicazione
+      s8: Esci
+      s9: Vai!
+      s10: Accedi
+      s11: Registrati
+      s12: Per i recruiter
+    recruiter_nav:
+      s1: Pannello di controllo
+      s2: Pagina dell'azienda
+      s3: Mostra pagina
+      s4: Modifica pagina
+      s5: Le mie offerte di lavoro
+      s6: Pubblica un'offerta di lavoro
+      s7: Cerca CV 
+      s8: Le mie ricerche
+      s9: Nuova ricerca
+      s10: Esci
+      s11: Offerte di lavoro
+      s12: Tutte le offerte di lavoro
+    bottomfooter:
+      s1: Home
+      s2: Eventi
+      s3: Offerte di lavoro
+      s4: Ranking Studenti
+      s5: FAQ
+      s6: Per i recruiter
+      s7: Blog
+      s8: Contatti
+      s9: Team
+      s10: Stampa
+      s11: Imprint
+      s12: Informativa sulla Privacy
+      s13: Termini del servizio
+      s14: Prezzi
+      s30: Links

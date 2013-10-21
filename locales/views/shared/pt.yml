@@ -1,0 +1,28 @@
+pt:
+  shared:
+    profile_completion:
+        s1: "Upload foto de perfil"
+        s10: "Tem experiência de trabalho?"
+        s11: "Adicione as suas empresas preferidas"
+        s12: "Preenchimento de perfil"
+        s13: "Adicionar competências"
+        s2: "Adicionar informação académica"
+        s3: "Adicionar ensino secundário"
+        s4: "Escolher nacionalidade"
+        s5: "Adicionar nome"
+        s6: "Adicionar apelido"
+        s7: "Atualizar data de nascimento"
+        s8: "Quais são os seus objetivos?"
+        s9: "Que idiomas domina?"
+    jobs_suggested:
+        s1: "Sugestão de ofertas de emprego" 
+    signup_modal:
+        s1: Entrar como
+        s2: Entrar
+        s3: Ainda não tem conta?
+        s4: Registar aqui
+    register_modal:
+        s1: Registar como
+        s2: Registar
+        s3: Já tem uma conta?
+        s4: Entrar aqui

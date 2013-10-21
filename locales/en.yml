@@ -1,0 +1,673 @@
+en:
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: "Last &raquo;"
+      previous: "&lsaquo; Prev"
+      next: "Next &rsaquo;"
+      truncate: "..."
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+    error_notification:
+      default_message: "Some errors were found, please take a look:"
+  helpers:
+    submit:
+      create: "Create"
+      submit: "Save"
+      update: "Update"
+  shared:
+    whatwedo: 
+      s1: "theStudentRanking.com provides the world's biggest global student ranking. If you are a student looking to learn more about your market value, about your perspective on the job market and if you want to get found and hired by some of the world's leading companies, then we are your ideal destination."
+      s2: "For companies, we offer recruiting solutions and services focused on graduates and students. We provide access to ideal candidates for talent programs, graduate programs and trainee programs. Young professionals and high potentials can be found on our site."
+  dry:
+    add: Add
+    reset: 'Reset'
+    back: 'Back'
+    new: 'New'
+    edit: 'Edit'
+    update: 'Update'
+    show: 'Show'
+    apply_for_membership: "Apply for membership"
+    confirm_membership: "Confirm membership"
+    remove_application: "Cancel application"
+    leave_group: "Leave group"
+    join: "Join"
+    remove: "Remove"
+    delete: 'Delete'
+    yes: "Yes"
+    no: "No"
+    na: "Not available"
+    search: "Search"
+    language: "Language"
+    save: "Save"
+    send: "Send"
+    cancel: "Cancel"
+    details: "Details"
+    close: "Close"
+    confirm: "Are you sure?"
+    hi: Hello
+    here: here
+    customize_settings_link: Customize which messages you receive
+    edit_privacy_link: Edit privacy settings
+    jobs_link: Jobs
+    advice_link: Advice
+    global_links: 
+      s1: "View all jobs"
+      s2: "View all events"
+      s3: "View all activities"
+      s4: "View all students"
+      s5: "View all questions"
+      s6: "View all universities"
+      s7: "View all friends"
+      s8: "View all employers"
+    countries: 
+      s1: Egypt
+      s10: "Equatorial Guinea"
+      s100: Colombia
+      s101: Comoros
+      s102: Congo
+      s103: "Congo, Democratic Republic"
+      s104: "Korea, Republic"
+      s105: Croatia
+      s106: Kuwait
+      s107: "Lao, Democratic Republic"
+      s108: Lesotho
+      s109: Latvia
+      s11: Armenia
+      s110: Lebanon
+      s111: Liberia
+      s112: Libya
+      s113: Liechtenstein
+      s114: Lithuana
+      s115: Luxemburg
+      s116: Macao
+      s117: Madagascar
+      s118: Malawi
+      s119: Malaysia
+      s12: Aruba
+      s120: Maldives
+      s121: Mali
+      s122: Malta
+      s123: Marocco
+      s124: "Marshall Islands"
+      s125: Martinique
+      s126: Mauritania
+      s127: Mauritius
+      s128: Mayotte
+      s129: "Macedonia, Former Yugoslav Republic"
+      s13: Azerbaijan
+      s130: Mexico
+      s131: "Micronesia, Federal States of"
+      s132: "Moldawia, Republic"
+      s133: Monaco
+      s134: Mongolia
+      s135: Montenegro
+      s136: Montserrat
+      s137: Mozambique
+      s138: Myanmar
+      s139: Namibia
+      s14: Ethiopia
+      s140: Nauru
+      s141: Nepal
+      s142: "New Caledonia"
+      s143: "New Zealand"
+      s144: Nicaragua
+      s145: "The Netherlands"
+      s146: "Dutch Antilles"
+      s147: Niger
+      s148: Nigeria
+      s149: Niue
+      s15: Australia
+      s150: "Northern Mariana Islands"
+      s151: "Norfold Island"
+      s152: Norway
+      s153: Oman
+      s154: Austria
+      s155: "Eastern Timor"
+      s156: Pakistan
+      s157: Palau
+      s158: Panama
+      s159: "Papua New Guinea"
+      s16: Bahamas
+      s160: Paraguay
+      s161: Peru
+      s162: Philippines
+      s163: Pitcairn
+      s164: Poland
+      s165: Portugal
+      s166: "Puerto Rico"
+      s167: Qatar
+      s168: Reunion
+      s169: Rwanda
+      s17: Bahrain
+      s170: Romania
+      s171: "Russian Federation"
+      s172: "Saint Kitts and Nevis"
+      s173: "Saint Lucia"
+      s174: "Saint Vincent and the Grenadines"
+      s175: Zambia
+      s176: Samoa
+      s177: "San Marino"
+      s178: "Sao Tome and Principe"
+      s179: "Saudi Arabia"
+      s18: Bangladesh
+      s180: Sweden
+      s181: Switzerland
+      s182: Senegal
+      s183: Serbia
+      s184: Seychelles
+      s185: "Sierra Leone"
+      s186: Zimbabwe
+      s187: Singapur
+      s188: "Sint Maarten"
+      s189: Slovakia
+      s19: Barbados
+      s190: Slovenia
+      s191: Solomon-Islands
+      s192: Somalia
+      s193: Spain
+      s194: "Sri Lanka"
+      s195: "Saint Helena"
+      s196: "South Africa"
+      s197: "South Georgia and the S.S. Islands"
+      s198: Suriname
+      s199: "Svalbard- and Jan Mayen"
+      s2: Albania
+      s20: Belize
+      s200: Swaziland
+      s201: Tajikistan
+      s202: Taiwan
+      s203: "Tanzania, United Republic of"
+      s204: Thailand
+      s205: Togo
+      s206: Tokelau
+      s207: Tonga
+      s208: "Trinidad and Tobago"
+      s209: Chad
+      s21: Belgium
+      s210: "Czech Republic"
+      s211: Tunesia
+      s212: Turkey
+      s213: Turkmenistan
+      s214: "Turks- and Caicos-Islands"
+      s215: Tuvalu
+      s216: Uganda
+      s217: Ukraine
+      s218: Hungary
+      s219: Uruguay
+      s22: Benin
+      s220: Uzbekistan
+      s221: Vanuatu
+      s222: "Vatican City"
+      s223: Venezuela
+      s224: "United States of America"
+      s225: "United Kingdom"
+      s226: "United Arab Emirates"
+      s227: Vietnam
+      s228: "Wallis and Futuna"
+      s229: "Christmas Islands"
+      s23: Bermuda
+      s230: Belarus
+      s231: "Western Sahara"
+      s232: "Central African Republic"
+      s233: Cyprus
+      s234: Argentina
+      s24: Bhutan
+      s25: Bolivia
+      s26: "Bonaire, Saint Eustatius and Saba"
+      s27: "Bosnia and Herzegowina"
+      s28: Botswana
+      s29: Bouvetisland
+      s3: Algeria
+      s30: Brazil
+      s31: "British Indian Ocean Territory"
+      s32: "Brunei Darussalam"
+      s33: Bulgaria
+      s34: "Burkina Faso"
+      s35: Burundi
+      s36: Chile
+      s37: China
+      s38: Cook-Islands
+      s39: "Costa Rica"
+      s4: American-Samoa
+      s40: Curaçao
+      s41: Denmark
+      s42: Germany
+      s43: Dominica
+      s44: "Dominican Republic"
+      s45: Djibouti
+      s46: Ecuador
+      s47: "El Salvador"
+      s48: "Cote D\\'Ivoire"
+      s49: Eritrea
+      s5: Andorra
+      s50: Estonia
+      s51: "Falkland-Islands (Malwina)"
+      s52: Faroe-Islands
+      s53: Fiji
+      s54: Finland
+      s55: France
+      s56: "French Guiana"
+      s57: "French Polynesia"
+      s58: "French Southern Territories"
+      s59: Gabon
+      s6: Angola
+      s60: Gambia
+      s61: Georgia
+      s62: Ghana
+      s63: Gibraltar
+      s64: Grenada
+      s65: Greece
+      s66: Greenland
+      s67: Guadeloupe
+      s68: Guam
+      s69: Guatemala
+      s7: Anguilla
+      s70: Guinea
+      s71: Guinea-Bissau
+      s72: Guyana
+      s73: Haiti
+      s74: "Heard- and McDonald Islands"
+      s75: Honduras
+      s76: Hongkong
+      s77: India
+      s78: Indonesia
+      s79: Ireland
+      s8: Antarctica
+      s80: Iceland
+      s81: Israel
+      s82: Italy
+      s83: Jamaica
+      s84: Japan
+      s85: Yemen
+      s86: Jordan
+      s87: "Virgin Islands, British"
+      s88: "Virgin Islands, USA"
+      s89: Cayman-Islands
+      s9: "Antigua and Barbuda"
+      s90: Cambodia
+      s91: Cameroon
+      s92: Canada
+      s93: "Cape Verde"
+      s94: Kazakhstan
+      s95: Kenya
+      s96: Kyrgyzstan
+      s97: Kiribati
+      s98: "United States MO Islands"
+      s99: "Cocos Islands (Keeling-Islands)"
+    languages:
+      122: 'Albanian'
+      74: 'Amharic'
+      2: 'Ancient greek'
+      3: 'Arabic'
+      121: 'Armenian'
+      77: 'Assamese'
+      48: 'Awadhi'
+      68: 'Azeri'
+      109: 'Bagheli'
+      104: 'Belarusian'
+      4: 'Bengali'
+      47: 'Bhojpuri'
+      117: 'Bosnian'
+      119: 'Bulgarian'
+      57: 'Burmese'
+      50: 'Catalan'
+      80: 'Cebuano'
+      103: 'Chew'
+      76: 'Chhattisgarhi'
+      7: 'Chinese (Cantonese)'
+      65: 'Chinese (Gan)'
+      60: 'Chinese (Hakka)'
+      5: 'Chinese (Mandarin)'
+      95: 'Chinese (Min Bei)'
+      100: 'Chinese (Min Dong)'
+      44: 'Chinese (Min Nan)'
+      8: 'Chinese (Other)'
+      6: 'Chinese (Wu)'
+      52: 'Chinese (Xiang)'
+      92: 'Chittagonian'
+      31: 'Czech'
+      9: 'Danish'
+      93: 'Deccan'
+      23: 'Dutch'
+      11: 'English'
+      140: 'Esperanto'
+      123: 'Estonian'
+      141: 'Euskara'
+      135: 'Fidjian'
+      12: 'Finnish'
+      13: 'French'
+      90: 'Fula'
+      126: 'Georgian'
+      10: 'German'
+      14: 'Greek'
+      45: 'Gujarati'
+      111: 'Haitian Creole'
+      89: 'Haryanvi'
+      62: 'Hausa'
+      15: 'Hebrew'
+      16: 'Hindi'
+      33: 'Hungarian'
+      17: 'Icelandic'
+      72: 'Igbo'
+      18: 'Italian'
+      19: 'Japanese'
+      38: 'Javanese'
+      99: 'Kanaujii'
+      54: 'Kannada'
+      124: 'Karelian'
+      105: 'Kazakh'
+      83: 'Khmer'
+      112: 'Konkani'
+      21: 'Korean'
+      78: 'Kurdish'
+      70: 'Lao-Isan'
+      22: 'Latin'
+      113: 'Latvian'
+      114: 'Lithuanian'
+      101: 'Lombard'
+      120: 'Macedonian'
+      88: 'Madurese'
+      91: 'Magahi'
+      55: 'Maithili'
+      107: 'Makuwa'
+      82: 'Malagasy'
+      51: 'Malay'
+      53: 'Malayalam'
+      134: 'Maltese'
+      39: 'Marathi'
+      59: 'Marwari'
+      85: 'Nepali'
+      73: 'Northern Berber'
+      24: 'Norwegian'
+      58: 'Oriya'
+      75: 'Oromo'
+      1: 'Other language'
+      43: 'Pashto'
+      46: 'Persian'
+      25: 'Polish'
+      26: 'Portuguese'
+      27: 'Punjabi'
+      69: 'Rajasthani'
+      81: 'Rangpuri'
+      64: 'Romanian'
+      28: 'Russian'
+      86: 'Rwanda-Rundi'
+      125: 'Sami'
+      136: 'Samoan'
+      138: 'Schwyzerdütsch'
+      20: 'Serbo-Croatian'
+      94: 'Shona'
+      142: 'Sign language'
+      66: 'Sindhi'
+      79: 'Sinhalese'
+      115: 'Slovak'
+      118: 'Slovenian'
+      87: 'Somali'
+      116: 'Sorbian'
+      84: 'Sotho-Tswana'
+      30: 'Spanish'
+      56: 'Sundanese'
+      29: 'Swedish'
+      97: 'Sylheti'
+      63: 'Tagalog'
+      42: 'Tamil'
+      108: 'Tatar-Bashkir'
+      40: 'Telugu'
+      61: 'Thai'
+      130: 'Thai-Lao'
+      131: 'Thai-Zhuang'
+      128: 'Tibetan'
+      133: 'Tigrinya'
+      32: 'Turkish'
+      49: 'Ukrainian'
+      102: 'Uyghur'
+      67: 'Uzbek'
+      41: 'Vietnamese'
+      110: 'Xhose'
+      137: 'Yiddish'
+      71: 'Yoruba'
+  activerecord:
+    errors:
+      messages:
+        after: "should end later"
+        before: "should start before"
+  nationalities:
+    AL: "Albania"
+    DZ: "Algeria"
+    AS: "American-Samoa"
+    AD: "Andorra"
+    AO: "Angola"
+    AI: "Anguilla"
+    AQ: "Antarctica"
+    AG: "Antigua and Barbuda"
+    AR: "Argentina"
+    AM: "Armenia"
+    AW: "Aruba"
+    AU: "Australia"
+    AT: "Austria"
+    ET: "Azerbaijan"
+    BS: "Bahamas"
+    BH: "Bahrain"
+    BD: "Bangladesh"
+    BB: "Barbados"
+    BY: "Belarus"
+    BE: "Belgium"
+    BZ: "Belize"
+    BJ: "Benin"
+    BM: "Bermuda"
+    BT: "Bhutan"
+    BO: "Bolivia"
+    BQ: "Bonaire, Saint Eustatius and Saba"
+    BA: "Bosnia and Herzegowina"
+    BW: "Botswana"
+    BV: "Bouvetisland"
+    BR: "Brazil"
+    IO: "British Indian Ocean Territory"
+    BN: "Brunei Darussalam"
+    BG: "Bulgaria"
+    BF: "Burkina Faso"
+    BI: "Burundi"
+    KH: "Cambodia"
+    CM: "Cameroon"
+    CA: "Canada"
+    CV: "Cape Verde"
+    KY: "Cayman-Islands"
+    CF: "Central African Republic"
+    TD: "Chad"
+    CL: "Chile"
+    CN: "China"
+    CX: "Christmas Islands"
+    CC: "Cocos Islands (Keeling-Islands)"
+    CO: "Colombia"
+    KM: "Comoros"
+    CG: "Congo"
+    CD: "Congo, Democratic Republic"
+    CK: "Cook-Islands"
+    CR: "Costa Rica"
+    CI: "Cote D'Ivoire"
+    HR: "Croatia"
+    CW: "Curaçao"
+    CY: "Cyprus"
+    CZ: "Czech Republic"
+    DK: "Denmark"
+    DJ: "Djibouti"
+    DM: "Dominica"
+    DO: "Dominican Republic"
+    AN: "Dutch Antilles"
+    TL: "Eastern Timor"
+    EC: "Ecuador"
+    EG: "Egypt"
+    SV: "El Salvador"
+    GQ: "Equatorial Guinea"
+    ER: "Eritrea"
+    EE: "Estonia"
+    AZ: "Ethiopia"
+    FK: "Falkland-Islands (Malwina)"
+    FO: "Faroe-Islands"
+    FJ: "Fiji"
+    FI: "Finland"
+    FR: "France"
+    GF: "French Guiana"
+    PF: "French Polynesia"
+    TF: "French Southern Territories"
+    GA: "Gabon"
+    GM: "Gambia"
+    GE: "Georgia"
+    DE: "Germany"
+    GH: "Ghana"
+    GI: "Gibraltar"
+    GR: "Greece"
+    GL: "Greenland"
+    GD: "Grenada"
+    GP: "Guadeloupe"
+    GU: "Guam"
+    GT: "Guatemala"
+    GN: "Guinea"
+    GW: "Guinea-Bissau"
+    GY: "Guyana"
+    HT: "Haiti"
+    HM: "Heard- and McDonald Islands"
+    HN: "Honduras"
+    HK: "Hongkong"
+    HU: "Hungary"
+    IS: "Iceland"
+    IN: "India"
+    ID: "Indonesia"
+    IE: "Ireland"
+    IL: "Israel"
+    IT: "Italy"
+    JM: "Jamaica"
+    JP: "Japan"
+    JO: "Jordan"
+    KZ: "Kazakhstan"
+    KE: "Kenya"
+    KI: "Kiribati"
+    KR: "Korea, Republic"
+    KW: "Kuwait"
+    KG: "Kyrgyzstan"
+    LA: "Lao, Democratic Republic"
+    LV: "Latvia"
+    LB: "Lebanon"
+    LS: "Lesotho"
+    LR: "Liberia"
+    LY: "Libya"
+    LI: "Liechtenstein"
+    LT: "Lithuana"
+    LU: "Luxemburg"
+    MO: "Macao"
+    MK: "Macedonia, Former Yugoslav Republic"
+    MG: "Madagascar"
+    MW: "Malawi"
+    MY: "Malaysia"
+    MV: "Maldives"
+    ML: "Mali"
+    MT: "Malta"
+    MA: "Marocco"
+    MH: "Marshall Islands"
+    MQ: "Martinique"
+    MR: "Mauritania"
+    MU: "Mauritius"
+    YT: "Mayotte"
+    MX: "Mexico"
+    FM: "Micronesia, Federal States of"
+    MD: "Moldawia, Republic"
+    MC: "Monaco"
+    MN: "Mongolia"
+    ME: "Montenegro"
+    MS: "Montserrat"
+    MZ: "Mozambique"
+    MM: "Myanmar"
+    NA: "Namibia"
+    NR: "Nauru"
+    NP: "Nepal"
+    NC: "New Caledonia"
+    NZ: "New Zealand"
+    NI: "Nicaragua"
+    NE: "Niger"
+    NG: "Nigeria"
+    NU: "Niue"
+    NF: "Norfold Island"
+    MP: "Northern Mariana Islands"
+    'NO': "Norway"
+    OM: "Oman"
+    PK: "Pakistan"
+    PW: "Palau"
+    PA: "Panama"
+    PG: "Papua New Guinea"
+    PY: "Paraguay"
+    PE: "Peru"
+    PH: "Philippines"
+    PN: "Pitcairn"
+    PL: "Poland"
+    PT: "Portugal"
+    PR: "Puerto Rico"
+    QA: "Qatar"
+    RE: "Reunion"
+    RO: "Romania"
+    RU: "Russian Federation"
+    RW: "Rwanda"
+    SH: "Saint Helena"
+    KN: "Saint Kitts and Nevis"
+    LC: "Saint Lucia"
+    VC: "Saint Vincent and the Grenadines"
+    WS: "Samoa"
+    SM: "San Marino"
+    ST: "Sao Tome and Principe"
+    SA: "Saudi Arabia"
+    SN: "Senegal"
+    RS: "Serbia"
+    SC: "Seychelles"
+    SL: "Sierra Leone"
+    SG: "Singapur"
+    SX: "Sint Maarten"
+    SK: "Slovakia"
+    SI: "Slovenia"
+    SB: "Solomon-Islands"
+    SO: "Somalia"
+    ZA: "South Africa"
+    GS: "South Georgia and the S.S. Islands"
+    ES: "Spain"
+    LK: "Sri Lanka"
+    SR: "Suriname"
+    SJ: "Svalbard- and Jan Mayen"
+    SZ: "Swaziland"
+    SE: "Sweden"
+    CH: "Switzerland"
+    TW: "Taiwan"
+    TJ: "Tajikistan"
+    TZ: "Tanzania, United Republic of"
+    TH: "Thailand"
+    NL: "The Netherlands"
+    TG: "Togo"
+    TK: "Tokelau"
+    TO: "Tonga"
+    TT: "Trinidad and Tobago"
+    TN: "Tunesia"
+    TR: "Turkey"
+    TM: "Turkmenistan"
+    TC: "Turks- and Caicos-Islands"
+    TV: "Tuvalu"
+    UG: "Uganda"
+    UA: "Ukraine"
+    AE: "United Arab Emirates"
+    GB: "United Kingdom"
+    UM: "United States MO Islands"
+    US: "United States of America"
+    UY: "Uruguay"
+    UZ: "Uzbekistan"
+    VU: "Vanuatu"
+    VA: "Vatican City"
+    VE: "Venezuela"
+    VN: "Vietnam"
+    VG: "Virgin Islands, British"
+    VI: "Virgin Islands, USA"
+    WF: "Wallis and Futuna"
+    EH: "Western Sahara"
+    YE: "Yemen"
+    ZM: "Zambia"
+    ZW: "Zimbabwe"
