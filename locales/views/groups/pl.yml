@@ -1,0 +1,32 @@
+pl:
+  groups:
+    index:
+      s1: Moje grupy
+      s2: Utwórz nową grupę
+      s3: Członkowie
+      s4: Potrzebne potwierdzenie
+      s5: Pubiczna
+    search:
+      s1: Wszystkie grupy
+      s2: Utwórz nową grupę
+      s3: Członkowie
+      s4: Potrzebne potwierdzenie
+      s5: Pubiczna
+    form:
+      s1: Potrzebne potwierdzenie
+      s2: Pubiczna
+    show:
+      s1: Członkowie oczekujący na potwierdzenie
+      s2: Brak aplikacjido grupy     
+      s3: Członkowie
+    group_header:
+      s1: Członkowie
+      s2: Potrzebne potwierdzenie
+      s3: Pubiczna
+      s4: Grupa stworzona przez    
+    member:
+      s1: Anonim   
+    new:
+      s1: Nowa grupa
+    edit:
+      s1: Edytuj grupę   
