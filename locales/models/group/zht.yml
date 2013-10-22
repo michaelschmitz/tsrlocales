@@ -1,0 +1,19 @@
+zht:
+  group:
+    attributes: &ATTRIBUTES
+      name: 社群名稱
+      logo: Logo
+      description: 描述
+      website: 網址
+      facebook_page: Facebook 專頁
+      private: 公開與否
+  activerecord:
+    models:
+      group: '社群'
+    attributes:
+      group:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      event:
+        <<: *ATTRIBUTES
