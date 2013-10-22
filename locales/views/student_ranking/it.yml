@@ -25,7 +25,7 @@ it:
       s11:
         one: '%{count} conferma delle competenze'
         other: '%{count} conferme delle competenze'
-       s12:
+      s12:
         one: '%{count} Contatto'
         other: '%{count} Contatti'
       s13: Messaggio

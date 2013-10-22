@@ -19,7 +19,7 @@ pt:
       s7: Recém-formado
       s8: Sim
       s9: Sim
-         s10:
+      s10:
         one: '%{count} Recomendação'
         other: '%{count} Recomendações'
       s11:
