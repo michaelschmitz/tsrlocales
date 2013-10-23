@@ -418,6 +418,10 @@ pt:
       s6: "Ver todas as Universidades"
       s7: "Ver todos os Amigos"
       s8: "Ver todas as Empresas"
+    remove: "Remover"
+    confirm_membership: Confirmar adesão
+    join: Aderir
+    
   activerecord:
     errors:
       messages:
