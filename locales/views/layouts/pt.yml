@@ -16,6 +16,12 @@ pt:
       s10: Iniciar sessão
       s11: Registar
       s12: Empresas
+      s13: Confirmar
+      s14: Rejeitar
+      s15: Convidar amigos
+      s16: Grupos
+      s17: Os meus grupos
+      s18: Todos os grupos
     recruiter_nav:
       s1: Dashboard
       s2: Página de Empresa
