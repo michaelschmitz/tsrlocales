@@ -1,0 +1,19 @@
+pt:
+  group:
+    attributes: &ATTRIBUTES
+      name: Nome do Grupo
+      logo: Imagem
+      description: Descrição
+      website: Website
+      facebook_page: Página Facebook
+      private: Visibilidade
+  activerecord:
+    models:
+      group: 'Grupo'
+    attributes:
+      group:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      event:
+        <<: *ATTRIBUTES   
