@@ -6,7 +6,8 @@ zht:
       description: 描述
       website: 網址
       facebook_page: Facebook 專頁
-      private: 公開與否
+      private: 性質
+      type: 性質
   activerecord:
     models:
       group: '社群'
