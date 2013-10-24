@@ -26,7 +26,7 @@ zht:
   dry:
     join: 加入
     remove: "移除"
-    confirm_membership: 確認組織成員
+    confirm_membership: 確認成員
     confirm: 你確定嗎?
     reset: '重設'
     back: '回到上一步'
