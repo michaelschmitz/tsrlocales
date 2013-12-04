@@ -16,7 +16,7 @@ pt:
       disabled: Inválido
       disabled_on: Inválido em
       service_level: Nível de serviço
-      advertising_budget: Orçamento para anunciar
+      advertising_budget: Orçamento para publicidade
       delivery: Entrega
       describe_role: Descrição da função
       describe_qualification: Descrição das qualificações
@@ -40,12 +40,12 @@ pt:
       14: Produção
       15: Vendas
       17: Serviços Bancários
-      18: Serviço ao Cliente
+      18: Apoio ao Cliente
       19: Legal e Jurídico
-      20: Turismo e Hospitalidade
+      20: Hotelaria e Turismo
       21: Ciências
       22: Administração Pública
-      23: Arte e Design
+      23: Artes e Design
       24: Outras
       27: Comunicação, Jornalismo, RP e Publicidade
       28: Organizações Estudantis
@@ -56,8 +56,8 @@ pt:
       4: Projeto
       6: Treino
     contract:
-      1: Part time
-      2: Full time
+      1: Part-time
+      2: Full-time
   activerecord:
     models:
       job: 'Oferta de Emprego'
