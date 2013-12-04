@@ -7,7 +7,7 @@ pt:
       sponsor: Patrocinador
       date: Data
       location: Localização
-      deadline: Data-fim
+      deadline: Data de fim
       link: Link
       comment_on_location: Comentários sobre a localização
   activerecord:
