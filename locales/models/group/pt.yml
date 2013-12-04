@@ -4,8 +4,8 @@ pt:
       name: Nome do Grupo
       logo: Imagem
       description: Descrição
-      website: Website
-      facebook_page: Página Facebook
+      website: Página na Internet
+      facebook_page: Página do Facebook
       private: Visibilidade
   activerecord:
     models:
