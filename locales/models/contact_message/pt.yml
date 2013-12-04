@@ -2,9 +2,9 @@ pt:
   contact_message:
     attributes: &ATTRIBUTES
       name: O seu nome
-      company: Nome da empresa (se aplicável)
-      email: Email
-      phone: Número de telefone (diga-nos se pretende um contacto nosso)
+      company: O nome da empresa (se aplicável)
+      email: E-mail
+      phone: Número de telefone (diga-nos se pretende que o contactemos)
       body: A sua mensagem
   activerecord:
     models:
