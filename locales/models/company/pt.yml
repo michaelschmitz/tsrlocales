@@ -8,7 +8,7 @@ pt:
       code: Código Postal
       country: País
       url: Url
-      facebook_page: Página Facebook
+      facebook_page: Página do Facebook
   activerecord:
     models:
       company: 'Empresa'
