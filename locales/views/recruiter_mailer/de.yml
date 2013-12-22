@@ -1,0 +1,10 @@
+de: 
+  recruiter_mailer: 
+    application_email: 
+      s1: "Auf Ihre Stellenanzeige"
+      s2: "hat es eine neue Bewerbung gegeben:"
+      s3: "Sie finden mehr Details über die Bewerbung auf der Webseite."
+      s10: "Mit freundlichen Grüßen"
+      s11: "Michael Schmitz"
+  
+ 

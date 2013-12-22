@@ -92,4 +92,12 @@ es:
         s1: Olvidó su contraseña?
         s2: No ha recibido las instrucciones para confirmar su cuenta?
         s3: No ha recibido las instrucciones para desbloquear su cuenta?
-      
+    passwords: 
+      edit: 
+        s1: "Cambiar contraseña"
+        s2: "Nueva contraseña"
+        s3: "Confirmar nueva contraseña"
+        s4: "Actualizar contraseña"
+      new:
+        s1: Olvidó su contraseña?
+        s2: Enviar enlace para recuperar mi contraseña     

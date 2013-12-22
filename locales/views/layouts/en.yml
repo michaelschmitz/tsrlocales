@@ -35,6 +35,9 @@ en:
       s10: Logout
       s11: Jobs
       s12: All jobs
+      s16: Groups
+      s17: My groups
+      s18: All groups      
     bottomfooter:
       s1: Home
       s2: Events

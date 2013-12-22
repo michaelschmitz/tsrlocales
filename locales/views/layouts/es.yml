@@ -19,6 +19,9 @@ es:
       s13: Confirmar
       s14: Rechazar
       s15: Invitar amigos
+      s16: Grupos
+      s17: Mi grupos
+      s18: Todos los grupos
     recruiter_nav:
       s1: Panel de control
       s2: Página empresa
@@ -32,6 +35,9 @@ es:
       s10: Cerrar sesión
       s11: Ofertas
       s12: Todas las ofertas
+      s16: Grupos
+      s17: Mi grupos
+      s18: Todos los grupos      
     bottomfooter:
       s1: Inicio
       s2: Eventos

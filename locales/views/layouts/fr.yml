@@ -13,6 +13,9 @@ fr:
       s10: Login
       s11: S'enregistrer
       s12: Pour les recruteurs
+      s16: Groupes
+      s17: Mes groupes
+      s18: Tous les groupes         
     recruiter_nav:
       s1: Tableau de bord
       s2: Page d'entreprise
@@ -24,6 +27,9 @@ fr:
       s8: Index
       s9: Nouveau
       s10: Déconnexion
+      s16: Groupes
+      s17: Mes groupes
+      s18: Tous les groupes      
     bottomfooter:
        s1: Accueil
        s2: Événements

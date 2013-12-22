@@ -66,10 +66,10 @@ de:
         s21: Datenbank durchsuchen
         s22: Kompletter Zugriff
         s23: Tausende Kandidaten
-        s24: Komplett kostenlos für 30 Tage
+        s24: Komplett kostenlos
         s25: Anmelden
         s26: Anmelden
-        s27: Noch keine Konto?
+        s27: Noch kein Konto?
         s28: Hier registrieren
     registrations:
       new:
@@ -89,3 +89,12 @@ de:
         s1: Passwort vergessen?
         s2: "Noch keine Bestätigungsemail erhalten?"
         s3: "Noch keine Entsperrungsemail erhalten?"
+    passwords:
+      edit:
+        s1: "Ändern Sie Ihr Passwort"
+        s2: "Neues Passwort"
+        s3: "Neues Passwort bestätigen"
+        s4: "Passwort ändern"
+      new:
+        s1: Passwort vergessen?
+        s2: Schicken Sie mir einen Link, um das Passwort zu ändern

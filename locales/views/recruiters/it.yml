@@ -93,4 +93,13 @@ it:
         s1: "Password dimenticata?"
         s2: "Non hai ancora ricevuto l'email di conferma?"
         s3: "Non hai ancora ricevuto l'email di sblocco?"
+    passwords:
+      edit:
+        s1: Cambia la tua password
+        s2: Nuova password
+        s3: Conferma la tua password
+        s4: Aggiorna password
+      new:
+        s1: Password dimenticata?
+        s2: Mandami un link per reimpostare la mia password        
         

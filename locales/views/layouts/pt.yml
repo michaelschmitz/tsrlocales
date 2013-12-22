@@ -35,6 +35,9 @@ pt:
       s10: Logout
       s11: Ofertas de emprego
       s12: Todas as ofertas de emprego
+      s16: Grupos
+      s17: Os meus grupos
+      s18: Todos os grupos      
     bottomfooter:
       s1: Home
       s2: Eventos

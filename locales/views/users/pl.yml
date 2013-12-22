@@ -64,7 +64,7 @@ pl:
       new:
         s1: Zarejestruj się
         s2: Zarejestruj się
-        s3: Nie masz jeszcze konta?
+        s3: Masz już konto?
         s4: Zaloguj się tutaj
     update_friends:
       flash: "Rozpocznij aktualizację listy znajomych"

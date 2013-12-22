@@ -97,3 +97,12 @@ pt:
         s1: Esqueceu-se da password?
         s2: Não recebeu as instruções de confirmação?
         s3: Não recebeu as instruções de desbloqueio?
+    passwords:
+      edit:
+        s1: Mudar password
+        s2: Nova password
+        s3: Confirmar password
+        s4: Atualizar password
+      new:
+        s1: Esqueceu-se da sua password?
+        s2: Enviem-me link para fazer reset à minha password        

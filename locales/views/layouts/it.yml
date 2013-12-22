@@ -16,6 +16,9 @@ it:
       s10: Accedi
       s11: Registrati
       s12: Per i recruiter
+      s16: Gruppi
+      s17: I miei gruppi
+      s18: Tutti i gruppi        
     recruiter_nav:
       s1: Pannello di controllo
       s2: Pagina dell'azienda
@@ -29,6 +32,9 @@ it:
       s10: Esci
       s11: Offerte di lavoro
       s12: Tutte le offerte di lavoro
+      s16: Gruppi
+      s17: I miei gruppi
+      s18: Tutti i gruppi          
     bottomfooter:
       s1: Home
       s2: Eventi

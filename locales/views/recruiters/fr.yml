@@ -81,3 +81,12 @@ fr:
     shared: 
       links: 
         s1: "Connectez-vous avec"
+    passwords: 
+      edit: 
+        s1: "Cambiar contraseña"
+        s2: "Nueva contraseña"
+        s3: "Confirmar nueva contraseña"
+        s4: "Actualizar contraseña"
+      new:
+        s1: Olvidó su contraseña?
+        s2: Enviar enlace para recuperar mi contraseña        

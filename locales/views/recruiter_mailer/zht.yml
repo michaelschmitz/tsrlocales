@@ -1,0 +1,10 @@
+zht: 
+  recruiter_mailer: 
+    application_email: 
+      s1: "Your job posting"
+      s2: "has just received a new application from"
+      s3: "Please find more details about the application on the website."
+      s10: "Kind regards"
+      s11: "Michael"
+  
+ 

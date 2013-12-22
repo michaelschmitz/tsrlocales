@@ -1,0 +1,18 @@
+de:
+  post:
+    attributes: &ATTRIBUTES
+      content: Inhalt
+      link: Link
+      image: Bild
+      headline: Überschrift
+      anonymous: Anonym
+  activerecord:
+    models:
+      post: 'Post'
+    attributes:
+      post:
+        <<: *ATTRIBUTES
+  simple_form:
+    labels:
+      post:
+        <<: *ATTRIBUTES   

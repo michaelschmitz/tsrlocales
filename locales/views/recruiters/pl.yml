@@ -93,3 +93,12 @@ pl:
         s1: Zapomniałeś hasła?
         s2: Nie otrzymałeś potwierdzania rejestracji?
         s3: Nie otrzymałeś instrukcji odblokowania?
+    passwords:
+      edit:
+        s1: "Zmień hasło"
+        s2: "Nowe hasło"
+        s3: "Potwierdź nowe hasło"
+        s4: "Zaktualizuj hasło"
+      new:
+        s1: Zapomniałeś hasła?
+        s2: Wyślij mi link do zresetowania hasła

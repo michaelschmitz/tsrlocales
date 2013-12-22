@@ -1,0 +1,10 @@
+pl:
+  posts:
+    index:
+      s1: "All discussions"
+      s2: "New post"
+      s3: "ago by"
+      s4: "comments"
+      s5: "Are you certain you want to delete this post?"
+    single_post:
+      s1: "Reply"

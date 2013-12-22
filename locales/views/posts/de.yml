@@ -1,0 +1,10 @@
+de:
+  posts:
+    index:
+      s1: "Alle Diskussionen"
+      s2: "Neue Diskussion"
+      s3: " zuvor von"
+      s4: "Kommentare"
+      s5: "Löschen?"
+    single_post:
+      s1: "Antworten"

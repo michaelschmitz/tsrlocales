@@ -95,3 +95,12 @@ en:
         s1: Forgot your password?
         s2: "Didn't receive confirmation instructions?"
         s3: "Didn't receive unlock instructions?"
+    passwords:
+      edit:
+        s1: "Change your password"
+        s2: "New password"
+        s3: "Confirm the new password"
+        s4: "Update your password"
+      new:
+        s1: Forgot your password?
+        s2: Send me a link to reset my password        

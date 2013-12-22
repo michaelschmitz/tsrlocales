@@ -1,0 +1,32 @@
+pt:
+  groups:
+    index:
+      s1: Os meus grupos
+      s2: Criar um novo grupo
+      s3: Membros
+      s4: Requer aprovação
+      s5: Público
+    search:
+      s1: Todos os grupos
+      s2: Criar um novo grupo
+      s3: Membros
+      s4: Requer aprovação
+      s5: Público
+    form:
+      s1: Requer aprovação
+      s2: Público
+    show:
+      s1: Membros pendentes de aprovação
+      s2: No outstanding applications from new group members.      
+      s3: Membros
+    group_header:
+      s1: Membros
+      s2: Requer aprovação
+      s3: Público
+      s4: Grupo criado por    
+    member:
+      s1: Anónimo   
+    new:
+      s1: Novo grupo
+    edit:
+      s1: Editar grupo   
