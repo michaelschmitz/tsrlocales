@@ -1,10 +1,10 @@
 pt:
   posts:
     index:
-      s1: "All discussions"
-      s2: "New post"
-      s3: "ago by"
-      s4: "comments"
-      s5: "Are you certain you want to delete this post?"
+      s1: "Todas as discussões"
+      s2: "Novo post"
+      s3: "atrás por"
+      s4: "comentários"
+      s5: "Tens certeza de que pretendes apagar este post?"
     single_post:
-      s1: "Reply"
+      s1: "Responder"
