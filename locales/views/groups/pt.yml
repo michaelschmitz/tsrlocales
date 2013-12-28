@@ -17,7 +17,7 @@ pt:
       s2: Público
     show:
       s1: Membros pendentes de aprovação
-      s2: No outstanding applications from new group members.      
+      s2: Nenhum membro pendente de aprovação      
       s3: Membros
     group_header:
       s1: Membros
