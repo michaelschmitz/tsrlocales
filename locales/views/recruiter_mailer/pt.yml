@@ -1,7 +1,7 @@
 pt: 
   recruiter_mailer: 
     application_email: 
-      subject1: "candidatou-se para"
+      subject1: "candidatou-se à oferta de"
       s1: "A sua oferta de emprego"
       s2: "recebeu uma nova candidatura de"
       s3: "Encontre mais detalhes sobre esta candidatura na nossa página."
