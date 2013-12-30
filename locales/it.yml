@@ -36,6 +36,7 @@ it:
     yes: "Si"
     no: "No"
     na: "Non disponibile"
+    remove: "Rimuovi"
     search: Cerca
     details: "Dettagli"
     close: "Chiudi"
@@ -45,6 +46,7 @@ it:
     cancel: "Cancella"
     customize_settings_link: Personalizza i messaggi che vuoi ricevere
     edit_privacy_link: Modifica le impostazioni sulla privacy
+    confirm_membership: "Conferma membership"
     jobs_link: Offerte di lavoro
     advice_link: Consigli
     hi: Ciao
