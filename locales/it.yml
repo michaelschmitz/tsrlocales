@@ -44,6 +44,7 @@ it:
     save: "Salva"
     edit: "Modifica"
     cancel: "Cancella"
+    join: "Unisciti al gruppo"
     customize_settings_link: Personalizza i messaggi che vuoi ricevere
     edit_privacy_link: Modifica le impostazioni sulla privacy
     confirm_membership: "Conferma membership"
