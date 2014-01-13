@@ -4,6 +4,8 @@ it:
         s1: "Carica una foto del profilo"
         s10: "Hai esperienze lavorative?"
         s11: "Aggiungi i tuoi datori di lavoro preferiti"
+        s11a: "Importa il tuo profilo"
+        s11b: "Importa da"        
         s12: "Completamento del profilo"
         s13: "Aggiungi una competenza"
         s2: "Aggiungi informazioni sui tuoi titoli di studio"
