@@ -1,0 +1,32 @@
+it:
+  groups:
+    index:
+      s1: I miei gruppi
+      s2: Crea un nuovo gruppo
+      s3: Membri
+      s4: Chiuso
+      s5: Aperto
+    search:
+      s1: Tutti i gruppi
+      s2: Crea un nuovo gruppo
+      s3: Membri
+      s4: Chiuso
+      s5: Aperto
+    form:
+      s1: Chiuso
+      s2: Aperto
+    show:
+      s1: Membri in sospeso
+      s2: Nessuna candidatura presente da parte dei nuovi memebri del gruppo.
+      s3: Membri
+    group_header:
+      s1: Membri
+      s2: Chiuso
+      s3: Aperto
+      s4: Gruppo creato da
+    member:
+      s1: Anonimo
+    new:
+      s1: Nuovo gruppo
+    edit:
+      s1: Modifica gruppo 
