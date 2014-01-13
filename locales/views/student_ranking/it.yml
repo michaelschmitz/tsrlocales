@@ -33,6 +33,8 @@ it:
       s15: Confronta con il tuo CV
       s16: Segnala
       s17: Segnalazione ricevuta
+      s18: Richiesta inviata
+      s19: Segnala utente inappropriato
     public_recommendations:
       s1: Raccomandazioni
       s2: Non ci sono raccomandazioni.
