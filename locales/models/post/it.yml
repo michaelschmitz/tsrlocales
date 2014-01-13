@@ -1,11 +1,11 @@
-en:
+it:
   post:
     attributes: &ATTRIBUTES
-      content: Content
+      content: Contenuto
       link: Link
-      image: Image
-      headline: Headline
-      anonymous: Anonymous
+      image: Immagine
+      headline: Titolo
+      anonymous: Anonimo
   activerecord:
     models:
       post: 'Post'
